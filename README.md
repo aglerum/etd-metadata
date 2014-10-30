@@ -34,7 +34,7 @@ This repository contains modular XML/XSLT/XProc/XQuery files for repurposing ETD
 * names.xsl
 * subtitle.xsl
 
-#### Tables folder
+### Tables folder
 
 * caps.xml
 * degrees.xml
