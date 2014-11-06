@@ -52,8 +52,8 @@ This repository contains modular XML/XSLT/XProc/XQuery files for generating ETD 
 #### Example source files
 * pdf2xml-2014Sp.xml
 * pdf2xml-2014Su.xml
-* source-pdfdata-2014Sp.xm
-* source-pdfdata-2014Su.xm
+* source-pdfdata-2014Sp.xml
+* source-pdfdata-2014Su.xml
 * source-proquest-2014Sp.xml
 * source-proquest-2014Su.xml
 
