@@ -83,6 +83,7 @@ utilities | [any trans4Excel result] | XML2Excel.xsl | trans2Excel-result.xml |
 Modular transformations
 -----------------------
 Directory | Transformation | Included in
+--- |--- | ---
 modules | caps.xsl | reformat2source.xsl, trans2bepress.xsl, & trans2marc.xsl] |
 modules | functions.xsl | reformat2source.xsl, trans2bepress.xsl, & trans2marc.xsl] |
 modules | names.xsl | trans2marc.xsl] |
@@ -91,6 +92,7 @@ modules | subtitle.xsl | trans2marc.xsl] |
 Tables
 ------
 Directory | Table | Referred by
+--- |--- | ---
 modules/tables | caps.xml | caps.xsl  |
 modules/tables | characters.xml | functions/fs:entity2html |
 modules/tables | degrees.xml | trans2bepress.xsl & trans2marc.xsl |
