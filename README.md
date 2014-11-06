@@ -101,8 +101,8 @@ modules/tables | caps.xml | caps.xsl  |
 modules/tables | characters.xml | functions/fs:entity2html |
 modules/tables | degrees.xml | trans2bepress.xsl & trans2marc.xsl |
 modules/tables | dept.xml | trans2bepress.xsl & trans2marc.xsl |
-modules/tables | lang.xml| trans2bepress.xsl & trans2marc.xsl |
-modules/tables | subjects.xml | trans2bepress.xsl & trans2marc.xsl |
+modules/tables | lang.xml| trans2marc.xsl |
+modules/tables | subjects.xml | trans2marc.xsl |
  
 
 
