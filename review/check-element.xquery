@@ -9,10 +9,8 @@ Use these patterns to check individual elements in the source-pdfdata.xml file.
 declare boundary-space preserve;
   
 <records>{
-for $records in records/record return
+for $record in records/record return
     <record>{
-for $record in $records 
-let $record := $records/record
 let $title := $record/title
 (: Create other variables as needed :)
 (:
