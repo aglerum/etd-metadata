@@ -55,7 +55,7 @@ Title: Pipeline for reformatting PDF to XML data
         </p:input>
     </p:xslt>
 
-    <p:store indent="true" href="pdf-xml/reformat-pdf2xml-result.xml"/>
+    <p:store indent="true" href="pdfdata/reformat-pdf2xml-result.xml"/>
     
     <p:xslt name="process2">
         <p:input port="source">
@@ -69,7 +69,7 @@ Title: Pipeline for reformatting PDF to XML data
         </p:input>
     </p:xslt>
 
-    <p:store indent="true" href="pdf-xml/reformat-cleanup1-result.xml"/>
+    <p:store indent="true" href="pdfdata/reformat-cleanup1-result.xml"/>
 
     <p:xslt name="process3">
         <p:input port="source">
@@ -83,7 +83,7 @@ Title: Pipeline for reformatting PDF to XML data
         </p:input>
     </p:xslt>
 
-    <p:store indent="true" href="pdf-xml/reformat-cleanup2-result.xml"/>
+    <p:store indent="true" href="pdfdata/reformat-cleanup2-result.xml"/>
 
     <p:xslt name="process4">
         <p:input port="source">
@@ -97,7 +97,7 @@ Title: Pipeline for reformatting PDF to XML data
         </p:input>
     </p:xslt>
 
-    <p:store indent="true" href="pdf-xml/reformat-cleanup3-result.xml"/>
+    <p:store indent="true" href="pdfdata/reformat-cleanup3-result.xml"/>
 
     <p:xslt name="process5">
         <p:input port="source">
