@@ -27,7 +27,7 @@ Title: Pipeline for reformatting PDF to XML data
     1. Convert pages 1-2 of PDFs to XML. Save result as pdf2xml-YYYYAa.xml where YYYY is the year and Aa is the semester abbreviation. Example: pdf2xml-2014Sp.xml. 
     2. Configure an XProc transformation in oXygen with pdf2xml-YYYYAa.xml as Input and reformat2source-result.xml as Output.
     3. Run the XProc transformation.
-    4. Review the output file then modify s step's xslt or manually correct the original pdf2xml xml file as appropriate.
+    4. Review the output file then modify each step's xslt or manually correct the original pdf2xml xml file as appropriate.
         - If the output file has less than the original number of records (i.e. the number of <lines> should equal the number of <records>), review each step's result to identify the missing record(s). 
         - If the output file has missing elements or missing or incorrect data, review each step's result to identify which record(s) has these issues.
         - Check for capitalization errors. Add terms to caps.xml if appropriate.
