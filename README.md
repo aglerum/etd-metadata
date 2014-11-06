@@ -16,10 +16,10 @@ This repository contains modular XML/XSLT/XProc/XQuery files for generating ETD 
 * pdfdata-processes.xpl
 
 #### PDFdata processes
-* reformat-pdfdata.xsl
-* pdfdata-cleanup1.xsl
-* pdfdata-cleanup2.xsl
-* pdfdata-cleanup3.xsl
+* reformat-pdf2xml.xsl
+* reformat-cleanup1.xsl
+* reformat-cleanup2.xsl
+* reformat-cleanup3.xsl
 * reformat2source.xsl
 
 #### Review queries
@@ -43,15 +43,19 @@ This repository contains modular XML/XSLT/XProc/XQuery files for generating ETD 
 
 #### Tables
 * caps.xml
+* characters.xml
 * degrees.xml
 * dept.xml
 * lang.xml
 * subjects.xml
 
 #### Example source files
-* pdfdata.xml
-* source-pdfdata.xml
-* source-proquest.xml
+* pdf2xml-2014Sp.xml
+* pdf2xml-2014Su.xml
+* source-pdfdata-2014Sp.xm
+* source-pdfdata-2014Su.xm
+* source-proquest-2014Sp.xml
+* source-proquest-2014Su.xml
 
 #### Schemas
 * document-import.xsd
