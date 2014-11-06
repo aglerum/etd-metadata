@@ -1,7 +1,9 @@
 etd-metadata
 ============
 
-This repository contains modular XML/XSLT/XProc/XQuery files for generating ETD metadata
+This repository contains modular XML/XSLT/XProc/XQuery files for generating ETD metadata.
+
+Procedural documentation coming soon. Refer to the directory and file structure tables to set up transformation configurations in oXygen. See comments in pdfdata-processes.xpl.
 
 ## Included files:
 
