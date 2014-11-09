@@ -31,7 +31,7 @@ Title: Pipeline for reformatting PDF to XML data
         - If the output file has less than the original number of records (i.e. the number of <lines> should equal the number of <records>), review each step's result to identify the missing record(s). 
         - If the output file has missing elements or missing or incorrect data, review each step's result to identify which record(s) has these issues.
         - Check for capitalization errors. Add terms to caps.xml if appropriate.
-    5. Resave the corrected output file as source-pdfdata-YYYAa.xml.
+    5. Resave the corrected output file as source-pdfdata-YYYYAa.xml.
 -->
 
 
