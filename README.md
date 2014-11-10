@@ -63,6 +63,10 @@ Procedural documentation is found in the wiki. Refer to the directory and file s
 * document-import.xsd
 * proquest.dtd
 
+#### JavaScript 
+* extractPages.js
+* pdf2xml.js
+
 
 Directories and file structure
 ===============================
