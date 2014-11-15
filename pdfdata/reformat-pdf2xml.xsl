@@ -28,9 +28,10 @@
                     <xsl:value-of select="position()"/>
                 </position> 
                     <xsl:for-each select="./*[position() gt 1]">
-                    <xsl:for-each select=".//text()">
-                            <line><xsl:value-of select="normalize-space(.)"/></line>
-                    </xsl:for-each> </xsl:for-each>                                                                                                        
+                        <xsl:for-each select=".//text()">
+                                <line><xsl:value-of select="normalize-space(.)"/></line>
+                        </xsl:for-each> 
+                    </xsl:for-each>                                                                                                        
                  </lines>
             </xsl:for-each>
         </xml>
