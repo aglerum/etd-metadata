@@ -15,7 +15,7 @@
             <xd:p><xd:b>Author: </xd:b>Annie Glerum</xd:p>
             <xd:p><xd:b>Organization: </xd:b>Florida State University</xd:p>
             <xd:p><xd:b>Title: </xd:b>Reformat PDF to XML</xd:p>
-            <xd:p><xd:b>Title: </xd:b>Template to reformat the result of Acrobat Action Wizard's
+            <xd:p><xd:b></xd:b>Template to reformat the result of Acrobat Action Wizard's
                 "pdf2xml" for extracted PDF pages 1-2.</xd:p>
         </xd:desc>
     </xd:doc>
