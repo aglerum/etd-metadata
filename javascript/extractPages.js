@@ -3,7 +3,7 @@
 // 2. Start with: [the folder where the source PDFs are]
 // 3. Steps: Execute JavaScript. Enter this script into Options 
 
-var filename = this.documentFileName.split(".").shift()+"_pdfdata.pdf";
+var filename = this.documentFileName.split(".").shift()+"_pages1-2.pdf";
         this.extractPages
          ({
             nStart: 0,
