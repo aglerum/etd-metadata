@@ -3,7 +3,7 @@
 // 2. Start with: [the folder where the source PDFs are]
 // 3. Steps: Execute JavaScript. Enter this script into Options 
 
-var filename = this.documentFileName + ".xml";
+var filename = this.documentFileName.split(".").shift()+"_pdfdata.xml";
 this.saveAs(filename, "com.adobe.acrobat.xml-1-00");
 
 // 4. Save to: Don’t Save Changes.
