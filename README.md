@@ -1,4 +1,4 @@
-etd-metadata--Historical
+etd-metadata--Historical Branch
 ============
 
 This repository contains modular XML/XSLT/XProc/XQuery files for generating ETD metadata.
