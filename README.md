@@ -1,4 +1,6 @@
-etd-metadata--Historical Branch
+NOTICE! This repository is in the process of being updated. Please return after June 7, 2016.
+
+etd-metadata
 ============
 
 This repository contains modular XML/XSLT/XProc/XQuery files for generating ETD metadata.
@@ -11,18 +13,16 @@ Procedural documentation is found in the wiki. Refer to the directory and file s
 * README.md
 
 #### Final transformations
-* trans2bepress.xsl
-* trans2marc.xsl [coming soon!]
+* proquest2bepress.xsl
+* bepress2mods.xsl
+* proquest2mods.xsl [coming soon!]
+* proquest2marc.xsl [coming soon!]
 
 #### XProc
 * pdfdata-processes.xpl
 
 #### PDFdata processes
-* reformat-pdf2xml.xsl
-* reformat-cleanup1.xsl
-* reformat-cleanup2.xsl
-* reformat-cleanup3.xsl
-* reformat2source.xsl
+
 
 #### Review queries
 * check-line.xquery
@@ -39,15 +39,18 @@ Procedural documentation is found in the wiki. Refer to the directory and file s
 
 #### Modules
 * caps.xsl
+* disciplines.xsl
 * functions.xsl
-* names.xsl
-* subtitle.xsl
+* namesBepress.xsl
+* namesMODS.xsl
+* titleMODS.xsl
 
 #### Tables
 * caps.xml
 * characters.xml
 * degrees.xml
 * dept.xml
+* disciplines.xml
 * lang.xml
 * subjects.xml
 
@@ -66,6 +69,7 @@ Procedural documentation is found in the wiki. Refer to the directory and file s
 #### JavaScript 
 * extractPages.js
 * pdf2xml.js
+* removePage.js
 
 
 Directories and file structure
