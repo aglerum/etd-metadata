@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  	<xsd:include schemaLocation="http://www.bepress.com/disciplines.xsd" />
+	<xsd:complexType name='excelStringType'>
+		<xsd:simpleContent>
+			<xsd:extension base='xsd:string'>
+				<xsd:attribute name='excelRow' type='xsd:integer' use='optional' />
+				<xsd:attribute name='excelCol' type='xsd:string' use='optional' />
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name='excelIntegerType'>
+		<xsd:simpleContent>
+			<xsd:extension base='xsd:integer'>
+				<xsd:attribute name='excelRow' type='xsd:integer' use='optional' />
+				<xsd:attribute name='excelCol' type='xsd:string' use='optional' />
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name='excelDecimalType'>
+		<xsd:simpleContent>
+			<xsd:extension base='xsd:decimal'>
+				<xsd:attribute name='excelRow' type='xsd:integer' use='optional' />
+				<xsd:attribute name='excelCol' type='xsd:string' use='optional' />
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name='excelBooleanType'>
+		<xsd:simpleContent>
+			<xsd:extension base='xsd:boolean'>
+				<xsd:attribute name='excelRow' type='xsd:integer' use='optional' />
+				<xsd:attribute name='excelCol' type='xsd:string' use='optional' />
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+
+	<xsd:complexType name='excelDateType'>
+		<xsd:simpleContent>
+			<xsd:extension base='xsd:date'>
+				<xsd:attribute name='excelRow' type='xsd:integer' use='optional' />
+				<xsd:attribute name='excelCol' type='xsd:string' use='optional' />
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+
+	<xsd:complexType name='excelDateTimeType'>
+		<xsd:simpleContent>
+			<xsd:extension base='xsd:dateTime'>
+				<xsd:attribute name='excelRow' type='xsd:integer' use='optional' />
+				<xsd:attribute name='excelCol' type='xsd:string' use='optional' />
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+
+	<xsd:complexType name='excelURIType'>
+		<xsd:simpleContent>
+			<xsd:extension base='xsd:anyURI'>
+				<xsd:attribute name='excelRow' type='xsd:integer' use='optional' />
+				<xsd:attribute name='excelCol' type='xsd:string' use='optional' />
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+
+	<xsd:complexType name="HtmlMarkupType" mixed="true">
+      <xsd:choice minOccurs="0" maxOccurs="unbounded">
+	<xsd:element name="a">
+	  <xsd:complexType mixed='true'>
+	    <xsd:complexContent>
+	      <xsd:extension base="HtmlMarkupType">
+		<xsd:attribute name="href" type="xsd:anyURI" use="required"/>
+	      </xsd:extension>
+	    </xsd:complexContent>
+	  </xsd:complexType>
+	</xsd:element>
+	<xsd:element name="img">
+	  <xsd:complexType mixed='true'>
+	    <xsd:complexContent>
+	      <xsd:extension base="HtmlMarkupType">
+		<xsd:attribute name="src" type="xsd:anyURI" use="required"/>
+		<xsd:attribute name="alt" type="xsd:string" use="optional"/>
+	      </xsd:extension>
+	    </xsd:complexContent>
+	  </xsd:complexType>
+	</xsd:element>
+	<xsd:element name="p" type="HtmlMarkupType"/>
+	<xsd:element name="br">
+	  <xsd:complexType/>
+	</xsd:element>
+	<xsd:element name="b" type="HtmlMarkupType"/>
+	<xsd:element name="i" type="HtmlMarkupType"/>
+	<xsd:element name="sub" type="HtmlMarkupType"/>
+	<xsd:element name="sup" type="HtmlMarkupType"/>
+	<xsd:element name="u" type="HtmlMarkupType"/>
+	<xsd:element name="em" type="HtmlMarkupType"/>
+	<xsd:element name="strong" type="HtmlMarkupType"/>
+      </xsd:choice>
+    </xsd:complexType>
+
+	<xsd:complexType name='excelHtmlMarkupType'>
+		<xsd:complexContent mixed='true' >
+			<xsd:extension base='HtmlMarkupType'>
+					<xsd:attribute name='excelRow' type='xsd:integer' use='optional' />
+					<xsd:attribute name='excelCol' type='xsd:string' use='optional' />
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+
+    <xsd:complexType name="AuthorName">
+      <xsd:sequence>
+	<!-- email is mandatory for some publications, depending upon publication settings. -->
+	<xsd:element name="email" type="excelStringType" minOccurs="0" maxOccurs="1"/>
+	<xsd:element name="institution" type="excelStringType" minOccurs="0" maxOccurs="1"/>
+      </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="individual">
+      <xsd:complexContent>
+	<xsd:extension base="AuthorName">
+	  <xsd:sequence>
+	    <xsd:element name="lname" type="excelStringType"/>
+	    <xsd:element name="fname" type="excelStringType" minOccurs="0" maxOccurs="1"/>
+	    <xsd:element name="mname" type="excelStringType" minOccurs="0" maxOccurs="1"/>
+	    <xsd:element name="suffix" type="excelStringType" minOccurs="0" maxOccurs="1"/>
+	    
+	    <!-- _author_num is for internal bepress use only -->
+	    <xsd:element name="_author_num" type="excelIntegerType" minOccurs="0" maxOccurs="1" />
+	    
+	  </xsd:sequence>
+	</xsd:extension>
+      </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="corporate">
+      <xsd:complexContent>
+	<xsd:extension base="AuthorName">
+	  <xsd:sequence>
+	    <xsd:element name="name" type="excelStringType"/>
+	    
+	    <!-- _author_num is for internal bepress use only -->
+	    <xsd:element name="_author_num" type="excelIntegerType" minOccurs="0" maxOccurs="1" />
+	    
+	  </xsd:sequence>
+	</xsd:extension>
+      </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:element name="documents">
+      <xsd:complexType>
+	<xsd:sequence>
+	  <xsd:element name="document" minOccurs="0" maxOccurs="unbounded">
+	    <xsd:complexType>
+	      <xsd:sequence>
+	      
+		    		<!-- WARNING: do NOT set is_batch_revise; it is for internal use only -->
+	    <xsd:element name="is_batch_revise" type="excelBooleanType" minOccurs="0" maxOccurs="1" />
+	    
+	    <xsd:element name="context_key" type="excelIntegerType" minOccurs="0" maxOccurs="1" />
+	    <xsd:element name="issue" type="excelStringType" minOccurs="0" maxOccurs="1" />
+	    <xsd:element name="ctmtime" type="excelIntegerType" minOccurs="0" maxOccurs="1" />
+		<xsd:element name="title" type="excelStringType"/>
+		<xsd:element name="publication-date" minOccurs="0" maxOccurs="1" type="excelDateType"/>
+		<xsd:element name="season" minOccurs="0" maxOccurs="1" type="excelStringType" />
+		<xsd:element name="publication_date_date_format" minOccurs="0" maxOccurs="1" type="excelStringType" />
+		<xsd:element name="authors" minOccurs="0" maxOccurs="1">
+		  <xsd:complexType>
+		    <xsd:sequence>
+		      <xsd:element name="author" minOccurs="0" maxOccurs="unbounded" type='AuthorName' />
+		    </xsd:sequence>
+		  </xsd:complexType>
+		</xsd:element>
+
+		<xsd:element name="disciplines" minOccurs="0" maxOccurs="1">
+		  <xsd:complexType>
+		    <xsd:sequence>
+		      <xsd:element name="discipline" minOccurs="0" maxOccurs="unbounded" type='excelDisciplineType' />
+		    </xsd:sequence>
+		  </xsd:complexType>
+		</xsd:element>
+
+		<xsd:element name="subject-areas" minOccurs="0" maxOccurs="1">
+		  <xsd:complexType>
+		    <xsd:sequence>
+		      <xsd:element name="subject-area" minOccurs="0" maxOccurs="unbounded" type="excelStringType"/>
+		    </xsd:sequence>
+		  </xsd:complexType>
+		</xsd:element>
+		<xsd:element name="keywords" minOccurs="0" maxOccurs="1">
+		  <xsd:complexType>
+		    <xsd:sequence>
+		      <xsd:element name="keyword" minOccurs="0" maxOccurs="unbounded" type="excelStringType"/>
+		    </xsd:sequence>
+		  </xsd:complexType>
+		</xsd:element>
+		<xsd:element name="advisors" minOccurs="0" maxOccurs="1">
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name="advisor" minOccurs="0" maxOccurs="3" type="excelStringType" />
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+		<xsd:element name="contributors" minOccurs="0" maxOccurs="1">
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name="contributor" minOccurs="0" maxOccurs="2" type="excelStringType" />
+					<xsd:element name="contributor_role" minOccurs="0" maxOccurs="2" type="excelStringType" />
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+
+		<!-- the abstract is essentially a chunk of XHTML within the import document -->
+		<xsd:element name="abstract" minOccurs="0" maxOccurs="1" type='excelHtmlMarkupType'/>
+		<xsd:element name="comments" minOccurs="0" maxOccurs="1" type='excelHtmlMarkupType'/>
+		<xsd:element name="fpage" minOccurs="0" maxOccurs="1" type="xsd:positiveInteger"/>
+		<xsd:element name="lpage" minOccurs="0" maxOccurs="1" type="xsd:positiveInteger"/>
+
+		<!-- coverpage-url is only used when exporting data -->
+		<xsd:element name="coverpage-url" type="excelURIType" minOccurs="0" maxOccurs="1"/>
+		<xsd:element name="fulltext-url" type="excelURIType" minOccurs="0" maxOccurs="1"/>
+		<!-- label is often referred to as "report number" or just "number"; it is the string used in creating the url of this document	-->
+		<xsd:element name="label" minOccurs="0" maxOccurs="1" type="excelStringType"/>
+		<xsd:element name="document-type" minOccurs="0" maxOccurs="1" type="excelStringType"/>
+		<!-- use type (rather than document-type) only when uploading to a series/issue that supports multiple articles types -->
+			
+		<xsd:element name="type" minOccurs="0" maxOccurs="1" type="excelStringType"/>
+		<!-- 	The optional issue element let's you specify the url of the target issue to override the one 
+			selected in the UI; this lets you use one import file to import into multiple issues.	
+		-->
+		<xsd:element name="issue" minOccurs="0" maxOccurs="1" type="excelStringType"/>
+
+		<!-- custom_1 and custom_2 are deprecated and used only in older articles -->
+		<xsd:element name="custom_1" minOccurs="0" maxOccurs="1" type="excelStringType"/>
+		<xsd:element name="custom_2" minOccurs="0" maxOccurs="1" type="excelStringType"/>
+
+		<!-- articleid is used to support internal import/export -->
+		<xsd:element name="articleid" minOccurs="0" maxOccurs="1" type="xsd:positiveInteger"/>
+		<xsd:element name="start_date" minOccurs="0" maxOccurs="1" type="excelDateTimeType" />
+		<xsd:element name="end_date" minOccurs="0" maxOccurs="1" type="excelDateTimeType" />
+		<xsd:element name="degree_name" minOccurs="0" maxOccurs="1" type="excelStringType" />
+		<xsd:element name="degree_type" minOccurs="0" maxOccurs="1" type="excelStringType" />
+		<xsd:element name="department" minOccurs="0" maxOccurs="1" type="excelStringType" />
+		<xsd:element name="abstract_format" minOccurs="0" maxOccurs="1" type="excelStringType" />
+		<xsd:element name="audience" minOccurs="0" maxOccurs="1" type="excelStringType" />
+		<xsd:element name="coverage_type" minOccurs="0" maxOccurs="1" type="excelStringType" />
+		<xsd:element name="coverage" minOccurs="0" maxOccurs="1" type="excelStringType" />
+		<xsd:element name="format_type" minOccurs="0" maxOccurs="1" type="excelStringType" />
+		<xsd:element name="format" minOccurs="0" maxOccurs="1" type="excelStringType" />
+		<xsd:element name="identifier_type" minOccurs="0" maxOccurs="1" type="excelStringType" />
+		<xsd:element name="identifier" minOccurs="0" maxOccurs="1" type="excelStringType" />
+		<xsd:element name="relation_type" minOccurs="0" maxOccurs="1" type="excelStringType" />
+		<xsd:element name="relation" minOccurs="0" maxOccurs="1" type="excelStringType" />
+		<xsd:element name="source_type" minOccurs="0" maxOccurs="1" type="excelStringType" />
+		<xsd:element name="source" minOccurs="0" maxOccurs="1" type="excelStringType" />
+
+		<xsd:element name="latitude" minOccurs="0" maxOccurs="1" type="excelDecimalType" />
+		<xsd:element name="longitude" minOccurs="0" maxOccurs="1" type="excelDecimalType" />
+		
+		<xsd:element name="fields" minOccurs="0" maxOccurs="1">
+		  <xsd:complexType>
+		    <xsd:sequence>
+		      <xsd:element name="field" minOccurs="0" maxOccurs="unbounded">
+			<xsd:complexType mixed="true">
+		    	  <xsd:sequence>
+		      	    <xsd:element name="value" minOccurs="1" maxOccurs="unbounded" type="excelStringType"/>
+		    	  </xsd:sequence>
+			  <xsd:attribute name="name" type="xsd:string" use="required"/>
+			  <xsd:attribute name="type" use="required">
+			    <xsd:simpleType>
+			      <xsd:restriction base="xsd:string">
+				<xsd:enumeration value="boolean"/>
+				<xsd:enumeration value="date"/>
+				<xsd:enumeration value="number"/>
+				<xsd:enumeration value="string"/>
+			      </xsd:restriction>
+			    </xsd:simpleType>
+			  </xsd:attribute>
+			  <xsd:attribute name="list" type="xsd:boolean" use="optional"/>
+			</xsd:complexType>
+		      </xsd:element>
+		    </xsd:sequence>
+		  </xsd:complexType>
+		</xsd:element>
+
+	      </xsd:sequence>
+	    </xsd:complexType>
+	  </xsd:element>
+	</xsd:sequence>
+	<xsd:attribute name='version' type='xsd:decimal'/>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
