@@ -1,172 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mods="http://www.loc.gov/mods-v3"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs" version="2.0">
+    
+    <!-- Configure the transformation with dummy.xml as source and nothing selected in the output tab.
+            The path of files to be combined changes with each batch.
+                In Windows, use this: file:///c:/Users/
+                In OSX, use this: /Users/       
+                Example:
+                <xsl:copy-of
+                    select="document('file:///g:/CS/TechResources/Bepress-migration/Source_Data/etds/bepress_metadata/unsup-etd_metadata/bepress_UTF8/bepress_all_uft8/etd-0994.metadata.xml')"/>
+        --> 
 
     <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
     <xsl:strip-space elements="*"/>
-
-    <xsl:template match="/">
-        <!-- Configure the transformation with dummy.xml as source and nothing selected in the output tab.
-            The path of files to be combined changes with each batch.
-                In Windows, use this: file:///c:/Users/
-                In OSX, use this: /Users/          
-        -->       
-        <xsl:result-document href="combine_proquest_2014_Fa.xml">    
-        <xml>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Adams_fsu_0071E_12230_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/AlAni_fsu_0071E_12255_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Albers_fsu_0071E_12278_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Alemanne_fsu_0071E_12229_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/AlvarezAlvarado_fsu_0071N_12313_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Aponte_fsu_0071N_12337_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Arakelian_fsu_0071E_12254_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Avery_fsu_0071N_12336_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Balcer_fsu_0071N_12342_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Bamford_fsu_0071E_12227_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Banks_fsu_0071E_12253_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Bassetti_fsu_0071E_12205_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Behr_fsu_0071E_12240_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Bell_fsu_0071N_12323_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Benoit_fsu_0071N_12316_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Bergstrom_fsu_0071N_12321_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Billings_fsu_0071E_12300_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Blankenship_fsu_0071E_12238_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Boche_fsu_0071E_12214_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Boehner_fsu_0071N_12267_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Bonds_fsu_0071E_12354_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Bowler_fsu_0071E_12248_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Brantley_fsu_0071E_12314_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Brinkerhoff_fsu_0071E_12181_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Britton_fsu_0071E_12216_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Brock_fsu_0071E_12215_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Cabrera_fsu_0071E_12273_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Cao_fsu_0071E_12187_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Cengelcik_fsu_0071N_12333_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Chakraborty_fsu_0071E_12294_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Chen_fsu_0071E_12188_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Chen_fsu_0071E_12276_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Cheung_fsu_0071N_12303_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Christian_fsu_0071E_12209_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Collins_fsu_0071E_12243_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Comellas_fsu_0071N_12298_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Coulter_fsu_0071N_12329_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Coveleski_fsu_0071E_12160_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Craig_fsu_0071E_12237_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Dai_fsu_0071E_12284_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Davis_fsu_0071E_12239_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Dobersek_fsu_0071E_12191_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Duncan_fsu_0071E_12211_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Edmonds_fsu_0071E_11730_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Enlow_fsu_0071E_12189_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Evans_fsu_0071N_12325_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Farmer_fsu_0071E_12250_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Fernandez_fsu_0071E_12179_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Frausto_fsu_0071E_12183_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Gepner_fsu_0071E_12252_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Glazer_fsu_0071N_12308_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Gold_fsu_0071E_12234_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Gough_fsu_0071E_12192_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Grant_fsu_0071E_12206_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Grass_fsu_0071E_11832_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Grinath_fsu_0071E_12231_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/HAN_fsu_0071E_12150_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Hariri_fsu_0071E_12264_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Henning_fsu_0071E_12164_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Hiatt_fsu_0071N_12185_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Higgs_fsu_0071N_12324_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Huard_fsu_0071E_12204_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Hurst_fsu_0071N_11586_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Hussein_fsu_0071N_12338_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Jakiel_fsu_0071N_12305_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Jaroszynski_fsu_0071E_12196_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Ji_fsu_0071N_12266_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Johnson_fsu_0071N_12339_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Kachouee_fsu_0071E_12297_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Kang_fsu_0071E_12174_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Kent_fsu_0071E_12265_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Kim_fsu_0071E_12195_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Kim_fsu_0071E_12242_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Kim_fsu_0071E_12247_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Kiswandhi_fsu_0071E_12296_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Kothur_fsu_0071N_12226_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Kwapich_fsu_0071E_12184_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/LaCosse_fsu_0071N_12327_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Lee_fsu_0071E_12299_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Leonard_fsu_0071E_12178_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Leonard_fsu_0071E_12201_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Lindahl_fsu_0071N_12315_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Loney_fsu_0071E_12218_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Longo_fsu_0071E_12292_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Lovich_fsu_0071E_12281_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Lundberg_fsu_0071N_12154_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Martin_fsu_0071E_12200_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Martinez_fsu_0071E_12295_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/McAllister_fsu_0071E_12203_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/McLeod_fsu_0071E_12219_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Meng_fsu_0071E_11990_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Mink_fsu_0071E_12217_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Moffitt_fsu_0071E_12228_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/MoonJr_fsu_0071E_11833_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Na_fsu_0071N_12319_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Nguyen_fsu_0071N_12220_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Odria_fsu_0071E_12223_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Ouma_fsu_0071E_12208_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Park_fsu_0071E_12222_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/ParuthyvalappilAlduse_fsu_0071E_12260_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Patel_fsu_0071N_11715_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Peliska_fsu_0071E_12282_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Peterson_fsu_0071E_12244_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Peterson_fsu_0071N_12148_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Petren_fsu_0071E_12175_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Phan_fsu_0071E_12269_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Prempas_fsu_0071E_12270_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Qin_fsu_0071E_12194_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Ren_fsu_0071N_12224_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Rivard_fsu_0071N_12037_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Ro_fsu_0071E_12202_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Robison_fsu_0071E_12268_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Rogers_fsu_0071N_12311_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Ruggiero_fsu_0071E_12212_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Sakharova_fsu_0071N_12357_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Salmani_fsu_0071E_12182_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Sebeny_fsu_0071N_12332_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Sejas_fsu_0071E_12277_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Sengul_fsu_0071E_12236_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Simmons_fsu_0071E_12190_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Smith_fsu_0071N_12335_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Smithyman_fsu_0071E_12291_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Snead_fsu_0071E_12104_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Speransky_fsu_0071N_12310_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Stegall_fsu_0071E_12245_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Strickland_fsu_0071N_12163_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Strickland_fsu_0071N_12330_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Sun_fsu_0071N_12235_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Szewczyk_fsu_0071E_12258_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Szymanski_fsu_0071E_12176_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Taligoski_fsu_0071N_12344_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Tani_fsu_0071E_12289_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Taylor_fsu_0071E_12138_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Terrill_fsu_0071N_12246_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Toole_fsu_0071E_12275_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Vera_fsu_0071E_12262_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Ware_fsu_0071E_12180_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Wei_fsu_0071E_12193_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Willett_fsu_0071E_12256_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Wu_fsu_0071E_12251_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Wu_fsu_0071N_12210_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Xu_fsu_0071N_12166_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Yan_fsu_0071N_12328_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Yan_fsu_0071N_12348_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Yang_fsu_0071E_12279_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Youm_fsu_0071E_12271_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Zhang_fsu_0071E_12259_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Zhang_fsu_0071E_12288_DATA.xml')"/>
-            <xsl:copy-of select="document('file:///g:/CS/TechResources/Complex Cataloging/ETDs/2014_Fall/DATA/Zorn_fsu_0071E_11988_DATA.xml')"/>
-            </xml>
-    </xsl:template>
-        </collection>
-        </xsl:result-document>
-    </xsl:template>
     
+    <xsl:template match="xml">
+        <xml>       
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Anaya_fsu_0071E_13600_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Anguelov_fsu_0071E_13532_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Balwada_fsu_0071E_13549_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Barnett_fsu_0071E_13688_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Barroso_fsu_0071N_13469_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Batsomboon_fsu_0071E_13613_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Beckwith_fsu_0071N_12986_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Benjamin_fsu_0071E_13618_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Billet_fsu_0071E_13563_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Boatman_fsu_0071E_13592_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Borden_fsu_0071E_13586_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Bowden_fsu_0071N_13560_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Boykins_fsu_0071E_13570_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Brailsford_fsu_0071E_13476_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Brewer_fsu_0071N_13652_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Brown_fsu_0071E_13594_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Buddenhagen_fsu_0071E_13553_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Bundy_fsu_0071E_13588_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Cable_fsu_0071N_13663_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Carmichael_fsu_0071E_13547_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Chan_fsu_0071E_13552_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Chen_fsu_0071E_13596_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Chipperfield_fsu_0071E_13615_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Chiu_fsu_0071E_13584_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Chiurliza_fsu_0071N_13522_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Chung_fsu_0071E_13597_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Clark_fsu_0071E_13504_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Conlon_fsu_0071N_13627_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Craft_fsu_0071N_13535_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Crouse_fsu_0071N_13568_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Cruz_fsu_0071N_13650_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/CuadraCardona_fsu_0071E_13494_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Cui_fsu_0071E_13537_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Das_fsu_0071E_13587_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Dial_fsu_0071E_13505_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Dick_fsu_0071E_13561_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Dong_fsu_0071E_13219_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Dossat_fsu_0071E_13578_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Edel_fsu_0071E_13539_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Ehtemami_fsu_0071N_13634_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Fenn_fsu_0071E_13617_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Ferdowsi_fsu_0071E_13548_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Garcia_fsu_0071E_13536_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Garrison_fsu_0071N_13502_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Gordon_fsu_0071E_13511_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Gu_fsu_0071E_13579_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Guan_fsu_0071E_13425_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Haemmelmann_fsu_0071E_13562_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Hamlin_fsu_0071N_13643_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Hartman_fsu_0071N_13642_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Harvey_fsu_0071N_13629_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Hendrickse_fsu_0071N_13460_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Hofler_fsu_0071N_13582_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Holbach_fsu_0071E_13475_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Horner_fsu_0071E_13593_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Huang_fsu_0071E_13659_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Huang_fsu_0071N_13513_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Hubley_fsu_0071E_13543_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Hwang_fsu_0071E_13440_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Hyde_fsu_0071N_13640_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Imran_fsu_0071E_13492_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Jacobs_fsu_0071N_13639_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Jerry_fsu_0071E_13623_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Kelly_fsu_0071E_13412_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Khazmutdinova_fsu_0071E_13545_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Kim_fsu_0071E_13529_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/KIM_fsu_0071E_13573_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Kim_fsu_0071E_13599_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/King_fsu_0071N_13651_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Kocyigit_fsu_0071E_13569_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Kreipke_fsu_0071E_13546_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Lee_fsu_0071E_13517_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Lee_fsu_0071N_13520_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Li_fsu_0071E_13616_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Lin_fsu_0071E_13564_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Little_fsu_0071E_13500_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Liu_fsu_0071E_13528_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Luke_fsu_0071E_13559_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Lyngaas_fsu_0071N_13512_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Macchiarella_fsu_0071E_13591_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Maczko_fsu_0071E_13612_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Marchand_fsu_0071E_13523_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Margres_fsu_0071E_13496_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Martinez_fsu_0071E_13576_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Matras_fsu_0071E_13550_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Maunula_fsu_0071E_13527_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Miao_fsu_0071N_13628_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Mills_fsu_0071E_13606_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Moore_fsu_0071E_13493_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Muddu_fsu_0071N_13633_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Mukherjee_fsu_0071E_13450_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Murphy_fsu_0071E_13518_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Nakouzi_fsu_0071E_13624_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Negley_fsu_0071E_13447_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Ngauja_fsu_0071N_13472_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Oliver_fsu_0071E_13521_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Olwi_fsu_0071E_13446_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Patel_fsu_0071N_13465_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Paulino_fsu_0071E_13514_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Peirce_fsu_0071N_13580_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/RamirezBullon_fsu_0071N_13551_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Ramp_fsu_0071E_13508_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Ratcliffe_fsu_0071N_13614_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Reinhardt_fsu_0071E_10751_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Roy_fsu_0071E_13542_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/SalimBakare_fsu_0071E_13621_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Sang_fsu_0071N_13655_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Scott_fsu_0071E_13530_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Shi_fsu_0071E_13449_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Shin_fsu_0071E_13583_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Short_fsu_0071N_13457_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Silver_fsu_0071E_13567_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/SIMSAR_fsu_0071E_13558_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Singletary_fsu_0071E_13495_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Smith_fsu_0071N_13626_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Sockwell_fsu_0071N_13577_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Song_fsu_0071E_13498_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Spiegel_fsu_0071N_13499_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Summerill_fsu_0071N_13636_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Tao_fsu_0071E_13544_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Taylor_fsu_0071E_13534_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Thomas_fsu_0071E_13538_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Towne_fsu_0071E_13619_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Tran_fsu_0071E_13515_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Trusty_fsu_0071E_13516_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Tsai_fsu_0071E_13533_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Utama_fsu_0071E_13557_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Venables_fsu_0071E_13525_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Wandell_fsu_0071E_13556_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Wang_fsu_0071E_13497_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Watson_fsu_0071E_13620_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Weedo_fsu_0071N_13638_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Wei_fsu_0071E_13585_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Wells_fsu_0071N_13649_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Wilson_fsu_0071E_13444_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Xia_fsu_0071E_13509_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Xiao_fsu_0071N_13631_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Xu_fsu_0071N_13637_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Yao_fsu_0071E_13605_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Yazbec_fsu_0071N_13590_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Youngblood_fsu_0071E_13524_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Zeoli_fsu_0071E_13456_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Zhang_fsu_0071E_13604_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Zhang_fsu_0071N_13669_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Zhou_fsu_0071E_13403_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Zhou_fsu_0071N_13603_DATA.xml')"/>
+            <xsl:copy-of select="document('file:///g:/CS/TechResources/ETDs/ProQuest files/2016_fall/DATA/Allison_fsu_0071N_13632_DATA.xml')"/>        
+        </xml>
+     
+    </xsl:template>   
+   
 </xsl:stylesheet>
