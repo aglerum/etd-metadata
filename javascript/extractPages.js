@@ -9,6 +9,6 @@ var filename = this.documentFileName.split(".").shift()+"_pages1-2.pdf";
             nStart: 0,
             nEnd: 1,
             cPath : filename
-        }); 
+        });
         
 // 4. Save to: Don’t Save Changes.
