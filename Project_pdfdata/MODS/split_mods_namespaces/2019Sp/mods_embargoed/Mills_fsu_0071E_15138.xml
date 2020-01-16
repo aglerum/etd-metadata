@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Towards Automating the Establishment and Evolution of Software Traceability</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Mills</mods:namePart>
+      <mods:namePart type="given">Chris (Christopher)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/shaiduc">
+      <mods:namePart type="family">Haiduc</mods:namePart>
+      <mods:namePart type="given">Sonia</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Professor Directing Dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no92016155">
+      <mods:namePart type="family">Blessing</mods:namePart>
+      <mods:namePart type="given">Susan K.</mods:namePart>
+      <mods:namePart type="termsOfAddress">1961-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">University Representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/schakraborty2">
+      <mods:namePart type="family">Chakraborty</mods:namePart>
+      <mods:namePart type="given">Shayok</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/zhao">
+      <mods:namePart type="family">Zhao</mods:namePart>
+      <mods:namePart type="given">Peixiang</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Computer Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (144 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Software systems contain an immense amount of information captured in a variety of documents such as source code files, user documentation, use and test cases, bug reports, and system requirements among others. Relationships between these pieces of information -- called traceability links -- provide stakeholders broader knowledge about a system's constituent pieces and support many aspects of the software's development, maintenance, and evolution. Ideally, traceability links would be documented as software artifacts are produced. For instance, as they work, developers would document which test cases exercise which code segments or which code classes implement which use cases. However, this is typically not the case. Due to organizational issues such as tight timelines for product delivery and lack of buy-in by project managers, software traceability is often a secondary concern. To address this situation and improve traceability for a system post hoc, stakeholders can perform Traceability Link Recovery (TLR). TLR is a software engineering task that fills in missing traceability information by establishing (i.e., recovering) links between related artifacts. Through this process, software traceability can be promoted to naturally support various tasks such as program comprehension, concept localization, verifying test coverage, and ensuring that system and legal requirements are met. Unfortunately, performing TLR manually is an extremely time and resource intensive task. Therefore, even though prior work suggests it directly improves software maintenance and evolution, few systems have sufficient traceability to realize these benefits. The few that do are mainly safety-critical and have tight regulatory requirements where traceability is legally required for quality assurance to mitigate risk. First, we seek to reduce the cost of establishing traceability links through TLR by improving automatic approaches to it based on artifact similarity. Second, we seek to reduce the cost of maintaining existing traceability information by applying supervised machine learning. This technique mines statistical patterns from historical traceability information to build a predictive model that infers artifact relationships without the need for a human operator. As a result, software teams are able to realize the hitherto cost prohibitive benefits of traceability even for projects where there is no legal requirement for traceability to exist.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Computer Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Spring Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 18, 2019.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Sonia Haiduc, Professor Directing Dissertation; Susan Blessing, University Representative; Shayok Chakraborty, Committee Member; Peixiang Zhao, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh89003285">
+      <mods:topic>Computer science</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Spring_Mills_fsu_0071E_15138</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Computer Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2019-10-14T16:36:31.241-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Hybrid Data Mining Models for Risk and Vulnerability Analysis of Traffic Safety</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Mafi</mods:namePart>
+      <mods:namePart type="given">Somayeh</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yabdelrazig">
+      <mods:namePart type="family">AbdelRazig</mods:namePart>
+      <mods:namePart type="given">Yassir</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Professor Directing Dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2013118586">
+      <mods:namePart type="family">Boot</mods:namePart>
+      <mods:namePart type="given">Walter Richard</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">University Representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2009109194">
+      <mods:namePart type="family">Ozguven</mods:namePart>
+      <mods:namePart type="given">Eren Erman</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2008010967">
+      <mods:namePart type="family">Spainhour</mods:namePart>
+      <mods:namePart type="given">Lisa</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Civil and Environmental Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (203 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>As the roadway networks have been developing gradually to improve transportation accessibility to various facilities, the probability of traffic crash occurrences has also increased consequently. With an increasing transportation demand, traffic safety needs to be improved in order to reduce the economic and societal expenses related to improper traffic safety measures. The identification and prediction of crash-prone regions is an essential task in highway safety management, particularly when highway officials have a limited budget for mitigations. Generally, implementing effective methods for the prediction of high crash risk locations can facilitate research on contributing factors in traffic crashes to mitigate them, resulting in the efficient employment of federal, state and local government resources for enhancing transportation safety. In this regard, developing non-biased and accurate models capable of predicting crash risk is a vital task in transportation safety research. Another transportation issue, believed to have a close relationship with traffic safety and operation, is drivers’ gap acceptance behavior. Given the steady rise in the percentage of aging roadway users in the United States and their over-represented engagement in fatal crashes, there is a growing need for understanding how this population differs from their younger counterparts in driving performance and crash involvement. The general objective of this research is to develop hybrid data mining models for risk and vulnerability analysis of traffic safety. This research examines the feasibility of different data mining models in predicting the priority of intersections needing improvement for aging drivers by comparing their results with traditional models. It also investigates how injury severity differs between drivers of various age and gender groups by developing cost-sensitive data mining models which consider the consequences (cost) of incorrect predictions. Moreover, it examines the effect of time-based accessibility to on-premise alcohol outlets on the severity of alcohol-related crashes. This research also conducts Geographical Information System (GIS)-based hotspot analyses to identify the crash-prone locations for various occupant age groups during different time intervals of a day and predict the location of these hotspots using statistical and machine learning models. Besides, it conducts a spatiotemporal analysis to quantify the exposure of population of different age groups to crash-prone locations and to statistically analyze the decision-making process for possible improvement. This study also aims to investigate the differences in drivers’ gap acceptance behavior while performing permissive left and right turn maneuvers at four-legged intersections using the data extracted from a driving simulator. The results showed that the implemented machine learning models were superior methodologies for predicting crash risk. Moreover, the cost-sensitive learning classifiers outperformed regular classifiers at accurately predicting injuries and fatalities of crashes. Results of the crash severity models displayed substantial differences in injury severity determinants across the age/gender cohorts. Also, it was concluded that more accessibility to on-premise alcohol outlets results in more severe alcohol-related crashes. The hotspot prediction models also revealed considerable differences in crash hotspot determinants and their coefficients across the occupants’ age groups and time intervals of a day. Moreover, among the residents, the aging population were shown to be more exposed to the risk of being injured in a crash compared to other age groups. The results of driving simulation experiment also illustrated that aging drivers are more conservative in performing left turns than younger drivers, and accepted gap size, number of lanes, and the presence of pedestrians were significantly correlated with drivers’ gap acceptance behavior.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Civil and Environmental Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Spring Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 13, 2019.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Yassir AbdelRazig, Professor Directing Dissertation; Walter Richard Boot, University Representative; Eren Erman Ozguven, Committee Member; Lisa Spainhour, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85026331">
+      <mods:topic>Civil engineering</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Spring_Mafi_fsu_0071E_14997</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Civil and Environmental Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2019-10-14T16:36:31.241-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

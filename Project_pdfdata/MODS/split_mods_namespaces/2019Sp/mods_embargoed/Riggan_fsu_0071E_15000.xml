@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>That Which They Write</mods:title>
+      <mods:subTitle>Qur'Anic Healing and Material Agency in Morocco</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Riggan</mods:namePart>
+      <mods:namePart type="given">James</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2009064720">
+      <mods:namePart type="family">Gaiser</mods:namePart>
+      <mods:namePart type="given">Adam R.</mods:namePart>
+      <mods:namePart type="termsOfAddress">1971-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Professor Directing Dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2014022874">
+      <mods:namePart type="family">Luke</mods:namePart>
+      <mods:namePart type="given">Trevor S.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">University Representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2011000513">
+      <mods:namePart type="family">Hellweg</mods:namePart>
+      <mods:namePart type="given">Joseph</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n88005645">
+      <mods:namePart type="family">Kelsay</mods:namePart>
+      <mods:namePart type="given">John</mods:namePart>
+      <mods:namePart type="termsOfAddress">1953-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Religion</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (293 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Muslims in Morocco and across the globe practice a form of healing and exorcism known as al-ruqya al-shar‘iyya. The primary technique in this system of healing consists of Qur’anic recitation. In order to understand the role of the Qur’an as a healing object, this project examines the history of Qur’anic healing, classification of disease in al-ruqya al-shar‘iyya, the steps of Qur’anic operations, and the development of healing networks. Drawing from ethnographic research conducted primarily in Fez, Morocco, I demonstrate that the Qur’an has material agency. Specifically, the Qur’an acts upon human and social bodies in order to heal them from a series of occult infections. I investigate the role of revelatory speech in Muslim societies and its relationship to individual human bodies. This investigation reveals not only information about how Muslims use the Qur’an in their daily lives, but also information about the relationship between the experience of human illness and a wider social environment. Al-ruqya al-shar‘iyya offers a book as a solution to these trials and tribulations. In the process, however, this system of healing demonstrates that the Qur’an in Muslim societies is a book that transcends both sound and page.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Religion in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Spring Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 13, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">Al-ruqya Al-shar'iyya, Islam, Morocco, Qur'an</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Adam Gaiser, Professor Directing Dissertation; Trevor Luke, University Representative; Joseph Hellweg, Committee Member; John Kelsay, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh2002005123">
+      <mods:topic>Islam and culture</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85112549">
+      <mods:topic>Religion</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Spring_Riggan_fsu_0071E_15000</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Religion</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2019-10-14T16:36:31.241-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Impact of Violations of Measurement Invariance in Longitudinal Mediation Modeling</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Xu</mods:namePart>
+      <mods:namePart type="given">Jie</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yyang3">
+      <mods:namePart type="family">Yang</mods:namePart>
+      <mods:namePart type="given">Yanyun</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Professor Co-Directing Dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/qzhang4">
+      <mods:namePart type="family">Zhang</mods:namePart>
+      <mods:namePart type="given">Qian</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Professor Co-Directing Dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2013073385">
+      <mods:namePart type="family">Huffer</mods:namePart>
+      <mods:namePart type="given">Fred W. (Fred William)</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">University Representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2016186818">
+      <mods:namePart type="family">Becker</mods:namePart>
+      <mods:namePart type="given">Betsy J.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Education</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Educational Psychology and Learning Systems</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (126 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Research has shown that cross-sectional mediation analysis cannot accurately reflect a true longitudinal mediated effect. To investigate longitudinal mediated effects, different longitudinal mediation models have been proposed and these models focus on different research questions related to longitudinal mediation. When fitting mediation models to longitudinal data, the assumption of longitudinal measurement invariance is usually made. However, the consequences of violating this assumption have not been thoroughly studied in mediation analysis. No studies have examined issues of measurement non-invariance in a latent cross-lagged panel mediation (LCPM) model with three or more measurement occasions. The goal of the current study is to investigate the impact of violations of measurement invariance on longitudinal mediation analysis. The focal model in the study is the LCPM model suggested by Cole and Maxwell (2003). This model can be used to examine mediated effects among the latent predictor, mediator, and outcome variables across time. In addition, it can account for measurement error and allow for the evaluation of longitudinal measurement invariance. Simulation methods were used and the investigation was performed using population covariance matrices and sample data generated under various conditions. Eight design factors were considered for data generation: sample size, proportion of non-invariant items, position of latent factors with non-invariant items, type of non-invariant parameters, magnitude of non-invariance, pattern of non-invariance, size of the direct effect, and size of the mediated effect. Results from population investigation were evaluated based on overall model fit and the calculated direct and mediated effects; results from finite sample analysis were evaluated in terms of convergence and inadmissible solutions, overall model fit, bias/relative bias, coverage rates, and statistical power/type I error rates. In general, results obtained from finite sample analysis were consistent with those from the population investigation, with respect to both model fit and parameter estimation. The type I error rate of the mediated effects was inflated under the non-invariant conditions with small sample size (200); power of the direct and mediated effects was excellent (1.0 or close to 1.0) across all investigated conditions. Type I error rates based on the chi-square statistic test were seriously inflated under the invariant conditions, especially when the sample size was relatively small. Power for detecting model misspecifications due to longitudinal non-invariance was excellent across all investigated conditions. Fit indices (CFI, TLI, RMSEA, and SRMR) were not sensitive in detecting misspecifications caused by violations of measurement invariance in the investigated LCPM model. Study results also showed that as the magnitude of non-invariance, the proportion of non-invariant items, and the number of positions of latent variables with non-invariant items increased, estimation of the direct and mediated effects tended to be less accurate. The decreasing pattern of change in item parameters over measurement occasions resulted in the least accurate estimates of the direct and mediated effects. Parameter estimates were fairly accurate under the conditions of the decreasing and then increasing pattern and the mixed pattern of change in item parameters. Findings from this study can help empirical researchers better understand the potential impact of violating measurement invariance on longitudinal mediation analysis using the LCPM model.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Educational Psychology and Learning Systems in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Spring Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 6, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">invariance, longitudinal, measurement, modeling, statistics</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Yanyun Yang, Professor Co-Directing Dissertation; Qian Zhang, Professor Co-Directing Dissertation; Fred W. Huffer, University Representative; Betsy J. Becker, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85041154">
+      <mods:topic>Educational tests and measurements</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <mods:topic>Statistics</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Spring_Xu_fsu_0071E_14994</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Educational Psychology and Learning Systems</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2019-10-14T16:36:31.241-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

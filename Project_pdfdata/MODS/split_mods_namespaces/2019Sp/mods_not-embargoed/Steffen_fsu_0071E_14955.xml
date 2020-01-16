@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Barrier Layer Development Local to Tropical Cyclones</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Steffen</mods:namePart>
+      <mods:namePart type="given">John</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="viaf"
+              authorityURI="http://viaf.org/viaf/"
+              valueURI="http://viaf.org/viaf/105342888">
+      <mods:namePart type="family">Bourassa</mods:namePart>
+      <mods:namePart type="given">Mark Allan</mods:namePart>
+      <mods:namePart type="termsOfAddress">1962-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Professor Directing Dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n96096627">
+      <mods:namePart type="family">Elsner</mods:namePart>
+      <mods:namePart type="given">James B.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">University Representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/rhart">
+      <mods:namePart type="family">Hart</mods:namePart>
+      <mods:namePart type="given">Robert E. (Robert Edward)</mods:namePart>
+      <mods:namePart type="termsOfAddress">1972-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jchagnon">
+      <mods:namePart type="family">Chagnon</mods:namePart>
+      <mods:namePart type="given">Jeffrey M.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/nb2008007568">
+      <mods:namePart type="family">Clarke</mods:namePart>
+      <mods:namePart type="given">Allan J.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Earth, Ocean and Atmospheric Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2018</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (107 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The objective of this study is to quantify barrier layer development due to tropical cyclone (TC) passage using Argo float observations of temperature and salinity. To accomplish this objective, a climatology of Argo float measurements is developed from 2001-2014 for the Atlantic, eastern Pacific, and central Pacific basins. Each Argo float sample consists of a pre-storm and post-storm temperature and salinity profile pair. In addition, a no-TC Argo pair dataset is derived for comparison to account for natural ocean state variability and instrument sensitivity. The Atlantic basin shows a statistically significant increase in post-TC barrier layer thickness (BLT) and barrier layer potential energy (BLPE) that is largely attributable to an increase of 2.6 m in the post-TC isothermal layer depth (ITLD). The eastern Pacific basin shows no significant changes to any barrier layer characteristic, likely due to a shallow and highly stratified pycnocline. However, the near-surface layer freshens in the upper 30 m after TC passage, which increases static stability. Finally, the central Pacific has a statistically significant freshening in the upper 20-30 m that increases upper-ocean stratification by ~35%. The mechanisms responsible for increases in BLPE vary between the Atlantic and both Pacific basins; the Atlantic is sensitive to ITLD deepening, while the Pacific basins show near-surface freshening to be more important in barrier layer development. In addition, Argo data subsets are used to investigate the physical relationships between the barrier layer and TC intensity, TC translation speed, radial distance from TC center, and time after TC passage. ROMS model hindcasts of Hurricange Gonzalo (2014) characterize the upper-ocean response to TC precipitation forcing. Several different vertical mixing parameterizations are tested to determine their sensitivity to precipitation. For all mixing schemes, TC precipitation accounts for ocean surface freshening of about 0.3 PSU. The dominant terms in the near-surface salinity budget are the total advection and vertical diffusivity. The influence of precipitation-induced changes to the SST response is more complicated. In some areas, increased upper-ocean stratification mutes the SST cooling response. However, in other areas, cooling can be stronger when precipitation is prescribed. Dynamical changes in upper-ocean currents and the curl of the surface stress can induce a stronger cooling response in these regions.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Earth, Ocean and Atmospheric Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Fall Semester 2018.</mods:note>
+   <mods:note displayLabel="Date of Defense">December 5, 2018.</mods:note>
+   <mods:note displayLabel="Keywords">Air-Sea Interaction, Oceanic Barrier Layer, Tropical Cyclones</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Mark Bourassa, Professor Directing Dissertation; James Elsner, University Representative; Robert Hart, Committee Member; Jeff Chagnon, Committee Member; Allan Clarke, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85084334">
+      <mods:topic>Meteorology</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Spring_Steffen_fsu_0071E_14955</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2019-10-14T16:36:31.241-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

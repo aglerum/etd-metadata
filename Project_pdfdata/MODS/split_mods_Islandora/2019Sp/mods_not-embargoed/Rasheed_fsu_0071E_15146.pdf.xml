@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd"
+           version="3.4">
+   <titleInfo  lang="eng">
+      <title>Surface Subgroups of 3-Manifold Groups</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <namePart type="family">Rasheed</namePart>
+      <namePart type="given">Mohammad Aamir</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/wheil">
+      <namePart type="family">Heil</namePart>
+      <namePart type="given">Wolfgang H.</namePart>
+      <role>
+         <roleTerm authority="local" type="text">Professor Directing Dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/wahl">
+      <namePart type="family">Wahl</namePart>
+      <namePart type="given">Horst</namePart>
+      <role>
+         <roleTerm authority="local" type="text">University Representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2004003517">
+      <namePart type="family">Bowers</namePart>
+      <namePart type="given">Philip L.</namePart>
+      <namePart type="termsOfAddress">1956-</namePart>
+      <role>
+         <roleTerm authority="local" type="text">Committee Member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/sballas">
+      <namePart type="family">Ballas</namePart>
+      <namePart type="given">Samuel A.</namePart>
+      <role>
+         <roleTerm authority="local" type="text">Committee Member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Mathematics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (97 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >This dissertation is concerned with the study of how various properties such as malnormality and maximality of surface groups embedded in a 3-manifold group give us information about the topology of a 3-manifold. In this direction we show that the malnormality of certain surface groups is sufficient to detect whether or not there are any Seifert fibered pieces in the JSJ decomposition of a 3-manifold. On the other hand topology itself imposes a strong constraint on what properties a surface group might have. For example, we show that a surface group associated with an essential embedding must be maximal among all surface groups. The first chapter starts with an overview and introduction to the material along with some of the background material needed to understand this dissertation. Here we provide all the appropriate definitions as well as the statements of the theorems and lemmas that are used in this dissertation. All the theorems stated in chapter 1 are standard and well known results in 3-manifold theory and all we have done is provide a brief exposition. We have made an effort to provide appropriate references whenever we could. In the second chapter we study the relationship between malnormal subgroups corresponding to incompressible tori and Klein bottles and the absence of Seifert pieces in the JSJ decomposition. In particular, we show that a rank two free abelian subgroup correspond- ing to an embedded incompressible torus in an orientable Haken manifold is a malnormal subgroup if and only if the JSJ piece that contains the torus is non-Seifert. We further generalize this result to any embedded Klein bottle and answer the question of when a maximal abelian subgroup in a Haken manifold group is malnormal. We also explore other conditions that guaranty that there are no Seifert pieces in the JSJ decomposition. Some other results regarding the malnormality of peripheral groups corresponding to higher genus surfaces are also found. The third chapter is concerned with the study of properly embedded incompressible surfaces (closed or otherwise) in a Haken manifold. Here we give a sufficient condition for two embedded surfaces to be isotopic. We show that given two embedded 2-sided incompressible surfaces such that the subgroup associated to one is contained in the subgroup associated to the other, then it must be that case that the surfaces are isotopic. This, in particular, shows that it is impossible to embed two surfaces of different genus in an orientable Haken manifold such that one is a subgroup of the other. In the fourth chapter we generalize the results of the third chapter to immersed π1- injective surfaces. We show that any two immersed surfaces satisfying an analogous condi- tions on their associated subgroups can always be deformed so that one immersed surface is a covering onto the other immersed surface. In particular, this shows that embedded surface groups are maximal among all surface groups.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Mathematics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Degree Awarded">Spring Semester 2019.</note>
+   <note  displayLabel="Date of Defense">April 17, 2019.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Wolfgang Heil, Professor Directing Dissertation; Horst Wahl, University Representative; Philip Bowers, Committee Member; Samuel Ballas, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85082139">
+      <topic>Mathematics</topic>
+   </subject>
+   <identifier  type="IID">2019_Spring_Rasheed_fsu_0071E_15146</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Mathematics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2019-10-14T16:36:31.241-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

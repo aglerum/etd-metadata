@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Nature of Fear in Senecan Philosophy and Tragedy</mods:title>
+      <mods:nonSort>The</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Currie</mods:namePart>
+      <mods:namePart type="given">Michelle Lynn</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2012117619">
+      <mods:namePart type="family">Stover</mods:namePart>
+      <mods:namePart type="given">Tim</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Professor Directing Dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2003069418">
+      <mods:namePart type="family">Fumo</mods:namePart>
+      <mods:namePart type="given">Jamie Claire</mods:namePart>
+      <mods:namePart type="termsOfAddress">1976-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">University Representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2005022601">
+      <mods:namePart type="family">Fulkerson</mods:namePart>
+      <mods:namePart type="given">Laurel</mods:namePart>
+      <mods:namePart type="termsOfAddress">1972-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2007073583">
+      <mods:namePart type="family">Weiberg</mods:namePart>
+      <mods:namePart type="given">Erika</mods:namePart>
+      <mods:namePart type="termsOfAddress">1971-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Classics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (221 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This dissertation explores the nature and significance of fear in the works of Seneca the Younger. While a variety of emotions have already been examined within the writings of this author, fear remains largely neglected despite its prevalence and fundamental nature. This study contributes to work being done on themes shared across Seneca’s entire literary output, on the relevance of Stoicism to Seneca’s tragedies, and on emotions in the ancient world, especially within the writings of this extremely pertinent author. The project begins with the compilation of a theoretical De metu, based loosely on Seneca’s De ira, to show that a detailed understanding of Seneca’s conception of fear can be gleaned through careful analysis of material from across his corpus. Drawing on the over 1,200 references to fear from throughout Seneca’s corpus, this De metu lays out Seneca’s definition of fear and the causes, effects, and potential therapies he envisions for it. A De metu also allows for a closer comparison of anger and fear, two emotions that Seneca views as similar in both nature and in intensity. This fuller understanding of fear can then be applied to Seneca’s tragedies to see how his ideas of fear are transformed by the tragedic medium. The rest of the project deals with fear within the tragedies on both thematic and narrative levels. The first of these chapters argues that the nature of fear as presented in Seneca’s philosophical works has been adapted for thematic use within various elements of the tragedies. At some points the tragedies reflect his philosophical thinking, reinforcing the philosopher’s understanding of the emotion. More often, however, fear’s nature is distorted or embellished for literary effect, derailing the audience’s expectations of how this emotion functions. Seneca is willing to exceed or vary the nature of fear established in his philosophical works in order to create stronger dramatic effects and follow the conventions of this other genre. Some of the broader thematic uses of fear considered include how fear is used to create suspense, spectacle, and characterization; the use of therapy to combat fear; and what the common sources of fear are, with special focus on the fear of death and the afterlife. Evidence for these thematic uses of fear is drawn from all of Seneca’s tragedies, revealing the widespread relevance of this emotion. The final chapter argues that fear plays a significant role in shaping the situations of several main figures of Seneca’s plays; without a full understanding of fear, the nuance of Seneca’s commentary on these characters’ flaws, misfortunes, and ruling styles is incomplete. The presence of fear in Oedipus has already been noted in scholarship, yet a better understanding of Seneca’s ideal therapies for fear and the dangers fear poses shed more light on this play. In Thyestes, special attention must be paid to the emotions of Atreus and Thyestes: each brother experiences both fear and its related passion anger, and alternate between the two over the course of their plotting. Finally, Troades offers further insight into Seneca’s understanding of the relationship of fear and hope. Andromache and Hecuba endure similar circumstances, but while Hecuba experiences merely resignation, the survival of Andromache’s son drives her to hope and thus also to fear. Fear therefore plays a key role in the development of each of these plays. Ultimately, it is possible to determine not only how Seneca defines the nature of fear, but also to what extent and in what ways fear in the tragedies draws upon Seneca’s philosophy. Fear provides Seneca with a vital tool for creating successful and meaningful tragedies.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Classics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Spring Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 12, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">emotions, fear, Seneca, Stoicism, tragedy</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Tim Stover, Professor Directing Dissertation; Jamie Fumo, University Representative; Laurel Fulkerson, Committee Member; Erika Weiberg, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85026706">
+      <mods:topic>Classical literature</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85026454">
+      <mods:topic>Civilization, Greco-Roman</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Spring_Currie_fsu_0071E_14996</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Classics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2019-10-14T16:36:31.241-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

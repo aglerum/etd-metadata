@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Manufacturing of Multimaterial Composites via Dual Robotic 3D Printing</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Frketic</mods:namePart>
+      <mods:namePart type="given">Jolie Breaux</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/tjd02c">
+      <mods:namePart type="family">Dickens</mods:namePart>
+      <mods:namePart type="given">Tarik</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Professor Directing Dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/clarkj">
+      <mods:namePart type="family">Clark</mods:namePart>
+      <mods:namePart type="given">Jonathan E.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">University Representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/sramakrishnan">
+      <mods:namePart type="family">Ramakrishnan</mods:namePart>
+      <mods:namePart type="given">Subramanian</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/zliang">
+      <mods:namePart type="family">Liang</mods:namePart>
+      <mods:namePart type="given">Zhiyong (Richard)</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/hwang10">
+      <mods:namePart type="family">Wang</mods:namePart>
+      <mods:namePart type="given">Hui</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Industrial and Manufacturing Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (147 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Composite additive manufacturing (AM) is able to create products that have never before been able to be made. However, several processing and material setbacks keep AM from becoming the all-encompassing methodology for multifunctional printed composite parts. Current AM methods to create composites are focused on printing single materials, and while able to create complex parts quickly, have yet to leverage their full capability. To make strides towards an all-encompassing multi-material additive manufacturing system, a collaborative dual selective compliance assembly robotic arm manufacturing system has been developed for cooperative additive manufacturing (CO-AM). The inclusion of cooperative robotic systems working simultaneously on a part while near each other spurs inquiry to the issues of effectiveness and practicality compared to what is witnessed in conventional operation. This research highlights our work on fundamentally understanding the process control-structure-property relationships of a novel mechatronic system for additive processing. The first study aims to narrate the design process and capabilities of this cooperative system, as well as measure current performance under typical operation. Investigations were aided with (1) computer vision analysis and (2) dynamic modeling to provide insight into the limitations of the current system. This study seeks to benchmark the performance of CO-AM as it compares to modern on market systems. The study shows that the CO-AM system can reach the same resolution as typical extrusion manufacturing devices. A time study found that a 36% reduction in time is able to be achieved in a non-optimized part, yielding an advantage over typical systems. A second study investigates the processing parameters (road overlap, speed, the time between extrusions, stepping and nozzle size) in CO-AM and how these process-property relationships can be used to create the strongest weld in the seam between two halves of a part printed collaboratively. From this study, it was found that the speed of printing, print overlap, and nozzle size were the most important in having a stronger weld. From these results, design rules and processing parameters for thermoplastic CO-AM were developed. Finally, a study was conducted to investigate the polymer welding and adhesion between adjoining printed roads. Theoretical studies have been used to determine how polymer-polymer welding at the interface between adjacent roads affects the strength between these printed interfaces. Micrographs of printed compact tension specimen interfaces were analyzed for thermoplastic welding. An image segmentation program was developed to elucidate the polymer diffusion and adhesion of printed parts and describes the strength of the printed part. It was found that a coefficient for weld entanglement is able to accurately depict the strength of a printed thermoplastic when an assumed strength along the weld is considered to be around 25% of the full strength of an injection molded part. This helps in further studies by enhancing the knowledge of the process-property relationship that is created when using additive manufacturing.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Industrial and Manufacturing Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Spring Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">January 8, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">Additive Manufacturing, Fused Deposition Modeling, Robotics, SCARA</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Tarik Dickens, Professor Directing Dissertation; Jonathan Clark, University Representative; Subramanian Ramakrishnan, Committee Member; Richard Liang, Committee Member; Hui Wang, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85065864">
+      <mods:topic>Industrial engineering</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85082757">
+      <mods:topic>Mechanical engineering</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85082094">
+      <mods:topic>Materials science</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Spring_Frketic_fsu_0071E_14912</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Industrial and Manufacturing Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2019-10-14T16:36:31.241-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

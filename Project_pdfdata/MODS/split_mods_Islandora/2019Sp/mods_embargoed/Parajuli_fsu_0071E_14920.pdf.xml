@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd"
+           version="3.4">
+   <titleInfo  lang="eng">
+      <title>Machine Learning Algorithms and Applications for Lidar, Images, and Unstructured Data</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <namePart type="family">Parajuli</namePart>
+      <namePart type="given">Biswas</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/piyush">
+      <namePart type="family">Kumar</namePart>
+      <namePart type="given">Piyush</namePart>
+      <role>
+         <roleTerm authority="local" type="text">Professor Directing Dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="viaf"
+         authorityURI="http://viaf.org/viaf/"
+         valueURI="http://viaf.org/viaf/31821408">
+      <namePart type="family">She</namePart>
+      <namePart type="given">Yiyuan</namePart>
+      <role>
+         <roleTerm authority="local" type="text">University Representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/liux">
+      <namePart type="family">Liu</namePart>
+      <namePart type="given">Xiuwen</namePart>
+      <namePart type="termsOfAddress">-1966</namePart>
+      <role>
+         <roleTerm authority="local" type="text">Committee Member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/zhao">
+      <namePart type="family">Zhao</namePart>
+      <namePart type="given">Peixiang</namePart>
+      <role>
+         <roleTerm authority="local" type="text">Committee Member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Computer Science</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (121 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Aerial imagery of geographic regions in the form of Lidar and RGB images aids different tasks like survey, urban-planning, mapping, surveillance, navigation, localization and others. Most of the applications, in general, require accurate segmentation and identification of variety of objects. The labeling is mostly done manually which is slow and expensive. This dissertation focuses on roads as the object of interest and aims to develop methods to automatically extract road networks from both aerial Lidar and images. This work investigates deep convolutional architectures that can fuse the two types of data for road segmentation. It presents a design which performs better than the state-of-the-art RGB-only methods. It also describes a simple, disk-packing based algorithm which translates the road segmentation into a OpenStreetMap-like road network graph while giving improved accuracies in terms of connectivity, topology and reduction in outliers. This dissertation also presents a truth finding algorithm based on iterative outlier removal which can be used for reaching a consensus when information sources or ensembles of trained machine learning models are at a conflict. In addition, it introduces a full and published book on Python programming based on the experiences this research provided. The hope is to contribute towards teaching and learning Python.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Computer Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Degree Awarded">Spring Semester 2019.</note>
+   <note  displayLabel="Date of Defense">April 19, 2019.</note>
+   <note  displayLabel="Keywords">3D Imaging, Convolutional Neural Network, Image Segmentation, Lidar, Truth Finding</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Piyush Kumar, Professor Directing Dissertation; Yiyuan She, University Representative; Xiuwen Liu, Committee Member; Peixiang Zhao, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh89003285">
+      <topic>Computer science</topic>
+   </subject>
+   <identifier  type="IID">2019_Spring_Parajuli_fsu_0071E_14920</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Computer Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2019-10-14T16:36:31.241-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

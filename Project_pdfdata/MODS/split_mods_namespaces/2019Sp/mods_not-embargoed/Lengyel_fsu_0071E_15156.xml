@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Search for Electrically Ordered Phases in Hydrogen-Bonded Molecular Cocrystals</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Lengyel</mods:namePart>
+      <mods:namePart type="given">Jeffrey William</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2007034285">
+      <mods:namePart type="family">Dalal</mods:namePart>
+      <mods:namePart type="given">Naresh S.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Professor Co-Directing Dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/shatruk">
+      <mods:namePart type="family">Shatruk</mods:namePart>
+      <mods:namePart type="given">Mykhailo</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Professor Co-Directing Dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2006081590">
+      <mods:namePart type="family">Hill</mods:namePart>
+      <mods:namePart type="given">S. (Stephen Olof)</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">University Representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2008078041">
+      <mods:namePart type="family">Albrecht-Schmitt</mods:namePart>
+      <mods:namePart type="given">Thomas E.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemistry and Biochemistry</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (86 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Hydrogen bonds are an important type of non-covalent bonding intermolecular interactions with many applications in the design of molecular materials for pharmaceuticals and organic electronics. Due to the relative strength of hydrogen bonds when compared to other intermolecular interactions, the crystal packing of molecular materials is highly influenced by their presence. The strength of hydrogen bonds in cocrystals of two molecular components correlates to the difference in pKa values of the components, following an empirical trend known as the “ΔpKa rule”. In some cases where ΔpKa is small, the proton composing the hydrogen bond can be transferred between acid and base reversibly. Due to the inherent dipole in asymmetric hydrogen bonds, reversible proton transfer may give rise to a reversible polarization necessary to achieve ferroelectricity. In this work we have constructed a database of organic acids and bases with their associated pKa values in order to explore possible two component combinations to achieve functionalized proton transfer. The database of synthons with pKa values was organized into a matrix of ΔpKa values for each combination. Several of these combinations with small ΔpKa values were synthesized and crystals were grown and characterized, primarily through single-crystal X-ray diffraction. From the resulting structures a few common packing motifs were identified. One combination, the hydrated salt of squaric acid and 2,3-dimethylpyrazine, was identified as an antiferroelectric with a phase transition at 104 K. The mechanism of this phase transition was investigated through powder X-ray diffraction, single-crystal neutron diffraction, Raman spectroscopy, heat capacity, and dielectric measurements. Besides reversible proton transfer, hydrogen bonds may also be used to template supramolecular structures. Thiourea can form 1-D hexagonal channels around guest molecules. Due to the variable strength of the hydrogen bond, the diameter of these channels is dependent on the size and shape of the guest molecule. To explore the effects of this templating on the guest molecules properties we synthesized cocrystals of thiourea with the magnetic radical molecules TEMPO and 4-oxo-TEMPO.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Spring Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 8, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">Cocrystals, Crystallography, Host-Guest Complexes, Hydrogen Bonding, Organic Antiferroelectrics, Organic Magnetism</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Naresh Dalal, Professor Co-Directing Dissertation; Michael Shatruk, Professor Co-Directing Dissertation; Stephen Hill, University Representative; Thomas E. Albrecht-Schmitt, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85022986">
+      <mods:topic>Chemistry</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Spring_Lengyel_fsu_0071E_15156</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2019-10-14T16:36:31.241-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

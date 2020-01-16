@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd"
+           version="3.4">
+   <titleInfo  lang="eng">
+      <title>Investigating Oligomerization as a Form of Enzyme Regulation in Human Glucokinase</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <namePart type="family">McCray</namePart>
+      <namePart type="given">Malcolm M. R. K. (Malcolm Marvin Rufus Kenyatta)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/bgmiller">
+      <namePart type="family">Miller</namePart>
+      <namePart type="given">Brian G.</namePart>
+      <role>
+         <roleTerm authority="local" type="text">Professor Directing Thesis</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2007113222">
+      <namePart type="family">Zhu</namePart>
+      <namePart type="given">Lei</namePart>
+      <namePart type="termsOfAddress">1978-</namePart>
+      <role>
+         <roleTerm authority="local" type="text">Committee Member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mroper">
+      <namePart type="family">Roper</namePart>
+      <namePart type="given">Michael Gabriel</namePart>
+      <role>
+         <roleTerm authority="local" type="text">Committee Member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/sstagg">
+      <namePart type="family">Stagg</namePart>
+      <namePart type="given">Scott</namePart>
+      <role>
+         <roleTerm authority="local" type="text">Committee Member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Chemistry and Biochemistry</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (47 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Recent studies have shown the importance of enzyme regulation through the formation of higher order structures. This is exemplified by Acetyl coenzyme A Carboxylase, and Cytidine Triphosphate synthase, two enzymes that form long chain filaments in the presence of specific activators [5-7,14,22,26]. Recently, yeast glucokinase (Glk1p) was found to form filaments in the presence of increasing concentrations of Glucose-6-phosphate (G6P), the product of the reaction that it catalyzes [18]. Due to this fact, and the consistent appearance of what seem to be higher order and oligomer like peaks in size exclusion chromatography (SEC) chromatograms of human glucokinase (GK) expressed from Escherichia coli, an investigation of the nature of these peaks was conducted. Through the use of SEC, a method described in Tayyab at al 1992 was used to determine the molecular weight [38]. This resulted in the discovery that only the oligomeric peak was formed over time, was the approximate size of a trimeric glucokinase structure. SEC also discovered that factors, including time and ligand presence, affected the formation of the oligomeric complex, while spectrophotometric assays of the oligomeric protein indicated a decrease in overall activity. The oligomeric form of GK produced little to no activity in the presence of increasing concentrations of its substrate, glucose. This finding is consistent with the fact that the oligomer is an inactive form of GK that is not affected by glucose concentrations.</abstract>
+   <note  displayLabel="Submitted Note">A Thesis submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Master of Science.</note>
+   <note  displayLabel="Degree Awarded">Spring Semester 2019.</note>
+   <note  displayLabel="Date of Defense">April 19, 2019.</note>
+   <note  displayLabel="Keywords">glucokinase, structure</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Brian G. Miller, Professor Directing Thesis; Lei Zhu, Committee Member; Michael Roper, Committee Member; Scott Stagg, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85014171">
+      <topic>Biochemistry</topic>
+   </subject>
+   <identifier  type="IID">2019_Spring_McCray_fsu_0071N_15200</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2019-10-14T16:36:31.241-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

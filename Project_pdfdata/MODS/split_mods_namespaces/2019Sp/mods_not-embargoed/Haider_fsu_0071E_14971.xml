@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Development, Validation, and Use of an Assessment of Learning Outcomes in Introductory Linear Algebra Classes</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Haider</mods:namePart>
+      <mods:namePart type="given">Muhammad Qadeer</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2011088772">
+      <mods:namePart type="family">Larson</mods:namePart>
+      <mods:namePart type="given">Christine (Christine J.)</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Professor Directing Dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/gokten">
+      <mods:namePart type="family">Ökten</mods:namePart>
+      <mods:namePart type="given">Giray</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">University Representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/iwhitacre">
+      <mods:namePart type="family">Whitacre</mods:namePart>
+      <mods:namePart type="given">Ian Michael</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n94098012">
+      <mods:namePart type="family">Almond</mods:namePart>
+      <mods:namePart type="given">Russell G.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Education</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>School of Teacher Education</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2018</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (94 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Inquiry-oriented teaching is a specific form of active learning gaining popularity in teaching communities. The goal of inquiry-oriented classes is to help students in gaining a conceptual understanding of the material. My research focus is to gauge students’ performance and conceptual understanding in inquiry-oriented linear algebra classes. This work is part of a broader NSF funded project; Teaching Inquiry-Oriented Mathematics: Establishing Support (TIMES) (Grant # 1431393), and TIMES project was designed to support instructors to shift towards inquiry-oriented instruction/teaching. Being part of the TIMES team, a broader goal of my dissertation is pragmatic to the project that is to measure the effectiveness of inquiry-oriented teaching on students learning of linear algebra concepts. Through my research, my contribution to math education field is the development of a valid and reliable assessment instrument for instructors teaching linear algebra concepts in their classes. My dissertation is a mixed method research and follows a three-paper format, and in these papers I discuss (1) the development and validation of a reliable linear algebra assessment tool, (2) comparison of performance of students in inquiry-oriented classes with the students in non-inquiry-oriented classes by using the tool developed in the first paper, and (3) development of research-based choices and distractors to convert the current open-ended assessment into a multiple-choice test by looking into students’ ways of reasoning and problem-solving approaches. The first paper is a quantitative study in which I establish the validity of the linear algebra assessment, and I also measure the reliability of the assessment. In the second paper, I use the linear algebra assessment to measure students’ conceptual and procedural understanding of linear algebra concepts and to compare the performance of students in inquiry-oriented classes with the students in non-inquiry-oriented classes. In the final paper, I focus on the analysis of patterns in student responses, particularly to open-ended response items, to inform the multiple-choices and distractors for the open-ended questions on the linear algebra assessment. This analysis will help me to convert the existing linear algebra assessment into a multiple-choice format research tool that linear algebra researchers can use for various comparisons to gauge the effectiveness of interventions. Additionally, the multiple-choice format of the assessment will be easy to administer and grade, so instructors can also use the assessment to measure their students’ conceptual and procedural understanding of linear algebra concepts.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the School of Teacher Education in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Fall Semester 2018.</mods:note>
+   <mods:note displayLabel="Date of Defense">October 18, 2018.</mods:note>
+   <mods:note displayLabel="Keywords">Assessment Validation, Inquiry-Oriented Teaching, Linear Algebra</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Christine Andrews-Larson, Professor Directing Dissertation; Giray Ökten, University Representative; Ian Whitacre, Committee Member; Russell Almond, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85082157">
+      <mods:topic>Mathematics</mods:topic>
+      <mods:topic>Study and teaching</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Spring_Haider_fsu_0071E_14971</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Teacher Education</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2019-10-14T16:36:31.241-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

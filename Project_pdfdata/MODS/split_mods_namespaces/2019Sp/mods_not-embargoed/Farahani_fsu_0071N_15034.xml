@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Degradation of Perfluorooctanoic Acid by a Non-Thermal Plasma Reactor and Bio-Reactors</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Farahani</mods:namePart>
+      <mods:namePart type="given">Meysam</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ytang2">
+      <mods:namePart type="family">Tang</mods:namePart>
+      <mods:namePart type="given">Youneng</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Professor Directing Thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n84134993">
+      <mods:namePart type="family">Locke</mods:namePart>
+      <mods:namePart type="given">Bruce R.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2006047059">
+      <mods:namePart type="family">Clark</mods:namePart>
+      <mods:namePart type="given">Clayton J.</mods:namePart>
+      <mods:namePart type="termsOfAddress">1971-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Civil and Environmental Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (52 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Perfluorooctanoic acid (PFOA) is persistent in environment due to its stable structure. It is also toxic to animals and human. The objective of this research is to remove PFOA with a non-thermal plasma reactor, anaerobic and aerobic bio-reactors, and their combination. Mineralization and defluorination (i.e., fluoride production) occurred in the plasma reactor. Neither PFOA removal nor fluoride production was observed in the bioreactors. In the plasma reactor with Argon as the carrier gas, 20 µM of PFOA in deionized (DI) water was removed to 4.22 and 4.04 µM, respectively, when the hydraulic retention time (HRT) was 0.21 s and 0.15 s, respectively. When the carrier gas was changed to Helium, PFOA was removed to 3.85 µM and 3.77 µM, respectively. Therefore, the carrier gas and HRT did not have significant effect on PFOA degradation. However, the carrier gas and HRT strongly affected the defluorination rate: 11% (for HRT = 0.21 s) and 6.5% (for HRT = 0.15) when Argon was the carrier gas, and 22% (for HRT = 0.21 s) and 8.6% (for HRT = 0.15 s) when Helium was the carrier gas. Consequently, a higher energy yield was achieved with Helium as the carrier gas (maximum of 11.3×10-11 mole F- production/J) than with Argon as the carrier gas (maximum of 6.43×10-11 mole F- production/J). Perfluoroheptanoic acid (PFHpA) and perfluorohexanoic acid (PFHxA) were observed in the effluent of the non-thermal plasma reactor by using liquid chromatography-tandem mass spectrometry (LC/MS/MS). The intermediates production rate was higher when argon was the carrier gas compared with Helium, probably because the degradation mechanisms are different for PFOA and their intermediates.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Civil and Environmental Engineering in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Spring Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 25, 2019.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Youneng Tang, Professor Directing Thesis; Bruce R. Locke, Committee Member; Clayton J. Clark Ⅱ, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85044170">
+      <mods:topic>Environmental engineering</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Spring_Farahani_fsu_0071N_15034</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Civil and Environmental Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2019-10-14T16:36:31.241-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

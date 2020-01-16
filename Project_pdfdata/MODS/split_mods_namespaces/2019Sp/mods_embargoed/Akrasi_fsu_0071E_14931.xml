@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Electrochemical Study of Glycerol Oxidation on Ni-Cu-Sn-P Catalyst in a Redox Flow Cell</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Akrasi</mods:namePart>
+      <mods:namePart type="given">James</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2010109085">
+      <mods:namePart type="family">Yeboah</mods:namePart>
+      <mods:namePart type="given">Yaw D.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Professor Co-Directing Dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2010168445">
+      <mods:namePart type="family">Kalu</mods:namePart>
+      <mods:namePart type="given">E. Eric</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Professor Co-Directing Dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jzheng">
+      <mods:namePart type="family">Zheng</mods:namePart>
+      <mods:namePart type="given">Jianping</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">University Representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/telotte">
+      <mods:namePart type="family">Telotte</mods:namePart>
+      <mods:namePart type="given">John C.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/chuang3">
+      <mods:namePart type="family">Huang</mods:namePart>
+      <mods:namePart type="given">Chen</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Professor of Scientific Computing)</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemical and Biomedical Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (120 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Electro-oxidation of alcohols is a very important pathway towards the production of high value chemicals and renewable energy applications. Polyhydric alcohols such as glycerol, are also interesting candidates for direct energy conversion systems due to its low volatility and toxicity. Historically, investigation of the electrocatalysis of glycerol oxidation has been limited to precious metals such as gold, silver and platinum given their enhanced activity and stability. To achieve commercialization however, alternatives such as non-precious metals would be required. Such considerations are necessary with two main strategies: lowering of the amount of precious metal used or the formulation of new electrocatalyst using non-precious metals. This work focuses on the study of electrooxidation of glycerol – as a fuel – on non-precious metal surfaces. The aim of this work is to develop a deeper understanding of the factors involved in the design and optimization of a redox flow cell operating on the mechanism of oxidation of glycerol for the cogeneration of electrical energy and value-added chemicals. In this work, a novel ternary as-deposited catalyst comprising non-precious metal alloy composition, namely nickel, copper and tin on carbon support have been fabricated using the electroless deposition method. The effects of the surface composition have been investigated using physical characterization methods including SEM, EDS and XRD. The electrochemical activity of the as-prepared catalysts towards the glycerol oxidation reaction (GOR) in alkaline medium was evaluated using chronoamperometry, cyclic voltammetry and linear sweep voltammetry at different scan rates. Under optimized conditions, the carbon-supported ternary Ni-Cu-Sn was identified as a highly active catalyst for the GOR and exhibited a shift towards lower onset potential (-0.1 V Ag/AgCl) compared with reported literature values. Using the Group Additivity Method, the study demonstrated theoretically the working principles of a glycerol-fed redox flow cell with aqueous solution of a Fe3+/Fe2+ as the cathode couple. Experimental verification of glycerol oxidation in a glycerol/ Fe3+/Fe2+ cell was also demonstrated. A complete mathematical model of the system based on the boundary layer approach was presented and it showed the coupled effects of mass transport, charge transport and electrochemical kinetics on cell performance while predicting faradaic currents and efficiency. The optimum performance was found to be dependent on applied overpotential and limited by mass transport factors.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemical and Biomedical Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Spring Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">January 16, 2019.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Yaw D. Yeboah, Professor Co-Directing Dissertation; Egwu Eric Kalu, Professor Co-Directing Dissertation; Jim Zheng, University Representative; John Telotte, Committee Member; Chen Huang, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85022900">
+      <mods:topic>Chemical engineering</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Spring_Akrasi_fsu_0071E_14931</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemical and Biomedical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2019-10-14T16:36:31.241-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

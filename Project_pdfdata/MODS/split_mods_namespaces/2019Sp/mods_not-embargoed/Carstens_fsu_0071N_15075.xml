@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Tropical Cyclogenesis from Self-Aggregated Convection in Numerical Simulations of Rotating Radiative-Convective Equilibrium</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Carstens</mods:namePart>
+      <mods:namePart type="given">Jacob D.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/awing">
+      <mods:namePart type="family">Wing</mods:namePart>
+      <mods:namePart type="given">Allison A.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Professor Directing Thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/rhart">
+      <mods:namePart type="family">Hart</mods:namePart>
+      <mods:namePart type="given">Robert E. (Robert Edward)</mods:namePart>
+      <mods:namePart type="termsOfAddress">1972-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jchagnon">
+      <mods:namePart type="family">Chagnon</mods:namePart>
+      <mods:namePart type="given">Jeffrey M.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Earth, Ocean and Atmospheric Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (73 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Organized convection is of critical importance in the tropical atmosphere. Recent advances in numerical modeling have revealed that moist convection can interact with its environment to transition from a quasi-random to organized state. This phenomenon, known as convective self-aggregation, is aided by feedbacks involving clouds, water vapor, and radiation that increase the spatial variance of column-integrated frozen moist static energy. Prior studies have shown self-aggregation to take several different forms, including that of spontaneous tropical cyclogenesis in an environment of rotating radiative-convective equilibrium (RCE). This study expands upon previous work to address the processes leading to tropical cyclogenesis in this rotating RCE framework. More specifically, a 3-D, cloud-resolving numerical model is used to examine the self-aggregation of convection and potential cyclogenesis, and the background planetary vorticity is varied on an f-plane across simulations to represent a range of deep tropical and near-equatorial environments. Convection is initialized randomly in an otherwise homogeneous environment, with no background wind, precursor disturbance, or other synoptic-scale forcing. All simulations with planetary vorticity corresponding to latitudes from 10° to 20° generate intense tropical cyclones, with maximum wind speeds of 80 m/s or above. Time to genesis varies widely, even within a 5-member ensemble of 20° simulations, reflecting a potential degree of stochastic variability based in part on the initial random distribution of convection. Shared across this so-called “high-f” group is the emergence of a midlevel vortex in the days leading to genesis, which has dynamic and thermodynamic implications on its environment that facilitate the spinup of a low-level vortex. Tropical cyclogenesis is possible in this model even at values of Coriolis parameter as low as that representative of 1°. In these experiments, convection self-aggregates into a quasi-circular cluster, which then begins to rotate and gradually strengthen into a tropical storm, aided by near-surface inflow and shallow overturning radial circulations aloft within the aggregated cluster. Other experiments at these lower Coriolis parameters instead self-aggregate into an elongated band and fail to undergo cyclogenesis over the 100-day simulation. A large portion of this study is devoted to examining in greater detail the dynamic and thermodynamic evolution of cyclogenesis in these experiments and comparing the physical mechanisms to current theories.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Earth, Ocean and Atmospheric Science in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Spring Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 1, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">Convection, Numerical modeling, Self-aggregation, Tropical cyclones</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Allison A. Wing, Professor Directing Thesis; Robert E. Hart, Committee Member; Jeﬀrey M. Chagnon, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85084334">
+      <mods:topic>Meteorology</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Spring_Carstens_fsu_0071N_15075</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2019-10-14T16:36:31.241-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

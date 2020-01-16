@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd"
+           version="3.4">
+   <titleInfo  lang="eng">
+      <title>Magnetic Ordering and Magnetotransport at Molecular and Nano Scales</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <namePart type="family">Simmons</namePart>
+      <namePart type="given">Danielle Theresa</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/xiong">
+      <namePart type="family">Xiong</namePart>
+      <namePart type="given">Peng</namePart>
+      <role>
+         <roleTerm authority="local" type="text">Professor Directing Dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/shatruk">
+      <namePart type="family">Shatruk</namePart>
+      <namePart type="given">Mykhailo</namePart>
+      <role>
+         <roleTerm authority="local" type="text">University Representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2002162741">
+      <namePart type="family">Bonesteel</namePart>
+      <namePart type="given">N. E.</namePart>
+      <role>
+         <roleTerm authority="local" type="text">Committee Member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/rbaumbach">
+      <namePart type="family">Baumbach</namePart>
+      <namePart type="given">Ryan E.</namePart>
+      <role>
+         <roleTerm authority="local" type="text">Committee Member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2012037971">
+      <namePart type="family">Piekarewicz</namePart>
+      <namePart type="given">Jorge</namePart>
+      <role>
+         <roleTerm authority="local" type="text">Committee Member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Physics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (100 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >The understanding of magnetic materials has become crucial to both fundamental physics and technological advancement. Particularly, the interplay between magnetic and electronic properties has given rise to such novel physics as high temperature superconductivity and colossal magnetoresistance. Some magnetic materials potentially hold the key to the realization of new nanoscale memory and logic devices. Specifically, spintronics and molecular electronics are two fields drawing increasing attention due to their potential to address the ever-increasing need for continued device miniaturization. This dissertation focuses on probing magnetic ordering and magnetotransport at molecular and nano scales utilizing electronic measurement techniques in order to gain further understanding of these complex phenomena. The first project of this dissertation deals with the effect of electronic phase separation (EPS), which is believed to be at the root of several emergent correlated electron phenomena. The goal of this research is to gain further insight into the complex interplay between the magnetic and electronic interactions in the ferromagnetic semimetal EuB6 under applied hydrostatic pressure. Previous studies under ambient pressure have uncovered a remarkable manifestation of EPS in the nonlinear Hall effect of EuB6. The magnetotransport measurements under pressure that we performed revealed an increase in carrier concentration as well as an increase in the critical magnetization needed to instigate the percolation of the phase-separated ferromagnetic entities (magnetic polarons). Also discovered by these measurements was an intermediate state between the paramagnetic insulating phase and the ferromagnetic metallic phase, thereby indicating that the electronic phase separation is even more complicated than previously predicted. Previous work had shown a lattice constriction concomitant with the formation and percolation of magnetic polarons, suggesting that magnetostriction might provide a direct probe of their formation. These results inspired us to measure the magnetostriction of EuB6 under applied pressure in the phase-separated regions. Not only did our measurements show a reduction in the constriction necessary for polaron formation, but also showed lattice expansion above and below the polaron formation temperatures. While hybrid organic-electronic devices hold much promise in a variety of applications, there are several hurdles to overcome before they can be fully integrated. One such family of materials, known as spin-crossover molecules, have high-spin and low-spin states that can be activated thermally and/or through photo excitation. Since each molecule has an independent spin state, devices built from these materials would not rely on long-range magnetic order. Additionally, advancements in molecular nano-patterning and self-assembly make these molecules attractive for bottom-up device integration. On the other hand, the tiny magnetic signals from the change of spin state of a small volume of molecules necessitate more sensitive devices for measuring nano patterns of monolayers of the molecules. In the second project of the dissertation, we demonstrate the feasibility of magnetic measurements of monolayers of spin-crossover molecules. Using a high-sensitivity Hall magnetometry technique, we showed measurements of the light induced excited spin state trapping effect in Fe(ptz)6(BF4)2. These experiments provide clear guidelines for improving the magnetic moment sensitivity by using semiconductor heterostructures free of photoconductivity.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Physics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Degree Awarded">Spring Semester 2019.</note>
+   <note  displayLabel="Date of Defense">January 29, 2019.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Peng Xiong, Professor Directing Dissertation; Michael Shatruk, University Representative; Nicholas Bonesteel, Committee Member; Ryan Baumbach, Committee Member; Jorge Piekarewicz, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh8510165">
+      <topic>Physics</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85030765">
+      <topic>Condensed matter</topic>
+   </subject>
+   <identifier  type="IID">2019_Spring_Simmons_fsu_0071E_13940</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Physics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2019-10-14T16:36:31.241-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

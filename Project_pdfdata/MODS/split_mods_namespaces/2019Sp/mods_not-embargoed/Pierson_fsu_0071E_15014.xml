@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Two Chapters on Firm Insiders</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Pierson</mods:namePart>
+      <mods:namePart type="given">Matthew</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ihutton">
+      <mods:namePart type="family">Hutton</mods:namePart>
+      <mods:namePart type="given">Irena</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Professor Directing Dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/asemykina">
+      <mods:namePart type="family">Semykina</mods:namePart>
+      <mods:namePart type="given">Anastasia</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">University Representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/dautore">
+      <mods:namePart type="family">Autore</mods:namePart>
+      <mods:namePart type="given">Donald M.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/bliu">
+      <mods:namePart type="family">Liu</mods:namePart>
+      <mods:namePart type="given">Baixiao</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Business</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Finance</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (89 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Utilizing a new understanding of firm compliance responses to regulation, I find that Sarbanes-Oxley helped both identify and reduce abnormal returns to informed insider trading. The number of forms insiders file post-SOX increased by 175% per year, causing an 84% increase in firm compliance policies to handle the implicit costs to filing by selecting staff to oversee and orchestrate the trading of insiders. Insiders sign their own insider trading forms identify deviation from firm policy and signal informed insider trading reaping abnormal annualized returns to their purchases (sales) of 9.6% (-10.8%). Using this novel measure to identify informed insider trading, Sarbanes-Oxley cuts abnormal returns nearly in half. I find that SOX does so by limiting insiders’ ability to sequence smaller trades multiple times, a previously undisclosed strategy. Sarbanes-Oxley’s insider trading provisions work as intended—to limit insiders from using their informational advantages to lucratively trade—and it does so by increasing both the amount and speed of disclosure. Furthermore, firm insiders, as a subgroup of the top 1% in U.S. wealth and income, do not follow traditional theoretical savings motives. Using new data on individuals’ use of structured savings products (SSPs), I combine the literatures of individual savings motives and offshoring, which cannot explain the wealthy’s savings and lack strong theoretical motives, respectively. Wealthy individuals are driven by an unstudied motive—asset protection—with those most sensitive to this motive saving 25% more in SSPs, and, conditional on using SSPs, saving $589,660 more per year in these products when facing litigation risk. This relationship is causally identified using the staggered adoption of Domestic Asset Protection Trusts as an exogenous shock to the structured savings options of individuals. Tax avoidance, a motive from the literature on offshoring, provides little benefit to insiders—avoiding 0.076% of taxes—while individuals do not respond to exogenous changes in their tax environment. Bequest preferences, a motive from individual savings, predicts bequests to be at least 89.47% less than their empirically observed estates, leaving most of individuals’ savings unexplained. Moreover, individuals most sensitive to asset protection motives save 5.33 times more in bequest products that retain control over these savings, indicating savings earmarked for bequests may still be revoked. By examining a new motive for savings, asset protection, I unite the two previously separate literatures of individual savings motives and offshoring.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Finance in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Spring Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 8, 2019.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Irena Hutton, Professor Directing Dissertation; Anastasia Semykina, University Representative; Don Autore, Committee Member; Baixiao Liu, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85048256">
+      <mods:topic>Finance</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Spring_Pierson_fsu_0071E_15014</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Finance</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2019-10-14T16:36:31.241-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

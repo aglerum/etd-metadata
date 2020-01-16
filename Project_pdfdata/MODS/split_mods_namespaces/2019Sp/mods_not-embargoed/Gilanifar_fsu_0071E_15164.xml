@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Heterogeneous Data Fusion for Performance Improvement in Electric Power Systems</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Gilanifar</mods:namePart>
+      <mods:namePart type="given">Mostafa</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/hwang10">
+      <mods:namePart type="family">Wang</mods:namePart>
+      <mods:namePart type="given">Hui</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Professor Directing Dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2008021083">
+      <mods:namePart type="family">Moses</mods:namePart>
+      <mods:namePart type="given">Ren</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">University Representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2009109194">
+      <mods:namePart type="family">Ozguven</mods:namePart>
+      <mods:namePart type="given">Eren Erman</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/cpark5">
+      <mods:namePart type="family">Park</mods:namePart>
+      <mods:namePart type="given">Chiwoo</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/avanli">
+      <mods:namePart type="family">Vanli</mods:namePart>
+      <mods:namePart type="given">Omer Arda</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Industrial and Manufacturing Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (153 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The performance of the electric power system determines the cost-effective and reliable energy supply to maintain operations in a city. Electric power system performance improvement is important for utility companies in different aspects from maintenance and reliability to the environment. In a modern city, new monitoring devices are deployed to collect data in the electric power system and other city systems such as transportation. The heterogeneous data collected by new monitoring devices reveal the multi-community interactions in the electric power system and also reveal the interdependencies between different city systems such as electric power system and transportation system. This dissertation research studied the development of data fusion and multi-task learning algorithms in improving short-term load forecasting, fault detection, and rare faulty event detection by leveraging heterogeneous and multi-community data. The theoretical contribution of this study lies in the method selection and comparison for fusing transportation and electricity consumption data, and new methods of capturing between-community relatedness in guiding the knowledge transfer for the learning of Bayesian spatiotemporal Gaussian Process model, fault classification, and semi-supervised learning so that the performance of these algorithms are not limited by the specificity in the dataset and can reduce overfitting issues. The first study aims to forecast the electric load consumption and traffic counts accurately which benefits from the data fusion techniques in order to fill the lack of sufficient data. Accurate forecasting is mostly dependent on sufficient and reliable data. Traditional data collection methods may be necessary but not sufficient due to their limited coverage and expensive cost of implementation and maintenance. The advances in sensor networks and recent technological developments emerge a new opportunity. Specifically, data fusion tools can be used for improving the limited resolution in the data due to limitations on time frame, cost, accuracy, and reliability. In this study, a Bayesian spatiotemporal Gaussian Process model is proposed which employs the most informative spatiotemporal interdependency among its system, and covariates from other city systems. Results obtained from real-world data from the City of Tallahassee in Florida show that the multi-network data fusion framework improves the accuracy of load forecasting, and the proposed model outperforms all the existing methods. The second study is conducted for short-term electricity load forecasting for a residential community in a city which suffers from low-resolution data. Historically, extensive research has been conducted to improve the load forecasting accuracy using single-task machine learning methods, which rely on the information from one single data source. Such methods have limitations with low-resolution data from meters. Fusing the electricity consumption data from multiple communities can improve forecasting accuracy. Recently, an emerging family of machine learning algorithms, multi-task learning (MTL), have been developed and can be utilized for short-term load forecasting. However, appropriate modeling of the relatedness to enable the between-community knowledge transfer remains a challenge. This research proposes an improved MTL algorithm for a Bayesian spatiotemporal Gaussian process model (BSGP) to characterize the relatedness among the different communities in a city. It hypothesizes on the similar impacts of environmental and traffic conditions on electricity consumption in improving the accuracy of short-term electricity load forecasting. Furthermore, this study proposes a low ranked dirty model along with an iterative algorithm to improve the learning of model parameters under an MTL framework. This study used real-world data from two residential communities to demonstrate the proposed method through comparison with state-of-the-art methods. The third study investigates the fault (type) detection in power distribution systems by using the Distribution Phasor Measurement Unit (D-PMU) data. Historically, Traveling-wave and impedance-based methods are among the most notable fault detection techniques. The disadvantage of the impedance methods is that they rely on the knowledge of the network components characteristics. Although Traveling-wave methods have shown to be accurate, they require high-frequency measurements for reliable performance. Such high-resolution measurement data is expensive and may not be available all the times. More recently, D-PMU devices are used to observe better, record, and provide high-resolution voltage and current phasor measurements. In this study, a Multi-task Logistic Low-Ranked Dirty Model (MT-LLRDM) for fault detection is proposed to improve the accuracy by utilizing the similarities in the fault data streams among multiple locations across a power distribution network. The captured similarities supplement the information to the task of fault detection at a location of interest, creating a multi-task learning framework and thereby improving the learning accuracy. The algorithm is validated with real-time D-PMU streams from a hardware-in-the-loop testbed that emulates real field communication and monitoring conditions in distribution networks. Finally, a study is conducted for the fault (type) detection in power distribution systems when data suffers from the lack of labeled data. Supervised multi-task learning methods have limitations when there are a lot of missing data in the target domain especially records on fault data are lacking label. Labeled fault data can be very limited in the target community since fault data labeling is very time-consuming. Therefore, in this study, a multi-task semi-supervised learning method is proposed to simultaneously explore the latent structure in the unlabeled data to learn the labels and leverage the data from multiple locations in the power systems to improve the fault detection.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Industrial and Manufacturing Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Spring Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 15, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">Data Fusion, Electric Power Systems, Multi-task Learning</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Hui Wang, Professor Directing Dissertation; Ren Moses, University Representative; Eren Erman Ozguven, Committee Member; Chiwoo Park, Committee Member; Omer Arda Vanli, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85065864">
+      <mods:topic>Industrial engineering</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85041666">
+      <mods:topic>Electrical engineering</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Spring_Gilanifar_fsu_0071E_15164</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Industrial and Manufacturing Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2019-10-14T16:36:31.241-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

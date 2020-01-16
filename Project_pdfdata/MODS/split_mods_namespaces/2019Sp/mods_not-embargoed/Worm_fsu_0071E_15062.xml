@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Embodied Experiences in the Online Writing Center</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Worm</mods:namePart>
+      <mods:namePart type="given">Anna Marie</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2001108549">
+      <mods:namePart type="family">Fleckenstein</mods:namePart>
+      <mods:namePart type="given">Kristie S.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Professor Directing Dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ajeong">
+      <mods:namePart type="family">Jeong</mods:namePart>
+      <mods:namePart type="given">Allan C.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">University Representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n98010396">
+      <mods:namePart type="family">Graban</mods:namePart>
+      <mods:namePart type="given">Tarez Samra</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2010050868">
+      <mods:namePart type="family">Neal</mods:namePart>
+      <mods:namePart type="given">Michael R.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/sjm10d">
+      <mods:namePart type="family">McElroy</mods:namePart>
+      <mods:namePart type="given">Stephen J.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of English</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (205 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This dissertation responds to several overlapping exigencies. First, online writing instruction is on the rise, and with that rise comes a need for substantive research into methods of online writing support. Writing center scholarship has attempted to keep pace with the growth of OWI; however, stakeholders in online writing instruction, such as the Global Society of Online Literacy Educators (2019), suggest that the field needs further sustained and substantive work, both theoretical and empirical, including the “disembodiment of the [online writing classroom].” This leads to the second exigency: embodiment, the unified experience of mind, body, and environment, has been demonstrated to be an important consideration for digital technology and online communication, digital composition studies, and writing centers. Because these interests intersect in the online writing center, the online writing center is a necessary site of such examination. Thus, this dissertation asks how embodiment manifests in the online writing center for tutors, the practitioners in the space. Specifically, it examines the following questions through a multiple-case study of three tutors in an audio-video-textual tutoring setting: 1) How, if at all, does technological mediation, including matters of interface and the presence of the mediated bodies of student clients, impact tutors’ experiences? 2) How, if at all, do tutors consciously represent their bodies, desire their bodies to be understood, and understand the student clients’ bodies during online tutoring sessions? 3) How, if at all, do tutors’ embodiments, including embodied acts and experiences, manifest in and affect online tutoring sessions? This study finds that, first, for these online writing tutors, place and embodied habits were primary components of the ways in which tutor embodiment shaped and was shaped by their experiences with the technological mediation of the tutoring sessions. Second, tutors desired visible bodies in their representations of self; bodies were a way for tutors to cultivate a sense of authenticity in the appointment, to develop a professional ethos, and to assess the ongoing effectiveness of the session. The final way tutors’ embodied experiences manifested in the online tutoring center was that tutors experienced anxiety regarding the material spaces from which they tutored online. Despite often being invisible outside of breakdown, embodiment is an essential part of the constellation of effective online writing support practices. As a result, it requires not only further theoretical study in online writing center practices but also further integration into tutor preparation.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of English in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Spring Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 29, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">audio-visual-textual tutoring, composition studies, embodiment, online writing center, online writing instruction, writing center</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Kristie S. Fleckenstein, Professor Directing Dissertation; Allan Jeong, University Representative; Tarez Samra Graban, Committee Member; Michael Neal, Committee Member; Stephen J. McElroy, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85113628">
+      <mods:topic>Rhetoric</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Spring_Worm_fsu_0071E_15062</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>English</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2019-10-14T16:36:31.241-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

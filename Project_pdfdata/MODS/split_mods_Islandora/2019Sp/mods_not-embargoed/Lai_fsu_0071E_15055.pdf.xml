@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd"
+           version="3.4">
+   <titleInfo  lang="eng">
+      <title>Tuning Intertwined Energy Scales in f-Electron Systems by Chemical Substitution</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <namePart type="family">Lai</namePart>
+      <namePart type="given">You</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/rbaumbach">
+      <namePart type="family">Baumbach</namePart>
+      <namePart type="given">Ryan E.</namePart>
+      <role>
+         <roleTerm authority="local" type="text">Professor Co-Directing Dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/xiong">
+      <namePart type="family">Xiong</namePart>
+      <namePart type="given">Peng</namePart>
+      <role>
+         <roleTerm authority="local" type="text">Professor Co-Directing Dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/shatruk">
+      <namePart type="family">Shatruk</namePart>
+      <namePart type="given">Mykhailo</namePart>
+      <role>
+         <roleTerm authority="local" type="text">University Representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n78004871">
+      <namePart type="family">Graf</namePart>
+      <namePart type="given">David</namePart>
+      <role>
+         <roleTerm authority="local" type="text">Committee Member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/pschlottman">
+      <namePart type="family">Schlottmann</namePart>
+      <namePart type="given">Pedro U.</namePart>
+      <role>
+         <roleTerm authority="local" type="text">Committee Member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mriley">
+      <namePart type="family">Riley</namePart>
+      <namePart type="given">Mark A.</namePart>
+      <role>
+         <roleTerm authority="local" type="text">Committee Member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Physics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (126 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Materials that contain f-electron elements often exhibit complex phase diagrams with different phenomena including nematic electronic states, charge and spin instabilities, the breakdown of Fermi liquid behavior, and unconventional superconductivity. This diversity of behavior is related to the fine balance between several factors including the magnetic exchange, Kondo effect, crystal electric field splitting and strong spin-orbit coupling. As a result, many such systems exhibit intertwined order parameters that are controllable through pressure, magnetic field, and chemical substitution. Here, we report results from chemical substitution studies in three distinct Kondo lattice systems. In each case, we are able to suppress an ordered state towards zero temperature at a possible quantum phase transition and study the resulting behavior. For CeCu$_2$Si$_2$, Si $\rightarrow$ P chemical substitution compresses the unit cell volume while adding $s/p$ electrons. This encourages complex magnetism and drives the system away from a quantum critical point. These results are understood by considering that the electronic hybridization between the f- and conduction electrons in this system is controlled by nearly independent parameters of unit cell volume and s; p; d shell filling, which drive the system's behavior along different axes. For CePd$_2$P$_2$, Pd $\rightarrow$ Ni substitution suppresses the ferromagnetism towards a disordered ferromagnetic QCP at $x_{\rm{cr}}$ = 0.7, where the breakdown of Fermi liquid behavior is observed. We also find that for CePd$_2$P$_2$, a pressure of $P_{\rm{c}}$ = 12 GPa would likely be sufficient to access a quantum phase transition. These results provide a useful experimental testbed for the Belitz-Kirkpatrick-Vojta (BKV) theory. For UCr$_2$Si$_2$, Cr $\rightarrow$ Ru substitution results in filling of the $d$-shell without significantly changing the unit cell volume. This suppresses the antiferromagnetic order $T_{\rm{N}}$ ($T_{\rm{N}}$ $\approx$ 24 K for UCr$_2$Si$_2$) and the structural phase transition $T_{\rm{S}}$ ($T_{\rm{S}}$ $\approx$ 200 K for UCr$_2$Si$_2$) that are seen in the parent compound. $T_{\rm{N}}$ approaches zero temperature near $x_{\rm{c, N}}$ = 0.08 while $T_{\rm{S}}$ reaches a minimum value near $x_{\rm{c, S}}$ = 0.16, after which the structural phase transition disappears for larger $x$. Near this concentration there is evidence for the breakdown of Fermi liquid behavior in the transport and heat capacity measurements, suggesting that this may be a model system for studying a lattice instability at zero temperature, its relationship to a nearby antiferromagnetic quantum critical point, and the resulting impact on electronic properties and lattice modes in a strongly correlated electron metal.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Physics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Degree Awarded">Spring Semester 2019.</note>
+   <note  displayLabel="Date of Defense">March 28, 2019.</note>
+   <note  displayLabel="Keywords">Chemical Substitution, Quantum Criticality, Strongly Correlated Materials</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Ryan E. Baumbach, Professor Co-Directing Dissertation; Peng Xiong, Professor Co-Directing Dissertation; Mykhailo Shatruk, University Representative; David Graf, Committee Member; Pedro Schlottmann, Committee Member; Mark Riley, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh8510165">
+      <topic>Physics</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85030765">
+      <topic>Condensed matter</topic>
+   </subject>
+   <identifier  type="IID">2019_Spring_Lai_fsu_0071E_15055</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Physics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2019-10-14T16:36:31.241-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

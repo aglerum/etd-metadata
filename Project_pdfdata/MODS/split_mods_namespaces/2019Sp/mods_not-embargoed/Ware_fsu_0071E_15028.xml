@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Effects of Beach and Species Management Actions on the Nesting and Incubation Environment of Sea Turtles in the Northern Gulf of Mexico</mods:title>
+      <mods:nonSort>The</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Ware</mods:namePart>
+      <mods:namePart type="given">Matthew</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mfuentes">
+      <mods:namePart type="family">Fuentes</mods:namePart>
+      <mods:namePart type="given">Mariana</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Professor Directing Dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/miller">
+      <mods:namePart type="family">Miller</mods:namePart>
+      <mods:namePart type="given">Thomas E.</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Professor of Biological Science)</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">University Representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n89605460">
+      <mods:namePart type="family">Chanton</mods:namePart>
+      <mods:namePart type="given">Jeffrey P.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/sburgess">
+      <mods:namePart type="family">Burgess</mods:namePart>
+      <mods:namePart type="given">Scott C.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/dgrubbs2">
+      <mods:namePart type="family">Grubbs</mods:namePart>
+      <mods:namePart type="given">R. Dean</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Earth, Ocean and Atmospheric Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (145 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Sandy beaches are unique environments which offer billions of dollars’ worth of ecosystem services, including among others: storm protection, sediment storage and transport, habitat space for beach-dwelling and nesting species, nutrient cycling, and tourism. Management of coastal systems tends to be anthropocentric – adjusting the coastal environment to suit the needs of human development and use. However, management actions can have important consequences for the natural functioning of these systems, particularly on the species who live or breed on sandy beaches. It is crucial that future management actions balance the economic, aesthetic, and recreational value of these ecosystems to coastal communities and their ecosystem services. Sea turtles offer an excellent case study in this balance. Changes to nesting or incubation conditions from anthropogenic alterations (e.g., artificial lighting, beach renourishment, marine debris) can result in the abandonment of nesting, suffocation or drowning of the embryos, increased feminization or hyperthermia, or death from exhaustion, desiccation, or predation. Understanding how the nesting and incubation environment may change under different beach- or species management actions is critical to ensuring their appropriate use in sea turtle population recovery. This dissertation investigated how two management actions affect the nesting and reproductive output of sea turtles: 1) sea turtle nest relocation (Chapter 2) including the assessment of inundation risk (Chapters 3 and 4) and 2) Leave No Trace ordinances (Chapter 5). Nest relocation is a common approach used to reduce losses due to inundation, erosion, poaching, and other terrestrial threats; however, there are concerns that this strategy may alter the incubating environment of the developing embryos, and thus affect proper hatchling development and fitness. In Chapter 2, I examined potential differences in inundation exposure, sand temperature, moisture content, and grain size between paired original-relocated nest sites as well as hatchling production between in situ and relocated nests. The incubating environment between original-relocated pairs were comparable, though relocation offered a minimal net benefit as it decreased emergence success and did not reduce the likelihood of inundation. More nests were being moved than are necessary, indicating additional information is needed to identify high-risk nesting sites. To better identify nests at-risk of wave exposure which are suitable for relocation, a wave runup model was developed using historical beach elevation, offshore wave, and tide data (Chapter 3). Wave runup modeling proved effective at identifying washed over nesting sites (83%). The best choice of beach slope used in the assessment varied depending on whether the user was interested in presence of wash-over or the frequency of wave wash-over at a site. An updated digital elevation model (DEM) was not necessary as the time-averaged DEM performed better than, or comparable to, those using the most recent LiDAR survey. A more complete understanding of sea turtle embryonic tolerance to inundation would improve high-risk site identification. HOBO U20L-04 water level loggers were tested in situ to evaluate their potential to provide this inundation tolerance information versus existing PVC-based equipment at paired experimental sites and when deployed adjacent to nests (Chapter 4). The HOBO loggers could provide high resolution observations of inundation frequency, duration, and severity which can inform nest productivity; however, their high cost will limit the scale of their deployment. In a complementary role, the low-cost PVC-based design can be mass-produced and deployed across a wide spatial scale but at a reduced data resolution – the balance between the use of these equipment will depend on the resources of the monitoring agency and the specific research question. Sea turtle population recovery is predicated not just on our ability to reduce losses of developing embryos, but on the continued availability of suitable nesting habitat itself. Leave No Trace ordinances are increasingly being used to combat the issue of marine debris including abandoned beach equipment (Chapter 5). Nesting success and obstructed crawl frequency were compared before and after the implementation of the ordinance at control and treatment beach segments in a BACIPS design. The ordinances had mixed success – though obstructed crawls did decline after the ordinance in Gulf Shores and Orange Beach, the presence of an obstruction did not influence a turtle’s decision to nest and nesting success declined after the ordinance across the study area due to natural variation. More time and/or increased compliance may be necessary for improvements in nesting success to materialize. These management actions appeared to have only small effects on sea turtle hatchling production and population growth rates in the northern Gulf of Mexico. But as charismatic megafauna and valuable ecosystem service providers, their continued conservation based on the provision of suitable environmental conditions serves as an important example of the need to balance anthropocentric coastal zone management with ecosystem function.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Earth, Ocean and Atmospheric Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Spring Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 29, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">endangered species conservation, inundation, Leave No Trace, marine debris, nest relocation, sea turtle</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Mariana M. P. B. Fuentes, Professor Directing Dissertation; Thomas E. (Tom) Miller, University Representative; Jeffrey P. Chanton, Committee Member; Scott Burgess, Committee Member; Dean Grubbs, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85081138">
+      <mods:topic>Marine biology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85146731">
+      <mods:topic>Wildlife conservation</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh95010683">
+      <mods:topic>Environmental management</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Spring_Ware_fsu_0071E_15028</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2019-10-14T16:36:31.241-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

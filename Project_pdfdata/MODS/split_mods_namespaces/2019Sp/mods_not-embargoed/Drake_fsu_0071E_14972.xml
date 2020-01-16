@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Carbon Biogeochemistry of Pristine and Impacted Catchments of the Congo Basin</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Drake</mods:namePart>
+      <mods:namePart type="given">Travis William</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2016068194">
+      <mods:namePart type="family">Spencer</mods:namePart>
+      <mods:namePart type="given">Robert G. M.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Professor Directing Dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/tzhao">
+      <mods:namePart type="family">Zhao</mods:namePart>
+      <mods:namePart type="given">Tingting</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">University Representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n89605460">
+      <mods:namePart type="family">Chanton</mods:namePart>
+      <mods:namePart type="given">Jeffrey P.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mfuentes">
+      <mods:namePart type="family">Fuentes</mods:namePart>
+      <mods:namePart type="given">Mariana</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jsix">
+      <mods:namePart type="family">Six</mods:namePart>
+      <mods:namePart type="given">Johan</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">Committee Member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Earth, Ocean and Atmospheric Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2018</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (158 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Inland waters receive significant inputs of organic and inorganic carbon (OC and IC) from terrestrial ecosystems. This water-borne carbon (C) is subsequently stored, processed, outgassed, or exported downstream depending a suite of biogeochemical controls. These processes are increasingly well-constrained in temperate systems, but our global models are hindered by a lack of quantitative and mechanistic understanding of the tropics. Within the tropics, there is no larger knowledge-gap than the Congo Basin. Although the Congo is still mostly pristine, increasing rates of deforestation threaten to mobilize soil organic carbon (SOC) to rivers, albeit with unknown fate. Here I present seasonal data from a pristine montane forest system in the Congo Basin that highlights the onset of the wet season as a key period for C export. Results from this pristine system show a flushing of boilable and heterogeneous dissolved organic matter (DOM) during the first seasonal rains. Ultimately, this novel dataset provides a baseline against which to assess future change. To examine the effect of deforestation on stream C biogeochemistry in the Congo, I employed a paired-watershed approach in which catchments with varying degrees of forest loss were compared to pristine, primary forest endmembers in both lowland and montane forest ecosystems. Carbon from deforested catchments was old, aliphatic, and biolabile, exhibiting a composition similar to that of microbial biomass and SOC from deep horizons. Deforested streams were also warmer, lower in dissolved oxygen, and more supersaturated in carbon dioxide, potentially reflecting higher rates of in-situ OC respiration relative to forested catchments. Together, these results suggest that destabilized SOC may be respired and vented through the aquatic pathway following deforestation and land-use conversion to agriculture. Lastly, to uncover the source of condensed aromatics present in streams draining both lowland and montane pristine forest catchments, the seasonal composition of wet and dry deposition in a lowland forest was assessed. The deposition of nitrogen and condensed aromatic compounds was associated with the seasonal burning of savanna-woodland biomass, indicating the widespread effect of slash-and-burn agriculture on the interior biogeochemistry of the Congo basin. The results presented in this thesis provide new insight into the effects of seasonality, deforestation, and fire on the carbon cycle of a major and understudied tropical watershed.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Earth, Ocean and Atmospheric Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Fall Semester 2018.</mods:note>
+   <mods:note displayLabel="Date of Defense">December 7, 2018.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Robert G. M. Spencer, Professor Directing Dissertation; Tingting Zhao, University Representative; Jeffrey P. Chanton, Committee Member; Mariana Fuentes, Committee Member; Johan Six, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85022928">
+      <mods:topic>Chemical oceanography</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Spring_Drake_fsu_0071E_14972</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2019-10-14T16:36:31.241-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>
