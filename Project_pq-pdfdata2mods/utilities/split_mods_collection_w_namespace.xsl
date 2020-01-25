@@ -37,9 +37,9 @@
         
         <!-- Use these templates below of spliting file into Embargoed and not embargoed -->
         <xsl:for-each select="mods:modsCollection/mods:mods">
-                <xsl:variable name="filename" select="concat(mods:note[@displayLabel = 'filename'], '.xml')"/>
+                <xsl:variable name="filename" select="concat(substring-before(mods:note[@displayLabel = 'filename'],'.pdf'), '.xml')"/>
             <xsl:for-each select=".[mods:note[@displayLabel = 'embargo'] = 0]">
-                <xsl:result-document href="split_mods_namespaces/2019Sp/mods_not-embargoed/{$filename}">
+                <xsl:result-document href="MODS/split_mods_namespaces/2019Su/mods_not-embargoed/{$filename}">
                     <mods:mods xmlns="http://www.loc.gov/mods/v3" 
                         xmlns:flvc="info:flvc/manifest/v1"
                         xmlns:dcterms="http://purl.org/dc/terms/"
@@ -54,7 +54,7 @@
                 </xsl:result-document>
         </xsl:for-each>
             <xsl:for-each select=".[mods:note[@displayLabel = 'embargo'] != 0]">
-                <xsl:result-document href="split_mods_namespaces/2019Sp/mods_embargoed/{$filename}">
+                <xsl:result-document href="MODS/split_mods_namespaces/2019Su/mods_embargoed/{$filename}">
                     <mods:mods xmlns="http://www.loc.gov/mods/v3" 
                         xmlns:flvc="info:flvc/manifest/v1"
                         xmlns:dcterms="http://purl.org/dc/terms/"
