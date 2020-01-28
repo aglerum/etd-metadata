@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Workload Adaptation Dynamics</mods:title>
+      <mods:subTitle>The Integrative Role of Cognitive-Perceptual-Affective-Motivational Variables and Exertion Tolerance</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Alvarez-Alvarado</mods:namePart>
+      <mods:namePart type="given">Stacey</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n92114025">
+      <mods:namePart type="family">Tenenbaum</mods:namePart>
+      <mods:namePart type="given">Gershon</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/rhickner">
+      <mods:namePart type="family">Hickner</mods:namePart>
+      <mods:namePart type="given">Robert C.</mods:namePart>
+      <mods:namePart type="date">1962-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/gchow">
+      <mods:namePart type="family">Chow</mods:namePart>
+      <mods:namePart type="given">Graig Michael</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2018120684">
+      <mods:namePart type="family">Gabana</mods:namePart>
+      <mods:namePart type="given">Nicole T.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Education</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Educational Psychology and Learning Systems</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (103 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Overwhelming evidence demonstrates exercising regularly decreases the risk for clinical diseases. One possible explanation for the low exercise adherence rates is the perceptual-cognitive-affective responses that accompany the exercise experience. The dynamics by which these psychological states change as a function of physical effort and related physiological responses have been addressed separately in various conceptual frameworks. Yet, the previous integrative model neglects the crucial role of motivation to adhere and the disposition of exertion tolerance (ET), factors that influence and are influenced by perceived and sustained effort. The purpose of the current study is to expand the scope of the integrated cognitive-perceptual-affective conceptual framework with the motivation to adhere to effort, for the duration of two physical tasks, and when accounting for ET. Thirty male participants performed a constant power cycling test and isometric handgrip test to assess the progression of the rate of perceived exertion, attentional focus, affect, motivation to adhere, and felt arousal along a parallel increase in physiological indicators. The ventilatory threshold was used as a reference point during the aerobic task, while ET was indicated by handgrip task time-to-voluntary exhaustion. Findings indicated significant time effects and linear trends for perceived exertion, attentional focus, affect, and felt arousal, but not motivation to adhere during the handgrip and cycling tasks. ET played a key role in the integrity of the model. Higher ET individuals experienced more positive affective valence and motivation to adhere than those with moderate and lower ET. The intended comprehensive model is primarily proposed to stimulate new research into the mechanisms of adaptation; especially considering clinical populations where future exercise behavior adherence is fundamental.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Educational Psychology and Learning Systems in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 16, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">aerobic exercise, affective responses, attentional focus, perception of exertion, psychophysiology</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Gershon Tenenbaum, Professor Directing Dissertation; Robert C. Hickner, University Representative; Graig M. Chow, Committee Member; Nicole T. Gabana, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85108484">
+      <mods:topic>Psychophysiology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85072383">
+      <mods:topic>Kinesiology</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_AlvarezAlvarado_fsu_0071E_15364</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Educational Psychology and Learning Systems</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

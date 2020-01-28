@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo xmlns="" lang="eng">
+      <title>Evaluation of Four Methods for Determining the Number of Factors Underlying Measurement Indicators under the Presence of Guessing Effects</title>
+      <nonSort>An</nonSort>
+   </titleInfo>
+   <name xmlns="" type="personal" authority="local">
+      <namePart type="family">Cukadar</namePart>
+      <namePart type="given">Ismail</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/yyang3">
+      <namePart type="family">Yang</namePart>
+      <namePart type="given">Yanyun</namePart>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2013073385">
+      <namePart type="family">Huffer</namePart>
+      <namePart type="given">Fred W. (Fred William)</namePart>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n87152824">
+      <namePart type="family">Becker</namePart>
+      <namePart type="given">Betsy Jane</namePart>
+      <namePart type="date">1956-</namePart>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2007115316">
+      <namePart type="family">Binici</namePart>
+      <namePart type="given">Salih</namePart>
+      <namePart type="date">1974-</namePart>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2019021256">
+      <namePart type="family">Paek</namePart>
+      <namePart type="given">Insu</namePart>
+      <namePart type="termsOfAddress">(Professor of measurement and statistics)</namePart>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name xmlns="" type="corporate" authority="local">
+      <namePart>College of Education</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name xmlns="" type="corporate" authority="local">
+      <namePart>Department of Educational Psychology and Learning Systems</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource xmlns="">text</typeOfResource>
+   <genre xmlns="" authority="rdacontent">text</genre>
+   <genre xmlns=""
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo xmlns="">
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language xmlns="">
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription xmlns="">
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (152 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract xmlns="">In factor analysis, determining the number of factors underlying measurement indicators is important. An incorrect decision on the number of factors may mislead practitioners in terms of estimating parameters in factor analysis, reporting students' scores, calibrating items through an item response theory model, equating or linking different test forms, estimating reliability, examining differential item functioning, and investigating validity. Exploratory factor analysis, parallel analysis, Kaiser's rule, and Cattell's scree test are commonly used methods for deciding on the number of factors in educational and psychological assessments. When a test consists of multiple-choice or ordinal-scaled items, some test takers might find the correct answers to the items through guessing. The guessing effect might impact the correlation coefficients among items. Thus, it might also impact the decisions on the number of factors via exploratory factor analysis, parallel analysis, Kaiser's rule, and Cattell's scree test. These four methods do not consider the guessing effects through modeling a guessing parameter when examining the dimensionality of data. The main purpose of this study is to investigate the impact of guessing on the performance of exploratory factor analysis, parallel analysis, Kaiser's rule, and Cattell's scree test in determining the number of factors underlying measurement indicators. Among these four methods, Cattell's scree test is a subjective method because the determination of the elbow point in the scree plot requires the user to make a judgmental call. Therefore, another purpose of this study is to propose a method that may allow for a more objective evaluation of Cattell's scree test, specifically, through calculating angles in the scree plot. A Monte Carlo study was conducted to examine the performance of exploratory factor analysis, Kaiser's rule, parallel analysis, and the revised scree test in determining the dimensionality of data when guessing effects were present. The following design factors were manipulated: factor structure, sample size, test length, the number of factors, values of the pseudo-guessing parameters, and the correlation between factors. The study results showed that all four methods performed worse for determining the number of factors under the presence of guessing effects than under the absence of guessing effect. In other words, none of the four methods was robust to the presence of guessing effects. Among the four methods, parallel analysis performed the best. The study results also showed that all four methods tended to retain fewer factors as the guessing effects became greater. Across all levels of guessing effects, parallel analysis was the best method for identifying the number of factors under conditions with simple structures, while exploratory factor analysis using the chi-square difference test was the best method for determining the dimensionality of bifactor models. In terms of the methods for estimating polychoric correlations, the maximum likelihood and Bayesian methods performed almost identically and led to similar estimated numbers of factors via the four methods. The current study design indicated that two different cutoff values were reasonable to use for determining the number of factors via the revised Cattell's scree test: 161 for simple-structure models and 173 for bifactor models. The revised Cattell's scree test performed better for determining the number of factors under conditions with simple structures than with bifactor models using these two cutoff values. Although practitioners and researchers may consider using the revised Cattell's scree test to evaluate a scree plot in a more objective way, it is important to use the indicated cutoff values with caution in that they may not be applicable under other study conditions.</abstract>
+   <note xmlns="" displayLabel="Submitted Note">A Dissertation submitted to the Department of Educational Psychology and Learning Systems in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note xmlns="" displayLabel="Degree Awarded">Spring Semester 2019.</note>
+   <note xmlns="" displayLabel="Date of Defense">April 18, 2019.</note>
+   <note xmlns="" displayLabel="Keywords">Cattell's scree test, Exploratory factor analysis, Guessing effects, Kaiser's rule, Number of factors, Parallel analysis</note>
+   <note xmlns="" displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note xmlns="" displayLabel="Advisory Committee">Yanyun Yang, Professor Directing Dissertation; Fred W. Huffer, University Representative; Betsy J. Becker, Committee Member; Salih Binici, Committee Member; Insu Paek, Committee Member.</note>
+   <subject xmlns=""
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85041154">
+      <topic>Educational tests and measurements</topic>
+   </subject>
+   <identifier xmlns="" type="IID">2019_Summer_Cukadar_fsu_0071E_15052</identifier>
+   <extension xmlns="">
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Educational Psychology and Learning Systems</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo xmlns="">
+      <recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

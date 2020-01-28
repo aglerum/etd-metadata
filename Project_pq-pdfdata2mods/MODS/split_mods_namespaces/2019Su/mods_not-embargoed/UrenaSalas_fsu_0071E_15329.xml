@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Disablement Process of Aging United States Veterans</mods:title>
+      <mods:nonSort>The</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Urena Salas</mods:namePart>
+      <mods:namePart type="given">Stephanie</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2005111038">
+      <mods:namePart type="family">Taylor</mods:namePart>
+      <mods:namePart type="given">Miles G.</mods:namePart>
+      <mods:namePart type="date">1976-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n98075320">
+      <mods:namePart type="family">Joiner</mods:namePart>
+      <mods:namePart type="given">Thomas</mods:namePart>
+      <mods:namePart type="termsOfAddress">Jr.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n81027135">
+      <mods:namePart type="family">Quadagno</mods:namePart>
+      <mods:namePart type="given">Jill S.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2006097242">
+      <mods:namePart type="family">Carr</mods:namePart>
+      <mods:namePart type="given">Dawn C.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mmcfarland">
+      <mods:namePart type="family">McFarland</mods:namePart>
+      <mods:namePart type="given">Michael J.</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Sociology professor)</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Social Sciences and Public Policy</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Sociology</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (115 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Older United States (U.S.) veterans are a population at risk for disability due to their early life experiences with military service and increasing age. Military service was a normative part of early adult life for today's older U.S. population, bringing the number of veterans aged 60 and older in 2015 to over 9.3 million. Despite older veterans' lived experience, substantial population size, and potential impact on the U.S. health care system, the details of their later-life disability experience are not well understood. The following project uses the nationally representative, longitudinal Health and Retirement Study (HRS) to examine the role of veteran status on the disablement process of veterans compared to nonveterans over a decade (2004-2014), including an exploration of the underlying life course mechanisms influencing disablement, with the goal of providing a recent look at the long-term physical health consequences of military service. Chapter 3 establishes the occurrence of an observable veteran health paradox among HRS respondents 60 years and older. I unpack the components of the disablement process of veterans compared to nonveterans by creating separate baseline 10-year trajectories for number of chronic conditions, disability, and mortality, including veteran status, age, race, and father's education in the model. Three different disability trajectories were measured to capture the gradual progression and severity of disability: functional limitations (FLs), instrumental activities of daily living (IADLs), and activities of daily living (ADLs) which are considered the most severe manifestation of disability. The trajectories depict counterintuitive results: veterans have more chronic conditions but less self-reported FLs, IADLs, and ADLs compared to nonveterans. This finding stands in contrast to the progression of disablement described by Verbrugge and colleagues in the aging and disability literature. Veterans in this sample are also observed to experience a marginally lower risk of mortality at baseline but a significantly greater increasing risk of mortality over time compared to nonveterans, such that veterans have a survival deficit over the majority of the analytic period. The results of more chronic conditions, lower disability, and higher mortality suggest that veterans may die from diseases rather than becoming disabled. These findings are counterintuitive to the traditional disablement process and strongly suggest a veteran health paradox. Chronic conditions appear to play a crucial role within the disablement process of veterans, and they may hold answers to their overall disablement experience, so they are further tested in Chapter 4. Chapter 4 uses the same analytic sample from Chapter 3 to conduct a closer examination of chronic conditions and their role in the observed veteran health paradox. An interaction term for number of chronic conditions and veteran status (chronic conditions * veteran status) along with sociodemographic predictors and life course pathways are added to the trajectory models, which are also run separately with dichotomous variables of seven specific chronic conditions (arthritis, cancer, diabetes, heart disease, hypertension, lung disease, and stroke) and their corresponding interaction with veteran status (specific chronic condition * veteran status). The findings suggest that veterans have less disability despite having more chronic conditions than nonveterans. Veterans, specifically those who self-reported having chronic conditions, seem to have an initial advantage in mortality that diminishes to meet the level of mortality for nonveterans by the end of the analytic period. Further inspection of chronic conditions and life course mechanisms suggest the interaction between veteran status and chronic conditions is driving the effects, with arthritis, diabetes, and heart disease standing out as significant in translating to lower disability (i.e. functional limitations) for veterans compared to their nonveteran counterparts. Exploration of covariates and life course pathways establish socioeconomic status, marriage, and health care access as independently protective mechanisms by which veterans fare better in the disablement process than nonveterans. These findings support the existence of an observed veteran health paradox within the sample and further highlight that the early stages of the disablement process play a key role in disability outcomes for veterans compared to nonveterans. The evidence for the veteran health paradox is new to the aging literature and reinforces the notion that veteran status is still a hidden variable with complex associations that may substantially alter results of population-level studies of health and disability processes. Acknowledgement of the nuanced disablement process of veterans is important for targeting prevention of chronic disease and disability, reduction of healthcare costs, and planning for the future of veteran-specific and population-level disability. This study is intended to make improvements in the overall health equity of U.S. veterans by informing researchers and policy-makers of their paradoxical disablement process and the importance of early stages of disablement to their later-life disability outcomes. Of note, the results highlight the need to tailor the chronic condition and disability management of older adults to their unique early-life experiences and the potential for early intervention to mitigate the onset of disability in later life. Further research is needed to deepen our understanding of the unique disablement process of veterans compared to nonveterans. Mechanisms stemming from specific service-related experiences—combat, environmental hazards, duration of service (career veterans vs. non-career veterans)—should be explored when possible. Differential onset of disability and differential health care access and utilization of veterans compared to nonveterans should also be explored as potential mechanisms for the observed veteran health paradox. All future research should strive for the use of nationally representative, longitudinal samples that include a marker for veteran status, and should use prospective veteran cohorts to document how younger veteran cohorts experience disablement and forecast how healthcare should adapt to their changing needs.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Sociology in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 10, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">Health &amp; Retirement Study, Veterans</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Miles G. Taylor, Professor Directing Dissertation; Thomas E. Joiner, University Representative; Jill B. Quadagno, Committee Member; Dawn C. Carr, Committee Member; Michael J. McFarland, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85002201">
+      <mods:topic>Aging</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85108638">
+      <mods:topic>Public health</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_UrenaSalas_fsu_0071E_15329</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Sociology</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

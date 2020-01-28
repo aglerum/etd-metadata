@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Mass Conserving Hamiltonian-Structure-Preserving Reduced Order Modeling for the Rotating Shallow Water Equations Discretized by a Mimetic Spatial Scheme</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Sockwell</mods:namePart>
+      <mods:namePart type="given">K. Chad (Kenneth Chad)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n88247645">
+      <mods:namePart type="family">Gunzburger</mods:namePart>
+      <mods:namePart type="given">Max D.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/wahl">
+      <mods:namePart type="family">Wahl</mods:namePart>
+      <mods:namePart type="given">Horst</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jpeterson">
+      <mods:namePart type="family">Peterson</mods:namePart>
+      <mods:namePart type="given">Janet S.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/bquaife">
+      <mods:namePart type="family">Quaife</mods:namePart>
+      <mods:namePart type="given">Bryan</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/chuang3">
+      <mods:namePart type="family">Huang</mods:namePart>
+      <mods:namePart type="given">Chen</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Professor of Scientific Computing)</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Scientific Computing</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (134 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Ocean modeling, in a climate-modeling context, requires long time-horizons over global scales, which when combined with accurate resolution in time and space makes simulations very time-consuming. While high-resolution ocean-modeling simulations are still feasible on large HPC machines, performing uncertainty quantification or other many query applications at these resolutions is no longer feasible. Developing a more efficient model would allow for efficient uncertainty quantification, data assimilation, and spinup initializations. For these techniques to be feasible in practice, a faster model must be designed which can still attain sufficient accuracy. Techniques such as reduced order modeling produce an efficient reduced model based on existing high-resolution simulation data. Models produced by these techniques provide a tremendous speedup at the cost of reduced accuracy. To offset this trade-off, novel strategies are developed to retain as much accuracy as possible while still achieving tremendous speedups. Some of these methods improve accuracy by incorporating physical properties into the reduced model, leading to better solution quality. In this dissertation, a novel reduced order modeling method, the Hamiltonian-structure-preserving reduced order modeling method, will be derived and analyzed. The Hamiltonian structure is possessed by many physical systems and is directly related to energy conservation. This method produces a reduced model which retains the Hamiltonian structure of non-canonical Hamiltonian systems, which are the category of systems that many ocean models fall into. Error estimates are proven for the new method. The model is also be made to preserve linear invariants in the reduced model which are Casimirs. Casimirs are a class of special conserved quantities in the Hamiltonian Framework. For ocean-modeling, the Casimirs we consider are mass and potential vorticity. The new reduced model is proven to conserve both of these quantities. The model is also implemented in a special inner product derived from the Hamiltonian Framework, the approximate energy inner product. This special inner product not only improves the accuracy of the new method but also improves the accuracy of the traditional reduced order modeling method and leads to favorable analytical properties for problems with quadratic Hamiltonian functionals. The new method will be applied to the rotating shallow water equations, which act as a proxy to real ocean models, and compared to the traditional reduced order modeling method. Both energy conserving and forced test-cases are considered where energy conservation, accuracy, and stability are investigated. Special techniques are also implemented to ensure that the new method is as efficient as possible.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Scientific Computing in partial fulfillment of the requirements for the degreee of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">May 16, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">Casimirs, Hamiltonian structure preserving, Linear invariants, Ocean Modeling, Reduced order modeling, Rotating Shallow Water Equations</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Max Gunzburger, Professor Directing Dissertation; Horst Wahl, University Representative; Janet Peterson, Committee Member; Bryan Quaife, Committee Member; Chen Huang, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh93002523">
+      <mods:topic>Applied mathematics</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_Sockwell_fsu_0071E_15277</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Scientific Computing</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

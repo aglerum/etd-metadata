@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo xmlns="" lang="eng">
+      <title>Towards Terrain-Adaptive Feedback Control for Legged Locomotion via Understanding of Dynamic Interaction with Uncertain Rough Terrains</title>
+   </titleInfo>
+   <name xmlns="" type="personal" authority="local">
+      <namePart type="family">Gao</namePart>
+      <namePart type="given">Wei</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/clarkj">
+      <namePart type="family">Clark</namePart>
+      <namePart type="given">Jonathan E.</namePart>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/rroberts">
+      <namePart type="family">Roberts</namePart>
+      <namePart type="given">Rodney G.</namePart>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/woates">
+      <namePart type="family">Oates</namePart>
+      <namePart type="given">William</namePart>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/phollis">
+      <namePart type="family">Hollis</namePart>
+      <namePart type="given">Patrick J.</namePart>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2008023817">
+      <namePart>FAMU-FSU College of Engineering (Tallahassee, Fla.)</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name xmlns="" type="corporate" authority="local">
+      <namePart>Department of Mechanical Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource xmlns="">text</typeOfResource>
+   <genre xmlns="" authority="rdacontent">text</genre>
+   <genre xmlns=""
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo xmlns="">
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language xmlns="">
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription xmlns="">
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (128 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract xmlns="">Legged locomotion is advantageous on difficult natural terrains due to it only requiring discrete ground contacts. Biological systems with limbs have developed multiple levels of control to afford such fast and robust legged locomotion. Similarly, bio-inspired controls on legged robots can also be divided into equivalent levels. The high-level controllers, including the brain and the reflex level controllers, process the environmental information and communicate with muscles that are denoted as low-level controllers, or the preflex level controllers. The low-level controllers then directly contribute to dynamics of the legs. Currently, various low-level controllers have been developed and shown to have the capability of overcoming rough but certain terrains, i.e. terrains with height variation but are infinitely hard. However, uncertain rough terrains universally exist in the natural world. To traverse such terrains, the high-level controllers need to estimate terrain characteristics and adjust the low-level controllers to accommodate the terrain changes as the robots are operating. This dissertation provides the necessary techniques to create a feedback control routine to accomplish such high-level tasks and achieve terrain-adaptive legged locomotion. It starts from studying the effect of leg stiffness and damping on locomotion performance, which necessitates careful leg design for successful legged locomotion and advanced low-level leg controllers for improved performance. The direct collocation method is then introduced to optimize spring modulation trajectories as an advanced leg controller. However, the power of the optimization results cannot be sufficiently exploited unless terrain characteristics are known beforehand. As a result, the Maximum Entropy method is developed to estimate terrain characteristics using data from sensors onboard. This method allows fusion of data from heterogeneous sources to obtain objective uncertainty quantification of terrain characteristics. With the statistical information about terrain characteristics from the Maximum Entropy method, the routine can finally update the low-level leg controller such that the robots can survive traversing uncertain rough terrains.</abstract>
+   <note xmlns="" displayLabel="Submitted Note">A Dissertation submitted to the Department of Mechanical Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note xmlns="" displayLabel="Degree Awarded">Summer Semester 2019.</note>
+   <note xmlns="" displayLabel="Date of Defense">July 9, 2019.</note>
+   <note xmlns="" displayLabel="Keywords">legged locomotion, legged robots, spring modulation, terrain adaptive, uncertainty quantification, viscoelastic legs</note>
+   <note xmlns="" displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note xmlns="" displayLabel="Advisory Committee">Jonathan E. Clark, Professor Directing Dissertation; Rodney G. Roberts, University Representative; William S. Oates, Committee Member; Patrick J. Hollis, Committee Member.</note>
+   <subject xmlns=""
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85082757">
+      <topic>Mechanical engineering</topic>
+   </subject>
+   <identifier xmlns="" type="IID">2019_Summer_Gao_fsu_0071E_15365</identifier>
+   <extension xmlns="">
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Mechanical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo xmlns="">
+      <recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

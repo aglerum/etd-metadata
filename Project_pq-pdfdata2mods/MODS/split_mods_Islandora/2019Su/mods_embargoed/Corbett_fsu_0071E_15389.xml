@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo xmlns="" lang="eng">
+      <title>Simulation Studies of Oxidized Human Thioredoxin Ionization</title>
+   </titleInfo>
+   <name xmlns="" type="personal" authority="local">
+      <namePart type="family">Corbett</namePart>
+      <namePart type="given">Karen M. (Karen Marie)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/yang">
+      <namePart type="family">Yang</namePart>
+      <namePart type="given">Wei</namePart>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/nb2002004599">
+      <namePart type="family">Schlenoff</namePart>
+      <namePart type="given">Joseph B.</namePart>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n92093357">
+      <namePart type="family">Hoekman</namePart>
+      <namePart type="given">Timothy</namePart>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mestroupe">
+      <namePart type="family">Stroupe</namePart>
+      <namePart type="given">M. Elizabeth (Margaret Elizabeth)</namePart>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/rsilvers">
+      <namePart type="family">Silvers</namePart>
+      <namePart type="given">Robert</namePart>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name xmlns="" type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name xmlns="" type="corporate" authority="local">
+      <namePart>Institute of Molecular Biophysics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource xmlns="">text</typeOfResource>
+   <genre xmlns="" authority="rdacontent">text</genre>
+   <genre xmlns=""
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo xmlns="">
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language xmlns="">
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription xmlns="">
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (260 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract xmlns="">Protein residue ionization often plays a vital role in protein function, such as enzyme catalysis and pH-dependent structural changes. Inadequate conformational and protonation state sampling in molecular dynamics (MD) simulations has limited the accuracy of predictions of residue pKa values and structural change concomitant to residue ionization state change. As part of an ongoing effort in the Yang lab to address this conformational sampling issue, we developed a novel enhanced sampling MD simulation method, called adaptive dynamic reporting (ADR). In this thesis, we show that the ADR method has excellent accuracy, precision, and convergence time for a wide range of simulation parameter sets and order parameters, compared to previously established methods. Next, using ADR-based high-order orthogonal space tempering (OST) methods, we studied a number of ionization-dependent properties for all human oxidized C62A/C69A/C73A thioredoxin ionizable residues. To carry our this study, we developed a novel alchemical OST pKa titration scheme: 1) to sample the relevant protonation microstates of thioredoxin, and 2) to calculate the microscopic pKa values, protonation microstate populations, titration curves, and apparent pKa for all human oxidized C62A/C69A/C73A thioredoxin ionizable residues. The OST pKa simulations accurately predict the apparent pKa values for each of these residues. Moreover, from our OST pKa simulations we identified novel thioredoxin conformations and dynamics corresponding to biologically essential ionization states. These long-timescale, ionization-coupled motions observed were in good agreement with NMR spectroscopy observations of homologous thioredoxin. In addition, we were able to utilize the observed the ionization-coupled dynamics of human oxidized C62A/C69A/C73A thioredoxin to identify possible sources of the pKa shifts for several titratable residues. We then studied ionization coupling between residues using their deprotonation free energies. Several interacting residues showed nonlinear deprotonation free energies over various pH ranges. In summary, there are four main contributions in this dissertation. First, we developed and analyzed a novel, rigorous, and widely-applicable enhanced sampling method, ADR. Second, we developed a novel titration scheme, and in combination with OST pKa simulations, calculated and analyzed all of the residue microscopic pKa values in human oxidized C62A/C69A/C73A thioredoxin. Third, we established how the hierarchical dynamics of thioredoxin are constructed to respond to external pH perturbations by characterizing novel protonation-dependent dynamics of thioredoxin. Finally, we extensively studied inter-residue ionization cooperativity in thioredoxin by calculating residue deprotonation free energies and by analyzing the dynamics of thioredoxin coupled to the ionization of these residues.</abstract>
+   <note xmlns="" displayLabel="Submitted Note">A Dissertation submitted to the Institute of Molecular Biophysics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note xmlns="" displayLabel="Degree Awarded">Summer Semester 2019.</note>
+   <note xmlns="" displayLabel="Date of Defense">July 11, 2019.</note>
+   <note xmlns="" displayLabel="Keywords">Enhanced Sampling, Ionization, pKa, Protonation, Thioredoxin</note>
+   <note xmlns="" displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note xmlns="" displayLabel="Advisory Committee">Wei Yang, Professor Directing Dissertation; Joseph B. Schlenoﬀ, University Representative; Timothy Cross, Committee Member; M. Elizabeth Stroupe, Committee Member; Robert Silvers, Committee Member.</note>
+   <subject xmlns=""
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85014253">
+      <topic>Biophysics</topic>
+   </subject>
+   <subject xmlns=""
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85023027">
+      <topic>Chemistry, Physical and theoretical</topic>
+   </subject>
+   <identifier xmlns="" type="IID">2019_Summer_Corbett_fsu_0071E_15389</identifier>
+   <extension xmlns="">
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Molecular Biophysics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo xmlns="">
+      <recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

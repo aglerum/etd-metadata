@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo xmlns="" lang="eng">
+      <title>Large-Scale Multi-Target Tracking Problem for Interacting Targets</title>
+   </titleInfo>
+   <name xmlns="" type="personal" authority="local">
+      <namePart type="family">Vo</namePart>
+      <namePart type="given">Garret Dan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/cpark5">
+      <namePart type="family">Park</namePart>
+      <namePart type="given">Chiwoo</namePart>
+      <role>
+         <roleTerm authority="local" type="text">professor directing thesis</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2013023251">
+      <namePart type="family">Srivastava</namePart>
+      <namePart type="given">Anuj</namePart>
+      <namePart type="date">1968-</namePart>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/zliang">
+      <namePart type="family">Liang</namePart>
+      <namePart type="given">Zhiyong (Richard)</namePart>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/avanli">
+      <namePart type="family">Vanli</namePart>
+      <namePart type="given">Omer Arda</namePart>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2008023817">
+      <namePart>FAMU-FSU College of Engineering (Tallahassee, Fla.)</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name xmlns="" type="corporate" authority="local">
+      <namePart>Department of Industrial and Manufacturing Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource xmlns="">text</typeOfResource>
+   <genre xmlns="" authority="rdacontent">text</genre>
+   <genre xmlns=""
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo xmlns="">
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language xmlns="">
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription xmlns="">
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (108 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract xmlns="">The unique physical properties of nanoparticles depend on their sizes and shapes. Therefore, an ability to precisely control the size of nanoparticles and tune their morphology will allow scientists and engineers to modify their physical properties, which will lead to many potential applications. To precisely control nanoparticles' sizes and shapes requires a deep understanding of their growth mechanism. To understand their growth mechanism, a direct observation and its quantitative analysis are both necessary. In the direct observation study, the electron microscopy method has shown promises, because the in situ method enables researchers to see the growth process using video recordings. In these video recordings, each frame displays an image from an electron microscope. However, this method yields a vast number of electron images; therefore, analyzing these images to monitor the nanoparticles' growth is a challenging task. The objective of this dissertation is to develop an automation process to capture the complex growth event of nanoparticles in a sequence of electron microscope images. The automation process consists of two tasks: detect nanoparticles in an electron microscope image that has a non-uniform background and significant noise; and then track these detected nanoparticles in a large number of video frames obtained from a single camera. In each frame, complex interaction among these nanoparticles exists; therefore, the tracking algorithm will capture the complex interaction among these nanoparticles. Two solutions are proposed in this dissertation. To detect nanoparticles, an electron microscope image is converted to a binary image through a process called image binarization. To perform the image binarization step, the background of the electron microscope image is first estimated with a robust regression technique; then, it is subtracted from the input image. Afterwards, a global thresholding algorithm is applied to the subtracted outcome in order to achieve the binary image. To track these detected nanoparticles in a large number of video frames, an online algorithm has been created. This algorithm leverages the multi-way data association, which is capable of tracking complex interaction among nanoparticles but suffers from computational inefficiency for a large number of video frames. The online algorithm forms fragmented trajectories between two consecutive frames (i.e. frame-by-frame data association). When missed-association between nanoparticles occur, the algorithm augments these missed-associated nanopartiles to nanoparticles in the second frame in the frame-by-frame data association step. Then, the algorithm continues forming trajectories with the multi-way data association for the incoming video frame. When these augmented nanoparticles are associated within the sliding window, the algorithm initiates the creation of tracks, which connect missed-associated nanoparticles at their respective time frames to their correspondents at the incoming video frame. While working on the second solution, we also created a computer simulation model to generate multi-target datasets with their respective ground-truth associations.The generated datasets and their respective ground-truth associations will serve as a benchmark data to test and evaluate multi-target tracking algorithms. The simulation model serves two purposes: cover all complexity of multi-target tracking scenarios, which public datasets lack; and provide the ground-truth target tracking and association so that the evaluation of multi-target tracking algorithms can be performed without any manual video annotation process.</abstract>
+   <note xmlns="" displayLabel="Submitted Note">A Dissertation submitted to the Department of Industrial and Manufacturing Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note xmlns="" displayLabel="Degree Awarded">Summer Semester 2019.</note>
+   <note xmlns="" displayLabel="Date of Defense">May 17, 2019.</note>
+   <note xmlns="" displayLabel="Keywords">computer vision, electron microscope image, multi-target tracking, nanoparticles, object detection</note>
+   <note xmlns="" displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note xmlns="" displayLabel="Advisory Committee">Chiwoo Park, Professor Directing Thesis; Anuj Srivastava, University Representative; Richard Liang, Committee Member; O. Arda Vanli, Committee Member.</note>
+   <subject xmlns=""
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85065864">
+      <topic>Industrial engineering</topic>
+   </subject>
+   <subject xmlns=""
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh89003285">
+      <topic>Computer science</topic>
+   </subject>
+   <subject xmlns=""
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85008180">
+      <topic>Artificial intelligence</topic>
+   </subject>
+   <identifier xmlns="" type="IID">2019_Summer_Vo_fsu_0071E_15279</identifier>
+   <extension xmlns="">
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Industrial and Manufacturing Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo xmlns="">
+      <recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

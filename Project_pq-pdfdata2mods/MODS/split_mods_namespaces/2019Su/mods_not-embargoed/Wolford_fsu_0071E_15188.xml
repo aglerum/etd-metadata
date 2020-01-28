@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Emotion Regulation Process in Parents</mods:title>
+      <mods:subTitle>Responding to the Call for Emotion Regulation Skills in Parenting Interventions</mods:subTitle>
+      <mods:nonSort>The</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Wolford</mods:namePart>
+      <mods:namePart type="given">Sarah N. (Sarah Nancy)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/lmcwey">
+      <mods:namePart type="family">McWey</mods:namePart>
+      <mods:namePart type="given">Lenore M.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mradey">
+      <mods:namePart type="family">Radey</mods:namePart>
+      <mods:namePart type="given">Melissa</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2010019434">
+      <mods:namePart type="family">Cui</mods:namePart>
+      <mods:namePart type="given">Ming</mods:namePart>
+      <mods:namePart type="date">1971-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n90646756">
+      <mods:namePart type="family">Rehm</mods:namePart>
+      <mods:namePart type="given">Marsha Lynn</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Human Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Family and Child Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (172 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Approximately 20% of children in the United States meet criteria for an emotional or behavioral disorder, including internalizing symptoms such as anxiety and depression, and externalizing symptoms such as conduct and oppositional defiance disorders (Ogundele, 2018). Evidence-based parenting interventions are one avenue of treatment designed to reduce symptoms of child emotional and behavioral disorders by promoting positive parenting practices that reduce risk for negative child outcomes. Additional research in the last decade of parenting interventions has also shown that parent psychosocial health (e.g., self-esteem, self-efficacy, anxiety) improved as a result of parent participation in these interventions. These positive, yet unexpected parent outcomes have generated a new body of research focused on the processes (i.e., internal emotions, beliefs) through which these positive changes to parent mental health occurred. Further, parenting intervention researchers have also begun to test core elements of the intervention in order to determine whether behavior-based skills or emotion-focused skills led to these positive parent outcomes. What remains unclear, however, is how these changes occurred. Researchers propose that emotion regulation (ER) skills (e.g., awareness of reactivity; capacity to manage internal distress) may be associated with positive changes to symptoms of parent mental health challenges. However, most parenting programs do not include ER content. Shifting parenting programs to include ER content has the potential to improve parent mental health and reduce symptoms of child emotional and behavioral problems. Only one previous qualitative study (Holtrop, Parra-Cardona &amp; Forgatch, 2014) has examined parent's process of change via shifts in behavior-focused parenting skills after an intervention. Additional research is needed to determine parents' perceptions of an intervention promoting ER skills and the unique role of emotions in reducing mental health symptoms and improving child outcomes. The purpose of this study, therefore, was to assess parent's perceptions on the utility of ER skills, as well as illuminate the skill-building process of implementing an ER task in order to derive implications for ER content inclusion in parenting interventions. Project aims were accomplished through the following research questions: (1) How do parents describe their own emotion regulation process? and, (2) How do parents perceive and process the ER implementation task? The term "process" in the context of this study includes close examination of parent in-depth experiences, perceptions, and actions taken to implement the ER task. Qualitative data were collected from 17 parents (8 fathers and 9 mothers) with 100% of participants completing the pre and post-implementation interviews (34 total interviews). Data were analyzed using grounded theory analysis via open, axial and selective coding to generate empirical evidence for parents use of ER skills. Findings illustrated that parents navigated through three phases amid describing their existing understanding of ER, and developed greater awareness of self and their child as they applied the ER implementation task. These experiences were grouped into three main phases, across pre-implementation and post-implementation contexts: (1) A Priori Knowledge of ER, (2) "It's Definitely Not Common Practice": The ER Learning Process, and (3) "Stop and Think": Developing Awareness and Insight. Across these phases, parents emphasized the importance of ER skills in their own lives, and the meaningful progress made to improve parent-child interactions. Additionally, parents emphasized the cognitive effort in which they engaged in order to attempt regulation (e.g., focused attention, self-monitoring). Results of this study provide additional insight into the utility of ER skills in parenting interventions, and encourage researchers to consider ER skills as a potential mechanism of change.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Family and Child Sciences in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 26, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">Emotion Regulation, Parenting, Parenting Interventions, Qualitative Methodology</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Lenore M. McWey, Professor Directing Dissertation; Melissa Radey, University Representative; Ming Cui, Committee Member; Marsha Rehm, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85083022">
+      <mods:topic>Medical sciences</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_Wolford_fsu_0071E_15188</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Family and Child Sciences</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

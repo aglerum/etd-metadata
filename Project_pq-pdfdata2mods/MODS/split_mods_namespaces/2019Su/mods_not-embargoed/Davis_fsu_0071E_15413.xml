@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Quench Protection of Bi2Sr2CaCu2O8+X High Temperature Superconducting Magnets</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Davis</mods:namePart>
+      <mods:namePart type="given">Daniel S. (Daniel Scott)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2004090317">
+      <mods:namePart type="family">Larbalestier</mods:namePart>
+      <mods:namePart type="given">D. (David)</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor co-directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ichiorescu">
+      <mods:namePart type="family">Chiorescu</mods:namePart>
+      <mods:namePart type="given">Irinel</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor co-directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/utrociewitz">
+      <mods:namePart type="family">Trociewitz</mods:namePart>
+      <mods:namePart type="given">Ulf P (Ulf Peter Trociewitz)</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jowens">
+      <mods:namePart type="family">Owens</mods:namePart>
+      <mods:namePart type="given">Joseph F. (Joseph Francis)</mods:namePart>
+      <mods:namePart type="termsOfAddress">III</mods:namePart>
+      <mods:namePart type="date">1946-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mriley">
+      <mods:namePart type="family">Riley</mods:namePart>
+      <mods:namePart type="given">Mark A.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/latturne">
+      <mods:namePart type="family">Latturner</mods:namePart>
+      <mods:namePart type="given">Susan</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Physics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (141 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>High temperature superconductors (HTS) allow for the construction of magnets generating fields of more than 30 T, enabling the investigation of new phenomena in condensed matter science and high energy physics. High field magnets store large amounts of energy that must be dissipated if the field collapses, but HTS materials require large quantities of heat for transitioning to the normal state. This makes HTS conductors very stable against fluctuations, yet difficult to protect from extreme temperature rise in the case that something generates a propagating normal or resistive zone in the magnet, i.e. quenches the superconductor. As HTS conductor is much more expensive than normal conductors or low temperature superconductors (LTS), protecting even prototype research coils and especially large-scale user solenoids and accelerator dipoles is paramount. Recently, a quench protection system relying on interfilament coupling currents within superconductors has been developed with LTS magnet systems. Coupling-loss induced quench (CLIQ) protection attempts to safely distribute the stored energy of a superconducting magnet over a larger volume by quickly bringing a significant fraction into the normal state by introducing oscillating currents into sections of the magnet generating heat due to the rapidly varying magnetic field. As HTS have larger energy margins to the normal state, in addition to different AC loss characteristics and conductor geometries, experiments and simulations are underway to evaluate and optimize AC loss induced quench for each conductor. Addressing the pressing need for reliable high field HTS magnets, presented here are the results for implementing these systems in magnets made from Bi2Sr2CaCu2O8+x (Bi-2212), which is the practical HTS most similar to LTS in both single strand and cable designs. Recent advances in the current carrying capacity of Bi-2212 (&gt;1000 A mm^-2 at 5 T) due to improved starting powder and over-pressure heat treatment make this HTS appealing for large-scale magnet projects. Long sample conductor property measurements are underway to investigate if Bi-2212 has consistent electrical and mechanical properties along its length. Collaboration between the National High Magnetic Field Laboratory (NHMFL) and Lawrence Berkeley National Laboratory (LBL) has allowed for testing on world-record sub-scale accelerator dipoles and test coils for a program working towards generating more than 1 GHz NMR spectra and fields in excess of 30 T.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Physics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 10, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">Bi-2212, coupling-loss induced quench, magnet, quench protection, superconductivity</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">David C. Larbalestier, Professor Co-Directing Dissertation; Irinel Chiorescu, Professor Co-Directing Dissertation; Ulf P. Trociewitz, Committee Member; Joseph F. Owens, III, Committee Member; Mark A. Riley, Committee Member; Susan E. Latturner, University Representative.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh8510165">
+      <mods:topic>Physics</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85030765">
+      <mods:topic>Condensed matter</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_Davis_fsu_0071E_15413</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Physics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

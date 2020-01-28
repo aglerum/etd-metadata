@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Structural Health Outcomes in the Appalachian Region</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Annie</mods:namePart>
+      <mods:namePart type="given">Frank H. (Frank Harrison)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/cuejio">
+      <mods:namePart type="family">Uejio</mods:namePart>
+      <mods:namePart type="given">Christopher K.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jrtaylor">
+      <mods:namePart type="family">Taylor</mods:namePart>
+      <mods:namePart type="given">John</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mhorner">
+      <mods:namePart type="family">Horner</mods:namePart>
+      <mods:namePart type="given">Mark W.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/tzhao">
+      <mods:namePart type="family">Zhao</mods:namePart>
+      <mods:namePart type="given">Tingting</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Geography Porfessor)</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Social Sciences and Public Policy</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Geography</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (140 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This dissertation investigates the overall impact of chemical exposure, health care disparities, and current health care issues facing the Appalachian Region of the United States while adding to the research of human disease ecology and essential health care delivery. Moreover, it is structured as a three-paper model with a thorough exploration of theoretical frameworks connected to existing Geography texts. The research sections discuss illicit drug use and its effect on sepsis cases, the impact of dioxins and other chemicals on low birth weight, and cancer patient survival based on insurance status. This dissertation, thus, explores themes of access to health care and toxin exposure. Chapter 2 concerns illicit drug use and the resulting complications, such as sepsis, which have been increasing in the Appalachian Region for the last 15 years. Illicit drug–related sepsis is commonly caused by using contaminated syringes and improper injection techniques that can also lead to multiple other health concerns. Untreated infections, for instance, may increase the risk of premature mortality. Drug-related sepsis cases at the Charleston Area Medical Center in Charleston, West Virginia, have risen from 50 cases in 2007 to 252 cases in 2015. This section was published in the Cureus Journal of Medical Science. Chapter 3 analyzes dioxins, a group of chemical compounds with deleterious health effects, in the same study region. "Dioxin" refers to a chemical by-product generated by the manufacture of multiple products such as rubber and synthetic plastic (Gibbs, 1997). In the study area, the chemical's production peaked during the 1950s and ended in the early 1970s. The goal of this study is to establish whether dioxin or 2,3,7,8-Tetrachlorodibenzodioxin (TCDDS) affected low birth weight in the county containing the factory during times of high production and potential exposure. The study therefore analyzes birth weight data from Kanawha County, West Virginia, from 1955 to 1970. This study found a suggestive relationship between an increase of dioxin from the production of Agent Orange (2,4,5-T) (see Appendix) and an acute increase of low birth weight in Kanawha County, West Virginia (P = 0.042). The final Chapter 4, also published in the Cureus Journal of Medical Science, studies potential health care disparities in at-risk populations, which are poorly understood in the Appalachian Region of the United States. The goal of this study is to examine how different types of insurance coverage (i.e., private insurance, Medicare under age 65, Medicare age 65 or over, Medicaid, and self-pay) may modify cancer survival over time. This study separately analyzes colon cancer, bladder cancer, and anal, rectal, and esophageal cancers. Overall this study suggests that insurance category did not modify colon cancer survival after controlling for other risk factors. In many ways, this dissertation expands the knowledge of health care within the Appalachian Region over an extended time frame and thus seeks to explore differing challenges using the tools and theoretical frameworks found within the field of Geography.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Geography in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 3, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">Health Access, Health Delivery</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Christopher K. Uejio, Professor Directing Dissertation; John Taylor, University Representative; Mark Horner, Committee Member; Tingting Zhao, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85053986">
+      <mods:topic>Geography</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_Annie_fsu_0071E_15280</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Geography</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

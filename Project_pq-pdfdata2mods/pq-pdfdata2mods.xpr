@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="20.1">
+<project version="21.1">
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="20.1" xml:space="preserve">
+            <serialized version="21.1" xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>Review/2019Su/MODS/source_DATA_2019Su_mods_corrected.xml</String>
+                                    <String>MODS/corrected_files/2019Su/2019Su_mods_final_no_namespaces.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>spilt mods Islandora</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>MODS/corrected_files/2019Su/2019Su_mods_final.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -341,9 +356,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -426,9 +438,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <File>${cfn}_uris.xml</File>
                                 </field>
                                 <field name="outputResource">
                                     <String>${cfn}_uris.xml</String>
@@ -513,9 +522,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <File>/Volumes/Groups/CS/TechResources/ETDs/PQ2MODS/MADS/XSL/results/add_authority_attributes_result.xml</File>
-                                </field>
                                 <field name="outputResource">
                                     <String>/Volumes/Groups/CS/TechResources/ETDs/PQ2MODS/MADS/XSL/results/add_authority_attributes_result.xml</String>
                                 </field>
@@ -598,9 +604,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <File>${cfn}_dept.xml</File>
                                 </field>
                                 <field name="outputResource">
                                     <String>${cfn}_dept.xml</String>
@@ -685,9 +688,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -770,9 +770,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <File>${cfn}_add_fields.xml</File>
                                 </field>
                                 <field name="outputResource">
                                     <String>${cfn}_add_fields.xml</String>
@@ -857,9 +854,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <File>${cfn}_w-hol.xml</File>
-                                </field>
                                 <field name="outputResource">
                                     <String>${cfn}_w-hol.xml</String>
                                 </field>
@@ -942,9 +936,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <null/>
@@ -1029,9 +1020,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -1114,9 +1102,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <null/>
@@ -1201,9 +1186,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <File>${cfn}_MODS.xml</File>
-                                </field>
                                 <field name="outputResource">
                                     <String>${cfn}_MODS.xml</String>
                                 </field>
@@ -1286,9 +1268,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <File>${pd}/${cfn}_controlled_20171111-b.xml</File>
                                 </field>
                                 <field name="outputResource">
                                     <String>${pd}/${cfn}_controlled_20171111-b.xml</String>
@@ -1373,9 +1352,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -1458,9 +1434,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <File>${pd}/${cfn}_result-2.xml</File>
                                 </field>
                                 <field name="outputResource">
                                     <String>${pd}/${cfn}_result-2.xml</String>
@@ -1545,9 +1518,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <File>${pd}/${cfn}_char-clean.xml</File>
-                                </field>
                                 <field name="outputResource">
                                     <String>${pd}/${cfn}_char-clean.xml</String>
                                 </field>
@@ -1630,9 +1600,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <null/>
@@ -1717,9 +1684,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -1802,9 +1766,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <null/>
@@ -1889,9 +1850,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -1974,9 +1932,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <null/>
@@ -2061,9 +2016,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -2146,9 +2098,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <null/>
@@ -2233,9 +2182,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <File>${cfn}_dedup-subjects.xml</File>
-                                </field>
                                 <field name="outputResource">
                                     <String>${cfn}_dedup-subjects.xml</String>
                                 </field>
@@ -2299,7 +2245,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>file:/Users/Annie/Desktop/ETD_2019/Project_pq2mods/utilities/archive/delete_element.xsl</String>
+                                    <String>file:/Users/Annie/Desktop/ETD_2019/Project_pq2mods/archives/archive_utilities/delete_element.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>
@@ -2319,11 +2265,8 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
-                                    <null/>
+                                    <String>${cfn}_corrected.xml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -2404,9 +2347,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <File>${pd}/embargoes/2016Fa_embargo_list.xml</File>
                                 </field>
                                 <field name="outputResource">
                                     <String>${pd}/embargoes/2016Fa_embargo_list.xml</String>
@@ -2491,9 +2431,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -2576,9 +2513,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <null/>
@@ -2663,9 +2597,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <File>${pd}/MADS/Excel/ETD-NAF_mads_20190817_data.dsv</File>
-                                </field>
                                 <field name="outputResource">
                                     <String>${pd}/MADS/Excel/ETD-NAF_mads_20190817_data.dsv</String>
                                 </field>
@@ -2748,9 +2679,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <File>${cfn}_attachments.xml</File>
                                 </field>
                                 <field name="outputResource">
                                     <String>${cfn}_attachments.xml</String>
@@ -2835,9 +2763,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -2920,9 +2845,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <null/>
@@ -3007,9 +2929,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -3092,9 +3011,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <File>${cfn}_authors.dsv</File>
                                 </field>
                                 <field name="outputResource">
                                     <String>${cfn}_authors.dsv</String>
@@ -3179,9 +3095,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <File>${cfn}_authors.dsv</File>
-                                </field>
                                 <field name="outputResource">
                                     <String>${cfn}_authors.dsv</String>
                                 </field>
@@ -3264,9 +3177,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <null/>
@@ -3351,9 +3261,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -3436,9 +3343,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <null/>
@@ -3523,9 +3427,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -3608,9 +3509,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <null/>
@@ -3695,9 +3593,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -3780,9 +3675,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <null/>
@@ -3867,9 +3759,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <File>${pd}/Review/${cfn}_4review_20200109.html</File>
-                                </field>
                                 <field name="outputResource">
                                     <String>${pd}/Review/${cfn}_4review_20200109.html</String>
                                 </field>
@@ -3952,9 +3841,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <File>/Volumes/KINGSTON/Project_MODS-Bepress_data-2-and-3/names/names-to-verify_pubs_dedup_sorted.xml</File>
                                 </field>
                                 <field name="outputResource">
                                     <String>/Volumes/KINGSTON/Project_MODS-Bepress_data-2-and-3/names/names-to-verify_pubs_dedup_sorted.xml</String>
@@ -4039,9 +3925,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <File>${cfn}_parse_names.xml</File>
-                                </field>
                                 <field name="outputResource">
                                     <String>${cfn}_parse_names.xml</String>
                                 </field>
@@ -4124,9 +4007,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <null/>
@@ -4211,9 +4091,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <File>${pd}/Review/2019Su/${cfn}.html</File>
-                                </field>
                                 <field name="outputResource">
                                     <String>${pd}/Review/2019Su/${cfn}.html</String>
                                 </field>
@@ -4296,9 +4173,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <File>${pd}/MODS/mods_results/${cfn}_mods_result.xml</File>
                                 </field>
                                 <field name="outputResource">
                                     <String>${pd}/MODS/mods_results/${cfn}_mods_result.xml</String>
@@ -4383,9 +4257,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <File>${pd}/embargo/2016Fa_embargos.xml</File>
-                                </field>
                                 <field name="outputResource">
                                     <String>${pd}/embargo/2016Fa_embargos.xml</String>
                                 </field>
@@ -4468,9 +4339,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>true</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <File>${cfn}_reformatted.xml</File>
                                 </field>
                                 <field name="outputResource">
                                     <String>${cfn}_reformatted.xml</String>
@@ -4555,9 +4423,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -4640,9 +4505,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <File>${cfn}_remove-null.xml</File>
                                 </field>
                                 <field name="outputResource">
                                     <String>${cfn}_remove-null.xml</String>
@@ -4727,9 +4589,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <File>${cfd}/2018Su_mods_not-embargoed_fullerform/${cfn}.xml</File>
-                                </field>
                                 <field name="outputResource">
                                     <String>${cfd}/2018Su_mods_not-embargoed_fullerform/${cfn}.xml</String>
                                 </field>
@@ -4812,9 +4671,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <File>${cfn}_sort-by-name.xml</File>
                                 </field>
                                 <field name="outputResource">
                                     <String>${cfn}_sort-by-name.xml</String>
@@ -4899,9 +4755,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -4965,7 +4818,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>file:/Users/Annie/Desktop/ETD_2019_Sp/Project_pq2mods/utilities/split_mods_collection_Islandora.xsl</String>
+                                    <String>file:/Users/Annie/Documents/GitHub/etd-metadata/Project_pq-pdfdata2mods/utilities/split_mods_collection_Islandora.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>
@@ -4984,9 +4837,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <null/>
@@ -5071,9 +4921,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -5156,9 +5003,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <null/>
@@ -5243,9 +5087,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -5328,9 +5169,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <File>${cfn}_result.xml</File>
                                 </field>
                                 <field name="outputResource">
                                     <String>${cfn}_result.xml</String>
@@ -5415,9 +5253,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -5500,9 +5335,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <File>${pd}/MODS_committee_names_controlled.xml</File>
                                 </field>
                                 <field name="outputResource">
                                     <String>${pd}/MODS_committee_names_controlled.xml</String>
@@ -5639,9 +5471,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -5777,9 +5606,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -5862,9 +5688,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <File>${pd}/xquery/results/role_list.txt</File>
                                 </field>
                                 <field name="outputResource">
                                     <String>${pd}/xquery/results/role_list.txt</String>

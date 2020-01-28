@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo xmlns="" lang="eng">
+      <title>Populated Polygons to Networks</title>
+      <subTitle>A Population-Centric Approach to Spatial Network Allocation</subTitle>
+   </titleInfo>
+   <name xmlns="" type="personal" authority="local">
+      <namePart type="family">Gaboardi</namePart>
+      <namePart type="given">James D. (James David)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/dfolch">
+      <namePart type="family">Folch</namePart>
+      <namePart type="given">David C.</namePart>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2005109261">
+      <namePart type="family">Brusco</namePart>
+      <namePart type="given">Michael J.</namePart>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mhorner">
+      <namePart type="family">Horner</namePart>
+      <namePart type="given">Mark W.</namePart>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/cuejio">
+      <namePart type="family">Uejio</namePart>
+      <namePart type="given">Christopher K.</namePart>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name xmlns="" type="corporate" authority="local">
+      <namePart>College of Social Sciences and Public Policy</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name xmlns="" type="corporate" authority="local">
+      <namePart>Department of Geography</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource xmlns="">text</typeOfResource>
+   <genre xmlns="" authority="rdacontent">text</genre>
+   <genre xmlns=""
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo xmlns="">
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language xmlns="">
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription xmlns="">
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (224 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract xmlns="">This dissertation establishes an original solution for allocating populations onto networks, which is demonstrated through empirical examples within the comprising census geographies of a single census tract and the comprising census geographies for an entire county. The novel method, populated polygons to networks (pp2n), is shown to perform as accurately as a current state-of-the-art method, while being less computationally complex. Benchmark datasets are utilized to represent household-level population distributions. Datasets generated from the methods of network allocation are applied to optimal facility location modeling scenarios. Networks are an underlying part of the human experience and, as such, attention must be given to their study in the spatial analysis of anthropocentric phenomena. However, transformations in spatial data must frequently be performed in order to allow for the integration of original disparate data formats. Such is often the case with spatial population data, which are generally available as polygons. As a means to build network-based models for analysis, certain methods have been developed for allocating populations onto networks for the purpose of calculating origin-to-destination cost (distance) matrices. Two of these methods include (1) simply snapping polygon centroids onto the nearest network segment and (2) dividing population values by area and proximity to the network. Here the new method, pp2n, is proposed that incorporates the strengths of both the existing methods, while mitigating their weaknesses. The traditional approach, the state-of-the-art approach, and the pp2n method are tested against a benchmark dataset representing population-weighted estimates for property parcels. It is shown that the pp2n method is less computationally complex in the worst-case scenario than the current state-of-the-art method and more representationally accurate that the traditional method. Further, in an empirical example within one census tract in Leon County, FL, the pp2n method is found to perform with comparable accuracy to the state-of-the-art approach when compared to both the traditional approach and the benchmark dataset. Also, it is shown that the algorithm for generating pp2n population weights runs in significantly less realtime. Extending the empirical example within a single census tract (and comprising geographies), another complete empirical example is performed on the full spatial extent of Leon County, Florida. Here the focus shifts from purely how the population data are being allocated to the network, to validating the spatial data utilized in modeling and understanding the inherent associated uncertainty. Permission to access a highly-restricted address data file, the Master Address File (MAF), was granted by the U.S. Census Bureau. Within this study, the MAF functions as an ultimate gold-standard benchmark to test all the methods used in this dissertation within the context of the 2010 Decennial Census. Disclosure and privacy are discussed and a critique is given for the method used to produce the population-weighted estimates for property parcels. It is then shown, as in the single census tract example, that the pp2n method performs as well as the state-of-the-art method, while doing so in substantially less runtime. Further, the property parcel dataset is validated as an acceptable surrogate for true housing units available from the MAF. Facility location modeling is utilized to determine the effects of the network allocation methods on optimal site selection. Following a review of mathematical programming and the uncertainty involved in spatial optimization, the network allocation methods are tested with four fundamental models within a spatial optimization framework: the location set covering problem, maximal covering location problem, p-median problem, and p-center problem. The linear integer programs are solved for each model, for each method at each spatial extent with 15 sets of parameters. In total, 780 models are solved to optimality. The results of the abstract population representation models are compared again to the population-weighted estimates for property parcels, which act as a surrogate for the benchmark truth of census microdata. Results show that the method of network allocation has a non-negligible effect on the solutions to facility location models. Specifically, optimal facility configurations of the location models are affected within the selected spatio-temporal study area: 2010 Leon County, FL.</abstract>
+   <note xmlns="" displayLabel="Submitted Note">A Dissertation submitted to the Department of Geography in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note xmlns="" displayLabel="Degree Awarded">Summer Semester 2019.</note>
+   <note xmlns="" displayLabel="Date of Defense">July 12, 2019.</note>
+   <note xmlns="" displayLabel="Keywords">geocompuatation, GIS, spatial networks, spatial optimization</note>
+   <note xmlns="" displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note xmlns="" displayLabel="Advisory Committee">David C. Folch, Professor Directing Dissertation; Michael J. Brusco, University Representative; Mark W. Horner, Committee Member; Chris K. Uejio, Committee Member.</note>
+   <subject xmlns=""
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh90001880">
+      <topic>Geographic information systems</topic>
+   </subject>
+   <subject xmlns=""
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85053969">
+      <topic>Geodesy</topic>
+   </subject>
+   <subject xmlns=""
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85053986">
+      <topic>Geography</topic>
+   </subject>
+   <subject xmlns=""
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85095020">
+      <topic>Operations research</topic>
+   </subject>
+   <identifier xmlns="" type="IID">2019_Summer_Gaboardi_fsu_0071E_15307</identifier>
+   <extension xmlns="">
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Geography</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo xmlns="">
+      <recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

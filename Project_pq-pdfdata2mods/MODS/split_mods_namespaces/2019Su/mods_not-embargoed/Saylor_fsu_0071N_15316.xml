@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Using the Acute</mods:title>
+      <mods:subTitle>Chronic Workload Ratio to Predict Peak Performance in Elite NCAA Track and Field Sprinters</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Saylor</mods:namePart>
+      <mods:namePart type="given">Hannah Elizabeth</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2016106104">
+      <mods:namePart type="family">Ormsbee</mods:namePart>
+      <mods:namePart type="given">Michael J.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/gchow">
+      <mods:namePart type="family">Chow</mods:namePart>
+      <mods:namePart type="given">Graig Michael</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/rhickner">
+      <mods:namePart type="family">Hickner</mods:namePart>
+      <mods:namePart type="given">Robert C.</mods:namePart>
+      <mods:namePart type="date">1962-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Human Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Nutrition, Food, and Exercise Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (90 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Purpose: To establish the relationship between the acute:chronic workload ratio and peak performance in division 1 NCAA track and field sprinters over the course of the 2018 outdoor season. Methods: The acute:chronic workload ratio was determined by calculating the sum of the week before the competition's session rating of perceived exertion of training load (acute load) and dividing it by the average weekly session rating of perceived exertion of training load over the previous four weeks (chronic workload). All ratings of perceived exertion were self-reported through an Athlete Management System (AMS) no later than one hour after the training session or competition. The sprinters' race times were recorded through an online data base and, in the primary statistical analysis, were analyzed for confounding variables. Once the confound variables were established, Pearson correlations were used covarying for the confounding variables. Our hypothesis was that there would be a positive relationship between the acute:chronic workload ratio and the 100m and 200m race times. In a secondary analysis, violating the statistical assumption of independence, the acute:chronic workload ratio was correlated to the sum of all data points for male and female 100m and 200m race times and the male and female 100m and 200m Z-scores for each sprinter. Bins were created with the hypothesis that having an acute:chronic workload ratio between 0.8 and 1.3 would be correlated with lower race times in the 100m and 200m races and more negative Z-scores for the 100m and 200m races. Results: A lower acute:chronic workload ratio resulted in a moderate positive correlation with lower race times in the 100m (R= 0.542) and 200m (R= 0.711) races. Conclusions: Maintaining an acute:chronic workload ratio between 0.8 and 1.3 may be optimal for elite division 1 NCAA track and field sprinters to reach their peak performance in the 100m and 200m races. An individualized approach to training load using the acute:chronic workload ratio should help coaches and performance staff with individualized training-load planning and prescription for the sprinters to reach peak performance.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Nutrition, Food, and Exercise Sciences in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 12, 2019.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Michael J. Ormsbee, Professor Directing Thesis; Graig Chow, Committee Member; Robert Hickner, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85093451">
+      <mods:topic>Nutrition</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_Saylor_fsu_0071N_15316</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Nutrition, Food, and Exercise Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

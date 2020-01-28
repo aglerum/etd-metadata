@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo xmlns="" lang="eng">
+      <title>Understanding Multi-Physics of Quench in "No-Insulation" Rare Earth Barium Copper Oxide Superconducting Magnets</title>
+   </titleInfo>
+   <name xmlns="" type="personal" authority="local">
+      <namePart type="family">Bhattarai</namePart>
+      <namePart type="given">Kabindra Ram</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/shahn">
+      <namePart type="family">Hahn</namePart>
+      <namePart type="given">Seung Yong</namePart>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/pamidi">
+      <namePart type="family">Pamidi</namePart>
+      <namePart type="given">Sastry V.</namePart>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2004090317">
+      <namePart type="family">Larbalestier</namePart>
+      <namePart type="given">D. (David)</namePart>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/fkametani">
+      <namePart type="family">Kametani</namePart>
+      <namePart type="given">Fumitake</namePart>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/wguo">
+      <namePart type="family">Guo</namePart>
+      <namePart type="given">Wei</namePart>
+      <namePart type="termsOfAddress">(Professor of Mechanical Engineering)</namePart>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2008023817">
+      <namePart>FAMU-FSU College of Engineering (Tallahassee, Fla.)</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name xmlns="" type="corporate" authority="local">
+      <namePart>Department of Mechanical Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource xmlns="">text</typeOfResource>
+   <genre xmlns="" authority="rdacontent">text</genre>
+   <genre xmlns=""
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo xmlns="">
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language xmlns="">
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription xmlns="">
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (93 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract xmlns="">Electromagnets are an important application of superconductivity as superconductors can provide large current density in the winding pack without any voltage drop or joule heating losses. High temperature superconducting (HTS) magnets have advantages over low temperature superconducting (LTS) magnets, particularly because HTS magnets have better stability and possibility of producing magnetic field higher than 20 T. However, protection of HTS magnets is challenging due to slow normal zone propagation (NZP). When the NZP is slow, the stored magnetic energy is dissipated at localized area where the hot spot temperature can rise significantly and can cause "burn-out" damage on the superconductor. The no-insulation (NI) HTS winding technique has been experimentally demonstrated to be a promising technology, particularly to prevent a coil from electric burn-out, and has made it possible to reach a magnetic field of 45.5 T at the magnet center. NI magnets are dry wound and this adds to the ease in construction of NI coils as difficult epoxy impregnation process or wet winding process can be eliminated. The lack of insulation makes the magnet compact due to larger engineering current density, Je. Je of up to 1580 A/mm2 has been reported in NI coils, which is significantly larger than observed in insulated counterparts. The lack of low strength insulation also makes the magnet robust. NI winding using REBCO does not require processing steps such as epoxy impregnation or heat treatment, making its construction faster and convenient. However, as seen from the evidences of mechanical damage (seen from microscopy and critical current measurement) on the 45.5 T insert coil, there is a limit to this otherwise exciting technology. This research explores, in both simulation and experiment, the post-quench behaviors of NI magnets to quantitatively understand their self-protecting mechanism. NI quench modeling is challenging due to its non-linear, extremely fast and interrelated multiphysical behavior. A lumped circuit model combined with heat transfer and solid mechanics models is used to explain electrical, thermal, and mechanical responses in detail at the magnet level. In this model, each subcoil is modeled as single inductor (L 􀀀M) with variable resistances in series (Rq) and in parallel (Rc). For this purpose, some magnets that have been constructed and quenched at 4.2 K are being analyzed, which are 1) a stack of 3 double-pancake (DP) coils, 2) 14.5 T insert in 31 T resistive magnet, 3) 2 DP insert in 31 T resistive magnet, 4) 7 T standalone magnet, 5) 26 T standalone magnet, 6) 13 T HTS insert in 7 T background LTS magnet. The lessons learned from analysis of these magnets are presented in this work. The quench modeling allows us to look at temperature and stress in the magnet that are difficult to measure, but are important to make sure damages due to burn-out or overstraining do not occur during operation. With the lessons learned, this approach can now be used for future design of high field magnets to make sure mechanical damage during the magnet quench is prevented.</abstract>
+   <note xmlns="" displayLabel="Submitted Note">A Dissertation submitted to the Department of Mechanical Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note xmlns="" displayLabel="Degree Awarded">Summer Semester 2019.</note>
+   <note xmlns="" displayLabel="Date of Defense">May 28, 2019.</note>
+   <note xmlns="" displayLabel="Keywords">HTS, no-insulation, protection, quench, REBCO</note>
+   <note xmlns="" displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note xmlns="" displayLabel="Advisory Committee">Seungyong Hahn, Professor Directing Dissertation; Sastry Pamidi, University Representative; David Larbalestier, Committee Member; Fumitake Kametani, Committee Member; Wei Guo, Committee Member.</note>
+   <subject xmlns=""
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85082757">
+      <topic>Mechanical engineering</topic>
+   </subject>
+   <identifier xmlns="" type="IID">2019_Summer_Bhattarai_fsu_0071E_15131</identifier>
+   <extension xmlns="">
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Mechanical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo xmlns="">
+      <recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

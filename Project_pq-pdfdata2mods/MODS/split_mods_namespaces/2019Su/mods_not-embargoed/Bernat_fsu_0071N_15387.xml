@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Synthesis and Characterization of Silica-Coated Iron(II, III) Oxide Magnetic Particles for Potential Application in Glyphosate Detection</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Bernat</mods:namePart>
+      <mods:namePart type="given">Andrea</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2011191760">
+      <mods:namePart type="family">Rao</mods:namePart>
+      <mods:namePart type="given">Qinchun</mods:namePart>
+      <mods:namePart type="date">1974-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/psingh2">
+      <mods:namePart type="family">Singh</mods:namePart>
+      <mods:namePart type="given">Prashant</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yang">
+      <mods:namePart type="family">Yang</mods:namePart>
+      <mods:namePart type="given">Wei</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Human Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Nutrition, Food and Exercise Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (94 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The main active ingredient in herbicide formulations on the market today is glyphosate. Glyphosate is applied to the majority of crops in the food industry. However, claims regarding glyphosate's toxicity and role in human diseases, such as cancer, are increasing. Thus, the detection of glyphosate in foods is imperative to ensure consumer safety. To improve the specificity and selectivity of detection, a focus on sample preparation methods to concentrate glyphosate and remove it from the food matrix for next-step detection is crucial. Thus, the objectives of this study were to (1) synthesize and coat Fe3O4 magnetic particles, (2) characterize the magnetic particles to determine the optimal coating concentration, and (3) construct glyphosate-specific molecularly imprinted polymers (GLY-MIPs) with the optimally coated Fe3O4 magnetic particles, which may have the ability to concentrate glyphosate and draw it out of the surrounding matrix for potential glyphosate detection. Iron(II, III) oxide magnetic particles (Fe3O4 MPs) were synthesized via co-precipitation at room temperature (RT). A modified Stöber method was used to coat Fe3O4 MPs with tetraethyl orthosilicate (TEOS). Particle size was determined using dynamic light scattering (DLS). The zeta-potential, the charge that develops at the interface between a solid surface and its liquid medium, was also investigated via DLS measurements. Light microscopy imaging was performed to study particle morphology and aggregation. The effect of temperature and pH on particle precipitation and the attraction of uncoated Fe3O4 MPs and silica-coated Fe3O4 MPs (Fe3O4@SiO2 MPs) to the external magnetic field were investigated to aid in determining the optimal TEOS coating concentration. Glyphosate-imprinted polymers and non-imprinted polymers (NIPs) with Fe3O4@SiO2 MPs as the core were constructed via free radical polymerization (18 h, 60°C). Particle size and zeta-potential of four coated Fe3O4@SiO2 MP samples with TEOS coating concentrations 0.067, 0.34, 1.7, 3.3 mL/g Fe3O4 were obtained, respectively. Fe3O4@SiO2 MPs with TEOS coating concentration 1.7 mL/g Fe3O4 were significantly smaller (P &lt; 0.05) than Fe3O4@SiO2 MPs with TEOS coating concentrations 0.067, 0.34, and 3.3 mL/g Fe3O4 (P &lt; 0.05). Also, Fe3O4@SiO2 MPs with TEOS coating concentration 3.3 mL/g Fe3O4 were significantly larger (P &lt; 0.05) than Fe3O4@SiO2 MPs with TEOS coating concentrations 0.067, 0.34, and 1.7 mL/g Fe3O4. In addition, Fe3O4@SiO2 MPs with TEOS coating concentrations 1.7 and 3.3 mL/g Fe3O4 had a significantly greater negative zeta-potential (mV) than Fe3O4@SiO2 MPs with TEOS coating concentrations 0.067 and 0.34 mL/g Fe3O4, indicating stability of the aforementioned Fe3O4@SiO2 MPs in colloidal suspension. Light microscopy imaging results showed aggregated uncoated Fe3O4 MPs. Also, coated Fe3O4@SiO2 MPs were shown to be less aggregated than uncoated Fe3O4 MPs. However, as the coating concentration increased, particle size and aggregation increased as well. An increase in aggregation may have resulted due to the coating of amorphous, non-uniform Fe3O4 MPs. Increasing temperature (37°C), increased the precipitation rate of uncoated Fe3O4 MPs and coated Fe3O4@SiO2 MPs suspended in degassed Distilled Deionized (DD) water, glycine-HCl (pH 2.5), PBS (pH 7.2), and Tris-HCl (pH 10). Fe3O4@SiO2 MPs with TEOS coating concentration 3.3 mL/g Fe3O4 displayed the most stability in colloidal suspension at RT and 37°C. The effect of pH on the precipitation rate of uncoated Fe3O4 MPs and coated Fe3O4@SiO2 MPs showed the stability of Fe3O4@SiO2 MPs with TEOS coating concentration of 3.3 mL/g Fe3O4 in colloidal suspension at acidic and basic pH. All uncoated Fe3O4 MPs and coated Fe3O4@SiO2 MPs did not show stability in colloidal suspension at a pH near the isoelectric point (pI) of Fe3O4. Fe3O4@SiO2 MPs with TEOS coating concentrations 1.7 and 3.3 mL/g Fe3O4 did not attract to an external magnetic field as rapidly as compared to Fe3O4@SiO2 MPs with TEOS coating concentrations 0.067, 0.34, 10, 13, 17, 25, 50 mL/g Fe3O4 because of their stability in colloidal suspension. Fe3O4 MPs and Fe3O4@SiO2 MPs with TEOS coating concentrations 0.34 and 3.3 mL/g Fe3O4 migrated in a 0.5% agarose gel. Through comprehensive characterization, the optimal TEOS coating concentration of the Fe3O4@SiO2 MPs tested was 3.3 mL/g Fe3O4 due to its particle size, zeta-potential, stability in colloidal suspending against pH and temperature, ability to attract to an external magnetic field, and migration in agarose gel electrophoresis. Glyphosate-imprinted polymers and NIPs were constructed with Fe3O4@SiO2 MPs with TEOS coating concentration 3.3 mL/g Fe3O4. The attraction of GLY-MIPs to an external magnetic field was quicker than the attraction of NIPs to an external magnetic field. This work serves as a basis for future optimization and application of magnetic glyphosate-imprinted polymers and the detection of glyphosate in foods.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Nutrition, Food and Exercise Sciences in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 2, 2019.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Qinchun Rao, Professor Directing Thesis; Prashant Singh, Committee Member; Wei Yang, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85050184">
+      <mods:topic>Food</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_Bernat_fsu_0071N_15387</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Nutrition, Food, and Exercise Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

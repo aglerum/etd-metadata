@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo xmlns="" lang="eng">
+      <title>Understanding Protien Corona Formation on Inorganic Nanocrystals</title>
+   </titleInfo>
+   <titleInfo xmlns=""
+              lang="eng"
+              type="alternative"
+              displayLabel="Corrected Title">
+      <title>Understanding Protein Corona Formation on Inorganic Nanocrystals</title>
+   </titleInfo>
+   <name xmlns="" type="personal" authority="local">
+      <namePart type="family">Perng</namePart>
+      <namePart type="given">Woody</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/nb2009002696">
+      <namePart type="family">Mattoussi</namePart>
+      <namePart type="given">Hedi</namePart>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2009180254">
+      <namePart type="family">Tang</namePart>
+      <namePart type="given">Hengli</namePart>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/steinbck">
+      <namePart type="family">Steinbock</namePart>
+      <namePart type="given">Oliver</namePart>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/strouse">
+      <namePart type="family">Strouse</namePart>
+      <namePart type="given">Geoffrey F.</namePart>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name xmlns="" type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name xmlns="" type="corporate" authority="local">
+      <namePart>Department of Chemistry and Biochemistry</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource xmlns="">text</typeOfResource>
+   <genre xmlns="" authority="rdacontent">text</genre>
+   <genre xmlns=""
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo xmlns="">
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language xmlns="">
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription xmlns="">
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (106 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract xmlns="">Nonspecific interactions in biological media can lead to the formation of protein corona around nancolloids, which tend to alter their behavior and limit their utility when used as probes for imaging or sensing applications. Yet, understanding the corona buildup has been challenging. This dissertation focuses on understanding factors that govern corona formation and developing means to prevent such nonspecific adsorptions, using semiconductor and metallic nanocrystals as model nanocolloid systems. In Chapter 1 we showcase the intrinsic photophysical properties of quantum dots (QDs) and gold nanocrystals (AuNCs), along with the growth mechanisms and synthetic routes. In addition, we introduce the definition of "protein corona", hard vs soft, factors that affect the corona composition, and its impact on biology and environment. We also provide an overview of the analytical techniques used and promising strategies applied in investigating and preventing nonspecific protein adsorptions, respectively. In Chapter 2 we investigate the role of surface coating on the promotion or prevention of protein corona around QDs, where we carefully vary the nature of the hydrophilic block in the surface coating, while maintaining the same dihydrolipoic acid (DHLA) bidentate coordinating motif. We first use agarose gel electrophoresis to track changes in the mobility shift upon exposure of the QDs to protein-rich media. We find that QDs capped with DHLA (which presents a hydrophobic alkyl chain terminated with a carboxyl group) could promote corona formation, in a concentration-dependent manner. However, when a polyethylene glycol block or a zwitterion group is appended onto DHLA, it yields a coating that prevents corona build-up. Additional gel experiments using SDS-PAGE allowed further characterization of the corona protein when formed. We find that for coating strategy based on the bidentate motif, only soft corona form around the DHLA-capped QDs. In chapter 3 we investigate the nonspecific protein adsorptions on AuNPs, where we strategically modify the ligand structures of a series of DHLA-based ligands. We use agarose gel electrophoresis to monitor any potential corona formation on AuNPs when exposed to bovine serum albumin (BSA) or fetal bovine serum (FBS). We find that AuNPs capped with dihydrolipoic acid (DHLA, a small alkyl-COOH) are prone to interactions with proteins, while capping AuNPs with polyethylene glycol- or zwitterion-appended DHLA significantly reduces corona buildup. Supplementing measurements using UV-Vis spectroscopy and dynamic light scattering have allowed further characterization of the role and the binding kinetics of these protein adsorptions. Our results clearly show that surface chemistry of the NP and the nature of the core material plays a significant role in corona formation. In chapter 4 we describe the effect of shape of gold nanocrystals on corona formation using nanospheres, nanostars, and nanorods. Such nanocrystals functionalized with poly(ethylene glycol), poly(isobutylene-alt-maleic anhydride) (PIMA), and PEG-appended PIMA induce or discourage nonspecific protein adsorptions depending on the surface coating used and the nature of the shape. We show that the presence of PEG moieties significantly inhibits the corona formation when exposed to complex fluids, independent to the shape of nanocrystals. We find that in absence of PEG, the shape of nanocrystals strongly intervenes with interactions at the nano-bio interface. Additionally, we show that the effect of shape on corona buildup prevails under different temperatures, a result that contributes highly to designing corona-free nanocrystals. In chapter 5 we include a summary of the findings and implications described in this dissertation, along with a discussion of the future outlook in the corona science.</abstract>
+   <note xmlns="" displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note xmlns="" displayLabel="Degree Awarded">Summer Semester 2019.</note>
+   <note xmlns="" displayLabel="Date of Defense">May 24, 2019.</note>
+   <note xmlns="" displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note xmlns="" displayLabel="Advisory Committee">Hedi Mattoussi, Professor Directing Dissertation; Hengli Tang, University Representative; Oliver Steinbock, Committee Member; Geoffrey Strouse, Committee Member.</note>
+   <subject xmlns=""
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh2002000242">
+      <topic>Nanoscience</topic>
+   </subject>
+   <identifier xmlns="" type="IID">2019_Summer_Perng_fsu_0071E_15398</identifier>
+   <extension xmlns="">
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo xmlns="">
+      <recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Defense of Semantic Vagueness</mods:title>
+      <mods:nonSort>A</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Turkewitz</mods:namePart>
+      <mods:namePart type="given">Joshua Ripley</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2008031674">
+      <mods:namePart type="family">Kearns</mods:namePart>
+      <mods:namePart type="given">Stephen</mods:namePart>
+      <mods:namePart type="date">1979-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="viaf"
+              authorityURI="http://viaf.org/viaf/"
+              valueURI="http://viaf.org/viaf/241126538">
+      <mods:namePart type="family">Kaschak</mods:namePart>
+      <mods:namePart type="given">Michael P.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/nr90006375">
+      <mods:namePart type="family">Clarke</mods:namePart>
+      <mods:namePart type="given">Randolph K.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2003095981">
+      <mods:namePart type="family">Rawling</mods:namePart>
+      <mods:namePart type="given">Piers</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Philosophy</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (93 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This dissertation defends the position that vagueness is semantic – a feature of language and thought alone. In order to do so, I argue that vagueness is genuine; that it cannot be reduced to ignorance. I then refute three arguments that semantic vagueness, if genuine, must extend to features of the world that are not representations. Lastly, I argue that, although we might take representations to be examples of a type of metaphysical vagueness, semantic vagueness, even if in some sense metaphysical, does not suffer from the pernicious aspects attributable to other forms of metaphysical vagueness. I argue that epistemicism is troubled by fine-grained phenomenal sorites series in which adjacent objects are indistinguishable. To avoid contradiction the epistemicist must say either that adjacent objects in the series do not appear the same as their neighbors or that an undetectable difference in appearance makes a psychological difference to how the objects appear. Both options are implausible. The supervaluationist is more easily able to resolve the difficulty by appealing to extant fundamental aspects of her theory. Next, I discuss a dilemma Ken Akiba (2004) presses against supervaluationism based on the nature of reference. He argues that reference is either deflationary or inflationary, but if deflationism is true then there cannot be semantic vagueness because there is no substantive reference. I argue that this is false – reference need not be substantive to be imprecise. The second horn claims that if inflationism is true then reference is constituted by indeterminate physical connections so an inflationary supervaluationist must already accept physical indeterminateness. I argue that this is also false – an inflationary supervaluationist can, for principled reasons, constrain the indeterminateness at issue in the semantic domain. Neither horn of Akiba's dilemma is sharp. Many theorists of vagueness hold that vagueness is mind-dependent, that vagueness is due either to imprecise representation of a precise world or ignorance of representational (and worldly) precision. Recently Trenton Merricks (2001 and 2017) has launched two offensives against this cluster of views that he dubs the orthodoxy. He argues that (2001) if there is linguistic vagueness it is either epistemic or a species of metaphysical vagueness and that (2017) there are mind-independent examples of vagueness – vagueness that is due neither to representational imprecision or ignorance. This chapter defends the orthodoxy from Merricks' arguments. I contend that his (2001) argument conflates garden-variety ambiguity with vagueness, and so can be met by the standard supervaluationist approach to vagueness, and that his (2017) argument relies on the claim that for every predicate there is a corresponding property, which is both implausible and will already be rejected by those who believe that vagueness is mind-dependent. Finally, I argue that two concerns facing metaphysical vagueness, that of it's alleged unintelligibility and that it objectionably entails indeterminate identity, can be mollified for representational theories of vagueness that count representations as metaphysical entities.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Philosophy in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 21, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">Epistemicism, Indeterminism, Metaphysics, Supervaluationism, Vagueness</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Stephen Kearns, Professor Directing Dissertation; Michael Kaschak, University Representative; Randolph Clarke, Committee Member; J.PiersRawling, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85100849">
+      <mods:topic>Philosophy</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85084286">
+      <mods:topic>Metaphysics</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_Turkewitz_fsu_0071E_15370</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Philosophy</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

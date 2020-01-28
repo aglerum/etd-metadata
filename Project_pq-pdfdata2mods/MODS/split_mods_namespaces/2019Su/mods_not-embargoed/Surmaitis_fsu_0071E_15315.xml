@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Cell Adhesion Behavior and Protein-Surface Interactions on Polyelectrolyte Multilayer Thin Films</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Surmaitis</mods:namePart>
+      <mods:namePart type="given">Richard L.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/nb2002004599">
+      <mods:namePart type="family">Schlenoff</mods:namePart>
+      <mods:namePart type="given">Joseph B.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n84134993">
+      <mods:namePart type="family">Locke</mods:namePart>
+      <mods:namePart type="given">Bruce R.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kennemur">
+      <mods:namePart type="family">Kennemur</mods:namePart>
+      <mods:namePart type="given">Justin Glenn</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2007113222">
+      <mods:namePart type="family">Zhu</mods:namePart>
+      <mods:namePart type="given">Lei</mods:namePart>
+      <mods:namePart type="date">1978-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemistry and Biochemistry</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (137 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Polyelectrolyte multilayer thin films have been used as coatings due to their biocompatibility for cell culture experiments. During layer-by-layer assembly of these multilayer thin films, the film is altered by adjusting the salt concentration, the rinsing time, and the temperature which changes the morphology of the film. Certain factors such as surface charge and the polymer effect the biocompatibility of the film and its ability to adsorb serum proteins. If cells adhere and proliferate on a film it is called 'cytophilic'. Conversely, if cells do not adhere to a film or undergo apoptosis on the film, the surface is called 'cytophobic'. Cell behavior was discussed in this dissertation for polyelectrolyte multilayers composed of the polycations; poly(diallyldimethylammonium), PDADMAC, and poly(allylammonium chloride), PAH, and polyanions; poly(4-styrenesulfonic acid), PSS, and poly(acrylic acid), PAA. The adhesion and proliferation of cells are dependent on the surface to which they attach. Aside from cell counting, cell "health" on surfaces is typically established by measuring the metabolic rate with dyes that participate in the metabolic pathway or using "live/dead" assays with combinations of membrane permeable/impermeable dyes. Whether cells are attached or not, and whether they are living or dead, provides an incomplete picture of cell health. In this dissertation, proliferation rates and net metabolism of 3T3 fibroblasts seeded on "biocompatible" ultrathin polyelectrolyte multilayer films and on control tissue culture plastic were compared. Cells adhered to, and proliferated on, both surfaces, which were shown to be nontoxic according to live/dead assays. However, adhesion was poorer on the multilayer surface, illustrated by diffuse organization of the actin cytoskeleton and less-developed focal adhesions. Proliferation was also slower on the multilayer. When normalized for the total number of cells, it was shown that cells on multilayers experienced a five-day burst of metabolic stress, after which the metabolic rate approached that of the control surface. This initial state of high stress had not been reported previously in studies of cell growth on multilayers, although the observation period for this system was usually a few days. The interaction of nanoparticles and surfaces with the complex array of proteins in physiological media is largely responsible for maintaining circulation in the bloodstream and biocompatibility in general. It is known that composition of the initial "soft" corona of exchangeable adsorbed proteins evolves to comprise a more tenaciously held "hard" corona. In this dissertation, the dependence of cell adhesion on a thin film of polyelectrolyte complex is connected to the "hardness" of the initial corona using albumin, the most prevalent protein in serum. The ease with which albumin can be displaced depended on the surface functional group - carboxylate or sulfonate, in particular aromatic sulfonate. Carboxylate permitted easier exchange of albumin, which presumably allowed the adsorption of proteins such as fibronectin, required for cell adhesion. Sulfonate held on to albumin more strongly, producing a persistent hard corona likely to remain biocompatible. The mechanism is thought to be related to the higher energy of interaction between sulfonate and amine than between carboxylate and amine.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 3, 2019.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Joseph B. Schlenoff, Professor Directing Dissertation; Bruce R. Locke, University Representative; Justin G. Kennemur, Committee Member; Lei Zhu, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85022986">
+      <mods:topic>Chemistry</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_Surmaitis_fsu_0071E_15315</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

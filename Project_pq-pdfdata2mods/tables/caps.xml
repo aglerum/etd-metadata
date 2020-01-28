@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Last updated December 12, 2019 -->
+<!-- Last updated January 27, 2020-->
 <!-- List of known acronyms in title and keywords fields. This list is updated with each new batch of source records.
      This table is called by caps.xsl which is included in reformat2source.xsl, trans2bepress.xsl, and trans2marc.xsl.
      Split acronyms with hypens or slashes, for example, "HIV-AIDS" to "HIV" and "AIDS".
      Certain acronyms are also words and have @ambiguous="yes". This could be used to generate the message: "Record #[$v] requires review for ambiguous acronyms".
-     NOTE: cap.xsl does not distinguish between article "A" and intital "A." In reformat2source.xsl addresses this in the <author> element.
+     NOTE: cap.xsl does not distinguish between article "A" and intital "A." reformat2source.xsl addresses this in the <author> element.
      MANUAL CORRECTIONS: Elisions such as "d’Anatolie"; "V." for versus.
 -->
 
@@ -69,6 +69,7 @@
         <term category="acronym" ambiguous="no">AGN</term>
         <term category="acronym" ambiguous="no">AI</term>
         <term category="acronym" ambiguous="no">AIDS</term>
+        <term category="acronym" ambiguous="no">AME</term>
         <term category="acronym" ambiguous="no">AMOC</term>
         <term category="acronym" ambiguous="no">AMSU</term>
         <term category="acronym" ambiguous="no">ANASEN</term>
@@ -222,6 +223,7 @@
         <term category="acronym" ambiguous="no">HWRF</term>
         <term category="acronym" ambiguous="no">HYCOM</term>
         <term category="acronym" ambiguous="no">HYDRYS</term>
+        <term category="acronym" ambiguous="no">HYSPLIT</term>
         <term category="acronym" ambiguous="no">IBS1</term>
         <term category="acronym" ambiguous="no">ICOADS</term>
         <term category="acronym" ambiguous="no">ICP</term>
@@ -233,6 +235,7 @@
         <term category="acronym" ambiguous="no">IGDI</term>
         <term category="acronym" ambiguous="no">IRTLR</term>
         <term category="acronym" ambiguous="no">ISA</term>
+        <term category="acronym" ambiguous="no">IU</term>
         <term category="acronym" ambiguous="no">I</term>
         <term category="acronym" ambiguous="no">II</term>
         <term category="acronym" ambiguous="no">III</term>
@@ -285,6 +288,7 @@
         <term category="acronym" ambiguous="no">LSIC</term>
         <term category="acronym" ambiguous="no">LUSTR</term>
         <term category="acronym" ambiguous="no">MAUP</term>
+        <term category="acronym" ambiguous="no">MAMR</term>
         <term category="acronym" ambiguous="no">MC</term>
         <term category="acronym" ambiguous="no">MC3T3</term>
         <term category="acronym" ambiguous="no">MCAR</term>
@@ -592,6 +596,10 @@
         <pair>
             <term1 category="acronym-mixed" ambiguous="no">Gev</term1>
             <term2 category="acronym-mixed" ambiguous="no">GeV</term2>
+        </pair>
+        <pair>
+            <term1 category="acronym-mixed" ambiguous="no">Giscience</term1>
+            <term2 category="acronym-mixed" ambiguous="no">GIScience</term2>
         </pair>
         <pair>
             <term1 category="acronym-mixed" ambiguous="no">Gluex</term1>

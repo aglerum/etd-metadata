@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Diagnosing the Atmospheric Phenomena Associated with the Onset and Demise of the Rainy Season in Mesoamerica</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Groenen</mods:namePart>
+      <mods:namePart type="given">Danielle Elizabeth</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="viaf"
+              authorityURI="http://viaf.org/viaf/"
+              valueURI="http://viaf.org/viaf/105342888">
+      <mods:namePart type="family">Bourassa</mods:namePart>
+      <mods:namePart type="given">Mark Allan</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n96096627">
+      <mods:namePart type="family">Elsner</mods:namePart>
+      <mods:namePart type="given">James B.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/rhart">
+      <mods:namePart type="family">Hart</mods:namePart>
+      <mods:namePart type="given">Robert E. (Robert Edward)</mods:namePart>
+      <mods:namePart type="date">1972-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/psura">
+      <mods:namePart type="family">Sura</mods:namePart>
+      <mods:namePart type="given">Philip</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Earth, Ocean and Atmospheric Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (142 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Mexico and Central America (Mesoamerica) are situated in a complex and unique geographical position with the Caribbean Sea to the East and the tropical Eastern Pacific Ocean to the West. The weather patterns of this region are driven by winds, temperatures, moisture, and orography of several mountain ranges. This study finds the dates of the onset and demise of rainfall regimes on a specific day using NASA's Tropical Rainfall Measuring Mission (TRMM) rainfall for years 1998-2012, area-averaged over land. Using NASA's MERRA-2 Reanalysis data, we also look at the phenomenology of the triggers of the rainy season onset and demise on the daily time-scale instead of the monthly scales used by previous studies. We find that the Mesoamerican Rainy Season can be distinguished into two parts: the Early Spring Rainfall (ESR) associated with light rains and the Late Spring Rainfall (LSR) associated with heavy rains. Two algorithms are used to obtain these rainy season distinctions. A new algorithm was developed during this study, called the SLOPE algorithm, to calculate when the rain rates first start to increase. In the second method, the daily cumulative anomalies of rainfall are compared to the climatological rainfall to find the time of onset of the heavy rains, called the MINCA algorithm. To better understand the phenomenology associated with the timing of the rainfall, we look at the monsoon trough, moisture flux convergence, moist static energy anomalies, and the weakening/strengthening of the winds associated with the Caribbean Low-Level Jet and Panama Jet. The light rain rates begin, on average, in mid-March, approximately one month after the peak of the winter Caribbean Low-Level Jet and the Panama Jet. The ramp-up between the light rains and heavy rains is associated with a significant weakening of both jets and the northward progression of a monsoon trough off the western coast of Central America. The heavy rain rates begin, on average, in mid-May, and are associated with the timing when the Panama Jet goes to near zero magnitude and a strong monsoon trough in the eastern Pacific. At the demise of the rainfall, approximately in mid-November, the Panama Jet strengthens again, the total moisture flux convergence decreases significantly, and the monsoon trough retreats southward and eastward. The results of this study have positive implications in agriculture and water resources for Mesoamerica, as this information may help resource managers better plan and adapt to climate variability.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Earth, Ocean and Atmospheric Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Spring Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 28, 2019.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Mark A. Bourassa, Professor Directing Dissertation; James Elsner, University Representative; Robert E. Hart, Committee Member; Philip Sura, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85084334">
+      <mods:topic>Meteorology</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_Groenen_fsu_0071E_15282</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

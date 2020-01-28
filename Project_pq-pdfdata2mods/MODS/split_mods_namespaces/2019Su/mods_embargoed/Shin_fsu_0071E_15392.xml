@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Structural and Dynamic Characterization of CrgA; a Small Helical Membrane Protein in a Lipid Bilayer Using Solid-State NMR</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Shin</mods:namePart>
+      <mods:namePart type="given">Yiseul</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="viaf"
+              authorityURI="http://viaf.org/viaf/"
+              valueURI="http://viaf.org/viaf/241381087">
+      <mods:namePart type="family">Cross</mods:namePart>
+      <mods:namePart type="given">Timothy A.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/alamo">
+      <mods:namePart type="family">Alamo</mods:namePart>
+      <mods:namePart type="given">Rufina G.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yhu">
+      <mods:namePart type="family">Hu</mods:namePart>
+      <mods:namePart type="given">Yan-yan</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/sstagg">
+      <mods:namePart type="family">Stagg</mods:namePart>
+      <mods:namePart type="given">Scott</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/fajer">
+      <mods:namePart type="family">Fajer</mods:namePart>
+      <mods:namePart type="given">Piotr G.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemistry and Biochemistry</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (122 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>CrgA is a small helical membrane protein from Mycobacterium tuberculosis (Mtb) and known to recruit other cell division proteins to the divisome, a substantial protein complex for Mtb cell division. There is a lack of information about the formation of the divisome, because most of the Mtb cell division proteins, including CrgA, do not have homologs in the traditional model bacteria, such as E. coli. Thus, structural information is needed to understand how these proteins interact and function in the divisome. However, small helical membrane proteins are such a challenging target for structural biology, because they are surrounded by the complex membrane environment, which has varying biophysical properties in terms of the dielectric constants, water concentration, fluidity, and a lateral pressure profile. The entire membrane protein does not experience the same environment, and therefore it is critical to understand the dynamics of each domain in order to characterize its structure. CrgA was characterized as having a cytoplasmic N-terminus (30 residues long) consisting of two dynamically different regions: an intrinsically disordered region (IDR) and a β-strand. Even though most Mtb divisome proteins were predicted to have at least one IDR, the roles of IDRs in membrane proteins has not been fully explored. In this dissertation, different solid-state NMR techniques were used to characterize the water soluble regions such as IDRs of membrane proteins. Identifying a small portion of the protein in the lipid interfacial region is not feasible without providing a native-like lipid bilayer environment. The observation of the β-strand addressed the importance of the appropriate membrane mimetic to characterize the interfacial region of CrgA. Also, unambiguous interhelical distance restraints are essential for determining the correct tertiary and quaternary structure of a helical membrane protein. However, high contents of hydrophobic residues in the transmembrane domain make sequence specific assignments a difficult task, so various methods, such as specific isotope labeling schemes and mutagenesis were implemented to obtain the distance restraints. The sequence specific assignment strategies presented here for CrgA can be applied to other membrane protein systems. Combining the structural restraints from both magic angle spinning and oriented sample NMR led to the dimeric structure of CrgA using molecular dynamics simulations. Additionally, the mutagenesis data helped to define the dimeric interface for CrgA. In the case of CrgA, it is necessary to sort out any residues at the helix-helix interfacial region in the same monomer versus those located in the monomer-monomer interface of the dimer. Excluding those residues involved in the dimer interface will facilitate defining the lipid-facing residues available for CrgA's binding partners. Since CrgA is a pivotal component of the divisome, the structure of CrgA will provide great insight into the formation of the divisome to advance knowledge about Mtb cell division.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 26, 2019.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Timothy A. Cross, Professor Directing Dissertation; Rufina G. Alamo, University Representative; Yan-Yan Hu, Committee Member; Scott Stagg, Committee Member; Peter G. Fajer, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85014171">
+      <mods:topic>Biochemistry</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_Shin_fsu_0071E_15392</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

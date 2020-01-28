@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Weathering the Storm</mods:title>
+      <mods:subTitle>An Examination of Fetal Loss, Maternal Age, and Norms of Race and Sexuality</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Latinsky</mods:namePart>
+      <mods:namePart type="given">Andrew</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kueno">
+      <mods:namePart type="family">Ueno</mods:namePart>
+      <mods:namePart type="given">Koji</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2012060736">
+      <mods:namePart type="family">Grzywacz</mods:namePart>
+      <mods:namePart type="given">Joseph G.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/aburdette">
+      <mods:namePart type="family">Burdette</mods:namePart>
+      <mods:namePart type="given">Amy M.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2017031126">
+      <mods:namePart type="family">Waggoner</mods:namePart>
+      <mods:namePart type="given">Miranda R.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Social Sciences and Public Policy</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Sociology</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (104 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This dissertation tests if fetal loss can be applied as an extension of prior literature on the weathering hypothesis. To do so, this study extends upon the weathering hypothesis: the observation that blacks experience substantially higher levels of stress than their white counterparts in the United States, that this gap only increases as individuals become older, and that this resulting stress is correlated with negative health outcomes, especially chronic disease. This outcome is proposed to be caused by subtle racist events and broader institutional racism, resulting in the literal accumulation of stress in the body. The outcome of weathering can be measured in physical responses of the individual's body such as cortisol levels and blood pressure (referred to collectively as allostatic load). Because negative events lead to these stress responses being more common in blacks than whites, resulting in higher allostatic load, there is a corresponding increase in the incidence of health problems such as chronic inflammation. In prior research, the impact of weathering on maternal and child health has been tested for by examining the choice of early childbearing among black mothers. This is a time period where the gap in allostatic load measures is smaller across race. Prior studies examining the weathering hypothesis have determined that for minority women, and minority women only (particularly black women), the risk of maternal mortality, premature birth, low birth weight, and infant mortality is smaller when women become pregnant in adolescence as opposed to young adulthood. However, in spite of a fetal loss gap by race that is similar to the aforementioned maternal and child health outcomes, there is a lack of research into if effects associated with the weathering hypothesis occur with fetal loss. Two analyses are performed to test this relationship. The first analysis consists of a series of multilevel logistic models on approximately seventeen thousand pregnancy outcomes in the National Longitudinal Survey of Adolescent to Adult Health (Add Health), examining the relative risk of fetal loss based on racial and age characteristics of mothers at the time of pregnancy. The second analysis follows with a series of logistic regressions examining approximately four million pregnancies in the National Vital Statistics Survey (NVSS) for the years 2016 and 2013, also examining the influence of the mother's race, age, and its interaction on fetal loss risks in each year. These analyses find that for each sample (including both years of the NVSS), black women overall have higher risks of fetal loss than their white counterparts. However, for black and Hispanic-black women, the risk of fetal loss was lower in adolescent pregnancies than adult pregnancies, consistent with the weathering hypothesis. The findings from this dissertation suggest that the effects of weathering on maternal and child healthcare outcomes can in fact be extended to the issue of fetal loss, thereby suggesting that stress resulting from racism has a broader collection of harms than previously recognized.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Sociology in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">May 29, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">Health, Life Course, Maternal and Child Health, Quantitative, Race, Weathering</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Koji Ueno, Professor Directing Dissertation; Joseph Grzywacz, University Representative; Amy Burdette, Committee Member; Miranda Waggoner, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85124200">
+      <mods:topic>Sociology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85083022">
+      <mods:topic>Medical sciences</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85001992">
+      <mods:topic>African Americans</mods:topic>
+      <mods:topic>Study and teaching</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_Latinsky_fsu_0071E_15284</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Sociology</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

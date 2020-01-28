@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Gliomas Diagnosis, Progress, and Treatment</mods:title>
+      <mods:subTitle>A Mathematical Approach</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Sorribes Rodriguez</mods:namePart>
+      <mods:namePart type="given">Inmaculada Concepcion</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/hjain">
+      <mods:namePart type="family">Jain</mods:namePart>
+      <mods:namePart type="given">Harsh Vardhan</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/qsang">
+      <mods:namePart type="family">Sang</mods:namePart>
+      <mods:namePart type="given">Qing-Xiang</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/nr2003034196">
+      <mods:namePart type="family">Cogan</mods:namePart>
+      <mods:namePart type="given">Nicholas G.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mnmoore2">
+      <mods:namePart type="family">Moore</mods:namePart>
+      <mods:namePart type="given">Matthew Nicholas J.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Mathematics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (160 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The diagnosis and treatment of gliomas continues to pose a significant challenge for oncologists who not only have to contend with managing acute neurological symptoms, but also the almost inevitable development of resistance to treatment. Indeed, the last 25 years have produced minimal advancements in treatment efficacy, even though significant efforts and resources have been invested in the quest for breakthroughs. This effort has not been restricted only to clinicians or oncologists, with mathematical modeling also playing an increasingly important role. A variety of models aimed at providing new insights into glioma growth and response to treatment have been proposed. Initially designed to capture fundamental behavior of tumor cells, such as growth and motility, these models quickly became well-established and multiple extensions have since been introduced. However, as increasing biological details of how tumor cells respond to treatment at cellular and subcellular levels are revealed, mathematical models need to include this state of the art knowledge. The work presented in this thesis seeks to do this by refocusing our attention back to the most fundamental question: why are gliomas fatal? Biologically, it is known that glioma lethality is driven by a fast growth that increases intracranial pressure resulting in lethal neurological damage, which current treatments fail to prevent due to tumor cell resistance to treatments such as chemotherapy. By creating mathematical models inspired by these key elements of glioma malignancy, the work presented here seeks to elucidate what drives resistance to chemotherapy and how to overcome or mitigate it, as well as how malignancy correlated with intracranial pressure dynamics. Thus, the work comprises two main parts: (1) in silico optimization of treatment strategies using chemotherapy coupled with novel cell-repair inhibitors currently in various stages of the clinical trial; and (2) a study of tumor-induced intracranial pressure and edema in gliomas of grade I-IV. A wide variety of mathematical modeling techniques are used, that incorporate biomechanical, biochemical, pharmacokinetics, and pharmacodynamics aspects, and include a level of detail hitherto unconsidered. The proposed models are validated and analyzed by employing a diverse set of mathematical tools that range from structural identifiability, parameter estimation, to global and local sensitivity analysis. As a result of this work, we propose a treatment strategy that showed a 30% improvement in patient survival time over conventional treatment when treating heterogeneous brain tumors in silico. Moreover, the second part of this work demonstrates how the spatio-temporal dynamics of tumor-induced intracranial pressure correlate with cancer grade, providing a better understanding of the mechanisms that underlie increased intracranial pressure onset. Both projects come together as a first step towards a better understanding of the poor survival rates of patients afflicted with gliomas. They raise new questions about what characterizes the malignancy of primary brain tumors and how clinicians can fight it. Continued modeling effort in these directions has the potential to make an impact in the field of brain cancer diagnostics and treatment.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Mathematics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">May 30, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">Age-structure, Biomechanical, Chemotherapy Resistance, Gliomas, Intracranial pressure, Mathematical Modeling</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Harsh V. Jain, Professor Directing Dissertation; Qing-Xiang Amy Sang, University Representative; Nicholas G. Cogan, Committee Member; M. Nicholas J. Moore, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh93002523">
+      <mods:topic>Applied mathematics</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85082139">
+      <mods:topic>Mathematics</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_SorribesRodriguez_fsu_0071E_15274</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Mathematics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

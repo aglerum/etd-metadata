@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Discovering the Phillips Catalyst</mods:title>
+      <mods:subTitle>from Characterizing the Precursor to the Initiating Sites</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Peek</mods:namePart>
+      <mods:namePart type="given">Nathan</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/stiegman">
+      <mods:namePart type="family">Stiegman</mods:namePart>
+      <mods:namePart type="given">Albert E.</mods:namePart>
+      <mods:namePart type="date">1953-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/telotte">
+      <mods:namePart type="family">Telotte</mods:namePart>
+      <mods:namePart type="given">John C.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/shatruk">
+      <mods:namePart type="family">Shatruk</mods:namePart>
+      <mods:namePart type="given">Mykhailo</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yhu">
+      <mods:namePart type="family">Hu</mods:namePart>
+      <mods:namePart type="given">Yan-yan</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemistry and Biochemistry</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (119 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Our research aimed at exploiting spectroscopic techniques in order to characterize and determine the electronic and vibrational properties of chromium(VI) oxides (precursor to the Phillips catalyst) dispersed on an amorphous silica support for the sake of investigating the Phillips catalyst system. In addition to characterizing the Cr(VI)/SiO2 just mentioned, we focus on analyzing the mechanistic pathway the sites undertake to becoming catalytically active. Catalytic activation of the material involves a redox reaction with either carbon monoxide (CO) gas or ethylene (C2H4) gas to reduce the chromium to a labile, open-faced Cr(II)/Si. These highly reactive Cr(II) sites react with ethylene almost instantaneously to form the active sites for polymerization. An old sol-gel method previously developed for this system was used for the synthesis of our Cr(VI)/Si xerogel materials.17,18 These sol-gels provide higher quality spectroscopic resolution at lower concentrations and are isotropic and non-scattering which allows the use of polarization studies. These factors allow for a superior investigation through spectroscopy. Raman, resonance Raman, and low temperature fluorescent techniques were used for investigating the vibrational properties of the initial Cr(VI)/Si as well as the material after onset of polymerization. UV-Vis and fluorescent spectroscopy were used for analyzing the electronic properties of the initial Cr(VI) as well as studying the reduction of the chromium and polymerization via C2H4(g). In-situ electron paramagnetic resonance (EPR) assisted in analyzing the oxidation state of our chromium material during the different stages of the preparation and initiation. The electronic and vibrational modes of the Cr(VI)/Si precursor were assigned with the help of a collaborator from FSU whom performed computational studies We assign the electronic structure to a dioxoCr(VI) species with two terminal Cr=O bonds and two Cr-O-Si bridging networks. The possibility of other species claimed to potentially be present was tested and no spectroscopic evidence was observed for any species other than the dioxoCr. The Chromium is observed to reduce to Cr(II) through an intermediate Cr(IV) via CO reduction. It is then observed to oxidize to an organoCr(III)/Si after exposure to ethylene and formation of the active sites for polymerization. Reduction using ethylene is still less understood, but is hypothesized to go through the same oxidation states and is experimentally observed to be consistent with the CO method in terms of polymer produced and Cr(III) active sites. As to the type of Cr structure present after initiation, we identify the presence of a vinylCr(III) species and present a proposal for the mechanism of initiation for the Phillips catalyst.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 12, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">Inorganic</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Albert E. Stiegman, Professor Directing Dissertation; John C. Telotte, University Representative; Mykhailo Shatruk, Committee Member; Yan-Yan Hu, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85022986">
+      <mods:topic>Chemistry</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_Peek_fsu_0071E_15407</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

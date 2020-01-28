@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Excessive Exercise, Eating Pathology and Suicidality</mods:title>
+      <mods:subTitle>Investigating the Role of Capability for Suicide</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Buchman</mods:namePart>
+      <mods:namePart type="given">Jennifer M. (Jennifer Marie)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n98075320">
+      <mods:namePart type="family">Joiner</mods:namePart>
+      <mods:namePart type="given">Thomas</mods:namePart>
+      <mods:namePart type="termsOfAddress">Jr.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n87872195">
+      <mods:namePart type="family">Winegardner</mods:namePart>
+      <mods:namePart type="given">Mark</mods:namePart>
+      <mods:namePart type="date">1961-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jcougle">
+      <mods:namePart type="family">Cougle</mods:namePart>
+      <mods:namePart type="given">Jesse R. (Jesse Ray)</mods:namePart>
+      <mods:namePart type="date">1975-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/eckel">
+      <mods:namePart type="family">Eckel</mods:namePart>
+      <mods:namePart type="given">Lisa A.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2005015125">
+      <mods:namePart type="family">Patrick</mods:namePart>
+      <mods:namePart type="given">Christopher J.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Psychology</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (66 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Eating disorders (EDs) are associated with increased risk for suicide. Recent research suggests that excessive exercise (EE), an ED compensatory behavior, may increase suicide risk via increasing one's capability for suicide which is comprised of an elevated pain tolerance and a diminished fear of death. However, additional research is needed to determine the exact mechanisms by which EE may influence capability for suicide. Specifically, no studies to date have examined the influence of EE and eating pathology on behavioral indices of capability for suicide. The present study had two aims: 1) this study sought to examine how EE engagement and ED status influences pain avoidance behaviors in comparison to controls; and 2) the second aim of the present study was to determine how EE engagement and ED status influence fear of death and avoidance of death-related stimuli. We recruited 87 participants based on ED and EE status (22 controls, 22 EE only, 21 ED only, and 22 ED+EE). Hierarchical regression with dummy coding was used to compare our groups on the following outcomes: 1) breakpoint and total key presses on a pain avoidance progressive ratio task (CPT); and 2) breakpoint and total key presses on a death avoidance progressive ratio task (viewing and rating of suicide images). The results of the present study provide preliminary, albeit mixed support for our hypotheses. Specifically, we found that the EE only (β = -0.31, p = .017) and ED only (β = -0.30, p = 0.02) groups differed significantly from controls on one measure of pain avoidance (CPT PR breakpoint); the ED only group (β = -0.31, p = .017) differed significantly from controls on one measure of death avoidance (suicide-related images PR total presses). However, our ED group characterized by EE did not differ significantly from controls on any of our behavioral measures. See supplementary file for Tables 1 and 2 which provide group comparisons on main variables of interest (Table 1) and a correlation matrix for continuous variables (Table 2). Exploration of these findings, limitations, and areas for future research are included in our general discussion.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Psychology in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 9, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">capability for suicide, eating disorder, excessive exercise, fearlessness about death, pain tolerance, suicide</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Thomas E. Joiner, Professor Directing Dissertation; Mark Winegardner, University Representative; Jesse R. Cougle, Committee Member; Lisa A. Eckel, Committee Member; Christopher J. Patrick, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85027067">
+      <mods:topic>Clinical psychology</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_Buchman_fsu_0071E_15405</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Psychology</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

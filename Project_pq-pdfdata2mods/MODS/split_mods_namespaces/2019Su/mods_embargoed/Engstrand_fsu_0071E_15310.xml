@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Intermetallic Carbides, Borides, and Carbide Hydrides from Re/Ni Fluxes (Re = La, Pr)</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Engstrand</mods:namePart>
+      <mods:namePart type="given">Tate O. (Tate Owen)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/latturne">
+      <mods:namePart type="family">Latturner</mods:namePart>
+      <mods:namePart type="given">Susan</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/tsiegrist">
+      <mods:namePart type="family">Siegrist</mods:namePart>
+      <mods:namePart type="given">Theo</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2008078041">
+      <mods:namePart type="family">Albrecht-Schmitt</mods:namePart>
+      <mods:namePart type="given">Thomas E.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/stiegman">
+      <mods:namePart type="family">Stiegman</mods:namePart>
+      <mods:namePart type="given">Albert E.</mods:namePart>
+      <mods:namePart type="date">1953-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemistry and Biochemistry</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (110 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Metal flux synthesis is a useful technique for the discovery of novel intermetallic phases. The molten state enhances diffusion rates which improves rates of reaction. Reactions can proceed at lower temperatures, allowing for the observation of metastable phases. The technique also allows favorable conditions for single crystal growth. In this work, two mixed metal fluxes were explored. The first was a Pr/Ni binary mixture in a 3:1 ratio, melting at a temperature of 525 °C. The mixture acted as a solvent for iron and other transition metals to react with main group elements. The second was a binary La/Ni eutectic 67% rich in lanthanum, m.p. 517 °C. This latter flux was used to grow an intermetallic carbide using anthracene as a reactant. Reactions of silicon and phosphorus with iron and carbon in the Pr/Ni binary mixture produced phases of the new structure type Pr62Fe21M16C32 (M = Si, P) in the P4/mmm space group (a = 15.584(2) Å, c = 11.330(1) Å for the Si analog). These compounds have a zeolite-like iron carbide framework of corner-sharing FeC3 subunits filled with a cationic Pr/M network. Building blocks in the structure were found to be in common with those in Pr21Fe8Si7C12, a new analog of the previously reported La21Fe8Sn7C12. Magnetic susceptibility measurements and band structure calculations for Pr62Fe21Si16C32 indicate that the iron atoms in the compound are not magnetic; the low temperature complex antiferromagnetic ordering is due to the Pr3+ ions. Conversely, both iron and praseodymium moments contribute to the magnetic behavior of Pr21Fe8Si7C12. Pr/Ni flux reactions with tellurium, iron and boron resulted in the intermetallic phase with new structure type Pr21Fe16Te6B30 in the cubic space group P-43m (a = 10.61709 Å). Initially, the phase appeared to grow in the Pm-3m space group, but bond length analysis indicated the growth of the phase was subject to twinning. The P-43m local structure was verified by TEM measurements. The phase features Fe16B30 clusters composed of an Fe16 Friauf polyhedron surrounded by a complex network of boron atoms. Adjacent Fe16B30 clusters are bridged by boron-boron dimers and are surrounded by a cationic Pr/Te network. Both the praseodymium ions and the iron contribute to the effective magnetic moment of this compound. Reactions of iron and anthracene in a La/Ni flux produced the new metal carbide La15(FeC6)4H. Anthracene acts as a carbon and hydrogen source. The presence of hydride in the product was indicated by single crystal X-ray diffraction and probed by 1H MAS NMR.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 25, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">borides, carbide hydrides, carbides, flux chemistry, flux synthesis, intermetallics</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Susan E. Latturner, Professor Directing Dissertation; Theo Siegrist, University Representative; Thomas E. Albrecht-Schmitt, Committee Member; Albert E. Stiegman, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85082094">
+      <mods:topic>Materials science</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85022986">
+      <mods:topic>Chemistry</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85023017">
+      <mods:topic>Chemistry, Inorganic</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_Engstrand_fsu_0071E_15310</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Materials Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

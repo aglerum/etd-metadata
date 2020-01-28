@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>RIF1 Is Necessary to Maintain Epigenetic State in Human Cells</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Klein</mods:namePart>
+      <mods:namePart type="given">Kyle N.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="viaf"
+              authorityURI="http://viaf.org/viaf/"
+              valueURI="http://viaf.org/viaf/96152682491423310487">
+      <mods:namePart type="family">Gilbert</mods:namePart>
+      <mods:namePart type="given">David M.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/agunjan">
+      <mods:namePart type="family">Gunjan</mods:namePart>
+      <mods:namePart type="given">Akash</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/nb2012004932">
+      <mods:namePart type="family">Bass</mods:namePart>
+      <mods:namePart type="given">Hank W.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/hyu">
+      <mods:namePart type="family">Yu</mods:namePart>
+      <mods:namePart type="given">Hong-Guo</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2015106702">
+      <mods:namePart type="family">Chadwick</mods:namePart>
+      <mods:namePart type="given">Brian P.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Biological Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (107 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>DNA is replicated in a defined temporal order termed the RT program. Ordered DNA replication is conserved in eukaryotes, yet its biological significance remains enigmatic. 3D genome organization as assayed by Hi-C has revealed that RT is highly correlated with genome architecture at two scales. Developmentally programmed changes in RT occur in units that align with sub-megabase chromatin architectural units known as TADs and early and late replicating chromatin is segregated into separate A and B sub-nuclear compartments respectively. Transcriptionally permissive histone modifications are associated with early replication and A nuclear compartmentalization. Conversely, transcriptionally repressive histone modifications are associated with late replication and B nuclear compartmentalization. However, studies of mechanisms linking RT and chromatin architecture with epigenetic chromatin modifications have been difficult since mutation of chromatin regulatory proteins have found only small, localized changes in the RT program, not global disruption of ordered replication. Indeed, depletion of key architectural proteins such as CTCF and cohesin disrupts TAD structure but has little effect on compartments or RT. RIF1 is the only protein shown to have a conserved role in regulating RT genome wide. To address the role of RT in organizing epigenetic chromatin modifications and genome structure we have generated RIF1 knockouts via CRISPR/Cas9 genome editing in hESCs and the cancer cell line HCT116. While RT changes in HCT116 mirrored those seen in previously published human and mouse RIF1 null cell lines, remarkably, hESC null cells lose almost all detectable temporal replication specificity, despite retaining pluripotency, a nearly normal transcriptome, and cell cycle progression. In both cell lines, the effect on RT was due to increased stochastic cell to cell variation in RT, rather than discrete RT changes as previously thought. Hi-C detected significant changes in compartments driven by changes in interactions between peaks of specific histone marks that coordinately increase or decrease in intensity. Heterochromatic H3K9me3 peaks were globally reduced in intensity, but highly enriched in both peak intensity and interaction strength at certain loci that remained late replicating. H3K27me3 showed cell line specific changes, becoming enriched or excluded from H3K9me3-rich domains in hESCs or HCT116, respectively. H3K27ac peaks also showed a global decrease in peak intensity and interactions between peaks were significantly weakened. H3K4me3 peak intensity and inter-peak interactions were depleted in the A nuclear compartment and enriched in the B nuclear compartment. TAD architecture and Rad21 binding was largely unaffected in both cell lines. We conclude that RIF1 is necessary to maintain the global epigenetic landscape and suggest a model in which RT regulates chromatin and compartment identity in human cells.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Biological Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 15, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">epigenetic state, genome organization, human embryonic stem cells, Replication Timing, RIF1</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">David M. Gilbert, Professor Directing Dissertation; Akash Gunjan, University Representative; Hank W. Bass, Committee Member; Hong-Guo Yu, Committee Member; Brian P. Chadwick, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85086577">
+      <mods:topic>Molecular biology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85035240">
+      <mods:topic>Cytology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85053877">
+      <mods:topic>Genetics</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_KLEIN_fsu_0071E_15412</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Biological Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

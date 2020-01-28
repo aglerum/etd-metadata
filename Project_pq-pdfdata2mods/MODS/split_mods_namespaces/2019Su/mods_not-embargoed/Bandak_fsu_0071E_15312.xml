@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Microfluidic-Enabled Quantitative Measurements of Insulin Release Dynamics from Single Pancreatic Islets of Langerhans</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Bandak</mods:namePart>
+      <mods:namePart type="given">Basel</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mroper">
+      <mods:namePart type="family">Roper</mods:namePart>
+      <mods:namePart type="given">Michael Gabriel</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/fajer">
+      <mods:namePart type="family">Fajer</mods:namePart>
+      <mods:namePart type="given">Piotr G.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="viaf"
+              authorityURI="http://viaf.org/viaf/"
+              valueURI="http://viaf.org/viaf/35658877">
+      <mods:namePart type="family">Bleiholder</mods:namePart>
+      <mods:namePart type="given">Christian</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/sstagg">
+      <mods:namePart type="family">Stagg</mods:namePart>
+      <mods:namePart type="given">Scott</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemistry and Biochemistry</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (121 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The work in this dissertation presents a microfluidic method for the quantitative measurement of insulin secretion rates and patterns from single pancreatic islets of Langerhans. Proper release of insulin from islets is essential for maintaining glucose homeostasis. For full efficacy, both the pattern and the amount of hormone release are critical. It is therefore important to understand how insulin levels are secreted from single islets in both a quantitative fashion and in a manner that resolves temporal dynamics. Although several systems have been described for high time resolution measurements, many are limited in their ability to quantify release. Previous microfluidic systems for single islet hormone secretion measurements used pressure-driven perfusion systems to deliver glucose solutions to an islet chamber and sampled secretions by electroosmotic flow (EOF). Because of a discrepancy in these flow rates, only a small fraction of the secretions was sampled. Experimental variables, such as islet proximity to the sampling channel, can alter that percentage, hindering islet-to-islet comparisons of insulin measurements. Using finite element analysis, a microfluidic system was designed that ensured cellular secretions were homogenized (RSDs &lt; 3%) prior to sampling, permitting quantitative monitoring of insulin and examination of inter-islet biological variability. Using the new design, the system was tested with standard insulin solutions and demonstrated RSDs of &lt; 2% as well as a detection limit of 10 nM insulin, low enough for single islet sampling. The application of this system to monitor insulin release from murine islets demonstrated biphasic secretory rates and dynamics that were in good agreement with other reports. Single islets from healthy and T2DM human donors were also sampled, and with this system, blunted phase 1 peaks and lower secretion rates were quantified in the diseased samples compared with the healthy donor samples. Chronically elevated levels of lipids have been associated with insulin resistance and impaired insulin secretion. Using this quantitative microfluidic system, the acute and chronic effects of two classes of lipids were investigated: palmitic acid, a free fatty acid (FFA), and 5-palmitic acid hydroxy stearic acid (5-PAHSA), which is a member of the novel fatty acid hydroxy fatty acid (FAHFA) class of lipids that are upregulated in non-diabetic individuals. Acute exposure of these two classes of lipids to islets induced elevated secretion rates, consistent with published reports. Chronic incubation (48-h) with 5-PAHSA significantly augmented glucose-stimulated insulin secretion (GSIS) rates and dynamics at the single islet level compared to chronic incubation without the lipid. Incubation in the presence of palmitic acid (PA) resulted in impaired insulin release, as characterized by lower release rates and the loss of pulsatility. The studies were continued in human islets from both healthy and type 2 diabetes mellitus (T2DM)-diagnosed donors. Total amounts of GSIS were not only augmented in islets that were chronically incubated with 5-PAHSA, but the dynamic insulin release profiles also improved as noted by more pronounced insulin oscillations. With this quantitative microfluidic system, the anti-diabetic effects of 5-PAHSA were corroborated by demonstrating improved islet function after chronic incubation with this lipid via improved oscillatory dynamics along with higher basal and peak release rates. It has been shown that cellular stress derived from reactive oxygen species (ROS) plays a critical role in the impairment and apoptosis of insulin secreting cells. A microfluidic analytical method has been developed that permits the simultaneous measurements of real-time oxidative stress dynamics with insulin release patterns from single murine islets in vitro. A redox-sensitive biosensor (Grx1-roGFP2) was virally delivered to islets of Langerhans and selectively expressed in β-cells. The ratiometric fluorescence output of the biosensor was utilized to image intracellular ROS dynamics in response to extracellular stimuli, simultaneously with insulin release patterns using a microfluidic dual microscopy system. Single islets were loaded on the microfluidic device and stimulated with 11 mM glucose while ROS and insulin levels were measured simultaneously. The resulting secretory profile of insulin was biphasic, in which the first phase response was observed with a duration of 5-10 min, followed by second phase oscillations with periods of 3-5 min. The biosensor fluorescence also exhibited similar dynamic profiles, with the fluorescence ratio rapidly increasing during first phase insulin release and showing pulsatility that was synchronized with insulin oscillations in second phase release. Dynamic stimulations of infected islets with 20 mM glucose from 11 mM levels also showed a dose-dependent response in the redox state of islet β-cells. These results suggest that ROS generation is associated with insulin release dynamics and highlight the potential role of ROS in insulin release signaling. The experimental method presented here is amenable to the quantitative examination of acute changes of other intracellular metabolites simultaneously with the release of other hormones.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 24, 2019.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Michael G. Roper, Professor Directing Dissertation; Piotr G. Fajer, University Representative; Christian Bleiholder, Committee Member; Scott Stagg, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85022986">
+      <mods:topic>Chemistry</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85014171">
+      <mods:topic>Biochemistry</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_Bandak_fsu_0071E_15312</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

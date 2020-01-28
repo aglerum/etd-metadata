@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo xmlns="" lang="eng">
+      <title>Characterization of Linc Complex Assembly in Budding Yeast</title>
+   </titleInfo>
+   <name xmlns="" type="personal" authority="local">
+      <namePart type="family">Fan</namePart>
+      <namePart type="given">Jinbo</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/hyu">
+      <namePart type="family">Yu</namePart>
+      <namePart type="given">Hong-Guo</namePart>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/ywang8">
+      <namePart type="family">Wang</namePart>
+      <namePart type="given">Yanchang</namePart>
+      <namePart type="termsOfAddress">(Biomedical Sciences Professor)</namePart>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/nb2012004932">
+      <namePart type="family">Bass</namePart>
+      <namePart type="given">Hank W.</namePart>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2015106702">
+      <namePart type="family">Chadwick</namePart>
+      <namePart type="given">Brian P.</namePart>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/kmcginnis">
+      <namePart type="family">McGinnis</namePart>
+      <namePart type="given">Karen M.</namePart>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name xmlns=""
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name xmlns="" type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name xmlns="" type="corporate" authority="local">
+      <namePart>Department of Biological Science</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource xmlns="">text</typeOfResource>
+   <genre xmlns="" authority="rdacontent">text</genre>
+   <genre xmlns=""
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo xmlns="">
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language xmlns="">
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription xmlns="">
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (106 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract xmlns="">The linker of the nucleoskeleton and cytoskeleton (LINC) protein complex bridges the inner and outer nuclear membranes and regulates a range of nuclear activities that include telomere tethering and chromosome movement. The canonical LINC complex is composed of a pair of transmembrane-domain proteins, with the KASH protein localized to the outer nuclear membrane, and the SUN protein to the inner nuclear membrane. In budding yeast, Csm4, which is specific to meiosis, and Mps2 are two KASH-like proteins, whereas Mps3 is the sole SUN protein. The current notion posits that Mps3 pairs with either Csm4 or Mps2 to form separate LINC complexes at the telomere and the centrosome, respectively. Here we show that Mps2 mediates the interaction between Csm4 and Mps3 to form a functional heterotrimeric composition of LINC complex that regulates telomere attachment and meiotic recombination. Csm4 binds to Mps2, and both localize to telomeres. Csm4's localization depends on Mps2 and Mps3, but Mps2's association with the telomere depends on Mps3 but not Csm4. The Mps2-mediated heterotrimeric LINC complex controls nuclear shape, telomere bouquet formation, recombination, and homolog pairing in prophase I. These findings reveal the heterotrimeric composition of the yeast LINC complex and have implications for understanding LINC variants in higher eukaryotes. To further characterize the heterotrimeric LINC complex, we have reconstructed the meiotic LINC complex in vegetative yeast cells by ectopically expressing Csm4. In the wild-type cells, both Mps2 and Mps3 are concentrated at the centrosome. In the presence of Csm4, Mps2 and Mps3 form "mitotic patches" at the leading edge of the budding daughter cell during mitosis. Importantly, the presence of Mps3 patch depends on Mps2, while the presence of Mps2 patch does not depend on Mps3, demonstrating that Mps3's interaction with Csm4 requires Mps2. Furthermore, we show that the Mps2/Mps3 patch is absent in yeast cells treated with the actin depolymerizing drug latrunculin B, indicating that ectopic t-LINC formation in vegetative cells depends on actin. These findings support our meiotic model in which the yeast telomere-associated LINC complex is composed of Mps3, Mps2, and Csm4. Finally, we have revealed that Csm4 is a short-lived protein, whose degradation appears to regulate meiotic telomere-associated LINC complex disassembly. The protein level of Csm4 peaks during prophase I but is barely detectable by Western blotting after metaphase I. We hypothesize that the disassembly of the yeast telomere-associated LINC complex is regulated by the degradation of Csm4. To test this hypothesis, a targeted genetic screen was performed and two CSM4 interacting factors were identified, UBC7 and DOA10, which encode the E2 ubiquitin conjugating enzyme and the E3 ligase of the endoplasmic-reticulum-associated protein degradation (ERAD) pathway, respectively. These findings therefore provide a clue to how the yeast telomere-associated LINC complex is downregulated during the cell cycle. In summary, we show that a heterotrimeric LINC complex is assembled at the telomere in budding yeast meiosis, and Mps2 is the linker between Mps3 and Csm4. Our work not only clarifies the composition and function of the telomere-associated LINC complex in budding yeast, but also provides implications for LINC variant formation in other organisms. In addition, we show that the KASH-like protein Csm4 is likely subject to ERAD pathway regulation for protein turnover, which may provide a mechanism for LINC complex disassembly during the cell cycle.</abstract>
+   <note xmlns="" displayLabel="Submitted Note">A Dissertation submitted to the Department of Biological Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note xmlns="" displayLabel="Degree Awarded">Summer Semester 2019.</note>
+   <note xmlns="" displayLabel="Date of Defense">May 16, 2019.</note>
+   <note xmlns="" displayLabel="Keywords">ERAD, KASH protein, LINC complex</note>
+   <note xmlns="" displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note xmlns="" displayLabel="Advisory Committee">Hong-Guo Yu, Professor Directing Dissertation; Yanchang Wang, University Representative; Hank W. Bass, Committee Member; Brian P. Chadwick, Committee Member; Karen M. McGinnis, Committee Member.</note>
+   <subject xmlns=""
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85014203">
+      <topic>Biology</topic>
+   </subject>
+   <subject xmlns=""
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85035240">
+      <topic>Cytology</topic>
+   </subject>
+   <identifier xmlns="" type="IID">2019_Summer_Fan_fsu_0071E_15268</identifier>
+   <extension xmlns="">
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Biological Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo xmlns="">
+      <recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

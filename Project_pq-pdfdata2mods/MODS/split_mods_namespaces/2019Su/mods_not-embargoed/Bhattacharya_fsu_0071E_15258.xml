@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Novel Approach for AI Based Driver Behavior Analysis Model Using Visual and Cognitive Data</mods:title>
+      <mods:nonSort>A</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Bhattacharya</mods:namePart>
+      <mods:namePart type="given">Sylvia</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/swalker">
+      <mods:namePart type="family">Bernadin</mods:namePart>
+      <mods:namePart type="given">Shonda</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2006090378">
+      <mods:namePart type="family">Sobanjo</mods:namePart>
+      <mods:namePart type="given">John Olusegun</mods:namePart>
+      <mods:namePart type="date">1958-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/foo">
+      <mods:namePart type="family">Foo</mods:namePart>
+      <mods:namePart type="given">Simon Y.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/rroberts">
+      <mods:namePart type="family">Roberts</mods:namePart>
+      <mods:namePart type="given">Rodney G.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2008023817">
+      <mods:namePart>FAMU-FSU College of Engineering (Tallahassee, Fla.)</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Electrical and Computer Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (106 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>In recent years there has been increasing research on incorporating intelligent driver assistance systems (IDAS) into vehicular platforms to help drivers make better driving decisions and to make the roadways safer. The percentage of highway accidents in United States is steadily increasing every year. Current IDAS such as collision detection and avoidance systems use models of human behavior to improve the reliability of these systems and to help decrease driver workload. Modeling driver behavior is not a simple task. It involves aspects of psychology, physiology, data analysis, signal processing and engineering, to name a few. In the case of lane changing events, early detection of a driver's intent to change lanes can be beneficial to systems that involve vehicle- to- vehicle communications. Moreover, a lane change prediction system, could be integrated into automatic aviation of the turn signal. Most published studies of lane change events are based on large scale vehicle trajectory data i.e steering angle, velocity and accelerations. Using this approach, a lane change prediction event is typically detected as soon as the driver initiates a lane change maneuver. Most vehicular trajectory model fails when a driver forgets to enable a turn signal before making a lane change. Hence, irrespective of having many automatic features equipped in modern day cars, the accident rate is still not decreasing. In such cases, biomedical signals may play an important role in detecting early driver intention. Besides vehicle dynamics (lane change, braking, acceleration), it is also important to understand the mental workload of the driver to maintain safety while travelling. Mental workload is directly related to distracted or non- distracted driving which varies with emotional changes. The mental workload can tremendously impact driving behavior and hence the detection of these factors will add driver safety on roadway. In this dissertation, we propose to utilize visual and cognitive information to detect a driver's intent to change lanes and predict their mental distraction. Mental workload varies in different situations. For example, the amount of focus required during a lane change maneuver can be disrupted due to a secondary task like cell phone usage, talking to a co-passenger, a baby crying in the back seat or an unexpected news broadcasted on the car radio. Most of the research focuses on distracted driving using a cell phone, although more number of accidents are accounted on highways during talking to passengers. In this research, conversational task with co –passengers are considered as a situation, for intent analysis and cognitive workload analysis of the driver. A novel approach is developed that considers eye movements and cognitive attentiveness as distraction levels are increased during two different scenarios (i) single passenger driving and (ii) driving with passengers. This involves aspects of statistical analysis, signal processing, software engineering and machine learning techniques. Different types of statistical analysis techniques like normalization, correlation models are used in this research. Software development with TCL scripting is utilized to design real time virtual scenario for data collection. Signal Processing techniques like power spectral analysis, cognitive engagement ratio etc. are utilized to analyze brain signals. Artificial Intelligence methods are applied to help make accurate predictions of driver intent. Finally, Artificial Intelligence is a broad field that uses deep learning and machine learning algorithms to mimic human cognition. This research utilizes innovative machine learning tools like sklearn and tensor flow, to automate the process of behavior analysis. This work will inform research on lane-change prediction, behavior prediction and vehicular feedback analysis using an IDAS environment. Furthermore, this work considers factors that may impact the lane change detection and prediction of differential drivers including elderly drivers. This work also contributes an individual database that records driving behaviors during conversational tasks that other researchers can use to conduct behavior analysis research associated with this driving scenario. To author's knowledge this is the first database that will be made available publicly for use in conversational task scenario in driving. This dissertation is composed of five chapters. Chapter 1 presents the introduction and back ground of IDAS research. It highlights various factors that contribute to detrimental road crashes and describes the research gap in this field. Chapter 2 includes a detailed literature review of all the studies that has been conducted in this field and also includes essential biological and artificial intelligence methods that are important to know in order this field. Chapter 3 outlines the methodology that has been adopted in this project. It includes description of virtual reality development procedure for collecting data from driver simulator, data collection procedure for various parameter in this research and also describes the mathematical models of each concept. Chapter 4 consists of results, discussion and the importance of novel distraction recognition algorithm. Finally, conclusion, limitations and future work are discussed in chapter 5.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Electrical and Computer Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">May 1, 2019.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Shonda Bernadin, Professor Directing Dissertation; John Sobanjo, University Representative; Simon Foo, Committee Member; Rodney Roberts, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85041666">
+      <mods:topic>Electrical engineering</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_Bhattacharya_fsu_0071E_15258</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Electrical and Computer Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

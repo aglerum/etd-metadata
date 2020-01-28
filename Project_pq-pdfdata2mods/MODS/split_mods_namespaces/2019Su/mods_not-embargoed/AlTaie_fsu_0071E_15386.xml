@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>High Voltage Insulation Systems for Gas-Cooled Superconducting Power Devices</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Al-Taie</mods:namePart>
+      <mods:namePart type="given">Aws Habeeb Mohammed</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/pamidi">
+      <mods:namePart type="family">Pamidi</mods:namePart>
+      <mods:namePart type="given">Sastry V.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2003098450">
+      <mods:namePart type="family">Ordóñez</mods:namePart>
+      <mods:namePart type="given">Juan Carlos</mods:namePart>
+      <mods:namePart type="date">1973-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/foo">
+      <mods:namePart type="family">Foo</mods:namePart>
+      <mods:namePart type="given">Simon Y.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/lgraber">
+      <mods:namePart type="family">Graber</mods:namePart>
+      <mods:namePart type="given">Lukas</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/oanubi">
+      <mods:namePart type="family">Anubi</mods:namePart>
+      <mods:namePart type="given">Olugbenga Moses</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2008023817">
+      <mods:namePart>FAMU-FSU College of Engineering (Tallahassee, Fla.)</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Electrical and Computer Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (146 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Demand for electrical power is increasing around the globe to keep up with the ever-increasing annual load growth, which in turn requires new power sources to be installed. As a society, there is a greater emphasis for power sources to be environmentally friendly, such as wind and solar. For large-scale wind and solar power sources, electric utilities need to install them in the optimal regions which are generally far away from the load centers. Hence, efficient and high capacity power transmission solutions are required to integrate these energy sources into the power grid. Another new trend of electrifying the transportation sector with electric ships and aircrafts requires compact electric power devices with high volumetric and gravimetric power densities. Therefore, electric utilities and the transportation sector have been exploring innovative solutions for energy efficient and high-power density technology options, which include utilizing superconducting power devices. High temperature superconducting (HTS) power cables and other devices have been developed and installed in several countries around the world to achieve more efficient and significantly compact devices compared to their copper counterparts. A long-term vision for the future power transmission is a cross-country multi-terminal DC HTS cable transmission system. Gas-cooled HTS power cables are being explored for electric transportation applications, including aircrafts and ships, due to asphyxiation risks associated with liquid nitrogen. Use of a gas as the cryogen instead of a liquid, however, poses technical challenges resulting from the reduced heat capacity and lower dielectric strength which could affect the overall performance of HTS cables. When helium gas is used as the cryogen in HTS power devices, the electrical insulation method and materials utilized for liquid nitrogen cooled HTS cables are not applicable. For liquid nitrogen cooled HTS power cables for electric utility applications, lapped tape insulation has been used to achieve operating voltages in excess of 100 kV. When this same design is utilized for electrical insulation system of helium gas cooled HTS cables, partial discharge (PD) occurs at voltages &lt;10 kV, limiting the operational voltages. The butt gaps within the lapped tape insulation layers trap helium gas and cause the associated field enhancements leading to low partial discharge inception voltages. The research described in this dissertation focused on extending the understanding the technology challenges associated with the use of gas media as part of the electrical insulation system at cryogenic temperatures. The emphasis was on the development of the concept of superconducting gas insulated line (S-GIL) as an alternative to lapped tape electrical insulation system to HTS power cables to enable higher operating voltages for helium gas cooled HTS power cables. The S GIL, which is similar to the Gas Insulated Line (GIL), was conceptualized recently at Florida State University's Center for Advanced Power Systems (FSU-CAPS). The S-GIL utilizes the flow of pressurized cryogenic gas instead of stagnant room temperature gas for GIL. The S-GIL addresses the challenge of low partial discharge inception voltages (PDIV) in lapped tape insulated, gas cooled HTS cables by eliminating the need for solid insulation layers on the cable. However, the need to maintain the cable on the axis of the cryostat imposes the requirement of insulator spacers. This work explored bundled tubular spacers for S-GIL as an option for spacers and 1-m long prototype cables were fabricated and characterized in gaseous helium and helium-based gas mixtures. Surface flashover along the surface of the spacers is expected to be one of the design factors which influences the voltage rating for S-GIL. The designs considered different tube materials and gases and a variety of experiments were conducted at room temperature and at cryogenic temperatures to gain a thorough understanding of the S-GIL design limitations. To gain further understanding of the limits of the S-GIL concept, the design was tested with liquid nitrogen as the insulation medium to decipher the role of the intrinsic dielectric strength of the insulation medium. Besides providing additional insights into S-GIL concept, the liquid cooled alternative will have applications in terrestrial power systems and transportation sector where higher operating voltages and efficient thermal designs are needed. The research also focused on investigating the surface flashover phenomenon in GHe environment. This included investigating the triple point where the conductor, solid insulation material, and gas insulation media meet. Surface flashover measurements were performed with varying gas density, temperature, gas composition, solid insulation material, applied voltage waveform, and electric field strength and distribution.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Electrical and Computer Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 28, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">electrical insulation, gases, high voltage, superconductivity</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Sastry Pamidi, Professor Directing Dissertation; Juan Ordonez, University Representative; Simon Foo, Committee Member; Lukas Graber, Committee Member; Olugbenga Moses Anubi, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85041666">
+      <mods:topic>Electrical engineering</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_AlTaie_fsu_0071E_15386</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Electrical and Computer Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

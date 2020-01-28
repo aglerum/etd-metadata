@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Origin of Intrinsic Selectivity in F-Block Complexes</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Dan</mods:namePart>
+      <mods:namePart type="given">David</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2008078041">
+      <mods:namePart type="family">Albrecht-Schmitt</mods:namePart>
+      <mods:namePart type="given">Thomas E.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/fajer">
+      <mods:namePart type="family">Fajer</mods:namePart>
+      <mods:namePart type="given">Piotr G.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yhu">
+      <mods:namePart type="family">Hu</mods:namePart>
+      <mods:namePart type="given">Yan-yan</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/stiegman">
+      <mods:namePart type="family">Stiegman</mods:namePart>
+      <mods:namePart type="given">Albert E.</mods:namePart>
+      <mods:namePart type="date">1953-</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2007034285">
+      <mods:namePart type="family">Dalal</mods:namePart>
+      <mods:namePart type="given">Naresh S.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemistry and Biochemistry</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (113 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This dissertation seeks to determine fundamental differences between lanthanides and actinides, as well as how their bonding influences ligand selectivity, for possible actinide separations from nuclear waste. The f-elements are significantly understudied when compared to other parts of the periodic table such as the d-block. Research into the f-elements, and more specifically the 5f elements, has undergone a renaissance of sorts with steadily increasing interest over the past few decades. It was previously predicted that the chemistry for later actinides was identical to that of their lanthanide counterparts. However, a review by Neidig et al., "The covalency in f-element complexes", helped introduce the concept of a greater degree of covalency in the actinides than in the lanthanides, creating a substantial dividing point for chemists to explore.1 The goal of this work is to shed further light on how later actinides behave and can be utilized. These new findings could help in the design of future separations techniques and materials. The first half of my dissertation will focus on the bonding in later actinides. I focus on an americium and californium complex [M(EtBTP)3][BPh4]3•3CH3CN (M = Am, Cf) (EtBTP = ethyl bistriazinyl pyridine). I also compare the [Am(EtBTP)3]3+ to its neodymium analog. Structural analysis of these complexes revealed that these compounds contain M3+ cations bound by tridentate EtBTP ligands, to create a tricapped trigonal prismatic geometry around the metal centers. Collection of high-resolution, single crystal X-ray diffraction data also allowed for reduction in bond distance estimated standard deviation (esd's) such that a slight contraction of Δ = 0.0158(18) Å in the Am‒N versus Nd‒N bond distances is observed, even though these cations ostensibly have matching ionic radii. Theoretical evaluation revealed enhanced metal-ligand bonding through back donation in the [Am(EtBTP)3]3+ complex that is absent in [Nd(EtBTP)3]3+. The [Cf(EtBTP)3]3+ complex was also compared to its lanthanide analogs, gadolinium and erbium. Upon analysis of these complexes, Cf showed significantly stronger bonding than Gd and Er. The contractions of some of the Cf bonds with the nitrogen atoms on EtBTP, revealed that Er could be a better analog for Cf complexes that are expected to have greater covalent characteristics. These two studies provide new information about how Cf and Am bond to ligands, and reveal how they differ from their lanthanide analogs. The second half of this dissertation centers on possible applications for f-block ligands. The two main points of interest are photochromic properties of [M(EtBTP)3][BPh4]3•3CH3CN (M = La, Eu, Gd, Yb) complexes, as well as a dithioamide ligand with possible separations applications. The [M(EtBTP)3][BPh4]3•3CH3CN (M = La, Eu, Gd, Yb) complexes exhibit a long-lived color change when exposed to intense light. This color change lasts on the order of hours, and increases in length as you go across the series. This color change is caused by a radical formation upon exposure to light. The long-lived nature of this color change is attributed to a trapped triplet excited state, with a relaxation that is moderated by the metal center. This shows the versatility of EtBTP and how it can be used in possible photochromic materials. The practicality of dithioamides as ligands for separations has yet to be greatly understood. The dithioamides were compared to their diamide counterparts, and the dithioamides showed greater selectivity for AmIII over EuIII. This selectivity is due to the softer donor properties of the sulfur atoms. This study showed the merit of studying other sulfur donor ligand systems for use in actinide extractions.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 3, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">Actinides, Lanthanides</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Thomas E. Albrecht-Schmitt, Professor Directing Dissertation; Piotr Fajer, University Representative; Yan-Yan Hu, Committee Member; Albert E. Stiegman, Committee Member; Naresh Dalal, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85023017">
+      <mods:topic>Chemistry, Inorganic</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_Dan_fsu_0071E_15333</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

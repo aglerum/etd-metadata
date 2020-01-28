@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Ultrafast Dynamics in Warm Dense Matter Materials and Halide Perovskite</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Li</mods:namePart>
+      <mods:namePart type="given">Dong</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jcao">
+      <mods:namePart type="family">Cao</mods:namePart>
+      <mods:namePart type="given">Jianming</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yang">
+      <mods:namePart type="family">Yang</mods:namePart>
+      <mods:namePart type="given">Wei</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2002162741">
+      <mods:namePart type="family">Bonesteel</mods:namePart>
+      <mods:namePart type="given">N. E.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ichiorescu">
+      <mods:namePart type="family">Chiorescu</mods:namePart>
+      <mods:namePart type="given">Irinel</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Physics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (102 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The dissertation presents the recent development of the third-generation femtosecond electron diffractometer in Professor Jim Cao's group. Two techniques, femtosecond electron shadow imaging and deflectometry (FESID) and femtosecond electron diffraction (FED), were developed and applied to study ultrafast dynamics in laser-induced warm dense matter and quantum dots in real time. FESID provides both a global view and local prospect of the transient electric field, associated with laser-induced electron emission. The research activities cover two main objects: dynamics of ejected electron expansion from warm dense nanofilms and hyperthermal electron transport mechanisms in warm dense nanofilms. With FED, we measure laser-induced ultrafast structural dynamics of halide perovskite CsPbBr3 in real time. In the first project, we conduct ultrafast electron shadow imaging and deflection measurements of the laser-produced warm dense copper nanofilm. The results show that a significant number of electrons is ejected from the nanofilm, forming electron clouds of hundreds of microns on both sides of the pumped film. Furthermore, even for a thin 30-nm copper film, we find that the electron clouds develop asymmetry between the pumped front side and the rear side at the pump fluence of 4.5 J/cm2. The possible mechanisms leading to this ejected charge asymmetry and its implication are discussed. Next, we report a systematic study of the ejected charge dynamics surrounding laser produced 30-nm warm dense gold films using single-shot femtosecond electron shadow imaging and deflectometry. The results reveal a two-step dynamical process of the ejected electrons under the high pump fluence conditions: an initial emission and accumulation of a large number of electrons near the pumped surface region followed by the formation of hemispherical clouds of electrons on both sides of the film, which escape into the vacuum at a nearly isotropic and constant velocity with an unusually high kinetic energy of more than 300 eV. We also develop a model of the escaping charge distribution that not only reproduces the main features of the observed charge expansion dynamics but also allows us to extract the number of ejected electrons remaining in the cloud. In the second project, we investigate hyperthermal electron transport by single-shot measurements of warm dense gold and aluminum nanofilms using ultrafast electron shadow imaging and deflectometry. The results show a clear fluence limit of 0.26 J/cm2 and 0.83 J/cm2 for ballistic transport of nonthermal electrons for both two metals, respectively. This nonuniform heating is attributed to diffusive electrons. The last project, we have measured the ultrafast structural dynamics in halide perovskite CsPbBr3 in real time with Femtosecond electron diffraction. We observed CsPbBr3 experience significant ultrafast impulsive heating. This heating causes the CsPbBr3 to undergo an orthorhombic-to-cubic phase transition observable through FED. The photo induced phase transition occurs on the timescale of 1.1 ± 0.3 ps at fluences of 2.5 mJ/cm2.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Physics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 12, 2019.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Jianming Cao, Professor Directing Dissertation; Wei Yang, University Representative; Nicholas Bonesteel, Committee Member; Irinel Chiorescu, Committee Member; Edmund Myers, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh8510165">
+      <mods:topic>Physics</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_Li_fsu_0071E_15420</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Physics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

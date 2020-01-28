@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Characterization of a High-Lift, Supercritical Airfoil with Microjets</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Aley</mods:namePart>
+      <mods:namePart type="given">Kade Stephen</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/drrajank">
+      <mods:namePart type="family">Kumar</mods:namePart>
+      <mods:namePart type="given">Rajan</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Professor of Mechanical Engineering)</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/woates">
+      <mods:namePart type="family">Oates</mods:namePart>
+      <mods:namePart type="given">William</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kshoele">
+      <mods:namePart type="family">Shoele</mods:namePart>
+      <mods:namePart type="given">Kourosh</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2008023817">
+      <mods:namePart>FAMU-FSU College of Engineering (Tallahassee, Fla.)</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Mechanical Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (70 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Active flow control (AFC) has the potential for substantial performance gains and meeting the challenges of next-generation high-lift aircraft. High-lift wings employ multi-element trailing edge flaps during takeoff and landing. When the aircraft is at cruise speed, these flaps are not required and are retracted to reduce drag. These aircraft wings with high-lift mechanisms enhance the lift characteristics at slower speeds, but suffer due to the added weight of these deployment/retraction mechanisms. In the present study, we have investigated the effect of active flow control using microjets to enhance the performance of a two-dimensional high-lift supercritical airfoil with a simply hinged flap. The airfoil used in the study is the NASA Energy Efficient Transport (EET) and the wind-tunnel tests were conducted at a freestream velocity of 20 m/s. Two different scaled models were used corresponding to Reynolds numbers of 1.3 x 105 and 3.4 x 105. The experiments pertaining to the small scaled model were carried out with two angles of incidence of 0° and 4° at a constant flap deflection of 20°. For the large scale model, a constant angle of incidence of 0° and flap deflection angles of 20° and 30° were investigated. A range of microjet momentum ratios and microjet orientations were studied for both models. Particle Image Velocimetry was carried out to study the mean velocity field and the effect of microjet control at the flap region of the airfoil. For the first model, the baseline flow at both the angles of incidence separates at the hinge line and remain separated over the entire flap region. The size of the re-circulation region is found to gradually decrease with an increase in microjet momentum ratio. Microjets oriented normal to the airfoil surface were relatively more effective and successful in re-attaching the flow over the entire airfoil at both the angles of incidence. Experiments for the second model consisted of both Planar and Stereoscopic Particle Image Velocimetry. The baseline flow is separated over a third of the flap at 20° and over the entire flap at 30°. Microjets oriented at a more tangential angle are able to completely re-attach the flow at both flap angles. In general, active flow control using high-momentum microjets was very effective in eliminating/reducing flow separation, however, its effectiveness was dependent on the geometric and flow parameters.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Mechanical Engineering in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 1, 2019.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Rajan Kumar, Professor Directing Thesis; William Oates, Committee Member; Kourosh Shoele, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85082757">
+      <mods:topic>Mechanical engineering</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_Aley_fsu_0071N_15353</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Mechanical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Photoresponse and Charge Transport in Halide Perovskites</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Wang</mods:namePart>
+      <mods:namePart type="given">Xi</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/hgao3">
+      <mods:namePart type="family">Gao</mods:namePart>
+      <mods:namePart type="given">Hanwei</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ehellstrom">
+      <mods:namePart type="family">Hellstrom</mods:namePart>
+      <mods:namePart type="given">Eric</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2002162741">
+      <mods:namePart type="family">Bonesteel</mods:namePart>
+      <mods:namePart type="given">N. E.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2012037971">
+      <mods:namePart type="family">Piekarewicz</mods:namePart>
+      <mods:namePart type="given">Jorge</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/xiong">
+      <mods:namePart type="family">Xiong</mods:namePart>
+      <mods:namePart type="given">Peng</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Physics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (106 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Halide Perovskites have recently risen as a new class of optoelectronic materials. Remarkable optical and electrical properties have led to the demonstration of various perovskite-based devices such as solar cells1, LEDs2-5, photodetectors6 and lasers7,8. Particularly, perovskite solar cells have reached &gt;24% of the energy conversion efficiency and outperformed most of the single-junction thin film solar cells available on the market1. Unfortunately, most of the perovskite-based devices remained more-or-less unstable due to a series of unusual behaviors such as current-voltage hysteresis9 and photo-induced phase segregation10,11. Studies about the underlying mechanisms are in demand. In this dissertation, I focused on studying the charge transport and photoresponse of halide perovskites to reveal the mechanisms related to material stability, particularly under electrical and optical stimuli. The changes of halide perovskite materials in a device under electrical operation were studied by using a microscopic tool, scanning photocurrent microscopy. The results showed the dynamic nature of the doping concentration in the hybrid perovskite CH3NH3PbI3, as a function of the external biasing voltages. Further studies on the synthesis methods showed such a dynamic process could be attributed to electric field-assisted ion migration mainly through defect sites. The partial suppression of ion migration was observed in materials processed at higher temperature. Except the electric-field triggered instability of the internal potential distribution, while under illumination, a different type of stability, the phase stability in mixed-halide perovskites attracted a lot of attention. Phase separation in mixed-halide perovskites under illumination was a tough problem, which directly related to the degradation of desired device performance. In this dissertation, the correlation between the phase stability and morphology was discovered. A model based on thermodynamics was developed to explain such a correlation. Based on the thermodynamic model, the composite materials CsPbX3/Cs4PbX6 with guest-host structures were created with the phase separation problem successfully solved. Furthermore, the composites are sustainably functionalized even under extreme conditions, i.e., under extremely intense illumination, making the composited useful for devices required to work in extreme conditions. The optical and electrical properties of CsPbX3/Cs4PbX6 composites were further investigated for the application of such composites to functional devices. Surprisingly, the presence of the photoluminescence inactive Cs4PbBr6 can significantly enhance the light emitting efficiency of CsPbBr3 in the composites. The unique negative thermal quenching observed near the liquid nitrogen temperature indicates that a type of shallow states generated at the CsPbBr3/Cs4PbBr6 interfaces is responsible for the enhancement of photoluminescence. Finally, light emitting diodes based on CsPbBr3/Cs4PbBr6 composites are demonstrated. Both quantum efficiency and emission brightness are improved significantly compared with similar devices constructed using pure CsPbBr3. The unfavorable charge transport property of host matrix Cs4PbBr6 could be circumvented by optimizing the ratio between the host and the guest components and the total thickness of the composite thin films. The inorganic composition of the emitting layer also leads to improved device stability under the condition of continuous operation. The studies in this dissertation indicated great potentials of composite materials with optimized designed properties. Depends on the application purposes, more matrix materials with the combination of halide perovskites need to be explored. The future plan will more directed to the investigations of fundamental photophysics and charge transport in a large collection of compositing combinations.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Physics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 7, 2019.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Hanwei Gao, Professor Directing Dissertation; Eric Hellstrom, University Representative; Nick Bonesteel, Committee Member; Jorge Piekarewicz, Committee Member; Peng Xiong, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh8510165">
+      <mods:topic>Physics</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_Wang_fsu_0071E_15292</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Physics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

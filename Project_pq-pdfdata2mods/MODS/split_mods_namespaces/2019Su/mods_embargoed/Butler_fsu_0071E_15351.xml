@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Impact of Estradiol on Food Intake, Cell Signaling, and Diet-Induced Inflammation</mods:title>
+      <mods:nonSort>The</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Butler</mods:namePart>
+      <mods:namePart type="given">Michael James</mods:namePart>
+      <mods:namePart type="termsOfAddress">II</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/eckel">
+      <mods:namePart type="family">Eckel</mods:namePart>
+      <mods:namePart type="given">Lisa A.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/joverton">
+      <mods:namePart type="family">Overton</mods:namePart>
+      <mods:namePart type="given">J. Michael (James Michael)</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n89663601">
+      <mods:namePart type="family">Hyson</mods:namePart>
+      <mods:namePart type="given">Richard Lee</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/levenson">
+      <mods:namePart type="family">Levenson</mods:namePart>
+      <mods:namePart type="given">Cathy W.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jmaner">
+      <mods:namePart type="family">Maner</mods:namePart>
+      <mods:namePart type="given">Jon K.</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Psychology</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2019</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (94 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>There is a well-documented sexual dimorphism in the neural control of food intake and body weight regulation. Estradiol is a leading candidate as a potential biological factor contributing to these sex differences due to its robust anorexigenic effect. However, the cellular and molecular mechanisms driving estradiol's anorexigenic effect are poorly understood. The goal of this dissertation was to investigate several potential mechanisms underlying estradiol's effect on energy homeostasis in female rats. Many of estradiol's behavioral effects are mediated, at least partially, via extra-nuclear estradiol signaling. Here, we investigated whether two estrogen receptor (ER) agonists, targeting ERα and G protein-coupled ER-1 (GPER-1), could promote rapid anorexigenic effects in ovariectomized (OVX) rats. Our findings demonstrated that selective activation of ERα produces a rapid (within 1 h) decrease in food intake that is best explained by a non-genomic signaling pathway and thus implicates the involvement of extra-nuclear ERα. We also found that activation of GPER-1 is both sufficient to suppress feeding and necessary for ERa agonist, PPT's, rapid anorexigenic effect. Next, we investigated estradiol's impact on the Janus kinase – signal transducer and activator of transcription (JAK-STAT) pathway in the hypothalamus of OVX rats and in cultured proopiomelanocortin (POMC) neurons. The JAK-STAT pathway mediates leptin's anorexigenic effect and previous work has shown that estradiol also activates this pathway in male mice. However, the specific estrogen receptor subtype and neuronal phenotype has not been investigated in the rat. Here, we show that activation of ERa in OVX rats increases the expression of phosphorylated STAT3 in the hypothalamic arcuate nucleus (ARC) and activation of both ERa and GPER-1 increases the nuclear translocation of phosphorylated STAT3 in cultured POMC neurons. In addition to investigating the effects of estradiol under normal, chow-fed, conditions, we wanted to investigate the effects of estradiol in animals consuming a palatable high fat diet (HFD). Previous work has shown consumption of a HFD increases inflammation in the hypothalamus in male mice and rats, but little to no work has been conducted in females. Here, we showed for the first time that acute HFD exposure increases microgliosis, as measured by an increase in the number of cells expressing the microglia-specific protein Iba1, and decreased microglial branching and complexity in the hypothalamus and nucleus of the solitary tract (NTS) of OVX rats. These data suggest that HFD increased microglial accumulation and activation in the hypothalamus and hindbrain. Estradiol replacement blocked the HFD-induced increase in microglia in the hypothalamus and hindbrain and reduced microglia activation in the hypothalamus. These data provide the first in vivo evidence that estradiol may play a protective role in diet-induced inflammation in female rats. In addition to increasing microglial activity, consumption of a HFD has been shown to negatively impact neuronal health in the hypothalamus. In vitro studies have shown that treatment of hypothalamic neurons with palmitate, a common dietary saturated fat, increases markers of both inflammation and endoplasmic reticulum stress. In our study, we showed that treating cultured POMC neurons with palmitate increased mRNA expression of interleukin-6 (IL-6), nuclear factor kappa-light-chain-enhancer of activated B cells (NF-B), and CCAAT-enhancer-binding protein homologous protein (CHOP). Pre-treatment with estradiol attenuated the palmitate-induced increase in IL-6 and treatment with the selective GPER-1 agonist, G-1, attenuated increases in IL-6 and NF-kB mRNA caused by palmitate. These data suggest that estradiol attenuates markers of inflammation caused by saturated fat, but has no effect on a marker of endoplasmic reticulum stress. Taken together, these studies demonstrate that estradiol affects energy homeostasis via activation of extra-nuclear receptors, JAK-STAT activity, and decreasing the neuroimmune response to diet.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Psychology in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Degree Awarded">Summer Semester 2019.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 17, 2019.</mods:note>
+   <mods:note displayLabel="Keywords">estrogen, feeding, high fat diet, hypothalamus, neuroinflammation, STAT3</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Lisa Eckel, Professor Directing Dissertation; James Mike Overton, University Representative; Rick Hyson, Committee Member; Cathy Levenson, Committee Member; Jon Maner, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh91006099">
+      <mods:topic>Neurosciences</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85014203">
+      <mods:topic>Biology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85043068">
+      <mods:topic>Endocrinology</mods:topic>
+   </mods:subject>
+   <identifier type="IID">2019_Summer_Butler_fsu_0071E_15351</identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Psychology</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2020-01-08T16:41:25.408-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>
