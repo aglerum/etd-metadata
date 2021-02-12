@@ -132,13 +132,13 @@
     
     <xsl:template match="xml/TaggedPDF-doc/P[matches(.,'UniversityRepresentative')]" priority="19">
         <P>
-            <xsl:value-of select="normalize-space(replace(upper-case(.),'UniversityRepresentative','University Representative'))"/>
+            <xsl:value-of select="normalize-space(replace(.,'UniversityRepresentative','University Representative'))"/>
         </P>
     </xsl:template>
     
     <xsl:template match="xml/TaggedPDF-doc/P[matches(.,'College of Arts and Science') and not(matches(.,'College of Arts and Sciences'))]" priority="20">
         <P>
-            <xsl:value-of select="normalize-space(replace(upper-case(.),'College of Arts and Science','College of Arts and Sciences'))"/>
+            <xsl:value-of select="normalize-space(replace(upper-case(.),'C','College of Arts and Sciences'))"/>
         </P>
     </xsl:template>
     
@@ -165,12 +165,74 @@
     
     <xsl:template
         match="xml/TaggedPDF-doc/P[contains(.,'COLLEGE OFMUSIC')]"
-        priority="23">
+        priority="24">
         <P>
             <xsl:value-of
                 select="replace(.,'COLLEGE OFMUSIC','COLLEGE OF MUSIC')"/>
         </P>  
     </xsl:template>
+    
+    <xsl:template
+        match="xml/TaggedPDF-doc/P[contains(.,'defended this dissertation')]"
+        priority="25">
+        <P>
+            <xsl:value-of
+                select="replace(.,'defended this dissertation','defended this Dissertation')"/>
+        </P>  
+    </xsl:template>
+    
+    <xsl:template
+        match="xml/TaggedPDF-doc/P[contains(.,'defended this thesis')]"
+        priority="26">
+        <P>
+            <xsl:value-of
+                select="replace(.,'defended this thesis','defended this Thesis')"/>
+        </P>  
+    </xsl:template>
+    
+    <xsl:template
+        match="xml/TaggedPDF-doc/P[contains(.,'defended this treatise')]"
+        priority="27">
+        <P>
+            <xsl:value-of
+                select="replace(.,'defended this treatise','defended this Treatise')"/>
+        </P>  
+    </xsl:template>
+    
+    <xsl:template
+        match="xml/TaggedPDF-doc/P[contains(.,'Committee member')]"
+        priority="28">
+        <P>
+            <xsl:value-of
+                select="replace(.,'Committee member','Committee Member')"/>
+        </P>  
+    </xsl:template>
+    
+    <xsl:template
+        match="xml/TaggedPDF-doc/P[contains(.,'“')]"
+        priority="29">
+        <xsl:variable name="double_quote">
+            <xsl:text>"</xsl:text>
+        </xsl:variable>
+        <P>
+            <xsl:value-of
+                select="replace(.,'“',$double_quote)"/>
+        </P>  
+    </xsl:template>
+    
+    <xsl:template
+        match="xml/TaggedPDF-doc/P[contains(.,'“')]"
+        priority="30">
+        <xsl:variable name="double_quote">
+            <xsl:text>"</xsl:text>
+        </xsl:variable>
+        <P>
+            <xsl:value-of
+                select="replace(.,'”',$double_quote)"/>
+        </P>  
+    </xsl:template>
+    
+    
     
     
     

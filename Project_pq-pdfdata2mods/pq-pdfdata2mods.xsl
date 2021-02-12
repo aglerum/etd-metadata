@@ -7,7 +7,7 @@
 
     <xd:doc scope="stylesheet">
         <xd:desc>
-            <xd:p><xd:b>Last updated: </xd:b>January 15, 2020</xd:p>
+            <xd:p><xd:b>Last updated: </xd:b>December 18, 2020</xd:p>
             <xd:p><xd:b>Author: </xd:b>Annie Glerum</xd:p>
             <xd:p><xd:b>Organization: </xd:b>Florida State University Libraries</xd:p>
             <xd:p><xd:b>Title: </xd:b>ProQuest and PDF data to MODS</xd:p>
@@ -28,12 +28,12 @@
 
     <!-- **Global variables** -->
     <!-- Batch Variable -->
-    <xsl:variable name="batch" select="'2019_Summer'"/>
+    <xsl:variable name="batch" select="'2019_Fall'"/>
 
     <!-- These paths change with each semester-->
-    <xsl:variable name="pdfdata" select="document('source_pdfdata/source_pdfdata_2019Su.xml')/records/record"/>
-    <xsl:variable name="committee" select="document('tables/ETD-NAF_mads_20200109.xml')/mads:madsCollection/mads:mads/mads:authority"/>
-    <xsl:variable name="authors" select="document('tables/authors_2019Su.xml')/authors/name"/>
+    <xsl:variable name="pdfdata" select="document('source_pdfdata/source_pdfdata_2019Fa_extra.xml')/records/record"/>
+    <xsl:variable name="committee" select="document('tables/ETD-NAF_mads_20200802.xml')/mads:madsCollection/mads:mads/mads:authority"/>
+    <xsl:variable name="authors" select="document('tables/authors_2019Fa.xml')/authors/name"/>
 
     <!-- These paths refer to data tables -->
     <xsl:variable name="PQ-FSU-dept" select="document('tables/PQ-FSUdept.xml')/departments/department"/>
@@ -50,7 +50,7 @@
             xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/"
             xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
             xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-            <xsl:for-each select="xml/DISS_submission">
+            <xsl:for-each select="diss/DISS_submission">
                 <xsl:variable name="binary" select="DISS_content/DISS_binary"/>
                 <xsl:variable name="embargo">
                     <xsl:value-of select="@embargo_code"/>
@@ -268,9 +268,11 @@
                     <mods:note displayLabel="Submitted Note">
                         <xsl:value-of select="concat($Submitted, '.')"/>
                     </mods:note>
-                    <mods:note displayLabel="Degree Awarded">
-                        <xsl:value-of select="concat($Awarded, '.')"/>
-                    </mods:note>
+                    <!-- Do not use as of 2020-12-18 -->
+<!--                    <mods:note displayLabel="Degree Awarded">
+                        <xsl:value-of select="$Awarded"/>
+                        <!-\-<xsl:value-of select="concat($Awarded, '.')"/>-\->
+                    </mods:note>-->
                     <mods:note displayLabel="Date of Defense">
                         <!--  Use this for converting YYYY-MM-DD to Month Day, Year.<xsl:value-of
                         select="concat('Date of Defense: ',format-date($defense_date, '[MNn] [D], [Y]', 'en', (), ()),'.')"

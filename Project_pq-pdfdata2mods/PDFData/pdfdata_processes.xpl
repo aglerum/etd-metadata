@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 
 <!--  
-Last updated: January 15, 2020
+Last updated: July 19, 2020
 Author: Annie Glerum
 Organization: Florida State University
 Title: Pipeline for reformatting PDF to XML data
@@ -51,7 +51,7 @@ Title: Pipeline for reformatting PDF to XML data
         </p:input>
     </p:xslt>
     
-    <p:store indent="true" href="XML/Results/step00_pdf2xml_2019Sp.xml"/>
+    <p:store indent="true" href="XML/XProc_results/step00_pdf2xml_2019Fa.xml"/>
 
     <p:xslt name="step01">
         <p:input port="source">
@@ -65,7 +65,7 @@ Title: Pipeline for reformatting PDF to XML data
         </p:input>
     </p:xslt>
     
-    <p:store indent="true" href="XML/Results/step01_delete_edit_result.xml"/>
+    <p:store indent="true" href="XML/XProc_results/step01_delete_edit_result.xml"/>
     
     <p:xslt name="step02">
         <p:input port="source">
@@ -79,7 +79,7 @@ Title: Pipeline for reformatting PDF to XML data
         </p:input>
     </p:xslt>
 
-    <p:store indent="true" href="XML/Results/step02_split_department_result.xml"/>
+    <p:store indent="true" href="XML/XProc_results/step02_split_department_result.xml"/>
     
     <p:xslt name="step03">
         <p:input port="source">
@@ -93,7 +93,7 @@ Title: Pipeline for reformatting PDF to XML data
         </p:input>
     </p:xslt>
     
-    <p:store indent="true" href="XML/Results/step03_merge_titles_result.xml"/>
+    <p:store indent="true" href="XML/XProc_results/step03_merge_titles_result.xml"/>
  
     <p:xslt name="step04">
         <p:input port="source">
@@ -107,56 +107,42 @@ Title: Pipeline for reformatting PDF to XML data
         </p:input>
     </p:xslt>
  
-    <p:store indent="true" href="XML/Results/step04_merge_submitted_result.xml"/>
+    <p:store indent="true" href="XML/XProc_results/step04_merge_submitted_result.xml"/>
     
     <p:xslt name="step05">
         <p:input port="source">
             <p:pipe port="result" step="step04"/>
         </p:input>
         <p:input port="stylesheet">
-            <p:document href="XSL/step05_merge_awarded.xsl"/>
+            <p:document href="XSL/step05_merge_defended.xsl"/>
         </p:input>
         <p:input port="parameters">
             <p:empty/>
         </p:input>
     </p:xslt>
     
-    <p:store indent="true" href="XML/Results/step05_merge_awarded_result.xml"/>
+    <p:store indent="true" href="XML/XProc_results/step05_merge_defended_result.xml"/>
     
     <p:xslt name="step06">
         <p:input port="source">
             <p:pipe port="result" step="step05"/>
         </p:input>
         <p:input port="stylesheet">
-            <p:document href="XSL/step06_merge_defended.xsl"/>
+            <p:document href="XSL/step06_merge_members.xsl"/>
         </p:input>
         <p:input port="parameters">
             <p:empty/>
         </p:input>
     </p:xslt>
     
-    <p:store indent="true" href="XML/Results/step06_merge_defended_result.xml"/>
-    
+    <p:store indent="true" href="XML/XProc_results/step06_merge_members_result.xml"/>
+
     <p:xslt name="step07">
         <p:input port="source">
             <p:pipe port="result" step="step06"/>
         </p:input>
         <p:input port="stylesheet">
-            <p:document href="XSL/step07_merge_members.xsl"/>
-        </p:input>
-        <p:input port="parameters">
-            <p:empty/>
-        </p:input>
-    </p:xslt>
-    
-    <p:store indent="true" href="XML/Results/step07_merge_members_result.xml"/>
-
-    <p:xslt name="step08">
-        <p:input port="source">
-            <p:pipe port="result" step="step07"/>
-        </p:input>
-        <p:input port="stylesheet">
-            <p:document href="XSL/step08_reformat2source.xsl"/>
+            <p:document href="XSL/step07_reformat2source.xsl"/>
         </p:input>
         <p:input port="parameters">
             <p:empty/>

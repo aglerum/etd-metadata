@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Last updated January 27, 2020-->
+<!-- Last updated July 19, 2020 -->
 <!-- List of known acronyms in title and keywords fields. This list is updated with each new batch of source records.
      This table is called by caps.xsl which is included in reformat2source.xsl, trans2bepress.xsl, and trans2marc.xsl.
      Split acronyms with hypens or slashes, for example, "HIV-AIDS" to "HIV" and "AIDS".
      Certain acronyms are also words and have @ambiguous="yes". This could be used to generate the message: "Record #[$v] requires review for ambiguous acronyms".
-     NOTE: cap.xsl does not distinguish between article "A" and intital "A." reformat2source.xsl addresses this in the <author> element.
+     NOTE: cap.xsl does not distinguish between article "A" and intital "A." In reformat2source.xsl addresses this in the <author> element.
      MANUAL CORRECTIONS: Elisions such as "d’Anatolie"; "V." for versus.
 -->
 
@@ -69,7 +69,6 @@
         <term category="acronym" ambiguous="no">AGN</term>
         <term category="acronym" ambiguous="no">AI</term>
         <term category="acronym" ambiguous="no">AIDS</term>
-        <term category="acronym" ambiguous="no">AME</term>
         <term category="acronym" ambiguous="no">AMOC</term>
         <term category="acronym" ambiguous="no">AMSU</term>
         <term category="acronym" ambiguous="no">ANASEN</term>
@@ -84,6 +83,7 @@
         <term category="acronym" ambiguous="no">ASCM</term>
         <term category="acronym" ambiguous="no">ASD</term>
         <term category="acronym" ambiguous="no">ASTP</term>
+        <term category="acronym" ambiguous="no">ATRP</term>
         <term category="acronym" ambiguous="no">ATRV</term>
         <term category="acronym" ambiguous="no">AWGN</term>
         <term category="acronym" ambiguous="no">AYP</term>
@@ -129,10 +129,12 @@
         <term category="acronym" ambiguous="no">CT</term>
         <term category="acronym" ambiguous="no">CTA</term>
         <term category="acronym" ambiguous="no">CWA</term>
+        <term category="acronym" ambiguous="no">CYGNSS</term>
         <term category="acronym" ambiguous="no">CWB</term>
         <term category="acronym" ambiguous="no">DAGDA</term>
         <term category="acronym" ambiguous="no">DC</term>
         <term category="acronym" ambiguous="no">DCE</term>
+        <term category="acronym" ambiguous="no">DDH</term>
         <term category="acronym" ambiguous="no">DIF</term>
         <term category="acronym" ambiguous="no">DJ</term>
         <term category="acronym" ambiguous="no">DMC</term>
@@ -153,6 +155,7 @@
         <term category="acronym" ambiguous="no">ECI</term>
         <term category="acronym" ambiguous="no">ECM</term>
         <term category="acronym" ambiguous="no">ECMWF</term>
+        <term category="acronym" ambiguous="no">ECOBICI</term>
         <term category="acronym" ambiguous="no">EDB</term>
         <term category="acronym" ambiguous="no">EECBG</term>
         <term category="acronym" ambiguous="no">EEG</term>
@@ -180,6 +183,7 @@
         <term category="acronym" ambiguous="no">FDOT</term>
         <term category="acronym" ambiguous="no">FFT</term>
         <term category="acronym" ambiguous="no">FGF</term>
+        <term category="acronym" ambiguous="no">FIM</term>
         <term category="acronym" ambiguous="no">FOIA</term>
         <term category="acronym" ambiguous="no">FPGA</term>
         <term category="acronym" ambiguous="no">FRET</term>
@@ -193,6 +197,7 @@
         <term category="acronym" ambiguous="no">GDM</term>
         <term category="acronym" ambiguous="no">GFS</term>
         <term category="acronym" ambiguous="no">GIS</term>
+        <term category="acronym" ambiguous="no">GLCM</term>
         <term category="acronym" ambiguous="no">GLOSA</term>
         <term category="acronym" ambiguous="no">GLP</term>
         <term category="acronym" ambiguous="no">GMS</term>
@@ -223,7 +228,6 @@
         <term category="acronym" ambiguous="no">HWRF</term>
         <term category="acronym" ambiguous="no">HYCOM</term>
         <term category="acronym" ambiguous="no">HYDRYS</term>
-        <term category="acronym" ambiguous="no">HYSPLIT</term>
         <term category="acronym" ambiguous="no">IBS1</term>
         <term category="acronym" ambiguous="no">ICOADS</term>
         <term category="acronym" ambiguous="no">ICP</term>
@@ -235,7 +239,6 @@
         <term category="acronym" ambiguous="no">IGDI</term>
         <term category="acronym" ambiguous="no">IRTLR</term>
         <term category="acronym" ambiguous="no">ISA</term>
-        <term category="acronym" ambiguous="no">IU</term>
         <term category="acronym" ambiguous="no">I</term>
         <term category="acronym" ambiguous="no">II</term>
         <term category="acronym" ambiguous="no">III</term>
@@ -279,6 +282,7 @@
         <term category="acronym" ambiguous="no">LEED</term>
         <term category="acronym" ambiguous="no">LGBT</term>
         <term category="acronym" ambiguous="no">LGBTQ</term>
+        <term category="acronym" ambiguous="no">LGBTQAI</term>
         <term category="acronym" ambiguous="no">LGB</term>
         <term category="acronym" ambiguous="no">LHC</term>
         <term category="acronym" ambiguous="no">LINC</term>
@@ -288,7 +292,6 @@
         <term category="acronym" ambiguous="no">LSIC</term>
         <term category="acronym" ambiguous="no">LUSTR</term>
         <term category="acronym" ambiguous="no">MAUP</term>
-        <term category="acronym" ambiguous="no">MAMR</term>
         <term category="acronym" ambiguous="no">MC</term>
         <term category="acronym" ambiguous="no">MC3T3</term>
         <term category="acronym" ambiguous="no">MCAR</term>
@@ -360,6 +363,7 @@
         <term category="acronym" ambiguous="no">PEM</term>
         <term category="acronym" ambiguous="no">PETM</term>
         <term category="acronym" ambiguous="no">PHENIX</term>
+        <term category="acronym" ambiguous="no">PII</term>
         <term category="acronym" ambiguous="no">PIRLS</term>
         <term category="acronym" ambiguous="no">PP2A</term>
         <term category="acronym" ambiguous="no">PPAT</term>
@@ -394,6 +398,7 @@
         <term category="acronym" ambiguous="no">RTM</term>
         <term category="acronym" ambiguous="no">SAE</term>
         <term category="acronym" ambiguous="no">SAS</term>
+        <term category="acronym" ambiguous="no">SBMPC</term>
         <term category="acronym" ambiguous="no">SDLC</term>
         <term category="acronym" ambiguous="no">SDN</term>
         <term category="acronym" ambiguous="no">SDS</term>
@@ -455,6 +460,7 @@
         <term category="acronym" ambiguous="no">WABI</term>
         <term category="acronym" ambiguous="no">WAI</term>
         <term category="acronym" ambiguous="no">WAM</term>
+        <term category="acronym" ambiguous="no">WENO</term>
         <term category="acronym" ambiguous="no">WICOR</term>
         <term category="acronym" ambiguous="no">WLSMV</term>
         <term category="acronym" ambiguous="no">WRA</term>
@@ -598,10 +604,6 @@
             <term2 category="acronym-mixed" ambiguous="no">GeV</term2>
         </pair>
         <pair>
-            <term1 category="acronym-mixed" ambiguous="no">Giscience</term1>
-            <term2 category="acronym-mixed" ambiguous="no">GIScience</term2>
-        </pair>
-        <pair>
             <term1 category="acronym-mixed" ambiguous="no">Gluex</term1>
             <term2 category="acronym-mixed" ambiguous="no">GlueX</term2>
         </pair>
@@ -628,6 +630,10 @@
         <pair>
             <term1 category="acronym-mixed" ambiguous="no">Iheat</term1>
             <term2 category="acronym-mixed" ambiguous="no">iHEAT</term2>
+        </pair>
+        <pair>
+            <term1 category="acronym-mixed" ambiguous="no">Iot</term1>
+            <term2 category="acronym-mixed" ambiguous="no">IoT</term2>
         </pair>
         <pair>
             <term1 category="acronym-mixed" ambiguous="no">Ipad</term1>
@@ -806,6 +812,10 @@
             <term2 category="acronym-mixed" ambiguous="no">SystemC</term2>
         </pair>
         <pair>
+            <term1 category="acronym-mixed" ambiguous="no">Tio2</term1>
+            <term2 category="acronym-mixed" ambiguous="no">TiO2</term2>
+        </pair>
+        <pair>
             <term1 category="acronym-mixed" ambiguous="no">Tev</term1>
             <term2 category="acronym-mixed" ambiguous="no">TeV</term2>
         </pair>
@@ -832,6 +842,10 @@
         <pair>
             <term1 category="acronym-mixed" ambiguous="no">Ybbco</term1>
             <term2 category="acronym-mixed" ambiguous="no">YbBCO</term2>
+        </pair>
+        <pair>
+            <term1 category="acronym-mixed" ambiguous="no">Youtube</term1>
+            <term2 category="acronym-mixed" ambiguous="no">YouTube</term2>
         </pair>
     </mixed>
     <names>
