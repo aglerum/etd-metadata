@@ -51,7 +51,7 @@ Title: Pipeline for reformatting PDF to XML data
         </p:input>
     </p:xslt>
     
-    <p:store indent="true" href="XML/XProc_results/step00_pdf2xml_2019Fa.xml"/>
+    <p:store indent="true" href="XML/XProc_results/step00_pdf2xml_2020Sp.xml"/>
 
     <p:xslt name="step01">
         <p:input port="source">

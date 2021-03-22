@@ -16,7 +16,7 @@
 
     <xsl:output encoding="UTF-8" indent="yes" method="html"/>
 
-    <xsl:variable name="header" select="'PDF Data for 2019 Spring ETDs'"/>
+    <xsl:variable name="header" select="'PDF Data for 2020 Spring ETDs'"/>
 
 
     <xsl:template match="/records">
