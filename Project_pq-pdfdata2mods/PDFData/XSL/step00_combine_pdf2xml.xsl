@@ -4,16 +4,15 @@
 
     <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
     <xsl:strip-space elements="*"/>
- 
 
     <xsl:template match="xml">
         <!-- 1. Enter the appropriate path is for the semester folder contains the pdf2xml files. -->
-        <xsl:variable name="path" select="'../2020Sp/pdf2xml/'"/>
+        <xsl:variable name="path" select="'../2020_BC_summer_fall/pdf2xml/'"/>
 <!--        <!-\- 2. Rename the appropriate semester. -\->
-        <xsl:result-document href="Results/pdf2xml_2019Sp.xml">-->
+        <xsl:result-document href="Results/pdf2xml_2020_BC_summer_fall.xml">-->
         <xml>
             <!-- 3. Rename the appropriate semester. -->
-            <xsl:for-each select="document('../XML/Filenames/filenames_2020Sp.xml')/filenames/filename">
+            <xsl:for-each select="document('../XML/Filenames/filenames_2020_BC_summer_fall.xml')/filenames/filename">
                 <TaggedPDF-doc>
                 <xsl:variable name="filename"><xsl:value-of select="."/></xsl:variable>
                 <xsl:variable name="fullpath" select="string(concat($path,$filename))"/>
