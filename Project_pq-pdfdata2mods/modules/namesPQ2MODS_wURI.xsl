@@ -6,7 +6,7 @@
 
     <xd:doc scope="stylesheet">
         <xd:desc>
-            <xd:p><xd:b>Last updated: </xd:b>January 8, 2020</xd:p>
+            <xd:p><xd:b>Last updated: </xd:b>July 10, 2021</xd:p>
             <xd:p><xd:b>Author: </xd:b>Annie Glerum</xd:p>
             <xd:p><xd:b>Organization: </xd:b>Florida State University</xd:p>
             <xd:p><xd:b>Title: </xd:b>Template for MODS names, ProQuest version</xd:p>
@@ -30,15 +30,15 @@
         <xsl:for-each select="$binary">
             <mods:name type="personal" authority="local">
                 <mods:namePart type="family">
-                    <xsl:value-of select="$authors[file = current()]/*[(self::family)]"/>
+                    <xsl:value-of select="$authors[filename = current()]/*[(self::family)]"/>
                 </mods:namePart>
                 <mods:namePart type="given">
-                    <xsl:value-of select="$authors[file = current()]/*[(self::given)]"/>
+                    <xsl:value-of select="$authors[filename = current()]/*[(self::given)]"/>
                 </mods:namePart>
                 <!-- Note that in some semesters the author names may not have any suffixes -->
-                <xsl:if test="$authors[file = current()]/*[(self::suffix)] ne 'null'">
+                <xsl:if test="$authors[filename = current()]/*[(self::suffix)] ne 'null'">
                     <mods:namePart type="termsOfAddress">
-                        <xsl:value-of select="$authors[file = current()]/*[(self::suffix)]"/>
+                        <xsl:value-of select="$authors[filename = current()]/*[(self::suffix)]"/>
                     </mods:namePart>
                 </xsl:if>
                 <mods:affiliation>Theses and Dissertations</mods:affiliation>
