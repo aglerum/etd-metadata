@@ -28,12 +28,12 @@
 
     <!-- **Global variables** -->
     <!-- Batch Variable -->
-    <xsl:variable name="batch" select="'2019_Fall'"/>
+    <xsl:variable name="batch" select="'2020_Spring'"/>
 
     <!-- These paths change with each semester-->
-    <xsl:variable name="pdfdata" select="document('source_pdfdata/source_pdfdata_2019Fa_extra.xml')/records/record"/>
+    <xsl:variable name="pdfdata" select="document('source_pdfdata/source_pdfdata_2020Sp.xml')/records/record"/>
     <xsl:variable name="committee" select="document('tables/ETD-NAF_mads_20200802.xml')/mads:madsCollection/mads:mads/mads:authority"/>
-    <xsl:variable name="authors" select="document('tables/authors_2019Fa.xml')/authors/name"/>
+    <xsl:variable name="authors" select="document('tables/authors_2020Sp.xml')/authors/name"/>
 
     <!-- These paths refer to data tables -->
     <xsl:variable name="PQ-FSU-dept" select="document('tables/PQ-FSUdept.xml')/departments/department"/>
@@ -49,11 +49,16 @@
         <mods:modsCollection xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/"
             xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
-            xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+            xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
             <xsl:for-each select="diss/DISS_submission">
                 <xsl:variable name="binary" select="DISS_content/DISS_binary"/>
                 <xsl:variable name="embargo">
                     <xsl:value-of select="@embargo_code"/>
+                </xsl:variable>
+                
+                <xsl:variable name="orcid">
+                    <xsl:variable name="ID" select="DISS_authorship/DISS_author/DISS_orcid"/>
+                    <xsl:value-of select="if(starts-with($ID,'https://orcid.org/')) then $ID else concat('https://orcid.org/',$ID)"/>
                 </xsl:variable>
                 <!-- <xsl:variable name="department" select="DISS_description/DISS_institution/DISS_inst_contact"/>-->
 
@@ -108,6 +113,9 @@
                 <!--<xsl:if test="$embargo gt '0'">-->
 
                 <mods:mods>
+                    <mods:note displayLabel="orcid_check">
+                        <xsl:value-of select="$orcid"/>
+                    </mods:note>
                     <!-- Note for filename matching -->
                     <mods:note displayLabel="filename">
                         <xsl:value-of select="$binary"/>
@@ -130,6 +138,7 @@
                     <xsl:call-template name="author_name">
                         <xsl:with-param name="binary" select="$binary"/>
                         <xsl:with-param name="authors" select="$authors"/>
+                        <xsl:with-param name="orcid" select="$orcid"/>
                     </xsl:call-template>
                     <!-- *Committee members* -->
                     <xsl:call-template name="committee_names">
@@ -308,9 +317,9 @@
                     <!-- **classification** -->
 
                     <!-- **identifier** -->
-                    <identifier type="IID">
+                    <mods:identifier type="IID">
                         <xsl:value-of select="concat($batch, '_', substring-before($binary, '.pdf'))"/>
-                    </identifier>
+                    </mods:identifier>
 
 
                     <!--                    
