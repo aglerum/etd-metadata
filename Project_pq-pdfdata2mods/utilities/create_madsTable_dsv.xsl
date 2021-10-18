@@ -9,7 +9,7 @@
     <xsl:strip-space elements="*"/>
 
     <xsl:template match="/mads:madsCollection">
-        <xsl:text>source|file|fileFamily|familyFirst|nameString|URI|family|given|fuller|suffix</xsl:text>
+        <xsl:text>source|file|fileFamily|nameKey|nameString|URI|family|given|fuller|suffix</xsl:text>
         <xsl:text>&#13;</xsl:text>
         <xsl:for-each select="mads:mads/mads:authority/mads:name[@type = 'personal']">
             <xsl:variable name="family" select="mads:namePart[@type = 'family']"/>
@@ -22,8 +22,9 @@
             <xsl:variable name="date"
                 select="if(mads:namePart[@type = 'date']) then mads:namePart[@type = 'date'] else ()"/>
             <xsl:variable name="firstname" select="tokenize($given, ' ')[1]"/>
+            <xsl:variable name="firstinitial" select="substring($given,1,1)"/>
             <xsl:variable name="delimiter" select="'|'"/>
-            <xsl:value-of select="concat('madsData', $delimiter, $delimiter, $delimiter, concat($family, $firstname), $delimiter, normalize-space(concat($given, ' ', $family, ' ', $suffix, ' ', $date)), $delimiter, @valueURI, $delimiter, $family, $delimiter, $given, $delimiter,$fuller,$delimiter,$suffix,'&#13;')"/>
+            <xsl:value-of select="concat('madsData', $delimiter, $delimiter, $delimiter, concat($family,$firstinitial), $delimiter, normalize-space(concat($given, ' ', $family, ' ', $suffix, ' ', $date)), $delimiter, @valueURI, $delimiter, $family, $delimiter, $given, $delimiter,$fuller,$delimiter,$suffix,'&#13;')"/>
         </xsl:for-each>
     </xsl:template>
 </xsl:stylesheet>
