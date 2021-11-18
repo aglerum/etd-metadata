@@ -27,8 +27,14 @@
     <xsl:template name="author_name">
         <xsl:param name="binary"/>
         <xsl:param name="authors"/>
+        <xsl:param name="orcid"/>
         <xsl:for-each select="$binary">
             <mods:name type="personal" authority="local">
+                <xsl:if test="$orcid ne ''">
+                <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">
+                    <xsl:value-of select="$orcid"/>
+                </mods:nameIdentifier>
+                </xsl:if>
                 <mods:namePart type="family">
                     <xsl:value-of select="$authors[filename = current()]/*[(self::family)]"/>
                 </mods:namePart>
