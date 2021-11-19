@@ -34,24 +34,21 @@
             xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
             <xsl:for-each select="marc:record/marc:datafield[@tag = '100']">
                 <xsl:variable name="title_proper"
-                    select="following-sibling::marc:datafield[@tag = '245']/marc:subfield[@code = 'a']"/>
-                <xsl:variable name="subtitle" select="
-                        if (following-sibling::marc:datafield[@tag = '245']/marc:subfield[@code = 'b']) then
-                            following-sibling::marc:datafield[@tag = '245']/marc:subfield[@code = 'b']
-                        else
-                            ''"/>
+                    select="if(ends-with(following-sibling::marc:datafield[@tag = '245']/marc:subfield[@code = 'a'],' /') or ends-with(following-sibling::marc:datafield[@tag = '245']/marc:subfield[@code = 'a'],' :')) then substring(following-sibling::marc:datafield[@tag = '245']/marc:subfield[@code = 'a'],0,string-length(following-sibling::marc:datafield[@tag = '245']/marc:subfield[@code = 'a'])-2) else following-sibling::marc:datafield[@tag = '245']/marc:subfield[@code = 'a']"/>
                 <xsl:variable name="pubdate"
-                    select="following-sibling::marc:datafield[@tag = '264'][@ind2 = '1']/marc:subfield[@code = 'c']"/>
+                    select="if(ends-with(following-sibling::marc:datafield[@tag = '264'][@ind2 = '1']/marc:subfield[@code = 'c'],'.')) then substring(following-sibling::marc:datafield[@tag = '264'][@ind2 = '1']/marc:subfield[@code = 'c'],0,string-length(following-sibling::marc:datafield[@tag = '264'][@ind2 = '1']/marc:subfield[@code = 'c'])-1) else 
+                    following-sibling::marc:datafield[@tag = '264'][@ind2 = '1']/marc:subfield[@code = 'c']"/>
                 <marc:record>
                     <marc:leader>
-                        <xsl:text>     nam  22     Ki 4500</xsl:text>
+                        <xsl:text>00000nz  a22     ni 4500</xsl:text>
                     </marc:leader>
                     <marc:controlfield tag="008">
-                        <xsl:text>100318n| acannaabn          |n aaa     c</xsl:text>
+                        <xsl:text>       n|\azannaabn\\\\\\\\\\|n\aaa\\\\\c</xsl:text>
                     </marc:controlfield>
                     <marc:datafield tag="040" ind1=" " ind2=" ">
                         <marc:subfield code="a">FTaSU</marc:subfield>
                         <marc:subfield code="b">eng</marc:subfield>
+                        <marc:subfield code="e">rda</marc:subfield>
                         <marc:subfield code="c">FTaSU</marc:subfield>
                     </marc:datafield>
                     <marc:datafield tag="100" ind1="1" ind2=" ">
@@ -68,10 +65,6 @@
                             <xsl:value-of select="
                                     concat(
                                     $title_proper,
-                                    if ($subtitle ne '') then
-                                        concat(': ', $subtitle)
-                                    else
-                                        (),
                                     ' ',
                                     $pubdate,
                                     ':'
@@ -79,7 +72,7 @@
                         </marc:subfield>
                         <marc:subfield code="b">
                             <xsl:value-of
-                                select="concat('t.p. (', following-sibling::marc:datafield[@tag = '245']/marc:subfield[@code = 'a'], ')')"
+                                select="concat('title page (', following-sibling::marc:datafield[@tag = '245']/marc:subfield[@code = 'c'], ')')"
                             />
                         </marc:subfield>
                     </marc:datafield>
