@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="2.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:marc="http://www.loc.gov/MARC21/slim"
-    xmlns:mads="http://www.loc.gov/mads/v2" xmlns:fs="http://www.lib.fsu.edu"
-    xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" exclude-result-prefixes="xs xd">
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:marc="http://www.loc.gov/MARC21/slim"
+    xmlns:mads="http://www.loc.gov/mads/v2" xmlns:fsul="http://www.lib.fsu.edu"
+    xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" exclude-result-prefixes="fsul xs xsl xd">
     <xd:doc scope="stylesheet">
         <xd:desc>
             <xd:p><xd:b>Last updated: </xd:b>November 16, 2021</xd:p>
@@ -70,7 +69,7 @@
                         <xsl:variable name="date">
                             <xsl:value-of select="replace($defended, ',', '')"/>
                         </xsl:variable>
-                        <xsl:value-of select="fs:dateName-to-yyyy-mm-dd($date)"/>
+                        <xsl:value-of select="fsul:dateName-to-yyyy-mm-dd($date)"/>
                     </xsl:for-each>
                 </xsl:variable>
 
@@ -109,7 +108,7 @@
                     <xsl:variable name="date">
                         <xsl:value-of select="replace($Defended, ',', '')"/>
                     </xsl:variable>
-                    <xsl:value-of select="fs:dateName-to-yyyy-mm-dd($date)"/>
+                    <xsl:value-of select="fsul:dateName-to-yyyy-mm-dd($date)"/>
                 </xsl:variable>
 
                 <marc:record>
@@ -199,7 +198,7 @@
                         <marc:subfield code="a">Tallahassee, Florida :</marc:subfield>
                         <marc:subfield code="b">Florida State University</marc:subfield>
                         <marc:subfield code="c">
-                            <xsl:value-of select="concat($Published, '.')"/>
+                            <xsl:value-of select="$Published"/>
                         </marc:subfield>
                     </marc:datafield>
 

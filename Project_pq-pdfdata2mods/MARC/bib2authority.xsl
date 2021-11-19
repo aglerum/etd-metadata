@@ -36,8 +36,7 @@
                 <xsl:variable name="title_proper"
                     select="if(ends-with(following-sibling::marc:datafield[@tag = '245']/marc:subfield[@code = 'a'],' /') or ends-with(following-sibling::marc:datafield[@tag = '245']/marc:subfield[@code = 'a'],' :')) then substring(following-sibling::marc:datafield[@tag = '245']/marc:subfield[@code = 'a'],0,string-length(following-sibling::marc:datafield[@tag = '245']/marc:subfield[@code = 'a'])-2) else following-sibling::marc:datafield[@tag = '245']/marc:subfield[@code = 'a']"/>
                 <xsl:variable name="pubdate"
-                    select="if(ends-with(following-sibling::marc:datafield[@tag = '264'][@ind2 = '1']/marc:subfield[@code = 'c'],'.')) then substring(following-sibling::marc:datafield[@tag = '264'][@ind2 = '1']/marc:subfield[@code = 'c'],0,string-length(following-sibling::marc:datafield[@tag = '264'][@ind2 = '1']/marc:subfield[@code = 'c'])-1) else 
-                    following-sibling::marc:datafield[@tag = '264'][@ind2 = '1']/marc:subfield[@code = 'c']"/>
+                    select="following-sibling::marc:datafield[@tag = '264'][@ind2 = '1']/marc:subfield[@code = 'c']"/>
                 <marc:record>
                     <marc:leader>
                         <xsl:text>00000nz  a22     ni 4500</xsl:text>
