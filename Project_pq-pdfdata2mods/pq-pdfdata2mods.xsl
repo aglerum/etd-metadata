@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:flvc="info:flvc/manifest/v1" xmlns:fs="http://www.lib.fsu.edu"
+    xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:flvc="info:flvc/manifest/v1" xmlns:fsul="http://www.lib.fsu.edu"
     xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mads="http://www.loc.gov/mads/v2"
-    xmlns:dcterms="http://purl.org/dc/terms/" exclude-result-prefixes="xs xd fs" version="2.0">
+    xmlns:dcterms="http://purl.org/dc/terms/" exclude-result-prefixes="fsul xs xsl xd" version="2.0">
 
     <xd:doc scope="stylesheet">
         <xd:desc>
-            <xd:p><xd:b>Last updated: </xd:b>December 18, 2020</xd:p>
+            <xd:p><xd:b>Last updated: </xd:b>November 19, 2021</xd:p>
             <xd:p><xd:b>Author: </xd:b>Annie Glerum</xd:p>
             <xd:p><xd:b>Organization: </xd:b>Florida State University Libraries</xd:p>
             <xd:p><xd:b>Title: </xd:b>ProQuest and PDF data to MODS</xd:p>
@@ -17,23 +17,23 @@
         </xd:desc>
     </xd:doc>
 
-    <!-- Configure this transformation on the folder of ProQuest metadata to be processed. -->
+    <!-- Configure this transformation on the combined ProQuest metadata. -->
     <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
     <xsl:strip-space elements="*" xml:space="preserve"/>
 
     <xsl:include href="modules/caps.xsl"/>
     <xsl:include href="modules/titleMODS.xsl"/>
     <xsl:include href="modules/namesPQ2MODS_wURI.xsl"/>
-    <xsl:include href="modules/subjects-proquest.xsl"/>
+    <xsl:include href="modules/subjects-proquestMODS.xsl"/>
 
     <!-- **Global variables** -->
     <!-- Batch Variable -->
-    <xsl:variable name="batch" select="'2020_Spring'"/>
+    <xsl:variable name="batch" select="'2020_Summer_Fall'"/>
 
     <!-- These paths change with each semester-->
-    <xsl:variable name="pdfdata" select="document('source_pdfdata/source_pdfdata_2020Sp.xml')/records/record"/>
-    <xsl:variable name="committee" select="document('tables/ETD-NAF_mads_20200802.xml')/mads:madsCollection/mads:mads/mads:authority"/>
-    <xsl:variable name="authors" select="document('tables/authors_2020Sp.xml')/authors/name"/>
+    <xsl:variable name="pdfdata" select="document('source_pdfdata/source_pdfdata_2020Su_Fa_2021Sp_w_URL.xml')/records/record"/>
+    <xsl:variable name="committee" select="document('tables/ETD-NAF_mads_20211113.xml')/mads:madsCollection/mads:mads/mads:authority"/>
+    <xsl:variable name="authors" select="document('tables/author_2020Su_Fa_2021Sp.xml')/authors/name"/>
 
     <!-- These paths refer to data tables -->
     <xsl:variable name="PQ-FSU-dept" select="document('tables/PQ-FSUdept.xml')/departments/department"/>
@@ -45,30 +45,28 @@
         </xd:desc>
     </xd:doc>
 
-    <xsl:template match="/">
+    <xsl:template match="/diss">
         <mods:modsCollection xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/"
             xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
-            xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
-            <xsl:for-each select="diss/DISS_submission">
+            xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+            <xsl:for-each select="DISS_submission">
                 <xsl:variable name="binary" select="DISS_content/DISS_binary"/>
                 <xsl:variable name="embargo">
                     <xsl:value-of select="@embargo_code"/>
                 </xsl:variable>
                 
                 <xsl:variable name="orcid">
-                    <xsl:variable name="ID" select="DISS_authorship/DISS_author/DISS_orcid"/>
-                    <xsl:value-of select="if(starts-with($ID,'https://orcid.org/')) then $ID else concat('https://orcid.org/',$ID)"/>
+                    <xsl:value-of select="DISS_authorship/DISS_author/DISS_orcid"/>
                 </xsl:variable>
-                <!-- <xsl:variable name="department" select="DISS_description/DISS_institution/DISS_inst_contact"/>-->
-
+              
                 <xsl:variable name="defenseDate">
                     <xsl:for-each select="$binary">
                         <xsl:variable name="defended" select="$pdfdata[filename = current()]/*[(self::defense)]"/>
                         <xsl:variable name="date">
                             <xsl:value-of select="replace($defended, ',', '')"/>
                         </xsl:variable>
-                        <xsl:value-of select="fs:dateName-to-yyyy-mm-dd($date)"/>
+                        <xsl:value-of select="fsul:dateName-to-yyyy-mm-dd($date)"/>
                     </xsl:for-each>
                 </xsl:variable>
 
@@ -90,9 +88,9 @@
                     </xsl:for-each>
                 </xsl:variable>
 
-                <xsl:variable name="Awarded">
+                <xsl:variable name="Published">
                     <xsl:for-each select="$binary">
-                        <xsl:value-of select="$pdfdata[filename = current()]/*[(self::awarded)]"/>
+                        <xsl:value-of select="$pdfdata[filename = current()]/*[(self::published)]"/>
                     </xsl:for-each>
                 </xsl:variable>
 
@@ -106,16 +104,13 @@
                     <xsl:variable name="date">
                         <xsl:value-of select="replace($Defended, ',', '')"/>
                     </xsl:variable>
-                    <xsl:value-of select="fs:dateName-to-yyyy-mm-dd($date)"/>
+                    <xsl:value-of select="fsul:dateName-to-yyyy-mm-dd($date)"/>
                 </xsl:variable>
 
                 <!-- This conditional limits the result to embargoed ($embargo gt '0') or unembargoed records ($embargo eq '0'). This is no lnoger used because the files are parsed into embargoed and not embargoes when the collection is split into individual files. -->
                 <!--<xsl:if test="$embargo gt '0'">-->
 
                 <mods:mods>
-                    <mods:note displayLabel="orcid_check">
-                        <xsl:value-of select="$orcid"/>
-                    </mods:note>
                     <!-- Note for filename matching -->
                     <mods:note displayLabel="filename">
                         <xsl:value-of select="$binary"/>
@@ -164,7 +159,7 @@
                         </mods:role>
                     </mods:name>
                     <!-- Department name -->
-                    <xsl:if test="$College ne $Department">
+                    <xsl:if test="$Department ne ''">
                         <mods:name type="corporate" authority="local">
                             <mods:namePart>
                                 <xsl:value-of select="$Department"/>
@@ -206,7 +201,7 @@
                             <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
                         </mods:place>
                         <mods:dateIssued encoding="w3cdtf" keyDate="yes">
-                            <xsl:value-of select="substring($Awarded, string-length($Awarded) - 3, 4)"/>
+                            <xsl:value-of select="$Published"/>
                         </mods:dateIssued>
                         <mods:publisher>Florida State University</mods:publisher>
                         <issuance>monographic</issuance>
@@ -243,29 +238,10 @@
                                             $para"
                                 />
                             </xsl:variable>
-                            <!-- TO DO: Replace these if-then-else statements with one statement using a analyze-string variable for the 'abstract' string. -->
                             <xsl:value-of
                                 select="
-                                    fs:characters2utf8(
-                                    if (starts-with($abstract, 'ABSTRACT ')) then
-                                        substring-after($abstract, 'ABSTRACT ')
-                                    else
-                                        if (starts-with($abstract, 'ABSTRACT: ')) then
-                                            substring-after($abstract, 'ABSTRACT: ')
-                                        else
-                                            if (starts-with($abstract, 'ABSTRACT : ')) then
-                                                substring-after($abstract, 'ABSTRACT : ')
-                                            else
-                                                if (starts-with($abstract, 'Abstract ')) then
-                                                    substring-after($abstract, 'Abstract ')
-                                                else
-                                                    if (starts-with($abstract, 'Abstract: ')) then
-                                                        substring-after($abstract, 'Abstract: ')
-                                                    else
-                                                        if (starts-with($abstract, 'Abstract : ')) then
-                                                            substring-after($abstract, 'Abstract : ')
-                                                        else
-                                                            $abstract)"
+                                if (starts-with(upper-case($abstract), 'ABSTRACT ')) then
+                                substring-after($abstract, 'ABSTRACT ') else $abstract"
                             />
                         </mods:abstract>
                     </xsl:for-each>
