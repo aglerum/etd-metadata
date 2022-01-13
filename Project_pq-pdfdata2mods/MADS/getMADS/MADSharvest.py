@@ -17,9 +17,9 @@ NS = {None: "http://www.loc.gov/mads/v2",
       "xsi": "http://www.w3.org/2001/XMLSchema-instance"}
 # above we're storing all the namespace definitions we'll need as a python dictionary
 
-in_file = open('source/2020Sp_getMADS.txt', 'r')  # create and open a file object. the 'r' flag is for read
+in_file = open('source/2021Su_getMADS.txt', 'r')  # create and open a file object. the 'r' flag is for read
 
-with open('result/2020Sp_MADS.xml', 'w') as out_file:  # create another file object, this time in
+with open('result/2021Su_MADS.xml', 'w') as out_file:  # create another file object, this time in
     # 'w'=write mode
 
     madsRoot = etree.Element('{http://www.loc.gov/mads/v2}madsCollection',
