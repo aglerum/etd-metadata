@@ -24,14 +24,14 @@
     <xsl:include href="modules/caps.xsl"/>
     <xsl:include href="modules/titleMODS.xsl"/>
     <xsl:include href="modules/namesPQ2MODS_wURI.xsl"/>
-    <xsl:include href="modules/subjects-proquestMODS.xsl"/>
+    <xsl:include href="modules/subjects-proquest.xsl"/>
 
     <!-- **Global variables** -->
     <!-- Batch Variable -->
-    <xsl:variable name="batch" select="'2020_Summer_Fall'"/>
+    <xsl:variable name="batch" select="'2021_Summer'"/>
 
     <!-- These paths change with each semester-->
-    <xsl:variable name="pdfdata" select="document('source_pdfdata/source_pdfdata_2020Su_Fa_2021Sp_w_URL.xml')/records/record"/>
+    <xsl:variable name="pdfdata" select="document('source_pdfdata/source_pdfdata_2021Su.xml')/records/record"/>
     <xsl:variable name="committee" select="document('tables/ETD-NAF_mads_20211113.xml')/mads:madsCollection/mads:mads/mads:authority"/>
     <xsl:variable name="authors" select="document('tables/author_2020Su_Fa_2021Sp.xml')/authors/name"/>
 
