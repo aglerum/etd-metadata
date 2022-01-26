@@ -1,0 +1,61 @@
+<!-- For Prefix -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- FSU's Local ETD Name Authority File for ETDs -->
+<!-- Last Updated: January 18, 2022 (Alex Chisum) -->
+<!-- Checked for duplicate entries on July 7, 2021 -->
+<!-- Verified form of name against LC-NAF via comparison with MADS harvest on March 29, 2019-->
+<mads:madsCollection xmlns:mads="http://www.loc.gov/mads/v2"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-1.xsd">   
+
+<!-- For Row Template -->
+    
+    <mads:mads version="2.1">
+        <mads:authority geographicSubdivision="not applicable">
+            <mads:name type="personal"
+                authority="etd-naf"
+                authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+                valueURI="https://authorities.lib.fsu.edu/etd-naf/{{cells["FSUID"].value}}">
+                <mads:namePart type="family">{{cells["PDF_LastName"].value}}</mads:namePart>
+                <mads:namePart type="given">{{cells["PDF_FirstName"].value}}</mads:namePart>
+            </mads:name>
+        </mads:authority>
+        <mads:variant type="other">
+            <mads:name type="personal">
+                <mads:namePart type="family">{{cells["Vita_LastName"].value}}</mads:namePart>
+                <mads:namePart type="given">{{cells["Vita_FirstName"].value}}</mads:namePart>
+            </mads:name>
+        </mads:variant>
+        <mads:affiliation>
+            <mads:organization authority="naf"
+                authorityURI="http://id.loc.gov/authorities/names/"
+                valueURI="{{cells["LCNAF_University_URI"].value}}">{{cells["LCNAF_University"].value}}</mads:organization>
+            <mads:position>{{cells["Position"].value}}</mads:position>
+            <mads:email>{{cells["Email"].value}}</mads:email>
+            <mads:dateValid encoding="edtf" point="start">{{cells["FSU_StartDate"].value}}</mads:dateValid>
+            <mads:dateValid encoding="edtf" point="end">{{cells["FSU_EndDate"].value}}</mads:dateValid>
+        </mads:affiliation>
+        <mads:fieldOfActivity>{{cells["Department"].value}}</mads:fieldOfActivity>
+        <mads:identifier type="etd-naf">{{cells["FSUID"].value}}</mads:identifier>
+        <mads:note displayLabel="department">{{cells["Department"].value}}</mads:note>
+        <mads:fieldOfEndeavor>
+            <mads:profession authority="naf"
+                authorityURI="http://id.loc.gov/authorities/subjects/"
+                valueURI="{{cells["LCSH_FieldOfEndeavor_URI"].value}}">{{cells["LCSH_FieldOfEndeavor"].value}}</mads:profession>
+        </mads:fieldOfEndeavor>
+        <mads:note type="biographical">Education. {{cells["Education"].value}}</mads:note>
+        <mads:note type="biographical">Experience. {{cells["Experience"].value}}</mads:note>
+        <mads:note type="source">{{cells["Batch"].value}} ETDs. {{cells["Source"].value}}.</mads:note>
+        <mads:recordInfo>
+            <mads:recordOrigin>Transformed from {{cells["Origin_File"].value}} to MADS version 2.1</mads:recordOrigin>
+            <mads:recordIdentifier source="etd-naf">{{cells["FSUID"].value}}</mads:recordIdentifier>
+            <mads:descriptionStandard>rda</mads:descriptionStandard>
+        </mads:recordInfo>
+    </mads:mads>
+                <!-- Don't put anything in Row Separator -->
+                
+                <!-- For Suffix -->
+                
+</mads:madsCollection>
