@@ -26,7 +26,7 @@
             <role>Professor Directing Dissertation</role>
             <URI>http://id.loc.gov/authorities/names/nr92012137</URI>
         </name>
-</names>
+   </names>
 
     
     -->
