@@ -27,8 +27,6 @@
             <URI>http://id.loc.gov/authorities/names/nr92012137</URI>
         </name>
    </names>
-
-    
     -->
 
     <xsl:template match="/records/record/committee">
