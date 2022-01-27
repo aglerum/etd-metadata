@@ -8,7 +8,7 @@
     <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
     <xsl:strip-space elements="*"/>
 
-    <xsl:variable name="authority" select="doc('../modules/tables/committee_2019Sp.xml')/names/name"/>
+    <xsl:variable name="authority" select="doc('file:/C:/Users/achisum.FSU/OneDrive%20-%20Florida%20State%20University/Documents/GitHub/etd-metadata/Project_pq-pdfdata2mods/tables/committee_withURIs_2021Su.xml')/names/name"/>
   
     <xsl:template match="@* | node()">
         <xsl:copy>
