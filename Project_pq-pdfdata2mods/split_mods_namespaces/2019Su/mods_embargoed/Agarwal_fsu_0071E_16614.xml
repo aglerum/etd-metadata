@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>PWM Waveform Effects on Loss and Lifetime of Medium Frequency Transformer for MVDC SST Applications</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-8769-1582</mods:nameIdentifier>
+      <mods:namePart type="family">Agarwal</mods:namePart>
+      <mods:namePart type="given">Rachit</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/hli">
+      <mods:namePart type="family">Li</mods:namePart>
+      <mods:namePart type="given">Hui</mods:namePart>
+      <mods:namePart type="date">1970-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2003098450">
+      <mods:namePart type="family">Ordóñez</mods:namePart>
+      <mods:namePart type="given">Juan Carlos</mods:namePart>
+      <mods:namePart type="date">1973-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/pamidi">
+      <mods:namePart type="family">Pamidi</mods:namePart>
+      <mods:namePart type="given">Sastry V.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/fpeng">
+      <mods:namePart type="family">Peng</mods:namePart>
+      <mods:namePart type="given">Fang</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jmoon4">
+      <mods:namePart type="family">Moon</mods:namePart>
+      <mods:namePart type="given">Jinyeong</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Electrical and Computer Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (116 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Recent developments in high voltage semiconductor power devices and the introduction of Wide Band Gap (WBG) based Silicon Carbide (SiC) and Gallium Nitride (GaN) MOSFETs and Diodes have provided power electronics applications engineers with a powerful tool in the form of fast switching WBG power devices with a high blocking voltage capability. This gives power electronics application engineers a task of creating power converter topologies that can harvest the full potential of WBG devices and reap maximum efficiency benefits with lower losses due to lower Rds(on) of SiC devices and greater power density because of reduction in passive component sizing with increased switching frequency. The well known story of "Battle of Currents" between Westinghouse (Tesla) and Edison was won by AC in 1800s because of the high losses in the 24 km long 2-wire 110 V DC lighting system commissioned by Edison on Pearl Street in 1882. Because of low voltage, DC technology was outperformed by AC at that time in terms of efficiency over long distance transmission because the AC system could use transformers (invented and patented in Europe) to step up the AC generator voltage to high levels that are suitable for long distance transmission of electricity. As a result Medium Voltage (MV) AC system was brought to practice that operated with lower currents and thus had considerably lower loss than low-voltage DC counterparts. Today, the state-of-the-art power electronics technology has shown significant advantages of MVDC and HVDC transmission over AC [1]. Also, recent surveys [1] have shown that the loads served by today's AC grids are increasingly natively DC and with the great policy support for DC based renewables such as PV, it is reasonable integrate DC distribution networks in the power systems wherever it is practical. Because of isolation and high voltage conversion ratio requirements, it makes sense to research DC-AC-DC topologies and reduce the losses wherever possible to achieve maximum utilization of harvested renewable energy. In this dissertation, the state-of-the-art in Medium Voltage and High Voltage Isolated and Bidirectional DC-DC Converters are explored to cover all the developments in this area and provide a comprehensive overview of the topologies that can be used for traction and well as terrestrial power systems. The original contributions of this dissertation can be summarized in three parts I. An approach to identify intrinsic power losses of the medium frequency transformer that interfaces two modular multilevel converters (MMC) operated with phase-shifted square wave modulation (PS-SWM) to form a DC solid state transformer (DC SST) module is presented. This modulation generates a unique quasi-square waveform at the SST's internal medium frequency (MF) AC interface, which differs from other known square-wave modulation types. This produces a similarly unique transformer flux density, resulting in a transformer core loss that cannot be predicted by existing methods which makes it challenging to identify. In the interest of presenting a useful and optimizable MF transformer design methodology, this article presents and validates a method to predict the loss of the MF transformer subjected to PS-SWM. The proposed loss estimation technique is validated through an experimental testbed operated in two different configurations and is demonstrated to provide a valid basis for the use of the proposed MF transformer design methodology. II. Foil winding transformer is a popular transformer construction that is utilized in HV MF DC-DC SSTs. Kapton (dielectric strength = 7700 V/mil) based insulation is applied over copper foil is used in winding construction. The partial discharge behavior of Kapton tape insulated copper foil winding is investigated in this dissertation and the partial discharge characteristics are experimentally derived. III. Partial discharge accelerates the insulation degradation causing premature insulation failure. This reduces the DC SST's reliability and lifetime. The lifetime of Kapton insulated foil winding is experimentally derived for varying switching frequencies and switching speed by stress testing the winding samples under square ac waveform. A relationship between the ac frequency and lifetime is derived.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Electrical and Computer Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 24, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">DC SST, Insulation, Lifetime, MF Transformer, MMC, Partial Discharge</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Hui Li, Professor Directing Dissertation; Juan Ordonez, University Representative; Sastry Pamidi, Committee Member; Fang Z. Peng, Committee Member; Jinyeong Moon, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85041666">
+      <mods:topic>Electrical engineering</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Summer_Agarwal_fsu_0071E_16614</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Electrical and Computer Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

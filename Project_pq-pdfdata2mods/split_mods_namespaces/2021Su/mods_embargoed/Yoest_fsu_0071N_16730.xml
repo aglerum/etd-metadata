@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Role of Specific Elements in X Chromosome Inactivation and Maintenance of the Inactive X Chromosome</mods:title>
+      <mods:nonSort>The</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-6242-371X</mods:nameIdentifier>
+      <mods:namePart type="family">Yoest</mods:namePart>
+      <mods:namePart type="given">Andrea M.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2015106702">
+      <mods:namePart type="family">Chadwick</mods:namePart>
+      <mods:namePart type="given">Brian P.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2009180254">
+      <mods:namePart type="family">Tang</mods:namePart>
+      <mods:namePart type="given">Hengli</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="viaf"
+              authorityURI="http://viaf.org/viaf/"
+              valueURI="http://viaf.org/viaf/171975698">
+      <mods:namePart type="family">Dennis</mods:namePart>
+      <mods:namePart type="given">Jonathan Hancock</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Biological Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (67 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>XCI is a form of dosage compensation that is established in early development of female mammals where one X chromosome is randomly silenced, thus balancing expression of X-linked genes. XCI is achieved by many cis- and trans- elements that establish and maintain silenced gene expression from the Xi. Molecular biologists have used the Xi as a model to study the maintenance of chromosome-wide gene silencing throughout development. Here, we used gene sequencing technology to examine the effects of gene expression after the loss of a cis-acting non-coding RNA called XIST. We found that one out of 24 X-linked genes had some expression from the Xi after the XIST promoter was deleted from the Xi, indicating reactivation or escape from XCI. Most of the genes we examined reside on the short arm of the X, or Xp. Xp is not part of the ancestral X chromosome and was acquired more recently than the long arm, or Xq. Xp has adapted to XCI and as such may be more prone to reactivation. However, our results mostly disagree with this evolutionary hypothesis. This indicates that the establishment of silenced genes on the Xi is initiated by XIST, however XIST may not be necessary for maintenance of this silent state. This is also indicative that there are other factors maintaining the silenced state on the p arm and the loss of XIST expression is not critical to keep the expression off. We are also able to visualize the Xi territory in single cells through microscopy due to its chromosome-wide heterochromatic state. There are known proteins, including SMCHD1 and LRIF1, that localize to the Xi territory in human cells. We attempted to connect their function to the physical properties and chromatin organization of the Xi. Previous data show that SMCHD1 has some function in the maintenance of small-scale TADs on the Xi and LRIF1, while more elusive, colocalizes to the Xi. We also examined how loss of a large macrosatellite region known to be involved in large-scale structure of the Xi, DXZ4, changes the compaction of the Xi territory in cells. We measured the Xi volume and arrangement of specific chromatin modifications in single cells. We observed an increase in volume in cells without LRIF1, SMCHD1, DXZ4, or a combination of two indicating their respective roles in maintaining small structure and superstructure on the Xi. However, we did not observe significant changes to incorporation of chromatin modifications, meaning the loss of one or two of these elements does not change the spread, or arrangement, of heterochromatic markers on the Xi.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Biological Science in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 8, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">X chromosome, X chromosome inactivation</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Brian Chadwick, Professor Directing Thesis; Hengli Tang, Committee Member; Jonathan Dennis, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85014203">
+      <mods:topic>Biology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85086577">
+      <mods:topic>Molecular biology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85035240">
+      <mods:topic>Cytology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Summer_Yoest_fsu_0071N_16730</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Biological Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Party Bomb</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Anderson</mods:namePart>
+      <mods:namePart type="given">Will</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n79079287">
+      <mods:namePart type="family">Kirby</mods:namePart>
+      <mods:namePart type="given">David</mods:namePart>
+      <mods:namePart type="date">1944-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n95035963">
+      <mods:namePart type="family">Hamby</mods:namePart>
+      <mods:namePart type="given">Barbara</mods:namePart>
+      <mods:namePart type="date">1952-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2012078288">
+      <mods:namePart type="family">Wilson</mods:namePart>
+      <mods:namePart type="given">L. Lamar</mods:namePart>
+      <mods:namePart type="date">1979-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n77010467">
+      <mods:namePart type="family">Gontarski</mods:namePart>
+      <mods:namePart type="given">S. E.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of English</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (73 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The purpose of this thesis is to deal with the traditionally personal subject of narrative poetry while also functioning as a philosophical text. These poems are a generally chronological exploration of my attempts to break out of traditional social structures and find meaning on both the personal and theoretical level in the face of my own mortality. In the course of this exploration, I deploy a poetics which explores issues of wildness, excess, homosociality, and vulnerability. Within the modern poetic canon, this work relates most strongly to the expansiveness of Walt Whitman and the chattiness of Frank O'Hara. However, I am also attempting to evoke the narrative and commemorative function of ancient poets like Homer. Within a theoretical framework, my work is heavily informed by my study of philosophy, specifically Gilles Deleuze and Felix Guattari's What is Philosophy?, as well as other philosophers such Todd May, and especially the genre bending philosophy of Plato's Dialogues. This thesis attempts to move through the philosophical concept of Deleuze and Guattari, wherein art and philosophy simply unfold on similar metaphysical planes, to the point where art and philosophy can converge in form and function. On the level of the collection of a whole, this thesis is structured into three parts, each beginning and ending with a party poem, or a titular "party bomb." There are loose poetic sequences throughout and across the arcs which progress in a sort of staggering motion. In addition to this, there are several chronological arcs which span this collection. In this more autobiographical content, the line between the speaker of these poems and myself is extremely blurry (and perhaps in some instances even non-existent). In the structural level of the individual poem, I rarely use traditional poetic forms. Many of the first poems in this collection come from earlier in my writing career, and the majority of those poems do not feature set stanza structures, instead taking loose forms dictated by the narrative structure of the poem. However, the structure of the later poems (a marked shift happens somewhere in the poems "The Dissidents…" and "On Cynics…") were created by random chance and certain creative processes; as I have matured throughout my writing of this collection, so to have the rituals surrounding the creation of the poems solidified. The saw-tooth structure of many of these poems are still determined by a sense of experimentation. One of the primary concerns of this collection is the many aspects of mortality. In the strictest sense of death, many of these poems are dealing with my own biological mortality, as well as the mortality of my family. The poems written in response to this strict definition of death are informed by my personal study and practice of Stoic philosophy. What results from this specific secular approach to death is not just a confrontation with the fact of our collective mortality, but also an affirmation and appreciation of the mortal subject. This collection is an attempted affirmation of humanness in the face of all of our eventual mortalities. The second concern of this thesis is the poetics of the party, and the conception of the party as not only a fixed moment in time and space, but also a sort of life affirming philosophical and poetic approach – an important antidote within the death-centered portions of this collection. I specifically decided to pair my exploration of death with this manifestation of excess because it serves as a theoretical space where opportunities and possibilities explode outwards in contrast to the closing off of potentials inherent to death. The poetics of the party also opens up avenues in which the individual may form temporary paths of vulnerability with strangers and reinforce previously built relationships with friends and acquaintances. It is a space, at least for me, which allows the structural excess of this aesthetic to be matched with an emotional excess.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of English in partial fulfillment of the requirements for the degree of Master of Fine Art.</mods:note>
+   <mods:note displayLabel="Date of Defense">May 28, 2021.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">David Kirby, Professor Directing Thesis; Barbara Hamby, Committee Member; L. Lamar Wilson, Committee Member; Stanley Gontarski, Committee Member.</mods:note>
+   <mods:identifier type="IID">2021_Summer_Anderson_fsu_0071N_16756</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Fine Arts</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>English</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

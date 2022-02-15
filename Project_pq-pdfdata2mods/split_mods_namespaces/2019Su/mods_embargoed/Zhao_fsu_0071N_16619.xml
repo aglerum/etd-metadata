@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Monoclonal Antibody-Based Enzyme-Linked Immunosorbent Assay for the Detection of Finfish Tropomyosin</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Zhao</mods:namePart>
+      <mods:namePart type="given">Yaqi</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2011191760">
+      <mods:namePart type="family">Rao</mods:namePart>
+      <mods:namePart type="given">Qinchun</mods:namePart>
+      <mods:namePart type="date">1974-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/psingh2">
+      <mods:namePart type="family">Singh</mods:namePart>
+      <mods:namePart type="given">Prashant</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/pchase">
+      <mods:namePart type="family">Chase</mods:namePart>
+      <mods:namePart type="given">P. Bryant</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Health and Human Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Nutrition and Integrative Physiology</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (146 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Introduction: Finfish is one of the Big Eight allergenic foods in the United States (U.S.). Economic-driven finfish substitution or adulteration and unintentional cross-contamination not only violate food regulations (e.g., labeling) but also cause food safety concerns (e.g., finfish allergy). The composition and distribution of finfish allergens differ in species, resulting in various levels of allergenicity. These issues underline the essentiality for the detection of undeclared allergenic finfish ingredients. Tropomyosin, a myofibrillar muscle regulatory protein, has been recognized as a finfish allergen. The objective of this study was to establish a monoclonal antibody (mAb)-based enzyme-linked immunosorbent assay (ELISA) for the detection of finfish tropomyosin. Methods: Finfish species were verified using the standard DNA barcoding method. Western blot was performed to characterize anti-tropomyosin mAbs (species selectivity and antigenicity). The immunoaffinity was determined using indirect non-competitive ELISA (inELISA). Cod (Gadus morhua) tropomyosin was purified using anion-exchange chromatography (AEC). The purity of cod tropomyosin was verified by non-reducing sodium dodecyl sulfate-polyacrylamide gel electrophoresis (SDS-PAGE) and stain-free gel. Tropomyosin monomer isoforms were studied using non-reducing SDS-PAGE, two-dimensional gel electrophoresis (2D-PAGE), and amino acid (AA) sequencing. The molecular structure of tropomyosin was determined under reducing, non-reducing, and native conditions. The indirect competitive ELISA (icELISA) and sandwich ELISA (sELISA) were developed and validated. Results and discussion: Seven mAbs were purified and characterized. From Western blot, three laboratory-developed mAbs were immunoreactive to tropomyosin. As for species selectivity, two mAbs (1G11 and 7B8) could bind with tropomyosin from finfish, shellfish, mammalian, and poultry species, while mAb8F5 was specific to finfish tropomyosin. The Immunoaffinity of mAb7B8 was higher than that of mAb8F5. The purity of cod tropomyosin was determined to be 97.6% based on the band intensity of non-reducing SDS-PAGE. Under the reducing condition, purified cod tropomyosin only existed as a monomer. In the non-reducing condition, purified cod tropomyosin contains three monomer isoforms and a polymer at around 132 kDa, which was hypothesized to be a disulfide bond-induced tetramer. The presence of the disulfide bond was verified by the cysteine detected in the AA sequence of each isoform. The protein structure in the native condition was hypothesized to be a mixture of tropomyosin dimer and polymer. During the immunoassay development, several factors, such as the combination of mAbs and the selection of microplate, blocker, and coating buffer, were optimized. For icELISA, the competition factors were optimized using inELISA. For sELISA, based on the species selectivity and immunoaffinity, mAb7B8 and horseradish peroxidase (HRP)-labeled mAb8F5 were selected as the capture and detection antibodies, respectively. Purified cod tropomyosin was utilized to establish the standard curve for the ELISAs. The established assays had a wide working range, good sensitivity, and reproducibility due to the intra- and inter-assay coefficient of variation (CV) were less than 15%. Significance: The established icELISA and sELISA have the potential to fight seafood fraud and improve food safety. The possible applications include (1) surveillance of finfish adulteration in non-finfish products and (2) detection of undeclared allergen, finfish tropomyosin, in food products.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Nutrition and Integrative Physiology in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 17, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">ELISA, Finfish, Monoclonal antibody, Tropomyosin</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Qinchun Rao, Professor Directing Thesis; Prashant Singh, Committee Member; P. Bryant Chase, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85050184">
+      <mods:topic>Food</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Summer_Zhao_fsu_0071N_16619</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Nutrition, Food, and Exercise Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

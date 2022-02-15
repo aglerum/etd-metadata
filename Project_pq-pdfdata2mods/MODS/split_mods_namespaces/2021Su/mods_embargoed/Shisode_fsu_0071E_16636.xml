@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Improving the Accuracy of 3D Chromosome Structure Inference and Analyzing the Organization of Genome in Early Embryogenesis Using Single Cell Hi-C Data</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-8642-4979</mods:nameIdentifier>
+      <mods:namePart type="family">Shisode</mods:namePart>
+      <mods:namePart type="given">Tarak</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jzhang4">
+      <mods:namePart type="family">Zhang</mods:namePart>
+      <mods:namePart type="given">Jinfeng</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Statistics Professor)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor co-directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mio">
+      <mods:namePart type="family">Mio</mods:namePart>
+      <mods:namePart type="given">Washington</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor co-directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/pfraser">
+      <mods:namePart type="family">Fraser</mods:namePart>
+      <mods:namePart type="given">Peter H.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/gokten">
+      <mods:namePart type="family">Ökten</mods:namePart>
+      <mods:namePart type="given">Giray</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2005086590">
+      <mods:namePart type="family">Bertram</mods:namePart>
+      <mods:namePart type="given">R. (Richard)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Mathematics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (144 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This dissertation summarizes my graduate work on the structure and organization of mouse genome during preimplantation development. My research is divided into three different areas, which I will discuss in turn. To begin, I will discuss my collaborative work on parental-to-embryo switch of chromosome organization during critical stages of early development. Notably, both paternal and maternal epigenomes undergo significant modifications following fertilization. Recent epigenomic studies have revealed the extraordinary chromatin landscapes found in oocytes, sperm, and early preimplantation embryos, including atypical histone modification patterns and differences in chromosome organization and accessibility. However, these studies reached polar opposite conclusions: the global absence of local topological-associated domains (TADs) in gametes and their appearance in the embryo versus the zygote's pre-existence of TADs and loops. The issues of whether parental structures can be inherited in the newly formed embryo and how these structures may be related to allele-specific gene regulation remain unresolved. To address this question, we use an optimized single cell high-throughput chromosome conformation capture (HiC) protocol to map genomic interactions for each parental genome (including the X chromosome) during mouse preimplantation. We integrate chromosome organization with allelic expression states and chromatin marks and demonstrate that after fertilization, higher-order chromatin structure is associated with an allele specific enrichment of histone H3 lysine 27 methylation. These early parental-specific domains are associated with gene repression and contribute to parentally biased gene expression—including newly described transiently imprinted loci. Additionally, we observe that these domains emerge in a non-parental-specific manner during the second wave of genome assembly. Finally, we discover that these domains are lost as genes are silenced on the paternal X chromosome but persist in regions that are not inactivated by the X chromosome. These findings highlight the complexities of three-dimensional genome organization and gene expression dynamics during early development. Second, I will discuss my work on some common and cell type-specific themes of higher order chromatin arrangements during mouse preimplantation development. Mapping the spatial organization of the genome is critical for comprehending its regulatory function in health, disease, and development. Our findings demonstrate an extraordinary amount of parent-specific chromosome choreography during the concatenation of two genomes. After fertilization, we observe an abrupt emergence of a Rabl-like configuration and a high head-to-head and tail-to-tail alignment of the chromosomes, which are gradually lost by the 64-cell stage. Additionally, the characteristics and marks of active and inactive chromatin exhibit a distinct radial profile across developmental stages and the genome. Finally, in addition to the well-known hallmarks of genome organization, we observe a preferential organization of chromosome territories - which call the "Territome". We were able to distinguish cell types based on the radial and relative positioning of the chromosomes in the 3D reconstructions. This suggest that interchromosomal interactions are just as critical for defining chromatin architecture and cellular identity as intrachromosomal interactions. Our findings establish a novel criterion for classifying cells when other hallmarks are difficult to quantify or when transcriptomics data is unavailable, thus paving a whole new way of looking at cells and learning how they function. Finally, with advances in experimental and theoretical approaches for generating single cell chromatin conformation capture assays, elucidating the genome's structure-function relationship has become a highly active area of research. Numerous computational methods have been developed to infer the genome's three-dimensional organization using Hi-C data from single cells. This is referred to as the three-dimensional genome reconstruction problem in formal terms (3D-GRP). While numerous methods exist for predicting the three-dimensional structure of a single genomic region, chromosome, or genome, the reconstructed models do not satisfy all of the input constraints. To address this, we present CUT&amp;GROW, a method for improving the accuracy of three-dimensional chromosome structure inference using an iterative importance sampling strategy. CUT&amp;GROW refines the structure of a three-dimensional chromosome (or genome) model by regrowing fragments of varying sizes locally, satisfying the majority of input constraints and providing a more precise view of the structure-function relationship.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Mathematics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 29, 2021.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Jinfeng Zhang, Professor Co-Directing Dissertation; Washington Mio, Professor Co-Directing Dissertation; Peter Fraser, University Representative; Giray Okten, Committee Member; Richard Bertram, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh93002523">
+      <mods:topic>Applied mathematics</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh00003585">
+      <mods:topic>Bioinformatics</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85037352">
+      <mods:topic>Developmental biology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Summer_Shisode_fsu_0071E_16636</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Mathematics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

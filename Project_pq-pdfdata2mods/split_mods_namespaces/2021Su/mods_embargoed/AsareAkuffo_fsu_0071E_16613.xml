@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Spatial Behavior and Access to Oral Health Services</mods:title>
+      <mods:subTitle>A Geographical Analysis of Different Health Care Systems</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-6764-1847</mods:nameIdentifier>
+      <mods:namePart type="family">Asare-Akuffo</mods:namePart>
+      <mods:namePart type="given">Filiberto</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2002107356">
+      <mods:namePart type="family">Mesev</mods:namePart>
+      <mods:namePart type="given">Victor</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2015057682">
+      <mods:namePart type="family">Duncan</mods:namePart>
+      <mods:namePart type="given">Michael Douglas</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/cuejio">
+      <mods:namePart type="family">Uejio</mods:namePart>
+      <mods:namePart type="given">Christopher K.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/amallory">
+      <mods:namePart type="family">Mallory</mods:namePart>
+      <mods:namePart type="given">Aaron</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Social Sciences and Public Policy</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Geography</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (158 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Spatial access to oral health services is essential in the physical development of children. Over the last two decades, geographers' interest in examining access to health services has burgeoned with the advancement of geographic information science and the increasing health care data availability. Considerable research has been devoted to exploring spatial access to different health services. However, few studies have compared geographic and perceived access to oral health services in different countries with disparate health care systems. My overarching goal is to build on the previously scant research by examining children's access to oral health services in three countries with different health care systems. The first objective quantifies access to oral health services using a proposed enhanced two-step floating catchment area method. The new model incorporates user preference for services by using a qualitative survey to collect primary data on service capacity, working hours, and cultural appropriateness. The primary survey data was used to develop a service attraction index that comprehensively captures health service attractiveness. Huff model was used to adjust for population demand for health services. In addition to the survey data, I used dental provider data, population data, and transportation data (driving and transit) in building the model. The proposed model was tested on three case study areas: the cities of Tampa in the U.S, Birmingham in the U.K, and Kumasi in the West African country of Ghana. The results demonstrate that (1) integrating qualitative data into spatial accessibility measure helped identified more underserved areas and (2) using the Huff model to adjust the demand for services help prevent overestimation or underestimation of accessibility measures. However, using the number of dentists at a facility as a measure of service attractiveness resulted in an overestimation of spatial accessibility to oral health services. A comparison of spatial accessibility to oral health services in the three case study areas showed people in the U.K. have better access to oral health services than in the U.S. and Ghana. Comparing the effect of different transportation modes on spatial access to oral health services showed automobile users were more likely to reach more oral health services faster than transit users. The second objective was to investigate perceived access to oral health services using a qualitative approach. The specific research questions were: (1) What factors determine a patient's choice of a dentist? (2) What barriers do people encounter when accessing oral health services? And (3) How do people perceive universal health care? A stratified random sampling method was used to recruit respondents for the survey from three different countries: the U.S., the U.K., and Ghana. Next, topic modeling—a natural language processing technique—was used to identify themes from the survey responses. The results indicated that respondents in different counties shared some similarities in the factors they consider when choosing a dentist to visit. These factors include service quality, cost of services, health insurance, recommendation and reviews, the reputation of the dentist, and family attachment. Similarly, barriers to accessing oral health services were the same for all case studies, with most respondents citing financial barriers, geographic barriers, and organizational barriers. However, respondents from the U.S. were more likely to cite financial barriers to health services than in U.K. and Ghana. Respondents from the U.K. frequently cited difficult scheduling appointments and long waiting times than in the U.S. and Ghana. Respondents from Ghana cited service availability as a significant barrier to accessing oral health care. Finally, perceptions about universal health care were different among respondents from different countries. Most respondents in the U.S. perceived that universal health care would increase taxes and decrease the quality of health care. However, most respondents in the U.K., and Ghana believed that health care is a fundamental human right and thus everyone should have access to it. The third and final objective explored the relationship between perceived access to oral health services and socioeconomic status. The research hypothesis was that there are no differences in perceived access to oral health services among socioeconomic groups. Respondents were asked to complete five-point Likert-scale questions about their perceived access to oral health services. The questions include the importance of geographic access, cultural appropriateness (language), and neighborhood of dentist to respondents. I also collected data on respondent's household income, level of education, race, type of health insurance, access to transportation, and access to health insurance. Using Kruskal-Wallis H and Mann-Whitney U test, I examined the difference in perceived access among different socioeconomic groups. The results show that there are differences in perceived access to oral health services when considering people's socioeconomic background. Similarly, the results showed a difference in perceived access to oral health services among respondents from different countries.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Geography in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 2, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">Ghana, Healthcare Access, Perceived Access, Spatial Accessibility, United Kingdom, United States</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Victor Mesev, Professor Directing Dissertation; Michael Duncan, University Representative; Christopher Uejio, Committee Member; Aaron Mallory, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85053986">
+      <mods:topic>Geography</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh90001880">
+      <mods:topic>Geographic information systems</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85053969">
+      <mods:topic>Geodesy</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85137042">
+      <mods:topic>Transportation</mods:topic>
+      <mods:topic>Planning</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Summer_AsareAkuffo_fsu_0071E_16613</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Geography</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

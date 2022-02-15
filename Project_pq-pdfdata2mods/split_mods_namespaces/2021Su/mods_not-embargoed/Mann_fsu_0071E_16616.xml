@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Layered-Structure Intermetallics as Magnetocaloric Materials and Water Splitting Electrocatalysts</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-3192-7434</mods:nameIdentifier>
+      <mods:namePart type="family">Mann</mods:namePart>
+      <mods:namePart type="given">Dallas</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/shatruk">
+      <mods:namePart type="family">Shatruk</mods:namePart>
+      <mods:namePart type="given">Mykhailo</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/tsiegrist">
+      <mods:namePart type="family">Siegrist</mods:namePart>
+      <mods:namePart type="given">Theo</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/strouse">
+      <mods:namePart type="family">Strouse</mods:namePart>
+      <mods:namePart type="given">Geoffrey F.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/latturne">
+      <mods:namePart type="family">Latturner</mods:namePart>
+      <mods:namePart type="given">Susan</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemistry and Biochemistry</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (115 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This PhD thesis is a comprehensive investigation of selected 1:2:2 inorganic layered intermetallics as potentially useful magnetic and catalytic materials, to help develop green energy alternatives to the current devices and technologies that rely on fossil fuels. Understanding electronic and crystal structures of these materials and their relationship to magnetic and catalytic properties at the fundamental level can provide a useful basis to produce, respectively, effective magnets for magnetic refrigeration devices and alternative electrocatalysts to replace known expensive state-of-the-art catalysts used for water splitting electrolysis. This work has focused on investigating the potential of selected layer intermetallic borides and phosphides for these important clean-energy applications. Chapter 1 of this thesis is a brief introduction to the basics of magnetism, water splitting electrolysis, and ternary layered intermetallics of the 1:2:2 stoichiometry. Chapter 2 covers different synthetic methods and characterization techniques utilized in the development of 1:2:2 materials. In Chapter 3, we describe the study of magnetic and magnetocaloric properties of AlFe₂B₂, a material that consists of light earth-abundant elements and shows it's a remarkable magnetocaloric effect (MCE) near room temperature. This material was synthesized using a new technique, microwave melting, which, in turn, lead to the discovery of a new optimal Al:Fe:B stoichiometric ratio of 3:2.6:2 to minimize the formation of the Al₁₃Fe₄ byproduct that can be removed by acid treatment. Considering the syntheses of AlFe₂B₂ by arc-, induction-, and microwave-melting techniques, we compare the effect of each method on the resulting magnetic properties of the material. Although the differences among the samples obtained by different methodologies are relatively small, the arc-melted sample demonstrated the highest total MCE. Furthermore, in collaboration with the Siegrist group at the National High Magnetic Field Laboratory (NHMFL), we used a custom diffraction setup integrated with the Florida Split Coil Magnet to investigate the structural changes occurring to AlFe₂B₂ as a function of temperature and magnetic field. With a Curie temperature of 280 K, the magnetostriction was measured at 250, 290, and 300 K under a varying applied field up to 25 T. The crystal lattice of AlFe₂B₂ exhibited anisotropic changes along different crystallographic directions, with a and b axes decreasing and c axis increasing with field. The volume magnetostriction showed anomalous changes near the ferromagnetic ordering temperature. These results were supported by density functional theory calculations performed on non-polarized and spin-polarized models of the AlFe₂B₂ structure. Investigating other properties of AlFe₂B₂, we have discovered the effectiveness of this 1:2:2 material as a water splitting electrocatalyst, as detailed in Chapter 4. The layered ternary boride shows excellent performance in the oxygen evolution reaction (OER), providing a remarkably low overpotential of 240 mV at a current density of 10 mA/cm² in an alkaline electrolyte (pH = 14). Given the inferior performance of the binary counterpart, FeB, we have attributed the remarkable electrocatalytic properties of AlFe₂B₂ to the extra conductivity provided by the Al layer in its layered structure. A comparison is drawn between state-of-the-art OER electrocatalysts and AlFe₂B₂ through the Chapter. Upon post-catalysis characterization, we see AlFe₂B₂ undergo structural reconstruction with Fe3O4 nanoparticles forming an outer shell around the AlFe₂B₂ particles. Thus, AlFe₂B₂ serves as both a pre-catalyst and support to provide the long-term stability and efficient electrocatalytic performance for water oxidation. Chapter 5 extends the studies of OER electrocatalysis to the rare-earth intermetallic phosphide, LaCo₂P₂. This material exhibits a ThCr2Si2-type structure that contains [Co2P2] layers alternating with La layers. The OER electrocatalytic properties were tested and confirmed under alkaline conditions (pH = 14). The material demonstrated an overpotential of 420 mV at the current density of 10 mA/cm². Under acidic conditions (pH = 0), the material was shown to rapidly decompose to LaPO₄. To understand the fundamentals of the reaction, the LaCo₂P₂ particles were analyzed before and after electrochemical testing by powder X-ray diffraction and electron microscopy. Finally, similarly to AlFe₂B₂ discussed in Chapter 4, an in-depth investigation of the particle surface will be discussed and analyzed due to the formation of an oxide layer forming on the surface, which in turn may affect the overall catalytic process and particle structure.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 30, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">Catalysis, Magnetism</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Michael Shatruk, Professor Directing Dissertation; Theo Siegrist, University Representative; Geoffrey Strouse, Committee Member; Susan Latturner, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85022986">
+      <mods:topic>Chemistry</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Summer_Mann_fsu_0071E_16616</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

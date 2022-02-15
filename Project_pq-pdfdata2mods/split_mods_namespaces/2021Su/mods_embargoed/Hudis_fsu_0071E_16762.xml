@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Persistent Current Dynamics in Asymmetric Superconducting Nanorings</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">https://orcid.org/0000-0002-6293-4787</mods:nameIdentifier>
+      <mods:namePart type="family">Hudis</mods:namePart>
+      <mods:namePart type="given">Jacob B.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/xiong">
+      <mods:namePart type="family">Xiong</mods:namePart>
+      <mods:namePart type="given">Peng</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor co-directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ichiorescu">
+      <mods:namePart type="family">Chiorescu</mods:namePart>
+      <mods:namePart type="given">Irinel</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor co-directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jguan">
+      <mods:namePart type="family">Guan</mods:namePart>
+      <mods:namePart type="given">Jingjiao</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2012037971">
+      <mods:namePart type="family">Piekarewicz</mods:namePart>
+      <mods:namePart type="given">Jorge</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2002162741">
+      <mods:namePart type="family">Bonesteel</mods:namePart>
+      <mods:namePart type="given">N. E.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Physics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (128 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Doubly-connected superconducting loops are a class of superconducting devices of longstandinginterest in fundamental physics and practical applications. They have been studied since early 1960s and have received intensive recent interest due to their relevance in superconducting qubits and related circuits. Of particular interest are the dynamics of supercurrent in such devices. The overwhelming majority of the studies in the field have focused on symmetric devices. In this dissertation, we present a study of experimental measurements and theoretical modeling of the persistent current dynamics in asymmetric doubly connected superconducting loops. The asymmetry induces a multimodal critical current which is well-described by a model invoking the modulation of the superconducting persistent current in the loop in the form of nucleation of coreless vortices. The asymmetric loops are composed of two geometrically distinct nanowires connected in parallel. Specifically, asymmetric aluminum nanorings were fabricated using electron beam lithography. The devices were designed and fabricated so that the current distribution is dominated by kinetic inductance. Using a technique of repeated ramping of pulsed current, we measured the possible critical current(s) of an asymmetric aluminum nanoring at various applied magnetic field. The data was used to construct switching current contour plots in order to ascertain the possibility of a multimodal distribution. In contrast to symmetric devices, for all devices we measured, we observed multiple switching current values for each value of applied magnetic field; in other words, a given device exhibits multiple stacked critical current curves. The number of distinct critical currents increases with the degree of asymmetry. Our experimental results show several characteristic features consistent with persistent current modulation due to flux quantization in the presence of device asymmetry. The measured I-V curves showed voltage plateaus in the superconducting state, instead of a single discontinuous transition to the normal state. Voltage jumps in the I-V curve are consistent with changes in the phase winding number induced by a coreless vortex nucleating in the nanoring to preserve superconductivity. Our findings are in agreement with a numerical modeling of an asymmetric superconducting loop based on the time-dependent Ginzburg-Landau theory (G. R. Berdiyorov, M. V. Miloˇsevi´c, and F. M. Peeters Phys. Rev. B 81, 144511), which gave specific predictions on asymmetry induced multi-valued critical current. Our analysis provides a physical and quantitative understanding of the multimodal critical current behavior experimentally observed. Specifically, it directly showed that a bias current can cause coreless vortices to nucleate in an asymmetric superconducting nanoring. This dissertation study provides a number of useful insights on the effects of asymmetry on the electronic characteristics of doubly-connected superconducting devices. The underlying physics behind these phenomena is interesting in its own right, and may be exploited in superconducting integrated circuits and related technologies; furthermore, the effects of asymmetry may find relevance in the understanding and optimization of the ubiquitous symmetric superconducting devices, in which varying degrees of unintended asymmetry are always present.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Physics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 6, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">asymmetric nanorings, critical current, SQUID, superconductivity</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Peng Xiong, Professor Co-Directing Dissertation; Irinel Chiorescu, Professor Co-Directing Dissertation; Jingjiao Guan, University Representative; Jorge Piekarewicz, Committee Member; Nicholas Bonesteel, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85030765">
+      <mods:topic>Condensed matter</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85078653">
+      <mods:topic>Low temperatures</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85082094">
+      <mods:topic>Materials science</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Summer_Hudis_fsu_0071E_16762</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Physics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

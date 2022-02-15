@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Statistical Inferences on Functional Connectivity in the Hippocampal and Prefrontal Areas</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-3093-9708</nameIdentifier>
+      <namePart type="family">Xu</namePart>
+      <namePart type="given">Yiqi</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/wwu">
+      <namePart type="family">Wu</namePart>
+      <namePart type="given">Wei</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/zhe">
+      <namePart type="family">He</namePart>
+      <namePart type="given">Zhe</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2017071128">
+      <namePart type="family">Barbu</namePart>
+      <namePart type="given">Adrian G.</namePart>
+      <namePart type="date">1971-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/jzhang4">
+      <namePart type="family">Zhang</namePart>
+      <namePart type="given">Jinfeng</namePart>
+      <namePart type="termsOfAddress">(Statistics Professor)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Statistics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (82 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>This dissertation is composed of three research projects. The first project focuses on detecting the functional connectivity of the brain network in the hippocampal and prefrontal areas. The second one quanties the population representativeness of clinical studies. The third one is on a new registration framework on neural spike trains. The titles of these three projects are 1) Sex Differences and Effects of Estrous Stage on Hippocampal-Prefrontal Theta Communications, 2) Evaluating Computational Frameworks for Quantifying the Population Representativeness of Clinical Studies 3) Discovering Precise Temporal Patterns in Large-scale Neural Recordings by the Fisher-Rao Metric. Each project can be briefly summarized as follows: Project I: To some certain cognitive-behavioral tasks critical to survival in a changing environment, effective communication between the mammalian hippocampus and neocortex is necessary. In the approach-avoidance conflict tasks, by analyzing the local eld potentials (LFPs) from the ventral hippocampus (vHPC) and the medial prefrontal cortex (mPFC) within the theta band (4-12 Hz) of male rodents, functional synchronization has been detected. However, the physiology of vHPC-mPFC communications in females is still unknown. In addition, little in known about how mPFC subdivisions connect with the hippocampal subdivisions in the theta band in both sexes. In this project, we characterize the effects of biological sex and female estrous stage on hippocampal-prefrontal theta signaling in freely-moving female and male rats. LFPs from vHPC, dorsal hippocampus (dHPC), mPFC-prelimbic (PrL), and mPFC-infralimbic (IL) were simultaneously recorded during spontaneous exploration of a familiar arena. Results show that phase and power in theta band in vHPC preferentially synchronize with PrL, while dHPC preferentially synchronize with IL. Although both sexes have similar power and inter-regional coherence, males showed a stronger synchronization than females. In addition, the findings of hormone status suggest that female estrous stages also can affect hippocampal-prefrontal theta signaling in a familiar environment. Project II: Subjects selected from a well-dened patient population into a clinical trial are often underrepresented due to overly restrictive eligibility criteria or patient self-selection into clinical trials. To eliminate the under-representation of the trial sample in the trial design stage or estimate the resulting bias in the trial analysis stage, its important and necessary to assess the representativeness of the trial sample with a validated statistical and informatics method. In this paper, we propose a new method for quantifying the generalizability of the trial sample. To compare the patients with various characteristics, we introduce propensity score to transform a high-dimension comparison into a one-dimension comparison. We then propose four computational frameworks to evaluate the appropriateness of this approach, namely, 1) logistic regression, 2) logistic regression with LASSO, 3) simple neural network and 4) sparsity autoencoder neural network. Our study is based on a simulated data set, where the Wasserstein metric is used to measure the difference of propensity score distributions of trial sample and of population. We compare the proposed new index with three commonly used methods C-statistics, standardized mean differences (SMD), Tipton index. It is found that the proposed index can effectively quantify the representativeness of the trial sample and overcome some limitations of traditional methods. Project III: Due to the trial-by-trial variability in scientific experiments, characterizing the temporal precision in multi-neuronal spike trains has been a significant challenge. To overcome this problem, multiple time-warping frameworks have been introduced in a recent investigation [64, Williams, et al., 2020]. The methods are mainly based on linear or piecewise linear shifts along the time axis, and they may not be appropriate for recording with large nonlinear variability. In this project, we propose a more powerful method, adapted from the well-known Fisher-Rao Registration (FRR), to study the spike time alignment. The curved-based FRR method is modified to deal with the spike train data. The advantages of the FRR method are clearly illustrated with simulated data and real neural signal data, where the proposed method has superior performance as compared to existing methods.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">May 20, 2021.</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Wei Wu, Professor Directing Dissertation; Zhe He, University Representative; Adrian Barbu, Committee Member; Jinfeng Zhang, Committee Member.</note>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <topic>Statistics</topic>
+   </subject>
+   <identifier type="IID">2021_Summer_Xu_fsu_0071E_16578</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

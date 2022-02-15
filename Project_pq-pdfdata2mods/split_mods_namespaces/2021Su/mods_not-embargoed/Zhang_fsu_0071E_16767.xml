@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Towards Enhanced Mobile Voice Authentication</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Zhang</mods:namePart>
+      <mods:namePart type="given">Linghan</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jyang5">
+      <mods:namePart type="family">Yang</mods:namePart>
+      <mods:namePart type="given">Jie</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mio">
+      <mods:namePart type="family">Mio</mods:namePart>
+      <mods:namePart type="given">Washington</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/nr92012137">
+      <mods:namePart type="family">Aggarwal</mods:namePart>
+      <mods:namePart type="given">Sudhir</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/zwang4">
+      <mods:namePart type="family">Wang</mods:namePart>
+      <mods:namePart type="given">Zhi</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (127 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>With the maturity of mobile technologies, voice biometrics is becoming increasingly popular as a promising alternative to traditional passwords for user authentication on smartphones. Moreover, with the popularity of voice user interface (VUI) capable devices like smart speakers and the evolution of speech recognition techniques, voice biometrics has further advanced to be the primary channel of secured user-machine communication. On these smart devices, Voice biometrics authenticates and secures the user's access and control to an array of systems, devices, and services. However, a growing body of research proves that state-of-the-art voice authentication systems are vulnerable to replay attacks, where an adversary spoofs the voice authentication systems with pre-recorded or concatenated voice samples of the genuine user. To this end, we propose three liveness detection systems, VoiceLive, VoiceGesture, and VibLive, towards enhanced mobile voice authentication. Especially, our solutions emphasize discovering new biometrics, inventing ingenious sensing mechanisms, and designing practical liveness detection systems for voice authentication. In particular, VoiceLive captures the first new biometric - the time-difference-of-arrival (TDoA) changes in a sequence of phoneme sounds with the stereo recording on smartphones and uses such biometric that do not exist under replay attacks for liveness detection. VoiceGesture examines the second new biometric - articulatory gestures, by re-using smartphones as Doppler radars to measure the articulatory gestures' velocities and locations for liveness detection. Furthermore, VibLive senses the third new biometric - bone-conducted vibrations with a pair of built-in speaker and microphone on a VUI capable device. VibLive searches the dissimilarities between microphone recorded air-conducted voices and the corresponding sensed bone-conducted vibrations for liveness detection. Both VoiceLive and VoiceGestures are text-dependent liveness detection solutions for short-range mobile voice authentication. The experiments show that both systems manage to achieve over 99% accuracy and around 1% Equal Error Rate(EER) in detecting replay attacks on enrolled passphrases. In comparison, VibLive is a text-independent liveness detection solution that supports short-range and long-range voice authentication on generic VUI capable devices, including but not limited to smartphones and smart speakers. An evaluation indicates that VibLive yields over 97% accuracy in protecting continuous voice authentication regardless of the users' speech contents.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Computer Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 16, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">Biometrics, Mobile Sensing, Voice Authentication</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Jie Yang, Professor Directing Dissertation; Washington Mio, University Representative; Sudhir Aggarwal, Committee Member; Zhi Wang, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh89003285">
+      <mods:topic>Computer science</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Summer_Zhang_fsu_0071E_16767</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Computer Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

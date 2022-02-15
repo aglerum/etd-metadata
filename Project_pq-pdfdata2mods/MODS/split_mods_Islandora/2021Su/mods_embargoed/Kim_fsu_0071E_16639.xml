@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Dissociation and Transport of Lithium Ions in Polymer Electrolytes</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <namePart type="family">Kim</namePart>
+      <namePart type="given">Kyoungmin</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/dhallinan">
+      <namePart type="family">Hallinan</namePart>
+      <namePart type="given">Daniel T.</namePart>
+      <namePart type="termsOfAddress">Jr.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/sshanbhag">
+      <namePart type="family">Shanbhag</namePart>
+      <namePart type="given">Sachin</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/sramakrishnan">
+      <namePart type="family">Ramakrishnan</namePart>
+      <namePart type="given">Subramanian</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/hchung">
+      <namePart type="family">Chung</namePart>
+      <namePart type="given">Hoyong</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Chemical and Biomedical Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (103 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>All-solid-state batteries are promising energy storage systems that improve safety by replacing the flammable and hazardous liquid electrolytes with chemically and structurally stable solid electrolytes. Polymer electrolytes are important materials in the manufacture of all-solid-state batteries due to their ionic conductivity, achieved by doping the polymer with salt. Poly(ethylene oxide) (PEO) is a potential candidate solid electrolyte due to its stable chemical structure and compatibility with lithium metal, which can replace the graphite anode and supply much higher specific capacity. However, lower ionic conductivity of PEO compared to liquid electrolytes and the possibility of dendrite growth from lithium metal have prevented the use of PEO electrolytes for commercial applications. Covalently bonding polystyrene (PS) to the PEO chains increases the storage modulus of the polymer electrolyte and suppresses dendrite growth but lowers the mobility of the PEO block and results in decreased ionic conductivity. To improve the performance of polymer electrolytes, understanding the ion transport properties of polymer electrolytes is required. High salt concentration is advantageous to achieve high ionic conductivity, but it makes estimation of battery performance difficult due to the breakdown of dilute-solution theory, which assumes complete ion dissociation. Therefore, practical battery design would benefit from an empirical understanding of the relationship between ion dissociation and salt concentration in block copolymer electrolyte. In this study, the transport properties of lithium bis-trifluoromethylsulfonimide (LiTFSI) in PS-PEO block copolymer (SEO) with varioius salt concentrations were investigated using electrochemical and spectroscopoic measurements. Ionic conductivity, transference number, and diffusion coefficient were measured using electrochemical impedance spectroscopy (EIS), the Bruce-Vincent method, and time-resolved Fourier transform infrared spectroscopy (FTIR) with attenuated total reflectance (ATR), respectively. Salt dissociation and ionic interaction was studied using FTIR and Raman spectroscopy. Quantitative analysis was performed to reveal the appearance of ion pairs and interactions between the salt and the ethylene oxide moieties with increasing salt concentration. FTIR peaks associated with polymer functional groups were found to be more useful than those of the TFSI anion for understanding the chemical state of the block copolymer electrolyte. In particular, PS peaks were used to quantify polymer dilution upon salt addition and verify that the Beer-Lambert law was valid at all concentrations investigated. PEO peaks revealed conformational changes of the polymer upon coordination with lithium ions. A previously unidentified FTIR peak was discovered that relates to polymer-salt interaction. It was used to determine the extent of salt dissociation, which compares well with a Raman study of a homopolymer electrolyte. This work definitively shows that LiTFSI dissolves into the PEO phase of the block copolymer, essentially unaffected by PS presence. It also establishes FTIR as a useful technique for quantifying dissociation state of concentrated polymer and composite electrolytes for lithium batteries. In place of salt, single-ion conducting polymer electrolytes are of interest for use with advanced battery electrodes such as lithium metal, but achieving sufficiently high conductivity has been challenging. In this work, a model system containing charged sites that are precisely spaced along the polymer backbone is explored. Precision sulfonated poly(4-phenylcyclopentene) lithium salt (p5PhS-Li) with a high degree of sulfonation (&gt; 90%) was synthesized and blended with PEO to investigate the thermodynamic and transport properties. Melting point depression was measured via differential scanning calorimetry, ionic conductivity was determined using electrochemical impedance spectroscopy, and the fraction of current carried by Li⁺ was estimated based on steady-state current measurements. A wide range of p5PhS-Li/PEO blend compositions and temperatures were studied. In conjunction with a density measurement, melting point depression was used to find an effective Flory-Huggins interaction parameter, χ[subscript eff]= -0.21, indicating miscibility of the blend. The ionic conductivity, κ, spanned a large range from 2 × 10⁻¹¹ to 2 × 10⁻⁷ S/cm over the composition and temperature range investigated. The fraction of charge carried by lithium ions also spanned a significant range from 0.12 in majority PEO blend to 0.98 in majority p5PhS-Li blend. This study addresses several limitations of sulfonated polystyrene and opens up the possibility of precisely controlling the spacing of other anion types.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemical and Biomedical Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">July 01, 2021.</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Daniel T. Hallinan, Jr., Professor Directing Dissertation; Sachin Shanbhag, University Representative; Subramanian Ramakrishnan, Committee Member; Hoyong Chung, Committee Member.</note>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85022900">
+      <topic>Chemical engineering</topic>
+   </subject>
+   <identifier type="IID">2021_Summer_Kim_fsu_0071E_16639</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemical and Biomedical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>
