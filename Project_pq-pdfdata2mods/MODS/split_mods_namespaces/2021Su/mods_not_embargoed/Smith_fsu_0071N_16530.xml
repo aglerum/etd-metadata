@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Theatre and Anxiety from Society to the Stage</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-3591-8025</mods:nameIdentifier>
+      <mods:namePart type="family">Smith</mods:namePart>
+      <mods:namePart type="given">Elaine M.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n86035318">
+      <mods:namePart type="family">Dahl</mods:namePart>
+      <mods:namePart type="given">Mary Karen</mods:namePart>
+      <mods:namePart type="date">1945-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2017067051">
+      <mods:namePart type="family">Thomas</mods:namePart>
+      <mods:namePart type="given">Aaron C.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/khoxworth">
+      <mods:namePart type="family">Hoxworth</mods:namePart>
+      <mods:namePart type="given">Kellen Lewis</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Fine Arts</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>School of Theatre</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (96 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This thesis focuses on the staging of anxiety in modern American theatre. Specifically, I explore theatrical representations of anxiety around three events that shifted people's perception: 9/11, the recession of 2008, and the 2016 presidential election. I am interested in how playwrights explore recent surges of anxiety in society and why. The plays I engage with focus on individuals whose voices are lost in public discourse as the economic gap between classes grows. By looking at the plays through the affect theory of Sara Ahmed and the lectures on anxiety by Jacques Lacan, I explore how these plays offer audiences ways to understand and communicate the complex layers of anxiety. The introduction examines how anxiety moved from its status as a medical diagnosis to becoming a part of current culture. The second chapter is focused on The Humans by Stephen Karam, a play that deals with the layering of multiple anxieties, including post-traumatic stress disorder due to the events of September 11, 2001. The third chapter's focus is Sweat by Lynne Nottage, which explores how economic anxiety of the people left behind in a city that loses its industry can lead to 'othering' of individuals and how the status of 'other' circulates through society. The fourth chapter deals with Richard Nelson's play, Women of a Certain Age, which takes place on the evening of the 2016 presidential election. I examine how a family can find comfort together when they are suspended between realities of the past and future by being together in the present. Like the canary in the coalmine, playwrights have been staging plays that deal with the anxiety of people who feel lost because their country has changed due to moments of social upheaval. By listening to how playwrights communicate anxiety to audiences, it is possible the work they are doing lends itself to the larger conversation that is growing around anxiety today.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the School of Theatre in partial fulfillment of the requirements for the degree of Master of Arts.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 9, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">Affect Theory, Anxiety, Sweat, The Humans, Theatre, Women of a Certain Age</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Mary Karen Dahl, Professor Directing Thesis; Aaron C. Thomas, Committee Member; Kellen Hoxworth, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85134522">
+      <mods:topic>Theater</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Summer_Smith_fsu_0071N_16530</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Arts</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Theatre</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

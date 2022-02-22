@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Accuracy Assessment of Multiple-Interface Power Hardware-in-the-Loop Simulations</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Szymanski</mods:namePart>
+      <mods:namePart type="given">Thiago</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/pamidi">
+      <mods:namePart type="family">Pamidi</mods:namePart>
+      <mods:namePart type="given">Sastry V.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2003098450">
+      <mods:namePart type="family">Ordóñez</mods:namePart>
+      <mods:namePart type="given">Juan Carlos</mods:namePart>
+      <mods:namePart type="date">1973-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/steurer">
+      <mods:namePart type="family">Steurer</mods:namePart>
+      <mods:namePart type="given">Michael</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/faruque">
+      <mods:namePart type="family">Faruque</mods:namePart>
+      <mods:namePart type="given">Md Omar</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jllangston">
+      <mods:namePart type="family">Langston</mods:namePart>
+      <mods:namePart type="given">James</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/cschegan">
+      <mods:namePart type="family">Schegan</mods:namePart>
+      <mods:namePart type="given">Christian</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Electrical and Computer Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (101 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Power hardware-in-the-loop (PHIL) is a powerful technique that allows researchers to test hardware under different operating conditions and environments.PHIL creates a closed-loop environment, where a single physical device is coupled to a simulated rest of system. This simulation operates in real-time, and provides a realistic view of the device's characteristics while under performance. The connection between the simulated and physical world happens through the PHIL interface. This interface is what allows the device to be tested under countless conditions, but it comes at a cost. The non-ideal behavior of the PHIL interface frequently results in distortions in the measurements. The most commonly of those distortions is a 'two time-step delay' introduced due to the communication between the systems. Although this distortion is small (i.e. typically a phase shift of a few degrees in high frequencies), it is a distortion nonetheless. Therefore, it is imperative that estimations on the accuracy of PHIL interfaces are performed. In an extension of PHIL, multiple-interface power hardware-in-the-loop, or multi-PHIL for short, allows users to use multiple PHIL interfaces in a single experiment. This provides even more possibilities to an already powerful technique, allowing the testing of novel energy storage solutions, converters, and much more. To fully utilize the benefits of multi-PHIL however, its accuracy must first be validated. Since more interfaces are involved, the distortions seen can quickly grow, possibly leading to inaccurate results or unstable experiments. For those reasons, it is necessary to better understand and assess the accuracy of the PHIL interfaces in a multiple-interface power hardware-in-the-loop setting. A multi-approach solution is required to better understand the misrepresentation as it pertains to multiple PHIL interfaces. The first approach is to expand on already known accuracy and error metrics. The chosen approach in our case is a matrix based approach based on the Extended Lawrence Architecture (ELA). The ELA determines the behavior of a linear PHIL system, and serves as the foundation for our assessments. This approach is persuasive, but it often requires detailed models of the entire system. These models are not always available however, which demand a more practical solution. The second approach involves empirical measurements and experimental results. By performing a series of impedance measurements, information that is equally as useful to the accuracy assessment can be obtained. Although not as elegant as the ELA approach, this approach provides a partial solution to the problem without the requirement of detailed models. To ensure that these solutions fit a wide range of practical applications, a general common bus multiple-interface power hardware-in-the-loop system is designed. This system composes of any number of physical and simulated sub-systems connected to a common dc-bus. Each individual physical sub-system is coupled through to the real-time simulation through its personal interface. This allows for the creation of systems that mimic a shipboard power systems or the power grid. In order to facilitate the accuracy analysis of multi-PHIL simulation, a third approach to the matrix approach is suggested. This novel approach creates transfer functions based on the matrix approach. This approach also allows for the combination of different types of interfaces in the same PHIL experiment. This includes the possibility to expands on this idea by modeling dc-dc amplifiers as interfaces. This simple modeling of amplifiers broadens the applications of the generalized case, as it presents a more realistic portrayal of power systems.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Electrical and Computer Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 9, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">Accuracy, PHIL</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Sastry Pamidi, Professor Directing Dissertation; Juan Ordóñez, University Representative; Michael "Mischa" Steurer, Committee Member; Omar Faruque, Committee Member; James Langston, Committee Member; Christian Schegan, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85043176">
+      <mods:topic>Engineering</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Summer_Szymanski_fsu_0071E_16694</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Electrical and Computer Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Investigation of a Type II-C CRISPR-Cas9 on Its Sensitivity to the Epigenetic State of DNA Substrates</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <namePart type="family">Wickline</namePart>
+      <namePart type="given">Ethan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/hli4">
+      <namePart type="family">Li</namePart>
+      <namePart type="given">Hong</namePart>
+      <namePart type="termsOfAddress">(Chemistry and Biochemistry)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing thesis</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mestroupe">
+      <namePart type="family">Stroupe</namePart>
+      <namePart type="given">M. Elizabeth (Margaret Elizabeth)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/sstagg">
+      <namePart type="family">Stagg</namePart>
+      <namePart type="given">Scott</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/yang">
+      <namePart type="family">Yang</namePart>
+      <namePart type="given">Wei</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Chemistry and Biochemistry</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (30 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>CRISPR Cas9 is a bacterial immune system which has been found to be extremely useful for the purposes of genomic editing and DNA detection methods. While it is possible to "program" Cas9 proteins for specific target sites, any site must also contain a match for the Cas9 protein's PAM sequence otherwise the protein will not bind. Preliminary experiments reveal AceCas9, one variant of CRISPR Cas9 isolated from Acidothermus cellulolyticus bacteria with a PAM sequence of 5'-NNNCC-3', is sensitive to the presence of methylation on the fourth-position cytosine in its PAM sequence meaning it will not successfully cleave any target site possessing 5-methylcytosine at this position. DNA methylation is an important epigenetic change which can influence gene expression but current methods of detecting DNA methylation either require harsh reactions involving sodium bisulfite that can degrade sample DNA or methylation-sensitive restriction enzymes which frequently have highly inflexible and non-programmable target sites. This information was used in the creation of a methylation-detection assay which uses AceCas9 protein to "filter" non-methylated DNA by cleaving it, the methylated DNA remaining may then be amplified via PCR, and then analyzed after gel electrophoresis. The detection limits of this methylation assay have been found to consistently detect methylated DNA despite only constituting 1*10⁻⁵% of a given sample. This would allow for the detection of methylation for a single nucleotide to a concentration as low as 1*10⁻⁵% without requiring the harsh reaction conditions involving sodium bisulfite or an inflexible target site required by a methylation-sensitive restriction enzyme.</abstract>
+   <note displayLabel="Submitted Note">A Thesis submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Master of Science.</note>
+   <note displayLabel="Date of Defense">July 1, 2021.</note>
+   <note displayLabel="Keywords">AceCas9, CRISPR, Methylation, Methylation Assay, Methylation-sensitive, PAM</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Hong Li, Professor Directing Thesis; Beth Stroupe, Committee Member; Scott Stagg, Committee Member; Wei Yang, Committee Member.</note>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85014171">
+      <topic>Biochemistry</topic>
+   </subject>
+   <identifier type="IID">2021_Summer_Wickline_fsu_0071N_16736</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Chemical and Biomedical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

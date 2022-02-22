@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Investigation of a Type II-C CRISPR-Cas9 on Its Sensitivity to the Epigenetic State of DNA Substrates</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Wickline</mods:namePart>
+      <mods:namePart type="given">Ethan</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/hli4">
+      <mods:namePart type="family">Li</mods:namePart>
+      <mods:namePart type="given">Hong</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Chemistry and Biochemistry)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mestroupe">
+      <mods:namePart type="family">Stroupe</mods:namePart>
+      <mods:namePart type="given">M. Elizabeth (Margaret Elizabeth)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/sstagg">
+      <mods:namePart type="family">Stagg</mods:namePart>
+      <mods:namePart type="given">Scott</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yang">
+      <mods:namePart type="family">Yang</mods:namePart>
+      <mods:namePart type="given">Wei</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemistry and Biochemistry</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (30 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>CRISPR Cas9 is a bacterial immune system which has been found to be extremely useful for the purposes of genomic editing and DNA detection methods. While it is possible to "program" Cas9 proteins for specific target sites, any site must also contain a match for the Cas9 protein's PAM sequence otherwise the protein will not bind. Preliminary experiments reveal AceCas9, one variant of CRISPR Cas9 isolated from Acidothermus cellulolyticus bacteria with a PAM sequence of 5'-NNNCC-3', is sensitive to the presence of methylation on the fourth-position cytosine in its PAM sequence meaning it will not successfully cleave any target site possessing 5-methylcytosine at this position. DNA methylation is an important epigenetic change which can influence gene expression but current methods of detecting DNA methylation either require harsh reactions involving sodium bisulfite that can degrade sample DNA or methylation-sensitive restriction enzymes which frequently have highly inflexible and non-programmable target sites. This information was used in the creation of a methylation-detection assay which uses AceCas9 protein to "filter" non-methylated DNA by cleaving it, the methylated DNA remaining may then be amplified via PCR, and then analyzed after gel electrophoresis. The detection limits of this methylation assay have been found to consistently detect methylated DNA despite only constituting 1*10⁻⁵% of a given sample. This would allow for the detection of methylation for a single nucleotide to a concentration as low as 1*10⁻⁵% without requiring the harsh reaction conditions involving sodium bisulfite or an inflexible target site required by a methylation-sensitive restriction enzyme.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 1, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">AceCas9, CRISPR, Methylation, Methylation Assay, Methylation-sensitive, PAM</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Hong Li, Professor Directing Thesis; Beth Stroupe, Committee Member; Scott Stagg, Committee Member; Wei Yang, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85014171">
+      <mods:topic>Biochemistry</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Summer_Wickline_fsu_0071N_16736</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Chemical and Biomedical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

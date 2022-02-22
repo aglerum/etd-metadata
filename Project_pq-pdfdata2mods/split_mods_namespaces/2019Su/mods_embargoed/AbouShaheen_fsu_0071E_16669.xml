@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Ion and Electron Transport in Polyelectrolyte Multilayers</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-3258-5341</mods:nameIdentifier>
+      <mods:namePart type="family">Abou Shaheen</mods:namePart>
+      <mods:namePart type="given">Samir</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/nb2002004599">
+      <mods:namePart type="family">Schlenoff</mods:namePart>
+      <mods:namePart type="given">Joseph B.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/lenhert">
+      <mods:namePart type="family">Lenhert</mods:namePart>
+      <mods:namePart type="given">Steven John</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/steinbck">
+      <mods:namePart type="family">Steinbock</mods:namePart>
+      <mods:namePart type="given">Oliver</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kghanson">
+      <mods:namePart type="family">Hanson</mods:namePart>
+      <mods:namePart type="given">Kenneth G.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemistry and Biochemistry</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (177 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Polyelectrolytes are charged polymers, widely spread in nature and industry. The spontaneous association between two oppositely charged polyelectrolytes in solution yields a compact and versatile material called a polyelectrolyte complex. Polycations and polyanions can also form thin films or polyelectrolyte multilayers when they are alternately deposited on a substrate. These interesting macromolecules have been integrated into a long list of applications including fuel cells, electronics and membranes for separation. Information on the interactions and dynamics of species across polyelectrolyte composites is highly desirable to understand the performance of these materials and enhance the aspects of their applications. This dissertation focuses on probing ion, water and electron transport across a polyelectrolyte complex and investigating the interaction between a polyelectrolyte and metal surfaces. The work can be divided into three main parts: In the first part, the response of water and ions in a hydrated polyelectrolyte complex made of poly(diallyldimethylammonium), PDADMA, and poly(styrene sulfonate), PSS, were evaluated as a function of temperature. The glass transition temperature, T[subscript g], at which the material softens was determined using rheology. The behavior of water diffusion coefficient versus temperature was monitored using pulse field gradient NMR. No change in the diffusion response was detected as the material went through Tg. Similar observation was found for the transport of small monovalent ions, such as Na+ and Cl-, which was measured using variable temperature ionic conductivity. In contrast, flux measurements on a rotating disk electrode revealed a transition point for the diffusion versus temperature of triple-charged ions, ferricyanide and ruthenium hexamine. These responses were interpreted to show the cooperative segmental mobility near the glass transition temperature. In the second part, the polyelectrolyte multilayer system made of PDADMA and PSS was also employed to produce pinhole-free ultrathin films and a radiolabeling approach was developed to determine their exact thicknesses. Electrochemical methods were used to assess electron transport from ferrocyanide redox ion to a platinum rotating disk electrode across the polymeric barriers. It was shown that even the thinnest film made of one bilayer (about 1 nm thick) provides significant blocking of electron transfer from ferrocyanide in solution to the electrode and a complete insulating film could be formed from six additional layers (9 nm). Over the 1-9 nm range, a weak current-distance dependence suggested a hopping electron transport mechanism. The classical Butler-Volmer description, which shows the current-voltage dependence, for charge transfer kinetics was modified to produce a consistent model for multi-step hopping transport through the multilayer films. Studies of polyelectrolyte interactions and the transport rate of species in polyelectrolyte complexes are fundamental to understand the often-perplexing behavior of these materials and improve their performance in the wide array of energy and separation applications. In the final part, the pairing strength between a polyelectrolyte and metal surfaces was examined. Fractional precipitation of poly(4-vinylpyridine) was used to obtain narrow molecular weight fractions. The fractions were methylated using iodomethane and characterized using NMR, FTIR and size-exclusion chromatography. One fraction was labeled with 14C radionuclide and the interaction between methylated poly(4-vinylpyridine) and metal oxide powders was monitored as a function of ionic strength using radiocounting. Metal oxides interacted differently and were divided into 3 categories: classical desorbing, peak-less desorbing and non-adsorbing. An interaction scale was set based on the cut-off salt concentration.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 02, 2021.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Joseph B. Schlenoff, Professor Directing Dissertation; Steven Lenhert, University Representative; Oliver Steinbock, Committee Member; Kenneth Hanson, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85022986">
+      <mods:topic>Chemistry</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Summer_AbouShaheen_fsu_0071E_16669</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

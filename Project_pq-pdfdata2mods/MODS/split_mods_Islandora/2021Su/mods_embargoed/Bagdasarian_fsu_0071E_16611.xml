@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Stem Cell Treatments for Ischemic Stroke</title>
+      <subTitle>Evaluating Cellular Dynamics with Diffusion MRI</subTitle>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-5136-4494</nameIdentifier>
+      <namePart type="family">Bagdasarian</namePart>
+      <namePart type="given">Frederick Andrew</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/scgrant">
+      <namePart type="family">Grant</namePart>
+      <namePart type="given">Samuel C.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/thoupt">
+      <namePart type="family">Houpt</namePart>
+      <namePart type="given">Thomas A.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/caholmes">
+      <namePart type="family">Holmes</namePart>
+      <namePart type="given">Christina A. (Christina Andrea)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/jguan">
+      <namePart type="family">Guan</namePart>
+      <namePart type="given">Jingjiao</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Chemical and Biomedical Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (122 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>Roughly 800,000 Americans a year suffer an ischemic stroke, motivating numerous clinical and preclinical research endeavors into therapeutic applications to mitigate degenerative affects. One of the more promising potential therapeutics are human mesenchymal stem cells (hMSC) to curtail the effects of ischemia on healthy brain tissue. Using diffusion MRI (dMRI), the displacement of water molecules in brain tissue can be quantified to describe biophysical phenomena within tissue damaged by ischemic stroke. As such, dMRI has been employed widely in the diagnosis and monitoring of ischemic stroke, but its application to evaluate cell therapies in preclinical models has been limited in scope to standard diffusion models. In this work, I demonstrate the sensitivity of simple dMRI acquisition and analysis techniques in evaluating recovery following hMSC application via different injection sites, and its novelty in characterizing hMSC sourced from different donors. I then utilize the current and advanced computational and geometric modeling of more rigorous diffusion data acquisition schemes and display, for the first time, that the intra-neurite volume fraction and orientation dispersion provide higher sensitivity than diffusion tensor analysis in evaluating hMSC therapy, particularly in white matter. Lastly, I expanded the analysis to evaluate diffusion kurtosis and demonstrate that the dynamics of kurtosis metrics are improved when hMSC are cultured with hypoxic pre-conditioning. These early kurtosis alterations couple with substantially altered and sustained neurite orientational changes in both ischemic and non-ischemic brain tissue following hMSC treatment that was pre-conditioned with hypoxia. As such, higher order diffusional analysis utilizing the trifecta of DTI, NODDI and DKI provides biometrics can be used to assess the efficacy of stem cell therapies in the treatment of ischemic stroke.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemical and Biomedical Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">July 8, 2021.</note>
+   <note displayLabel="Keywords">Diffusion, hMSC, Ischemic Stroke, MRI, Neurodegeneration</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Samuel C. Grant, Professor Directing Dissertation; Thomas Houpt, University Representative; Christina A. Holmes, Committee Member; Jingjiao Guan, Committee Member.</note>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85014237">
+      <topic>Biomedical engineering</topic>
+   </subject>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh91006099">
+      <topic>Neurosciences</topic>
+   </subject>
+   <identifier type="IID">2021_Summer_Bagdasarian_fsu_0071E_16611</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemical and Biomedical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

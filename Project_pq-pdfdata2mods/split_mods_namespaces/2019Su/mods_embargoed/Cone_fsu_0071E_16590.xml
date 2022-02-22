@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Extracellular Vesicles in Disease Pathogenesis and as a Therapeutic Agent</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-1080-9204</mods:nameIdentifier>
+      <mods:namePart type="family">Cone</mods:namePart>
+      <mods:namePart type="given">Allaura Sherman</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2009180254">
+      <mods:namePart type="family">Tang</mods:namePart>
+      <mods:namePart type="given">Hengli</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/fzhu">
+      <mods:namePart type="family">Zhu</mods:namePart>
+      <mods:namePart type="given">Fanxiu</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/agunjan">
+      <mods:namePart type="family">Gunjan</mods:namePart>
+      <mods:namePart type="given">Akash</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/marbeitman">
+      <mods:namePart type="family">Arbeitman</mods:namePart>
+      <mods:namePart type="given">Michelle N. (Michelle Nina)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Medicine</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Biomedical Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (135 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Extracellular vesicles (EVs) are a heterogeneous population of membrane-bound nanoparticles that are essential mediators of cell-to-cell communication. They package diverse cargo that includes proteins, lipids, RNA, and DNA. EVs are secreted by all cell types and are found in all bodily fluids tested. Due to their critical role in intracellular communication, they are often altered in various disease states, such as cancer, viral infection, or neurodegenerative diseases. EVs derived from pathogenic cells during different disease conditions can adjust the microenvironment to make healthy cells more permissive. However, EVs secreted from healthy cells, such as mesenchymal stem cells (MSCs), have been found to package cargo that can be used to heal diseased cells. Chapter one of this thesis looks at packaging of the pathogenic version of amyloid precursor protein (APP) and its metabolites into EVs. We found that APP depends on the Alix-Syntenin-1 pathway to be secreted from cells. Additionally, we found that APP and its metabolite CTFβ can cause cytotoxicity in primary cultured neurons and induce reactive oxygen species (ROS) formation in induced pluripotent stem cells when transmitted through EVs. However, the cytotoxicity conferred by these EVs are decreased from cells expressing a knockdown on Alix and Syntenin-1 since they secrete lower amounts of APP and CTFβ. In chapter two, we continue to look at Alzheimer's disease but using EVs as a therapeutic strategy. We purified EVs from human bone marrow-derived (hBM) MSCs grown in 3D culture and administered them intranasally (IN) in a preclinical mouse model. We found that IN administration of these EVs can cross the blood-brain barrier (BBB). We then treated non-transgenic (NT) or five familial AD mutation (5XFAD) mice for four months with EVs. After treatment, we performed behavioral tests and found that treatment with EVs alleviated cognitive decline in the 5XFAD mice. We then performed immunohistochemistry (IHC) and saw a decrease in plaque production in the hippocampus of EV treated 5XFAD mice compared to the saline treated 5XFAD mice. Finally, since MSC-derived EVs have previously been shown to be immunomodulatory, we looked at glial fibrillary acidic protein (GFAP) localization in the mice. We found altered colocalization of GFAP with the amyloid plaques in the EV-treated mice. These data suggest that treatment with MSC-derived EVs can slow down AD progression. In chapter three, we move to the effect of Rab proteins on the packaging of Epstein-Barr virus (EBV) oncoprotein latent membrane protein 1 (LMP1). Previous research found that LMP1 expression significantly increased the levels of Rab31 secreted into EVs. We then used CRISPR/Cas9 technology to knockout Rab31 in cells and observed its effect on LMP1 packaging. Interestingly, Rab31 knockout perturbs the packaging of LMP1 into EVs, but did not alter LMP1's primary secretion into the exosomal population. We next found that a loss of Rab31 altered LMP1 localization in cells. To determine the cause, we then examined LMP1 interacting protein, CD63. We found a significant decrease of colocalization between CD63 and LMP1 in the Rab31 CRISPR cells. We also found a reduction of CD63 expression in the tetraspanin enriched microdomains (TEMs) of cells that lost Rab31. Additionally, we found that inhibition of lysosomal degradation rescued LMP1 packaging. This study revealed how LMP1 modulates EV pathways to enhance pathogenesis. Overall, these data aim to determine the roles that EVs play in disease progression. Throughout various diseases, EV cargo can be modified to enhance disease progression. However, EVs from healthy cells, such as MSCs, can reverse some of the damage caused during disease progression. This study aims to determine how EV cargo is modified and the different effects that it can have on other cells. Taken together, these data use a variety of techniques and models to study the impacts EVs have in pathogenesis as well as their potential use as therapeutics.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Biomedical Sciences in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 29, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">Alzheimer's disease, Epstein-Barr Virus, Exosomes, Extracellular Vesicles, LMP1</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">David G. Meckes, Jr., Professor Directing Dissertation; Hengli Tang, University Representative; Fanxiu Zhu, Committee Member; Akash Gunjan, Committee Member; Michelle Arbeitman, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85014203">
+      <mods:topic>Biology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85083064">
+      <mods:topic>Medicine</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Summer_Cone_fsu_0071E_16590</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Biomedical Sciences</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

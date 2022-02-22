@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Unified Framework on Defining Depth for Point Process Using Function Smoothing</mods:title>
+      <mods:nonSort>A</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-0135-1542</mods:nameIdentifier>
+      <mods:namePart type="family">Xu</mods:namePart>
+      <mods:namePart type="given">Zishen</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/wwu">
+      <mods:namePart type="family">Wu</mods:namePart>
+      <mods:namePart type="given">Wei</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yz15e">
+      <mods:namePart type="family">Zhou</mods:namePart>
+      <mods:namePart type="given">Yi</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Graduate Research Assistant)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2013073385">
+      <mods:namePart type="family">Huffer</mods:namePart>
+      <mods:namePart type="given">Fred W. (Fred William)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2012035962">
+      <mods:namePart type="family">Wilber</mods:namePart>
+      <mods:namePart type="given">Aaron A. (Aaron Albert)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Statistics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (225 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>In this dissertation, I will present four research projects that I have been working on during my doctoral study at Florida State University. The first three projects focus on statistical modeling and analysis of neuroscience data. The fourth one is on novel statistical methodology development. I will provide a brief summary for each of these projects as follows. The detail studies will be given in the four chapters of this dissertation. Project 1: A Comparison of Neural Decoding Methods and Population Coding Across Thalamo-Cortical Head Direction Cells. Animals can navigate by monitoring an online record of their spatial orientation in an environment and using this information to produce direct trajectories to hidden goals. Head direction (HD) cells, which fire action potentials whenever an animal points its head in a particular direction, are thought to subserve the animal's sense of spatial orientation. HD cells are found prominently in several thalamo-cortical regions including anterior thalamic nuclei (ATN), postsubiculum (PoS), medial entorhinal cortex (MEC), parasubiculum (PaS), and the parietal cortex (PC). While a number of methods in neural decoding have been developed to assess the dynamics of spatial signals within thalamo-cortical regions, studies conducting a quantitative comparison of machine learning and statistical model-based decoding methods on HD cell activity are currently lacking. Here in this project, we compared statistical model-based and machine learning approaches by assessing decoding accuracy and evaluate variables that contribute to population coding across thalamo-cortical HD cells. Project 2: Modeling and Analyzing Neural Signals with Phase Variability using the Fisher-Rao Registration The Dynamic Time Warping (DTW) was recently introduced to analyze neural signals such as EEG and fMRI where phase variability plays an important role in the data. In this study, we propose to adopt a more powerful method, referred to as the Fisher-Rao Registration (FRR), to study the phase variability. We systematically compare the FRR with DTW in the following three aspects. 1) basic framework, 2) mathematical properties, and 3) computational efficiency. We show that the FRR has superior performance in all these aspects. These advantages are well illustrated with simulated examples. We then apply the FRR method to two real experimental recordings -- one fMRI dataset and one EEG dataset. It is found the FRR method properly removes the phase variability in the data with conventional criteria such as phase coherence and phase locking value. Finally, we use the FRR framework to examine neural network in the two datasets and the result demonstrates the effectiveness of the method. Project 3: Removing Nonlinear Misalignment in Neuronal Spike Trains using the Fisher-Rao Registration Framework The temporal precision in neural spike train data is critically important for understanding functional mechanism in the nervous systems. However, the timing variability of spiking activity can be highly nonlinear in practical observations due to behavioral variability or unobserved/unobservable cognitive states. In this study, we propose to adopt a powerful method, referred to as the Fisher-Rao Registration (FRR), to remove such nonlinear phase variability in discrete neuronal spike trains. We will propose a smoothing procedure on the discrete spike train data in order to use the FRR framework. The effectiveness of the FRR method will be illustrated with simulations and real neural spike trains. The comparison between the FRR and other existing methods will also be discussed. Project 4: A Unified Framework on Defining Depth for Point Process using Function Smoothing The notion of statistical depth has been extensively studied in multivariate and functional data over the past few decades. In contrast, the depth on temporal point process is still under-explored. The problem is challenging because a point process has two types of randomness: 1) the number of events in a process, and 2) the distribution of these events. Recent studies proposed depths in a weighted product of two terms, describing the above two types of randomness, respectively. In this paper, we propose to unify these two randomnesses under one framework by a smoothing procedure. Basically, we transform the point process observations into functions using conventional kernel smoothing methods, and then adopt the well-known functional h-depth and its modified, center-based, version to describe the center-outward rank in the original data. To do so, we define a proper metric on the point processes with smoothed functions. We then propose an efficient algorithm to estimated the defined "center". We further explore the mathematical properties of the newly defined depths and study asymptotics. Simulation results show that the proposed depths can properly rank the point process observations. Finally, we demonstrate the new method in a classification task using a real neuronal spike train dataset. </mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">May 27, 2021.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Wei Wu, Professor Directing Dissertation; Yi Zhou, University Representative; Fred Huﬀer, Committee Member; Aaron Wilber, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <mods:topic>Statistics</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Summer_Xu_fsu_0071E_16577</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

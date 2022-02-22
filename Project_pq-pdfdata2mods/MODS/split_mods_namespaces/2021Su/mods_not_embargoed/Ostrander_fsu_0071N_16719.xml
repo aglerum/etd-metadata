@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Interior Design in Behavioral Healthcare Facilities</mods:title>
+      <mods:subTitle>An Exploration of How Interior Design Elements Can Impact Patient Wellbeing</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-0218-9073</mods:nameIdentifier>
+      <mods:namePart type="family">Ostrander</mods:namePart>
+      <mods:namePart type="given">Corrie A.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/swebber">
+      <mods:namePart type="family">Webber</mods:namePart>
+      <mods:namePart type="given">Steven B.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2004105176">
+      <mods:namePart type="family">Pable</mods:namePart>
+      <mods:namePart type="given">Jill</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2017057051">
+      <mods:namePart type="family">Huber</mods:namePart>
+      <mods:namePart type="given">Amy M.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Fine Arts</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Interior Architecture and Design</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (192 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This exploratory study will identify elements of the interior environment of behavioral healthcare facilities that impact patient sense of control from the perspective of their caregivers and healthcare designers and how that impacts patients' well-being. This study will also explore what measures can be taken to modify the built environment and make it more flexible to increase patients' sense of control. The goals driving this study focus on contributing to the body of knowledge and research in the field of behavioral and mental healthcare design, raising awareness of the potential benefits that improved design could bring to state mental health facilities, and introducing a potential solution to improve quality of life for individuals being treated within state funded mental health facilities. Knowledge and treatment practices for mental illness have progressed and evolved throughout history, however, the field of research concerning mental health facility design is relatively new which has created a gap in knowledge about the impacts of behavioral and mental health design. Informed design has immense potential to improve wellbeing, quality of life, and treatment success for patients being treated for severe mental illnesses (Ulrich, 2001). State funded behavioral healthcare facilities are not only short of funding but are often housed in buildings that fall short from what is needed for patients' wellbeing and successful recovery, forcing potentially fragile individuals into spaces that do not support their needs could bring more harm than good. Therapy and medical care have been evolving rapidly while the architecture and interior design of these facilities stay the same where, in some cases, patients are being "handicapped" by the design of mental health facilities (Chrysikou, 2013).</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Interior Architecture and Design in partial fulfillment of the requirements for the degree of Master of Fine Arts.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 29, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">Behavioral Health, Behavioral Healthcare Design, Healthcare Design, Interior Design, Mental Health, Psychiatric Facility Design</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Steven Webber, Professor Directing Thesis; Jill Pable, Committee Member; Amy Huber, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85037197">
+      <mods:topic>Design</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85083615">
+      <mods:topic>Mental health</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Summer_Ostrander_fsu_0071N_16719</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Fine Arts</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Interior Design</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

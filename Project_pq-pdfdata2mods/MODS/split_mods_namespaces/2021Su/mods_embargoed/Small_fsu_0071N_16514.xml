@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Study of the Quality of Laser and Mechanically Slit Edges of REBCO Superconducting Tapes</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-7414-8097</mods:nameIdentifier>
+      <mods:namePart type="family">Small</mods:namePart>
+      <mods:namePart type="given">Michael</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2004090317">
+      <mods:namePart type="family">Larbalestier</mods:namePart>
+      <mods:namePart type="given">D. (David)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2015022073">
+      <mods:namePart type="family">Cooley</mods:namePart>
+      <mods:namePart type="given">L. (Lance)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/fkametani">
+      <mods:namePart type="family">Kametani</mods:namePart>
+      <mods:namePart type="given">Fumitake</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Mechanical Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (53 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>REBCO coated conductors (CC) have been at the forefront of high-temperature superconductivity (HTS) due to their application in ultra-high-field magnets, but such magnets impose significant mechanical, electromagnetic, and thermal stresses on the expensive conductor. An important way of controlling cost is to manufacture the conductors as wide tapes and then to slit them to width as needed for application. Ensuring the slitting process does not introduce unwanted artifacts in the conductor is a necessity for magnet survivability and predictable performance. This thesis addresses the properties of the two primary techniques, laser and mechanical slitting, using cross-section analysis, edge variation measurements, current uniformity measurements by magneto- optical imaging, and light and scanning electron microscopy. Six tapes from two manufacturers were analyzed: two tapes with double laser slit edges and two tapes with one mechanical and one laser slit edge from "Manufacturer A" and two tapes with double laser slit edges from "Manufacturer B". We found considerable differences between the two manufacturers in slitting and tape performance. Manufacturer A laser slitting introduced an underlying roughness along the edge of the tape that increased the edge thickness an average 43% compared to center thickness. Edge height and SEM images confirmed this, showing large exterior copper nodules with heights between 7 μm to 23 μm. Manufacturer A mechanical slitting showed an average 10% increase in edge height with little height variation. YateStar hall probe array uniformity measurements depicted better consistency in the mechanically slit edge as there were fewer notable defects compared to the laser slit edge. MOI images presented minor flux leakage on the laser slit edge of Manufacturer A while the mechanically slit edge showed subsurface cracking and deeper flux penetration overall. Manufacturer B laser slitting showed no large preferential and irregular copper nodules along the edges resulting in an average 15% thickness increase. Edge height and SEM images confirmed the edge height evenness but showed a scalloped transverse deformity along the tape edges. MOI of Manufacturer B laser slit edges showed large defects and an irregular field distribution in the tapes much worse than that of Manufacturer A. Manufacturer B showed superior laser slitting compared to Manufacturer A but had comparable results to the mechanical slitting of Manufacturer A. From our study of tapes from two different tape producers, we conclude that no one method yet appears fully optimized.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Mechanical Engineering in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 30, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">magnet, REBCO, slitting, superconductivity</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">David Larbalestier, Professor Directing Thesis; Lance Cooley, Committee Member; Fumitake Kametani, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85082094">
+      <mods:topic>Materials science</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Summer_Small_fsu_0071N_16514</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Mechanical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

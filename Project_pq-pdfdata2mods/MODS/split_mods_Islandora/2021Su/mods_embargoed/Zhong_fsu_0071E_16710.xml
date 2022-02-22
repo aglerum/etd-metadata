@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Model-Based Framework for High-Throughput Genomic Data Enhancement</title>
+      <nonSort>A</nonSort>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <namePart type="family">Zhong</namePart>
+      <namePart type="given">Dongrui</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/jzhang4">
+      <namePart type="family">Zhang</namePart>
+      <namePart type="given">Jinfeng</namePart>
+      <namePart type="termsOfAddress">(Statistics Professor)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/nb2012004932">
+      <namePart type="family">Bass</namePart>
+      <namePart type="given">Hank W.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/chuang7">
+      <namePart type="family">Huang</namePart>
+      <namePart type="given">Chao</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/qmai">
+      <namePart type="family">Mai</namePart>
+      <namePart type="given">Qing</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Statistics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (94 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>Reusability is part of the FAIR data principle, which aims to make data Findable, Accessible, Interoperable, and Reusable. One of the current efforts to increase the reusability of public genomics data has been to focus on the inclusion of quality metadata associated with the data. When necessary metadata are missing, most researchers will consider the data useless. We developed a framework to predict the missing metadata of gene expression datasets to maximize their reusability. We found that when using predicted data to conduct other analyses, it is not optimal to use all the predicted data. Instead, one should only use the subset of data, which can be predicted accurately. We proposed a new metric called Proportion of Cases Accurately Predicted (PCAP), which is optimized in our specifically-designed machine learning pipeline. The new approach performed better than pipelines using commonly used metrics such as F1-score in terms of maximizing the reusability of data with missing values. We also found that different variables might need to be predicted using different machine learning methods and/or different data processing protocols. Using differential gene expression analysis as an example, we showed that when missing variables are accurately predicted, the corresponding gene expression data can be reliably used in downstream analyses. The performance of conventional machine learning methods relies greatly on the quality of the data. In the field of bioinformatics, researchers often need to work with huge amount of data from different resources, such as Gene Expression Omnibus (GEO) and the Cancer Genome Atlas Program (TCGA). It is possible that gene expression data collected in different studies are somewhat inconsistent, for reasons such as the difference in the experiment design or the platform (different microarray or RNA-seq platforms) used to read the gene expression data. This brings difficulty in cross-study analysis, such as model transferability among studies. Some normalization methods such as quantile normalization and rank normalization are widely used to deal with such inconsistency. However, models trained using normalized data could still suffer from extreme values or large variation of errors in the original data, since conventional normalization methods may not completely overcome these issues. We propose to use the pairwise rank information among the gene expression values (paired predictive variables, or PPV) calculated from the original gene expression values to train machine learning models. Our result shows that PPV gives more statistically robust models, while the interpretability of variables is greatly maintained, and the model performance is equivalent or better than models trained using original gene expression data with conventional normalization methods. The raw gene expression values can be decomposed into four components: the true value, systematic errors, random errors, and unexpected errors (producing outliers when large enough). Normalization methods are used to remove systematic errors, and outlier detection methods can be applied to detect outliers. Few, if at all, methods have been developed to remove random errors. In this study, we developed an efficient method based on probabilistic principal component analysis (PPCA) to remove both random and unexpected errors in gene expression data by borrowing information across genes and samples using an internal prediction strategy. The proposed method, gene-expression-data-enhancement (GEDE), first estimates a covariance matrix for all the genes using an existing dataset with a relatively large number of samples. It then infers enhanced gene expressions for a dataset to be analyzed by predicting gene expression values using expression values of other genes. We showed that the enhanced version of a gene expression profile has higher quality than the original profile using both simulation study and real data analysis. In real data analysis, we showed that enhanced gene expression profiles gave better differential gene expression analysis results than original profiles. We recommend gene expression enhancement as an essential step in gene expression data analysis pipeline.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">July 2, 2021.</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Jinfeng Zhang, Professor Directing Dissertation; Hank Bass, University Representative; Chao Huang, Committee Member; Qing Mai, Committee Member.</note>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <topic>Statistics</topic>
+   </subject>
+   <identifier type="IID">2021_Summer_Zhong_fsu_0071E_16710</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

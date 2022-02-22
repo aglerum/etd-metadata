@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Time-Stepping Methods for Partial Differential Equations and Ocean Models</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-4227-9738</nameIdentifier>
+      <namePart type="family">Bishnu</namePart>
+      <namePart type="given">Siddhartha</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mpetersen">
+      <namePart type="family">Petersen</namePart>
+      <namePart type="given">Mark</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/bquaife">
+      <namePart type="family">Quaife</namePart>
+      <namePart type="given">Bryan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/zmusslimani">
+      <namePart type="family">Musslimani</namePart>
+      <namePart type="given">Ziad H.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2005015361">
+      <namePart type="family">Plewa</namePart>
+      <namePart type="given">Tomasz</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/sshanbhag">
+      <namePart type="family">Shanbhag</namePart>
+      <namePart type="given">Sachin</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (223 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>Physics-based models are often described by partial differential equations (PDEs) involving more than one independent variable, for example, space and time. Solving these PDEs is critical to understanding the behavior of the physical system in many applications such as ocean dynamics. Due to complexity in the initial and boundary conditions, and the terms in the PDE itself, for example, non-linear terms, it may be impossible to extract an analytical solution. Under such circumstances, our only recourse is to employ numerical methods, and obtain a numerical solution of the PDE. The order of accuracy of the numerical method can be measured by how fast the error of the numerical solution, with respect to an exact or manufactured solution, converges to zero with refinement of the discretization parameters. For hyperbolic and parabolic PDEs, studying the time evolution of physical quantities, the error of the numerical solution over one time step can sometimes be approximated by the local truncation error. Given the exact solution at a certain time level, the local truncation error is obtained by taking the difference between the exact and the numerical solutions after one time step, both of which are Taylor expanded about a common center. In Part I of my dissertation, I determine the full expression for the local truncation error of hyperbolic PDEs on a uniform mesh. At a time horizon, the global truncation error, which is one order of the time step less than its local counterpart, assumes the form ΤG=Ο(Δχᵅ)+ΔtΟ(Δχᵅ)+Δt²Ο(Δχᵅ)+...+Δtᵝ^-1Ο(Δχᵅ)+Ο(Δtᵝ)≅Ο(Δχᵅ)+Ο(Δtᵝ) for Δt&lt;&lt;1, where Δχ and Δt denote the cell width and the time step size, and ɑ and β represent the orders of the spatial and temporal discretizations. If one employs a stable numerical scheme and the global solution error is of the same order of accuracy as the global truncation error, one can make the following observations in the asymptotic regime, where the truncation error is dominated by the powers of Δχ and Δt rather than their coefficients. Assuming that the spatial and temporal resolutions reach the asymptotic regime before the machine precision error dominates, (a) the order of convergence of stable numerical solutions of hyperbolic PDEs at constant ratio of Δt to Δχ is governed by the minimum of the orders of the spatial and temporal discretizations, and (b)convergence cannot even be guaranteed under only spatial or temporal refinement. The theory applies to any hyperbolic PDE, be it linear or non-linear, and employing finite difference, finite volume, or finite element discretization in space, and advanced in time with a predictor-corrector, multistep, or a deferred correction method, belonging to the Method of Lines. If the PDE is reduced to an ordinary differential equation (ODE) by specifying the spatial gradients of the dependent variable and the coefficients and the source terms to be zero, then the standard local truncation error of the ODE is recovered. I perform the analysis with generic and specific hyperbolic PDEs using the symbolic algebra package SymPy, and conduct a number of numerical experiments to demonstrate the theoretical findings. In Part II of my dissertation, I discuss and address complications associated with explicit time-stepping methods in ocean modeling. Numerical ocean models admit motions on a wide range of time scales, with the surface gravity waves propagating at a speed of ≅O(100^-1), and the speed of the major current systems and internal gravity waves being two orders of magnitude less. It is impractical to advance the ocean model using the smallest time step dictated by the CFL criterion of the fastest wave. A traditional approach is to split the momentum equations into two parts, a barotropic part for solving the depth independent fast 2D barotropic waves (advanced in time either explicitly using a small time-step or implicitly using a long time-step) and a baroclinic part for solving the much slower 3D baroclinic waves. Before reconciling the barotropic variables with their baroclinic counterparts to arrive at the total 3D states, a time-averaging filter is applied over the instantaneous barotropic solutions to provide the necessary amount of dissipation and minimize aliasing and mode-splitting errors. If a forward-backward time-stepping method is used to advance the barotropic equations, the forward-backward parameter can also be varied to adjust the amount of dissipation. To understand the combined stabilizing effect of various barotropic time-averaging filters and the forward-backward parameter, I develop a non-linear shallow water solver in object-oriented Python and test it against the simulation of a surface gravity wave. My numerical results demonstrate that the optimum amount of dissipation is achieved by combining (a) a large forward-backward parameter (providing more dissipation) with a narrow rectangular filter (providing less dissipation), or (b) a small forward-backward parameter with a wide rectangular filter. Combining a large forward-backward parameter with a wide rectangular filter results in too much dissipation, which damps the entire solution, not just the spurious oscillations, more than necessary. Thereafter I proceed to improve the time-stepping algorithm of the Model for Prediction Across Scales -- Ocean, commonly known as MPAS-O, developed at the Los Alamos National Laboratory. I incorporate a number of barotropic time-averaging filters in MPAS-O, redesign parts of the barotropic and baroclinic components, improve the barotropic-baroclinic splitting, and ensure that the barotropic time-averaged quantities and their fluxes are positioned at the correct locations in time. I create a surface gravity wave test case in MPAS-O solving the primitive equations of a stratified ocean with the incompressible, hydrostatic and Boussinesq approximations, and study the effect of the barotropic time-averaging filters on the numerical solution. The barotropic equations of MPAS-O are advanced with a forward-backward time-stepping method with second-order Runge-Kutta feedback. It involves four parameters distributing the weights among the fluxes at the current time level and after one time step, in the tendency computation of the prognostic variables. I experiment with tuning these parameters to assign more weight to the fluxes after one time step, which contributes to the 'implicit' nature of the solution, provides more dissipation, and minimizes the spurious oscillations to a better extent, without the application of any barotropic time-averaging filter. Finally, I develop an unstructured-mesh ocean model in object-oriented Python, employing TRiSK-based spatial discretization, and numerous time-stepping methods. I use it as the platform to run a verification suite of shallow water test cases that I have designed for the barotropic solver of ocean models, including unstructured ones like MPAS-O. The main purpose of this exercise is to test the numerical implementation of various terms in the prognostic momentum and continuity equations e.g. the Coriolis term, the pressure gradient term, the bottom topography, and the non-linear advection terms, which can be split into the gradient of the kinetic energy and a term consisting of the relative vorticity. The verification test cases include standard geophysical waves like the coastal Kelvin wave, the high-frequency inertia-gravity wave, the low-frequency planetary and topographic Rossby waves, as well as the barotropic tide, and a non-linear manufactured solution. I conduct convergence studies for some of these test cases with simultaneous refinement in space and time, and verify that the convergence rates match the theoretical predictions from Part I of my dissertation. I have included with my dissertation, a supplementary file 'LocalTruncationError\_Output. Txt', which contains the full expression for the local truncation error of specific linear and non-linear hyperbolic PDEs for various choices of spatial and temporal discretizations. All computations for determining the local truncation error were performed using SymPy.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Scientific Computing in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">June 10, 2021.</note>
+   <note displayLabel="Keywords">asymptotic regime, hyperbolic and parabolic PDEs, local truncation error, order of convergence, refinement in space and time, shallow water test cases</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Mark Petersen, Professor Co-Directing Dissertation; Bryan Quaife, Professor Co-Directing Dissertation; Ziad Musslimani, University Representative; Tomasz Plewa, Committee Member; Sachin Shanbhag, Committee Member.</note>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85082139">
+      <topic>Mathematics</topic>
+   </subject>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85093937">
+      <topic>Oceanography</topic>
+   </subject>
+   <identifier type="IID">2021_Summer_Bishnu_fsu_0071E_16592</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Scientific Computing</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

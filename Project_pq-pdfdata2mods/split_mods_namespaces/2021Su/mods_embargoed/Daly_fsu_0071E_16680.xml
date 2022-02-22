@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Sources and Redaction in the Account of the Emperor Julian in Book 3 of Theodoret's Historia Ecclesiastica</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Daly</mods:namePart>
+      <mods:namePart type="given">Sean</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/dlevenson">
+      <mods:namePart type="family">Levenson</mods:namePart>
+      <mods:namePart type="given">David B.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2008040982">
+      <mods:namePart type="family">Slaveva-Griffin</mods:namePart>
+      <mods:namePart type="given">Svetla</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2006073290">
+      <mods:namePart type="family">Kelley</mods:namePart>
+      <mods:namePart type="given">Nicole</mods:namePart>
+      <mods:namePart type="date">1975-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2003060112">
+      <mods:namePart type="family">Goff</mods:namePart>
+      <mods:namePart type="given">Matthew J.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Religion</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (445 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Given the interest in both late antique historiography and the emperor Julian, there is a surprising lack of scholarship concerning the image of Julian presented by Theodoret, the fifth-century bishop of Cyrus, whose Historia ecclesiastica is one of our most important sources of late antique history. This dissertation provides a granular analysis of nineteen episodes dealing with the treatment of the reign of the Emperor Julian in Book 3 of Theodoret's Historia ecclesiastica. These passages, which account for two-thirds of Book 3, discuss the emperor and his policies in the context of three major themes: Julian's war on Christianity (Chapter 4), Julian's interactions with demons and oracles (Chapter 5), and the divine retribution enacted upon Julian and his followers (Chapter 6). Chapter 4, "War on Christianity," includes nine episodes: the desecration of the bones of John the Baptist (3.7.1), the persecution of Mark of Arethusa (3.7.6–10), the confession of Theodorus (3.11.1–3), the martyrdom of Juventinus and Maximinus (3.15.1–9), the confession of Valentinian (3.16.1–5), the gold distribution ceremony (3.17.1–8), the martyrdom of the Dux Artemius (3.18.1–2), the defiance of Publia (3.19.1–6), and the speech of the Beroean magistrate (3.22.1–5). Chapter 5, "Demons and Oracles," includes five episodes: Julian's initiation in Greece (3.3.1–7), the transfer of Babylas and destruction of the temple of Apollo (3.10.1–3.11.5), the prophecies concerning Julian's Persian expedition (3.21.1–6), the visions of the pedagogue and monk (21.23–24), and the discovery of the Antiochene skulls and the Carrhaean haruspicy (3.26–27). Chapter 6, "Divine Retribution," includes four episodes: the punishment of the persecutors of Cyril of Heliopolis (3.7.2–4), the desecrations committed by the Prefect Julian, Felix, and Elpidius (3.12.1–13.4), the attempt to rebuild the Temple of Jerusalem (3.20.1–8), and the death of Julian in Persia (3.25.1–7). The analysis of each episode begins with a detailed discussion of Theodoret's sources for that episode followed by a literary and ideological analysis of how Theodoret uses each of those source in his own account. For the episodes for which Theodoret is the only extant source, some attention is given to his possible sources, but the analysis is focused primarily on how the episode illustrates Theodoret's literary techniques, theological interests, and historiographical methods. Earlier work on Theodoret's sources identified a number of possible sources for various episodes, but did not demonstrate precisely where and how Theodoret employed them. This study, based on a detailed analysis that compares Theodoret's text to all relevant parallels, demonstrates the complex way he uses his source material, often weaving together two or more sources into a single narrative. The results of the source-critical analyses in many cases agree with earlier studies in recognizing Theodoret's use of Rufinus, the so-called anonymous "Arian Historian," Gregory of Nazianzus, John Chrysostom, and Antiochene oral tradition. Some earlier studies have also noted a connection between Theodoret and the Historia ecclesiastica of Sozomen, although scholars differ about how to best explain that connection. The analysis undertaken in this study clearly demonstrates a direct literary connection between Theodoret and Sozomen based on evidence that appears in Book 3, although this analysis has found no decisive evidence from which to establish the priority of one author over the other. Nevertheless, this study provides a great deal of data that could help to answer this question if considered together with data from similar analyses of the remaining books in Theodoret's Historia ecclesiastica. The evidence gathered through this project also supports the common use of the Arian Historian as the simplest way to explain the clear connections between Philostorgius and Theodoret. The careful study of Book 3 also provides substantial evidence that the ninth-century chronicler Theophanes, in addition to using the Arian Historian and the Epitome of Theodorus Anagnostes, may have also used Theodoret's history directly. The redaction-critical analyses undertaken in this study demonstrate how Theodoret dramatizes his source material with specific language and themes that shape Book 3 into a cohesive narrative depicting Julian as a wicked tyrant whose lust for power drives him to embrace false gods and attempt a war on Christianity on their behalf. Nevertheless, Julian is thwarted by the efforts of bold and pious Christians and finally forced to admit the power of Christ as he is overcome by divine retribution.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Religion in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 1, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">Christianity, Church History, Classics, Ecclesiastical History, Historiography, Late Antiquity</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">David B. Levenson, Professor Directing Dissertation; Svetoslava E. Slaveva-Griffin, University Representative; Elecia N. Kelley, Committee Member; Matthew J. Goff, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85112549">
+      <mods:topic>Religion</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85026454">
+      <mods:topic>Civilization, Greco-Roman</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85061212">
+      <mods:topic>History</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Summer_Daly_fsu_0071E_16680</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Religion</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

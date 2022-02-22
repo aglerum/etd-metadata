@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Ecophysiological Responses of Phytoplankton to Environmental Cues - A Laboratory Approach</mods:title>
+      <mods:subTitle>Effects of Growth Light Quality on Phytoplankton and an Assessment of Carbon Utilization in Karenia Brevis</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-1791-0778</mods:nameIdentifier>
+      <mods:namePart type="family">Bercel</mods:namePart>
+      <mods:namePart type="given">Tristyn</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/skranz">
+      <mods:namePart type="family">Kranz</mods:namePart>
+      <mods:namePart type="given">Sven Alexander</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2010187986">
+      <mods:namePart type="family">Wulff</mods:namePart>
+      <mods:namePart type="given">Janie L.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2006015588">
+      <mods:namePart type="family">Knapp</mods:namePart>
+      <mods:namePart type="given">Angela Noel</mods:namePart>
+      <mods:namePart type="date">1976-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2004084871">
+      <mods:namePart type="family">Mason</mods:namePart>
+      <mods:namePart type="given">Olivia Underwood</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mstukel">
+      <mods:namePart type="family">Stukel</mods:namePart>
+      <mods:namePart type="given">Michael R.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Earth, Ocean, and Atmospheric Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (177 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Phytoplankton are primary producers in the marine food web, providing energy and matter for higher trophic levels by fixing CO2 and inorganic nutrients into biomass. This production of particulate organic matter by marine phytoplankton, its consumption by higher trophic levels, and the eventual export out of the euphotic zone drive the biological carbon pump. Marine phytoplankton thus simultaneously exert influence over and are influenced by global biogeochemical cycles. The effects of changing environmental conditions, such as light, temperature, and CO2 concentration, play a key role in shaping phytoplankton community structure and function. Responses to environmental change vary between phytoplankton taxa, and even within species, making predictions of such responses difficult. Therefore, we need to understand how and why phytoplankton photosynthesis responds to environmental cues. Investigation of the ecophysiological responses of phytoplankton is often done in laboratory studies where environmental conditions are mimicked in growth incubators. Recently, LED technology has advanced, leading many incubator manufacturers and research labs to switch to these more efficient, yet spectrally restricted, light sources. The effects of commercially available light systems on phytoplankton ecophysiology have not yet been characterized but could affect our interpretation of lab-based projections on responses to environmental changes. We investigated these effects with cultures of Prochlorococcus marinus, Synechococcus sp., and Thalassiosira weissflogii grown under three different commercially available LED lights along with a fluorescent growth light. We found that growth rate was unaffected across species, however, each species responded with adjustments to cellular chlorophyll a, carbon, and nitrogen quotas, photoacclimation state, and primary production. These cellular acclimation responses should be considered when designing laboratory-based incubation experiments to mimic the natural environment. Next, I investigated carbon acquisition in the red tide forming marine dinoflagellate, Karenia brevis. K. brevis is commonly found in the Gulf of Mexico and produces brevetoxin, a potent neurotoxin which can cause mortality in marine animals as well as respiratory illness in humans, making it an ecologically and economically relevant species. Previous work done on K. brevis had shown sensitivity to changes in CO2 in terms of growth and toxin production. I investigated the underlying mechanisms, including photosynthesis, inorganic carbon acquisition, and photophysiology, to understand this sensitivity. K. brevis (CCFWC-126) did not show a significant response in growth, cellular composition of carbon and nitrogen, nor in photosynthetic rates between pCO2 concentrations of 150, 400 or 780 µatm. However, a strong response in its acquisition of inorganic carbon was found. Half saturation values for CO2 increased, inorganic carbon preference switched from HCO3- to CO2, and external carbonic anhydrase activity was downregulated when comparing low and high pCO2. I thus demonstrated the presence of an efficient and regulated carbon concentrating mechanism (CCM) in K. brevis. This study is the first explaining how this socioeconomically important species can efficiently supply inorganic carbon for photosynthesis which can potentially prolong bloom situations. Like many other marine dinoflagellates, previous work has demonstrated the use of mixotrophic metabolic strategies in K. brevis, including the uptake of dissolved organic matter as well as grazing on picocyanobacteria. While it has been demonstrated that K. brevis is capable of multiple nutritional strategies, the balance of autotrophy and heterotrophy during mixotrophic growth has not been examined. We investigated the uptake of several DOM sources in K. brevis CC-FWC126 using isotopic labeling techniques and quantification of photosynthetic activity. Additionally, we examined metatranscriptomes for multiple K. brevis isolates to survey the extent of mixotrophic ability. While we did not obtain conclusive proof of DOM utilization by K. brevis in our lab, this does not preclude its ability to utilize DOM under conditions not presently measured. Changes seen in cellular chl a and photophysiological adjustments do suggest that DOM affects energy generation in K. brevis, but the present study was unable to determine the cause of these changes in relation to changes in nutritional mode. We also cannot rule out the role of bacterial regeneration in the culture bottles despite the cleaning of cultures, which could mediate the DOM breakdown process, influencing what is available to K. brevis uptake. Metatranscriptome analysis for 4 K. brevis clones revealed the presence and expression of genes for DOM transporters and degradation enzymes as well as genes involved in phagotrophy in all transcriptomes, suggesting mixotrophy is a common trait among K. brevis clones. I then discuss the ecophysiology implications for mixotrophy in K. brevis and how this might affect bloom life cycles.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Earth, Ocean, and Atmospheric Sciences in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 9, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">Biogeochemical cycles, Carbon Acquisition, Ecophysiology, Mixotrophy, Photosynthesis, Phytoplankton</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Sven Kranz, Professor Directing Dissertation; Janie Wulff, University Representative; Angela Knapp, Committee Member; Olivia Mason, Committee Member; Michael Stukel, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85081138">
+      <mods:topic>Marine biology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85014146">
+      <mods:topic>Biogeochemistry</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85035240">
+      <mods:topic>Cytology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Summer_Bercel_fsu_0071E_16692</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

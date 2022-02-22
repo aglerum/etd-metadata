@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Langevin Algorithms in Data Science</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <namePart type="family">Wang</namePart>
+      <namePart type="given">Xiaoyu</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/lzhu2">
+      <namePart type="family">Zhu</namePart>
+      <namePart type="given">Lingjiong</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/zhe">
+      <namePart type="family">He</namePart>
+      <namePart type="given">Zhe</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mio">
+      <namePart type="family">Mio</namePart>
+      <namePart type="given">Washington</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/gokten">
+      <namePart type="family">Ökten</namePart>
+      <namePart type="given">Giray</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (153 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>The Langevin algorithms are a collection of powerful optimization algorithms and Markov Chain Monte Carlo sampling algorithms that provide computational foundations for high dimensional data in machine learning. We first review variants of Langevin diffusions and the corresponding algorithms based on different discretization schemes for overdamped and non-reversible Langevin algorithms including underdamped Langevin algorithms. Meanwhile, we revisit Stochastic Gradient Descent (SGD) on saddle points and illustrate the necessity of Stochastic Gradient Langevin Dynamics (SGLD) driven by Brownian motion for global convergence. Then, we propose a more general Langevin-like dynamics and algorithms driven by Lvy motion. As a sampling toolkit, we survey Langevin sampling algorithms for both logconcave and non-logconcave target distributions. As an optimization method, we review the non-asymptotic analysis on two very commonly used Langevin algorithms, Stochastic Gradient Langevin Dynamics (SGLD) and Stochastic Gradient Hamiltonian Monte Carlo (SGHMC), and we then present the acceleration for global convergence by breaking reversibility of the Langevin diffusions. As a follow up work, we do a non-asymptotic analysis of the global convergence of the nonreversible Langevin algorithm for non-convex optimization with explicit constants, our result leads to non-asymptotic guarantees for both empirical and population risk minimization problems. Moreover, it suggests that by choosing an appropriate anti-symmetric matrix, the algorithm can outperform SGLD. As an application, we briefly introduce a Langevin algorithm to model gradient noise when using SGD optimizes the loss function in training neural networks with Gaussian noise injections. Then, we review the explicit effect of Gaussian noise data and additionally show the heavy tails and skewness of gradient noise are brought by the implicit effect which was marginalized out when studying the explicit effect. Finally, we quantitatively study the implicit bias induced by Gaussian noise injections for training neural networks by analyzing the weak error bound in terms of the heavy tails index and skewness parameter using carefully constructed auxiliary stochastic differential equations and designing an approximation scheme.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Mathematics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">July 6, 2021.</note>
+   <note displayLabel="Keywords">Langevin Algorithms, Markov Chain Monte Carlo Sampling, Stochastic Optimization</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Lingjiong Zhu, Professor Directing Dissertation; Zhe He, University Representative; Washington Mio, Committee Member; Giray Ökten, Committee Member.</note>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85082139">
+      <topic>Mathematics</topic>
+   </subject>
+   <identifier type="IID">2021_Summer_Wang_fsu_0071E_16706</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Mathematics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

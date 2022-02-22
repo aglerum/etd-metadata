@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Estimating Return Periods of Extreme Tropical Cyclone Winds Accounting for Effective Surface Roughness at High Resolution</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <namePart type="family">Whitfield</namePart>
+      <namePart type="given">Robert Walker</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="viaf"
+         authorityURI="http://viaf.org/viaf/"
+         valueURI="http://viaf.org/viaf/105342888">
+      <namePart type="family">Bourassa</namePart>
+      <namePart type="given">Mark Allan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing thesis</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/scocke">
+      <namePart type="family">Cocke</namePart>
+      <namePart type="given">Steven D.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/rhart">
+      <namePart type="family">Hart</namePart>
+      <namePart type="given">Robert E. (Robert Edward)</namePart>
+      <namePart type="date">1972-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/wu">
+      <namePart type="family">Wu</namePart>
+      <namePart type="given">Zhaohua</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Earth, Ocean, and Atmospheric Science</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (63 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>In the United States, tropical cyclones (TCs) were the leading cause of natural disaster-related fatalities and Consumer Price Index (CPI)-adjusted costs averaged over the years 1980-2017. Accurately assessing TC-induced extreme winds is crucial to proper risk management related to mitigation of these losses. Several studies attempt to calculate return periods (TRP), or the statistically estimated average time between events of a given magnitude, for extreme TC winds at point locations or along coastlines. This study seeks to further previous work by addressing concerns related to spatial and temporal resolutions, in addition to the consideration of TC winds as a function of surface roughness and fetch over land. We begin by analyzing HURDAT BestTrack Extended (1988-2017) data (EBTRK) at 0.25-degree (~27 km) resolution, assigning a maximum observed windspeed value per grid cell per year, to which several extreme value distributions (EVDs) are fit to the probability distribution function (PDF). The Generalized Pareto Distribution (GPD) is found to have the best fit to the EBTRK data, where fitting parameters are calculated based on these observations using the method of moments. We find the EBTRK dataset, while more continuous and higher resolution than previous assessments, lacks sufficient observations for proper fit to an EVD and it appears to not fully consider the effect of surface roughness on TC wind speed, likely because of great limitations on spatial information in the data set. To address these issues, we use 59,000 years of modeled TC winds produced by the Florida Public Loss Hurricane Model (FPLHM), which considers the effects of effective surface roughness on upstream winds on a fine scale (~90m), output at locations of interest roughly every kilometer. The study domain is narrowed down to the Tampa/Clearwater area of Florida for its various terrain and coastline features, from which six locations of varying terrain/coastline proximity are chosen. We reimplement the EVD fitting procedure to the FPLHM data, again finding the GPD to be the best fit, and extrapolating out TRP values for the most extreme TC winds at each location. Empirically calculated TRP values are also plotted for the entire domain to gain a sense of those associated patterns. We find TRP and subsequent expected winds can vary dramatically depending on effective surface roughness over distances at least as short as ~1 km (the finest resolution of the saved modeled data), while distance inland independent of TC weakening plays a lesser of a role after the first few kilometers. The results indicate a need for more accurate future TRP analyses that are both at a fine scale and incorporate effective surface roughness, which also points to the weakness in using historical data in areas with recent changes in land use.</abstract>
+   <note displayLabel="Submitted Note">A Thesis submitted to the Department of Earth, Ocean and Atmospheric Science in partial fulfillment of the requirements for the degree of Master of Science.</note>
+   <note displayLabel="Date of Defense">March 18, 2021.</note>
+   <note displayLabel="Keywords">extreme wind, return period, risk analysis, risk assessment, surface roughness, tropical cyclone</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Mark A. Bourassa, Professor Directing Thesis; Steven D. Cocke, Committee Member; Robert E. Hart, Committee Member; Zhaohua Wu, Committee Member.</note>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85084334">
+      <topic>Meteorology</topic>
+   </subject>
+   <identifier type="IID">2021_Summer_Whitfield_fsu_0071N_16585</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2022-01-31T17:03:20.741646-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>
