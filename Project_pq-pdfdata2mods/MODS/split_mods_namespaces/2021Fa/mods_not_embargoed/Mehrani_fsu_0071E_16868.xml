@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>From Isolation to Crowd</mods:title>
+      <mods:subTitle>Molecular Structures and in Situ Molecular Pathways Elucidated by Cryo-EM</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-5239-955X</mods:nameIdentifier>
+      <mods:namePart type="family">Mehrani</mods:namePart>
+      <mods:namePart type="given">Atousa</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/sstagg">
+      <mods:namePart type="family">Stagg</mods:namePart>
+      <mods:namePart type="given">Scott</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/fajer">
+      <mods:namePart type="family">Fajer</mods:namePart>
+      <mods:namePart type="given">Piotr G.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mestroupe">
+      <mods:namePart type="family">Stroupe</mods:namePart>
+      <mods:namePart type="given">M. Elizabeth (Margaret Elizabeth)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/hli4">
+      <mods:namePart type="family">Li</mods:namePart>
+      <mods:namePart type="given">Hong</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Chemistry and Biochemistry)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mroper">
+      <mods:namePart type="family">Roper</mods:namePart>
+      <mods:namePart type="given">Michael Gabriel</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemistry and Biochemistry</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (205 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Cryo-electron microscopy (cryo-EM) has become a prevailing technique at the interface of structural and cell biology. The current resolution revolution in cryo-EM has led to a surge of structures determination at near-atomic resolution. The advancements have allowed to visualize the small-molecule ligands bound to the macromolecules and provide novel insights into the molecular mechanisms of complex biochemical processes. Chapter 1 reviews the cryo-EM single-particle analysis along with the recent advances of this technique. In Chapter 2, we have used single-particle cryo-EM to determine the Escherichia coli 70S ribosome structure bound to small molecule inhibitor KKL-2098. KKL-2098 has shown to have antibiotic properties, and it inhibits the trans-translation activity of bacteria seen in many pathogenic strains, including antibiotic-resistant Neisseria gonorrhoeae. The structure is resolved at a global resolution of 3.1 Å, and the map reveals the positioning of the L-27 N-terminus in an unprecedented ribosomal site (Movie1: Conformational Change of bL27). The map and the model of the bacterial ribosome bound to the KKL-2098 allow a deeper analysis of the antibiotic-resistant activity of ribosomes and ultimately improve drug design. One limitation of cryo-EM is its restriction to visualize relatively thin samples. This limitation leaves the molecular organization of eukaryotes largely unexplored. Cryo-focused ion beam (cryo-FIB) milling is a cell thinning method implemented in cell biology in less than a decade. Cryo-FIB significantly expanded the range of samples that can be analyzed by cryo-EM. The technique is at the early stages of development and is prone to several limitations. Chapter 3 reviews cryo-electron tomography and the application of cryo-FIB milling. Chapter 4 discusses how cryo-EM has advanced the field of the structural biology of vesicle trafficking complexes and membrane remodelling. This chapter highlights the remaining questions and future applications of cryo-FIB milling on the horizon to determine the structure of vesicle trafficking macromolecules in situ. Finally, in Chapter 5, we have implemented a cryo-FIB milling approach to visualize the in situ organization of the Trk-fused gene (TFG). TFG is involved in the process of COPII-mediated vesicle transport. Besides, it has been reported that TFG has a vital role in glucose homeostasis, and it controls insulin secretion in β-cell in vivo by multiple mechanisms. Despite challenges associated with the set-up of cryo-FIB milling on site, we have successfully established a workflow of milling 200-nm thin lamella and demonstrated that these lamellae are applicable to provide insight into various cellular pathways. Our tomograms are rich in showing the featureful structure of early secretory pathways and components of vesicle trafficking, including vesicles coats (COPI, COPII), endoplasmic reticulum exit sites, ER bound ribosomes, Lysosomes (Movie 2: Tomogram Revealing the Cellular Landscape of RPE Cell Line) and Golgi stacks. In addition, we observe phase-separated regions near the ER-exit site, which is consistent with the earlier studies demonstrating the meshwork structure of TFG. We have further observations, including the hypertrophy of mitochondria and more extensive membrane recruitment when TFG is overexpressed compared to the wild-type strain. This can explain the additional functional impact of TFG in regulating cell metabolism.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 9, 2021.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Scott M. Stagg, Professor Directing Dissertation; Piotr Fajer, University Representative; M. Elizabeth Stroupe, Committee Member; Hong Li, Committee Member; Michael G. Roper, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85022986">
+      <mods:topic>Chemistry</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Fall_Mehrani_fsu_0071E_16868</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-05-23T16:09:53.352975-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

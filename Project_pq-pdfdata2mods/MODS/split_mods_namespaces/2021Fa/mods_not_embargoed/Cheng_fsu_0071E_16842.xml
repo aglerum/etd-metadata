@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Modeling Virus Infection and Pathogenesis Using Stem Cell Derived Systems</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-3127-0102</mods:nameIdentifier>
+      <mods:namePart type="family">Cheng</mods:namePart>
+      <mods:namePart type="given">Yichen</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2009180254">
+      <mods:namePart type="family">Tang</mods:namePart>
+      <mods:namePart type="given">Hengli</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yren3">
+      <mods:namePart type="family">Ren</mods:namePart>
+      <mods:namePart type="given">Yi</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Biomedical Sciences Professor)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/dmeckes">
+      <mods:namePart type="family">Meckes</mods:namePart>
+      <mods:namePart type="given">David G.</mods:namePart>
+      <mods:namePart type="termsOfAddress">Jr.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/fzhu">
+      <mods:namePart type="family">Zhu</mods:namePart>
+      <mods:namePart type="given">Fanxiu</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="viaf"
+              authorityURI="http://viaf.org/viaf/"
+              valueURI="http://viaf.org/viaf/171975698">
+      <mods:namePart type="family">Dennis</mods:namePart>
+      <mods:namePart type="given">Jonathan Hancock</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Biological Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (127 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Zika virus (ZIKV) is a re-emerging mosquito-borne flavivirus that has been linked to severe neurological disorders such as microcephaly in newborns as well as Guillain-Barré syndrome in adults. It is closely related to other flaviviruses such as Dengue virus (DENV), West Nile virus and Yellow Fever virus with high similarities in structure and genomic organization. However, the tissue tropism after systematic infection and the clinical outcomes varies significantly between each species. Among its family members, ZIKV is distinct regarding its ability to infiltrate multiple immune-privileged sites, especially the brain, as well as its neurotropic nature to cause neurological defects in the central nervous system (CNS). However, the detailed molecular mechanism(s) by which it gains access to the brain and impairs development and function are not yet fully elucidated. To first understand how ZIKV access the brain, which is typically protected by blood-brain barrier (BBB), we utilized induced human brain microvascular endothelial cells (iBMECs) derived from pluripotent stem cells (PSCs) to study virus-BBB interactions. These iBMECs exhibited functional and physiological BBB properties and faithfully recapitulated the in vivo neuroinvasiveness of both alpha- and flavi- viruses. We further developed a BBB model consisting of cocultured iBMECs and astrocytes in transwell setups. This model exhibited high trans-endothelial electrical resistance (TEER) value and selectively blocked non-neurotropic flaviviruses from crossing the barrier. Gene profiling identified that iBMECs constitutively express an interferon-stimulated gene, IFITM1, which contributes to the selective restriction of non-neurotropic flaviviruses. We further investigated the interactions between ZIKV and other physiological barriers including blood-testis barrier (BTB) and blood-retinal barrier (BRB). Barrier cells from BTB and BRB also intrinsically expressed IFITM proteins that contribute to their viral resistance. We discovered that the membrane localization of IFITM1 as well as the structure of DENV prM-E region both contribute to the selective restriction of DENV. Our application of this renewable human iPSC-based model for studying virus-BBB interactions revealed dual mechanism for human physiological barriers to restrict viral infection and highlights the ability of ZIKV to specifically bypass this restriction as a mechanism for it to gain access to these immune-privileged sites. We next focused on understanding ZIKV pathogenesis in brain after breaching the BBB. Astrocytes are the major cell population in the brain and one of the first cell types to be targeted by virus infection. While extensive studies have examined the role of ZIKV infection in human neural progenitor cells, the role of astrocytes has yet to be fully examined. Here, we utilized iPSC-derived astrocytes and neurons to study ZIKV infection in CNS. Both stem cell-derived and primary astrocytes were highly permissive to ZIKV infection and support production of infectious ZIKV virions. Increased caspase-3 activity and decreased ATPase content were observed in ZIKV-infected astrocytes, suggesting ZIKV infection significantly induced cell death in astrocytes. Global transcriptome analysis revealed that ZIKV triggered antiviral response as well as cytokines/chemokines production in infected astrocytes. Specifically, we identified two important cytokines involved in synaptic maintenance and neurogenesis, IL-6 and CXCL10, in supernatants of ZIKV-infected astrocytes. Treating the iPSC-derived neurons with conditioned medium from ZIKV-infected astrocytes drastically decreased the synaptic density of mature neurons, and this reduction was rescued by supplementary treatment of anti-IL6 antibody. These discoveries revealed the non-cell autonomous effect of ZIKV-infected astrocytes on neuronal survival and synaptogenesis that can be a contributive mechanism for ZIKV pathogenesis in CNS. Collectively, by using iPSC-derived iBMECs, astrocytes and neurons, we were able to effectively model virus infection in these physiologically relevant cell types. We identified two mechanisms, applied either by the host cells or the viruses, that donate to ZIKV pathogenesis. Our study highlights ZIKV's ability to bypass the cell-autonomous antiviral immunity conferred by the physiological blood-tissue barriers and disrupt neuronal synaptic formation in a non-cell autonomous manner conferred by infected astrocytes.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Biological Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 18, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">Blood brain barrier, Blood tissue barrier, Neurotropic virus, Virus-host interaction, Zika virus</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Hengli Tang, Professor Directing Dissertation; Yi Ren, University Representative; David Meckes, Committee Member; Fanxiu Zhu, Committee Member; Jonathan Dennis, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85014203">
+      <mods:topic>Biology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85035240">
+      <mods:topic>Cytology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85143799">
+      <mods:topic>Virology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Fall_Cheng_fsu_0071E_16842</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Biological Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-05-23T16:09:53.352975-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

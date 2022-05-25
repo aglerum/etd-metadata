@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Efficient Indexing Methods for Query Processing on Large Graphs</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-9266-6701</nameIdentifier>
+      <namePart type="family">Liang</namePart>
+      <namePart type="given">Yongjiang</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/zhao">
+      <namePart type="family">Zhao</namePart>
+      <namePart type="given">Peixiang</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/jzhang4">
+      <namePart type="family">Zhang</namePart>
+      <namePart type="given">Jinfeng</namePart>
+      <namePart type="termsOfAddress">(Statistics Professor)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/piyush">
+      <namePart type="family">Kumar</namePart>
+      <namePart type="given">Piyush</namePart>
+      <namePart type="termsOfAddress">(Computer Science Professor)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/liux">
+      <namePart type="family">Liu</namePart>
+      <namePart type="given">Xiuwen</namePart>
+      <namePart type="date">1966-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Computer Science</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (112 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >As the standard formalism and powerful abstraction of networked data, graphs have been used to model and interpret structured information from protein interaction and program dependence, to business coordination and Internet topology. The proliferation of graphs has sparked a growing interest in enabling efficient accessmethods and flexible, structure-aware querying capabilities on large graphs. In order to account for noisy and distorted information arising unavoidably in real-world graphs, and to virtually any graph management tasks, it is essential and highly desirable to enable locating user-specified graph patterns on large graphs. In this thesis, we worked on subgraph query and similarity search problems on large graphs. In our first project, we worked on subgraph query problem. We consider subgraph querying with the availability of query workload information, W = {w₁,...,wₙ}, where wᵢ ϵ W is a previously issued query with all its subgraph-isomorphic embeddings identified and cached beforehand. Given a new query q, our goal is to exploit W for subgraph query processing and optimization of q in g. We introduce a new, workload-aware subgraph querying framework, WaSQ (Workload-aware Subgraph Querying), built upon key insights that query workload can be effectively leveraged for subgraph query rewriting, search plan refinement, partial results reusing, and false-positive embedding filtering toward expediting the whole subgraph querying process. In our second project, we worked on the single-query based similarity search problem. Formally, given a graph database {G} = {g₁, g₂,..., gₙ} and a query graph q, we aim to search the graph gᵢ ϵ {G} such that the graph edit distance between gᵢ and q, GED(gᵢ, q), is within a user-specified GED threshold, τ. We propose a parameterized, partition-based GED lower bound that can be instantiated into a series of tight lower bounds towards synergistically pruning false-positive graphs from {G} before costly GED computation is performed. We design an efficient, selectivity-aware algorithm to partition graphs of {G} into highly selective subgraphs. They are further incorporated in a cost-effective, multi-layered indexing structure, ML-index (Multi-Layered Index), for GED lower bound crosschecking and false-positive graph filtering with theoretical performance guarantees. In our third project, we consider the multi-query optimization problem, where a set of graph similarity queries, modeled by the well-known graph edit distance (GED) constraint, are posed against a graph database. We examine a new approach to enhancing collective pruning and querying capabilities for graph similarity search in a multi-query scenario. In light of the key observation that relates varying-size frequent and rare subgraph patterns to (mis)matching partitions, we select in a principled way salient features to enable selectivity-aware, feature-based graph partitioning, leading to enhanced filtering capabilities for multi-query optimization. Furthermore, we propose multi-query grouping and ordering techniques to further speedup multi-query processing.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Computer Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">November 2, 2021.</note>
+   <note  displayLabel="Keywords">Indexing, Query Processing, Similarity Search, Subgraph matching</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Peixiang Zhao, Professor Directing Dissertation; Jinfeng Zhang, University Representative; Piyush Kumar, Committee Member; Xiuwen Liu, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh89003285">
+      <topic>Computer science</topic>
+   </subject>
+   <identifier  type="IID">2021_Fall_Liang_fsu_0071E_16814</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Computer Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2022-05-23T16:09:53.352975-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

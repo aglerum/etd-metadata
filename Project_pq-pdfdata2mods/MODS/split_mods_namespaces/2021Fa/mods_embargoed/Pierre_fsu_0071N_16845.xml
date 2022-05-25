@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Effects of Resveratrol and MitoQ on Gene Expression and Endothelial Function in a Mouse Model of Erectile Dysfunction</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-9992-657X</mods:nameIdentifier>
+      <mods:namePart type="family">Pierre</mods:namePart>
+      <mods:namePart type="given">Clifford J.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jlaflavor">
+      <mods:namePart type="family">La Favor</mods:namePart>
+      <mods:namePart type="given">Justin</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/bsgordon">
+      <mods:namePart type="family">Gordon</mods:namePart>
+      <mods:namePart type="given">Bradley S.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/clee">
+      <mods:namePart type="family">Lee</mods:namePart>
+      <mods:namePart type="given">Choogon</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Health and Human Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Nutrition and Integrative Physiology</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (56 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The aim of this study was to explore the effect of antioxidant-like drugs, Resveratrol and MitoQ, on erectile function and gene expression in a castration model of erectile dysfunction (ED) and to see if these changes were mediated via nuclear factor E2-related factor 2 (Nrf2). ED is one of the most common sexual dysfunctions in men and is associated with hypogonadism, obesity, and diabetes mellitus. These conditions exhibit oxidative stress-induced endothelial dysfunction. C57BL/6 mice were separated into four group: sham, castrate-only, cast + resveratrol, and cast + MitoQ. DMT myograph system was used to assess erectile function and RT-PCR was used to assess relative gene expression. Upon castration, erectile function significantly declined. Castrate-only had impaired acetylcholine-, sodium nitroprusside-, and nonadrenergic noncholinergic-mediated relaxation when compared to sham. Also, castrate-only had a significantly higher contractile response to neurovascular stimulation and PE. Next, Nrf2 targeted genes: Hmox1, Gclc, Nqo1, and antioxidant genes were significantly lower when compared to sham. Resveratrol and MitoQ treatment partially improved antioxidant genes. There were significantly higher levels of SOD1, Gstm1, and CAT when compared to castrated-only groups. These improvements did not translate to improvements in erectile function. In summary, our results show that castration does lead to erectile dysfunction by increasing oxidative stress-induced endothelial dysfunction. Specifically targeting oxidative stress through Nrf2 induction did not mitigate the physiological changes seen with castration.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Nutrition and Integrative Physiology in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">October 28, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">Castration, Erectile Dysfunction, MitoQ, Nrf2, Oxidative Stress , Resveratrol</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Justin La Favor, Professor Directing Thesis; Bradley Gordon, Committee Member; Chogoon Lee, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85083022">
+      <mods:topic>Medical sciences</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Fall_Pierre_fsu_0071N_16845</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Nutrition, Food, and Exercise Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-05-23T16:09:53.352975-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

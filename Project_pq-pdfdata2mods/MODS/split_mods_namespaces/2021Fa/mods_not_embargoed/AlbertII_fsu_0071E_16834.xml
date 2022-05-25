@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Variable Weight View</mods:title>
+      <mods:subTitle>An Alternative to Peer-Oriented Accounts in the Epistemology of Disagreement</mods:subTitle>
+      <mods:nonSort>The</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-7493-4322</mods:nameIdentifier>
+      <mods:namePart type="family">Albert</mods:namePart>
+      <mods:namePart type="given">Philip Michael</mods:namePart>
+      <mods:namePart type="termsOfAddress">II</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ehinchman">
+      <mods:namePart type="family">Hinchman</mods:namePart>
+      <mods:namePart type="given">Edward</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2002071189">
+      <mods:namePart type="family">Misra</mods:namePart>
+      <mods:namePart type="given">Vasubandhu</mods:namePart>
+      <mods:namePart type="date">1970-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2004094285">
+      <mods:namePart type="family">Bishop</mods:namePart>
+      <mods:namePart type="given">Michael A.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2010199173">
+      <mods:namePart type="family">Justus</mods:namePart>
+      <mods:namePart type="given">James</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n78086451">
+      <mods:namePart type="family">Ruse</mods:namePart>
+      <mods:namePart type="given">Michael</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Philosophy</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (143 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The epistemology of disagreement is primarily concerned with determining the rational response to disagreement. Of particular interest in the literature is the question of peer disagreement: how should you revise your beliefs when faced with the disagreement of an epistemic peer (i.e., someone who is just well-equipped as you are to evaluate the topic of disagreement)? The majority of the disagreement literature is directed toward the question of peer disagreement, and a range of different views have been proposed. Some views maintain that the rational response is to withhold judgment when faced with peer disagreement, while other views maintain that it can be rational to remain steadfast in your initial belief, and still other views hold that each of these responses can be reasonable under the right circumstances. In what follows, however, I will argue that the literature's emphasis on peer disagreement is misguided, because it leads to unnecessary confusion, without offering any additional insight about how to rationally resolve disagreements. After a brief introduction in Chapter 1, I go on in Chapter 2 to argue that, although the concept of epistemic peerhood is useful for identifying epistemically interesting disagreements for study, when it comes to determining the rational response to those disagreements, peerhood becomes more of a hindrance than a help. As an alternative to standard peer-centric views of disagreement, I propose a 'sliding-scale' approach to the epistemic evaluation of interlocutors, a view I refer to as the Variable Weight View of disagreement (the VWV). After proposing the VWV in Chapter 2, I expand upon it in Chapter 3, responding to several potential objections, as well as considering how the VWV might be expanded upon in the future. I pay particular attention to the social dimension of disagreement, and the potential role that collective or community-level epistemic norms might play with respect to disagreement – a topic which I suggest deserves more attention than it presently receives in the literature. In Chapter 4, I consider what I take to be a particularly clear example of how peer-centric views of disagreement can go wrong. I consider the Equal Weight View as defended by Elga (2007), and I argue that his view ultimately fails because it relies for its success on a particularly problematic definition of peerhood. In Chapter 5, I conclude by comparing the VWV to the standard peer-oriented views of disagreement in the literature. I argue that, in each case, the most plausible versions of those views would benefit from abandoning their strict focus on peer disagreement, in favor of adopting a sliding-scale approach to epistemic evaluation, such as that proposed by the VWV.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Philosophy in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 5, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">Disagreement, Epistemic peerhood, Social epistemology</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Edward Hinchman, Professor Directing Dissertation; Vasubandhu Misra, University Representative; Michael Bishop, Committee Member; James Justus, Committee Member; Michael Ruse, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85100849">
+      <mods:topic>Philosophy</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85072732">
+      <mods:topic>Knowledge, Theory of</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85118582">
+      <mods:topic>Science</mods:topic>
+      <mods:topic>Philosophy</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Fall_AlbertII_fsu_0071E_16834</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Philosophy</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-05-23T16:09:53.352975-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

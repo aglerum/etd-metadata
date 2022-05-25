@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Mid-Lithospheric Discontinuity</mods:title>
+      <mods:subTitle>Assessing the Role of Amphiboles in Metasomatized Cratonic Mantle</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-9613-7217</mods:nameIdentifier>
+      <mods:namePart type="family">Peng</mods:namePart>
+      <mods:namePart type="given">Ye</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mmookherjee">
+      <mods:namePart type="family">Mookherjee</mods:namePart>
+      <mods:namePart type="given">Mainak</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/tsiegrist">
+      <mods:namePart type="family">Siegrist</mods:namePart>
+      <mods:namePart type="given">Theo</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mhumayun">
+      <mods:namePart type="family">Humayun</mods:namePart>
+      <mods:namePart type="given">Munir</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yw16f">
+      <mods:namePart type="family">Wang</mods:namePart>
+      <mods:namePart type="given">Yang</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Graduate Assistant in Teaching)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Earth, Ocean, and Atmospheric Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (195 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>In recent years, high-resolution seismological studies have documented anomalously low shear wave velocity in the middle of the lithosphere, referred to as mid-lithospheric discontinuity (MLD). In contrast to the low seismic velocity, MLD does not show any anomalous electrical conductivity based on available magnetotelluric (MT) observations. This is a perplexing observation since low shear wave velocities are usually associated with partial melts. This plausible inference of partial melts contradicts the observed stability and longevity of cratons. A partially molten layer is rheologically weak and might lead to the erosion of the cratonic root by the convecting mantle over geological timescales. Instead, mantle metasomatism might provide a plausible and alternate explanation for such a low shear wave velocity layer in the middle of the lithosphere. The metasomatized mantle is likely to stabilize secondary mineral phases, such as amphiboles. To evaluate whether mantle metasomatism or the presence of amphiboles can explain the geophysical observations of MLD, we need good constraints on the thermoelasticity and electrical conductivity of amphiboles at conditions relevant to MLD depths. However, pertinent data on the thermoelasticity and transport properties of amphiboles and how they vary as a function of pressure, temperature, and chemistry are currently lacking.To bridge this gap, in my Ph.D. dissertation work, I provided better constraints on the thermoelasticity of amphiboles using first principles simulation. To benchmark the simulation-based data, I calculated fundamental thermodynamics such as heat capacity and compared it with the heat capacity derived from the vibrational spectroscopic data using a Raman spectrometer. The excellent agreement between the theoretically predicted and experimentally derived thermodynamic data validated the simulation methods used in my Ph.D. dissertation. Next, I predicted the thermoelasticity of end-member amphibole tremolite and compared my predicted data with experimental results available at ambient conditions. Again, the agreement between simulations and ambient experimental data was excellent, rendering further confidence in predictions based on first principles simulations. I then explored the thermoelasticity of pargasite amphibole relevant for MLD. In addition, I complied and updated the thermoelastic database of other hydrous minerals that are likely to be stable at MLD, such as chlorite and phlogopite. Based on the modal abundances of mineral assemblages from cratonic xenoliths and experimental petrology, I predicted the aggregate shear wave velocity of the metasomatized cratonic mantle. Our updated thermoelastic database on hydrous phases showed that the hydrous minerals can only explain a fraction of the observed velocity reduction at MLD depths. We found that explaining the 100% of velocity reduction would require an unrealistic amount of hydrous minerals in the metasomatized cratonic mantle. I supplemented my thermoelasticity study with an in-depth examination of the electrical conductivity of an amphibole-bearing rock at MLD conditions. The results from high-pressure and temperature experimental studies showed that the electrical conductivity of amphibole is relatively high compared to volumetrically dominant mantle minerals such as olivine and pyroxene. Our results indicated that the electrical conductivity of amphiboles is quite sensitive to the alkali content. The pargasitic amphibole end-member likely to be stable in the metasomatized mantle tends to have a high alkali content. Thus, based on my results, I anticipated a high electrical conductivity for the alkali-rich amphiboles. However, high-electrical conductivity in MLD regions is not observed, and thus only a small fraction of alkali-bearing amphiboles can be allowed to explain the observed electrical conductivity profiles observed at MLD. Thus, our results indicated that the presence of amphiboles cannot simultaneously explain the seismological and MT observations at MLD. Hence, mantle metasomatism is unlikely to be the sole mechanism to explain MLD. Additional mechanisms need to be explored in addition to mantle metasomatism. These additional mechanisms may include seismic anisotropy and rheological changes, i.e., elastically accommodated grain boundary sliding, at MLD depths.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Earth, Ocean and Atmospheric Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 12, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">amphibole, elasticity, electrical conductivity, high pressure high temperature, mid-lithospheric discontinuity, Raman spectroscopy</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Mainak Mookherjee, Professor Directing Dissertation; Theo Siegrist, University Representative; Munir Humayun, Committee Member; Yang Wang, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85054185">
+      <mods:topic>Geophysics</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85085589">
+      <mods:topic>Mineralogy</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85054037">
+      <mods:topic>Geology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Fall_Peng_fsu_0071E_16886</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-05-23T16:09:53.352975-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

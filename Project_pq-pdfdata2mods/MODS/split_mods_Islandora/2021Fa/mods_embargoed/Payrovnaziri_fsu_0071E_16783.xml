@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Explainable Artificial Intelligence for Predictive Modeling of Electronic Health Records in Patients with Cardiovascular Diseases</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-4712-9648</nameIdentifier>
+      <namePart type="family">Payrovnaziri</namePart>
+      <namePart type="given">Seyedeh Neelufar</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/zhe">
+      <namePart type="family">He</namePart>
+      <namePart type="given">Zhe</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/liux">
+      <namePart type="family">Liu</namePart>
+      <namePart type="given">Xiuwen</namePart>
+      <namePart type="date">1966-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2016060506">
+      <namePart type="family">Rankin</namePart>
+      <namePart type="given">Yolanda</namePart>
+      <namePart type="date">1970-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/griccardi">
+      <namePart type="family">Riccardi</namePart>
+      <namePart type="given">Gregory A.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Communication and Information</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>School of Information</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (126 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Predictive modeling can help researchers tackle challenges such as detection, prevention, and treatment for diseases with high mortality rates such as cardiovascular diseases. These diseases involve multiple risk factors that make traditional risk score systems insufficient for an accurate and effective outcome prediction especially in the context of analyzing large multimodal heterogeneous data. A significant increase in computational power has enabled researchers to investigate the benefits of applying artificial intelligence to predictive modeling for medicine and healthcare. Nevertheless, in medical practice, predictions made by a complex artificial intelligence-based model have to be validated by a human expert. Thus, the necessity of explainable artificial intelligence in medicine is increasing. This dissertation accomplishes four research objectives. First, a systematic scoping review of explainable artificial intelligence models based on real-world electronic health records data is produced. The necessity of explainable artificial intelligence for medicine requires such a review of the state-of-the-art research in the field. The main goal is to provide insights into the current research trend by categorizing machine learning methods, explainable artificial intelligence methods, and machine learning prediction tasks. Also, reproducibility and interpretability evaluation of the reviewed papers are discussed. Challenges and opportunities are presented from the perspective of medical professionals and potential gaps and issues in the field are discussed. The second objective entails enhancing the performance of predictive models. In the case of either intrinsic explainable artificial intelligence or post-hoc methods, the underlying predictive model should be accurate. Long-term and short-term mortality risks in patients with cardiovascular diseases are modeled using machine learning and deep learning methods. These models are built based on multimodal electronic health records data. Structured data (fixed and longitudinal) and unstructured data in the form of discharge summary notes are used. The predictive performance of models based on machine learning and deep learning methods on various data and architectures are compared. It is shown that incorporating a richer set of features enhances the predictive performance of deep models. The third objective is to investigate the impact of imputation techniques for handling missing values in electronic health records data on the prediction performance and interpretation results of the predictive models. Missingness is recognized as a major data quality issue of electronic health records and its impact on the interpretations of predictive models warrants more investigation. The performance of imputation methods on missing values as well as the impact of imputation methods on 1) the performance of predictive models and 2) the interpretations of predictive models are examined. It is observed that the imputation methods for handling missing values impact the performance and interpretation results of the predictive models. The fourth objective is focused on the interpretability enhancement of the predictive model based on longitudinal data. Few studies have investigated the application of Shapley additive explanations, a state-of-the-art explainable artificial intelligence method, on longitudinal medical data. Longitudinal laboratory test measurements and vital signs data is modeled using recurrent neural networks. Shapley additive explanation is applied to the model. Global and local interpretations of the model are presented. Also, a new representation is proposed to enhance the interpretation results of the explainable artificial intelligence method.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the School of Information in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">September 21, 2021.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Zhe He, Professor Directing Dissertation; Xiuwen Liu, University Representative; Yolanda Rankin, Committee Member; Gregory Riccardi, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85008180">
+      <topic>Artificial intelligence</topic>
+   </subject>
+   <identifier  type="IID">2021_Fall_Payrovnaziri_fsu_0071E_16783</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Information Studies</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2022-05-23T16:09:53.352975-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

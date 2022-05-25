@@ -2,7 +2,12 @@
 <xsl:stylesheet version="2.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:marc="http://www.loc.gov/MARC21/slim"
     xmlns:mads="http://www.loc.gov/mads/v2" xmlns:fsul="http://www.lib.fsu.edu"
-    xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" exclude-result-prefixes="fsul xs xsl xd">
+    xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" exclude-result-prefixes="fsul xs xsl xd"
+    xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:oasis="http://www.niso.org/standards/z39-96/ns/oasis-exchange/table">
     <xd:doc scope="stylesheet">
         <xd:desc>
             <xd:p><xd:b>Last updated: </xd:b>November 16, 2021</xd:p>
@@ -18,21 +23,22 @@
     <xsl:strip-space elements="*" xml:space="preserve"/>
 
     <xsl:include href="modules/caps.xsl"/>
-    <xsl:include href="modules/titleMARC.xsl"/>
+    <xsl:include href="modules/titleMARC_draft.xsl"/>
     <xsl:include href="modules/namesPQ2MARC_wURI.xsl"/>
     <xsl:include href="modules/subjects-proquestMARC.xsl"/>
 
 
     <!-- **Global variables** -->
     <!-- Batch Variable -->
-    <xsl:variable name="batch" select="'2020_Summer_Fall_2021_Spring'"/>
+    <xsl:variable name="batch" select="'2021_Summer'"/>
 
     <!-- These paths change with each semester-->
     <xsl:variable name="pdfdata"
-        select="document('source_pdfdata/source_pdfdata_2020Su_Fa_2021Sp_w_URL.xml')/records/record"/>
+        select="document('source_pdfdata/source_pdfdata_2021Su_uris.xml')/records/record"/>
     <xsl:variable name="committee"
-        select="document('tables/ETD-NAF_mads_20211113.xml')/mads:madsCollection/mads:mads/mads:authority"/>
-    <xsl:variable name="authors" select="document('tables/author_2020Su_Fa_2021Sp_qualifiers.xml')/authors/name"/>
+        select="document('tables/ETD-NAF_mads_20220120.xml')/mads:madsCollection/mads:mads/mads:authority"/>
+    <xsl:variable name="authors" 
+        select="document('tables/authors_2021Su.xml')/authors/name"/>
 
     <!-- These paths refer to data tables -->
     <xsl:variable name="PQ-FSU-dept"
@@ -56,9 +62,9 @@
                     <xsl:value-of select="@embargo_code"/>
                 </xsl:variable>
 
-                <xsl:variable name="orcid">
+                <!--<xsl:variable name="orcid">
                     <xsl:value-of select="DISS_authorship/DISS_author/DISS_orcid"/>
-                </xsl:variable>
+                </xsl:variable>-->
 
                 <!-- <xsl:variable name="department" select="DISS_description/DISS_institution/DISS_inst_contact"/>-->
 
@@ -169,9 +175,9 @@
                     <xsl:call-template name="author_name">
                         <xsl:with-param name="binary" select="$binary"/>
                         <xsl:with-param name="authors" select="$authors"/>
-                        <xsl:with-param name="orcid" select="$orcid"/>
                     </xsl:call-template>
-
+                   
+                    
                     <!--245 field: Title and responsibility statement-->
                     <!--Calls parse+title template to set correct indicator, split subtitle into $b and add responsibility to $c.-->
 
@@ -188,10 +194,67 @@
                         </xsl:for-each>
                     </xsl:variable>
 
-                    <xsl:call-template name="parse_title">
-                        <xsl:with-param name="title" select="$title"/>
-                        <xsl:with-param name="responsibility" select="$responsibility"/>
-                    </xsl:call-template>
+                    <xsl:variable name="quote">
+                        <xsl:text>"</xsl:text>
+                    </xsl:variable>
+
+                    <xsl:variable name="space">
+                        <xsl:text> </xsl:text>
+                    </xsl:variable>
+
+                    <xsl:variable name="field245_ind2">
+                        <xsl:choose>
+                            <xsl:when test="starts-with($title, 'A ')">
+                                <xsl:value-of select="2"/>
+                            </xsl:when>
+                            <xsl:when test="starts-with($title, 'An ')">
+                                <xsl:value-of select="3"/>
+                            </xsl:when>
+                            <xsl:when test="starts-with($title, 'The ')">
+                                <xsl:value-of select="4"/>
+                            </xsl:when>
+                            <xsl:when test="starts-with($title, $quote)">
+                                <xsl:choose>
+                                    <xsl:when test="starts-with($title, concat($quote, 'A '))">
+                                        <xsl:value-of select="3"/>
+                                    </xsl:when>
+                                    <xsl:when test="starts-with($title, concat($quote, 'An '))">
+                                        <xsl:value-of select="4"/>
+                                    </xsl:when>
+                                    <xsl:when test="starts-with($title, concat($quote, 'The '))">
+                                        <xsl:value-of select="5"/>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="1"/>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="0"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:variable>
+
+                    <marc:datafield tag="245" ind1="1" ind2="{$field245_ind2}">
+                        <xsl:choose>
+                            <xsl:when test="contains($title, ':')">
+                                <marc:subfield code="a">
+                                    <xsl:value-of select="substring-before($title, ':')"/> :</marc:subfield>
+                                <marc:subfield code="b">
+                                    <xsl:value-of select="substring-after($title, ': ')"/>
+                                </marc:subfield>
+                            </xsl:when>
+                            <xsl:when test="not(contains($title, ':'))">
+                                <marc:subfield code="a">
+                                    <xsl:value-of select="$title"/>
+                                </marc:subfield>
+                            </xsl:when>
+                        </xsl:choose>
+                        <marc:subfield code="c">
+                            <xsl:value-of select="$responsibility"/>
+                        </marc:subfield>
+                    </marc:datafield>
+
 
                     <!-->264 field: Publication statement-->
                     <marc:datafield tag="264" ind1=" " ind2="1">
@@ -307,20 +370,21 @@
                                 select="normalize-space(concat('Date of Defense: ', $defense))"/>
                         </marc:subfield>
                     </marc:datafield>
-                    
+
                     <!-- Keywords -->
                     <xsl:variable name="keywords">
-                        <xsl:value-of select="normalize-space(DISS_description/DISS_categorization/DISS_keyword)"/>
+                        <xsl:value-of
+                            select="normalize-space(DISS_description/DISS_categorization/DISS_keyword)"
+                        />
                     </xsl:variable>
                     <xsl:if test="DISS_description/DISS_categorization/DISS_keyword ne ''">
                         <marc:datafield tag="500" ind1=" " ind2=" ">
                             <marc:subfield code="a">
-                                <xsl:value-of
-                                    select="concat('Keywords: ',$keywords)"/>
+                                <xsl:value-of select="concat('Keywords: ', $keywords)"/>
                             </marc:subfield>
                         </marc:datafield>
                     </xsl:if>
-                   
+
 
 
                     <!--502 field: Dissertation note-->
@@ -343,17 +407,21 @@
                                 <xsl:variable name="para" select="normalize-space(DISS_para)"
                                     as="xs:string"/>
                                 <xsl:variable name="abstract">
-                                    <xsl:value-of select="
+                                    <xsl:value-of
+                                        select="
                                             if (count(DISS_para) > 1) then
                                                 normalize-space(string-join((DISS_para), ' '))
                                             else
-                                                $para"/>
+                                                $para"
+                                    />
                                 </xsl:variable>
-                                <xsl:value-of select="
+                                <xsl:value-of
+                                    select="
                                         if (starts-with(upper-case($abstract), 'ABSTRACT ')) then
                                             substring-after($abstract, 'ABSTRACT ')
                                         else
-                                            $abstract"/>
+                                            $abstract"
+                                />
                             </marc:subfield>
                         </marc:datafield>
                     </xsl:for-each>
@@ -381,9 +449,9 @@
 
                     <!--650 field: Library of Congress subject heading-->
                     <xsl:call-template name="subjects_proquest">
-                        <xsl:with-param name="DISS_cat_code"
+                        <!--<xsl:with-param name="DISS_cat_code"
                             select="DISS_description/DISS_categorization/DISS_category/DISS_cat_code"
-                        />
+                        />-->
                     </xsl:call-template>
 
                     <!--655 field: Genre/form index term-->

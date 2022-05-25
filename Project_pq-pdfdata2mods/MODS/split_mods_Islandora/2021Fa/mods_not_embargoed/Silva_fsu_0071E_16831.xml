@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Ground-State Diagrams and Multicriticality in Three-State Ising and Lattice-Gas Models</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-9766-6746</nameIdentifier>
+      <namePart type="family">Silva</namePart>
+      <namePart type="given">Daniel</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n87113671">
+      <namePart type="family">Rikvold</namePart>
+      <namePart type="given">Per Arne</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2012037971">
+      <namePart type="family">Piekarewicz</namePart>
+      <namePart type="given">Jorge</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2005015361">
+      <namePart type="family">Plewa</namePart>
+      <namePart type="given">Tomasz</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/jwmurphy">
+      <namePart type="family">Murphy</namePart>
+      <namePart type="given">Jeremiah Wayne</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2006101904">
+      <namePart type="family">Crede</namePart>
+      <namePart type="given">Volker</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (73 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >The main topic of this dissertation is phase transitions and their unique dynamical behavior. Among the various manifestations of phase transitions, spatial ordering of magnetic moments (spins) as in a ferromagnet is of special interest. Lessons learned in spin systems are also enormously useful in the study of more complicated systems with discrete states, which may display universal behavior near the phase transition. When the "spin" states are mapped onto the presence of certain kinds of particles, these models are known as "lattice-gas models." For example, "nuclear pasta" shapes, assumed to exist in the crust of neutron stars, can be modeled as a spin system with the up-spin population corresponding to neutrons and the down- spin population to protons interacting via attractive short-range nuclear interactions and repulsive long-range Coulomb forces. Other examples include the adsorption of molecules onto crystal surfaces or even models of voter opinions. The specific models studied here, are the S = 1/2 (two-state) and S = 1 (three-state) Ising models. A short introduction to the former and its lattice-gas equivalent is given in Ch. 1 In Ch. 2 we introduce the general S = 1 Ising model with spin states {+1,0,-1} or equivalent lattice-gas states {A,0,B}. This model has five parameters: two fields (H,D) in spin language and three interaction constants (J,K,L).The complete catalog of fifteen topologically different ground-state diagrams (zero-temperature phase diagrams), which show the regions of stability of the different ground states in the full parameter space of the model in two dimensions (2D), is obtained and discussed in both lattice-gas and Ising-spin language. [D. Silva and P. A. Rikvold, Phys. Chem. Chem. Phys., 2019, 21, 6216-6223]. In Ch. 3 we study the Blume-Capel model (S = 1 Ising model with K = L = 0) at both zero and positive temperatures. The antiferromagnetic (J &lt; 0) Blume-Capel model possesses surfaces of second-order phase transitions between ordered AFM phases and a disordered phase at high temperature, and one of first-order transitions separating the ordered phase from a uniform phase of mostly 0 at large D. These surfaces join smoothly along a line of tricritical points. In 3D this line bifurcates into a line of critical end points and a surface of weak first-order transitions [J. D. Kimel and Y. L. Wang, 1991, J. Appl. Phys., 69, 6176-6178]. Analogous bifurcation behavior is not observed in 2D [J. D. Kimel, P. A. Rikvold and Y. L. Wang, 1992, Phys. Rev. B, 18, 7237-7243]. We consider the bifurcation region for 3D in detail by standard Monte Carlo simulations of lattices up 32^3 sites. Phase transitions were identified using finite-size scaling of order-parameter histograms, susceptibilities, and fourth-order cumulants. We identify the two phases separated by the first-order surface as two AFM-ordered phases, one with low vacancy density at temperatures below the transition, and one with higher vacancy density above the transition. The density changes abruptly across the transition.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Physics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">October 27, 2021.</note>
+   <note  displayLabel="Keywords">Binder Cumulant, Blume-Capel Model, Critical-End Point, Ising, Static-Structure Factor, Tricritical</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Per Arne Rikvold, Professor Co-Directing Dissertation; Jorge Piekarewicz, Professor Co-Directing Dissertation; Tomasz Plewa, University Representative; Jeremiah Murphy, Committee Member; Volker Crede, Committee Member.</note>
+   <identifier  type="IID">2021_Fall_Silva_fsu_0071E_16831</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Physics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2022-05-23T16:09:53.352975-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Multi-Proxy Investigation of Marine Redox Conditions in the Late Silurian Oceans during the Lau Extinction Event</mods:title>
+      <mods:subTitle>A Peri-Gondwanan Perspective</mods:subTitle>
+      <mods:nonSort>A</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-8577-6788</mods:nameIdentifier>
+      <mods:namePart type="family">Allman</mods:namePart>
+      <mods:namePart type="given">Lindsi Jane</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/sayoung2">
+      <mods:namePart type="family">Young</mods:namePart>
+      <mods:namePart type="given">Seth A.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jdowens">
+      <mods:namePart type="family">Owens</mods:namePart>
+      <mods:namePart type="given">Jeremy D.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yw16f">
+      <mods:namePart type="family">Wang</mods:namePart>
+      <mods:namePart type="given">Yang</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Graduate Assistant in Teaching)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Earth, Ocean, and Atmospheric Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (57 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The late Silurian was a turbulent era, with widespread environmental, biotic, and oceanographic variability. Major climatic and palaeoceanographic oscillations are often associated with faunal reorganizations and extinction events, and the late Silurian was no exception. The Lau/Kozlowskii extinction (LKE) event, associated with the Lau positive carbon isotope excursion (CIE, ~425 Ma), is recognized as a major marine extinction event in Earth's history. The Lau CIE has been recognized in Sweden, Ukraine, Czech Republic, Latvia, Estonia, Australia, and North America with peak carbonate carbon isotope excursion values of +8 to +12‰ in certain localities. The Lau CIE has been previously hypothesized to be the result of increases in organic carbon burial with increased preservation due to an expansion of reducing marine conditions. While previous studies have shown evidence for a global expansion of reducing conditions surrounding the LKE, this previous work has focused on low latitude areas whereas this study focuses on a mid-latitude dataset from a peri-Gondwanan terrane, Perunica. Here I present a multi-proxy geochemical dataset from shale interbeds of the Kosov Quarry section (Czech Republic). Local redox proxies, including pyrite sulfur isotopes (34Spy), Fe speciation, and trace metal concentrations, suggest that marine redox conditions were consistently reducing through the late Silurian (Ludfordian) in this part of peri-Gondwana. Additionally, I have also utilized a novel global redox proxy, thallium isotopes (ε205Tl), to provide a critical constraint on the increase in bottom water anoxia in the global oceans during the Ludfordian Stage with locally highly reducing conditions recording accurate ε205Tl values. ε205Tl show multiple global excursions beginning with a sharp positive trend before the LKE before returning to original levels. ε205Tl values trend positive again starting just before the Lau CIE and begin trending negative after the CIE but do not return to pre-excursion levels within the section. This data highlights two global deoxygenation and reoxygenation events. Geochemical box modeling was used in this thesis to constrain fluxes needed to recreate carbonate carbon and carbonate-associated sulfate sulfur isotopic trends observed in datasets globally. This study lends further evidence for the expansion of marine reducing conditions playing a pivotal role as a kill mechanism for the LKE event and provides new insights on the extent of global ocean anoxia during the late Silurian.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Earth, Ocean, and Atmospheric Science in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 18, 2021.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Seth A. Young, Professor Directing Thesis; Jeremy D. Owens, Committee Member; Yang Wang, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85054037">
+      <mods:topic>Geology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85097057">
+      <mods:topic>Paleoclimatology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Fall_Allman_fsu_0071N_16910</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-05-23T16:09:53.352975-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

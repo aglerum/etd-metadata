@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Cytotoxic Effects of Microplastics on Human Cells</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-9433-7453</mods:nameIdentifier>
+      <mods:namePart type="family">Goodman</mods:namePart>
+      <mods:namePart type="given">Kerestin E.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/qsang">
+      <mods:namePart type="family">Sang</mods:namePart>
+      <mods:namePart type="given">Qing-Xiang</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/lenhert">
+      <mods:namePart type="family">Lenhert</mods:namePart>
+      <mods:namePart type="given">Steven John</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yang">
+      <mods:namePart type="family">Yang</mods:namePart>
+      <mods:namePart type="given">Wei</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2007113222">
+      <mods:namePart type="family">Zhu</mods:namePart>
+      <mods:namePart type="given">Lei</mods:namePart>
+      <mods:namePart type="date">1978-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemistry and Biochemistry</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (118 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Since their production in the early 1950s, plastics have become a big part of everyday life for people around the world. Plastics are found in nearly every sector of society from homes to businesses to the medical field and various industries. Unfortunately, with the ever-increasing rate of plastic production, there is also an increase in the amount of plastic pollution. These plastics over time begin to break down and degrade into even smaller plastics, called microplastics. Microplastics have been detected in every part of the environment: in the air, in soil, and multiple bodies of water. Furthermore, microplastics have been found in everyday items such as honey, sea salt, water bottles, seafood, and many other human consumables. Their ubiquity in the environment and human food chain has caused great concern for human health. However, not much is known about how these tiny plastics affect humans. Therefore this work focuses on the impacts that microplastics have on humans on the cellular level. In this work, we looked at two of the major routes of exposure to humans which are inhalation and ingestion, and used cell lines as models to study the effects of microplastics. We chose 1 and 10 micron polystyrene spheres because this type and size of microplastics are one of the most common microplastic pollutants. Three human cell lines were chosen to serve as a cellular model to conduct these studies. A549 human carcinoma alveolar lung cells were chosen as the lung cell model, Hep G2 hepatocellular liver cells were chosen as the liver cell model and HEK 293 human embryonic kidney cells were chosen as the kidney cell model. In this work, it was observed that microplastics did cause a significant reduction in cell proliferation in the lung, liver, and kidney cell lines. These findings were very interesting and proved that microplastics have a similar proliferation effect on very different cell lines. This study also revealed metabolic differences between the cell lines tested. Although the A549 lung cells showed a slight decline in metabolic activity over time, the HEK 293 kidney cells showed a greater decline in metabolic activity after 24h, while the Hep G2 liver cells showed an initial decline at 24h, but then showed very little change after this time point. Additionally, morphological changes were observed in all cell lines. The A549 lung cells exposed to microplastics showed filopodia and microspikes extending from the cellular membrane at 72h exposure. The Hep G2 liver cells exposed to microplastics, showed a complete declustering of cells while the HEK 293 kidney exposed cells at 72h remained in clusters, but a significant amount of blebbing was observed. These morphological changes serve as a visual indicator that these cells are not behaving in the same manner as their unexposed counterparts. Using phase contrast microscopy, the 1micron polystyrene microplastics were observed to be taken up, at time points of 24h-72h and it was observed in certain cells that particles uptaken centered around the nucleus in each cell line. Confocal fluorescent microscopy was used to confirm uptake of particles at 24h for the A549 lung cells and 72h for the Hep G2 liver and HEK 293 kidney cells. For the HEK 293 kidney and Hep G2 liver cells, the percentage of cells that uptook these particles at 24h, 48h, and 72h was analyzed using flow cytometry. The HEK 293 kidney cells had a higher percentage of cells uptaking the particles at the higher concentration of 100µg/ml at all time points. For the lower concentration tested, 5µg/ml the HEK 293 kidney cells had a higher percentage of cells taking up the particles at 24h, a lower percentage of cells taking up the particles at 48h, and about the same amount of cells taking up the particles at 72h when compared to the Hep G2 liver cells. Reactive oxygen species (ROS) studies were done using the Hep G2 and HEK 293 kidney cell lines. 1micron PS-MPs produced the most significant ROS response with the 5µg/ml concentration in Hep G2 liver cells across all time points while the 50µg/ml concentration produced the most significant ROS response at the majority of the time points. EdU studies were performed at 24h in Hep G2 liver cells and HEK 293 kidney cells. Both Hep G2 and HEK 293 Edu studies revealed that 1micron PS-MP exposed cells did have a lower percentage of cells synthesizing DNA as compared to their unexposed counterparts, which correlates with our proliferative studies that show unexposed cells have a higher proliferative rate than exposed cells. Cell invasion studies were performed in Hep G2 and HEK 293 kidney cells. Results from the 72h invasion studies revealed that Hep G2 liver cells are more invasive with the exposure of 1micron PS-MPs as compared to unexposed cells. However, results for the HEK 293 cells are inconclusive due to all cells (both exposed and unexposed) migrating to the bottom chamber at 72h. Endocytotic studies at 24h in both the Hep G2 liver and HEK 293 kidney cells did show a red fluorescence signal, suggesting that particles had been uptaken in the cells. However, with the images shown it is unclear whether particles were uptaken in the endosomes and whether the fluorescent signal is from the particles being localized in the endosomes. Further analysis is needed. These studies reveal that microplastics do have an effect on human cell lines and cause cell proliferative, cell stress, metabolic, and morphological changes in human lung, liver and kidney cells exposed to polystyrene microplastics.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 16, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">Cell Proliferation, Human Cells, Microplastics</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Qing-Xiang Amy Sang, Professor Directing Dissertation; Steven Lenhert, University Representative; Wei Yang, Committee Member; Lei Zhu, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85014171">
+      <mods:topic>Biochemistry</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Fall_Goodman_fsu_0071E_16817</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-05-23T16:09:53.352975-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

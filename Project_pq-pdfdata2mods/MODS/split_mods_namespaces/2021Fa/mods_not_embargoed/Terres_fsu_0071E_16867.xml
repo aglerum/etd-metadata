@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Making Space for Black Modern Dance</mods:title>
+      <mods:subTitle>The Music and Dance of Alvin Ailey's Revelations, the River, and Mary Lou's Mass</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-5793-8409</mods:nameIdentifier>
+      <mods:namePart type="family">Terres</mods:namePart>
+      <mods:namePart type="given">Dana R.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2003072097">
+      <mods:namePart type="family">Von Glahn</mods:namePart>
+      <mods:namePart type="given">Denise</mods:namePart>
+      <mods:namePart type="date">1950-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/aaustin">
+      <mods:namePart type="family">Austin</mods:namePart>
+      <mods:namePart type="given">Anjali</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n88679431">
+      <mods:namePart type="family">Brewer</mods:namePart>
+      <mods:namePart type="given">Charles E. (Charles Everett)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n88291333">
+      <mods:namePart type="family">Broyles</mods:namePart>
+      <mods:namePart type="given">Michael</mods:namePart>
+      <mods:namePart type="date">1939-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Music</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Music</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (184 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The works of Alvin Ailey have been largely overlooked by musicologists interested in studying the intersections between music and dance. This is true despite his overrepresentation in dance scholarship in large part because of the sustained popularity of the Alvin Ailey American Dance Theater (AAADT). Even though he was not a musician, Ailey was an enthusiastic listener of music with eclectic tastes and a sensitivity to musical structure and phrasing that make his works a rich site for musicological study. The dissertation makes a case for a deeper study into Ailey's interactions with music, composers, and musicians using the three major goals that Ailey had for his company: to carve out a space for Black performance art; to provide job opportunities for Black artists; and to promote the work of Black artists. Three case studies, his ballets Revelations, The River, and Mary Lou's Mass represent the manifestation of each of these goals in different ways. Revelations places African-American spirituals into their cultural context and reveals the blend of Africanist and Western European elements that form an African-American aesthetic. Ailey and Duke Ellington's collaboration on The River for the American Ballet Theatre (ABT) reveals the systemic racist structures that were and continue to be in place to exclude and discourage Black performers from participating in Western classical performance. Mary Lou's Mass was a collaboration with jazz pianist and composer, Mary Lou Williams. Ailey intended to create an artistically fulfilling representation of the Catholic Mass and demonstrate the appropriateness of jazz music in the liturgy. Analyzing these three ballets highlights both Ailey's preferred methods of musical collaboration and the strategies Black artists from across disciplines used to cope with institutional racism especially as it was practiced in areas considered high art.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the College of Music in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 17, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">Alvin Ailey, dance, Duke Ellington, Mary Lou Williams, music, Revelations</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Denise Von Glahn, Professor Directing Dissertation; Anjali Austin, University Representative; Charles E. Brewer, Committee Member; Michael Broyles, Committee Member.</mods:note>
+   <mods:identifier type="IID">2021_Fall_Terres_fsu_0071E_16867</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>College of Music</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-05-23T16:09:53.352975-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

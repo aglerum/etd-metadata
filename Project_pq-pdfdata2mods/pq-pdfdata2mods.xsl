@@ -28,12 +28,12 @@
 
     <!-- **Global variables** -->
     <!-- Batch Variable -->
-    <xsl:variable name="batch" select="'2021_Summer'"/>
+    <xsl:variable name="batch" select="'2021_Fall'"/>
 
     <!-- These paths change with each semester-->
-    <xsl:variable name="pdfdata" select="document('source_pdfdata/source_pdfdata_2021Su_uris.xml')/records/record"/>
-    <xsl:variable name="committee" select="document('tables/ETD-NAF_mads_20220120.xml')/mads:madsCollection/mads:mads/mads:authority"/>
-    <xsl:variable name="authors" select="document('tables/authors_2021Su.xml')/authors/name"/>
+    <xsl:variable name="pdfdata" select="document('source_pdfdata/source_pdfdata_2021Fa_uris.xml')/records/record"/>
+    <xsl:variable name="committee" select="document('tables/ETD-NAF_mads_20220520.xml')/mads:madsCollection/mads:mads/mads:authority"/>
+    <xsl:variable name="authors" select="document('tables/authors_2021Fa.xml')/authors/name"/>
 
     <!-- These paths refer to data tables -->
     <xsl:variable name="PQ-FSU-dept" select="document('tables/PQ-FSUdept.xml')/departments/department"/>
@@ -45,7 +45,7 @@
         </xd:desc>
     </xd:doc>
 
-    <xsl:template match="/diss">
+    <xsl:template match="DISS">
         <mods:modsCollection xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/"
             xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"

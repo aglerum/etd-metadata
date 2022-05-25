@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:marc="http://www.loc.gov/MARC21/slim"
+                 xmlns:mads="http://www.loc.gov/mads/v2"
+                 xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:mods="http://www.loc.gov/mods/v3"
+                 xmlns:dcterms="http://purl.org/dc/terms/"
+                 xmlns:oasis="http://www.niso.org/standards/z39-96/ns/oasis-exchange/table"
+                 xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+   <marc:record>
+      <marc:leader>     nam  22     Ki 4500</marc:leader>
+      <marc:controlfield tag="006">m     o  d        </marc:controlfield>
+      <marc:controlfield tag="007">cr |||||||||||</marc:controlfield>
+      <marc:controlfield tag="008">      s2021    flu     obm   000 0  d</marc:controlfield>
+      <marc:datafield tag="040" ind1=" " ind2=" ">
+         <marc:subfield code="a">FDA</marc:subfield>
+         <marc:subfield code="b">eng</marc:subfield>
+         <marc:subfield code="e">rda</marc:subfield>
+         <marc:subfield code="c">FDA</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="100" ind1="1" ind2=" ">
+         <marc:subfield code="a">Blair, Daneisha</marc:subfield>
+         <marc:subfield code="c"/>
+         <marc:subfield code="e">author</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="245" ind1="1" ind2="5">
+         <marc:subfield code="a">"The Impact of Surface Roughness" :</marc:subfield>
+         <marc:subfield code="b">and Surface Temperature on the Motion of the Deepwater Horizon Oil Spill</marc:subfield>
+         <marc:subfield code="c">Daneisha S. Blair</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="264" ind1=" " ind2="1">
+         <marc:subfield code="a">Tallahassee, Florida :</marc:subfield>
+         <marc:subfield code="b">Florida State University</marc:subfield>
+         <marc:subfield code="c">2021</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="300" ind1=" " ind2=" ">
+         <marc:subfield code="a">1 online resource (54 pages)</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="336" ind1=" " ind2=" ">
+         <marc:subfield code="a">text</marc:subfield>
+         <marc:subfield code="b">txt</marc:subfield>
+         <marc:subfield code="2">rdacontent</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="337" ind1=" " ind2=" ">
+         <marc:subfield code="a">computer</marc:subfield>
+         <marc:subfield code="b">c</marc:subfield>
+         <marc:subfield code="2">rdamedia</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="338" ind1=" " ind2=" ">
+         <marc:subfield code="a">online resource</marc:subfield>
+         <marc:subfield code="b">cr</marc:subfield>
+         <marc:subfield code="2">rdacarrier</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="347" ind1=" " ind2=" ">
+         <marc:subfield code="a">text file</marc:subfield>
+         <marc:subfield code="b">PDF</marc:subfield>
+         <marc:subfield code="2">rda</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="538" ind1=" " ind2=" ">
+         <marc:subfield code="a">System requirements: Adobe Reader or other PDF viewer.</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="588" ind1=" " ind2=" ">
+         <marc:subfield code="a">Description based on online resource; title from PDF title page.</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="500" ind1=" " ind2=" ">
+         <marc:subfield code="a">Extent pagination is PDF page count.</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="500" ind1=" " ind2=" ">
+         <marc:subfield code="a">Advisory committee: Mark A. Bourassa, Professor Directing Thesis; Philips Sura, Committee Member; Robert E. Hart, Committee Member; Rhys Parfitt, Committee Member.</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="500" ind1=" " ind2=" ">
+         <marc:subfield code="a">A Thesis submitted to the Department of Earth, Ocean, and Atmospheric Science in partial fulfillment of the requirements for the degree of Master of Science.</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="500" ind1=" " ind2=" ">
+         <marc:subfield code="a">Date of Defense: June 16, 2021</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="502" ind1=" " ind2=" ">
+         <marc:subfield code="b">M.S.</marc:subfield>
+         <marc:subfield code="c">Florida State University</marc:subfield>
+         <marc:subfield code="d">2021.</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="520" ind1="3" ind2=" ">
+         <marc:subfield code="a">This study provides, to our knowledge, the first detailed analysis of how oil changes air-sea interaction in a two-way coupled model (COAWST), and how the modified surface stress and surface Ekman current change the transport of the oil. Our results highlight the substantial influences of oil-related changes in surface roughness, surface wind, surface and near surface temperature differences, boundary-layer stability, and corresponding changes in surface stress and oil transport. These results are dependent on the effectiveness of our tuning of the modeled oil concentration on the surface. These considerations are examined in part by running twin coupled modeling simulations with and without the influences of oil. Subsequently, we compare the results by using a flux model with parameterizations selected to match those selected in COAWST adapted to either ignore or account for different atmospheric/oceanic processes in calculating surface stress. This approach investigates the effects of oil separately on boundary-layer stability, surface wind, and surface roughness and how those conditions impact surface stress. The model results find that surface stress changes due to oil-related damping of surface roughness are always negative in the absence of changes to model input parameters (i.e., wind speed and boundary-layer stability). However, oil-related changes to 10 m wind speed appear to play a much dominant role than oil-related changes in roughness in the changes in stress. The wind speed changes due to reduced surface friction (which increase stress) and due to changes in stability (which increase or decrease stress). We find that oil-related changes in boundary-layer stability play a dominant role in the changes in stress. This finding indicates that the vast majority of the changes in modeled stress are due to the changes in modeled stability and wind. This finding is contrary to the assumption by an idealized study where the changes in scatterometer observed roughness were assumed to be entirely due to damping of the roughness by oil. Finally, the results indicate that the oil-related changes in surface roughness, surface wind, and boundary-layer stability combined to result in surface stress changes are not large enough to cause a major impact on the surface current and oil transport. The results from this study indicate that the feedbacks from the surface oil presence to the oil movement itself are minor for forecasting the transportation of the oil due to the small impact on surface stress unless the fractional oil coverage is much greater than found in this study.</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="504" ind1=" " ind2=" ">
+         <marc:subfield code="a">Includes bibliographical references.</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="650" ind1=" " ind2="0">
+         <marc:subfield code="a">Meteorology</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="655" ind1=" " ind2="7">
+         <marc:subfield code="a">Electronic Thesis or Dissertation.</marc:subfield>
+         <marc:subfield code="2">dct</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="690" ind1=" " ind2="7">
+         <marc:subfield code="a">FSU Dissertations.</marc:subfield>
+         <marc:subfield code="2">local</marc:subfield>
+         <marc:subfield code="9">LOCAL</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="710" ind1="2" ind2=" ">
+         <marc:subfield code="a">Florida State University.</marc:subfield>
+         <marc:subfield code="e">degree granting instution.</marc:subfield>
+         <marc:subfield code="0">http://id.loc.gov/authorities/names/n80126238</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="931" ind1="1" ind2=" ">
+         <marc:subfield code="a">Bourassa, Mark Allan</marc:subfield>
+         <marc:subfield code="e">professor directing thesis</marc:subfield>
+         <marc:subfield code="9">LOCAL</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="931" ind1="1" ind2=" ">
+         <marc:subfield code="a">Sura, Philip</marc:subfield>
+         <marc:subfield code="e">committee member</marc:subfield>
+         <marc:subfield code="9">LOCAL</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="931" ind1="1" ind2=" ">
+         <marc:subfield code="a">Hart, Robert E.</marc:subfield>
+         <marc:subfield code="d">1972-</marc:subfield>
+         <marc:subfield code="e">committee member</marc:subfield>
+         <marc:subfield code="9">LOCAL</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="931" ind1="1" ind2=" ">
+         <marc:subfield code="a">Parfitt, Rhys</marc:subfield>
+         <marc:subfield code="e">committee member</marc:subfield>
+         <marc:subfield code="9">LOCAL</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="932" ind1="2" ind2=" ">
+         <marc:subfield code="a">Department of Earth, Ocean, and Atmospheric Science.</marc:subfield>
+         <marc:subfield code="9">LOCAL</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="904" ind1=" " ind2=" ">
+         <marc:subfield code="a">0</marc:subfield>
+         <marc:subfield code="9">LOCAL</marc:subfield>
+      </marc:datafield>
+   </marc:record>
+</marc:collection>

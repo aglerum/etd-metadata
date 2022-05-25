@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Modeling Heterogeneity in Bayesian Meta-Analysis</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:namePart type="family">Al Amer</mods:namePart>
+      <mods:namePart type="given">Fahad</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/llin4">
+      <mods:namePart type="family">Lin</mods:namePart>
+      <mods:namePart type="given">Lifeng</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/liux">
+      <mods:namePart type="family">Liu</mods:namePart>
+      <mods:namePart type="given">Xiuwen</mods:namePart>
+      <mods:namePart type="date">1966-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/xzhang8">
+      <mods:namePart type="family">Zhang</mods:namePart>
+      <mods:namePart type="given">Xin</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jrbradley">
+      <mods:namePart type="family">Bradley</mods:namePart>
+      <mods:namePart type="given">Jonathan R.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Statistics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (105 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Meta-analysis has been frequently used to combine findings from independent studies in many areas. Bayesian methods are an important set of tools for performing meta-analyses. They avoid some potentially unrealistic assumptions that are required by conventional frequentist methods. More importantly, meta-analysts can incorporate prior information from many sources, including experts' opinions and prior meta-analyses. Nevertheless, Bayesian methods are used less frequently than conventional frequentist methods, primarily because of the need for nontrivial statistical coding, while frequentist approaches can be implemented via many user-friendly software packages. This thesis divide into three parts, the first part aims at providing a practical review of implementations for Bayesian meta-analyses with various prior distributions. We present Bayesian methods for meta-analyses with the focus on a univariate meta-analysis of odds ratio for binary outcomes. We summarize various commonly used prior distribution choices for the between-studies heterogeneity variance, a critical parameter in meta-analyses. They include the inverse-gamma, uniform, and half-normal distributions, as well as evidence-based informative log-normal priors. Five real-world examples are presented to illustrate their performance. Under certain circumstances, Bayesian methods can produce markedly different results from those by frequentist methods, including a change in decision on statistical significance. When data information is limited, the choice of priors may have a large impact on meta-analytic results, in which case sensitivity analyses are recommended. Moreover, the algorithm for implementing Bayesian analyses may not converge for extremely sparse data; caution is needed in interpreting respective results. As such, convergence should be routinely examined. When select statistical assumptions made by conventional frequentist methods are violated, Bayesian methods provide a reliable alternative to perform a meta-analysis. A critical issue of meta-analysis is that the combined studies could be heterogeneous because of differences in study populations, design conducts, etc. Thus, heterogeneity is an issue that can affect the validity of meta-analytic results. In the existence of heterogeneity, a random-effects meta-analysis is considered an appropriate model to estimate a summary effect and a between-study variance. For several studies, conventional methods could be used to estimate the random-effects meta-analysis model, but the estimate of between-study heterogeneity could be imprecise in the case of few studies, and this imprecision is not acknowledged. In this situation, a Bayesian random-effects meta-analysis is advantageous in accounting for all sources of uncertainty. The second part of this thesis uses Bayesian methods to examine the impact of meta-analysis characteristics on between-study heterogeneity by analyzing data from a large collection of meta-analyses with binary outcomes. We classify and examine all included meta-analyses by outcome types and intervention comparison types. Then, based on these outcome and intervention classifications, we derive a set of predictive distributions for the extent of between-study variance expected in a future meta-analysis in different effect measures. These findings may help researchers to use them as informative prior distributions in new meta-analyses of binary outcomes. The last part of this thesis quantifies the between-study heterogeneity by using prediction intervals. By reporting the prediction interval, we show how often there is a contradiction in the conclusion compared to the conclusion based on the confidence interval. We also show the benefits of reporting the prediction interval in a meta-analysis, which has a straightforward clinical meaning that may guide researchers to expect the true effects in future settings. In addition, we use a large collection of meta-analyses from the Cochrane Database of Systematic Reviews to evaluate the real-world performance of the prediction interval. We assess whether the previous meta-analysis successfully predicts a future study or a study not included in the meta-analysis based on publication years. This assessment is illustrated using a case study. In the existence of heterogeneity, a random-effects meta-analysis is considered an appropriate model to estimate a summary effect and a between-study variance. For many studies, conventional methods could be used to estimate the random-effects meta-analysis model, but the estimate of between-study heterogeneity could be imprecise in the case of few studies as well as this imprecision is not acknowledged. In this situation, a Bayesian random-effects meta-analysis is advantageous in accounting for all sources of uncertainty. The second part of this thesis uses Bayesian methods to examine the impact of meta-analysis characteristics on between-study heterogeneity by analyzing data from a large collection of meta-analyses with binary outcomes. We classify and examine all included meta-analyses by outcome types and intervention comparison types. We derive a set of predictive distributions for the extent of between-study variance expected in a future meta-analysis in various effect measures. These findings may help researchers to use them as informative prior distributions in new meta-analyses of binary outcomes. The last part of this thesis quantifies the between-study heterogeneity by using prediction intervals. By reporting the prediction interval, we show how often there is a contradiction in the conclusion compared to the conclusion based on the confidence interval. We also show the benefits of reporting the prediction interval in a meta-analysis, which has a straightforward clinical meaning that may guide researchers to expect the true effects in future settings. In addition, we assess whether the previous meta-analysis successfully predicts a future study or a study not included in the meta-analysis based on publication years. This assessment is illustrated using a case study.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 2, 2021.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Lifeng Lin, Professor Directing Dissertation; Xiuwen Liu, University Representative; Xin Zhang, Committee Member; Jonathan Bradley, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <mods:topic>Statistics</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Fall_AlAmer_fsu_0071E_16632</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-05-23T16:09:53.352975-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

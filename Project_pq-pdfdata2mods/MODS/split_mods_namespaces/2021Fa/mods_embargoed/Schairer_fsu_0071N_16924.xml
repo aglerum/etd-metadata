@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Effects of Interleukin-6 and Hepcidin on Iron and Zinc Homeostasis in Mice</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-2182-9243</mods:nameIdentifier>
+      <mods:namePart type="family">Schairer</mods:namePart>
+      <mods:namePart type="given">James A.</mods:namePart>
+      <mods:namePart type="termsOfAddress">Jr.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/shennigar">
+      <mods:namePart type="family">Hennigar</mods:namePart>
+      <mods:namePart type="given">Stephen R.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/cberryman">
+      <mods:namePart type="family">Berryman</mods:namePart>
+      <mods:namePart type="given">Claire E. (Elizabeth) (Elizabeth)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/caholmes">
+      <mods:namePart type="family">Holmes</mods:namePart>
+      <mods:namePart type="given">Christina A. (Christina Andrea)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Health and Human Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Nutrition and Integrative Physiology</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (55 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The iron regulatory hormone hepcidin mediates the hypoferremia of inflammation by binding to, occluding, and signaling for the degradation of ferroportin, the only known cellular iron exporter. A regulator for the hypozincemia observed with inflammation and infection is not known; however, recent in vitro evidence indicates that hepcidin reduces intestinal zinc export by downregulating the zinc exporter ZnT1. The objective of the current study was to determine whether hepcidin attenuates molecular indicators of zinc status and intestinal zinc absorption in mice. Six-week-old male C57BL/6 mice were fed a modified AIN-93G diet containing 30 ppm zinc and 10 ppm iron for 2 weeks. After a 3 hour fast, mice were injected with 10, 50, or 100 µg/mouse hepcidin or 10, 25, or 50 µg/kg interleukin-6, an upstream regulator of hepcidin. Mice were then immediately given an oral gavage containing 67Zn isotope and sacrificed 3, 6, or 24 hours later. One-way and two-way ANOVA with Tukey's post-hoc comparisons were used to assess the effects of treatment, time, and their interaction. Data are represented as means ± standard deviations. Plasma iron concentrations were decreased by up to 26% following IL-6 injections and 24% following hepcidin injections. IL-6 injections resulted in hypozincemia (P = 0.035), with 50 µg/kg IL-6 injections showing the greatest decline (1.05 ± 0.16) compared to control (1.18 ± 0.16). There were no treatment effects for plasma zinc for mice injected with hepcidin (P= 0.366). Liver and plasma appearance of 67Zn did not differ with hepcidin or IL-6 injection. Collectively, these findings indicate that acute injection of IL-6, but not hepcidin, result in a hypozincemia in mice. Future studies should confirm these findings and perhaps examine the chronic effects of hepcidin on zinc homeostasis in mice.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Nutrition and Integrative Physiology in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 16, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">Hepcidin, IL-6, Inflammation, Iron, Nutritional Immunity, Zinc</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Stephen Hennigar, Professor Directing Thesis; Claire Berryman, Committee Member; Christina Holmes, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85093451">
+      <mods:topic>Nutrition</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85050184">
+      <mods:topic>Food</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Fall_Schairer_fsu_0071N_16924</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Nutrition, Food, and Exercise Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-05-23T16:09:53.352975-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

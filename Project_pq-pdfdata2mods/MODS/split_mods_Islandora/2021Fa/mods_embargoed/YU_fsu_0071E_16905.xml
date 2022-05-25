@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>PPCA-Xnorm</title>
+      <subTitle>A Probabilistic Principal Component Analysis (PPCA) Based Approach to Performing Cross Platform Normalization on Two or More Gene Expression Platforms</subTitle>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-1041-6213</nameIdentifier>
+      <namePart type="family">Yu</namePart>
+      <namePart type="given">Disa</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/jzhang4">
+      <namePart type="family">Zhang</namePart>
+      <namePart type="given">Jinfeng</namePart>
+      <namePart type="termsOfAddress">(Statistics Professor)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/qsang">
+      <namePart type="family">Sang</namePart>
+      <namePart type="given">Qing-Xiang</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/qmai">
+      <namePart type="family">Mai</namePart>
+      <namePart type="given">Qing</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/chuang7">
+      <namePart type="family">Huang</namePart>
+      <namePart type="given">Chao</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Statistics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (95 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >We introduce PPCA-Xnorm, a method we developed to perform cross platform normalization of gene expression values across two or more gene platforms. PPCA-Xnorm is based on a Probabilistic Principal Component Analysis (PPCA) model. The approach to cross-platform normalization can be summarized into the following steps. First, we define the model and its parameters. We assume proportional measurement errors, which is necessary to derive closed-from solutions of the correlation matrix, its inverse, and its derivatives. These expressions are later used in the grand log likelihood function. We also propose solutions to identifiability issues in our model. Next, we derive the grand log-likelihood function of the model and derive their gradients with respect to the parameters of interest. For some parameters, we are able to solve their gradient equations to arrive at a closed-form solution of their maximum likelihood estimators. For other parameters, we solve their gradient equations iteratively using the process of gradient descent. Lastly, we derive the model-specific, Multivariate Normal based, conditional expectation of the gene expressions platforms. We use the conditional expectation equation to normalize gene expression values across the multiple platforms. We apply our method to simulated data and achieve improved results over MatchMixeR, a cross platform normalization method for two platforms previously developed in our group that is based on a mixed effects linear model. We apply our method to real-world RNA-seq and microarray data, obtained from GEO, and once again achieve improved performance against MatchMixeR, the competing method. We use correlation and MSE to evaluate model performance. We then discuss the beneficial statistical properties of PPCA-Xnorm. Lastly, we expand upon our methodology so that it is able to perform cross platform normalization in the case of missing or mismatched samples (i.e. cell lines) across different platforms. We are able to extend this capability to the extreme case where the platforms contain completely different cell lines such that there is no explicit link between the platforms. To do this, we use a method of weighted averages for most parameters. Since taking the average of correlation matrices is more challenging because they live on a manifold, we develop an approach using the distribution of the mean of a standardization of the observed gene expression matrix and its singular value decomposition (SVD).</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">November 16, 2021.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Jinfeng Zhang, Professor Co-Directing Dissertation; Xing Qiu, Professor Co-Directing Dissertation; Qing-Xiang Sang, University Representative; Qing Mai, Committee Member; Chao Huang, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <topic>Statistics</topic>
+   </subject>
+   <identifier  type="IID">2021_Fall_YU_fsu_0071E_16905</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2022-05-23T16:09:53.352975-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

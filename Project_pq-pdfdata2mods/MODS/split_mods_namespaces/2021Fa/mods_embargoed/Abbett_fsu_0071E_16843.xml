@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Diffusion, Doping, and Stability of Polyelectrolyte Multilayers</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-4019-4925</mods:nameIdentifier>
+      <mods:namePart type="family">Abbett</mods:namePart>
+      <mods:namePart type="given">Rachel L.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/nb2002004599">
+      <mods:namePart type="family">Schlenoff</mods:namePart>
+      <mods:namePart type="given">Joseph B.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/zliang">
+      <mods:namePart type="family">Liang</mods:namePart>
+      <mods:namePart type="given">Zhiyong (Richard)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mroper">
+      <mods:namePart type="family">Roper</mods:namePart>
+      <mods:namePart type="given">Michael Gabriel</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yhu">
+      <mods:namePart type="family">Hu</mods:namePart>
+      <mods:namePart type="given">Yan-yan</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemistry and Biochemistry</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (131 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Polyelectrolytes are polymers consisting of charged repeat units resulting in a net charge for the macromolecules. Mixing oppositely charged polyelectrolytes creates polyelectrolyte complexes (PEC). Different types of complexes can be obtained by modifying the preparation technique. This dissertation focuses primarily on one kind of PEC known as a polyelectrolyte multilayer (PEMU). These systems are formed by depositing alternating "layers" of oppositely charged polymers onto a substrate. PEMUs have been proposed for various applications, from electronic devices to antibacterial coatings and drug delivery. These applications rely on the composition and integrity of these films to withstand dynamic changes in the external environment, such as temperature and environmental composition. They also rely on doping the films with additives called "dopants" to modify the properties of these films. This dissertation focuses on the stability of PEMUs and the motion of various analytes through the films. This first aspect centers initially around the water content. The PEMUs in this work are plasticized by water, becoming brittle when dry. This plasticization led to the theory that the change in modulus close to room temperature for these systems was not a glass transition but instead a dehydration/rehydration event. Fully hydrated films were monitored using ATR-FTIR to assess the water content through the glass transition at various salt concentrations. There was no discernible change in water content that would indicate hydration or dehydration, supporting the theory that this change in modulus results from a glass transition. The commonly used polyelectrolyte pairs in this work are hydrophilic. This affinity for water combined with added salts bringing in additional water and breaking up Pol⁺Pol⁻ interactions causes concern for the stability of the film. PEMUs were built again on the ATR-FTIR and monitored in-situ as a solution of changing salt concentration flowed over the film. The salt concentrations ranged from 0 to 1.0 M NaCl for 1, 2, and 4 hours and then were brought back to 0 M NaCl over the same time period. The rapid change in salt concentration was expected to stress the film, potentially causing it to swell to the point of degradation. All three rates resulted in intact films, with the fastest change in concentration resulting in the water not having sufficient time to equilibrate in the film, 14 shown by a difference in response to increasing and decreasing NaCl concentration. Long-term exposure to NaCl, especially high concentration salt, was also monitored. Films were constructed on quartz slides and placed parallel to the beam in the cuvette. Solutions of NaCl ranging from 0 to 2.5 M were added to the cuvette and monitored for 10 hours. The spectra indicate minimal leaching from the films into the solution at all but the highest salt concentrations. Ferrocyanide and ferricyanide diffusion through PEMUs was tested to determine if their movement through the film would be sufficient to impact the rate of electrons transferring from the redox centers through the film to an electrode. Films were built on silicon wafers and monitored using transmission FTIR by taking spectra of the dried film at specific time points during the exposure to the ferri- or ferrocyanide solutions. The diffusion coefficients were determined, indicating ferricyanide diffuses significantly faster than ferrocyanide. From the diffusion and the IR spectra, the concentration and spacing of the redox centers were determined, indicating that the motion of the redox species is not sufficient to alter the rate of electron motion. Ligated lanthanide complexes are efficient emitters but often have issues with the substrate quenching emission. PEMUs were tested to see if they could be used as scaffolding to prevent this quenching. Hydrophilic and hydrophobic systems were compared based on quantum yield and fluorescence lifetime. Hydrophilic films had faster and higher uptake of the emissive sites, needing only five minutes for full incorporation, but the hydrophobic films outperformed the hydrophilic films in emission under various environmental humidity levels by better maintaining the quantum yield. Diffusion of PSS through films was monitored with varying molecular weight, temperature, and solution salt concentrations. Shorter chains diffused faster at the same temperatures and were not impacted by changes in salt concentration. This could be because the short-chain systems are above the Tg in those salt concentrations. Both long and short-chain films were slower below Tg. Long-chain systems had a dependence on salt concentration and a two-part diffusion regime at room temperature. This is because the polymers closer to the surface of the film were more hydrated, and therefore above the Tg, while the chains at the substrate were below Tg at room temperature. This resulted in a two-part diffusion.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">October 28, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">Diffusion, Polyelectrolyte Multilayers, Polyelectrolytes</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Joseph B. Schlenoff, Professor Directing Dissertation; Richard Liang, University Representative; Michael G. Roper, Committee Member; Yan-Yan Hu, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85023011">
+      <mods:topic>Chemistry, Analytic</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Fall_Abbett_fsu_0071E_16843</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-05-23T16:09:53.352975-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

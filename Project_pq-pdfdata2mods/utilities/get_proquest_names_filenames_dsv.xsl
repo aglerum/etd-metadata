@@ -6,7 +6,7 @@
     <xsl:output encoding="UTF-8" indent="yes" method="text"/>
 
     <xsl:template match="xml">
-        <xsl:text>Source#File#InDirectName#FamilyName#GivenName#Suffix#Role&#13;</xsl:text>
+        <xsl:text>Source#File#NameKey#InDirectName#FamilyName#GivenName#Suffix#Role&#13;</xsl:text>
             <xsl:variable name="delimiter" select="'#'"/>
             <xsl:for-each select="DISS_submission">               
                 <xsl:for-each select="DISS_authorship/DISS_author/DISS_name">
@@ -18,8 +18,11 @@
                     <xsl:variable name="given" select="if ($middle ne '') then concat($first,' ',$middle) else $first"/>
                     <xsl:variable name="indirect" select="concat($family,', ',$given)"/>
                     <xsl:variable name="role" select="'author'"/>
+                    <xsl:variable name="namekey">
+                        <xsl:value-of select="concat($family,substring($given,1,1))"/>
+                    </xsl:variable>
                     <xsl:value-of
-                        select="concat('ProQuest', $delimiter,$file, $delimiter, $indirect, $delimiter, $family, $delimiter, $given, $delimiter, $suffix, $delimiter, $role, '&#13;')"
+                        select="concat('ProQuest', $delimiter,$file, $delimiter,$namekey,$delimiter, $indirect, $delimiter, $family, $delimiter, $given, $delimiter, $suffix, $delimiter, $role, '&#13;')"
                     />
                 </xsl:for-each>
             </xsl:for-each>

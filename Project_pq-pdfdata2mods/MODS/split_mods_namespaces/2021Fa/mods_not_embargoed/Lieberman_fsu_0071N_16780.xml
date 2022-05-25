@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Demoralization in Schizophrenia</mods:title>
+      <mods:subTitle>A Pathway to Suicidal Ideation?</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-0255-3181</mods:nameIdentifier>
+      <mods:namePart type="family">Lieberman</mods:namePart>
+      <mods:namePart type="given">Amy</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n98075320">
+      <mods:namePart type="family">Joiner</mods:namePart>
+      <mods:namePart type="given">Thomas</mods:namePart>
+      <mods:namePart type="termsOfAddress">Jr.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kofler">
+      <mods:namePart type="family">Kofler</mods:namePart>
+      <mods:namePart type="given">Michael J.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2009026723">
+      <mods:namePart type="family">Schatschneider</mods:namePart>
+      <mods:namePart type="given">Christopher</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Psychology</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (29 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Background: Individuals with schizophrenia are at increased risk for suicide, with research showing insight into one's schizophrenia to elicit depression and hopelessness, both established risk factors for suicide. The present study hypothesized that insight into one's schizophrenia may lead to suicidal ideation by way of demoralization. Namely, a hopeless awareness of functional deterioration post-illness-onset may prompt a threat to one's previous sense of identity, thereby causing suicidal ideation. Methods: 119 patients with schizophrenia or schizoaffective disorder completed self-report measures of insight into their illness, demoralization, and suicidal ideation. Additionally, premorbid and current cognitive functioning were assessed. We predicted that demoralization, insight into one's schizophrenia, current cognitive functioning, and cognitive deterioration (i.e., the difference in cognitive performance before and after illness-onset) would each relate to increased suicidal ideation. Next, three separate models explored the mediating role of demoralization on suicidal ideation: with suicidal ideation entered as the dependent variable and demoralization entered as the mediator in each model, the first model included insight into illness (i.e., a relatively subjective measure) as the independent variable, the second included current cognitive functioning (i.e., a relatively objective measure) as the independent variable, and the third included shift in cognitive functioning (i.e., the difference between premorbid and post-illness-onset cognitive functioning) as the independent variable. Results: Consistent with our hypothesis, greater demoralization led to increased suicidal ideation (B= .028, SE= .01, p &lt;.01). However, contrary to our prediction, insight into illness did not lead to demoralization (B= -.86, SE= 1.81, p=.64), nor was insight correlated with suicidal ideation (r= .159, p=.238). Additionally, greater cognitive functioning predicted decreased demoralization (B= -.78, SE=.36, p=.04), rather than the hypothesized increase. Similarly, a relationship between cognitive performance and suicidal ideation represented a non-significant trend (r -.259, p=.052). Finally, shift in cognitive performance did not lead to either demoralization or to suicidal ideation. Demoralization did not mediate any relationships. Conclusions: In the present sample, insight into illness did not predict either demoralization or suicidal ideation. Additionally, while previous work has found increased cognitive performance to be a risk factor for suicidal ideation in schizophrenia, in our sample, cognitive performance was associated with both decreased demoralization as well as decreased suicidal ideation.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Psychology in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">September 17, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">cognition, demoralization, hopelessness, insight, schizophrenia, suicidal ideation</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Thomas Joiner, Professor Directing Thesis; Michael Kofler, Committee Member; Christopher Schatschneider, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85027067">
+      <mods:topic>Clinical psychology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85108459">
+      <mods:topic>Psychology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh87007652">
+      <mods:topic>Cognitive psychology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Fall_Lieberman_fsu_0071N_16780</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Psychology</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-05-23T16:09:53.352975-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

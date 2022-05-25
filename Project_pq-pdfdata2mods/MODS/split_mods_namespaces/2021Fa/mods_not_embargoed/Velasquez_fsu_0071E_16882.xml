@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Longitudinal Diagnostic Classification Model for Attribute Acquisition</mods:title>
+      <mods:subTitle>Application to Learning Progressions</mods:subTitle>
+      <mods:nonSort>A</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">https://orcid.org/0000-0001-5500-172X</mods:nameIdentifier>
+      <mods:namePart type="family">Velasquez</mods:namePart>
+      <mods:namePart type="given">Gertrudes</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n94098012">
+      <mods:namePart type="family">Almond</mods:namePart>
+      <mods:namePart type="given">Russell G.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2013073385">
+      <mods:namePart type="family">Huffer</mods:namePart>
+      <mods:namePart type="given">Fred W. (Fred William)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/qzhang4">
+      <mods:namePart type="family">Zhang</mods:namePart>
+      <mods:namePart type="given">Qian</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2019021256">
+      <mods:namePart type="family">Paek</mods:namePart>
+      <mods:namePart type="given">Insu</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Professor of measurement and statistics)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Education</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Educational Psychology and Learning Systems</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (158 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This study introduces a longitudinal diagnostic classification model, called the LTA+HDCM, which is a fusion of latent transition analysis (LTA; Collins &amp; Flaherty, 2002; Collins &amp; Wugalter, 1992) and the hierarchical diagnostic classification model (HDCM; Templin &amp; Bradshaw, 2014). The primary goals in this study are (1) to evaluate the adequacy of the LTA+HDCM to recover the order of theoretical levels of learning progressions (LPs) with attributes in a linear hierarchy, and (2) to recover measurement model parameters (item and person parameters) and structural model parameters (latent status prevalences and transition probabilities) under different study conditions in which the LTA+HDCM is employed. A simulation study is used to achieve the study goals. The design factors are selected to reflect aspects of the measurement model that can be manipulated to infer learners' statuses on LP levels: number of measurement occasions T = (2, 3), test lengths consisting of J = (12, 18, 24) items, Q-matrix designs consisting of Q = (3, 6) item types, and sample sizes N = (500, 1000, 1500). Convergence rates, X2 goodness-of-fit statistics, classification accuracy statistics, and graphical displays are used to evaluate the adequacy of the model to achieve the study goals. An empirical study using data from the Mathematization in Science (MTS; Jin et al., 2019) LP is then conducted to recover LP levels. The simulation study identified three important design factors which impacted the ability of the LTA+HDCM to recover LP theoretical levels and evidence and competency growth parameters. These factors are test length J, sample size N, and Q-matrix design. Of the three factors, complexity of Q-matrix design is most influential in recovery of LP theoretical levels and evidence and competency growth model parameter. In study conditions in which the Complete Q-matrix design (Q = 6 item types) was implemented, the LTA+HDCM fully recovered LP theoretical levels and provided ignorable bias of parameter estimates. In contrast, LP theoretical levels and parameters were only partially recovered in study conditions with the Partial Q-matrix design (Q = 3 item types).</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Educational Psychology and Learning Systems in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 8, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">hierarchical diagnostic classification model, latent transition analysis, learning progression, linear hierarchy</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Russell Almond, Professor Directing Dissertation; Fred Huﬀer, University Representative; Qian Zhang, Committee Member; Insu Paek, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85040989">
+      <mods:topic>Education</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85041154">
+      <mods:topic>Educational tests and measurements</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85041141">
+      <mods:topic>Educational psychology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Fall_Velasquez_fsu_0071E_16882</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Educational Psychology and Learning Systems</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-05-23T16:09:53.352975-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

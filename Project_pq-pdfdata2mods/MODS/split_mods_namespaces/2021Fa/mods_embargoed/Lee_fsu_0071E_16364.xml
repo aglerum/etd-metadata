@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>14-3-3 Proteins, NMDAR Hypofunctionality, and Actin Dynamics in Schizophrenia</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-4089-4531</mods:nameIdentifier>
+      <mods:namePart type="family">Lee</mods:namePart>
+      <mods:namePart type="given">Gloria Soo-Yeon</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yz15e">
+      <mods:namePart type="family">Zhou</mods:namePart>
+      <mods:namePart type="given">Yi</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Graduate Research Assistant)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/zwang">
+      <mods:namePart type="family">Wang</mods:namePart>
+      <mods:namePart type="given">Zuoxin</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mkabbaj">
+      <mods:namePart type="family">Kabbaj</mods:namePart>
+      <mods:namePart type="given">Mohamed</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/levenson">
+      <mods:namePart type="family">Levenson</mods:namePart>
+      <mods:namePart type="given">Cathy W.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/tmegraw">
+      <mods:namePart type="family">Megraw</mods:namePart>
+      <mods:namePart type="given">Timothy L.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Medicine</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Biomedical Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (211 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>One of the core pathogenic mechanisms for schizophrenia is believed to be dysfunction in glutamatergic synaptic transmissions, particularly hypofunction of N-methyl D-aspartate receptors (NMDARs). In addition, previous genetic and postmortem studies have identified several 14-3-3 isoforms as potential candidate risk genes for schizophrenia. 14-3-3 proteins are a family of homologous proteins involved in many biological processes, including signaling, neurite outgrowth, and ion channel regulation. To investigate the association between 14-3-3 dysregulation and schizophrenia, our lab has previously generated 14-3-3 functional knockout mice. These mice exhibited schizophrenia-associated behaviors accompanied by reduced synaptic NMDARs in forebrain excitatory neurons. These findings suggested that 14-3-3 proteins may act as a key component of the postsynaptic NMDAR complex with a positive role in regulating synaptic levels of NMDARs. Here we focus on NMDARs as one of the molecular substrates of 14-3-3 protein signaling at the glutamatergic synapses. In addition, 14-3-3 functional knockout mice exhibited lowered hippocampal and cortical dendritic spine density, reduced dendritic complexity from the cortex, and significant reduction of Ser3-phosphorylated cofilin levels from the hippocampus. These findings suggested that 14-3-3 proteins may play a crucial role in dendritic spine density and dendritic complexity, possibly through their role in the actin signaling pathway. Chapter 1 reviews animal models of NMDAR hypofunction and the importance of studying the molecular mechanism for NMDAR hypofunctionality. Chapter 2 describes how 14-3-3 proteins regulate synaptic localization of NMDARs by examining changes in levels of synaptic NMDARs upon 14-3-3 inhibition in primary neurons. This work found that 14-3-3 protein inhibitor (difopein) expression in primary glutamatergic cortical and hippocampal neurons resulted in decreased numbers of synaptic puncta containing NMDARs, including the GluN1 GluN2A, or GluN2B subunits. In heterologous cells, 14-3-3 proteins enhanced the surface expression of these NMDAR subunits. Furthermore, this work identified that 14-3-3ζ and ε isoforms interact with NMDARs via binding to GluN2A and GluN2B subunits. Chapter 3 examines the role of 14-3-3 proteins on dendritic spine density, dendritic complexity, and actin dynamics and shows that inhibition of 14-3-3 proteins decreased dendritic spine density and dendritic complexity in glutamatergic cortical and hippocampal neurons. In addition, 14-3-3 proteins enhance dendritic spine density and dendritic complexity in only glutamatergic hippocampal neurons via the actin signaling pathway. Taken together, these results demonstrate that 14-3-3 proteins play a critical role in NMDAR synaptic trafficking by promoting surface delivery of NMDAR subunits GluN1, GluN2A, and GluN2B. 14-3-3 proteins also play a role in dendritic spines and dendritic structure dynamics by acting on the 14-3-3/cofilin signaling pathway, with alterations reported to be hallmark features of schizophrenia. As NMDAR hypofunctionality is known to act as a convergence point for the progression of symptoms of schizophrenia, further studies on these signaling pathways may help understand how dysfunction of 14-3-3 proteins can cause NMDAR hypofunctionality and lead to schizophrenia-associated behaviors. In addition, understanding how 14-3-3 proteins may also act on neuroanatomical changes related to schizophrenia, possibly through its role in actin dynamics, will help determine novel therapeutic targets for schizophrenia. The work presented contributes to the development of animal models and novel therapeutic targets to further understand the importance of glutamatergic neurotransmission as modified by the interaction between 14-3-3 proteins and NMDARs and how it relates to neuropsychiatric disorders. Collectively, these data provide a potential link between 14-3-3 dysfunction, NMDAR synaptic trafficking, NMDAR hypofunctionality, actin dynamics, and schizophrenia-associated behavioral deficits.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Biomedical Sciences in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 8, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">14-3-3 dysfunction, 14-3-3 proteins, Actin Dynamics, N-methyl-D-aspartate receptor (NMDA receptor, NMDAR), NMDAR hypofunctionality, Schizophrenia (SCZ)</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Yi Zhou, Professor Directing Dissertation; Zuoxin Wang, University Representative; Mohammad Kabbaj, Committee Member; Cathy Levenson, Committee Member; Timothy Megraw, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh91006099">
+      <mods:topic>Neurosciences</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85014203">
+      <mods:topic>Biology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85086577">
+      <mods:topic>Molecular biology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Fall_Lee_fsu_0071E_16364</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Biomedical Sciences</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-05-23T16:09:53.352975-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

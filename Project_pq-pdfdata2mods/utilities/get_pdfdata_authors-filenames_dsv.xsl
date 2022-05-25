@@ -5,7 +5,7 @@
     <xsl:output encoding="UTF-8" indent="yes" method="text"/>
 
     <xsl:template match="records">
-        <xsl:text>Source#File#InDirectName#FamilyName#GivenName#Suffix#Role&#13;</xsl:text>
+        <xsl:text>Source#File#NameKey#InDirectName#FamilyName#GivenName#Suffix#Role&#13;</xsl:text>
         <xsl:for-each select="record/author">
                 <xsl:variable name="delimiter" select="'#'"/>
                 <xsl:variable name="file" select="../filename"/>
@@ -26,9 +26,12 @@
                     ', '
                     else
                     (), $suffix)"/>
+            <xsl:variable name="namekey">
+                <xsl:value-of select="concat($family,substring($given,1,1))"/>
+            </xsl:variable>
             <xsl:variable name="direct" select="."/>
                 <xsl:value-of
-                    select="concat('PDFdata', $delimiter,$file, $delimiter, $indirect, $delimiter, $family, $delimiter, $given, $delimiter, $suffix, $delimiter, $role, '&#13;')"
+                    select="concat('PDFdata', $delimiter,$file, $delimiter, $namekey, $delimiter, $indirect, $delimiter, $family, $delimiter, $given, $delimiter, $suffix, $delimiter, $role, '&#13;')"
                 />
 <!--            <variable_check>
                 <direct><xsl:value-of select="$direct"/></direct>

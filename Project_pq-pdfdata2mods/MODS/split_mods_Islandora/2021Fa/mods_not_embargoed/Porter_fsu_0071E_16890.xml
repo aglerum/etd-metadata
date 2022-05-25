@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>"Retro-Ensemble"</title>
+      <subTitle>Using Historical Analogs of Ensemble Forecasts as Post-Processing to Improve Prediction</subTitle>
+      <nonSort>The</nonSort>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-1013-8340</nameIdentifier>
+      <namePart type="family">Porter</namePart>
+      <namePart type="given">Michael J.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n81021102">
+      <namePart type="family">Fuelberg</namePart>
+      <namePart type="given">Henry E.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing thesis</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/jchagnon">
+      <namePart type="family">Chagnon</namePart>
+      <namePart type="given">Jeffrey M.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing thesis</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mascagni">
+      <namePart type="family">Mascagni</namePart>
+      <namePart type="given">Michael</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n82070328">
+      <namePart type="family">Ahlquist</namePart>
+      <namePart type="given">Jon E.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/psura">
+      <namePart type="family">Sura</namePart>
+      <namePart type="given">Philip</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/jdu3">
+      <namePart type="family">Du</namePart>
+      <namePart type="given">James</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Earth, Ocean, and Atmospheric Science</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (136 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Numerical weather prediction and ensemble forecasting have improved the skill of medium range forecasts. However, multi-model ensembles can be computationally expensive and difficult to interpret so post-processing techniques are often employed. One such technique, analog forecasting, involves scouring a back-catalog of forecasts to find ones similar to a target forecast. This can enhance forecast skill by accounting for flow-dependent error growth because the accuracy of past forecasts provides context for the current one. However, questions remain as to how one can best determine if a past forecast is 'similar' enough to be a useful analog. This research develops a new analog method, the 'RetroEnsemble,' that integrates existing (but previously uncombined) analog search techniques with novel strategies to look retrospectively in order to generate guidance for an operational ensemble forecast. The search algorithm compares spatial forecasts around a target location (van den Dool, 1989) for several variables across a temporal window (Delle Monache et al., 2011) and optimizes their variable weights (Junk et al., 2015). This method also (a) allows for temporal offsets to consider additional potential analogs (synoptically similar forecasts), and (b) identifies analogs independently for the different members of an ensemble forecast system. The RetroEnsemble is optimized for local application and provides bias correction for a multi day precipitation forecast from the Short Range Ensemble Forecast (SREF) system. Rainfall verifications corresponding to the best analogs are combined into a historically derived probability density function for a new SREF forecast. Four years of data are used as a training set to determine how to best find analogs; then, the RetroEnsemble was tested against an independent year of forecasts to serve as proof-of concept for this post-processing technique. The RetroEnsemble demonstrates improved skill across a range of spatial resolutions. The technique was most useful for the forecast of summer rainfall and for forecast conditions where the SREF had lower skill (e.g. underperforming ensemble members, or when the SREF predicted isolated rainfall). Results from the testing period show similar trends, but lower skill improvement and less absolute skill. A fully developed RetroEnsemble methodology could allow forecasters to harness 'big data' by calibrating nationally provided ensemble output for local needs. Further, as is initially explored here, it may provide a better understanding of which combinations of parameterization schemes yield more accurate forecasts under certain atmospheric states.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Earth, Ocean, and Atmospheric Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">November 4, 2021.</note>
+   <note  displayLabel="Keywords">Analog Forecasting, Ensemble Forecasting, Numerical Weather Prediction, Redemptive Forecasting</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Henry E. Fuelberg, Professor Co-Directing Thesis; Jeffrey Chagnon, Professor Co-Directing Thesis; Michael Mascagni, University Representative; Jon E. Ahlquist, Committee Member; Philip Sura, Committee Member; Jun Du, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85084334">
+      <topic>Meteorology</topic>
+   </subject>
+   <identifier  type="IID">2021_Fall_Porter_fsu_0071E_16890</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2022-05-23T16:09:53.352975-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

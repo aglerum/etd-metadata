@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Dynamics and Compositions in Polyelectrolyte Complex Coacervates</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-6987-9517</mods:nameIdentifier>
+      <mods:namePart type="family">Yang</mods:namePart>
+      <mods:namePart type="given">Mo</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/nb2002004599">
+      <mods:namePart type="family">Schlenoff</mods:namePart>
+      <mods:namePart type="given">Joseph B.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jguan">
+      <mods:namePart type="family">Guan</mods:namePart>
+      <mods:namePart type="given">Jingjiao</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/nb2009002696">
+      <mods:namePart type="family">Mattoussi</mods:namePart>
+      <mods:namePart type="given">Hedi</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kennemur">
+      <mods:namePart type="family">Kennemur</mods:namePart>
+      <mods:namePart type="given">Justin Glenn</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemistry and Biochemistry</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (190 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Polyelectrolytes are highly charged polymers compensated by small counterions. Based on the type of charge, a polyelectrolyte can be either polycation or polyanion. When mixing two oppositely charged polyelectrolytes in aqueous solution, entropy driven polymer-polymer interactions will occur, which results in a solid precipitant or liquid-liquid phase separation. Based on the viscoelastic properties of the resulted material, it is either called a "polyelectrolyte complex" (solid-like) or a "polyelectrolyte coacervate" (liquid-like), PECs. PECs have a wide range of applications, such as drug delivery, anti-reflective coatings, separation membranes and under-water adhesives. PECs are also considered for bio-medical applications since DNA, RNA and proteins are all charged macromolecules. Understanding the dynamics and compositions of these materials can guide the potential applications and processing conditions of these materials, help to build physical theories behind sticky ionic pairing interactions. Thus, it is highly desirable to investigate the fundamental aspects of PECs to enhance their applications. In Chapter 3, the dynamics of PECs were studied. We prepared a series of PECs made of polycation poly(methacrylamidopropyltrimethylammonium chloride) (PMAPTAC) and polyanion poly(sodium methacrylate) (PMA-Na), which containing five PEC pairs of different molecular weight with matched polycation/polyanion chain lengths. Rheology experiments were carried out for all PEC pairs at different temperatures and salt concentrations. Time-temperature (TTS) and time-temperature-salt (TTSS) superpositions were achieved with a satisfactory fit to sticky association theory. Relaxation times for polymer partnering (τb), entanglement (τe) and reptation (τrep) were revealed directly from the TTS data. All these characteristic lifetimes were slowed by the sticky dynamics of Pol⁺Pol⁻ pairs. We found that the relaxation kinetics of temperature showed Arrhenius dependence, whereas changing the salt concentration impacted the lifetime of Pol⁺Pol⁻ pairs, the number of stickers per chain and the volume fraction of polymer. In Chapter 4, the compositions of PECs were studied, specifically the ion distribution inside and outside the PECs. The compositions of poly(diallydimethylammonium chloride) (PDADMAC)/poly(4-styrenefulfonic acid, sodium salt) (PSSNa) PEC were investigated with five different salt types. A radio-labeling technique was used to precisely determine the salt content of PDADMA/PSS PEC at different salt concentrations. The water/polymer content was obtained by weight. Enthalpy of complexation (ΔHPEC) would influence the doping equilibrium constant. Thus, isothermal titration calorimetry experiments were carried out to determine ΔHPEC for each salt type. The Donnan equilibrium predicted the correlation between [salt]PEC and [salt]s by considering the PEC composition and ΔHPEC: if ΔHPEC &lt; 0, [salt]PEC &lt; [salt]s and if ΔHPEC &gt; 0, [salt]PEC &gt; [salt]s. In Chapter 5, the doping behaviors of PECs at higher ionic strength and how the glass transition temperature was correlated to their compositions were further investigated. Hydrated poly(diallyldimethylammonium) (PDADMA) and poly(styrene sulfonate) (PSS) PEC with a Tg near room temperature was radio-labeled with ²²Na isotopes along a Hofmeister series. A slope change in the doping level versus salt concentration was observed for all five salts studied in this work. This transition was correlated to the free volume expansion of the PECs at the temperature passed through Tg. Before Tg, a majority of the ions compensated the polyelectrolytes and played role of "counterion", whereas after Tg, both counter- and co-ions co-existed in the system. Tg of PECs at the same doping level of each salts were collected and correlated to their compositions. In Chapter 6, a series of quaternized poly(vinyl pyridine) with different side chain lengths were prepared to study how the hydrophobicity of the polyelectrolytes could influence its rheological properties and compositions. Complexed with poly(methacrylic acid, sodium salt), an unexpected anti-hydrophobicity effect was discovered: with a longer carbon side chain, the PECs were more hydrophilic. Radiolabeling and radiocounting techniques were used to precisely determine the ion content in PECs. Isothermal titration calorimetry experiments were carried out to obtain the enthalpy of complexation. Using Donnan equilibrium, a satisfactory fitting was achieved between [MA]s and [MA]PEC by varying the ratio of counter-ion to co-ion, f. Instead of the nature of the materials, the apparent hydrophobicity was rooted in the molar volume of the PEC. In Chapter 7, the minimum number of charges required to initiate the complexation or coacervation behavior was investigated. By complexing a sulfonic acid system bearing different number of charges with PDADMAC, it was found that from 3 to 4 charge the rheological and mechanical properties of the resulted sample enhanced dramatically. This phenomenon was also examined using polypeptides complexed with phosphate salts. This unprecedent viscoelastic transition might be relevant to those aspects of disease states that are characterized by abnormal mechanical property.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 8, 2021.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Joseph B. Schlenoff, Professor Directing Dissertation; Jingjiao Guan, University Representative; Hedi Mattoussi, Committee Member; Justin G. Kennemur, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85082094">
+      <mods:topic>Materials science</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Fall_Yang_fsu_0071E_16792</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-05-23T16:09:53.352975-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Efficient Indexing Methods for Query Processing on Large Graphs</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-9266-6701</mods:nameIdentifier>
+      <mods:namePart type="family">Liang</mods:namePart>
+      <mods:namePart type="given">Yongjiang</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/zhao">
+      <mods:namePart type="family">Zhao</mods:namePart>
+      <mods:namePart type="given">Peixiang</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jzhang4">
+      <mods:namePart type="family">Zhang</mods:namePart>
+      <mods:namePart type="given">Jinfeng</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Statistics Professor)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/piyush">
+      <mods:namePart type="family">Kumar</mods:namePart>
+      <mods:namePart type="given">Piyush</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Computer Science Professor)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/liux">
+      <mods:namePart type="family">Liu</mods:namePart>
+      <mods:namePart type="given">Xiuwen</mods:namePart>
+      <mods:namePart type="date">1966-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Computer Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (112 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>As the standard formalism and powerful abstraction of networked data, graphs have been used to model and interpret structured information from protein interaction and program dependence, to business coordination and Internet topology. The proliferation of graphs has sparked a growing interest in enabling efficient accessmethods and flexible, structure-aware querying capabilities on large graphs. In order to account for noisy and distorted information arising unavoidably in real-world graphs, and to virtually any graph management tasks, it is essential and highly desirable to enable locating user-specified graph patterns on large graphs. In this thesis, we worked on subgraph query and similarity search problems on large graphs. In our first project, we worked on subgraph query problem. We consider subgraph querying with the availability of query workload information, W = {w₁,...,wₙ}, where wᵢ ϵ W is a previously issued query with all its subgraph-isomorphic embeddings identified and cached beforehand. Given a new query q, our goal is to exploit W for subgraph query processing and optimization of q in g. We introduce a new, workload-aware subgraph querying framework, WaSQ (Workload-aware Subgraph Querying), built upon key insights that query workload can be effectively leveraged for subgraph query rewriting, search plan refinement, partial results reusing, and false-positive embedding filtering toward expediting the whole subgraph querying process. In our second project, we worked on the single-query based similarity search problem. Formally, given a graph database {G} = {g₁, g₂,..., gₙ} and a query graph q, we aim to search the graph gᵢ ϵ {G} such that the graph edit distance between gᵢ and q, GED(gᵢ, q), is within a user-specified GED threshold, τ. We propose a parameterized, partition-based GED lower bound that can be instantiated into a series of tight lower bounds towards synergistically pruning false-positive graphs from {G} before costly GED computation is performed. We design an efficient, selectivity-aware algorithm to partition graphs of {G} into highly selective subgraphs. They are further incorporated in a cost-effective, multi-layered indexing structure, ML-index (Multi-Layered Index), for GED lower bound crosschecking and false-positive graph filtering with theoretical performance guarantees. In our third project, we consider the multi-query optimization problem, where a set of graph similarity queries, modeled by the well-known graph edit distance (GED) constraint, are posed against a graph database. We examine a new approach to enhancing collective pruning and querying capabilities for graph similarity search in a multi-query scenario. In light of the key observation that relates varying-size frequent and rare subgraph patterns to (mis)matching partitions, we select in a principled way salient features to enable selectivity-aware, feature-based graph partitioning, leading to enhanced filtering capabilities for multi-query optimization. Furthermore, we propose multi-query grouping and ordering techniques to further speedup multi-query processing.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Computer Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 2, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">Indexing, Query Processing, Similarity Search, Subgraph matching</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Peixiang Zhao, Professor Directing Dissertation; Jinfeng Zhang, University Representative; Piyush Kumar, Committee Member; Xiuwen Liu, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh89003285">
+      <mods:topic>Computer science</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Fall_Liang_fsu_0071E_16814</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Computer Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-05-23T16:09:53.352975-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

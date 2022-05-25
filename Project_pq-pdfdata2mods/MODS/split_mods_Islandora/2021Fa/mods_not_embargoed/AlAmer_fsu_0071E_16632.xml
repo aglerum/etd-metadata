@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Modeling Heterogeneity in Bayesian Meta-Analysis</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <namePart type="family">Al Amer</namePart>
+      <namePart type="given">Fahad</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/llin4">
+      <namePart type="family">Lin</namePart>
+      <namePart type="given">Lifeng</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/liux">
+      <namePart type="family">Liu</namePart>
+      <namePart type="given">Xiuwen</namePart>
+      <namePart type="date">1966-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/xzhang8">
+      <namePart type="family">Zhang</namePart>
+      <namePart type="given">Xin</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/jrbradley">
+      <namePart type="family">Bradley</namePart>
+      <namePart type="given">Jonathan R.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Statistics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (105 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Meta-analysis has been frequently used to combine findings from independent studies in many areas. Bayesian methods are an important set of tools for performing meta-analyses. They avoid some potentially unrealistic assumptions that are required by conventional frequentist methods. More importantly, meta-analysts can incorporate prior information from many sources, including experts' opinions and prior meta-analyses. Nevertheless, Bayesian methods are used less frequently than conventional frequentist methods, primarily because of the need for nontrivial statistical coding, while frequentist approaches can be implemented via many user-friendly software packages. This thesis divide into three parts, the first part aims at providing a practical review of implementations for Bayesian meta-analyses with various prior distributions. We present Bayesian methods for meta-analyses with the focus on a univariate meta-analysis of odds ratio for binary outcomes. We summarize various commonly used prior distribution choices for the between-studies heterogeneity variance, a critical parameter in meta-analyses. They include the inverse-gamma, uniform, and half-normal distributions, as well as evidence-based informative log-normal priors. Five real-world examples are presented to illustrate their performance. Under certain circumstances, Bayesian methods can produce markedly different results from those by frequentist methods, including a change in decision on statistical significance. When data information is limited, the choice of priors may have a large impact on meta-analytic results, in which case sensitivity analyses are recommended. Moreover, the algorithm for implementing Bayesian analyses may not converge for extremely sparse data; caution is needed in interpreting respective results. As such, convergence should be routinely examined. When select statistical assumptions made by conventional frequentist methods are violated, Bayesian methods provide a reliable alternative to perform a meta-analysis. A critical issue of meta-analysis is that the combined studies could be heterogeneous because of differences in study populations, design conducts, etc. Thus, heterogeneity is an issue that can affect the validity of meta-analytic results. In the existence of heterogeneity, a random-effects meta-analysis is considered an appropriate model to estimate a summary effect and a between-study variance. For several studies, conventional methods could be used to estimate the random-effects meta-analysis model, but the estimate of between-study heterogeneity could be imprecise in the case of few studies, and this imprecision is not acknowledged. In this situation, a Bayesian random-effects meta-analysis is advantageous in accounting for all sources of uncertainty. The second part of this thesis uses Bayesian methods to examine the impact of meta-analysis characteristics on between-study heterogeneity by analyzing data from a large collection of meta-analyses with binary outcomes. We classify and examine all included meta-analyses by outcome types and intervention comparison types. Then, based on these outcome and intervention classifications, we derive a set of predictive distributions for the extent of between-study variance expected in a future meta-analysis in different effect measures. These findings may help researchers to use them as informative prior distributions in new meta-analyses of binary outcomes. The last part of this thesis quantifies the between-study heterogeneity by using prediction intervals. By reporting the prediction interval, we show how often there is a contradiction in the conclusion compared to the conclusion based on the confidence interval. We also show the benefits of reporting the prediction interval in a meta-analysis, which has a straightforward clinical meaning that may guide researchers to expect the true effects in future settings. In addition, we use a large collection of meta-analyses from the Cochrane Database of Systematic Reviews to evaluate the real-world performance of the prediction interval. We assess whether the previous meta-analysis successfully predicts a future study or a study not included in the meta-analysis based on publication years. This assessment is illustrated using a case study. In the existence of heterogeneity, a random-effects meta-analysis is considered an appropriate model to estimate a summary effect and a between-study variance. For many studies, conventional methods could be used to estimate the random-effects meta-analysis model, but the estimate of between-study heterogeneity could be imprecise in the case of few studies as well as this imprecision is not acknowledged. In this situation, a Bayesian random-effects meta-analysis is advantageous in accounting for all sources of uncertainty. The second part of this thesis uses Bayesian methods to examine the impact of meta-analysis characteristics on between-study heterogeneity by analyzing data from a large collection of meta-analyses with binary outcomes. We classify and examine all included meta-analyses by outcome types and intervention comparison types. We derive a set of predictive distributions for the extent of between-study variance expected in a future meta-analysis in various effect measures. These findings may help researchers to use them as informative prior distributions in new meta-analyses of binary outcomes. The last part of this thesis quantifies the between-study heterogeneity by using prediction intervals. By reporting the prediction interval, we show how often there is a contradiction in the conclusion compared to the conclusion based on the confidence interval. We also show the benefits of reporting the prediction interval in a meta-analysis, which has a straightforward clinical meaning that may guide researchers to expect the true effects in future settings. In addition, we assess whether the previous meta-analysis successfully predicts a future study or a study not included in the meta-analysis based on publication years. This assessment is illustrated using a case study.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">July 2, 2021.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Lifeng Lin, Professor Directing Dissertation; Xiuwen Liu, University Representative; Xin Zhang, Committee Member; Jonathan Bradley, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <topic>Statistics</topic>
+   </subject>
+   <identifier  type="IID">2021_Fall_AlAmer_fsu_0071E_16632</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2022-05-23T16:09:53.352975-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

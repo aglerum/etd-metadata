@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Characterizing the Tissue-Specific and Epigenetic Gene Regulation of Transcriptional and Post-Transcriptional Responses in Maize</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-3446-6816</mods:nameIdentifier>
+      <mods:namePart type="family">Schulte</mods:namePart>
+      <mods:namePart type="given">Lauren Michelle</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kmcginnis">
+      <mods:namePart type="family">McGinnis</mods:namePart>
+      <mods:namePart type="given">Karen M.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/levenson">
+      <mods:namePart type="family">Levenson</mods:namePart>
+      <mods:namePart type="given">Cathy W.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ebangi">
+      <mods:namePart type="family">Bangi</mods:namePart>
+      <mods:namePart type="given">Erdem</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/nb2012004932">
+      <mods:namePart type="family">Bass</mods:namePart>
+      <mods:namePart type="given">Hank W.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="viaf"
+              authorityURI="http://viaf.org/viaf/"
+              valueURI="http://viaf.org/viaf/171975698">
+      <mods:namePart type="family">Dennis</mods:namePart>
+      <mods:namePart type="given">Jonathan Hancock</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Biological Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2021</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (80 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Plants regulate gene expression at the transcriptional and post-transcriptional levels to produce a variety of functionally diverse cells and tissues that ensure normal growth, development, and environmental response. Although distinct gene expression patterns have been characterized between different plant tissues, it is unclear if transcriptional regulation drives the development of these plant tissues. Additionally, transcriptional gene silencing pathways, like the RNA-directed DNA Methylation (RdDM) pathway, regulate the transcriptional silencing of a variety of loci across the genome influencing gene expression. However, the effects of the RdDM pathway on genes are not always direct or immediate and need to be explored further. RNA-seq, while widely used to assay for changes in transcript abundance, does not discriminate between differential expression caused by mRNA degradation and active transcription. Recently, the presence of intron sequences in RNA-seq analysis of libraries constructed with total RNA has been found to coincide with genes undergoing active transcription. In one study, I adapted the intron RNA-sequencing (iRNA-seq) analysis to determine genome-wide transcriptional activity in two different maize (Zea mays) tissues: husk and V2-inner stem tissue. A total of 5,341 genes were predicted to be transcriptionally differentially expressed between the two tissues, including many genes expected to have biological activity relative to the identity of each tissue. Correlations with transcriptional enhancer and transcription factor activity support the validity of iRNA-seq predictions of transcriptional regulation. A subset of transcription factors were further analyzed using gene regulatory network analysis to determine the impact of their tissue-specific activation. The predicted regulatory patterns between these genes were used to model a potential tissue-specific gene regulatory network of transcription factors and regulatory targets. In another study, iRNA-seq analysis was used to determine genome-wide transcriptional activity in two maize RdDM mutants: mop1-1 and mop3-1. MEDIATOR OF PARAMUTATION 1 (MOP1) is an RNA-dependent RNA polymerase required for the progression of the RdDM pathway and MOP3 is the largest subunit of RNA polymerase IV (Pol IV), the initiating polymerase of the RdDM pathway. The loss of RdDM machinery seen in RdDM mutants illustrates the influence of RdDM activity on gene expression. However, due to the nature of silencing activity, a cascade of gene regulatory effects could be influenced, making the characterization of RdDM protein coding gene targets challenging. Genes predicted to undergo changes in transcriptional activity via iRNA-seq analysis in these RdDM mutants have the potential to be RdDM gene targets. In some cases, these changes in transcriptional activity were found to associate with RdDM produced small interfering RNAs (siRNAs). Differentially expressed genes with an siRNA association were further evaluated for additional regulatory activity using a gene regulatory network analysis, leading to the development of a model for RdDM activity that describes RdDM immediate and secondary gene regulatory effects. These studies provide a new maize bioinformatic tool, increasing the resources available to maize researchers, and increase our understanding of gene regulation in maize through the prediction of various regulatory mechanisms and their targets.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Biological Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 12, 2021.</mods:note>
+   <mods:note displayLabel="Keywords">epigenetic gene regulation, gene regulation, iRNA-seq analysis, maize, tissue-specific, transcriptional activity</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Karen M. McGinnis, Professor Directing Dissertation; Cathy W. Levenson, University Representative; Erdem Bangi, Committee Member; Hank W. Bass, Committee Member; Jonathan H. Dennis, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85014203">
+      <mods:topic>Biology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85053877">
+      <mods:topic>Genetics</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85015976">
+      <mods:topic>Botany</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2021_Fall_Schulte_fsu_0071E_16870</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Biological Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-05-23T16:09:53.352975-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>
