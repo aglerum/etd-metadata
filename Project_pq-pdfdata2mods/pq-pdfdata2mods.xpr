@@ -10,6 +10,66 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>source_pdfdata/source_pdfdata_2021Fa_uris.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>get pdfdata author names</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>source_DATA/source_DATA_2021Fa.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>derive_MARC_from_ProQuest_Data</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>source_DATA/source_DATA_name_test.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>derive_MARC_from_ProQuest_Data</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>MODS/corrected_files/2021Fa/source_DATA_2021Fa_CORRECTED_no_namespace.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -2650,26 +2710,6 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>source_DATA/source_DATA_2021Fa.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>pq-pdfdata2mods</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>MODS/mods_results/source_DATA_2021Fa_mods_result.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -2695,26 +2735,6 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>pq-pdfdata2mods</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>source_pdfdata/source_pdfdata_2021Fa_uris.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>get pdfdata author names</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -2770,71 +2790,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>source_DATA/source_DATA_2021Su.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>derive_MARC_from_ProQuest__Data</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>PDFData/XML/Results/source_pdfdata_2021Fa_result_corrected.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
                                         <String>add URIs to PDF data</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>source_DATA/source_DATA_2020Sp.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>derive_MARC_from_ProQuest__Data</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>source_pdfdata/source_pdfdata_2021SuStraggler_uris.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>derive_MARC_from_ProQuest__Data</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -6053,7 +6013,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>derive_MARC_from_ProQuest__Data</String>
+                                    <String>derive_MARC_from_ProQuest_Data</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
@@ -6089,10 +6049,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="openInBrowser">
-                                    <Boolean>true</Boolean>
+                                    <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputResource">
-                                    <String>C:/Users/achisum.FSU/OneDrive - Florida State University/Documents/GitHub/etd-metadata/Project_pq-pdfdata2mods/MARC/Bibs/${cfn}.xml</String>
+                                    <String>C:/Users/achisum.FSU/OneDrive - Florida State University/Documents/GitHub/etd-metadata/Project_pq-pdfdata2mods/MARC/Bibs/MARC_2021Fa.xml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -6101,13 +6061,13 @@
                                     <null/>
                                 </field>
                                 <field name="openInEditor">
-                                    <Boolean>false</Boolean>
+                                    <Boolean>true</Boolean>
                                 </field>
                                 <field name="showInHTMLPane">
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInXMLPane">
-                                    <Boolean>true</Boolean>
+                                    <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInSVGPane">
                                     <Boolean>false</Boolean>

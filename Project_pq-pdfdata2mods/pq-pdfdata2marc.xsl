@@ -4,8 +4,7 @@
     xmlns:mads="http://www.loc.gov/mads/v2" xmlns:fsul="http://www.lib.fsu.edu"
     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" exclude-result-prefixes="fsul xs xsl xd"
     xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
-    xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3"
     xmlns:dcterms="http://purl.org/dc/terms/"
     xmlns:oasis="http://www.niso.org/standards/z39-96/ns/oasis-exchange/table">
     <xd:doc scope="stylesheet">
@@ -30,15 +29,14 @@
 
     <!-- **Global variables** -->
     <!-- Batch Variable -->
-    <xsl:variable name="batch" select="'2021_Summer'"/>
+    <xsl:variable name="batch" select="'2021_Fall'"/>
 
     <!-- These paths change with each semester-->
     <xsl:variable name="pdfdata"
-        select="document('source_pdfdata/source_pdfdata_2021Su_uris.xml')/records/record"/>
+        select="document('source_pdfdata/source_pdfdata_2021Fa_uris.xml')/records/record"/>
     <xsl:variable name="committee"
-        select="document('tables/ETD-NAF_mads_20220120.xml')/mads:madsCollection/mads:mads/mads:authority"/>
-    <xsl:variable name="authors" 
-        select="document('tables/authors_2021Su.xml')/authors/name"/>
+        select="document('tables/ETD-NAF_mads_20220520.xml')/mads:madsCollection/mads:mads/mads:authority"/>
+    <xsl:variable name="authors" select="document('tables/authors_2021Fa.xml')/authors/name"/>
 
     <!-- These paths refer to data tables -->
     <xsl:variable name="PQ-FSU-dept"
@@ -52,7 +50,7 @@
             </xd:p>
         </xd:desc>
     </xd:doc>
-    <xsl:template name="MARC_Template" match="/diss">
+    <xsl:template name="MARC_Template" match="/DISS">
         <!--Container for multiple MARC records-->
         <marc:collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
@@ -61,6 +59,8 @@
                 <xsl:variable name="embargo">
                     <xsl:value-of select="@embargo_code"/>
                 </xsl:variable>
+                <xsl:variable name="dissLanguage"
+                    select="DISS_description/DISS_categorization/DISS_language"/>
 
                 <!--<xsl:variable name="orcid">
                     <xsl:value-of select="DISS_authorship/DISS_author/DISS_orcid"/>
@@ -131,9 +131,9 @@
                     <marc:controlfield tag="008">
 
                         <xsl:variable name="lang">
-                            <xsl:for-each select="lang">
+                            <xsl:for-each select="$dissLanguage">
                                 <xsl:value-of
-                                    select="document('tables/languages.xml')/*/*[diss_lang = current()]/*[(self::oclc_lang)]"
+                                    select="document('tables/lang.xml')/*/*[diss_lang = current()]/*[(self::oclc_lang)]"
                                 />
                             </xsl:for-each>
                         </xsl:variable>
@@ -176,8 +176,8 @@
                         <xsl:with-param name="binary" select="$binary"/>
                         <xsl:with-param name="authors" select="$authors"/>
                     </xsl:call-template>
-                   
-                    
+
+
                     <!--245 field: Title and responsibility statement-->
                     <!--Calls parse+title template to set correct indicator, split subtitle into $b and add responsibility to $c.-->
 
@@ -239,18 +239,22 @@
                         <xsl:choose>
                             <xsl:when test="contains($title, ':')">
                                 <marc:subfield code="a">
-                                    <xsl:value-of select="substring-before($title, ':')"/> :</marc:subfield>
+                                    <xsl:value-of select="substring-before($title, ':')"/>
+                                    :</marc:subfield>
                                 <marc:subfield code="b">
                                     <xsl:value-of select="substring-after($title, ': ')"/>
+                                    <xsl:text> /</xsl:text>
                                 </marc:subfield>
                             </xsl:when>
                             <xsl:when test="not(contains($title, ':'))">
                                 <marc:subfield code="a">
                                     <xsl:value-of select="$title"/>
+                                    <xsl:text> /</xsl:text>
                                 </marc:subfield>
                             </xsl:when>
                         </xsl:choose>
                         <marc:subfield code="c">
+                            <xsl:text>by </xsl:text>
                             <xsl:value-of select="$responsibility"/>
                         </marc:subfield>
                     </marc:datafield>
@@ -259,7 +263,7 @@
                     <!-->264 field: Publication statement-->
                     <marc:datafield tag="264" ind1=" " ind2="1">
                         <marc:subfield code="a">Tallahassee, Florida :</marc:subfield>
-                        <marc:subfield code="b">Florida State University</marc:subfield>
+                        <marc:subfield code="b">Florida State University,</marc:subfield>
                         <marc:subfield code="c">
                             <xsl:value-of select="$Published"/>
                         </marc:subfield>
@@ -296,11 +300,15 @@
                         <marc:subfield code="2">rdacarrier</marc:subfield>
                     </marc:datafield>
 
-                    <!--347 field: Digital file characteristics-->
+                    <!--347 field: Digital file characteristics RDA-->
                     <marc:datafield tag="347" ind1=" " ind2=" ">
                         <marc:subfield code="a">text file</marc:subfield>
+                        <marc:subfield code="2">rdaft</marc:subfield>
+                    </marc:datafield>
+
+                    <!--347 field: Digital file characteristics-->
+                    <marc:datafield tag="347" ind1=" " ind2=" ">
                         <marc:subfield code="b">PDF</marc:subfield>
-                        <marc:subfield code="2">rda</marc:subfield>
                     </marc:datafield>
 
                     <!--538 field: System details note-->
@@ -368,6 +376,7 @@
                         <marc:subfield code="a">
                             <xsl:value-of
                                 select="normalize-space(concat('Date of Defense: ', $defense))"/>
+                            <xsl:text>.</xsl:text>
                         </marc:subfield>
                     </marc:datafield>
 
@@ -381,6 +390,7 @@
                         <marc:datafield tag="500" ind1=" " ind2=" ">
                             <marc:subfield code="a">
                                 <xsl:value-of select="concat('Keywords: ', $keywords)"/>
+                                <xsl:text>.</xsl:text>
                             </marc:subfield>
                         </marc:datafield>
                     </xsl:if>
@@ -480,6 +490,26 @@
                             >http://id.loc.gov/authorities/names/n80126238</marc:subfield>
                     </marc:datafield>
 
+                    <!--856 field: Electronic location and access-->
+
+                    <marc:datafield tag="856" ind1="4" ind2="0">
+                        <xsl:variable name="semester">
+                            <xsl:text>2021_Fall_</xsl:text>
+                        </xsl:variable>
+                        <marc:subfield code="u">
+                            <xsl:for-each select="$binary">
+                                <xsl:variable name="purl_file">
+                                    <xsl:value-of
+                                        select="substring-before($pdfdata[filename = current()]/*[(self::filename)], '.pdf')"/>
+                                </xsl:variable>
+                                <xsl:value-of
+                                    select="concat('https://purl.lib.fsu.edu/diginole/', $semester, $purl_file)"/>
+                            </xsl:for-each>
+                        </marc:subfield>
+                        <marc:subfield code="y">Connect to online content</marc:subfield>
+                    </marc:datafield>
+
+
                     <!--931 field: Uncontrolled personal name-->
                     <!-- *Committee members* -->
                     <xsl:call-template name="committee_names">
@@ -495,18 +525,6 @@
                         </marc:subfield>
                         <marc:subfield code="9">LOCAL</marc:subfield>
                     </marc:datafield>
-
-                    <!--856 field: Electronic location and access-->
-
-                    <!--<marc:datafield tag="856" ind1="4" ind2="0">
-                            <marc:subfield code="u">
-                                <xsl:for-each select="$binary">
-                                    <xsl:value-of
-                                        select="$pdfdata[filename = current()]/*[(self::url)]"/>
-                                </xsl:for-each>
-                            </marc:subfield>
-                            <marc:subfield code="y">Connect to online content</marc:subfield>
-                        </marc:datafield>-->
 
                     <!-- 903 field: locally defined -->
                     <!--This field can be used for identifying a record's embargo status. It would not remain on the OCLC master record and can be deleted when exported to Aleph -->

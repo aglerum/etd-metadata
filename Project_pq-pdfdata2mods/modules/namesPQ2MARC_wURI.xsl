@@ -28,7 +28,7 @@
             <xd:p><xd:b>Title: </xd:b>Author Names Template</xd:p>
         </xd:desc>
     </xd:doc>
-   
+
     <!-- *Author name* -->
     <xsl:template name="author_name">
         <xsl:param name="binary"/>
@@ -36,18 +36,27 @@
         <xsl:for-each select="$binary">
             <marc:datafield tag="100" ind1="1" ind2=" ">
                 <marc:subfield code="a">
-                    <xsl:value-of select="$authors[filename = current()]/*[(self::family)]"/>, <xsl:value-of select="$authors[filename = current()]/*[(self::given)]"/>
+                    <xsl:value-of select="$authors[filename = current()]/*[(self::family)]"/>
+                    <xsl:text>, </xsl:text>
+                    <xsl:value-of select="$authors[filename = current()]/*[(self::given)]"/>
+                    <xsl:choose>
+                        <xsl:when test="$authors[filename = current()]/*[(self::fuller)] = ''">
+                            <xsl:text>,</xsl:text>
+                        </xsl:when>
+                    </xsl:choose>
                 </marc:subfield>
                 <!-- Note that in some semesters the author names may not have any suffixes -->
                 <xsl:if test="$authors[filename = current()]/*[(self::suffix)] ne ''">
-                        <marc:subfield code="c">
-                            <xsl:value-of select="$authors[filename = current()]/*[(self::suffix)]"/>
-                        </marc:subfield> 
+                    <marc:subfield code="c">
+                        <xsl:value-of select="$authors[filename = current()]/*[(self::suffix)]"/>
+                        <xsl:text>,</xsl:text>
+                    </marc:subfield>
                 </xsl:if>
                 <xsl:if test="$authors[filename = current()]/*[(self::fuller)] ne ''">
                     <marc:subfield code="q">
                         <xsl:value-of select="$authors[filename = current()]/*[(self::fuller)]"/>
-                    </marc:subfield> 
+                        <xsl:text>,</xsl:text>
+                    </marc:subfield>
                 </xsl:if>
                 <marc:subfield code="e">
                     <xsl:value-of select="'author'"/>
@@ -80,29 +89,100 @@
                                 if (mads:namePart[@type = 'fullerForm']) then
                                     mads:namePart[@type = 'fullerForm']
                                 else
-                                    ()"/>
-                        <xsl:variable name="termsOfAddress">
-                            <xsl:if test="mads:namePart[@type = 'termsOfAddress']">
-                                <xsl:value-of select="mads:namePart[@type = 'termsOfAddress']"/>
-                            </xsl:if>
-                        </xsl:variable>
+                                    ''"/>
+                        <xsl:variable name="termsOfAddress"
+                            select="
+                                if (mads:namePart[@type = 'termsOfAddress']) then
+                                    mads:namePart[@type = 'termsOfAddress']
+                                else
+                                    ''"/>
+                        <xsl:variable name="nameDate"
+                            select="
+                                if (mads:namePart[@type = 'date']) then
+                                    mads:namePart[@type = 'date']
+                                else
+                                    ''"/>
                         <marc:datafield tag="931" ind1="1" ind2=" ">
                             <marc:subfield code="a">
-                                <xsl:value-of select="mads:namePart[@type = 'family']"/>, <xsl:value-of select="mads:namePart[@type = 'given']"/>
+                                <xsl:value-of select="$family"/>
+                                <xsl:text>, </xsl:text>
+                                <xsl:value-of select="$given"/>
+                                <xsl:choose>
+                                    <!-- When fuller form is empty, AND... -->
+                                    <xsl:when test="$fullerForm = ''">
+                                        <xsl:choose>
+                                            <!-- When terms of address is empty, add comma to subfield a -->
+                                            <xsl:when test="$termsOfAddress = ''">
+                                                <xsl:text>,</xsl:text>
+                                            </xsl:when>
+                                            <!-- When terms of address is NOT empty, AND... -->
+                                            <xsl:otherwise>
+                                                <xsl:choose>
+                                                  <!-- When terms of address does NOT start with parentheses, add comma to subfield a -->
+                                                  <xsl:when
+                                                  test="not(starts-with($termsOfAddress, '('))">
+                                                  <xsl:text>,</xsl:text>
+                                                  </xsl:when>
+                                                  <!-- When terms of address DOES start with parentheses, do not add comma to subfield a -->
+                                                  <xsl:otherwise/>
+                                                </xsl:choose>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:choose>
+                                            <!-- When fuller form is not empty, AND... -->
+                                            <xsl:when test="not($fullerForm = '')">
+                                                <xsl:choose>
+                                                  <!-- When terms of address is not empty, AND... -->
+                                                  <xsl:when test="not($termsOfAddress = '')">
+                                                    <xsl:choose>
+                                                        <!-- When terms of address does NOT start with parentheses, add comma to subfield a -->
+                                                        <xsl:when test="not(starts-with($termsOfAddress, '('))">
+                                                            <xsl:text>,</xsl:text>
+                                                        </xsl:when>
+                                                        <!-- When terms of address DOES start with parentheses, do not add comma to subfield a -->
+                                                        <xsl:otherwise/>
+                                                    </xsl:choose>
+                                                  </xsl:when>
+                                                  <!-- When terms of address IS empty, do not add comma to subfield a -->
+                                                  <xsl:otherwise/>
+                                                </xsl:choose>
+                                            </xsl:when>
+                                        </xsl:choose>
+                                    </xsl:otherwise>
+                                </xsl:choose>
                             </marc:subfield>
                             <xsl:if test="mads:namePart[@type = 'termsOfAddress']">
                                 <marc:subfield code="c">
-                                    <xsl:value-of select="mads:namePart[@type = 'termsOfAddress']"/>
+                                    <xsl:value-of select="$termsOfAddress"/>
+                                    <xsl:choose>
+                                        <!-- When fuller form is empty, add comma to subfield c -->
+                                        <xsl:when test="$fullerForm = ''">
+                                            <xsl:text>,</xsl:text>
+                                        </xsl:when>
+                                        <!-- When fuller form is NOT empty, do NOT add comma to subfield c -->
+                                        <xsl:otherwise/>
+                                    </xsl:choose>
                                 </marc:subfield>
                             </xsl:if>
                             <xsl:if test="mads:namePart[@type = 'fullerForm']">
                                 <marc:subfield code="q">
-                                    <xsl:value-of select="mads:namePart[@type = 'fullerForm']"/>
+                                    <xsl:value-of select="$fullerForm"/>
+                                    <xsl:text>,</xsl:text>
                                 </marc:subfield>
                             </xsl:if>
                             <xsl:if test="mads:namePart[@type = 'date']">
                                 <marc:subfield code="d">
-                                    <xsl:value-of select="mads:namePart[@type = 'date']"/>
+                                    <xsl:value-of select="$nameDate"/>
+                                    <xsl:choose>
+                                        <!-- When date does NOT end in a hyphen, add a comma to subfield d -->
+                                        <xsl:when test="not(ends-with($nameDate, '-'))">
+                                            <xsl:text>,</xsl:text>
+                                        </xsl:when>
+                                        <!-- When date DOES end in a hypen, do NOT add comma to subfield d -->
+                                        <xsl:otherwise/>
+                                    </xsl:choose>
                                 </marc:subfield>
                             </xsl:if>
                             <marc:subfield code="e">
@@ -116,6 +196,6 @@
         </xsl:for-each>
     </xsl:template>
 
-    
+
 
 </xsl:stylesheet>
