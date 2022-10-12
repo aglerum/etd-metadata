@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Preschool Teacher Identity, Daily Work, and Job Satisfaction in a High-Quality Preschool Context</mods:title>
+      <mods:subTitle>A Feminist Case Study</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-3957-4664</mods:nameIdentifier>
+      <mods:namePart type="family">Snowden</mods:namePart>
+      <mods:namePart type="given">Emily A.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2011024781">
+      <mods:namePart type="family">Jones</mods:namePart>
+      <mods:namePart type="given">Ithel</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2013033964">
+      <mods:namePart type="family">Dowell</mods:namePart>
+      <mods:namePart type="given">Kristin L.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/akhurshid">
+      <mods:namePart type="family">Khurshid</mods:namePart>
+      <mods:namePart type="given">Ayesha</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/nb2016004418">
+      <mods:namePart type="family">Clark</mods:namePart>
+      <mods:namePart type="given">Kathleen (Kathleen M.)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Education</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>School of Teacher Education</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (169 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Despite the fact that high-quality preschool education is empirically acknowledged to facilitate short- and long-term personal, social, cognitive, and economic benefits, the professionals who teach preschool experience overwhelmingly poor working conditions that have historically been present as the role of childcare worker persisted throughout time. A contributor to these poor working conditions has been the gendering of the workforce—a reality that has often been justified with the perspective that women 'naturally' have caring instincts. However, those claims have been consistently contradicted and revealed that this feminization was historically centered on the commodification of breast milk—a concern that has since been mitigated by technological advancements. To address this issue in the field, this dissertation begins to provide contextualized descriptions of preschool teaching that are informed by the lived experiences of preschool teachers working in a high-quality preschool. Findings revealed that the work environment of the Lead Teachers is the immediate context that children are developing in and that in that context their role is to facilitate and engage the children in informed, intentional, and appropriate reciprocal interactions. This runs counter to the notion that high-quality preschool teaching and caregiving requires essentialized feminine qualities, instead highlighting how central social-emotional development is to early childhood education and care as well as how definitions and perceptions of quality need to be holistic and specific to the community context being served.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the School of Teacher Education in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">February 23, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">Early Childhood, High-quality preschool, Preschool, Preschool Teacher, Quality improvement, Wet Nurse</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Ithel Jones, Professor Directing Dissertation; Kristin Dowell, University Representative; Ayesha Khurshid, Committee Member; Kathleen Clark, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh87007854">
+      <mods:topic>Early childhood education</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh2011002609">
+      <mods:topic>Gender expression</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh91003756">
+      <mods:topic>Gender identity</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85132999">
+      <mods:topic>Teachers</mods:topic>
+      <mods:topic>Training of</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Snowden_fsu_0071E_16979</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Teacher Education</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

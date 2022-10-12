@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Conversion of Light to Electrical and Mechanical Energy via Triplet Sensitization</title>
+      <nonSort>The</nonSort>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-9605-1803</nameIdentifier>
+      <namePart type="family">Beery</namePart>
+      <namePart type="given">Drake</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/kghanson">
+      <namePart type="family">Hanson</namePart>
+      <namePart type="given">Kenneth G.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/pandrei">
+      <namePart type="family">Andrei</namePart>
+      <namePart type="given">Petru</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/latturne">
+      <namePart type="family">Latturner</namePart>
+      <namePart type="given">Susan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/kennemur">
+      <namePart type="family">Kennemur</namePart>
+      <namePart type="given">Justin Glenn</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Chemistry and Biochemistry</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (114 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>Light-matter interactions have not only enhanced our fundamental understanding of the universe but also plays a significant role in the advancement of technology. Scientific research in this area has led to breakthroughs in materials applications from photomechanics to photocatalysis, and the world's need for new forms of energy production through renewables has brought about exciting new advances in the field of solar energy conversion (SEC). While current SEC technologies have made significant strides over the years they are limited by the cost of production and their inability to harness the full spectrum of the sun efficiently. Incorporating photon upconversion, via triplet−triplet annihilation (TTA-UC), directly into a solar cell is an intriguing strategy for harnessing sub-band gap photons and surpassing the Shockley-Queisser limit. A majority of TTA-UC solar cells commonly use difficult to synthesize and costly platinum and/or palladium porphyrin molecules as sensitizers. Chapter 3 presents a TTA-UC solar cell that incorporates quantum dot sensitizers directly into the photocurrent generation mechanism. The photoanodes are composed of a nanocrystalline TiO2 substrate, phosphonated diphenylanthracene (A) annihilator molecules, and CdSe QDs (QD) as the sensitizer in an inorganic-organic-inorganic layered architecture (TiO2-A-QD). The device assembly, performance, energy and electron dynamics, and dependence on the QD size is examined. Collectively, the results demonstrate that multilayer assemblies containing QD sensitizers is an effective strategy to harness UC in a TTA-UC solar cell. However, all integrated TTA-UC solar cells to date only harness visible light. In chapter 4, we incorporate an osmium polypyridal complex (Os) as the triplet sensitizer in a metal ion linked multilayer photoanode that is capable of harnessing NIR light via S0 to T1* excitation, triple energy transfer to a phosphonated bis(9,10-diphenylethynyl)anthracene annihilator (A2), TTA-UC, and electron injection into TiO2 from the upconverted state. The device assembly, performance, energy and electron dynamics are examined. Together, the results serve as a proof-of-concept that NIR photons can be harnessed via an integrated TTA-UC solar cell. Chapter 5 looks at another intriguing materials application of light-matter interactions in photoresponsive polymers. To date, nearly all photomechanical polymers utilize the azobenzene moiety whose direct excitation and trans-cis-trans isomerization induces a bulk mechanical response under UV/visible light. Due to its higher isomerization barrier, stilbene, the carbon based analogue of azobenzene, has the potential to produce a stronger mechanical response but has remained unused in photomechanics likely due to its hypsochromically shifted absorption that requires higher energy and damaging UV light to elicit a response. This chapter utilizes triplet excited state sensitization as a new mechanism to harness light in a stilbene based photopolymer. More specifically, iridium(III)bis[2-(4,6-difluorophenyl)pyridinato-C2,N](picolinato) (FIrPic) is incorporated as a triplet sensitizing dopant into a stilbene-based polyimide polymer film. Spectroscopic measurements support a stepwise mechanism involving 1) excitation of the sensitizers, 2) triplet energy transfer from the sensitizer to the stilbene moieties, 3) trans-cis-trans isomerization of stilbene, and 4) reorientation of stilbene within the polymer that results in a bulk response from the film. These results not only open the door to the use of stilbene-based photopolymers but also triplet sensitization as a new, low energy light harvesting mechanism in photomechanical polymers. The work presented in this dissertation looks to utilize triplet sensitization as a means of converting light to electrical and mechanical energy in TTA-UC solar cells and photomechanical polymers, respectively.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">March 29, 2022.</note>
+   <note displayLabel="Keywords">Photoisomerization, Photomechanical Polymers, Photon Upconversion, Solar Cell, Solar Energy Conversion, Triplet Sensitization</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Kenneth Hanson, Professor Directing Dissertation; Petru Andrei, University Representative; Susan E. Latturner, Committee Member; Justin G. Kennemur, Committee Member.</note>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85022986">
+      <topic>Chemistry</topic>
+   </subject>
+   <identifier type="IID">2022_Beery_fsu_0071E_17035</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Species-Habitat Relationships and Multi-Source Feeding in Apalachicola Bay Fishes</mods:title>
+      <mods:subTitle>Implications for Management</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-3583-5417</mods:nameIdentifier>
+      <mods:namePart type="family">Hamilton</mods:namePart>
+      <mods:namePart type="given">Blake Richard</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/dgrubbs2">
+      <mods:namePart type="family">Grubbs</mods:namePart>
+      <mods:namePart type="given">R. Dean</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/miller">
+      <mods:namePart type="family">Miller</mods:namePart>
+      <mods:namePart type="given">Thomas E.</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Professor of Biological Science)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n86861195">
+      <mods:namePart type="family">Travis</mods:namePart>
+      <mods:namePart type="given">Joseph</mods:namePart>
+      <mods:namePart type="date">1953-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Biological Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (66 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Coastal areas serve as vital habitat for many marine fishes. Estuaries are a type of coastal system in which freshwater input often drives broad gradients of environmental variables while transporting fluvial nutrient subsidies to marine systems. Increased nutrient levels contribute significantly to estuarine productivity, while wide ranges of abiotic conditions provide a diverse collection of environmental niches on both spatial and temporal scales. We aimed to understand the influence of environmental variables on the distribution and abundance of fishes as well as the contribution of various nutrient sources to fish biomass, both of which are necessary information for devising appropriate management strategies for commercially and recreationally exploited species in coastal systems. We documented large fish community structure in the Apalachicola Bay system (ABS) from 2018 to 2021 using fishery-independent longline and gillnet surveys. Spatiotemporal variation in fish assemblages was evaluated with permutational multivariate ANOVA, while community- and species-level habitat relationships were described across gradients of environmental variables with non-metric multidimensional scaling and generalized additive models. With samples collected from these surveys, we used carbon (δ 13C) and sulfur (δ 34S) stable isotope mixing models to identify the contribution of prey sources in a fluvial-dominated estuarine habitat relative to nearby seagrass and offshore reef habitats to five species of migratory shark. Fish communities varied spatially throughout the system, and changes in these communities were most strongly correlated with gradients in salinity, clarity, and depth. Sharks exhibited a strong reliance on prey from fluvial-dominated habitat with the youngest individuals displaying the highest reliance relative to larger individuals. We documented higher species richness and density of young elasmobranchs in our surveys compared to adjacent systems, supporting past suggestions that this area serves as important juvenile shark habitat. These findings illustrate the importance of a fluvial-dominated estuarine system to migratory marine predators in providing both habitat and important nutrient sources, especially in early life-stages. Changes to river-flow regimes could disrupt both the availability of diverse niches along a gradient of river-influence and the transport of fluvial nutrients to coastal marine systems, ultimately impacting migratory predator populations and their role in transporting these nutrients across the seascape.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Biological Science in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 1, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">elasmobranch, fisheries ecology, habitat modeling, mixing models, ontogenetic shifts, stable isotopes</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Ralph D. Grubbs, Professor Directing Thesis; Thomas Miller, Committee Member; Joe Travis, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85040752">
+      <mods:topic>Ecology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Hamilton_fsu_0071N_17048</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Biological Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

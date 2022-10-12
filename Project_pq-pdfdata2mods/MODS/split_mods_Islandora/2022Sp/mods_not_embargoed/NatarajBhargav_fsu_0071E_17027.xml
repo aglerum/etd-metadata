@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Experimental Characterization of Supersonic Dual Impinging Jet Flows</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-2868-2851</nameIdentifier>
+      <namePart type="family">Nataraj Bhargav</namePart>
+      <namePart type="given">Vikas</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/drrajank">
+      <namePart type="family">Kumar</namePart>
+      <namePart type="given">Rajan</namePart>
+      <namePart type="termsOfAddress">(Professor of Mechanical Engineering)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/falvi">
+      <namePart type="family">Alvi</namePart>
+      <namePart type="given">Farrukh S.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2011075473">
+      <namePart type="family">Tam</namePart>
+      <namePart type="given">Christopher K. W.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/clarkj">
+      <namePart type="family">Clark</namePart>
+      <namePart type="given">Jonathan E.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/jgustavsson">
+      <namePart type="family">Gustavsson</namePart>
+      <namePart type="given">Jonas</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (131 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>The impinging jet flowfield observed during take-off and landing of a STOVL aircraft is known to be associated with several adverse effects such as strong acoustic emission, unsteady structural loads, loss of engine efficiency due to hot gas ingestion, thermal stresses on the deck surface, and loss of lift. This flowfield has been well studied from the standpoint of characterizing the induced lift forces and moments caused by fountain flows, unique to such a flowfield. However, in the scenario of two such jets operating in tandem where properties are influenced by jet-jet interaction and coupling, are relatively unknown. Also, there is a lack of understanding of the consequences of difference in the momentum-flux and temperature of the two jets on the flow and acoustic properties. Therefore, the fundamental goal of this study is to systematically assess how different parameters such as momentum-flux and temperature affect the flow and acoustic properties of supersonic dual impinging jets. Thus, the three objectives of this study are: (1) How are the characteristics of supersonic dual impinging jets different from those of a supersonic single impinging jet? (2) What is the effect of relative momentum-flux between the two jets, on the aeroacoustic characteristics of supersonic dual impinging jets? (3) What is the effect of relative temperature, on the aeroacoustic characteristics of supersonic dual impinging jets? To address the first objective, experimental investigation of the flowfield associated with two, under-expanded impinging jets operating at a Nozzle Pressure Ratio (NPR) of 2.65, discharged from identical converging nozzles with an exit diameter of 25.4 mm, is performed. Comparisons with a single impinging jet, operating at the same conditions are provided through shadowgraph flow visualizations, nearfield acoustics, and surface pressure measurements. Fountain flow produced by the interaction of wall jets, a unique feature of dual impinging jets, is found to be relatively strong at short impingement heights and contributed to additional loads on the ground surface. Overall flow unsteadiness in dual jets is less than that in a single jet at conditions involving resonance and the fountain upwash plays an important role in the process. Although the feedback mechanism that drives the resonance in both impinging jet configurations is similar and the corresponding instability mode shapes are retained, there are differences in the strengths of the instability modes between the two configurations. To address the second objective, flowfield is characterized by systematically varying the relative jet momentum-flux between the jets. A converging and converging-diverging (CD) nozzle pair, with identical throat and exit diameters, respectively, is employed during the study. The CD (right) nozzle is held at a fixed over-expanded nozzle pressure ratio (NPR) of 3, and the momentum flux of jet from converging (left) nozzle is varied by changing its expansion ratio (ER). Schlieren flow visualization and ground plane surface pressure measurements indicate that the fountain flow position and strength exhibit a strong dependence on the jet momentum flux and a weak dependence on the impingement height. Further, an increase in momentum of the left jet causes the resonance in the right jet to lose its strength and its influence on the unsteadiness of the left jet, owed to the proximity of the fountain flow to the resonating jet. The presence of fountain upwash is found to alter the symmetry of streamlines, shear layer growth characteristics, and turbulent kinetic energy of the right jet. Under certain conditions, the fountain is close enough to significantly interact with the right jet and change the characteristics of the inner shear layer. Thereby, the processes constituting the feedback mechanism are notably altered and culminates in a weaker resonance. To address the third objective, the flowfield is characterized by systematically varying the relative jet temperature between the jets by increasing the temperature of only one of the jets (right). The NPR of the two jets are held fixed at conditions same as those used for the second objective. Qualitative visualization of the flowfield suggests that the left jet and fountain regions remain nearly unaffected by the right jet temperature. However, a corresponding increase in the jet velocity occurs in the right jet. Both the fountain position and its strength are independent of relative jet temperature and a strong function of the jet momentum flux. The increase in jet temperature also results in additional noise in the nearfield and increased unsteadiness on the impingement surface, although the latter is limited to short impingement heights and the region close to the right jet. At higher temperatures, short impingement heights are found to be more susceptible to resonance, with the chief source of resonance originating in the heated jet. At a fixed impingement height, while the jet instability mode shapes are retained, the corresponding impingement tones in the heated jet experience a systematic increment in frequency with rise in temperature. A detailed study of the velocity field suggest that, for a pair of jets at a given relative jet momentum flux, their fountain upwash could contribute to increased unsteadiness in the region around the nozzle (under-surface of the aircraft) at higher jet temperatures. The present experimental study significantly enhances the understanding of the impinging jet flowfield and its associated impacts on the parent aircraft, noise field and nearby structures. From an engineering standpoint, the results from this study will help inform aerodynamicists and structural engineers about the consequences of multi-jet-impingement configurations in STOVL applications. This is done through a systematic characterization of several parameters, which would provide the design guidelines. The three key findings of this study are: (1) Dual impinging jet flow and acoustic fields are strongly influenced by the fountain flow; (2) Fountain strength and placement relative to the jets, plays an important role in influencing the ground induced adverse effects. This in turn depends on the momentum of the jets; (3) Jet temperature can also worsen these effects, although this is a weaker factor than jet momentum From a scientific stand point, the results from this study provide a high fidelity database for the validation of numerical tools on dual impinging jet configuration. Furthermore, the present study provides the baseline data to help study flow and noise control techniques for dual impinging jets.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Mechanical Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">April 5, 2022.</note>
+   <note displayLabel="Keywords">Aeroacoustics, Dual impinging jets, Jet noise, Relative jet momentum flux, Relative jet temperature, Supersonic impinging jets</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Rajan Kumar, Professor Co-Directing Dissertation; Farrukh S. Alvi, Professor Co-Directing Dissertation; Christopher Tam, University Representative; S. Unnikrishnan, Committee Member; Jonathan Clark, Committee Member; Jonas Gustavsson, Committee Member.</note>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85043176">
+      <topic>Engineering</topic>
+   </subject>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh95007821">
+      <topic>Aerospace engineering</topic>
+   </subject>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85082757">
+      <topic>Mechanical engineering</topic>
+   </subject>
+   <identifier type="IID">2022_NatarajBhargav_fsu_0071E_17027</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Mechanical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

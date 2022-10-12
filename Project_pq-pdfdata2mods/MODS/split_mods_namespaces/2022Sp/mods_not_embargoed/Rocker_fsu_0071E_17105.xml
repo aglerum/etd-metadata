@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Effect of Parenthood on Reentry Outcomes</mods:title>
+      <mods:subTitle>A Consideration of Gender and Parent-Child Relationship Quality</mods:subTitle>
+      <mods:nonSort>The</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-7126-0174</mods:nameIdentifier>
+      <mods:namePart type="family">Rocker</mods:namePart>
+      <mods:namePart type="given">Dixie L.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/bstults">
+      <mods:namePart type="family">Stults</mods:namePart>
+      <mods:namePart type="given">Brian J.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2005111038">
+      <mods:namePart type="family">Taylor</mods:namePart>
+      <mods:namePart type="given">Miles G.</mods:namePart>
+      <mods:namePart type="date">1976-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n99025425">
+      <mods:namePart type="family">Hay</mods:namePart>
+      <mods:namePart type="given">Carter H.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2019007242">
+      <mods:namePart type="family">Turanovic</mods:namePart>
+      <mods:namePart type="given">Jillian J.</mods:namePart>
+      <mods:namePart type="date">1985-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Criminology and Criminal Justice</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Criminology and Criminal Justice</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (136 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>At the end of 2016, approximately 1.5 million people were incarcerated in state and federal prisons (Carson, 2021), and more than half of these prisoners are parents of at least one minor child (Maruschak et al., 2021). Upon their release, most offenders return to their communities with the goal of making a better life for themselves. This includes finding employment, securing housing, overcoming addiction, and desisting from crime. Despite their intentions, many prisoners fail to achieve 'reentry success' due to the barriers they face after release. For example, offenders often lack the education and employment history necessary to find jobs or are unable to find resources that address substance abuse. Other barriers directly related to their incarceration, such as criminal records, may bar offenders from finding housing or increase their likelihood of experiencing stigma. The reentry process for parents is even more complex and often ladened with additional hardships. For example, parents may have difficulty providing financially for their children or finding childcare. Other parents may struggle to regain custody/visitation rights they lost while in prison, causing more financial burdens and emotional turmoil. After release, offenders may also be reunited with family. Establishing positive relationships with family members can increase family support and decrease family conflict, both of which are associated with better reentry outcomes (Berg &amp; Huebner, 2011; Cobbina et al., 2012; Mowen &amp; Visher, 2015; Boman &amp; Mowen, 2017; Liu &amp; Visher, 2021). However, released offenders often experience family tension, receive minimal support from family members, or have abusive relationships. For parents, reuniting with family also includes reuniting with their children. Few studies on parenthood during reentry have examined the impact of parents' relationships with their children, and what studies do exist find mixed results (e.g. Ganem &amp; Agnew, 2007). To the extent that relationships with children operate similarly to other social ties, securing these relationships may be crucial for parents' reentry success. Furthermore, reentry processes, including 'reentry success,' vary by gender (Steffensmeier &amp; Allan, 1996; Bloom et al., 2003; James &amp; Glaze, 2006; Belknap, 2007; Byrne &amp; Trew, 2008; Bakken &amp; Visher, 2018; Pettus-Davis et al., 2018; Mowen &amp; Boman, 2019). Women's histories with victimization, poor mental health, lower levels of education, tendency towards passive emotions, and inward coping styles contribute to their greater likelihood for problems with addiction and mental health after release. Men's histories of violence, longer criminal records, and tendency to cope with active emotions (e.g. anger) contribute to their greater likelihood for criminal behavior after release. Gender differences are also found in samples of mothers and fathers. Mothers are more likely to be their child's primary caregiver, suffer from mental illness, and express more emotions towards their children (Brown &amp; Bloom, 2009; Glaze &amp; Maruschak, 2010; Maruschak et al., 2021). Fathers are less likely to live with their children, serve longer sentences, and emphasize issues with gatekeepers (Glaze &amp; Maruschak, 2010; Kjellstrand et al., 2012; Hlavka et al., 2015; Charles et al., 2019; McKay et al., 2019). However, available research often relies on narrative accounts from released parents and does not include samples of both mothers and fathers. This dissertation seeks to extend research on reentering parents by comparing samples of parents and non-parents, including a measure of parent-child relationship quality, and analyzing differences between mothers and fathers. To that end, data from the Serious and Violent Offender Initiative (SVORI) were used to examine the effect of parenthood, parent gender, and parent-child relationship quality on criminal behavior and mental health 15 months after release. Data consisted of four waves of interviews: 30 days prior to release and 3, 9, and 15 months after release. The final sample included 580 parents and 334 non-parents. From the parent sample, 151 participants were mothers and 429 were fathers. Four measures of criminal behavior were used, including re-incarceration, self-reported drug crimes, self-reported minor crimes, and self-reported interpersonal crimes. Two measures of mental health were used. The first measure was constructed using the Global Severity Index (GSI), which measured symptoms of psychological distress. The second measure was a self-report item that asked respondents to rate their overall mental health status from 'excellent' to 'poor'. In examining the reentry outcomes of released parents, several noteworthy findings emerge. Although not statistically significant, non-parents tended to have worse outcomes in criminal behavior. However, parenthood did appear to have an indirect effect on minor crimes. Parents were more likely to receive family support which in turn decreased their likelihood of minor offending. Key findings for the effects of gender also emerged. Fathers had worse outcomes in criminal behavior, although not significantly worse, and mothers had worse outcomes in mental health. Furthermore, gender had an indirect effect on re-incarceration. Specifically, mothers were less likely to return to prison due, at least in part, to their greater likelihood of being primary caregivers and lesser likelihood of having antisocial peers. Findings also highlighted the importance of parent-child relationships. For example, better relationships with children significantly reduced the likelihood of minor offending. Better parent-child relationships also had an indirect effect on symptoms of psychological distress. Parents who had better relationships with their children also had more family support and less family conflict, which subsequently improved their mental health. Lastly, gender conditioned the effect of parent-child relationship quality on re-incarceration. Better relationships with children reduced the likelihood of returning to prison for mothers but not for fathers. In sum, these findings underscore the need for additional research on reentering parents. Theoretical implications can be made for theories of social bonds/control, general strain theory, and gender paradigms. Additionally, findings support the use of prison-based parenting programs (PBPPs) and provide suggestions for programming to better address the unique needs of parents, particularly as they relate to addressing differences between mothers and fathers.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the College of Criminology and Criminal Justice in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 4, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">Gender, Mental health, Parent-child relationship quality, Parenthood, Re-incarceration, Reentry</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Brian J. Stults, Professor Directing Dissertation; Miles Taylor, University Representative; Carter Hay, Committee Member; Jillian J. Turanovic, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh89002994">
+      <mods:topic>Criminology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Rocker_fsu_0071E_17105</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>College of Criminology and Criminal Justice</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

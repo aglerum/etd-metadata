@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Augsburg All'antica</mods:title>
+      <mods:subTitle>Picturing German Antiquity in the Age of Print</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-4440-4360</mods:nameIdentifier>
+      <mods:namePart type="family">Carlisle</mods:namePart>
+      <mods:namePart type="given">Rachel M.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2010163958">
+      <mods:namePart type="family">Leitch</mods:namePart>
+      <mods:namePart type="given">Stephanie</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n00038285">
+      <mods:namePart type="family">Coldiron</mods:namePart>
+      <mods:namePart type="given">A. E. B. (Anne Elizabeth Banks)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2007005627">
+      <mods:namePart type="family">Jones</mods:namePart>
+      <mods:namePart type="given">Lynn</mods:namePart>
+      <mods:namePart type="date">1958-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n93070322">
+      <mods:namePart type="family">Neuman</mods:namePart>
+      <mods:namePart type="given">Robert (Robert Michael)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Fine Arts</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Art History</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (433 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Unlike in many northern European centers, Augsburg's amateur archeologists, scholars, artists, and printers did not rely on the invention or falsification of antiquities. During the early modern period, European cities and regions fashioned their own civic identities according to local concerns, often through the creative manipulation of ancient texts and images which served as material evidence of distant origins. By the sixteenth century, interest in local histories and the collecting of artifacts reached a zenith, and the printing press offered a new method for communicating knowledge of antiquity to a wide audience. In the city of Augsburg, known in antiquity as Augusta Vindelicorum, Roman heritage has long been a significant facet of civic cultural identity. Working in the shadow of Holy Roman Emperor Maximilian I, Augsburg's leading patrons, including humanist Konrad Peutinger and the mercantile Fugger family, documented surviving local antiquities and commissioned new works of classicizing art and architecture, visually asserting a genuine, unbroken lineage to the city's past. My dissertation, "Augsburg All'antica: Picturing German Antiquity in the Age of Print," examines the central role of print to local antiquarian pursuits and generation of a style all'antica in early sixteenth-century Augsburg, Germany. This study challenges previous art historical narratives that promote Augsburg as the first German center to adopt Renaissance art and architecture but reduce the story to one of imitation spurred on by German artists' and patrons' supposedly revelatory visits to the Italian peninsula. Using theories of transmission, translation, and book history, I instead track the development of a style all'antica in Augsburg, informed both by transalpine exchange and local traces of antiquity. Dual artistic styles emerged as a byproduct of cross-cultural exchange, and the graphic field of the early modern page saw the conflict between the imported welsch and indigenous deutsch artistic styles play out. At the same time, prints stabilized Augsburg's fragmentary remains of antiquity and circulated the free imperial city's claim to a notable past. I demonstrate that Augsburg's artists and printers did not simply seek to imitate Italian modes of representation. Instead, they actively participated in an international network of exchange marked by emulation and competition. Augsburg's artists acted as archeologists of the printed page, excavating useful fragments for reincorporation into their own compositions. The visual vocabulary initially imported from Italy was manipulated in many cases beyond recognition, resulting in a hybrid, classicizing style imbued with connotations of Augsburg's Roman past, the prestige of economic and cultural ties with Italy, and the imperial favor of Holy Roman Emperor Maximilian I.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Art History in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">February 25, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Stephanie Leitch, Professor Directing Dissertation; A.E.B. Coldiron, University Representative; Lynn Jones, Committee Member; Robert Neuman, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85007488">
+      <mods:topic>Art</mods:topic>
+      <mods:topic>History</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Carlisle_fsu_0071E_16960</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Art History</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

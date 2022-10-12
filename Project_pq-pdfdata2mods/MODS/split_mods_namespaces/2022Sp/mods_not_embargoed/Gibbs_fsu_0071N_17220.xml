@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Ancient Mining in Southwestern Sardinia</mods:title>
+      <mods:subTitle>Assessing Its Organization via Analysis of Remotely Sensed Imagery</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-9727-0757</mods:nameIdentifier>
+      <mods:namePart type="family">Gibbs</mods:namePart>
+      <mods:namePart type="given">Anna Catherine</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2017022787">
+      <mods:namePart type="family">Leppard</mods:namePart>
+      <mods:namePart type="given">Thomas P.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/eamurphy">
+      <mods:namePart type="family">Murphy</mods:namePart>
+      <mods:namePart type="given">Elizabeth A.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jhalligan">
+      <mods:namePart type="family">Halligan</mods:namePart>
+      <mods:namePart type="given">Jessi J.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2009200593">
+      <mods:namePart type="family">Yang</mods:namePart>
+      <mods:namePart type="given">Xiaojun</mods:namePart>
+      <mods:namePart type="date">1965-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Anthropology</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (192 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Both textual and archaeological data suggest that Sardinia's ores were extensively exploited for silver, lead, iron and copper, from the Late Bronze Age to the Byzantine period (Balmuth 1992). Yet the spatial organization of this exploitation is poorly understood, especially in the region of the Sulcis Mountains. Considering the evidence for dense settlement of Sulcis from the Bronze Age through Roman periods, understanding if these resources were exploited, and if so how and to what extent, should be a priority for research (Melis 2014). However, the nature of the topography (rugged and dissected uplands) means that types of archaeological prospection reliant on pedestrian observation (i.e., fieldwalking) are not possible. Analysis of remotely sensed (RS) data has been used in other contexts to explore the spatial organization of this type of landscape exploitation (Pryce and Adams 2010; Savage et al. 2012; Sivitskis et al. 2019). This project, in the larger context of the Landscape Archaeology of Southwest Sardinia Project (LASS) — utilizes RS methods to remotely evaluate the existence and structure of antique mining and quarrying sites. This directly contributes to our understanding of the economic organization of Sulcis in the BA and IA and has broader methodological implications. Through the use of three varied approaches reliant on the analysis of RS imagery, an effective method for identifying likely ancient mining and mineral processing sites can be established. This project integrates a broad hydrothermal alteration land classification (iron-oxide band ratio), a target slag heap identification technique and ore deposit (mining waste) identification techniques to establish the certainty of mining activity zones. Positive identification in all three approaches indicates a high likelihood mining zone, only two, an intermediate, and one, an unlikely or random zone. The analysis outcomes indicate that the uplands of the Sulcis region are mineral rich and marked by significant alteration hotspots.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Anthropology in partial fulfillment of the requirements for the degree of Master of Arts.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 28, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">ArcGIS, GIS, Landscape Archaeology, Mining, Remote Sensing, Sardinia</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Thomas P. Leppard, Professor Directing Thesis; Elizabeth A. Murphy, Committee Member; Jessi Halligan, Committee Member; Xiaojun Yang, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85006507">
+      <mods:topic>Archaeology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Gibbs_fsu_0071N_17220</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Arts</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Anthropology</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

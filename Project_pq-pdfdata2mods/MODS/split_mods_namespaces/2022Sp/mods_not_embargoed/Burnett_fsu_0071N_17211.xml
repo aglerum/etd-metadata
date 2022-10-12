@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Crystal Growth, Structural Characterization and Spin Models of Cobalt-Compounds</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-4450-031X</mods:nameIdentifier>
+      <mods:namePart type="family">Burnett</mods:namePart>
+      <mods:namePart type="given">Nicole Biller</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/tsiegrist">
+      <mods:namePart type="family">Siegrist</mods:namePart>
+      <mods:namePart type="given">Theo</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jali">
+      <mods:namePart type="family">Ali</mods:namePart>
+      <mods:namePart type="given">Jamel</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/dhallinan">
+      <mods:namePart type="family">Hallinan</mods:namePart>
+      <mods:namePart type="given">Daniel T.</mods:namePart>
+      <mods:namePart type="termsOfAddress">Jr.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemical and Biomedical Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (70 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This body of work explores the growth and structure of two different cobalt containing compounds that may show interesting quantum spin behaviors: [(CH3)3NH]CoCl3 and BaCo2(PO4)2. In [(CH3)3NH]CoCl3, the Co ions are arranged in a chain and show anti-ferromagnetic interactions, making this system a good approximation for a one-dimensional Ising model. In BaCo2(PO4)2 ,the Co ions are arranged on a honeycomb lattice, with geometrical frustration of the magnetic interactions. The crystal growth and room temperature single crystal structure of the linear magnetic chain compound [(CH3)3NH]CoCl3 is reported, along with low temperature magnetic susceptibility and heat capacity measurements. [(CH3)3NH]CoCl3 single crystals were grown using two methods: slow evaporation and seeded growth. The compound crystallizes in an orthorhombic structure with lattice parameters a =7.2716 (3) Å b =8.0983(3) Å and c =16.6473(5) Å, consistent with literature values. Seeded crystal growth in a supersaturated solution resulted in large crystals with well-developed habit. [(CH3)3NH]CoCl3 is of interest because it realizes a one-dimensional (1-D) spin system, which can be probed through heat capacity and magnetic susceptibility measurements. Attempts to grow deuterated crystals for neutron scattering experiments are in progress. A literature review and experimental analysis on the synthesis of BaCo2(PO4)2 is also reported. Single crystals of BaCo2(PO4)2 were previously grown using hydrothermal methods. Although no single crystals of Barium Cobalt Phosphate have been obtained so far, several side products resulting from different reactants, pH, and temperatures profiles have been isolated. The main goal, to obtain the single crystal of BaCo2(PO4)2 to probe the spin interactions has not yet been attained.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Chemical and Biomedical Engineering in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 4, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Theo Siegrist, Professor Directing Thesis; Jamel Ali, Committee Member; Daniel Hallinan, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85022900">
+      <mods:topic>Chemical engineering</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85030765">
+      <mods:topic>Condensed matter</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85022986">
+      <mods:topic>Chemistry</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Burnett_fsu_0071N_17211</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Chemical and Biomedical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

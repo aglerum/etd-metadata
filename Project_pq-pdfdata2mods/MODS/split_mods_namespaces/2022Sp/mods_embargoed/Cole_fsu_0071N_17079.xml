@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Evaluating the Simple View of Reading for Children with ADHD</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-2859-9513</mods:nameIdentifier>
+      <mods:namePart type="family">Cole</mods:namePart>
+      <mods:namePart type="given">Alissa M.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kofler">
+      <mods:namePart type="family">Kofler</mods:namePart>
+      <mods:namePart type="given">Michael J.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ameyer2">
+      <mods:namePart type="family">Meyer</mods:namePart>
+      <mods:namePart type="given">Alexandria</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n85213114">
+      <mods:namePart type="family">Wagner</mods:namePart>
+      <mods:namePart type="given">Richard K.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Psychology</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (44 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The 'simple view of reading' is an influential model of reading comprehension which asserts that children's reading comprehension performance can be explained entirely by their decoding and language comprehension skills. Children with ADHD often exhibit difficulty across all three of these reading domains, yet it is unclear whether the simple view of reading is sufficient to explain reading comprehension performance in this population. The current study was the first to use multiple indicators and latent estimates of decoding, language comprehension, and reading comprehension to examine the validity of the simple view of reading in a clinically evaluated sample of 250 children ages 8-13 (M=10.29, SD=1.47; 93 girls; 70% White/Non-Hispanic) with and without ADHD. Results of the primary structural equation model were consistent with predictions from the simple view of reading, and revealed that decoding and language comprehension explained all (R2=.99) of the variance in reading comprehension for children with and without ADHD. Further, results of the multigroup model (ADHD, Non-ADHD) indicated that there was no difference in the quantity of variance explained for children with ADHD versus children without ADHD, and that the quantity of explained variance did not differ from 100% for either group. Sensitivity analyses indicated that these effects were generally robust to control for monomethod bias, time sampling error, and nonverbal IQ. These findings confirm simple view of reading predictions that decoding and language comprehension are both necessary and sufficient for explaining children's reading comprehension skills, and extend prior work by indicating that these findings hold for both children with ADHD and clinically evaluated children without ADHD.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Psychology in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 24, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">ADHD, decoding, language comprehension, reading comprehension, simple view of reading</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Michael J. Kofler, Professor Directing Thesis; Alexandria Meyer, Committee Member; Richard K. Wagner, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85027067">
+      <mods:topic>Clinical psychology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Cole_fsu_0071N_17079</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Psychology</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

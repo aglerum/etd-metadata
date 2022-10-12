@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Impact of the Current Feedback and Model Resolution on the Atmosphere and Ocean Mixed Layer over the Gulf Stream</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-1848-8318</nameIdentifier>
+      <namePart type="family">May</namePart>
+      <namePart type="given">Jackie</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="viaf"
+         authorityURI="http://viaf.org/viaf/"
+         valueURI="http://viaf.org/viaf/105342888">
+      <namePart type="family">Bourassa</namePart>
+      <namePart type="given">Mark Allan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2003129868">
+      <namePart type="family">Meyer-Bäse</namePart>
+      <namePart type="given">Anke</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/awing">
+      <namePart type="family">Wing</namePart>
+      <namePart type="given">Allison</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2018001437">
+      <namePart type="family">Liu</namePart>
+      <namePart type="given">Guosheng</namePart>
+      <namePart type="termsOfAddress">(Professor of meteorology)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/wu">
+      <namePart type="family">Wu</namePart>
+      <namePart type="given">Zhaohua</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Earth, Ocean and Atmospheric Science</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (116 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>The atmosphere and the ocean interact through air-sea heat and momentum fluxes. These fluxes are critical in ocean, atmosphere, and coupled modeling across a broad range of spatial and temporal scales, from large-scale global modeling to very high-resolution regional studies and from climate studies to operational forecasting. It is important to minimize the air-sea flux errors in order to obtain accurate and realistic model results. This study investigates two sources of air-sea flux errors within the Gulf Stream region during winter months: the horizontal model resolution of the atmosphere and the ocean, and the dynamical coupling and current feedback between the ocean surface currents and the wind stress. Four different atmospheric and ocean coupled model simulations are completed with various combinations of 2 km (submesoscale resolving) and 6 km (submesoscale permitting) grid spacing. Four additional model simulations are completed using the same model resolutions defined in the first four experiments, but the coupling and feedback between the surface currents and the wind stress is included. The dynamical coupling and the current feedback lead to large changes in the surfacestress and stress curl patterns. This leads to a reduction in the ocean's mean and eddy kinetic energy, which largely controls the Gulf Stream path. The dynamical coupling is also found to control the physical gradient related to the atmospheric horizontal momentum advection. The stress gradient largely explains the variability in the horizontal advection when the dynamical coupling is not included, while the current gradient across current direction largely explains the variability in the horizontal advection when the dynamical coupling is included. Additionally, the dynamical coupling and current feedback is found to be important in regulating the mixed layer depth and SST throughout the warm water to the right of the Gulf Stream path due to the horizontal heat advection in the mixed layer. A high-resolution ocean model is found to also be important in influencing the Gulf Stream path, as well as constraining the submesoscale vertical heat fluxes to the ocean's mixed layer. The atmospheric model resolution is found to impact the magnitude of the stress, wind work, sea surface height, and surface currents, in addition to the strength of the horizontal and vertical winds throughout the atmospheric column. The dynamical coupling and current feedback, as well as having a high-resolution atmosphere and ocean, is further found to be important in the vertical extent of the state parameter fields, as well as in the atmospheric circulation patterns.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Earth, Ocean and Atmospheric Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">March 8, 2022.</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Mark A. Bourassa, Professor Directing Dissertation; Anke Meyer-Baese, University Representative; Allison Wing, Committee Member; Guosheng Liu, Committee Member; Zhaohua Wu, Committee Member.</note>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85084334">
+      <topic>Meteorology</topic>
+   </subject>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85093937">
+      <topic>Oceanography</topic>
+   </subject>
+   <identifier type="IID">2022_May_fsu_0071E_17004</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

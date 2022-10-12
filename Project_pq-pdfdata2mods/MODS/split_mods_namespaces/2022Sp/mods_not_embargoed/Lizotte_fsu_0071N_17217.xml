@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Geochemical Investigation of Lake Jackson 2021 Dry-down Event Water and Chemical Evolution along Flow Path Using Calcite Saturation Conditions</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-3672-8285</mods:nameIdentifier>
+      <mods:namePart type="family">Lizotte</mods:namePart>
+      <mods:namePart type="given">Emily Ann</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mye">
+      <mods:namePart type="family">Ye</mods:namePart>
+      <mods:namePart type="given">Ming</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n89605460">
+      <mods:namePart type="family">Chanton</mods:namePart>
+      <mods:namePart type="given">Jeffrey P.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yw16f">
+      <mods:namePart type="family">Wang</mods:namePart>
+      <mods:namePart type="given">Yang</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Graduate Assistant in Teaching)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Earth, Ocean, and Atmospheric Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (51 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Lake Jackson in Leon County Florida is a shallow perched dissolution lake, which sits above the Cody Scarp and is formed from the coalescence of sinkholes. Lake Jackson currently has two open sinkholes, Porter Sink and Lime Sink. Periodic draining of the lake through Porter Sink is integral to the ecological health of the lake because of its shallow, flat-bottomed, closed-basin geology. Increased inflow of polluted stormwater is commonly in the form of nitrogen, phosphorus from fertilizers, which feeds the growth of algae and depletes the water of dissolved oxygen. This process is controlled through periods of draining in which the sun bakes the muck at the lake bottom. Dry-down event water from Lake Jackson's Porter Sink flows directly to the Upper Floridan Aquifer, creating an understudied vulnerability to the local drinking water source. Carbonate dissolution conditions with respect to calcite saturation were geochemically modeled for Lake Jackson over storm and draining periods as well as at two sites downgradient of the lake: the Florida State University (FSU) Well and Wakulla Springs. Dissolution conditions are represented as saturation indices with respect to calcite (SIC) and were calculated using Visual MINTEQ 3.1 with values for temperature, pH, Ca2+ concentrations, Mg2+ concentrations, and total alkalinity as CaCO3. Calcite saturation conditions at the Wakulla Springs site did not provide a distinct event- water signature, likely due to dilution effects and multitude of sources. Distinct shifts in Lake Jackson and FSU Well SIC values compared with PCO2 values calculated by Visual MINTEQ and normalized against atmospheric CO2 identified the arrival of event source water. These arrivals were supported by the conceptual geochemical understanding of the study sites and event water for draining event conditions and for low-inflow, exposed Porter Sink conditions. In addition to identifying Porter Sink event water at the FSU Well, SIC versus PCO2 relationships may be used to further investigate reactions and source waters responsible for shifts in Upper Floridan Aquifer hydrochemistry.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Earth, Ocean, and Atmospheric Science in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 8, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">Calcite, Geochemical, Saturation, Sinkhole</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Ming Ye, Professor Directing Thesis; Jeffrey Chanton, Committee Member; Yang Wang, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85054037">
+      <mods:topic>Geology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85063458">
+      <mods:topic>Hydrology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85053960">
+      <mods:topic>Geochemistry</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Lizotte_fsu_0071N_17217</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Understanding the Role of Wire Architecture in Determining the Critical Current Performance of Bi-2212 Round Wire</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-3090-1235</nameIdentifier>
+      <namePart type="family">Hossain</namePart>
+      <namePart type="given">S. Imam</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/ehellstrom">
+      <namePart type="family">Hellstrom</namePart>
+      <namePart type="given">Eric</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n85215468">
+      <namePart type="family">Salters</namePart>
+      <namePart type="given">Vincent J. M.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2004090317">
+      <namePart type="family">Larbalestier</namePart>
+      <namePart type="given">D. (David)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/tsiegrist">
+      <namePart type="family">Siegrist</namePart>
+      <namePart type="given">Theo</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/shatruk">
+      <namePart type="family">Shatruk</namePart>
+      <namePart type="given">Mykhailo</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Program in Materials Science and Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (110 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>Bi2Sr2CaCu2Ox (Bi-2212) round wire is one of the most promising candidates for high field magnet applications. The round wire geometry is preferred by the magnet designers as it shows isotropic superconducting properties independent of the direction of the applied magnetic field. The wire is multifilamentary and can be twisted, which ensures low screening current and AC loss. Over the last decade, significant advancement has been made in Bi-2212 conductor and coil technology. The advent of overpressure processing and improvement of powder quality have significantly improved the critical current density (Jc) of the wire while development of insulation and mechanical reinforcement of the coil winding pack have brought Bi-2212 on the verge of commercial applications. However, there are still areas that needs further development and better understanding. I have worked on some of those issues during my PhD. As part of this thesis, I have worked on TiO2 insulation of Bi-2212 wire. When the TiO2 insulation was developed, it was thought to be great replacement for the alumino-silicate insulation as it is much thinner (15-30 µm compared to 150 µm thickness of alumino-silicate), chemically compatible with the sheath and Bi-2212 and allows oxygen transfer during the heat treatment through the cracks and porosity present in TiO2 layer. However, attempts to use TiO2 as single layer insulation in a large test coil in our lab resulted in severe Ag protrusion through the insulation layer which electrically shorted the winding pack. We have found that, the application of overpressure and the uneven distribution of MgO particles in the sheath, which led to local difference in mechanical properties of the sheath, was responsible for the Ag protrusion for the wire used in that particular coil. The Ag protrusions were found to be depleted of the MgO particle and as a result, was squeezed through the TiO2 layer when the wire shrinked under the application of overpressure. However, later, when we studied 9 different wires from different time period, we found that Ag protrusions are not universal and most of the wires do not show any protrusion through the sheath. Different possible current limiting factors in Bi-2212 round wire was also investigated. Evidence of filament area variation along the length (sausaging) was found in as-received Bi-2212 wires (before heat treatment). This sausaging occurs from the wire drawing procees and some of the filaments showed a variation as high as 50% along the wire length in as received state. This type of sausaging is possibly a significant current limiting factor in Bi-2212 wire. The filament area variation along the length further deteriorates during the heat treatment with increased time spent in the melt state (tmelt). This area fluctuations in the melt state happen due to Raleigh instability and is more significant for smaller filaments. As a result, the performance of wires with smaller filaments were found to be more dependent on tmelt compared to larger filaments. The formation of interfilament bonds and their role in controlling the Jc of Bi-2212 round wire was examined. For years, the so-called type A interfilament bonding, which occur when the superconductor is in melt state and increases with increased tmelt and decreased interfilament separation, was believed to be the underlying reason for tmelt dependence of Jc. However, the mechanism of how the interfilament bonding impacts Jc was not fully understood. In my research, I have found that interfilament bonding significantly increase the Rayleigh instability driven area fluctuations in Bi-2212 filament cross-sections during the melt state. The larger bonded region grows at the expense of nearby unbonded regions to reduce the interfacial energy and create bottlenecks which is a possible reason for Jc dependence on the amount of type A bonding. This fluctuation is higher in wires with smaller interfilament separation, i.e. higher interfilament bonding, and filaments can undergo large area fluctuation and eventual pinch-off along the length with increased tmelt. We have also investigated the impact of filament size on the Jc of Bi-2212 wires. Our results show that the texture of Bi-2212 grains possibly depends on the filament size and decreased filament size can potentially lead to better aligned grains and higher Jc in bi-2212 round wires.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Program in Materials Science and Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">March 30, 2022.</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Eric Hellstrom, Professor Directing Dissertation; Vincent Salters, University Representative; David Larbalestier, Committee Member; Theo Siegrist, Committee Member; Michael Shatruk, Committee Member.</note>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85082094">
+      <topic>Materials science</topic>
+   </subject>
+   <identifier type="IID">2022_HOSSAIN_fsu_0071E_17130</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Materials Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

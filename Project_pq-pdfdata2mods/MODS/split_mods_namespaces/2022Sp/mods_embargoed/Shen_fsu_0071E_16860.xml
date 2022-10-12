@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Slow Kill for Big Data Learning</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-2703-9154</mods:nameIdentifier>
+      <mods:namePart type="family">Shen</mods:namePart>
+      <mods:namePart type="given">Jiahui</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="viaf"
+              authorityURI="http://viaf.org/viaf/"
+              valueURI="http://viaf.org/viaf/31821408">
+      <mods:namePart type="family">She</mods:namePart>
+      <mods:namePart type="given">Yiyuan</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/wu">
+      <mods:namePart type="family">Wu</mods:namePart>
+      <mods:namePart type="given">Zhaohua</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="viaf"
+              authorityURI="http://viaf.org/viaf/"
+              valueURI="http://viaf.org/viaf/14146217689609141312">
+      <mods:namePart type="family">Niu</mods:namePart>
+      <mods:namePart type="given">Xufeng</mods:namePart>
+      <mods:namePart type="date">1954-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2017071128">
+      <mods:namePart type="family">Barbu</mods:namePart>
+      <mods:namePart type="given">Adrian G.</mods:namePart>
+      <mods:namePart type="date">1971-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Statistics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (64 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Big-data applications typically involve huge numbers of observations and features, thus posing new challenges for variable selection and parameter estimation. In addition to being efficient, the desired algorithm is better to have implementation ease. An ad-hoc procedure may be fragile, and an algorithm design on the basis of optimization, rather than heuristics, is preferred. Meanwhile, methods such as LASSO or screening algorithms are derived assuming mildly correlated features. These assumptions make it possible to eliminate features in an aggressive manner, but may be too stringent to hold for real-life high dimensional applications. The paper proposes a novel "slow kill" (SK) technique on the basis of nonconvex constrained optimization, which gradually identifies and removes irrelevant variables with adaptive ℓ2-shrinkage and growing learning rate. That the problem size can drop during the iterations of SK makes it particularly suitable for large-scale variable selection. The interplay between statistics and optimization leads to insightful results on quantile control, stepsize and shrinkage parameters to relax the regularity conditions under which the desire order of statistical accuracy is guaranteed. The theoretical study justifies the optimal error rate and fast convergence of SK, without assuming asymptotic conditions or globally optimal solutions. The technique applies to a general loss that is not necessarily a likelihood function. In addition, no grid search is required to find a solution with a prescribed cardinality, which exempts the unnecessary expensive computational cost when tuning the regularization parameters. Experiments on synthetic data show that SK outperforms state-of-the-art algorithms in various situations while being extremely computationally scalable. Moreover, the performances on various real data examples including spam websites identification, digit recognition and gene expression further demonstrated the power of the proposed method.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">February 7, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Yiyuan She, Professor Directing Dissertation; Zhaohua Wu, University Representative; Xufeng Niu, Committee Member; Adrian Barbu, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <mods:topic>Statistics</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Shen_fsu_0071E_16860</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

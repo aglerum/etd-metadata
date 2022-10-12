@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Culturing the Future of Seafood</mods:title>
+      <mods:subTitle>Spatial and Theoretical Considerations for Marine Aquaculture Development</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-9189-6655</mods:nameIdentifier>
+      <mods:namePart type="family">Ruff</mods:namePart>
+      <mods:namePart type="given">Elizabeth</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/slester">
+      <mods:namePart type="family">Lester</mods:namePart>
+      <mods:namePart type="given">Sarah</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/wbutler">
+      <mods:namePart type="family">Butler</mods:namePart>
+      <mods:namePart type="given">William Hale</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2019070869">
+      <mods:namePart type="family">McCreary</mods:namePart>
+      <mods:namePart type="given">Tyler</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/cuejio">
+      <mods:namePart type="family">Uejio</mods:namePart>
+      <mods:namePart type="given">Christopher K.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Social Sciences and Public Policy</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Geography</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (142 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Marine aquaculture, the farming of aquatic species in ocean environments, has substantial potential to contribute to the global supply of seafood. However, despite the global growth of marine aquaculture (mariculture) in recent years, there is substantial heterogeneity in where and to what extent the industry is developing. Additionally, biophysical growing conditions alone do not explain a large proportion of the variation in production, indicating that the geographic patterns of industry expansion are likely driven by other (e.g., economic, political, social) factors. As such, this dissertation examines the role of these non-biophysical factors in the development of the mariculture industry through a regional case study and a global analysis. The regional case study evaluates the influence of governance mechanisms on mariculture production in the Caribbean, which has high production potential based on biophysical parameters but has only realized a fraction of its estimated potential. For this chapter, I developed a Mariculture Governance Index (MGI) to assess existing mariculture governance frameworks within each of 30 Caribbean countries. When compared to current production volumes, I found a significant association with the level of mariculture governance for a given country. Specifically, the few countries with production tended to have higher MGI scores. However, case studies of the few countries that produce mariculture but have low MGI scores found that training programs, professional organizations, and financing institutions could provide the necessary support for industry development in the absence of the governance components included in the Index. In addition to insights about mariculture development in the Caribbean, this chapter contributes an extensive literature review of governance in relation to mariculture generally and a systematic index that can be used to assess governance infrastructure in other regions. In the global analysis, I expand on the Caribbean findings to quantitatively assess the extent to which governance, socioeconomic, and biophysical factors explain country-level patterns of mariculture production. Using multivariate statistics and global datasets, I assess the impact of 11 predictor variables on 1) whether a country has any mariculture production (yes or no) and 2) what volume of mariculture production a country has. The results of my analysis indicate that countries with large wild fisheries industries and high levels of development are most likely to have some level of mariculture production. Further, both of these factors as well as the existence of a freshwater aquaculture industry are associated with higher volumes of mariculture production. This chapter is the first multivariate, interdisciplinary assessment of factors influencing mariculture production and provides a foundation for a new research agenda that will improve our understanding of where and why the mariculture industry develops. The findings from the regional and global analyses indicate that governance and socioeconomic dynamics are highly influential but poorly understood drivers of the expanding mariculture industry. Geographers are well-positioned to explore and provide insight on these dynamics but have been relatively absent from the mariculture scholarship, particularly in comparison to other disciplines. To account for geographic participation in the mariculture literature, I conduct a review of the top 50 geography journals (as ranked by Clarivate Analytics), identifying 45 publications from 1990-2020 that focus on farming seafood in ocean spaces. In my review of this literature, I identify existing foundations for a maricultural geography in the arenas of political economy, political ecology, and science and technology studies and trace the evolution of these discourses over time. Lastly, I outline three pathways for further disciplinary engagement through the lenses of food and feminist geographies as well as social studies of science. Taken together, these chapters spatially and theoretically engage with mariculture and situate the industry within geography's broader agro-food discourses. Further, this work contributes to a nascent body of literature seeking to understand the role of mariculture in our global food system. Here, I have started to untangle the network of socionatural assemblages that shape the development of the mariculture industry by looking at development at different scales and employing both qualitative and quantitative techniques.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Geography in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 30, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Sarah Lester, Professor Directing Dissertation; William Butler, University Representative; Tyler McCreary, Committee Member; Christopher Uejio, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85053986">
+      <mods:topic>Geography</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Ruff_fsu_0071E_17113</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Geography</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

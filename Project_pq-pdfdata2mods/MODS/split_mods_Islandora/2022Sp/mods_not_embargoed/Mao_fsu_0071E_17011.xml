@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Time Series and Machine Learning Models for Financial Markets Forecast</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-2352-3600</nameIdentifier>
+      <namePart type="family">Mao</namePart>
+      <namePart type="given">Siqi</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="viaf"
+         authorityURI="http://viaf.org/viaf/"
+         valueURI="http://viaf.org/viaf/14146217689609141312">
+      <namePart type="family">Niu</namePart>
+      <namePart type="given">Xufeng</namePart>
+      <namePart type="date">1954-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/gokten">
+      <namePart type="family">Ökten</namePart>
+      <namePart type="given">Giray</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2017071128">
+      <namePart type="family">Barbu</namePart>
+      <namePart type="given">Adrian G.</namePart>
+      <namePart type="date">1971-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2013073385">
+      <namePart type="family">Huffer</namePart>
+      <namePart type="given">Fred W. (Fred William)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/wwu">
+      <namePart type="family">Wu</namePart>
+      <namePart type="given">Wei</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Statistics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (102 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>The prediction of financial time series is an essential topic in quantitative investment. In this dissertation, we proposed two types of new models. They are bidirectional encoder representations from Transformers-based financial sentiment index enhanced (BERTFSIE) models and analysts' recommendation index enhanced (ARIE) models. Compared to statistical time series models, BERTFSIE models and ARIE models involve not only the assets log-returns but also the financial sentiment of investors' reactions and analyst recommendations individually. Furthermore, an adaptive epoch size selection strategy, an early stopping for sequential data strategy, and a novel hyperparameters selection strategy (Score voting) are proposed to solve the over-fitting problem in the training process of a neural network model when its size is large, and the training data is limited. An experimental study is conducted examining the BERTFSIE models and ARIE models. Additionally, they are compared with statistical time series models (e.g., Autoregressive Integrated Moving Average (ARIMA) model, Autoregressive Integrated Moving Average with Explanatory Variable (ARIMAX) model, and the Vector Autoregressive Moving Average (VARMA)), machine learning models (e.g., Long short-term memory (LSTM)), and hybrid models (e.g., ARIMA-LSTM, VARMA-LSTM) in terms of predicting the log-returns and direction movements of two stocks from four industries (Technology: Alphabet Inc., Verizon Communications Inc.; Finance: Citigroup Inc., The Goldman Sachs Group, Inc.; Pharmaceutical: Bristol-Myers Squibb Company, AbbVie Inc.; Retail: Costco Wholesale Corporation, Target Corporation) with three testing proportion: 10\%, 20\%, 30\%. To be more specific, the forecastability of different models is evaluated in two separate ways: the prediction ability of the assets log-returns is assessed by root mean square error (RMSE) and mean absolute error (MAE), and the prediction ability in the direction of the assets log-returns are judged by weighted $F_1$ score and weighed AUC score. Meanwhile, one step ahead forecasting and rolling forward with expanding windows are selected in the experimental study. The results of the experimental study indicate that BERTFSIE models perform almost uniformly better than the other models in terms of weighted $F_1$ score and weighed AUC score. In addition, with the increase of the validation size and testing size, the performance difference among these models is diminishing. At the same time, ARIE models have competitive performance with BERTFSIE models in some selected industries.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">March 24, 2022.</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Xufeng Niu, Professor Directing Dissertation; Giray Okten, University Representative; Adrian Barbu, Committee Member; Fred Huffer, Committee Member; Wei Wu, Committee Member.</note>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <topic>Statistics</topic>
+   </subject>
+   <identifier type="IID">2022_Mao_fsu_0071E_17011</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

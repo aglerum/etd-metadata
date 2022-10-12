@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Facilitating Student Engagement in Experiential Learning</mods:title>
+      <mods:subTitle>An Implementation Evaluation of a Centralized, Interdisciplinary Program</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-2291-7963</mods:nameIdentifier>
+      <mods:namePart type="family">Lord</mods:namePart>
+      <mods:namePart type="given">Tracey Dowling</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n97036418">
+      <mods:namePart type="family">Herrington</mods:namePart>
+      <mods:namePart type="given">Carolyn D.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kwhalon">
+      <mods:namePart type="family">Whalon</mods:namePart>
+      <mods:namePart type="given">Kelly J.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2012007578">
+      <mods:namePart type="family">Jones</mods:namePart>
+      <mods:namePart type="given">Tamara Bertrand</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2004141559">
+      <mods:namePart type="family">Cox</mods:namePart>
+      <mods:namePart type="given">Bradley E.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Education</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Educational Leadership and Policy Studies</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (125 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The increasing shift for higher education institutions to recognize career readiness as an institutional priority (Cruzvergara et al., 2018) is leading the need to identify ways to scale student engagement in at least one high-impact practice (HIP), such as experiential learning opportunities, prior to graduation (Huang et al., 2018). Traditionally, higher education institutions have relied on academic schools and colleges to embed experiential learning in academic program requirements highly dependent upon the learning goals and outcomes for each individual major (Swenson &amp; Greiman, 2018). Now that many institutions are launching experiential learning graduation requirements, higher education administrators are actively seeking ways to enhance institutional capacity to foster student engagement in experiential learning in the form of a centralized, interdisciplinary experiential learning curriculum. Research has shown that high-impact educational practices (HIPs) are positively beneficial for college students from many backgrounds and include gains in developing skills that are essential in the workplace (Kuh, et al., 2017; Wolniak &amp; Engberg, 2015; Kinzie, 2012). While a formula for implementing experiential learning as a high-impact practice that will work on every campus for every student does not exist (Coker &amp; Porter, 2015), career services offices should be leveraged to implement new experiential learning institutional models and programs (Huang et al., 2018). Lastly, a centralized, interdisciplinary experiential learning curriculum should demonstrate to external stakeholders, such as policymakers, families and hiring employers, contributions to a student's understanding and growth in attainment and application of career readiness competencies. In June 2019, Florida State University (FSU) became the largest public university to institute an experiential learning graduation requirement, publicly committing that "every student should – and can – participate in transformative, career-building experiential learning" (Farnum-Patronis, 2019, June, para. 3). The Experience Recognition Program (ERP) is a Career Center and institutional mission-critical program or service as it is currently the only approved low-cost (zero-credit, noncredit hour course) or no-cost option (co-curricular certificate) available for undergraduate students to satisfy the experiential learning graduation requirement. Despite the long-running nature of ERP for almost 50 years, no program assessment is on record. This implementation study reviewed the program components in regards to criteria for effective high-impact practice implementation as well as industry principles for supervising students engaged in experiential learning activities and career readiness education to offer insight into programs successes and suggested areas of improvement. This implementation study evaluated ERP's components of student-supervisor preset learning outcomes, hands-on oversight from qualified faculty and periodic, structured reflection on learning outcomes (Burke &amp; Carton, 2013) through content analysis and instructional faculty interviews. Findings indicated that ERP components were designed in alignment with key elements of high-impact practices that make them effective, industry best practices for faculty facilitation of student engagement in experiential learning activities and career readiness education.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Educational Leadership and Policy Studies in partial fulfillment of the requirements for the degree of Doctor of Education.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 21, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">career readiness, experiential education, experiential learning</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Carolyn D. Herrington, Professor Directing Dissertation; Kelly Whalon, University Representative; Tamara Bertrand Jones, Committee Member; Bradley E. Cox, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85041065">
+      <mods:topic>Education, Higher</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Lord_fsu_0071E_17117</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Education</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Educational Leadership and Policy Studies</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Compositions and Viscoelastic Properties in Solid Polyelectrolyte Complexes</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-5416-2350</mods:nameIdentifier>
+      <mods:namePart type="family">Chen</mods:namePart>
+      <mods:namePart type="given">Yuhui</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/nb2002004599">
+      <mods:namePart type="family">Schlenoff</mods:namePart>
+      <mods:namePart type="given">Joseph B.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/zliang">
+      <mods:namePart type="family">Liang</mods:namePart>
+      <mods:namePart type="given">Zhiyong (Richard)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/stiegman">
+      <mods:namePart type="family">Stiegman</mods:namePart>
+      <mods:namePart type="given">Albert E.</mods:namePart>
+      <mods:namePart type="date">1953-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kennemur">
+      <mods:namePart type="family">Kennemur</mods:namePart>
+      <mods:namePart type="given">Justin Glenn</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemistry and Biochemistry</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (146 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Polyelectrolytes are polymers bearing charged repeat units. Based on the charge, a polyelectrolyte can be categorized as either a polycation or a polyanion. When dissolved in water, the charges on a polyelectrolyte are balanced by small counterions. Mixing certain polycations and polyanions in an aqueous solution will result in solid precipitants due to polymer-polymer interactions and the entropy gain of releasing the small counterions. This type of material is called polyelectrolyte complexes, PECs. PECs have a wide range of applications including drug delivery systems, film coatings, and membranes. Because of their charged nature, PECs can bind with enzymes and DNA or many bio-medical applications. To further explore the applications of PECs, it is important to understand the dynamics and viscoelastic properties of this special type of polymer. Many factors such as water, temperature, and composition heavily influence the behaviors of PECs, and therefore were studied in this work. The first part of the dissertation focuses on water and the viscoelastic properties of various PECs. Thirteen different polyelectrolytes were used to produce those PECs, and radiolabeling and NMR techniques were used to determine the polycation: polyanion stoichiometry in the materials. Rheological studies were performed on those PECs to determine their glass transition temperatures, Tg. The PECs exhibit a wide range of Tgs within the working range of aqueous solutions between 0 and 100 °C. To study the correlation between Tg and water, a radiochemical method was developed to measure the pore volume within the PECs, which was used to differentiate between PEC water and pore water. Contrary to what was generally believed, the Tg correlated poorly with the water volume fraction in PECs. There was a weak correlation in a series of PECs in which one of the polyelectrolytes was held constant. On the other hand, time-temperature superposition of linear viscoelastic responses provided a classical estimate of the fractional free volume of PECs, which correlated well with Tg. The second part investigated the correlation between the stoichiometry and viscoelastic properties of a certain PEC, poly(diallydimethylammonium) (PDADMA)/poly(4-styrenesulfonic acid) (PSS). Various nonstoichiometric PECs with excess in either PDADMA or PSS were produced by a "quenching" method. A xvi maximum of 36% molar excess of PDADMA or 40% molar excess of PSS was achieved. Those nonstoichiometric PECs exhibited lower Tgs compared to stoichiometric ones, and an excess of PDADMA had a bigger effect on lowering the Tg. It was shown that the decrease in Tg was caused by the increase in water content. Due to the excess polyelectrolytes and counterions, more water was introduced to the nonstoichiometric PECs and therefore lowered the Tg via the plasticizing effect. In addition, time–temperature superposition revealed a correlation between segmental relaxation times and stoichiometry. Nonstoichiometric PECs were shown to have elevated fractional free volumes and decreased polymer volume fractions, which are responsible for changes in their mechanical properties. The third part focuses on the formation and properties of PEC blends. Four PECs with distinct Tgs were used to produce two PEC blends with varying compositions. Each blend is comprised of one polycation and two polyanions, and the molar ratio of the two polyanions was adjusted to create blends with the same components but different molar compositions. Rheological experiments were carried out to determine the Tgs of the blends. It was shown that one of the blends exhibited Tgs in between the two individual PECs, and the Tgs can be modeled using the Kwei Equation. The other blend showed two different Tgs that were similar to the individual PECs' Tgs, indicating the blend was immiscible. The immiscibility was explained by the difference in critical salt concentration between the two individual PECs.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 8, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">glass transition, polyelectrolyte, polyelectrolyte complex</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Joseph B. Schlenoff, Professor Directing Dissertation; Zhiyong Liang, University Representative; Albert E. Stiegman, Committee Member; Justin G. Kennemur, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85022986">
+      <mods:topic>Chemistry</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Chen_fsu_0071E_17050</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

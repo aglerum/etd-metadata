@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Generalizing the Control Architecture of the Lateral Prefrontal Cortex</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-7063-6384</mods:nameIdentifier>
+      <mods:namePart type="family">Pitts</mods:namePart>
+      <mods:namePart type="given">McKinney</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/nee">
+      <mods:namePart type="family">Nee</mods:namePart>
+      <mods:namePart type="given">Derek Evan</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/cmartin8">
+      <mods:namePart type="family">Martin</mods:namePart>
+      <mods:namePart type="given">Christopher Basil</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2014091561">
+      <mods:namePart type="family">Proudfit</mods:namePart>
+      <mods:namePart type="given">Greg Hajcak</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Psychology</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (57 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Cognitive control guides non-habitual, goal directed behaviors allowing us to flexibly adapt to ongoing demands. Previous work has suggested that multiple cognitive control processes exist that can be classed according to their action on present-oriented/external information versus future-oriented/internal information. These processes can be mapped onto the prefrontal cortex (PFC) such that increasingly rostral areas are involved in increasingly future-oriented/internal control processes. Whether and how such processes are organized to support goal-directed behavior remains unclear. On the one hand, the PFC may flexibly adapt which processes are most influential for cognition based upon demands. On the other hand, there may be a consistent control architecture that organizes control processes. Previous work using fMRI in humans during a comprehensive control task that engaged several control processes at once found that an area in mid-LPFC consistently exerted widespread influence throughout the PFC. These data suggested that the mid-LPFC forms an apex of a putative control hierarchy that organizes control processes. However, whether such an architecture generalizes across tasks remains to be tested. Here, we utilized a modified comprehensive control task designed to alter how control processes influence one another. Univariate fMRI activations revealed distinct control-related activations relative to past work. Despite these changes, effective connectivity modeling revealed a similar directed architecture to previous findings with the mid-LPFC exerting the most widespread influences through PFC. These results suggest that the fundamental architecture of the PFC and control processes is relatively fixed, and that different demands are accommodated through modulations of this fixed architecture.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Psychology in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 1, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">cognitive control, executive function, frontal lobes, hierarchical control, prefrontal cortex</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Derek Evan Nee, Professor Directing Thesis; Christopher Basil Martin, Committee Member; Greg Hajcak, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh87007652">
+      <mods:topic>Cognitive psychology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh91006099">
+      <mods:topic>Neurosciences</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Pitts_fsu_0071N_17208</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Psychology</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Dimension Reduction and Regression for Tensor Data and Mixture Models</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-5440-1374</nameIdentifier>
+      <namePart type="family">Wang</namePart>
+      <namePart type="given">Ning</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/xzhang8">
+      <namePart type="family">Zhang</namePart>
+      <namePart type="given">Xin</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/chuang3">
+      <namePart type="family">Huang</namePart>
+      <namePart type="given">Chen</namePart>
+      <namePart type="termsOfAddress">(Professor of Scientific Computing)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2013073385">
+      <namePart type="family">Huffer</namePart>
+      <namePart type="given">Fred W. (Fred William)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/qmai">
+      <namePart type="family">Mai</namePart>
+      <namePart type="given">Qing</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Statistics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (181 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>In modern statistics, many data sets are of complex structure, including but not limited to high dimensionality, higher-order, and heterogeneity. Recently, there has been growing interest in developing valid and efficient statistical methods for these data sets. In my thesis, we studied three types of data complexity: (1) tensor data (a.k.a. array valued random objects); (2) heavy-tailed data; (3) data from heterogeneous subpopulations. We address these three challenges by developing novel methodologies and efficient algorithms. Specifically, we proposed likelihood-based dimension folding methods for tensor data, studied the robust tensor $\td$ regression by a proposed tensor $\td$ distribution, and developed an algorithm and theory for high-dimensional mixture linear regression. My work on these three topics is elaborated as follows. In recent years, traditional multivariate analysis tools, such as multivariate regression and discriminant analysis, are generalized from modeling random vectors and matrices to higher-order random tensors (a.k.a.~array-valued random objects). Equipped with tensor algebra and high-dimensional computation techniques, concise and interpretable statistical models and estimation procedures prevail in various applications. One challenge for tensor data analysis is caused by the large dimensions of the tensor. Many statistical methods such as linear discriminant analysis and quadratic discriminant analysis are not applicable or unstable for data sets with the dimension that is larger than the sample size. Sufficient dimension reduction methods are flexible tools for data visualization and exploratory analysis, typically in a regression of a univariate response on a multivariate predictor. For regressions with tensor predictors, a general framework of dimension folding and several moment-based estimation procedures have been proposed in the literature. In this essay, we propose two likelihood-based dimension folding methods motivated by quadratic discriminant analysis for tensor data: the maximum likelihood estimators are derived under a general covariance setting and a structured envelope covariance setting. We study the asymptotic properties of both estimators and show using simulation studies and a real-data analysis that they are more accurate than existing moment-based estimators. Another challenge to statistical tensor models is the non-Gaussian nature of many real-world data. Unfortunately, existing approaches are either restricted to normality or implicitly using least squares type objective functions that are computationally efficient but sensitive to data contamination. Motivated by this, we adopt a simple tensor $\td$-distribution that is, unlike the commonly used matrix $\td$-distributions, compatible with tensor operators and reshaping of the data. We study the tensor response regression with tensor $\td$-error, and develop penalized likelihood-based estimation and a novel one-step estimation. We study the asymptotic relative efficiency of various estimators and establish the one-step estimator's oracle properties and near-optimal asymptotic efficiency. We further propose a high-dimensional modification to the one-step estimation procedure and showed that it attains the minimax optimal rate in estimation. Numerical studies show the excellent performance of the one-step estimator. In the last chapter, we consider the high-dimensional mixture linear regression. The expectation-maximization (EM) algorithm and its variants are widely used in statistics. In high-dimensional mixture linear regression, the model is assumed to be a finite mixture of linear regression forms and the number of predictors is much larger than the sample size. The standard EM algorithm, which attempts to find the maximum likelihood estimator, becomes infeasible. We devise a penalized EM algorithm and study its statistical properties. Existing theoretical results of regularized EM algorithms often rely on dividing the sample into many independent batches and employing a fresh batch of sample in each iteration of the algorithm. Our algorithm and theoretical analysis do not require sample-splitting. The proposed method also has encouraging performances in simulation studies and a real data example.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">March 25, 2022.</note>
+   <note displayLabel="Keywords">Dimension Reduction, Mixture Models, Tensor Data</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Xin Zhang, Professor Directing Dissertation; Chen Huang, University Representative; Fred Huffer, Committee Member; Qing Mai, Committee Member.</note>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <topic>Statistics</topic>
+   </subject>
+   <identifier type="IID">2022_Wang_fsu_0071E_17007</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

@@ -28,12 +28,12 @@
 
     <!-- **Global variables** -->
     <!-- Batch Variable -->
-    <xsl:variable name="batch" select="'2021_Fall'"/>
+    <xsl:variable name="batch" select="'2022'"/>
 
     <!-- These paths change with each semester-->
-    <xsl:variable name="pdfdata" select="document('source_pdfdata/source_pdfdata_2021Fa_uris.xml')/records/record"/>
-    <xsl:variable name="committee" select="document('tables/ETD-NAF_mads_20220520.xml')/mads:madsCollection/mads:mads/mads:authority"/>
-    <xsl:variable name="authors" select="document('tables/authors_2021Fa.xml')/authors/name"/>
+    <xsl:variable name="pdfdata" select="document('source_pdfdata/source_pdfdata_2022Sp_uris.xml')/records/record"/>
+    <xsl:variable name="committee" select="document('tables/ETD-NAF_mads_20221010.xml')/mads:madsCollection/mads:mads/mads:authority"/>
+    <xsl:variable name="authors" select="document('tables/authors_2022Sp.xml')/authors/name"/>
 
     <!-- These paths refer to data tables -->
     <xsl:variable name="PQ-FSU-dept" select="document('tables/PQ-FSUdept.xml')/departments/department"/>

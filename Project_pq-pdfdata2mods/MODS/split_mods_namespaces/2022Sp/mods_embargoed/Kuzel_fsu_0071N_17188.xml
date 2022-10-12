@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Understanding Early-Life Telomere Length and Dynamics in a Long-Lived Neotropical Passerine</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-5360-3919</mods:nameIdentifier>
+      <mods:namePart type="family">Kuzel</mods:namePart>
+      <mods:namePart type="given">Meredith Rose</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/eduval">
+      <mods:namePart type="family">DuVal</mods:namePart>
+      <mods:namePart type="given">Emily H.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kahughes">
+      <mods:namePart type="family">Hughes</mods:namePart>
+      <mods:namePart type="given">Kimberly A.</mods:namePart>
+      <mods:namePart type="date">1960-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/binouye">
+      <mods:namePart type="family">Inouye</mods:namePart>
+      <mods:namePart type="given">Brian D.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Biological Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (109 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Early-life experience can influence behaviors that are important for survival and reproduction, two key elements of individual fitness. However, identifying a mechanism linking early-life experience to late-life behavior is a major challenge for the field of evolutionary biology. Telomeres are one such possible mechanism. Telomeres are repeated nucleotide sequences at the ends of chromosomes that protect DNA during cell replication. The rate of telomere attrition is influenced by natural processes and in somatic cells telomeres shorten with individual age. Oxidative stress increases the rate at which telomeres shorten while telomerase influences the rate at which they may lengthen. Understanding the factors influencing initial telomere length (TL) and early-life TL attrition will provide a better understanding of the mechanisms underlying longevity and reproductive strategy decisions. This Master's thesis aims to understand how early-life events influence initial TL and dynamics by investigating: (1) How do pre-natal factors relate to initial telomere length? And (2) How does early-life experience predict telomere dynamics in nestling lance-tailed manakins? I answered these questions using a population of lance-tailed manakins in Western Panama. To address whether parental factors predict initial TL, I quantified chick sex, and parental TL and age in chick hatch year, and compared each of these to initial offspring TL using linear mixed effects models. To identify how rate of TL attrition is affected post-hatch, I addressed influences on TL from environmental and local nest factors experienced by chicks. I quantified change in nestling TL while in the nest and compare change in nestling TL to maternal age, presence of a sibling, and environmental effects of that hatch year. I found that pre-natal factors did not predict initial telomere length, but that in cooler and wetter months, chicks lost more telomere kilobase pairs during development than chicks hatched in hotter and drier months. These findings indicate that environmental factors play an important role in nestling telomere dynamics, but the effects of temperature and precipitation are clearly influential in the post-hatching period. This research emphasizes the importance of the early rearing environmental conditions for chick telomere dynamics, and identifies an important source of variation in telomere dynamics for young birds as they reach independence.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Biological Science in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 31, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">life history strategy, Neotropical passerine, Oceanic Nino Index, parental effects, telomere</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Emily H. DuVal, Professor Directing Thesis; Kimberly A. Hughes, Committee Member; Brian Inouye, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh90004042">
+      <mods:topic>Evolution (Biology)</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85040752">
+      <mods:topic>Ecology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Kuzel_fsu_0071N_17188</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Biological Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

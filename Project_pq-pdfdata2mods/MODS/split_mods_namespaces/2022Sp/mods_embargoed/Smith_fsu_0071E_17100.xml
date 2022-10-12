@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Interconnectivity of Bath Architecture and Culture in Central Italy</mods:title>
+      <mods:nonSort>The</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-6097-9543</mods:nameIdentifier>
+      <mods:namePart type="family">Smith</mods:namePart>
+      <mods:namePart type="given">Allison Elizabeth</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2015051850">
+      <mods:namePart type="family">De Giorgi</mods:namePart>
+      <mods:namePart type="given">Andrea U.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/japalmer">
+      <mods:namePart type="family">Palmer</mods:namePart>
+      <mods:namePart type="given">James Allen</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n95053027">
+      <mods:namePart type="family">Pfaff</mods:namePart>
+      <mods:namePart type="given">Christopher A.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n85368513">
+      <mods:namePart type="family">Pullen</mods:namePart>
+      <mods:namePart type="given">Daniel J.</mods:namePart>
+      <mods:namePart type="date">1954-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Classics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (963 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Ancient Roman bath complexes, both public and private, have been the source of curiosity for centuries. Scholars have studied the architectural forms of baths around the Mediterranean, although focus in Italy has been primarily reserved for baths located in Rome, Pompeii, and Herculaneum. Large and better-preserved baths at these sites have drawn the attention of the researcher, but hundreds of baths dot the landscape of Central Italy. This dissertation concentrates on traditionally glossed-over baths within the broader context of private and public bathing customs in Central Italy, creating a new, more thorough analysis of bath building practices in five chosen regions. Through this examination, this study proposes construction and design processes necessary to build, renovate, and maintain baths, as well as the interconnected nature of bath design. Moreover, this study adds to our knowledge of the people who were involved in the construction of these hygienic facilities – their roles and engagement in the building process. Our understanding of men and women involved in Roman construction projects, particularly baths, is limited, although not lost entirely. Using literary, archaeological, and epigraphic evidence of general construction in Central Italy, I present a chaîne opératoire for the bath building industry in the surveyed regions. As a case study, I dissect the processes of constructing the small bathhouse at Cosa (Tuscany), incorporating the proposed chaîne opératoire into this analysis. Such studies have been performed for larger baths on the peninsula, and the case study of Cosa's bath, which is part of the larger survey of baths in the surrounding regions, complements the current understanding of building processes through the lens of a smaller project. The second half of this dissertation involves a diachronic analysis of bath building in Central Italy. To perform such an analysis, I have compiled a catalogue of the archaeological remains of nearly 250 baths. This catalogue is not exhaustive, but the foundation of a regional study of bath construction and bathing habits that augments the burgeoning field of cross-cultural bath studies. Individual bathing rooms and the overall designs of these baths, when the archaeology permits such a scrutiny, are surveyed, compared, and classified. From this examination, typologies emerge, although these categories of baths are not as rigid as those proposed in past scholarship. From these typologies, theories concerning initial steps of architectural design come to light. Channels of diffusion of bath building knowledge are also presented, which highlight evolutionary progressions evidenced in the archaeological record. With these illuminated interconnections between designs and room types, interconnections between the people integral to bath building in these regions of Italy emerge.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Classics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 23, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">Ancient Architecture, Central Italy, Roman Archaeology, Roman Baths</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Andrea De Giorgi, Professor Directing Dissertation; James A. Palmer, University Representative; Christopher Pfaff, Committee Member; Daniel Pullen, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85006507">
+      <mods:topic>Archaeology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85026454">
+      <mods:topic>Civilization, Greco-Roman</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85006611">
+      <mods:topic>Architecture</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Smith_fsu_0071E_17100</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Classics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

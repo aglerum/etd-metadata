@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Effect of Balconies on Surface Pressure Distribution on a Mid-Rise Building</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-0167-558X</mods:nameIdentifier>
+      <mods:namePart type="family">Taondeyande</mods:namePart>
+      <mods:namePart type="given">Fabrice</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/sjung">
+      <mods:namePart type="family">Jung</mods:namePart>
+      <mods:namePart type="given">Sungmoon</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/qzhang4">
+      <mods:namePart type="family">Zhang</mods:namePart>
+      <mods:namePart type="given">Qian</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2008010967">
+      <mods:namePart type="family">Spainhour</mods:namePart>
+      <mods:namePart type="given">Lisa</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Civil and Environmental Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (44 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This thesis investigates the surface pressure distribution on a 15-story mid-rise building model. The experiment was performed on a building with/without balconies; the data on the building without balconies being the reference pressure distribution for understanding the balconies effect on the surface pressure distribution. The experiment was simulated in an urban area setting (exposure B terrain) where the ABL height was estimated to be 0.73-m. The testing angles considered for the experiments were 0o, 45o, and 90o for a total of three angles. A scaling factor of 1/500 was considered for the testing to limit the blockage ratio to 3.23%. 15 pressure taps were predefined on the building specimen to observe the surface distribution. Of those 15 pressure taps, 3 were located on the roof, 4 on a side wall, and 8 on the front walls or 0o windward flow. The footprint section of the building specimen was (120X60) mm2 with a height of 100 mm. The wind tunnel test was performed using a Scannivalve Corp. ZOC 22B/32Px pressure scanner and a pressure sensitive paint from ISSI. The pressure sensitive paint (PSP) provides a 5% accuracy compared to the pressure scanner and is used as validation of the pressure scanner wind tunnel testing. For this experiment, a Binary UniCoat and Single UniCoat paint were used to estimate the wind pressure distribution. The experiment was conducted in the AME (Aero-propulsion, Mechanics, and Energy) wind tunnel of the FAMU-FSU College of Engineering which has a cross sectional dimension of (30 X 30) in2 and a testing section of 5-ft. The approach used to estimate the atmospheric boundary layer dimension and characteristics was made using the Irwin approach. The findings of the experiment concludes that the balconies influenced the surface pressure distribution on the building.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Civil and Environmental Engineering in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 5, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">balconies, exposure B, mid-rise building, pressure scanner, pressure sensitive paint, wind tunnel</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Sungmoon Jung, Professor Directing Thesis; Qian Zhang, Committee Member; Lisa Spainhour, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85043176">
+      <mods:topic>Engineering</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Taondeyande_fsu_0071N_17275</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Civil and Environmental Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

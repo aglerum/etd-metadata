@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Chemical and Physical Dynamics of Magnetic Interactions</title>
+      <nonSort>The</nonSort>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-5022-3462</nameIdentifier>
+      <namePart type="family">Clark</namePart>
+      <namePart type="given">Judith K.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/shatruk">
+      <namePart type="family">Shatruk</namePart>
+      <namePart type="given">Mykhailo</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/garleao">
+      <namePart type="family">Garlea</namePart>
+      <namePart type="given">Vasile O.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/nb2012017661">
+      <namePart type="family">Dobrosavljević</namePart>
+      <namePart type="given">Vladimir</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/latturne">
+      <namePart type="family">Latturner</namePart>
+      <namePart type="given">Susan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/yhu">
+      <namePart type="family">Hu</namePart>
+      <namePart type="given">Yan-yan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Chemistry and Biochemistry</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (148 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>The central focus of this thesis is a study of materials with competing magnetic interactions and understanding how these interactions affect the overall magnetic behavior of solids. Understanding the fundamental factors that can be used to tune the magnetic exchange interactions provides the legwork to a "materials by design" approach that may be used to target desired magnetic properties for applications related to electronics and spintronics. Specifically, this thesis will focus on the fundamental understanding of how magnetic materials behave when one or more of the following factors is considered: chemical substitution, pressure, applied magnetic field, and temperature. Chapter 1 covers the fundamentals of magnetism and examples of magnetic behaviors that demonstrate the principles that are important to this thesis. Chapter 2 covers the experimental and theoretical methods used in this work. In Chapter 3, the behavior of solid solutions La1-xCexCo2P2, with a particular focus on the representative with x = 0.3, is analyzed. The careful analysis of La0.4Ce0.6Co2P2 is particularly important to this series, as at this composition the magnetic phase boundary between ferromagnetic (FM) and antiferromagnetic (AFM) behavior occurs. The loss of magnetic ordering in this compound due to a temperature driven lattice collapse and the magnetic behavior under pressure are discussed. Additionally, a specific focus on the magnetic behavior of cerium is incorporated for a deeper understanding of the role intermediate valence of Ce plays in the magnetic properties of this series. In Chapter 4, the AFM compound MnBi2Se4 is investigated by neutron scattering and magnetic measurements. The crystal structure reveals AFM chains of Mn atoms. A relative half-translation shift of the neighbor chains results in spin frustration caused by interchain magnetic exchange. Ultimately, these spin-frustrating interactions lead to helimagnetic ordering along the chain propagation direction. To further understand the nature of magnetic exchange in MnBi2Se4, Chapters 5 and 6 focus on the simple binary monocalcogenides, MnS and MnSe. Inelastic neutron scattering (INS) is used to measure the specific magnetic exchange constants in these materials. In MnS, the INS measurements combined with theoretical investigation lead to the revelation that both superexchange and direct exchange play a significant role in the overall AFM ordering. The behavior of MnSe is inherently more complex due to the structural phase transition from cubic (NaCl) to hexagonal (NiAs) phase upon cooling. The transition is incomplete due to its very slow kinetics, which have allowed, for the first time in this system, for experimental observation of the intermediate third phase involved in this transformation. The intermediate phase was investigated by temperature-dependent X-ray diffraction and pair distribution function (PDF) measurements, and supported by INS studies. In continuation of the theme of competing magnetic interactions, Chapter 7 focuses on the magnetic behavior of systems with geometric triangular arrangements of magnetic moments of 4f ions (Ln). The lack of magnetic ordering is observed for a majority of the LnZn3P3 and YbZn2Pn2 (Pn = P, As, Sb) systems down to 1.8 K. The question arises, could the lack of magnetic ordering be caused by the frustration induced by the crystal lattice? Further studies are needed to confirm whether the lack of magnetic ordering, indeed, is caused by spin frustration. X-ray absorption near-edge structure (XANES) spectroscopy is utilized to address the oxidation state of Yb in YbZn2Pn2. Finally, Chapter 8 is dedicated to another potentially interesting system for which the magnetic behavior has not been thoroughly investigated. Er5S7 is unusual as a non-valence-precise structure. The crystal growth and magnetic behavior of Er5S7 are reported, revealing AFM ordering at low temperature. The challenges associated with determining the exact crystal and magnetic structures of this materials are discussed. Throughout this thesis, the relationship between the underlying crystal structure and competing magnetic interactions will be identified and discussed for each unique system. The broad scope of systems considered in this thesis has allowed identification of potentially interesting future research directions, which are outlined in the concluding Chapter 9.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">March 25, 2022.</note>
+   <note displayLabel="Keywords">competing interactions, magnetism, neutron scattering</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Michael Shatruk, Professor Co-Directing Dissertation; Vasile O. Garlea, Professor Co-Directing Dissertation; Vladimir Dobrosavljevic, University Representative; Susan Latturner, Committee Member; Yan-Yan Hu, Committee Member.</note>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85078653">
+      <topic>Low temperatures</topic>
+   </subject>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85022986">
+      <topic>Chemistry</topic>
+   </subject>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85030765">
+      <topic>Condensed matter</topic>
+   </subject>
+   <identifier type="IID">2022_Clark_fsu_0071E_17094</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

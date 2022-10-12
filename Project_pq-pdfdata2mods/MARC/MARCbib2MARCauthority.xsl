@@ -19,7 +19,7 @@
 
     <!-- **Global variables** -->
     <!-- Batch Variable -->
-    <xsl:variable name="batch" select="'2020_Summer_Fall_2021_Spring'"/>
+    <xsl:variable name="batch" select="'2021Su_withStraggler'"/>
 
     <xd:doc>
         <xd:desc>

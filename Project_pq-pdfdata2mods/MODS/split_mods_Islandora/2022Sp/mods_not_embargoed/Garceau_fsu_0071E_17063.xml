@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Heat and Mass Transfer during a Sudden Loss of Vacuum in a Liquid Helium Cooled Tube</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-7332-3992</nameIdentifier>
+      <namePart type="family">Garceau</namePart>
+      <namePart type="given">Nathaniel</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/wguo">
+      <namePart type="family">Guo</namePart>
+      <namePart type="given">Wei</namePart>
+      <namePart type="termsOfAddress">(Professor of Mechanical Engineering)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/pamidi">
+      <namePart type="family">Pamidi</namePart>
+      <namePart type="given">Sastry V.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/jguan">
+      <namePart type="family">Guan</namePart>
+      <namePart type="given">Jingjiao</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/ehellstrom">
+      <namePart type="family">Hellstrom</namePart>
+      <namePart type="given">Eric</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2003098450">
+      <namePart type="family">Ordóñez</namePart>
+      <namePart type="given">Juan Carlos</namePart>
+      <namePart type="date">1973-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>FSU-FAMU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Mechanical Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (114 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>There are many safety concerns with cryogenic systems around the world such as particle accelerators. One large concern is the sudden loss of vacuum within the particle accelerator systems. Loss of vacuum can lead to catastrophic equipment and facility damage as well as possible personnel injury. To mitigate risk and improve safety during operation of particle accelerator systems, a clear understanding of the dynamic and complex heat and mass transfer processes after a vacuum break is needed. Research in our lab focuses on the simulation of a sudden loss of vacuum in liquid helium cooled superconducting particle accelerator beam-line tubes. Loss of vacuum is simulated using an evacuated copper tube cooled in liquid helium and suddenly venting nitrogen gas from a buffer tank into the tube. Abrupt temperature rise by thermometers mounted to the tube's wall marked the location of the gas propagating front. Previous experiments and analysis in our lab using normal helium (He~I) and preliminary studies in superfluid helium (He II) observed an exponential slowing of the gas propagating front (Dhuley and Vansciver, 2016). Condensation of the nitrogen gas onto the tube walls was shown to be the reason for the exponential slowing, but the underlying analysis and explanation of the gas dynamics and condensation was limited. This dissertation describes the continuation and evolution of our lab's experiments, and improvements in the quantitative analysis to better explain the underlying physical mechanisms of the slowing down process in both He I and He II. Further systematic experimental and simulation work using different mass flow rates into the evacuated tube were conducted to determine the applicability and robustness of the model in both He I and He II. The improved understanding of the physics of a vacuum break in a liquid helium cooled tube could have practical uses by improving particle accelerator safety.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Mechanical Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">April 5, 2022.</note>
+   <note displayLabel="Keywords">Cryogenics, Liquid Helium, Particle accelerators, Superfluid Helium, Vacuum break</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Wei Guo, Professor Directing Dissertation; Sastry Pamidi, University Representative; Jingjiao Guan, Committee Member; Eric Hellstrom, Committee Member; Juan Ordonez, Committee Member.</note>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85082757">
+      <topic>Mechanical engineering</topic>
+   </subject>
+   <identifier type="IID">2022_Garceau_fsu_0071E_17063</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Mechanical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

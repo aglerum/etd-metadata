@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Compos(t)e</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-1922-0698</mods:nameIdentifier>
+      <mods:namePart type="family">Myers</mods:namePart>
+      <mods:namePart type="given">Phoebe</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n93019374">
+      <mods:namePart type="family">Roberts</mods:namePart>
+      <mods:namePart type="given">Diane</mods:namePart>
+      <mods:namePart type="date">1959-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2012078288">
+      <mods:namePart type="family">Wilson</mods:namePart>
+      <mods:namePart type="given">L. Lamar</mods:namePart>
+      <mods:namePart type="date">1979-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2006055609">
+      <mods:namePart type="family">Howard</mods:namePart>
+      <mods:namePart type="given">Ravi</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of English</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (135 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>In Metamorphoses, Ovid outlines the progression of human generations as being made first from clay, then blood, then stone. The humans made from clay represented a leftover unity between heaven and earth, which had only recently been separated according to the creation myth: "Maybe the earth that was freshly formed and newly divorced / from the heavenly ether retained some seeds of its kindred element." Raindrops from heaven mixed with the dirt of the earth which Prometheus could then mold into the likeness of gods. Ovid describes this time as an Earth at peace, not yet broken even into separate seasons or into individual homes, when the earth was "untouched by the hoe, unscathed by the ploughshare." I live as we all do, in a world of breakage. Between the self and others, ancestors and their lineage, the past and the present. Where do they overlap? Many myths point to the earth on which we stand as the intermediary between the underworld and ours. The soil is not a thing but a process. It is ever metabolizing, re-forming, and transforming itself. Our myths themselves function similarly: as they are told, parts of them morph and graft onto each other like a plant accruing other meanings. Composition is akin to turning over a stone to see its underbelly. There you can glimpse the breakdown of life with its peachy mush of worms, but also new creation. It is repulsive and enthralling, the slight exhilaration of decay. I write when I feel lonely, searching under stones for love. But language is only part of my search for communion. Virginia Woolf perhaps said it best in A Room of One's Own when she discussed how women must form their own syntax, their own language. Of the woman writer she wrote, "Perhaps the first thing she would find, setting pen to paper, was that there was no common sentence ready for her to use." The tools passed down for her to speak through had been created for someone else. I find other ways to communicate; through my feet on the earth I converse with ghosts and missing mothers. There is a pair of mourning doves that live in my backyard. Every day I see them bobbing across my brick patio, pecking at the ants and tiny insects between each sandy crack. My couch faces a window overlooking the patio, and I was sitting there this morning, wrapped in a blanket. I thought about how much I would prefer to be sitting on the couch with my mother. When I was a teenager we would sit there together often, on weekend mornings. We drank coffee slowly and read together, our feet touching as we each reclined against opposing arms of the couch. She read passages aloud to me, would pick up a book from the pile behind the couch at random and read me the synopsis on the back. This morning, alone on my own couch, I watched one of the mourning doves thud against the window. I had never seen either do this before and was surprised at the drama of the glass vibrating and the dove cooing loudly as it flew backwards in confusion. Luckily still alive, it careened upwards out of view, but a pile of its feathers unfurled in its absence. Little feathers, like bits of smoke, falling to the ground. Memories are just like smoke - there but not there all at once. I could call my mother whenever I liked, or even sit on that same couch on visits home, but I could never reach that feeling I had been remembering, never return to that time where I had yet to find my own place in the world. Before that lonesome journey of leaving home in order to find it. But it felt so real, and who's to say it wasn't, this trip I took in my mind? Her voice and her feet, the weight of our blanket. Writing is the thud that brings me back to the room. Its mess, its light, its smallness. But the room encompasses everything - my past, the world's past. I didn't feel so lonely anymore, watching the dove's feathers in the aftermath. Everything was there with me, greeting the rest of the day and all its sun.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of English in partial fulfillment of the requirements for the degree of Master of Fine Arts.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 4, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Diane Roberts, Professor Directing Thesis; L. Lamar Wilson, Committee Member; Ravi Howard, Committee Member.</mods:note>
+   <mods:identifier type="IID">2022_Myers_fsu_0071N_17189</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Fine Arts</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>English</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

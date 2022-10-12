@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Interactions between Polyelectrolytes on a Surface, in Aqueous Solutions and Nanocomposites</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">https://orcid.org/0000-0002-1955-1625</mods:nameIdentifier>
+      <mods:namePart type="family">Lteif</mods:namePart>
+      <mods:namePart type="given">Sandrine</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/nb2002004599">
+      <mods:namePart type="family">Schlenoff</mods:namePart>
+      <mods:namePart type="given">Joseph B.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n84134993">
+      <mods:namePart type="family">Locke</mods:namePart>
+      <mods:namePart type="given">Bruce R.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kennemur">
+      <mods:namePart type="family">Kennemur</mods:namePart>
+      <mods:namePart type="given">Justin Glenn</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/nb2009002696">
+      <mods:namePart type="family">Mattoussi</mods:namePart>
+      <mods:namePart type="given">Hedi</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemistry and Biochemistry</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (197 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The interactions of charged polymers, polyelectrolytes, on surfaces and in solution have gained a lot of attention throughout the years. Depositing alternating layers of oppositely charged polyelectrolytes forms multilayers, PEMUs. Their association in solution leads to phase separations forming materials termed polyelectrolyte complexes, PECs. The repeat unit of the oppositely charged polyelectrolyte can be varied. The functional group linked to the repeat units dictates the strength of ion pairing. Their self-assembly in solution creates polymer nanoparticles and, in a network, produces polymer nanocomposites. These materials have been used for a variety of applications such as coatings, electronic devices, and drug delivery systems. Adding a certain salt concentration to the material can influence the polymer/polymer interaction within the complex. This work features three main interfaces at which polyelectrolyte interactions were studied: on a substrate through PEMUs, in solution through polymer nanoparticles and in nanocomposites. The pairing strength of a polythiouronium polyelectrolyte having a positively charged thiouronium group, like the guanidinium, was evaluated by the formation of PEMUs at various salt concentrations. Polyguanidiniums such as polyarginine are known to form like-charge ion pairings and hydrogen bonding. The same unusual characteristics cause the strong interactions of the polythiouronium with polyanions. High concentrations of salt dissociated the strong polythiouronium/polyanions complexes. The polythiouronium was selected to seek another example of a strong polycation and to form a PEMU with polyzwitterions, which are known for their weakly interacting strength and net-neutral charge. The second interface consists of the self-assembly of a polydimethylsiloxane (PDMS) with positively charged end groups in solution, and as a nanofiller, in a nanocomposite. Polydimethylsiloxane is biocompatible and highly hydrophobic; however, when self-assembled exhibits poor stability and tends to collapse. Introducing a glassy shell of polystyrene sulfonate enhances the stability of these polymer nanoparticles and improves the mechanical properties of the nanocomposite which exhibited thermal resistance. Using x-ray scattering and atomic force microscopy, the nanocomposite's unique morphology was deduced. Its hydrophobic properties were probed using a solvatochromic dye and were used to encapsulate inorganic nanoparticles. The gold nanoparticles are hydrophobically capped and they appeared to be encapsulated within the PDMS core. Their assembly was studied by x-ray scattering in the presence of a PSS shell in solution and the loading capability of the nanoparticle was determined by transmission electron microscopy (TEM). The newly formed material is a novel polymer nanoparticle/polymer nanocomposite that takes advantage of the PDMS malleability and biocompatibility. The nanoparticle can thus be used for biological applications such as bio-imaging and sensing. The last section compares the interactions of different polycations with lipid layers (monolayer or bilayer) to mimic the mechanism of surface sterilization. The functional group varied between a primary or tertiary ammonium, a guanidinium and two different thiouronium groups. Ammoniums are known for their ability to disrupt lipid bilayers and for their use in disinfectants. Polyarginine, a strong positively charged polymer, is recognized for its cell-penetrating ability due to its unique salt-bridge like interactions. Radioactive unilamellar phosphocholine vesicles were prepared and used to deposit a monolayer on a hydrophobic scintillator and a bilayer on a hydrophilic one. The interactions of the layers and the deposition were monitored by radiocounting. Polyarginine and the polymer with a higher composition of a hydrophobic thiouronium exhibited the strongest interactions. These investigations of the interactions between polyelectrolytes at different interfaces serve as a guide to design a variety of functional materials. Understanding the structure-property polymer relationship allows the build-up of materials with tuned properties.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 31, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Joseph B. Schlenoff, Professor Directing Dissertation; Bruce Locke, University Representative; Justin Kennemur, Committee Member; Hedi Mattoussi, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85022986">
+      <mods:topic>Chemistry</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Lteif_fsu_0071E_17024</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

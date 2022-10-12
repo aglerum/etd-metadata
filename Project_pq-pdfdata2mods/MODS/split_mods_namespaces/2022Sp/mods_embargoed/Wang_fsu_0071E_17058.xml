@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Mixed-Anion Thiophosphate Fast Ion Conductors</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-5740-6912</mods:nameIdentifier>
+      <mods:namePart type="family">Wang</mods:namePart>
+      <mods:namePart type="given">Pengbo</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yhu">
+      <mods:namePart type="family">Hu</mods:namePart>
+      <mods:namePart type="given">Yan-yan</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/zyu">
+      <mods:namePart type="family">Yu</mods:namePart>
+      <mods:namePart type="given">Zhibin</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/shatruk">
+      <mods:namePart type="family">Shatruk</mods:namePart>
+      <mods:namePart type="given">Mykhailo</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kghanson">
+      <mods:namePart type="family">Hanson</mods:namePart>
+      <mods:namePart type="given">Kenneth G.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemistry and Biochemistry</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (156 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Fast ion conductors (FICs), also known as solid electrolytes, are a key component of all-solid-state batteries (ASSBs), one of the most promising next-generation energy storage technologies. Among them, thiophosphates, such as Li10GeP2S12 and Li-argyrodites, have shown conductivities greater than 10 mS/cm, which are desirable for high-power applications. Cation doping is the common strategy to induce structural disorder for enhancing ion transport. However, cations such as Ge4+ and Ti4+ introduce unwanted redox centers and compromises electrochemical stability window. To leverage structural disorder for fast ion conduction without introducing undesirable redox reactions in solid electrolytes, the less traveled path of engineering the anion sublattice is explored. The viability and effectiveness of this method are examined across several thiophosphate-based FICs: Br-argyrodites (Li6-xPS5-xBr1+x), Br/Cl-mixed argyrodites (Li5.3PS4.3Cl1.7-xBrx), BH4-containing argyrodites (Li5+xPS4+y(BH4)2-z) and their glass-type analogues, (Li5PS4(BH4)2) and I-doped structures (Li5PS4(BH4)2-xIx). Advanced characterization methods including X-ray and neutron diffraction, solid-state NMR spectroscopy and relaxometry, and electrochemical impedance spectroscopy, in conjunction with ab-initio molecular dynamics simulations, are employed to investigate the composition-structure-property correlations. The results from this dissertation research have shown that the impact of anion doping on ion conduction is profound and manifested in four aspects: 1) changing the bottleneck size of ion transport channels, 2) altering the concentration/spatial distribution of charge-carrying cations, 3) shaping the energy landscape, and 4) inducing dynamical disorder via incorporating mobile polyanions into the structural framework. Several of these solid electrolytes have been tested in practical battery cells, which demonstrates exceptional compatibility with electrodes and long-term cycling stability. In summary, this dissertation comprises novel compositional design, optimal synthesis, and comprehensive characterizations of FICs, and integrating these FICs into practical all-solid-state batteries. This work provides a panoramic view of high-performance FIC development, and the yielded fundamental insights will help overcome the barriers associated with technological applications of lithium thiophosphates in energy storage.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 30, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Yan-Yan Hu, Professor Directing Dissertation; Zhibin Yu, University Representative; Michael Shatruk, Committee Member; Kenneth Hanson, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85022986">
+      <mods:topic>Chemistry</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Wang_fsu_0071E_17058</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Simulation-Based Optimization of Multiyear Infrastructure Planning for Connected and Automated Vehicles</mods:title>
+      <mods:nonSort>A</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">https://orcid.org/0000-0002-6943-9041</mods:nameIdentifier>
+      <mods:namePart type="family">Sanusi</mods:namePart>
+      <mods:namePart type="given">Fehintola</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jchoi3">
+      <mods:namePart type="family">Choi</mods:namePart>
+      <mods:namePart type="given">Juyeong</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2009155075">
+      <mods:namePart type="family">Harvey</mods:namePart>
+      <mods:namePart type="given">Bruce A.</mods:namePart>
+      <mods:namePart type="date">1961-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2006090378">
+      <mods:namePart type="family">Sobanjo</mods:namePart>
+      <mods:namePart type="given">John Olusegun</mods:namePart>
+      <mods:namePart type="date">1958-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2008021083">
+      <mods:namePart type="family">Moses</mods:namePart>
+      <mods:namePart type="given">Ren</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/lli8">
+      <mods:namePart type="family">Li</mods:namePart>
+      <mods:namePart type="given">Lichun</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (187 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>A wide adoption of connected and automated vehicles (CAVs) is anticipated in the near future given their demonstrated benefits of the in terms of safety, mobility, and environmental sustainability. Such prediction highlights a need to prepare the roadway infrastructure to facilitate safer and more reliable operation of these technologies. While acknowledging this notion, many state and local planning agencies have developed multiyear infrastructure programs for successful deployment of CAVs in a timely manner within their limited budgets. Meanwhile, the traffic environment does not remain static but will evolve over time as CAV technologies become available (i.e., toward the mixed environment of autonomous and human-driven vehicles), which requires infrastructure plans specific to different planning terms (i.e., short-, middle-, and long-term) to accommodate changing infrastructure needs. To develop an effective long-range plan, planning agencies need to understand changing infrastructure needs over time, identify alternative infrastructure options for different planning terms, and develop an optimal portfolio of CAV infrastructure projects, based on the varying infrastructure needs of the traffic environment. This study develops an analytical framework to guide a holistic approach to multiyear infrastructure planning for CAVs. To be more specific, the proposed framework uses a five-step approach. First, the framework uses a systematic literature review to identify a group of infrastructure options to support CAV system functions (e.g., merging and platooning). The next step is to prioritize roadway locations in need of infrastructure improvement based on the potential contribution of CAVs to their local traffic through a geographical information system analysis. To predict future infrastructure needs, the framework develops a generalized Bass diffusion model to forecast CAV adoption rates for short-, medium-, and long-term planning phases. Fourth, a traffic micro-simulation model is employed to evaluate the performance of the future mixed traffic environment under various infrastructure planning scenarios. Lastly, a genetic algorithm-based metaheuristic optimization model is proposed to guide effective selection of an optimal infrastructure plan that improves traffic performance in the entire network while minimizing the cost of implementation of infrastructure options for each planning term. As a proof concept, this study demonstrates the application of the proposed multiyear infrastructure planning framework for CAVs with a case study of selected freeway segments on Interstate-4 in Florida state. Results of the analysis indicate that the proposed method can identify optimal infrastructure plans comprising of optimal set of infrastructure improvements that can minimize travel time while satisfying budgetary constraints. It is also observed that the proposed framework consistently allocates more than 50% of the budget to the long-term planning phase while it seeks to evenly distribute the remaining budget between the medium-term and short-term planning phases. This analytical framework can therefore serve as a useful tool to decision makers to guide an effective multiyear CAV infrastructure plan for their transportation system.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Civil and Environmental Engineering in partial fulfilment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 5, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Juyeong Choi, Professor Directing Dissertation; Bruce Harvey, University Representative; John Sobanjo, Committee Member; Ren Moses, Committee Member; Lichun Li, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85026331">
+      <mods:topic>Civil engineering</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85137042">
+      <mods:topic>Transportation</mods:topic>
+      <mods:topic>Planning</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Sanusi_fsu_0071E_17156</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Civil and Environmental Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

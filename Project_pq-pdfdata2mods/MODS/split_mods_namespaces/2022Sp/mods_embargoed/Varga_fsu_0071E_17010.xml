@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Reviving the Search for Life</mods:title>
+      <mods:subTitle>Astrobiology, NASA, and the Politics of Science in the Late Twentieth-Century United States</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-3007-1243</mods:nameIdentifier>
+      <mods:namePart type="family">Varga</mods:namePart>
+      <mods:namePart type="given">Ian J.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/nr90000461">
+      <mods:namePart type="family">Doel</mods:namePart>
+      <mods:namePart type="given">Ronald Edmund</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n81122985">
+      <mods:namePart type="family">MacDonald</mods:namePart>
+      <mods:namePart type="given">Ian R. (Ian Rosman)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2004008442">
+      <mods:namePart type="family">Harper</mods:namePart>
+      <mods:namePart type="given">Kristine</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2006041794">
+      <mods:namePart type="family">Creswell</mods:namePart>
+      <mods:namePart type="given">Michael</mods:namePart>
+      <mods:namePart type="date">1958-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of History</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (279 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This dissertation describes the political origins and history of the scientific field of astrobiology, a discipline founded by NASA in the mid-1990s and whose practitioners search for and study extraterrestrial life and its potential evolution and origins. It argues that, despite the claims of scientists and past historians that astrobiology formed primarily because of new scientific developments, the field and the subsequent institution NASA created, the NASA Astrobiology Institute (NAI), were political products representative of changes in the relationship between space science and the American federal government in the 1990s. According to this dissertation, I argue astrobiology was a neoliberal science, born in an era in which the federal government expected sciences it funded to focus on the effect deficit cutting, balancing the federal budget, and connections with private industries. This political dynamic differed from the Cold War period when the government invested heavily in NASA to produce science and technology for national defense or competition with the Soviet Union. This emphasis on of neoliberal and fiscal and budgetary politics contrasts with how scholars have described NASA or astrobiology before. Overall, the dissertation asserts that astrobiology, while a singular example, is indicative of the differences in American scientific patronage and NASA's national identity from the Cold War to the post-Cold War era. More specifically, astrobiology also reflected the constant financial, political battles NASA had faced since the 1970s when the agency tried to establish long-lasting relevance after the Apollo program. With Congress and the White House in the 1990s insisting the agency downsize or face potential closures and privatization, NASA administrator Daniel Goldin attempted to reinvent the agency and reassert its commitment to basic but cost-effective scientific research, including on extraterrestrial life. NAI was thus an instrument to appease the federal government and advance NASA's larger goal of stabilizing its funding. In terms of research, the project employs a mixture of NASA archival resources at the NASA History Office in Washington, DC, and NASA Ames History Archives in Mountain View, California, as well as published primary and secondary sources. It also uses a series of oral histories I conducted with relevant astrobiologists.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of History in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 25, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Ronald E. Doel, Professor Directing Dissertation; Ian R. MacDonald, University Representative; Kristine C. Harper, Committee Member; Michael Creswell, Committee Member; Steven J. Dick, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85061212">
+      <mods:topic>History</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Varga_fsu_0071E_17010</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>History</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

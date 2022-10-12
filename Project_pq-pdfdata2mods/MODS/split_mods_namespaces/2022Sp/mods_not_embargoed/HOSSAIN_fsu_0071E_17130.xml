@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Understanding the Role of Wire Architecture in Determining the Critical Current Performance of Bi-2212 Round Wire</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-3090-1235</mods:nameIdentifier>
+      <mods:namePart type="family">Hossain</mods:namePart>
+      <mods:namePart type="given">S. Imam</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ehellstrom">
+      <mods:namePart type="family">Hellstrom</mods:namePart>
+      <mods:namePart type="given">Eric</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n85215468">
+      <mods:namePart type="family">Salters</mods:namePart>
+      <mods:namePart type="given">Vincent J. M.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2004090317">
+      <mods:namePart type="family">Larbalestier</mods:namePart>
+      <mods:namePart type="given">D. (David)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/tsiegrist">
+      <mods:namePart type="family">Siegrist</mods:namePart>
+      <mods:namePart type="given">Theo</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/shatruk">
+      <mods:namePart type="family">Shatruk</mods:namePart>
+      <mods:namePart type="given">Mykhailo</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Program in Materials Science and Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (110 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Bi2Sr2CaCu2Ox (Bi-2212) round wire is one of the most promising candidates for high field magnet applications. The round wire geometry is preferred by the magnet designers as it shows isotropic superconducting properties independent of the direction of the applied magnetic field. The wire is multifilamentary and can be twisted, which ensures low screening current and AC loss. Over the last decade, significant advancement has been made in Bi-2212 conductor and coil technology. The advent of overpressure processing and improvement of powder quality have significantly improved the critical current density (Jc) of the wire while development of insulation and mechanical reinforcement of the coil winding pack have brought Bi-2212 on the verge of commercial applications. However, there are still areas that needs further development and better understanding. I have worked on some of those issues during my PhD. As part of this thesis, I have worked on TiO2 insulation of Bi-2212 wire. When the TiO2 insulation was developed, it was thought to be great replacement for the alumino-silicate insulation as it is much thinner (15-30 µm compared to 150 µm thickness of alumino-silicate), chemically compatible with the sheath and Bi-2212 and allows oxygen transfer during the heat treatment through the cracks and porosity present in TiO2 layer. However, attempts to use TiO2 as single layer insulation in a large test coil in our lab resulted in severe Ag protrusion through the insulation layer which electrically shorted the winding pack. We have found that, the application of overpressure and the uneven distribution of MgO particles in the sheath, which led to local difference in mechanical properties of the sheath, was responsible for the Ag protrusion for the wire used in that particular coil. The Ag protrusions were found to be depleted of the MgO particle and as a result, was squeezed through the TiO2 layer when the wire shrinked under the application of overpressure. However, later, when we studied 9 different wires from different time period, we found that Ag protrusions are not universal and most of the wires do not show any protrusion through the sheath. Different possible current limiting factors in Bi-2212 round wire was also investigated. Evidence of filament area variation along the length (sausaging) was found in as-received Bi-2212 wires (before heat treatment). This sausaging occurs from the wire drawing procees and some of the filaments showed a variation as high as 50% along the wire length in as received state. This type of sausaging is possibly a significant current limiting factor in Bi-2212 wire. The filament area variation along the length further deteriorates during the heat treatment with increased time spent in the melt state (tmelt). This area fluctuations in the melt state happen due to Raleigh instability and is more significant for smaller filaments. As a result, the performance of wires with smaller filaments were found to be more dependent on tmelt compared to larger filaments. The formation of interfilament bonds and their role in controlling the Jc of Bi-2212 round wire was examined. For years, the so-called type A interfilament bonding, which occur when the superconductor is in melt state and increases with increased tmelt and decreased interfilament separation, was believed to be the underlying reason for tmelt dependence of Jc. However, the mechanism of how the interfilament bonding impacts Jc was not fully understood. In my research, I have found that interfilament bonding significantly increase the Rayleigh instability driven area fluctuations in Bi-2212 filament cross-sections during the melt state. The larger bonded region grows at the expense of nearby unbonded regions to reduce the interfacial energy and create bottlenecks which is a possible reason for Jc dependence on the amount of type A bonding. This fluctuation is higher in wires with smaller interfilament separation, i.e. higher interfilament bonding, and filaments can undergo large area fluctuation and eventual pinch-off along the length with increased tmelt. We have also investigated the impact of filament size on the Jc of Bi-2212 wires. Our results show that the texture of Bi-2212 grains possibly depends on the filament size and decreased filament size can potentially lead to better aligned grains and higher Jc in bi-2212 round wires.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Program in Materials Science and Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 30, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Eric Hellstrom, Professor Directing Dissertation; Vincent Salters, University Representative; David Larbalestier, Committee Member; Theo Siegrist, Committee Member; Michael Shatruk, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85082094">
+      <mods:topic>Materials science</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_HOSSAIN_fsu_0071E_17130</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Materials Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

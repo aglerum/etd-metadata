@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Building a Community of Practice of Research Data Curators</mods:title>
+      <mods:subTitle>a Qualitative Study</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-6013-739X</mods:nameIdentifier>
+      <mods:namePart type="family">Han</mods:namePart>
+      <mods:namePart type="given">Na-eun</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2007104805">
+      <mods:namePart type="family">Stvilia</mods:namePart>
+      <mods:namePart type="given">Besiki</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/nb2012004932">
+      <mods:namePart type="family">Bass</mods:namePart>
+      <mods:namePart type="given">Hank W.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2004089031">
+      <mods:namePart type="family">Kazmer</mods:namePart>
+      <mods:namePart type="given">Michelle M.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/zhe">
+      <mods:namePart type="family">He</mods:namePart>
+      <mods:namePart type="given">Zhe</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Communication and Information</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>School of Information</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (137 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Community of practice (CoP) of research data curators is a relationship group of data curators with shared values that comes together to network and share their knowledge and ideas. By joining the CoP of research data curators, members can get learning opportunities, have a chance to meet various experts, and can build professional networks. This study examined the activities of CoP of research data curators, including their community building and maintenance activities, by using activity theory as its main theoretical framework. The study used an embedded multiple-case study design for exploring the activities of three CoP of research data curators, including their community building and maintenance activities. The case study design used document analysis and semi-structured interviews to collect data. We conducted 15 individual interviews and 3 group interviews with 23 participants in total. We used thematic content analysis to analyze the collected data. The study found that for building a CoP, it was necessary to recruit members and make an initial investment. In addition, to maintain the CoP continuously, establishing a financial sustainability model was needed and membership must be managed. Membership was largely divided into institutional membership and individual membership, and the motives for members to join and contribute to the CoP vary from extrinsic to intrinsic motivations. Besides the community building and maintenance activities, other activities were performed in the CoP of research data curators, which could be largely divided into curation activities, education activities, and communication activities. We also identified three roles played by members in those activities: PI/chair(s), curators, and coordinator(s)/assistant director. Moreover, the study's findings include the tools used and skills needed in the CoP activities. Finally, we identified and categorized challenges and success indicators for CoP of research data curators as perceived by participants. In particular, we identified three types of challenges or contradictions the communities faced and 13 perceived indicators of success. This study informs the practice of research data curation by providing a knowledge base for building and maintaining a CoP of research data curators. Also, the study expands the theoretical base for studying CoP by providing an activity theoretic examination of CoP of research data curators. The future research will extend this study by examining additional cases of CoP with diverse regional compositions, and well as by investigating interactions and knowledge sharing among the CoP of research data curators and scholarly societies and research communities.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the School of Information in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 29, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">Community of practice, Data curator, Digital curation, Research data curation</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Besiki Stvilia, Professor Directing Dissertation; Hank W. Bass, University Representative; Michelle Kazmer, Committee Member; Zhe He, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85066150">
+      <mods:topic>Information science</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Han_fsu_0071E_17128</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Information Studies</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

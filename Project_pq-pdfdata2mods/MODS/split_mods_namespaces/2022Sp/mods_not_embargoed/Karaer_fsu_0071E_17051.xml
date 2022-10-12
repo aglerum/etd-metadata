@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Traffic Data on-the-fly</mods:title>
+      <mods:subTitle>Image-Based Big Data Analytics for Resilient and Connected Communities</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-6704-0379</mods:nameIdentifier>
+      <mods:namePart type="family">Karaer</mods:namePart>
+      <mods:namePart type="given">Alican</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2009109194">
+      <mods:namePart type="family">Ozguven</mods:namePart>
+      <mods:namePart type="given">Eren Erman</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/avanli">
+      <mods:namePart type="family">Vanli</mods:namePart>
+      <mods:namePart type="given">Omer Arda</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2008021083">
+      <mods:namePart type="family">Moses</mods:namePart>
+      <mods:namePart type="given">Ren</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2006090378">
+      <mods:namePart type="family">Sobanjo</mods:namePart>
+      <mods:namePart type="given">John Olusegun</mods:namePart>
+      <mods:namePart type="date">1958-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/lli8">
+      <mods:namePart type="family">Li</mods:namePart>
+      <mods:namePart type="given">Lichun</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Civil and Environmental Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (172 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Applying 21st century machine intelligence to the evolving transportation management systems is under detailed investigation all around the world. The major goals of this investigation are quite noble and multifaceted including safety, mobility, resilience, energy conservation, and emission reduction. Computer vision and remote sensing are playing an integral role in this evolution contributing toward the smart, connected, and resilient transportation infrastructure systems. Considering the variety of imagery data sources (i.e., satellites, CCTV, drones) and their unique advantages and challenges, there is a need to conduct detailed research on using imagery with a specific focus on transportation big data analytics. Thus, this dissertation aims to use various imagery data with remote sensing applications combined with deep learning techniques and Geographic Information System (GIS)-based spatial and statistical analyses to provide end-to-end solutions and tackle challenging problems in transportation engineering and disaster resilience. Parallel with this goal, several case studies are conducted using variety of imagery sources and providing solutions to different aspects of transportation infrastructure. First, satellite imagery was used to evaluate the relationship between air pollution and vehicle traffic in the wake of COVID-19. The COVID-19 outbreak and ensuing social distancing behaviors resulted in a substantial reduction in traffic, making this a unique experiment on observing the air quality. Such an experiment is also supplemental to the smart city concept as it can help to identify whether there is a delay in air quality improvement during or after a sharp decline in traffic and to determine what, if any, factors are contributing to that time lag. As such, this case study investigated the immediate impacts of COVID-19 causing abrupt declines in traffic and Nitrogen Dioxide (NO¬¬2) concentrations in all Florida Counties through March 2020. Daily tropospheric NO¬¬2 concentrations were extracted from the Sentinel-5 Precursor satellite and vehicle mile traveled (VMT) estimates were acquired from cell phone mobility records. It is observed that the overall impacts of the COVID-19 response in Florida have started in the first half of March 2020, two weeks earlier than the official stay-at-home orders, and resulted in 54.07% and 59.68% decrease by the end of the month on NO¬¬2 and VMT, respectively. Further, a cross-correlation based dependency analysis was conducted to analyze the similarities and the associated time lag between 7-day moving averages of VMT and NO¬¬2 concentrations of the 67 counties. Although such reduction is unprecedented for both data sets, results indicate a strong correlation, and this correlation increases with the identification of a time lag between VMT and NO¬¬2 concentration. The majority of the counties have no time lag between VMT and NO¬¬2 concentration; however, a cluster of South Florida counties presents an earlier decrease in NO¬¬2 concentration compared to VMT, which indicates that the air quality improvements in those counties are not traffic related. Investigation on the socioeconomic factors indicates that population density and income level have no significant impact on the time lag between traffic and air quality improvements in light of COVID-19. Second, satellite-based multispectral images were employed to evaluate post-hurricane vegetative debris, focusing on the faster recovery on roadway networks. Transportation systems are vulnerable to hurricanes and yet their recovery plays a critical role in returning a community to its pre-hurricane state. Vegetative debris is among the most significant causes of disruptions on transportation infrastructure. Therefore, identifying the driving factors of hurricane-caused debris generation can help clear roadways faster and improve the recovery time of infrastructure systems. Previous studies on hurricane debris assessment are generally based on field data collection, which is expensive, time consuming, and dangerous. With the availability and convenience of remote sensing powered by the simple yet accurate estimations on the vigor of vegetation or density of manufactured features, spectral indices can change the way that emergency planners prepare for and perform vegetative debris removal operations. Thus, this case study proposes a data fusion framework combining multispectral satellite imagery and various vector data to evaluate post-hurricane vegetative debris with an exploratory analysis in small geographical units. Actual debris removal data were obtained from the City of Tallahassee, Florida after Hurricane Michael (2018) and aggregated into U.S. Census Block Groups along with four groups of datasets representing vegetation, storm surge, land use, and socioeconomics. Findings suggest that vegetation and other land characteristics are more determinant factors on debris generation, and Modified Soil-Adjusted Vegetation Index (MSAVI2) outperforms other vegetation indices for hurricane debris assessment. The proposed framework can help better identify equipment stack locations and temporary debris collection centers while providing resilience enhancements with a focus on the transportation infrastructure. Similarly, the third case study employed satellite imagery from various Landsat missions for a comparative damage assessment among five historical hurricanes and storms. Performing an accurate damage evaluation and identifying the patterns based on the strengths of these extreme weather events are essential for emergency professionals. A critical problem associated with this damage assessment is the logistics of quickly coordinating and implementing an extensive ground-based damage survey. Another significant challenge in developing a predictive understanding of the long-term effects of storms on coastal communities is the development of quantitative models that can relate the storm intensity and the resulting severity of damage on the different zones of the impacted areas. It is also unclear how urbanization and critical infrastructure affect the extent of the damage caused by them. Thus, this case study introduces a remote sensing-based approach that can rapidly analyze the damage caused by catastrophic storms with different strengths while providing a weighted statistical comparative assessment. Additionally, an existing debris volume estimation method developed by the U.S. Army Corps of Engineers (USACE) was evaluated and the results were compared to validate the proposed model. Findings indicate that suburban and urban areas as well as moderate and high roadway density areas have generated more debris than rural and low roadway density areas. This relationship was also observed based on the normalized difference vegetation index (NDVI) reductions. Findings of this study can help to perform more accurate and faster damage assessments using satellite imagery and remote sensing techniques. The fourth case study switched the focus from the remote sensing to computer vision as an object detection algorithm was retrained to identify crosswalks over high-resolution aerial images and develop a statewide inventory. Pedestrian fatalities have been rising sharply in the U.S. over the last decade. To reverse this trend, several pedestrian safety countermeasures were developed by the authorities, particularly for the uncontrolled crosswalks where majority of those fatalities occurred. Although geocoded and categorized crosswalk inventories are essential to determine where to implement the most appropriate countermeasure, building such an inventory database may take years with manual observations. Thus, this case study proposes a framework using Aerial Imagery and Artificial Intelligence (AI2) to map all crosswalks on Florida public roadways according to their control strategy. Freely available high-resolution aerial images and existing crosswalk locations in the OpenStreetMap database were used to retrain an object detection algorithm. Using this detector and a comprehensive preprocessing approach, approximately 160,000 crosswalks were identified and mapped. For validation, two case studies were conducted with a manually generated ground truth data set. It was found that the proposed approach can inventory the crosswalks with 85.9% completeness (recall) and 88.7% correctness (precision). Also, the performance of the model was significantly better on identifying signal crosswalks (92.5%) and uncontrolled major road crossings (96.6%) regardless of zebra or non-zebra pavement markings. The final results revealed that there are 861 mid-block, 30,784 signal, and 29,307 driveway crosswalks on the state roads in Florida. The proposed framework can be adapted in other locations where the appropriate imagery and vector data are available and is expected to contribute on the wider use of machine learning in transport policy. Finally, the fifth case study presented the literature review and the state of the art on drone utilization for traffic monitoring with the desired traffic data while providing the background on computer vision and particularly on the Multi Object Tracking (MOT) methodology with a preliminary case study to perform a real-time object detection on webcam. The provided summary of drone utilization among the U.S. transportation agencies can help stakeholders on how to benefit from UAS technology on their day-to-day work. Moreover, uniform traffic study manuals can be updated with the presented desired data analysis to help practitioners perform drone-based traffic monitoring. Furthermore, the benchmark MOT algorithms along with their data sets and performance metrics were introduced and a case study for real-time object detection was performed to pave the way for real-time naturalistic trajectory extraction and analysis. A small program was developed using python programing language, and the code was shared to apply real-time object detection on the images extracted from users' webcam. Overall findings of this dissertation depict that regardless of the imagery data source or image processing method, a comprehensive pre-processing step should be performed with a focus on the targeted end data. In addition, satellite imagery and remote sensing methods powered by GIS, provide free and exhaustive data that can be used for smarter cities. Deep learning methods have extensive power over image data; in fact, some models for certain tasks have already surpassed human performance. However, it requires serious understanding to convert commonly known neural network models to perform slightly different tasks than what they were initially trained for. Tethered drones have also been promising solutions to collect continuous and automated traffic data. However, there is a trade off since the operation is too sensitive to weather events such as wind.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Civil and Environmental Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 3, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Eren Erman Ozguven, Professor Directing Dissertation; Omer Arda Vanli, University Representative; Ren Moses, Committee Member; John O. Sobanjo, Committee Member; Lichun Li, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85137042">
+      <mods:topic>Transportation</mods:topic>
+      <mods:topic>Planning</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85026331">
+      <mods:topic>Civil engineering</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85112798">
+      <mods:topic>Remote sensing</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Karaer_fsu_0071E_17051</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Civil and Environmental Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

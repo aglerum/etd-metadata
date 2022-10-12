@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Strongly Correlated Electronic Systems Beyond the Half-Filled Hubbard Model</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-9572-5220</nameIdentifier>
+      <namePart type="family">Tsang</namePart>
+      <namePart type="given">Pak Ki Henry</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/nb2012017661">
+      <namePart type="family">Dobrosavljević</namePart>
+      <namePart type="given">Vladimir</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2008078041">
+      <namePart type="family">Albrecht-Schmitt</namePart>
+      <namePart type="given">Thomas E.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2002162741">
+      <namePart type="family">Bonesteel</namePart>
+      <namePart type="given">N. E.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/balicas">
+      <namePart type="family">Balicas</namePart>
+      <namePart type="given">Luis</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/reina">
+      <namePart type="family">Reina</namePart>
+      <namePart type="given">Laura</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Physics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (125 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>Strong electron-electron correlations in physical systems can lead to phenomena that are not trivial composition of constituent parts, that the collective behavior lead to emergence of exotic phases and behaviors. To describe exotic phases such as Mott insulators (MI) within transition metal oxides, they must be treated as strongly correlated systems, which can pose significant theoretical challenges unlike their non-correlated counterparts. For the latter well-established methods such as density-functional theory (DFT) is available, while for the correlated problem a variety of approximate methods are employed, as it is not immediate clear if there exists an universal recipe. Dynamical mean field theory (DMFT) and Hartree approximations are some of the many approximate methods that could be used to describe correlated electron problems, and for the former there exists a subset of methods such as iterated perturbation theory (IPT), rotationally-invariant slave bosons (RISB) and continuous-time quantum Monte Carlo (CTQMC). The selection of theoretical tools and whether a useful result can be obtained often depends heavily on the approximate hamiltonian that is proposed to model the physical system as well as capabilities of the applied method. Therefore, in order to make successful theoretical predictions, the robustness of a proposed model and the method applied must be checked against a myriad of empirical evidences and physical intuitions. In this dissertation, we first studied theoretically the correlated physics in hydrogenic lattices using a variety of approaches, followed by the emergence of Wigner-Mott crystallization in moire heterostructures. This dissertation composes of four chapters as well as appendices. The first two chapters are related to our study of hydrogenic lattices: in the first, by applying methods of slave bosons and DMFT (SB+DMFT) to the simplest charge-transfer model known as the Anderson lattice model (ALM), we uncovered and remedied a formerly unknown limitation of the SB approximation; in the second we modelled hydrogenic lattices with charge-transfer ALM instead of non charge-transfer single-band Hubbard model - our IPT and CTQMC calculations indicate that charge-transfer not only the affects the nature of Mott transition, it also largely suppresses the metal-insulator phase coexistence region. In the third chapter we studied Wigner-Mott crystallization in moir\'{e} heterostructures by solving the extended Hubbard model on a triangular lattice using Hartree approximation in concert of DMFT. Our results are in good agreement with experiments and we predict that: 1. fermi-liquid is found when doped away from MI; 2. around the point that charge-order disappears bad metal behavior is found. In the last chapter we present our work using GPU and distributed computing to develop a IPT impurity solver that offer drastic speed advantage over existing codes. We find that the GPU implementation is significantly more efficient and thus the superior implementation. Finally in the appendices we can find detailed derivations of results for main chapters and a fast root-search algorithm useful for DMFT calculations.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Physics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">April 4, 2022.</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Vladimir Dobrosavljevic, Professor Directing Dissertation; Thomas Albrecht-Schonzart, University Representative; Nicholas Bonesteel, Committee Member; Luis Balicas, Committee Member; Laura Reina, Committee Member.</note>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85030765">
+      <topic>Condensed matter</topic>
+   </subject>
+   <identifier type="IID">2022_Tsang_fsu_0071E_17073</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Physics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Seasonality in Holobiont Photophysiology across Latitude</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-1075-5418</mods:nameIdentifier>
+      <mods:namePart type="family">Sogluizzo</mods:namePart>
+      <mods:namePart type="given">Anthony S.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2011192070">
+      <mods:namePart type="family">Brooke</mods:namePart>
+      <mods:namePart type="given">Sandra</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/skranz">
+      <mods:namePart type="family">Kranz</mods:namePart>
+      <mods:namePart type="given">Sven Alexander</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2007101869">
+      <mods:namePart type="family">Baco-Taylor</mods:namePart>
+      <mods:namePart type="given">Amy R. (Amy Rose)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Earth, Ocean and Atmospheric Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (61 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Due to climate change driven sea surface temperature (SST) increase, tropical and sub-tropical corals have been experiencing temperature stress. This stress has manifested itself in multiple ways, one of which being the 'tropicalization' hypothesis. This is the idea that corals experiencing consistently high SST can expand their ranges into new environments where their temperature thresholds are met. This study attempts to explain how corals and their symbionts in the Florida Keys might adapt to the pressures of northward expansion. To do this, the photophysiological characteristics of the symbiont community harbored by the corals was assessed. Corals from the Florida Keys, Clearwater, and St. Marks were analyzed to determine the capabilities of symbiont photosystems in each region. Additionally, sub-tropical environments experience more pronounced seasonal temperature variation. Because corals are very susceptible to heat and cold, photophysiological analyses in summer and winter were performed. The photophysiological analysis provided context on how coral symbionts adapt to sub-tropical pressures and how capable Florida Keys' corals would be to northward expansion. This study found that corals in the Florida Keys had 41% more relative electron transport, 40% more light saturation capacity, and double the light dissipation potential than St. Marks. Corals in St. Marks and Clearwater showed photophysiological metrics generally indicating acclimation to lower light intensities. Surprisingly, St. Marks had a higher average light saturation threshold (Ek), maximum non-photochemical quenching (NPQmax), maximum relative electron transport rate rETRmax, and NPQ at Ek compared to Clearwater, although only NPQ[Ek] was statistically significant. This discrepancy supports a new hypothesis that there might be an environmental aspect to Clearwater that is affecting photophysiology. Seasonally there was little variation within all sites. During the summer light capture efficiency (α) was lower than winter, indicating light adaptation to elevated irradiance. With the poleward movement of tropical species, it is important to ascertain the coping strategies necessary to allow tropical corals to maintain holobiont metabolism under different environmental regimes.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Earth, Ocean and Atmospheric Science in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 6, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">Coral, Photophysiology, Symbiodiniaceae, Tropicalization</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Sandra Brooke, Professor Directing Thesis; Sven Kranz, Committee Member; Amy Baco-Taylor, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85081138">
+      <mods:topic>Marine biology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Sogluizzo_fsu_0071N_17124</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

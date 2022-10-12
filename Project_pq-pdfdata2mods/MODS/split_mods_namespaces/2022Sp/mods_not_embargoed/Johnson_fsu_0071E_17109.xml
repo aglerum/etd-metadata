@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Unveiling Castaldi</mods:title>
+      <mods:subTitle>Arranging and Performing the Theorbo Music of Bellerofonte Castaldi on Guitar</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-0225-6160</mods:nameIdentifier>
+      <mods:namePart type="family">Johnson</mods:namePart>
+      <mods:namePart type="given">Jacob</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/bholzman">
+      <mods:namePart type="family">Holzman</mods:namePart>
+      <mods:namePart type="given">Bruce</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing treatise</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n88679431">
+      <mods:namePart type="family">Brewer</mods:namePart>
+      <mods:namePart type="given">Charles E. (Charles Everett)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2007023331">
+      <mods:namePart type="family">Sung</mods:namePart>
+      <mods:namePart type="given">Benjamin</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2012019691">
+      <mods:namePart type="family">Ryan</mods:namePart>
+      <mods:namePart type="given">Pamela</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Music</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Music</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (108 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Some of the most innovative and exceptional music of the Seicento is found in the theorbo works of the Italian adventurer, poet, artist, musician, and composer Bellerofonte Castaldi. However, because his music is written for the theorbo, which has diminished in popularity since the seventeenth century, Castaldi has not gained any widespread notoriety. Many of his works remain unperformed. Therefore, to further promote interest in Castaldi and his music, arranging and performing his works on more popular instruments such as the guitar, which shares many traits with the theorbo, would be necessary. This effort would also benefit the guitar community, adding to the guitar's limited baroque repertoire. This study then serves as a guide to arranging and performing the solo theorbo works of Castaldi on guitar. It also adds to the currently limited literature and research on his life and music. The study begins with a brief biography focused on important life events and influences that molded Castaldi's eccentric compositional style. This provides an essential context for understanding the unique performance style needed to portray his music authentically. This is followed by a discussion on arranging his theorbo music for the guitar. This includes examining what Castaldi's playing style would have been like and how guitarists can imitate it. These methods are then put into practice by discussing the arrangement and performance of four of Castaldi's works in detail. These works, Tempestamento detta chiacchierino, Fantasia detta pegasea, Tasteggio soave, and Arpeggiata a mio modo are each taken from Castaldi's four most significant genres, the passeggio, fantasia, tasteggi, and prelude respectively. As many of the most prevalent and complex issues in Castaldi's repertoire are found in these works, they serve as excellent models for arranging and performing his other pieces. Examinations of each of these works include discussions on the style, background, interpretation, arrangement, and issues unique to each piece. This study concludes with an overview.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Treatise submitted to the College of Music in partial fulfillment of the requirements for the degree of Doctor of Music.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 6, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">arrangement, baroque, Castaldi, guitar, lute, theorbo</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Bruce Holzman, Professor Directing Treatise; Charles Brewer, University Representative; Benjamin Sung, Committee Member; Pamela Ryan, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85088762">
+      <mods:topic>Music</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Johnson_fsu_0071E_17109</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Music</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>College of Music</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

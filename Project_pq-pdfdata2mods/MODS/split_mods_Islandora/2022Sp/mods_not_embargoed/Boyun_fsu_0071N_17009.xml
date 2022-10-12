@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Towards Optimization of Point Absorber Wave Energy Converters Using Deep Reinforcement Learning</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-5401-9466</nameIdentifier>
+      <namePart type="family">Boyun</namePart>
+      <namePart type="given">Ayse Feyza</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/kshoele">
+      <namePart type="family">Shoele</namePart>
+      <namePart type="given">Kourosh</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing thesis</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/cshih">
+      <namePart type="family">Shih</namePart>
+      <namePart type="given">Chiang</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/chubicki">
+      <namePart type="family">Hubicki</namePart>
+      <namePart type="given">Christian M.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Mechanical Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (81 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>Ocean waves are sustainable clean, and contain tremendous amount of energy. However, they are typically irregular and complex, making harnessing difficult and inefficient in the absence of sophisticated surface measurements. Existing wave energy converters rely on static power take-off technologies, but active power take-off (PTO) control can improve energy extraction. The optimization of the PTO damping is crucial to maximizing the absorbed power. The goal of this project is to use deep reinforcement learning to actively control the PTO damping coefficient to optimize power over a specified time horizon with only one causal surface wave measurement. Deep reinforcement learning (DRL) is a machine learning subset that combines reinforcement and deep learning and employs artificial feed- forward neural networks. The learner algorithm (agent) interacts with the environment to learn the best policy based on the actions taken and the states that result from those actions. In this study, the Twin Delayed Deep Deterministic Policy Gradient (TD3) algorithm is used, which has two hidden layers of 256 widths each and is integrated with the PTO system of a single-body point absorber device. The damping coefficient has been chosen to be the action space, the velocity and position of the floating buoy to be the state space. A reward function is created to guide the agent through the learning process. A positive reward function is set to be the function of power absorbed by the PTO system to encourage expected behavior patterns and increase the likelihood of similar behavior being repeated. Based on the history of the time dynamics and limited knowledge of the future state based on the current wave detection sensor capabilities, the agent learns the optimal damping coefficient and helps to maximize the absorbed power.</abstract>
+   <note displayLabel="Submitted Note">A Thesis submitted to the Department of Mechanical Engineering in partial fulfillment of the requirements for the degree of Master of Science.</note>
+   <note displayLabel="Date of Defense">April 4, 2022.</note>
+   <note displayLabel="Keywords">Control, Deep Learning, Deep Reinforcement Learning, Reinforcement Learning, Renewable Energy, Wave Energy Converters</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Kourosh Shoele, Professor Directing Thesis; Chiang Shih, Committee Member; Christian M. Hubicki, Committee Member.</note>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85082757">
+      <topic>Mechanical engineering</topic>
+   </subject>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85093888">
+      <topic>Ocean engineering</topic>
+   </subject>
+   <identifier type="IID">2022_Boyun_fsu_0071N_17009</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Mechanical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

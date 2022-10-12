@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Two Lecture Recitals</mods:title>
+      <mods:subTitle>1. Exploring the Inspiration and Style of Cheryl Frances-Hoad's Homages, Book I and Caroline Shaw's Gustave Le Gray 2. Musical Techniques and Religious Symbolism in Olivier Messiaen's Vingt Regards Sur L'Enfant-Jésus</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-0767-6738</mods:nameIdentifier>
+      <mods:namePart type="family">Anderson</mods:namePart>
+      <mods:namePart type="given">Vivian Joy</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no95005573">
+      <mods:namePart type="family">Gainsford</mods:namePart>
+      <mods:namePart type="given">Read</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing treatise</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no98088565">
+      <mods:namePart type="family">Buchler</mods:namePart>
+      <mods:namePart type="given">Michael Howard</mods:namePart>
+      <mods:namePart type="date">1966-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/sdecock">
+      <mods:namePart type="family">De Cock</mods:namePart>
+      <mods:namePart type="given">Stijn J. W.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2012086965">
+      <mods:namePart type="family">Kalhous</mods:namePart>
+      <mods:namePart type="given">David</mods:namePart>
+      <mods:namePart type="date">1975-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Music</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Music</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (53 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This treatise, which is in two parts, is based on two lecture recitals given on November 15, 2020 and November 21, 2021. The first lecture discussed the influence of past composers on two recent works by Cheryl Frances-Hoad and Caroline Shaw. The second lecture discussed the relationship between musical techniques and religious symbolism in Olivier Messiaen's Vingt Regards sur l'Enfant-Jésus. Part 1 explores two works that reference past composers: Cheryl Frances-Hoad's Homages, Book I, and Caroline Shaw's Gustave Le Gray. The homage to a past composer is not a particularly new concept, but these types of pieces have certainly become more popular in recent years. The two composers discussed in Part One have different approaches to the concept, however, which leads to a different overall affect in each piece. Frances-Hoad chooses to write a series of smaller pieces that take small melodic or motivic elements from specific works to build upon. Shaw, on the other hand, quotes the entire referenced work and composes a frame around it. I will analyze each work to illuminate how these two composers reference the chosen composers and/or works, as well as point out some elements that bring a fresh perspective on those past composers. Part 2 explores how Messiaen expresses his religious beliefs in Vingt Regards sur l'Enfant-Jésus through musical symbols. Messiaen's devout faith informs nearly every piece that he wrote, and his complex musical techniques often directly reflect his theological beliefs. This paper will discuss some of those techniques, including the so-called "Charm of Impossibilities," and how they relate to his fascination with concepts such as time and eternity and with visual elements of color and stained glass. Discussion of five selections from Vingt Regards will show how religious ideas and metaphorical concepts are expressed through musical symbols.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Treatise submitted to the College of Music in partial fulfillment of the requirements for the degree of Doctor of Music.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 4, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Read Gainsford, Professor Directing Treatise; Michael Buchler, University Representative; Stijn De Cock, Committee Member; David Kalhous, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85088762">
+      <mods:topic>Music</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Anderson_fsu_0071E_17155</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Music</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>College of Music</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

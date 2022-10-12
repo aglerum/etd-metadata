@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>My 21st Century Big Budget Apocalypse</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-9164-6506</mods:nameIdentifier>
+      <mods:namePart type="family">Kelly</mods:namePart>
+      <mods:namePart type="given">Thomas V.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n79079287">
+      <mods:namePart type="family">Kirby</mods:namePart>
+      <mods:namePart type="given">David</mods:namePart>
+      <mods:namePart type="date">1944-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor co-directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n95035963">
+      <mods:namePart type="family">Hamby</mods:namePart>
+      <mods:namePart type="given">Barbara</mods:namePart>
+      <mods:namePart type="date">1952-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor co-directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/bgraves3">
+      <mods:namePart type="family">Graves</mods:namePart>
+      <mods:namePart type="given">Brian</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n97067798">
+      <mods:namePart type="family">Kimbrell</mods:namePart>
+      <mods:namePart type="given">James</mods:namePart>
+      <mods:namePart type="date">1967-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of English</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (96 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>My 21st Century Big Budget Apocalypse is a collection of free verse poetry which derives influence from the Romantics and 19th Century French prose poets. The manuscript's centerpiece is a long-form narrative journey through a post-modern consumeristic hellscape through which readers follow a protagonist known as "The Body" as well as his Virginity manifested as a talking head. Over the course of the episodic poem, the protagonist becomes increasingly enmeshed in the fabric of Hollywood and entertainment culture, as his Virginity ascends to the top of the internet's celebrity hierarchy. Ultimately, he comes to understand every mundane moment of his life is commodifiable; he agrees to reinvent himself in order to better fit the talking head's public narrative and the expectations of his Virginity's fans. In between the long poem's episodes, short-form pieces titled as 'simulations' and 'trailers' contribute to the manuscript's hyperreal ecology by panning outward to expand on the cartoony universe and primary rhetorical themes. In their formal arrangement, they also parody the way in which the long poem's protagonist finds his own story interrupted, buried, compromised, and distorted. So, the structural architecture functions as satire and a means of furthering the reader's immersion into the other worldly atmosphere. After a long first section, which culminates with the conclusion of "The Virginity that Goes Hollywood," readers are treated to three short sections arranged around tone and aesthetic choices. Section Two consists of humor poems, which provide the readers a bit of a breather. Section Three is a tiny offering of darker and more somber poems, which contrast with Section Two. Finally, Section Four consists of poems themed around change, new destinations, arrivals, and departures.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of English in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 8, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">Humor, Poetry, Pop Culture, Post Modernism, Prose Poetry, Satire</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">David Kirby, Professor Co-Directing Dissertation; Barbara Hamby, Professor Co-Directing Dissertation; Brian Graves, University Representative; James Kimbrell, Committee Member.</mods:note>
+   <mods:identifier type="IID">2022_Kelly_fsu_0071E_17145</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>English</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

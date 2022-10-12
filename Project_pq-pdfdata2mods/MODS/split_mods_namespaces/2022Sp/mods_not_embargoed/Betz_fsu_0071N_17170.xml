@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Cognitive Writing Studies Then and Now</mods:title>
+      <mods:subTitle>Moving Towards a Cognitive Ecology Model</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-2514-9648</mods:nameIdentifier>
+      <mods:namePart type="family">Betz</mods:namePart>
+      <mods:namePart type="given">Hannah C.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2010050868">
+      <mods:namePart type="family">Neal</mods:namePart>
+      <mods:namePart type="given">Michael R.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2010004120">
+      <mods:namePart type="family">Domínguez Barajas</mods:namePart>
+      <mods:namePart type="given">Elías</mods:namePart>
+      <mods:namePart type="date">1968-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2001108549">
+      <mods:namePart type="family">Fleckenstein</mods:namePart>
+      <mods:namePart type="given">Kristie S.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of English</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (101 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This thesis aims to trace the evolution of cognitive writing research within the field of rhetoric and composition from approximately the 1960s to the contemporary moment. While the "cognitive turn" is widely recognized as an influential component of process theory, much of the scholarship perceive this shift as a fleeting moment of the early 1980s. In wake of the "social turn," many scholars pronounced the "death" of cognitive writing research. However, research demonstrates that after the landmark Flower and Hayes 1981 Cognitive Process Model of Writing Processes, many scholars continued to explore writing as a cognitive activity though, as I argue, this process moved underground. This thesis aims to demonstrate that although the term cognition moved underground because of the polarizing reception of the 1981 model, cognitive writing research has reappeared in contemporary terms such as reflection, metacognition, and transfer. This thesis can broadly be classified as a project that attempts to further reconcile the gap between social and cognitive studies. I argue that a merger between cognitivism and social constructivism is both possible and productive. In the examination of this goal, this thesis centers around the following question: In the 1981 model, what linguistic and structural changes need to occur to account for 1) prominent criticisms and 2) contemporary terminology? To further trace cognition's evolution within rhetoric and composition, I have positioned this thesis around Flower and Hayes' 1981 article, "A Cognitive Process Theory of Writing." In recounting the model's reception, I discuss the affordances and constraints of Cognitive Process Theory to outline the tensions between cognitivism and social constructivism. After, this thesis demonstrates how cognition has continued to guide the field's research interests thereby proving its continued relevance. Next, I argue for the value in reviving the term "cognition" by proposing the beginnings of an updated cognitive process writing model. This research focuses on two key principles within rhetoric and composition—imagery and ecology—that could be utilized in future research to construct an updated cognitive process writing model. Lastly, I discuss the limitations of this project further detailing the exciting opportunities for future cognitive writing research.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of English in partial fulfillment of the requirements for the degree of Master of Arts.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 31, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">Cognition, Cognitive Process Theory, Ecology, Rhetoric and Composition, Writing Process</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Michael Neal, Professor Directing Thesis; Elias Dominguez Barajas, Committee Member; Kristie S. Fleckenstein, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85113628">
+      <mods:topic>Rhetoric</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Betz_fsu_0071N_17170</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Arts</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>English</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

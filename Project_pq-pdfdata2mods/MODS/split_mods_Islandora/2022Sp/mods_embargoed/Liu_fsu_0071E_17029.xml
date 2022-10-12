@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Understanding the Structure-Property Correlations in Fast-Ion Conductors and Ferroelectric Materials via Combined Magnetic Resonance and Computational Studies</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-6741-7295</nameIdentifier>
+      <namePart type="family">Liu</namePart>
+      <namePart type="given">Haoyu</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/yhu">
+      <namePart type="family">Hu</namePart>
+      <namePart type="given">Yan-yan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/pandrei">
+      <namePart type="family">Andrei</namePart>
+      <namePart type="given">Petru</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/latturne">
+      <namePart type="family">Latturner</namePart>
+      <namePart type="given">Susan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2007113222">
+      <namePart type="family">Zhu</namePart>
+      <namePart type="given">Lei</namePart>
+      <namePart type="date">1978-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Chemistry and Biochemistry</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (138 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>Short-range structural ordering is critical to functional properties such as ion migration and ferroelectricity. The discovery and development of high-performance functional materials rely on advanced characterization tools and theoretical models. This dissertation focuses on solid-state nuclear magnetic resonance spectroscopy (NMR) and imaging (MRI) studies of fast-ion conductors as solid electrolytes (SEs) and ferroelectric materials to understand the structure-property correlation, aided by computational investigations. All-solid-state batteries (ASSBs) which employ SEs, have gained much attention due to their improved safety and energy density compared with the current commercial liquid-electrolyte-based lithium-ion batteries. However, challenges such as limited power density, narrow electrochemical stability window, poor interfacial contact, and dendrite growth associated with current SEs urge an in-depth fundamental understanding of their working mechanism and strategies to address these challenges. The mechanism of dendrite formation and propagation in solid electrolytes is different from that in liquid systems, and the challenges in non-invasively tracking the process in real-time leave the exact mechanism elusive. In Chapters 2 and 3, dendrite growth in solids at both the interface and bulk of different depths in Li/ Li7La3Zr2O12 (LLZO) /Li solid cells is probed using three-dimensional in situ and ex situ MRI non-invasively. We show that the accumulation of Li microstructure kicks off from the surface of Li metal electrodes before hard shorting the Li/LLZO/Li cell. More importantly, we identified Li dendrite originated from both the interface and the bulk LLZO electrolyte, which is supported by quantitative experimental evidence from tracer-exchange NMR. Halide-based SEs recently gained much attention due to their improved ionic conductivity compared with oxide-based electrolytes and good chemical/electrochemical stability. Chapter 4 introduces a series of Br-doped Li3YCl6. XRD has shown increased lattice parameters, with broadened channels for Li+-ion conduction. 7Li, 35Cl, 79Br NMR are employed to study the local structure, and the results reveal distortion in the symmetry due to defect formation. Li3YCl4Br2 has short T1 relaxation time, which is an indicator of high Li+ ion mobility. NMR and AIMD calculations show that introducing Br into the Li3YCl6 structure changes it from a one-dimensional to a three-dimensional conductor. By revealing Li dendrite formation mechanisms and understanding the origins of fast Li+-ion conduction in SEs with combined experimental and computational studies, we hope to achieve rational designs of SEs for the next-generation batteries. The centrosymmetric polymorph of KNaNbOF5 undergoes a reconstructive transition from a rare A-site vacancy ordered perovskite to a unique non-perovskite high-temperature phase. Previously, the high-temperature phase was proposed to exhibit dynamical disorder with mixed occupancy of O and F on the anion sites owing to hopping rotations of the [NbOF5]2− octahedra. In Chapter 5, 19F NMR techniques demonstrate the dynamic anion configurations through this reconstructive transition. Based on NMR experiments and first-principle calculations, we conclude that the high-temperature phase exhibits Cmcm symmetry with hopping rotations of the [NbOF5]2− octahedra occurring only about the Fapical−Nb−O axis of the octahedra such that there are no O/F mixed occupancy anion sites. We use these results to refine the microscopic description of the reconstructive transition and its driving force. This work demonstrates the efficacy of 19F NMR techniques combined with electronic structure calculations to understand thermodynamically driven changes in heteroanionic materials. Solid-state NMR spectroscopy, microscopy, and relaxometry combined with computational investigations prove to be powerful to unveil structural modulation-property correlations providing insights and guidelines for new material discoveries.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">March 24, 2022.</note>
+   <note displayLabel="Keywords">DFT, Ferroelectric Materials, MRI, NMR, Solid Electrolyte</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Yan-Yan Hu, Professor Directing Dissertation; Petru Andrei, University Representative; Susan Latturner, Committee Member; Lei Zhu, Committee Member.</note>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85022986">
+      <topic>Chemistry</topic>
+   </subject>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85082094">
+      <topic>Materials science</topic>
+   </subject>
+   <identifier type="IID">2022_Liu_fsu_0071E_17029</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Insights into Proteasome Function</mods:title>
+      <mods:subTitle>Elucidating Requirements for Activation and Efficient Substrate Turnover</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-5801-1210</mods:nameIdentifier>
+      <mods:namePart type="family">Reed</mods:namePart>
+      <mods:namePart type="given">Randi</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/rtomko">
+      <mods:namePart type="family">Tomko</mods:namePart>
+      <mods:namePart type="given">Robert J.</mods:namePart>
+      <mods:namePart type="termsOfAddress">Jr.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mestroupe">
+      <mods:namePart type="family">Stroupe</mods:namePart>
+      <mods:namePart type="given">M. Elizabeth (Margaret Elizabeth)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ywang8">
+      <mods:namePart type="family">Wang</mods:namePart>
+      <mods:namePart type="given">Yanchang</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Biomedical Sciences Professor)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mblaber">
+      <mods:namePart type="family">Blaber</mods:namePart>
+      <mods:namePart type="given">Michael</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Medicine</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Biomedical Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (155 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Synthesis and degradation of proteins in a cell must be carefully balanced to ensure organismal health. The 26S proteasome is a large protein complex that carries out most regulated protein degradation in eukaryotes. The assembly, structure, and function of proteasomes is highly conserved throughout the eukaryotic kingdom, and proteasomal proteolysis regulates nearly every biological process. Since degradation is irreversible, it is critical for proteasomes to function in a tightly regulated manner. Dysfunction of the proteasome is associated with multiple human diseases, including cancers and neurodegeneration, so it is imperative we gain insight into the requirements for proteasome activation and efficient turnover. The work described in this dissertation aims to uncover the mechanistic underpinnings of the proteasomal substrate processing toward the goal of therapeutically exploiting the proteasome for clinical intervention. The proteasome comprises over 70 individual subunits that must work in concert to selectively bind, unfold, and proteolyze substrates. Communication between subunits is a complex language dependent upon substrate-binding, ATP-binding, ATP-hydrolysis, conformational shifting, and more. Recent studies have contradicted what was long thought to be what triggers the proteasome to opens its central channel for substrate entry, so closer inspection was required. The first chapter of this dissertation sought to uncover how ATP-binding induced proteasome activation and opening of the central channel through which substrates are translocated to the peptidase active sites. Intersubunit communication is further explored in the second chapter with the investigation of how the smallest and sole intrinsically disordered subunit of the proteasome, Sem1, is responsible for enhancing substrate degradation despite making up less than 0.4% of the mass of the mature proteasome. Together, this work provides new insights into the mechanism of substrate degradation and furthers our understanding of how these processes may be compromised in proteostasis-imbalanced diseases.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Biomedical Sciences in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 25, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">allosteric communication, ATPase, proteasome, protein degradation, proteostasis, Sem1</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Robert J. Tomko, Jr., Professor Directing Dissertation; M. Elizabeth Stroupe, University Representative; Yanchang Wang, Committee Member; Michael Blaber, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85014171">
+      <mods:topic>Biochemistry</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85014203">
+      <mods:topic>Biology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Reed_fsu_0071E_17064</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Biomedical Sciences</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

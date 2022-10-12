@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Deep Learning-Based Prediction Frameworks for Longitudinal Data Analysis</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-5393-8962</mods:nameIdentifier>
+      <mods:namePart type="family">Meng</mods:namePart>
+      <mods:namePart type="given">Linxi</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="viaf"
+              authorityURI="http://viaf.org/viaf/"
+              valueURI="http://viaf.org/viaf/14146217689609141312">
+      <mods:namePart type="family">Niu</mods:namePart>
+      <mods:namePart type="given">Xufeng</mods:namePart>
+      <mods:namePart type="date">1954-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/gokten">
+      <mods:namePart type="family">Ökten</mods:namePart>
+      <mods:namePart type="given">Giray</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2013073385">
+      <mods:namePart type="family">Huffer</mods:namePart>
+      <mods:namePart type="given">Fred W. (Fred William)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2017071128">
+      <mods:namePart type="family">Barbu</mods:namePart>
+      <mods:namePart type="given">Adrian G.</mods:namePart>
+      <mods:namePart type="date">1971-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Statistics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (112 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>A longitudinal study is a research design that collects observations measured repeatedly from particular individuals over prolonged periods of time. Nowadays, longitudinal studies are widely used in health sciences, social science, education, economics, and marketing. However, several challenges are raised from longitudinal studies in the real world. For example, the complex data structure and variable-length sequential data invalid the conventional longitudinal models. The long-term sequential data and missing data from incomplete experiments add difficulty to the model prediction. To cope with the complex real-world data, we put the focus of this project on the exploration of innovative methods. The main goals of this study are to seek and propose new algorithms for the prediction of the longitudinal response and the cross-sectional response with the time-invariant and time-variant predictors during the specific prediction window. To achieve the main goals, we propose four prediction frameworks, including Multi-phase Deep Learning Prediction Framework (MDL-PF), Self-attention Recurrent Neural Networks Prediction Framework (SARNN-PF), Multi-phase Deep Learning Longitudinal Progression Prediction Framework (MDL-LPPF), and Global Attention Recurrent Neural Networks Longitudinal Progression Prediction Framework (GARNN-LPPF). We conduct the simulation study on the proposed models to test the model's reliability and generalization in different data settings and display the models' behaviors and performance. We focus on the medical domain and financial market in the application part. In the first empirical data analysis, we utilize the Framingham heart study (FHS) dataset. The FHS is one of the early longitudinally-followed large cohorts and can be used to study the contributors of cardiovascular diseases (CVDs) and predict the disease progression. We conduct two experiments: the prediction of the incident CVD event during a specific prediction window and the prognosis of the patient's functional status in Heart Failure. In the second real-world data analysis, we extend our models to Credit Card Default dataset. We also have two experiments: the prediction of credit card payment default and the prediction of the remaining amount in the current month. The proposed prediction architectures show absolute superiority and outstanding performance in the simulation study and empirical data analyses. Compared with the conventional RNN-based model, the Attention Mechanism displays the advantages of overcoming the complexity and heterogeneity of long-term longitudinal data.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 31, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Xufeng Niu, Professor Directing Dissertation; Giray Okten, University Representative; Fred Huﬀer, Committee Member; Adrian Barbu, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <mods:topic>Statistics</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Meng_fsu_0071E_17086</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Deep Learning-Based Prediction Frameworks for Longitudinal Data Analysis</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-5393-8962</nameIdentifier>
+      <namePart type="family">Meng</namePart>
+      <namePart type="given">Linxi</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="viaf"
+         authorityURI="http://viaf.org/viaf/"
+         valueURI="http://viaf.org/viaf/14146217689609141312">
+      <namePart type="family">Niu</namePart>
+      <namePart type="given">Xufeng</namePart>
+      <namePart type="date">1954-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/gokten">
+      <namePart type="family">Ökten</namePart>
+      <namePart type="given">Giray</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2013073385">
+      <namePart type="family">Huffer</namePart>
+      <namePart type="given">Fred W. (Fred William)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2017071128">
+      <namePart type="family">Barbu</namePart>
+      <namePart type="given">Adrian G.</namePart>
+      <namePart type="date">1971-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Statistics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (112 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>A longitudinal study is a research design that collects observations measured repeatedly from particular individuals over prolonged periods of time. Nowadays, longitudinal studies are widely used in health sciences, social science, education, economics, and marketing. However, several challenges are raised from longitudinal studies in the real world. For example, the complex data structure and variable-length sequential data invalid the conventional longitudinal models. The long-term sequential data and missing data from incomplete experiments add difficulty to the model prediction. To cope with the complex real-world data, we put the focus of this project on the exploration of innovative methods. The main goals of this study are to seek and propose new algorithms for the prediction of the longitudinal response and the cross-sectional response with the time-invariant and time-variant predictors during the specific prediction window. To achieve the main goals, we propose four prediction frameworks, including Multi-phase Deep Learning Prediction Framework (MDL-PF), Self-attention Recurrent Neural Networks Prediction Framework (SARNN-PF), Multi-phase Deep Learning Longitudinal Progression Prediction Framework (MDL-LPPF), and Global Attention Recurrent Neural Networks Longitudinal Progression Prediction Framework (GARNN-LPPF). We conduct the simulation study on the proposed models to test the model's reliability and generalization in different data settings and display the models' behaviors and performance. We focus on the medical domain and financial market in the application part. In the first empirical data analysis, we utilize the Framingham heart study (FHS) dataset. The FHS is one of the early longitudinally-followed large cohorts and can be used to study the contributors of cardiovascular diseases (CVDs) and predict the disease progression. We conduct two experiments: the prediction of the incident CVD event during a specific prediction window and the prognosis of the patient's functional status in Heart Failure. In the second real-world data analysis, we extend our models to Credit Card Default dataset. We also have two experiments: the prediction of credit card payment default and the prediction of the remaining amount in the current month. The proposed prediction architectures show absolute superiority and outstanding performance in the simulation study and empirical data analyses. Compared with the conventional RNN-based model, the Attention Mechanism displays the advantages of overcoming the complexity and heterogeneity of long-term longitudinal data.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">March 31, 2022.</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Xufeng Niu, Professor Directing Dissertation; Giray Okten, University Representative; Fred Huﬀer, Committee Member; Adrian Barbu, Committee Member.</note>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <topic>Statistics</topic>
+   </subject>
+   <identifier type="IID">2022_Meng_fsu_0071E_17086</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

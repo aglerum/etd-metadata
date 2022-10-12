@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Time Series and Machine Learning Models for Financial Markets Forecast</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-2352-3600</mods:nameIdentifier>
+      <mods:namePart type="family">Mao</mods:namePart>
+      <mods:namePart type="given">Siqi</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="viaf"
+              authorityURI="http://viaf.org/viaf/"
+              valueURI="http://viaf.org/viaf/14146217689609141312">
+      <mods:namePart type="family">Niu</mods:namePart>
+      <mods:namePart type="given">Xufeng</mods:namePart>
+      <mods:namePart type="date">1954-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/gokten">
+      <mods:namePart type="family">Ökten</mods:namePart>
+      <mods:namePart type="given">Giray</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2017071128">
+      <mods:namePart type="family">Barbu</mods:namePart>
+      <mods:namePart type="given">Adrian G.</mods:namePart>
+      <mods:namePart type="date">1971-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2013073385">
+      <mods:namePart type="family">Huffer</mods:namePart>
+      <mods:namePart type="given">Fred W. (Fred William)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/wwu">
+      <mods:namePart type="family">Wu</mods:namePart>
+      <mods:namePart type="given">Wei</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Statistics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (102 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The prediction of financial time series is an essential topic in quantitative investment. In this dissertation, we proposed two types of new models. They are bidirectional encoder representations from Transformers-based financial sentiment index enhanced (BERTFSIE) models and analysts' recommendation index enhanced (ARIE) models. Compared to statistical time series models, BERTFSIE models and ARIE models involve not only the assets log-returns but also the financial sentiment of investors' reactions and analyst recommendations individually. Furthermore, an adaptive epoch size selection strategy, an early stopping for sequential data strategy, and a novel hyperparameters selection strategy (Score voting) are proposed to solve the over-fitting problem in the training process of a neural network model when its size is large, and the training data is limited. An experimental study is conducted examining the BERTFSIE models and ARIE models. Additionally, they are compared with statistical time series models (e.g., Autoregressive Integrated Moving Average (ARIMA) model, Autoregressive Integrated Moving Average with Explanatory Variable (ARIMAX) model, and the Vector Autoregressive Moving Average (VARMA)), machine learning models (e.g., Long short-term memory (LSTM)), and hybrid models (e.g., ARIMA-LSTM, VARMA-LSTM) in terms of predicting the log-returns and direction movements of two stocks from four industries (Technology: Alphabet Inc., Verizon Communications Inc.; Finance: Citigroup Inc., The Goldman Sachs Group, Inc.; Pharmaceutical: Bristol-Myers Squibb Company, AbbVie Inc.; Retail: Costco Wholesale Corporation, Target Corporation) with three testing proportion: 10\%, 20\%, 30\%. To be more specific, the forecastability of different models is evaluated in two separate ways: the prediction ability of the assets log-returns is assessed by root mean square error (RMSE) and mean absolute error (MAE), and the prediction ability in the direction of the assets log-returns are judged by weighted $F_1$ score and weighed AUC score. Meanwhile, one step ahead forecasting and rolling forward with expanding windows are selected in the experimental study. The results of the experimental study indicate that BERTFSIE models perform almost uniformly better than the other models in terms of weighted $F_1$ score and weighed AUC score. In addition, with the increase of the validation size and testing size, the performance difference among these models is diminishing. At the same time, ARIE models have competitive performance with BERTFSIE models in some selected industries.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 24, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Xufeng Niu, Professor Directing Dissertation; Giray Okten, University Representative; Adrian Barbu, Committee Member; Fred Huffer, Committee Member; Wei Wu, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <mods:topic>Statistics</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Mao_fsu_0071E_17011</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Group of Individuals or a Singular Team?</mods:title>
+      <mods:subTitle>Examining the Moderation Effect of Team Type on the Relationships between Previous Season Success, Team Tenure and Group Size and Cohesion over Time</mods:subTitle>
+      <mods:nonSort>A</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-0362-2561</mods:nameIdentifier>
+      <mods:namePart type="family">Wilhelmy</mods:namePart>
+      <mods:namePart type="given">Taylor</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/swolf2">
+      <mods:namePart type="family">Wolf</mods:namePart>
+      <mods:namePart type="given">Svenja Anna</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/deccles">
+      <mods:namePart type="family">Eccles</mods:namePart>
+      <mods:namePart type="given">David W.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2001090777">
+      <mods:namePart type="family">Roehrig</mods:namePart>
+      <mods:namePart type="given">Alysia D.</mods:namePart>
+      <mods:namePart type="date">1975-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Education</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Educational Psychology and Learning Systems</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (82 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>A multitude of research has already been conducted on the concept of cohesion in sport with the majority of research looking at the relationship between cohesion and performance. It has been found that the correlation between cohesion and performance is moderately strong and positive; however, little research has been conducted on potential antecedents and moderators that influence the development of cohesion. Three potential environmental inputs that have been scarcely found in the sport literature include previous success, tenure and group size. Usually analyzed at the same time as other variables of interest, research on success and cohesion in sport has found that for winning teams, cohesion remained consistent throughout the sport season while those on losing teams saw a decrease in cohesion over this same time period. Concentrated in the business domain, increased tenure has been shown to provide greater overall team stability and greater social cohesion. Research on group size has found that increases in the number of individuals on a sport team decreases cohesion while small to medium sized exercise classes provide enough social opportunities but larger classes see these opportunities decrease. When used as a moderator, the type of team has been found to not moderate the cohesion-performance relationship. With limited knowledge on antecedents of cohesion along with the potential moderation effect of team type and the changes in cohesion over time, the purpose of this study is to examine the relationships between previous season success, team tenure and group size and cohesion, see if team type moderates these relationships and explore how cohesion changes over time. It is hypothesized that the relationship between group size and cohesion will be negative while the relationships between previous success and cohesion along with tenure and cohesion will be positive. Additionally, the relationships between the three environmental variables of interest and cohesion will be stronger for those on coactive teams compared to interactive teams. A total of 118 current NCAA student-athletes partook in this study of which 57 were from coactive teams and 61 were from interactive teams. Participants completed an online Qualtrics composed of three sections: demographics, environmental inputs and the Group Environment Questionnaire (GEQ) to assess cohesion. At the end of this questionnaire, participants were asked if they were willing to partake in an additional questionnaire, containing only the GEQ, to contribute to the exploration of cohesion over time. Of the 118 total participants, 86 agreed to partake in the second questionnaire four weeks later with 37 responses recorded. Multiple regression analyses, the PROCESS macro and a paired samples t-test were conducted to see if there are any relationships between the environmental inputs and cohesion, if team type moderates these relationships and to explore changes in cohesion over four weeks respectively. Analyses found that previous success was a positive predictor for both Group Integration subscales of cohesion. Additionally, team type was found to moderate the relationship between tenure and both ATG cohesion subscales with tenure being found to be a significant predictor for the task cohesion subscales (ATG-T and GI-T) and team type being an additional predictor of ATG-T. While no significant relationships were found between tenure and ATG-S for both coactive and interactive teams along with the relationship between tenure and ATG-T for interactive teams, there was a significant negative relationship found between tenure and ATG-T for coactive teams. It was also found that cohesion did not significantly differ between the initial questionnaire and the second questionnaire administered four weeks later. Keywords: cohesion; NCAA; previous success; tenure; group size; moderation; team type; longitudinal; coactive; interactive</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Educational Psychology and Learning Systems in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 5, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">cohesion, group size, NCAA, previous success, team type, tenure</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Svenja A. Wolf, Professor Directing Thesis; David W. Eccles, Committee Member; Alysia D. Roehrig, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85041141">
+      <mods:topic>Educational psychology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Wilhelmy_fsu_0071N_17213</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Educational Psychology and Learning Systems</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

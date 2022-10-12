@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Clery Act</mods:title>
+      <mods:subTitle>Challenges for 2-Year Postsecondary Institutions in Florida</mods:subTitle>
+      <mods:nonSort>The</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-7711-1345</mods:nameIdentifier>
+      <mods:namePart type="family">Thomasee</mods:namePart>
+      <mods:namePart type="given">David</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n97036418">
+      <mods:namePart type="family">Herrington</mods:namePart>
+      <mods:namePart type="given">Carolyn D.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kwhalon">
+      <mods:namePart type="family">Whalon</mods:namePart>
+      <mods:namePart type="given">Kelly J.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/cmokher">
+      <mods:namePart type="family">Mokher</mods:namePart>
+      <mods:namePart type="given">Christine G.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/lperezfelkner">
+      <mods:namePart type="family">Perez-Felkner</mods:namePart>
+      <mods:namePart type="given">Lara</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Education</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Educational Leadership and Policy Studies</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (105 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>For colleges and universities, the Jeanne Clery Disclosure of Campus Security Policy and Campus Crime Statistics Act (Clery Act) presents a significant set of challenges in pursuit of campus safety. The namesake of this law followed the tragic death of Jeanne Clery, a Lehigh University Student, who was sexually assaulted and murdered in her on-campus dormitory in 1986. Within the Clery Act, and under the umbrella of Title IX, exists a series of responsibilities and compliance regulations applicable to all institutions of higher education (IHEs) that receive federal financial aid. While there are significant benefits within Clery, its application to all IHEs comes with a great number of challenges exacerbated by tremendous penalties for noncompliance. Many of the challenges of Clery compliance have been heavily studied in the university system, though little research exists when it comes to community colleges. The purpose of this study was to explore both the challenges and the benefits of Clery compliance for Florida's 2-year postsecondary institutions. There are 28 IHEs that make up the Florida College System and while many community colleges share a great number of attributes, they also each have unique characteristics which impact their Clery compliance efforts. This qualitative research used an exploratory case study methodology and was bounded in the Florida College System's (FCS) 28 colleges that make up its membership. To select a sample, first, the institutions were grouped into size categories based on student enrollment and categorized as small, medium, or large. From there, a purposeful criterion-based sample of 9 institutions was selected using a combination of random and network sampling. Included in this sample of 9 institutions were 3 residential campuses (1 from each size category) to encompass the additional requirements those institutions have under the Clery Act. Once the sample of institutions was selected, interviews were scheduled with the primary Clery Compliance Officer (CCO). They were asked a series of characteristic-based questions followed by the primary research questions in an open-ended format. Follow-up questions utilizing a convergent-question strategy were then used to fully explore the participants' responses as a means of ensuring rich data was collected for each research question. From there, a cyclical and inclusive approach to data analysis was conducted following each round of interviews. Line-by-line coding was used to identify the primary codes before additional rounds of analysis were used to identify themes. Research Question 1 focused on the challenges CCOs faced in pursuit of Clery compliance. Form the data collected a total of 46 responses were coded for this question. From the 46 responses, 9 themes were identified with the top 3 representing a lack of training (n = 11), lack of clarity (n = 10), and lack of dedicated Clery Compliance Officer/Staff (n = 7). Research Question 2 focused on what CCOs do to remain compliant. From the data collected here a total of 29 responses were coded for this question. From the 29 responses, 6 themes were identified with the top 2 representing Training of Staff (n = 9) and Creating a Clery Team (n = 5). Though lack of training was cited as the number one challenge, it is evident that CCOs are attempting to compensate for this by developing their own training regimen and the same was found for lack of dedicated Clery staff. Research Question 3 took a different approach and sought to answer what CCOs viewed as the most beneficial aspect of Clery compliance. From the data collected in reference to this question, 28 responses were coded into 6 themes. The top three themes identified here were Transparency (n = 12), followed by an even number of responses for both Identification of Issues (improved safety) and No Increased Benefit to Campus Safety (n = 5). The third most repeated theme was Increased Communication (n = 3) which included both internal and external channels. The data collected as part of this research provided a different perspective as to what challenges CCOs faced, how they met those challenges, and the benefits of Clery compliance in their institutions. While none of the CCOs interviewed suggested that Clery be rescinded, the challenges they experience are both real and difficult, but not insurmountable. CCOs acknowledge the benefits of Clery and subscribe to its intended goal, but they cannot easily overcome the challenges inherent in its compliance requirements. They are not (in general) asking for more, they simply want better resources—more accessible training, better clarity, and available staff, to maintain compliance and safe campuses.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Educational Leadership and Policy Studies in partial fulfillment of the requirements for the degree of Doctor of Education.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 4, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">campus safety, Clery, community college, compliance officer, Florida College System</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Carolyn Herrington, Professor Directing Dissertation; Kelly Whalon, University Representative; Christine Mokher, Committee Member; Lara Perez-Felkner, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85041065">
+      <mods:topic>Education, Higher</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Thomasee_fsu_0071E_16971</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Education</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Educational Leadership and Policy Studies</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

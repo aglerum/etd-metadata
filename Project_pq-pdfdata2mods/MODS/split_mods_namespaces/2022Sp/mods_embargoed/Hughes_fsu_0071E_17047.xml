@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Paying the Price of Punitiveness</mods:title>
+      <mods:subTitle>Examining the Effects of Extended Restrictive Housing Work on Prison Personnel</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-7632-1132</mods:nameIdentifier>
+      <mods:namePart type="family">Hughes</mods:namePart>
+      <mods:namePart type="given">Maria Vivian</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2009071824">
+      <mods:namePart type="family">Mears</mods:namePart>
+      <mods:namePart type="given">Daniel P.</mods:namePart>
+      <mods:namePart type="date">1966-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/lmcwey">
+      <mods:namePart type="family">McWey</mods:namePart>
+      <mods:namePart type="given">Lenore M.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2019007242">
+      <mods:namePart type="family">Turanovic</mods:namePart>
+      <mods:namePart type="given">Jillian J.</mods:namePart>
+      <mods:namePart type="date">1985-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jaschwartz">
+      <mods:namePart type="family">Schwartz</mods:namePart>
+      <mods:namePart type="given">Joseph</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Criminology and Criminal Justice</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Criminology and Criminal Justice</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (118 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Beginning in the 1970s, an ideological, political, and legal shift toward more punitive policies to address crime occurred. The punitive turn can also be seen inside of prisons, and one example is the expanded use of extended restrictive housing (ERH). By design, ERH is used to house the most difficult-to-manage individuals in the correctional system. Those in ERH spend up to 24 hours a day confined to their cells, for months or years. ERH has been criticized for its potential adverse effects on incarcerated persons and, to date, the bulk of research on ERH has focused on its effects on those incarcerated, with little attention given the staff who work in it. This gap in research is notable in part because the work conditions in ERH differ markedly from those in general population prison facilities. Personnel work with individuals who may be more violent and face management challenges unique to a setting in which incarcerated individuals almost never leave their cells. The result may be impacts on personnel's physical and mental health and how they view and manage incarcerated persons. To address this research gap and contribute more broadly to scholarship on the impacts of the punitive turn on contemporary correctional systems, this dissertation examined the effects of ERH on prison personnel. The first study examined the effects of ERH work-related stressors on stress among personnel. The second examined emotional numbing as a possible response to work in ERH. And the third examined whether officers' empathy, punitiveness, and views about individual agency shape their perceptions about the impacts of ERH on incarcerated individuals. The dissertation analyses draw on survey, focus group, and interview data collected from Florida Department of Corrections personnel as part of a project focused on restrictive housing. These data were uniquely suited to the dissertation's focus because they included responses to questions about work experiences in ERH and personnel perceptions of incarcerated persons. Analyses of the data revealed several key findings. ERH work, for example, appears to entail exposure to more and unique stressors and to elevate stress and increase emotional numbing. In addition, lower levels of empathy and a greater belief in individual agency were associated with a lower likelihood of viewing ERH as causing mental health problems. The findings illuminate the need for more research on the use and effects of ERH on incarcerated persons, personnel, and prison systems, and, more broadly, the impacts of the punitive turn.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the College of Criminology and Criminal Justice in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 24, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">Correctional Officers, Prison, Prison Work, Restrictive Housing, Solitary Confinement, Stress</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Daniel P. Mears, Professor Directing Dissertation; Lenore M. McWey, University Representative; Jillian J. Turanovic, Committee Member; Joseph A. Schwartz, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh89002994">
+      <mods:topic>Criminology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Hughes_fsu_0071E_17047</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>College of Criminology and Criminal Justice</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

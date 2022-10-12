@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Novel Techniques for High Sensitivity NMR Spectroscopy</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-0455-6028</mods:nameIdentifier>
+      <mods:namePart type="family">Thomas</mods:namePart>
+      <mods:namePart type="given">Jeremy Nathan</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/wbrey">
+      <mods:namePart type="family">Brey</mods:namePart>
+      <mods:namePart type="given">William W.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor co-directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2006081590">
+      <mods:namePart type="family">Hill</mods:namePart>
+      <mods:namePart type="given">S. (Stephen Olof)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor co-directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/rschurko">
+      <mods:namePart type="family">Schurko</mods:namePart>
+      <mods:namePart type="given">Robert W.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ichiorescu">
+      <mods:namePart type="family">Chiorescu</mods:namePart>
+      <mods:namePart type="given">Irinel</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/reina">
+      <mods:namePart type="family">Reina</mods:namePart>
+      <mods:namePart type="given">Laura</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Physics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (142 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>An important objective in radiofrequency (RF) coil design for nuclear magnetic resonance (NMR) spectroscopy is improving sensitivity. The low RF losses of thin-film high temperature superconducting (HTS) coils make them well suited to provide superior sensitivity in a variety of NMR experiments when compared to conventional coils. However, HTS resonators have yet to be widely implemented in commercial NMR probes and are only utilized when high-performance is required. In this dissertation, an examination of some of the technological barriers associated with the use of HTS materials for RF coils is presented, with a focus on providing a detailed look at these difficulties through the lens of an HTS probe build-out process. Thus, this work is centered around the development of a 1.5 mm multi-resonant all-HTS NMR probe optimized for 13C detection, which utilizes a recently introduced 13C resonator design engineered to significantly increase 13C detection sensitivity over previous state-of-the-art HTS probe designs. The probe is designed for operation at 14.1 T, has a sample volume of 35 microliters, and utilizes HTS resonators for 13C and 1H transmission and detection and the 2H lock. HTS NMR probes typically require multiple resonators to be located within a small volume near the sample. Coupling between the resonators shifts the resonances which affects both resonator design and post-production trimming. To increase the efficiency of the build-out process of HTS probes, a coupling model describing the interactions between the coils of the 1.5 mm HTS NMR probe was developed and tested. By measuring the magnetic coupling coefficients between individual coils, the general coupling matrix for six coupled resonators was solved to produce accurate predictions of the system frequencies. Results confirm that the assumption of purely magnetic coupling is sufficiently accurate to predict the required resonance adjustments for a set of HTS coils in a single pass. Pulsed spectroscopy of many nuclides requires strong excitation fields. However, the fields that thin-film HTS resonators can produce are limited in comparison to normal-metal coils. The presented assessment of the new 13C HTS resonators shows a rapid increase in RF dissipation with increased power. A developed power testing procedure predicts that the coils are able to handle sufficient current to produce an effective 90° pulse without film degradation. The performance results from preliminary RF and NMR testing of the 1.5 mm HTS NMR probe within a 14.1 T magnet are presented. To effectively implement the improved quality factor (Q-factor) of the new 13C resonators, the effect of adding a shorted transmission line stub to increase the bandwidth and reduce the rise/fall time of 13C irradiation pulses is demonstrated. The improved 13C coils facilitate a 330% increase in Q-factor and 33% increase in 13C sensitivity over a previous probe of similar design. The increase in 13C NMR sensitivity is made while simultaneously preserving a wide irradiation pulse bandwidth and avoiding distorted pulse shapes. The probe will be used for applications in metabolomics and natural products research. The last section of this dissertation explores future directions for HTS coil design and use, with a focus on accommodating the large currents required of NMR transmit coils. A racetrack resonator with particularly adjusted finger lengths is predicted to improve current uniformity across the resonator. Importantly, the viability of using receive-only HTS coils for small sample NMR probes is investigated. It is shown that when sufficient isolation via field orthogonality is achieved with precise angular rotation of the normal-metal transmit coil, the HTS pair has the potential to provide improved sensitivity despite an increase in loss produced by the transmit coil.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Physics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 4, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">High-Temperature Superconductors, Nuclear Magnetic Resonance, Radiofrequency Coils, Spectroscopy, Superconducting Devices</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">William W. Brey, Professor Co-Directing Dissertation; Stephen Hill, Professor Co-Directing Dissertation; Robert Schurko, University Representative; Irinel Chiorescu, Committee Member; Laura Reina, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh8510165">
+      <mods:topic>Physics</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85014237">
+      <mods:topic>Biomedical engineering</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Thomas_fsu_0071E_17071</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Physics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

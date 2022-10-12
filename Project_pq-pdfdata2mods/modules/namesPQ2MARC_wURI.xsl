@@ -102,7 +102,7 @@
                                     mads:namePart[@type = 'date']
                                 else
                                     ''"/>
-                        <marc:datafield tag="931" ind1="1" ind2=" ">
+                        <marc:datafield tag="796" ind1="1" ind2=" ">
                             <marc:subfield code="a">
                                 <xsl:value-of select="$family"/>
                                 <xsl:text>, </xsl:text>

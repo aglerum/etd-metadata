@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Symphony No. 1 "World of Midnight"</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-9198-5532</mods:nameIdentifier>
+      <mods:namePart type="family">Creighton</mods:namePart>
+      <mods:namePart type="given">Michael Andrew</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/lugay">
+      <mods:namePart type="family">Ugay</mods:namePart>
+      <mods:namePart type="given">Liliya</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no00018481">
+      <mods:namePart type="family">Callender</mods:namePart>
+      <mods:namePart type="given">Clifton</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mjh09h">
+      <mods:namePart type="family">Hanawalt</mods:namePart>
+      <mods:namePart type="given">Michael</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Music</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (126 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>As is the case for most of my works, World of Midnight is first and foremost a story. It started as a story that my friends and I would tell together through playing Dungeons and Dragons. Over time, I started taking the same melodies that I was using for background music during our games and setting them as contemporary chamber works. Now, they've been even further stretched and developed into a full-length symphony that is to the best of my abilities right now as a 25-year old masters student. This symphony follows a specific narrative, but I'm reserving most of these details in the hopes that the listener will find their own inspiration and stories in the music. Instead, I will provide the foundation of what each movement sets out to achieve, share the inspiration behind my selection of texts, and highlight some particularly important details. The first movement, "In the Eternal Night…," establishes the central motives and ideas that will be important throughout the symphony. It introduces us to the titular "world of midnight" that towards the latter sections of the movement undergoes some great disaster. The following movement, "…the Dead World Lay," imagines the narrator wandering through a desolate landscape observing the final moments of sunlight being consumed by an oppressive gloom and darkness. This movement in particular explores a feeling of aimless, dissociated wandering. The third movement, "A Cimmerian Waltz," …is the only movement without chorus. It depicts the a party happening near the end of the world, during which attendees stubbornly attempt to keep dancing while ignoring the interruptions brought on by the end of days. This continues without break into the final movement, "Only Death May Free," which depicts a fierce battle against forces that would seek to do harm to the world. I was drawn the texts of Clark Ashton Smith as I began to study and learn more about Lovecraft and cosmicism, and I found his dark imagery an excellent match for this shadow-stricken setting. I chose the excerpt from Seneca to serve as the twisted, nihilistic philosophy of "Moriyah," a figure introduced in the final movement that is the embodiment of darkness. The choir also invokes a different mysterious name, "Yuna," throughout the symphony. I will leave it to the listener to decide the nature of her identity and purpose.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the College of Music in partial fulfillment of the requirements for the degree of Master of Music.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 11, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Liliya Ugay, Professor Directing Thesis; Clifton Calender, Committee Member; Michael Hanawalt, Committee Member.</mods:note>
+   <mods:identifier type="IID">2022_Creighton_fsu_0071N_17187</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Music</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>College of Music</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

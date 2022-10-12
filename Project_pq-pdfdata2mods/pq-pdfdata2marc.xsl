@@ -9,8 +9,8 @@
     xmlns:oasis="http://www.niso.org/standards/z39-96/ns/oasis-exchange/table">
     <xd:doc scope="stylesheet">
         <xd:desc>
-            <xd:p><xd:b>Last updated: </xd:b>November 16, 2021</xd:p>
-            <xd:p><xd:b>Author: </xd:b>Annie Glerum</xd:p>
+            <xd:p><xd:b>Last updated: </xd:b>July 12, 2022</xd:p>
+            <xd:p><xd:b>Authors: </xd:b>Annie Glerum, Alex Chisum</xd:p>
             <xd:p><xd:b>Organization: </xd:b>Florida State University Libraries</xd:p>
             <xd:p><xd:b>Title:</xd:b> Transformation of extracted ETD PDF text data and ProQuest
                 metadata to MARC21XML for FSU ETDs</xd:p>
@@ -29,14 +29,15 @@
 
     <!-- **Global variables** -->
     <!-- Batch Variable -->
-    <xsl:variable name="batch" select="'2021_Fall'"/>
+    <xsl:variable name="batch" select="'2020SuFa_2021Sp'"/>
 
     <!-- These paths change with each semester-->
+    <!-- Be sure and also change the semester variable in your 856 field below -->
     <xsl:variable name="pdfdata"
-        select="document('source_pdfdata/source_pdfdata_2021Fa_uris.xml')/records/record"/>
+        select="document('source_pdfdata/source_pdfdata_2020SuFa_2021Sp.xml')/records/record"/>
     <xsl:variable name="committee"
         select="document('tables/ETD-NAF_mads_20220520.xml')/mads:madsCollection/mads:mads/mads:authority"/>
-    <xsl:variable name="authors" select="document('tables/authors_2021Fa.xml')/authors/name"/>
+    <xsl:variable name="authors" select="document('tables/authors_2020SuFa_2021Sp.xml')/authors/name"/>
 
     <!-- These paths refer to data tables -->
     <xsl:variable name="PQ-FSU-dept"
@@ -240,7 +241,7 @@
                             <xsl:when test="contains($title, ':')">
                                 <marc:subfield code="a">
                                     <xsl:value-of select="substring-before($title, ':')"/>
-                                    :</marc:subfield>
+                                    <xsl:text> :</xsl:text></marc:subfield>
                                 <marc:subfield code="b">
                                     <xsl:value-of select="substring-after($title, ': ')"/>
                                     <xsl:text> /</xsl:text>
@@ -485,17 +486,18 @@
                         <marc:subfield code="a">
                             <xsl:value-of select="'Florida State University.'"/>
                         </marc:subfield>
-                        <marc:subfield code="e">degree granting instution.</marc:subfield>
+                        <marc:subfield code="e">degree granting institution.</marc:subfield>
                         <marc:subfield code="0"
                             >http://id.loc.gov/authorities/names/n80126238</marc:subfield>
                     </marc:datafield>
 
                     <!--856 field: Electronic location and access-->
-
+                    <!-- BE SURE AND CHANGE THE SEMESTER VARIABLE TO THE SEMESTER YOU'RE WORKING ON -->
                     <marc:datafield tag="856" ind1="4" ind2="0">
                         <xsl:variable name="semester">
-                            <xsl:text>2021_Fall_</xsl:text>
+                            <xsl:text>2020_Summer_Fall_</xsl:text>
                         </xsl:variable>
+                        <marc:subfield code="3">DigiNole</marc:subfield>
                         <marc:subfield code="u">
                             <xsl:for-each select="$binary">
                                 <xsl:variable name="purl_file">
@@ -506,11 +508,11 @@
                                     select="concat('https://purl.lib.fsu.edu/diginole/', $semester, $purl_file)"/>
                             </xsl:for-each>
                         </marc:subfield>
-                        <marc:subfield code="y">Connect to online content</marc:subfield>
+                        <marc:subfield code="y">Connect to online content:</marc:subfield>
                     </marc:datafield>
 
 
-                    <!--931 field: Uncontrolled personal name-->
+                    <!--796 field: Uncontrolled personal name-->
                     <!-- *Committee members* -->
                     <xsl:call-template name="committee_names">
                         <xsl:with-param name="binary" select="$binary"/>
@@ -518,9 +520,10 @@
                         <xsl:with-param name="madsAuthority" select="$committee"/>
                     </xsl:call-template>
 
-                    <!-- 932 field: Uncontrolled corporate name-->
-                    <marc:datafield tag="932" ind1="2" ind2=" ">
-                        <marc:subfield code="a">
+                    <!-- 797 field: Uncontrolled corporate name-->
+                    <marc:datafield tag="797" ind1="2" ind2=" ">
+                        <marc:subfield code="a">Florida State University.</marc:subfield>
+                        <marc:subfield code="b">
                             <xsl:value-of select="concat($Department, '.')"/>
                         </marc:subfield>
                         <marc:subfield code="9">LOCAL</marc:subfield>

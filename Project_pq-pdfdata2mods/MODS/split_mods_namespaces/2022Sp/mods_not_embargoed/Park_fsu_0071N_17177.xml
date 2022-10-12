@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Impact of YouTube's Thumbnail Images and View Counts on Users' Selection of Video Clip, Memory Recall, and Sharing Intentions of Thumbnail Images</mods:title>
+      <mods:nonSort>The</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-0175-7035</mods:nameIdentifier>
+      <mods:namePart type="family">Park</mods:namePart>
+      <mods:namePart type="given">Junho</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2016122444">
+      <mods:namePart type="family">Clayton</mods:namePart>
+      <mods:namePart type="given">Russell B.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2006000877">
+      <mods:namePart type="family">Raney</mods:namePart>
+      <mods:namePart type="given">Arthur A.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2007015761">
+      <mods:namePart type="family">Cortese</mods:namePart>
+      <mods:namePart type="given">Juliann</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Communication and Information</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>School of Communication</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (64 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Prior to selecting a YouTube video, users encounter video previews (i.e., thumbnail images) and heuristic cues (i.e., number of views, likes, date of period), which may influence their selection of a YouTube video over other potential options. This online experiment employed a 2 (valence: positive/negative) x 2 (view count: low/high) within-subjects design to examine how both factors (i.e., valence and view count of YouTube thumbnails) individually and via their interaction, influence participants' (N = 95) selection of the YouTube video, sharing intentions, and memory recognition of Thumbnail content. The results from this study showed no significant differences in selection of videos or recognition memory of thumbnail images that vary in positive and negative valence. However, there was a significant interaction between valence and the selection of thumbnail images while controlling for participants' frequency of neck pain as a covariate. The results showed that the more frequent neck pain resulted in a greater selection of positively-valenced thumbnail images than negatively-valenced thumbnail images. Moreover, as predicted, YouTube thumbnail images with high view counts were selected more than YouTube thumbnail images with low view counts. These results support prior research on heuristic cues (i.e., view counts) while failing to support the negativity bias hypothesis. The practical implications from this study indicate that content creators should design thumbnails with positively-valenced imagery and with popularity cues, such as high view counts, if the goal is to increase video selection among YouTube users.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the School of Communication in partial fulfillment of the requirements for the degree of Master of Arts.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 28, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">Bandwagon cues, Heuristic-Systematic Model, Valence of thumbnails, View counts, YouTube thumbnails</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Russell B. Clayton, Professor Directing Thesis; Arthur A. Raney, Committee Member; Juliann Cortese, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85029027">
+      <mods:topic>Communication</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">2022_Park_fsu_0071N_17177</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Arts</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Communication</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

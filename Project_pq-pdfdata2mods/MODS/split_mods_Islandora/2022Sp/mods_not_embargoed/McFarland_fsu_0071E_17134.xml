@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Numerical Solutions of the Many-Electron Ground State</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-8394-8443</nameIdentifier>
+      <namePart type="family">McFarland</namePart>
+      <namePart type="given">John</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n91081926">
+      <namePart type="family">Manousakis</namePart>
+      <namePart type="given">Efstratios</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mascagni">
+      <namePart type="family">Mascagni</namePart>
+      <namePart type="given">Michael</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2002162741">
+      <namePart type="family">Bonesteel</namePart>
+      <namePart type="given">N. E.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2012037971">
+      <namePart type="family">Piekarewicz</namePart>
+      <namePart type="given">Jorge</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/balicas">
+      <namePart type="family">Balicas</namePart>
+      <namePart type="given">Luis</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Physics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (83 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>We examine two wave function optimization methods for producing the ground state. The first is a novel method for optimizing the location of the nodes of the fermion ground-state using a combination of diffusion Monte Carlo (DMC) and projected gradient descent (PGD). A PGD iteration shifts the parameters of a node-fixing trial function in the opposite direction of the DMC energy gradient, while maintaining the cusp condition for atomic electrons if necessary. The energy gradient required for this is calculated from DMC walker distributions by one of three methods derived from an exact analytical expression. The energy gradient calculation methods are combined with different gradient descent algorithms and a projection operator that maintains the cusp condition of atomic systems. We apply this PGD method to trial functions with randomized variational parameters, for simple atomic systems and the homogeneous electron gas, and the nodes are dramatically improved. For atomic systems, PGD lowered the DMC energy to the same level as nodes optimized by variational Monte Carlo (VMC). This PGD method departs from the standard procedure of optimizing the nodes with a non-DMC scheme such as variational Monte Carlo, Density function theory, or configuration interaction based calculation, which do not directly minimize the DMC energy. The second ground state optimization method that we examine implements imaginary-time time-dependent Density functional theory (it-TDDFT) propagation to periodic systems by modifying the Quantum ESPRESSO (QE) package. This implementation of it-TDDFT propagation converges to the exact energy produced by the standard self consistent field (SCF) method in all but one case, where it converged to a slightly lower value than SCF. This suggests it-TDDFT is a useful alternative for systems where SCF has difficulty reaching the Kohn-Sham ground state.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Physics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">April 6, 2022.</note>
+   <note displayLabel="Keywords">DFT, DMC, Gradient Descent</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Efstratios Manousakis, Professor Directing Dissertation; Michael Mascagni, University Representative; Nicholas Bonesteel, Committee Member; Jorge Piekarewicz, Committee Member; Luis Balicas, Committee Member.</note>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85030765">
+      <topic>Condensed matter</topic>
+   </subject>
+   <identifier type="IID">2022_McFarland_fsu_0071E_17134</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Physics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

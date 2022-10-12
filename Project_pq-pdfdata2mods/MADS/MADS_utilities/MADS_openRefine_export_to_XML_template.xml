@@ -20,12 +20,14 @@
                 valueURI="https://authorities.lib.fsu.edu/etd-naf/{{cells["FSUID"].value}}">
                 <mads:namePart type="family">{{cells["PDF_LastName"].value}}</mads:namePart>
                 <mads:namePart type="given">{{cells["PDF_FirstName"].value}}</mads:namePart>
+                <mads:namePart type="given">{{cells["PDF_termsOfAddress"].value}}</mads:namePart>
             </mads:name>
         </mads:authority>
         <mads:variant type="other">
             <mads:name type="personal">
                 <mads:namePart type="family">{{cells["Vita_LastName"].value}}</mads:namePart>
                 <mads:namePart type="given">{{cells["Vita_FirstName"].value}}</mads:namePart>
+                <mads:namePart type="given">{{cells["Vita_termsOfAddress"].value}}</mads:namePart>
             </mads:name>
         </mads:variant>
         <mads:affiliation>

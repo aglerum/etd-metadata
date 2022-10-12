@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>New Methods for the Acquisition and Processing of Solid-State NMR Spectra</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">https://orcid.org/0000-0002-8095-6373</nameIdentifier>
+      <namePart type="family">Altenhof</namePart>
+      <namePart type="given">Adam Robert</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/rschurko">
+      <namePart type="family">Schurko</namePart>
+      <namePart type="given">Robert W.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2005086590">
+      <namePart type="family">Bertram</namePart>
+      <namePart type="given">R. (Richard)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/yhu">
+      <namePart type="family">Hu</namePart>
+      <namePart type="given">Yan-yan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/yang">
+      <namePart type="family">Yang</namePart>
+      <namePart type="given">Wei</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Chemistry and Biochemistry</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (451 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>Solid-state nuclear magnetic resonance (SSNMR) is a powerful tool for the study of chemical structure and dynamics. The interactions that manifest in NMR spectra are anisotropic (i.e., orientation dependent) in origin, often resulting in inhomogeneous broadening that can yield spectra exceeding ca. 250 kHz in breadth; such spectra are often referred to as ultra-wideline (UW) NMR spectra. In many cases, UWNMR spectra cannot be acquired using conventional methods and rectangular radiofrequency (RF) pulses – rather, specialized pulses and techniques must be implemented. Furthermore, the large suite of high-resolution methods based on magic-angle spinning (MAS) are generally unsuitable for the acquisition of UWNMR spectra. Frequency-swept (FS) pulses are amplitude- and phase-modulated pulses that can irradiate NMR frequencies over large bandwidths. One of these is the wideband uniform-rate smooth-truncation (WURST) pulse, which features a linear effective frequency sweep. WURST pulses are used in the WURST-Carr-Purcell/Meiboom-Gill (WURST-CPMG) and broadband adiabatic inversion-cross polarization (BRAIN-CP) pulse sequences, which have been shown to be effective for the acquisition of UWNMR spectra of stationary (static) samples. These sequences have limitations, and to date, their capabilities have not been fully explored, nor have they been described from a theoretical point of view in a comprehensive manner. Signal processing is an integral component of pulsed-Fourier transform NMR spectroscopy, and comprises many protocols for enhancing spectral sensitivity and resolution. There has been much interest in advanced spectral processing methods such as alternate basis transformations (i.e., besides Fourier encoding), statistical analyses (e.g., singular value decomposition, SVD, and principal component analysis, PCA), numerical regression (e.g., non-negative least squares), and the use of deep learning and neural networks. Such methodologies are now routinely implemented in imaging and multidimensional solution NMR, but are seldom explored in SSNMR. This thesis describes the development of new methods for the acquisition and advanced processing of conventional, wideline, and UW SSNMR spectra, including: (i) the design of new pulses and pulse sequences with optimal control theory (OCT); (ii) the modification of existing pulse sequences for UWNMR under MAS conditions; (iii) achieving signal enhancements with CPMG pulse sequences via the suppression of weak homonuclear dipolar coupling interactions under static and MAS conditions; (iv) the application of the BRAIN-CP pulse sequence to integer-spin nuclei, along with a thorough theoretical treatment; (v) rapid and robust measurements of longitudinal relaxation time constants (T1) and T1 anisotropies from UWNMR spectra under static conditions; (vi) the development and application of advanced processing methods for resolving UWNMR relaxation data with inverse Laplace transforms; and (vii) the development of a Python library for denoising 1D and 2D NMR spectra with SVD, PCA, and wavelet transforms. It is hoped that these methods will open up the Periodic Table of elements to increasingly routine exploration by SSNMR spectroscopy, aiding researchers in chemistry, biochemistry, materials science, and physics with advanced molecular-level characterization of their materials.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">March 31, 2022.</note>
+   <note displayLabel="Keywords">NMR, Pulse Sequence Design, Signal Processing, Solid-State NMR, Spin Dynamics</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Robert W. Schurko, Professor Directing Dissertation; Richard Bertram, University Representative; Yan-Yan Hu, Committee Member; Wei Yang, Committee Member.</note>
+   <subject
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85023027">
+      <topic>Chemistry, Physical and theoretical</topic>
+   </subject>
+   <identifier type="IID">2022_Altenhof_fsu_0071E_16945</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2022-10-10T17:55:50.20129-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>
