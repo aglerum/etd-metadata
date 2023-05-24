@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Implementing Intermittent Theta-Burst Stimulation to Modulate the Reward Positivity via the Rostromedial Prefrontal Cortex</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-6411-8564</mods:nameIdentifier>
+      <mods:namePart type="family">Ryan</mods:namePart>
+      <mods:namePart type="given">Jonathan</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2014091561">
+      <mods:namePart type="family">Proudfit</mods:namePart>
+      <mods:namePart type="given">Greg Hajcak</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2005015125">
+      <mods:namePart type="family">Patrick</mods:namePart>
+      <mods:namePart type="given">Christopher J.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/nee">
+      <mods:namePart type="family">Nee</mods:namePart>
+      <mods:namePart type="given">Derek Evan</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/gstanwood">
+      <mods:namePart type="family">Stanwood</mods:namePart>
+      <mods:namePart type="given">Gregg</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ywang8">
+      <mods:namePart type="family">Wang</mods:namePart>
+      <mods:namePart type="given">Yanchang</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Biomedical Sciences Professor)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Medicine</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Biomedical Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (137 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Anhedonia, or difficulty experiencing pleasure, is a core deficit in depression. Depressed patients expressing anhedonia show increased treatment resistance and greater suicidal ideation when compared to non-anhedonic depressed patients. Mechanistically, depressed anhedonic patients are characterized by a dysfunction of the reward circuit. Based on neuroimaging and animal studies, these deficits have largely been tied to the mesolimbic pathway; a dopaminergic reward circuit that includes the ventral striatum (VS). VS activation is largely mediated via glutamatergic inputs from the medial prefrontal cortex (mPFC) and limbic areas. Depressed anhedonic patients show reduced VS activation to reward-related stimuli, perceived behaviorally as a lack of reward motivation. Interventions to enhance VS activation may therefore improve reward processing and anhedonic symptoms, but no established interventions to date specifically target the mesolimbic pathway. In a first step towards this goal, Chapter 1 reviews the literature associated with anhedonic depression, including underlying mechanisms, neural measures of reward dysfunction, and clinical treatments utilizing transcranial magnetic stimulation (TMS). Chapter 2 discusses this work's attempt to modulate VS reward activation in healthy individuals through intermittent theta-burst stimulation (iTBS), a form of repetitive transcranial magnetic stimulation (TMS). Following studies which have shown iTBS can propagate to downstream structures within a targeted pathway, the rostromedial PFC (rmPFC), an area showing high co-activation with the VS, was stimulated to alter mesolimbic reward response. To capture this change, the reward positivity (RewP), an event-related potential that indexes activity of the reward circuit and has been shown to be abnormal in depression, was utilized. Within-subject comparisons determined that rmPFC stimulation potentiated the RewP when compared to a control site stimulation of the primary somatosensory (S1) or primary motor cortex (M1). These effects were specific to win trials, emphasizing successful targeting of the mesolimbic reward pathway. Effects were also moderated by the ability to precisely target areas within the rmPFC that exhibited high connectivity to the VS. Baseline reward signaling was also a predictor of rmPFC-iTBS effectiveness, with individuals exhibiting low baseline reward response showing greater change in RewP amplitude following rmPFC-iTBS when compared control iTBS. These findings provide novel methodology for enhancing reward response, and provide a mechanistic framework for the development of new clinical interventions for treating anhedonic depression. Chapter 3 proposes changes and refinements in methodology for future rmPFC-iTBS studies, as informed from the results presented in Chapter 2. Follow-up studies on anhedonic participants utilizing a longitudinal within-subject design with consecutive stimulation days, and improvements on TMS targeting are discussed. Included is the development of a novel algorithm utilizing simulations, connectivity, and anatomy based on the targeting results presented in Chapter 2. Together, this work provides evidence of altered reward response through use of iTBS-rmPFC and proposes steps to further validate iTBS-rmPFC reward alterations in addition to refinements on how to effectively target downstream areas through superficial cortical sites. With further validation, the methodology presented within this work could lead to a new clinical intervention targeting anhedonic symptomology, which is exhibited prominently within individuals suffering from severe depression. Additionally, incorporation of the proposed targeting algorithm could be generalized to improve TMS effectiveness in manipulating downstream areas irrespective of target.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Biomedical Sciences in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 14, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Greg Hajcak, Professor Directing Dissertation; Chris Patrick, University Representative; Derek Nee, Committee Member; Gregg Stanwood, Committee Member; Yanchang Wang, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh91006099">
+      <mods:topic>Neurosciences</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Summer 2022_Ryan_fsu_0071E_17353</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Biomedical Sciences</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-01-27T10:52:08.836275-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

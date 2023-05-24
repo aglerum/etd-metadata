@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Analysis of Pedestrian Behavior during Interaction with Autonomous Vehicles</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-3253-8038</nameIdentifier>
+      <namePart type="family">Rashid</namePart>
+      <namePart type="given">Md Mobasshir</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/sjung">
+      <namePart type="family">Jung</namePart>
+      <namePart type="given">Sungmoon</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing thesis</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2008010967">
+      <namePart type="family">Spainhour</namePart>
+      <namePart type="given">Lisa</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2009109194">
+      <namePart type="family">Ozguven</namePart>
+      <namePart type="given">Eren Erman</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Civil and Environmental Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (56 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Autonomous vehicle (AV) is becoming very popular due to technological evolution in autonomous transportation sector. It can be more reliable than human-controlled vehicle as it can detect pedestrians with high accuracy and control the vehicle precisely. One major disadvantage of the autonomous vehicle is that it cannot communicate with surrounding pedestrians and other road users like a traditional vehicle. Pedestrians tend to interact with human drivers before taking a crossing decision; but AV cannot use such communication mediums. As a result, it is necessary to understand how pedestrians will behave in a crossing scenario when an AV is present. To evaluate this complex interaction pattern, a simulation tool can be useful as it can generate realistic pedestrian motion models which are useful to design different AV algorithms. These motion models can also help to understand different perspectives from a pedestrian viewpoint and what factors are related to the safe interaction between AVs and pedestrians. It can also benefit autonomous vehicle designers: they can visualize pedestrian and vehicle trajectories, extract velocity and acceleration profile of both agents, test different autonomous vehicle planning algorithms and assess the traffic safety in severe traffic conflicts. This research work presents a rule-based social force model to simulate pedestrian trajectories during interaction with an autonomous vehicle. The social force model is then integrated with an autonomous vehicle control and planning algorithm for simulating the behavior of both pedestrian and vehicle in traffic conflicts by varying different parameters such as agent's initial speed, different vehicle sensor types (error percentage of pedestrian detection varies), different pedestrian types (risk-taking, cautious and distracted), etc. Two types of crossing scenarios (crosswalk and roundabout) are used in this research work. The output of this simulation is the minimum distance that is accepted by a pedestrian during crossing. These minimum distances can be used to simulate more risky interaction scenarios to understand the effectiveness of autonomous vehicle planning algorithm while interacting with different types of pedestrians. Although AVs are expected to reduce traffic crashes, a finite element simulation model is developed to determine pedestrian risk injury criteria for both head and chest portion during unavoidable crashes. The finite element model uses side and frontal impact for pedestrian collision. Injury probability for both head and chest injuries are found higher for the frontal impact than the side impact collision.</abstract>
+   <note  displayLabel="Submitted Note">A Thesis submitted to the Department of Civil and Environmental Engineering in partial fulfillment of the requirements for the degree of Master of Science.</note>
+   <note  displayLabel="Date of Defense">June 27, 2022.</note>
+   <note  displayLabel="Keywords">Autonomous vehicles, Finite Element Model, Pedestrian - vehicle interaction, Pedestrian safety, Risk injury, Social force model</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Sungmoon Jung, Professor Directing Thesis; Lisa Spainhour, Committee Member; Eren Erman Ozguven, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85026331">
+      <topic>Civil engineering</topic>
+   </subject>
+   <identifier  type="IID">Summer 2022_Rashid_fsu_0071N_17267</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Civil and Environmental Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-01-27T10:52:08.836275-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

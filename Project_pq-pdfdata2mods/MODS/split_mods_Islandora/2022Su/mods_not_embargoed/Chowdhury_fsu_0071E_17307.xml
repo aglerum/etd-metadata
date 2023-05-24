@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Path Planning Algorithms for Autonomous Vehicles</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-7540-5465</nameIdentifier>
+      <namePart type="family">Chowdhury</namePart>
+      <namePart type="given">Mohammad Imran</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/dgschwartz">
+      <namePart type="family">Schwartz</namePart>
+      <namePart type="given">Daniel G.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n82070328">
+      <namePart type="family">Ahlquist</namePart>
+      <namePart type="given">Jon E.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/nb2006019256">
+      <namePart type="family">Burmester</namePart>
+      <namePart type="given">Mike</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mascagni">
+      <namePart type="family">Mascagni</namePart>
+      <namePart type="given">Michael</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Computer Science</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (142 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >In real-world mission planning, the environment can be quite complex, and a path planner has thepotential to enable an agent to fulfill its goals in spite of unanticipated events and unexpected situations. A sound path planner defines a path starting from a source point and arriving ultimately at a goal point. The path planning algorithms for autonomous vehicles (AVs) are broadly categorized into two sub-areas: global path planning and local path planning. A global path planner employs known information about the operational environment to return a path from the start point to the goal while avoiding fixed obstacles. Here obstacles are static, such as islands, docks, ship wrecks, etc. The path is determined prior to the AV's departure. In contrast, a local path planner recalculates the path returned by the global path planner as needed to avoid unexpected moving obstacles such as ships, boats, swimmers, other AVs, etc. This work initially addresses these issues by working on the most commonly used node-based A* algorithm and the sampling-based probabilistic road map (PRM) algorithm. The work has found that the A* algorithm successfully avoids fixed obstacles, but the path is not smooth (makes very sharp turns) and sometimes comes dangerously close to the obstacle being avoided. An issue with the PRM algorithm is that the generated path often is not always optimal, i.e., may be much longer than necessary to avoid the given obstacles. Hence, initially, the work has combined these two approaches in such a way that these deficiencies are remedied. In particular, the computed path is both smooth and close to optimal. In addition, this work further improves the PRM-A* algorithm to maintain a safe distance from fixed obstacles. The work subsequently adopted as an alternative the deterministic (non-heuristic) Grassfire(GF) algorithm. GF is conceptually simpler than A* and therefore easier to implement. For these reasons, this research explored replacing A* with GF in the hybrid method. In addition, it was found that the PRM algorithm could be simplified by adopting a different method for creating the roadmap. This led to a variant of PRM, here dubbed the recursive probabilistic road map (r-PRM). This is conceptually simpler than the original PRM and typically is faster. Accordingly, this later work presents a novel global planner that employs a combination of three path planners: GF, Modified Grassfire (MGF), and r-PRM. This combination is guaranteed to find a path from any given start point to any given goal point, as long as such a path is possible. For dealing with the moving obstacles, this work first discusses a local path planner using an adaptation of the global path planning algorithm PRM-A*. It was proposed that this employ the points randomly generated by PRM to construct a path around the moving obstacle. However, it was found this has the drawback that relying on such points can lead to somewhat erratic behavior. Thus this was replaced with a deterministic, geometrical approach that achieves the desired effect in a more reliable manner. This local planner together with the later global path planner provide a comprehensive path planning system. The research has explored the prospect of implementing these algorithms in the well-known MOOS-IvP simulation environment. PRM-A* has been ported to MOOS-IvP, thus enabling one to simulate the use of that planner in controlling an AV in a realistic mission environment. This applies only to the global planner, however, inasmuch as MOOS-IvP does not support simulation of the local planner. An important feature of the local planner is that it employs a decision logic to determine the best strategy for avoiding a moving obstacle, in particular, always routing the AV behind the obstacle rather than in front of or parallel to it, whenever this is appropriate. Simulations are provided exhibiting the acclaimed behavior. For comparison with other systems, the simulations include an implementation of the well-known D* algorithm, and the discussion considers additional dynamic path planning systems, which, like D*, do not necessarily route the AV behind the moving obstacle.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Computer Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">June 27, 2022.</note>
+   <note  displayLabel="Keywords">Autonomous Vehicles (AVs), Path Planning Algorithms</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Daniel G. Schwartz, Professor Directing Dissertation; Jon E. Ahlquist, University Representative; Michael V. D Burmester, Committee Member; Michael Vincent Mascagni, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh89003285">
+      <topic>Computer science</topic>
+   </subject>
+   <identifier  type="IID">Summer 2022_Chowdhury_fsu_0071E_17307</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Computer Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-01-27T10:52:08.836275-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

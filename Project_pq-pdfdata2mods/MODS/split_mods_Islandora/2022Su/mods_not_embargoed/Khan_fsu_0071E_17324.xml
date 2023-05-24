@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Tuning and Optimization of Resource Management for Data Analytics Applications</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-5648-2721</nameIdentifier>
+      <namePart type="family">Khan</namePart>
+      <namePart type="given">Md Muhib</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/yuw">
+      <namePart type="family">Yu</namePart>
+      <namePart type="given">Weikuan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/qmai">
+      <namePart type="family">Mai</namePart>
+      <namePart type="given">Qing</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no99054351">
+      <namePart type="family">Wang</namePart>
+      <namePart type="given">An-I Andy</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/schakraborty2">
+      <namePart type="family">Chakraborty</namePart>
+      <namePart type="given">Shayok</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Computer Science</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (108 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >We are currently in the era of big data, where data of enormous volume and variety is generated continuously, and they need to be captured, processed, and analyzed at a high velocity. Many users have increasingly adopted big data analytics to analyze and extract value (e.g., supporting business decisions and uncovering new insights) from massive amounts of data. Modern cluster computing frameworks (e.g., Spark) have facilitated this widespread adoption of analytics by providing developer-friendly APIs and excellent performance on diverse systems. While modern data analytics frameworks have achieved incredible advancements in terms of speed and performance, non-trivial challenges have emerged due to various factors, such as the increasing size of datasets, increasing complexity of the configuration-performance relationship, and a shift from on-premise infrastructure to the cloud. These challenges need to be tackled for the continued growth of the big data revolution. The growing trend of larger dataset sizes translates to a higher requirement for system resources (e.g., compute, memory, storage).This increase in demand is exacerbated by the fact that modern data analytics frameworks rely heavily on memory for providing significant performance gains over the previous generation of disk-based frameworks. Currently, the decrease in DRAM price is outpaced by the growth in dataset sizes, and Non-Volatile Memory (NVM) is a promising solution for meeting the increasing demand for memory. However, a complete replacement of DRAM by NVM is not viable due to NVM having several drawbacks, namely higher access latency, lower bandwidth, and endurance. Thus hybrid memory architectures that provide higher capacity at a lower cost by combining DRAM and NVM to overcome the disadvantages of NVM have been proposed to tackle the issue of increased memory requirement. Unfortunately, current memory management mechanisms within modern data analytics frameworks are not suitable for hybrid memory and require to be redesigned and optimized for taking advantage of such systems. Even if data analytics systems have enough resources, achieving optimal utilization to extract the best workload performance is immensely challenging. For proper utilization of cluster resources, analytics workloads need to run on optimal configurations. As modern data analytics frameworks mature, more configuration parameters are introduced for adapting to new use cases and systems. While new parameters allow the frameworks to be more flexible and versatile, this increases the dimensionality of the configuration space. Each new dimension in the configuration space exponentially increases the number of possible configurations, which makes determining the optimal configuration significantly difficult. Furthermore, the relationship between workload configuration and performance is complex. Existing tuning solutions require numerous workload execution samples to train a performance model for handling the complex configuration-performance relationship. However, running analytics workloads with large datasets is costly, rendering current solutions unsuitable in most real-life scenarios. A viable automated tuner needs to recommend optimal or near-optimal configurations within a limited number of iterations and keep costs low. Another phenomenon that adds to the challenge of optimal resource allocation and utilization is the shift towards the cloud for running analytics workloads. Cloud service providers offer hundreds of Virtual Machine (VM) types that differ in compute, memory, network, and storage capabilities. Choosing the optimal number and type of VMs from the numerous possible combinations for workload deployment is a significant challenge. While contemporary solutions have advanced the field of cloud configuration tuning, they have limitations in the form of predetermined search spaces and underutilization of domain-based heuristics. This dissertation tackles the mentioned issues through three studies that propose architectural modifications and novel automated tuning frameworks for efficient data analytics. Firstly, we investigate the integration of Non-Volatile Memory (NVM) through hybridization in the memory management mechanisms of Spark. We propose several modifications to the software stack to effectively support the hybridization of the Spark cache in an optimized manner. Our evaluation results have demonstrated that the proposed hybridization strategy keeps the increase in execution time minimal while only requiring a fraction of DRAM compared to a fully DRAM system. Secondly, we offer a high-dimensional cluster configuration tuner called ROBOTune that finds optimal or near-optimal configurations for efficient data analytics. ROBOTune employs a Random Forests model to handle the high-dimensionality of the analytics configuration space and couples it with a Bayesian Optimization engine to search for optimal configurations within a limited budget. Evaluation of an extensive set of applications shows that ROBOTune finds configurations that perform better on average while significantly improving search cost and search speed compared to contemporary solutions. Thirdly, we propose a cloud resource allocation tuner BoundConfig, which utilizes framework-level execution metrics for dynamically determining a workload-specific cloud VM search space. We also employ domain-driven heuristics for identifying well-performing initial configurations to bootstrap the tuning process. Furthermore, BoundConfig couples these techniques with a Bayesian Optimizer equipped with a noise-resilient acquisition function and metric-based output constraints that guide the search. Workload-specific search spaces reduce the tuning cost, while well-performing initial configurations speed up the process. Our extensive experiments for BoundConfig on AWS EC2 have demonstrated its significant advantage in search speed and cost compared to contemporary solutions.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Computer Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">June 28, 2022.</note>
+   <note  displayLabel="Keywords">Bayesian optimization, big data analytics, cloud computing, hybrid memory, performance tuning, spark configurations</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Weikuan Yu, Professor Directing Dissertation; Qing Mai, University Representative; An-I A. Wang, Committee Member; Shayok Chakraborty, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh89003285">
+      <topic>Computer science</topic>
+   </subject>
+   <identifier  type="IID">Summer 2022_Khan_fsu_0071E_17324</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Computer Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-01-27T10:52:08.836275-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

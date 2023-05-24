@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Distance-Based Classifiers for Heavy-Tailed, Non-Sparse, and Correlated Data</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-0509-8986</mods:nameIdentifier>
+      <mods:namePart type="family">Ren</mods:namePart>
+      <mods:namePart type="given">Shaokang</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/qmai">
+      <mods:namePart type="family">Mai</mods:namePart>
+      <mods:namePart type="given">Qing</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/lzhu2">
+      <mods:namePart type="family">Zhu</mods:namePart>
+      <mods:namePart type="given">Lingjiong</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2013023251">
+      <mods:namePart type="family">Srivastava</mods:namePart>
+      <mods:namePart type="given">Anuj</mods:namePart>
+      <mods:namePart type="date">1968-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/cwu3">
+      <mods:namePart type="family">Wu</mods:namePart>
+      <mods:namePart type="given">Chong</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Statistics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (99 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>In modern statistics, data are becoming more complex than ever. These complex situations greatly challenge the classical statistical analysis especially when the problem is high-dimensional. In my dissertation, we mainly study the high-dimensional classification under three challenging scenarios: 1) When the data is heavy-tailed or it contains disturbing outliers; 2) When the sparsity assumption does not hold; 3) When the data is in the form of tensor. I develop novel methodologies to tackle the challenges occurring in these situations. My work on the three problems is recapitulated as follows. The nearest shrunken centroids method (NSC) is a popular high-dimensional classifier. However, it is prone to inaccurate classification when the data is heavy-tailed. In Chapter 2, I develop a robust generalization of NSC which remains effective under such circumstances. By incorporating the Huber loss both in the estimation and the calculation of the score function, I reduce the impacts of heavy tails. I rigorously show the variable selection, estimation, and prediction consistency in high dimensions under weak moment conditions. Empirically, our proposal greatly outperforms NSC and many other successful classifiers when data is heavy-tailed while remaining comparable to NSC in the absence of heavy tails. The favorable performance of RNSC is also demonstrated in a real data example. The sparsity assumption is frequently employed when the linear discriminant analysis (LDA) is generalized to high-dimensional problems. However, the sparse condition (targeting ''sparse signals'') is only an approximation to the complex situation, as there also exist a lot of non-zero elements with a small magnitude, known as ''dense signals''. are not exactly zero in the practical situation. The accumulated ''dense signals'' will severely influence the prediction and interpretation of a method. In Chapter 3, I propose one LDA-type method that relaxes the sparsity assumption. By employing l_1 and l_2 based penalization separately when estimating the ''sparse signals'' and ''dense signals'' of the discriminant directions, our method achieves robustness to non-sparse data. Theoretically, our proposal has neat consistency properties without the sparse condition. Numerically, our method gives comparable prediction accuracy to many popular classification methods when the sparsity condition holds and has significant advantages when there exist both ''sparse signals'' and ''dense signals''. The method is further supported by experiments on multiple real datasets. Tensor is becoming a popular data structure in contemporary scientific studies. However, I cannot directly implement the traditional classification methods for vector data to tensors as they will damage the covariance structure. Existing studies designed for tensor data mainly target the tensor discriminant directions and require specific conditions on the distribution. In Chapter 3, I develop a distance-based classifier for tensor data. It is a method with weak model assumptions that could capture the centroid structures through de-correlation. We examine this method with simulations including various scenarios and further demonstrate it with a real-world dataset.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 5, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Qing Mai, Professor Directing Dissertation; Lingjiong Zhu, University Representative; Anuj Srivastava, Committee Member; Chong Wu, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <mods:topic>Statistics</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Summer 2022_Ren_fsu_0071E_17285</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-01-27T10:52:08.836275-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

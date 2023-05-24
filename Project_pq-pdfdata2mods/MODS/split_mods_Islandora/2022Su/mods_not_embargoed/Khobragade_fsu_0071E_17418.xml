@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Experimental and Numerical Characterization of a Generic Mixed-Compression Supersonic Intake</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-6153-0959</nameIdentifier>
+      <namePart type="family">Khobragade</namePart>
+      <namePart type="given">Nikhil</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/drrajank">
+      <namePart type="family">Kumar</namePart>
+      <namePart type="given">Rajan</namePart>
+      <namePart type="termsOfAddress">(Professor of Mechanical Engineering)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/sjung">
+      <namePart type="family">Jung</namePart>
+      <namePart type="given">Sungmoon</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2006067722">
+      <namePart type="family">Cattafesta</namePart>
+      <namePart type="given">Louis N.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/woates">
+      <namePart type="family">Oates</namePart>
+      <namePart type="given">William</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2017082360">
+      <namePart type="family">Sasidharan Nair</namePart>
+      <namePart type="given">Unnikrishnan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Mechanical Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (156 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >The air intake captures the freestream airflow and delivers it to the engine of the parent vehicle for thrust production. The shockwave boundary layer interactions (SBLI) in the intake duct play an important role in defining the flow characteristics of supersonic air intakes. At certain operating conditions, these SBLI may result in large-amplitude oscillations in the intake flow, and be detrimental to the safety and performance of the engine. In addition, the back-pressure rise due to combustion instabilities can cause the intake to unstart. The unstart phenomenon generally turns out to be fatal for aerial vehicles due to loss of thrust and control. In spite of several previous studies focused on the intake unstart at certain operating conditions, a comprehensive understanding of flow states that occur during an unstart process is needed to develop a reliable engine control system. Both active and passive flow control techniques have been employed previously for the SBLI control to improve intake safety and performance. Particularly, cowl SBLI control has been targeted as it plays an important role in defining the performance and unstart characteristics of an intake. It has been shown in the literature that a simple backward-facing step (BFS) can be used as a passive control device for a canonical impinging SBLI. However, the use of a BFS has never been exploited for the SBLI control in supersonic air intakes. Previous studies led to the following questions. 1) Can a passive flow control device (suitably modified BFS) improve the performance of an air intake i.e. total pressure recovery and flow uniformity? 2) How does this passive flow control technique affect the mean flow behavior and dynamics of the air intake at different back-pressures? 3) Will there be any change in the intake unstart characteristics with SBLI control? To answer these questions as our research objectives and to improve our fundamental understanding of the supersonic intake flows, in particular the unstart phenomenon, a comprehensive experimental and numerical investigation is conducted and the results are presented in this work. The passive flow control device investigated in this study is a modified BFS, embedded at the ramp-isolator junction and is called a "Notch". The baseline intake geometry without a Notch is referred to as a Faceted configuration. The experiments include steady and unsteady wall pressure measurements, rake (total) pressures, back-pressure measurements, pressure sensitive-paint (PSP), planar particle image velocimetry (PIV), shadowgraphy, and oil flow visualizations. The numerical simulations include the Navier-Stokes-based mean flow Perturbation (NS-MFP) method for the linear analysis, Large Eddy Simulations (LES), and Reynolds Averaged Navier Stokes (RANS) simulations for the non-linear analysis. Numerical simulations predicted a region of flow separation and Kelvin-Helmholtz (K-H) instability around the isentropic compression surface of the external ramp. The ramp separation bubble also harbors a three-dimensional stationary instability that can induce transition under the influence of shear layer instability. The streamwise oriented G{\"o}rtler vortices break down to turbulence due to secondary instabilities. The flow transitions to turbulence over the ramp before it enters the inlet-isolator duct. At low back-pressures, the inlet-isolator flow is predominantly two-dimensional (2D) and the shock train is located in the divergent section. The experiments displayed a comparatively higher level of pressure fluctuations and a fuller boundary layer in the Notched intake isolator. The LES demonstrated the underlying mechanisms at work is the mid-frequency energization through vortex shedding in a well-developed shear layer. The Notch results in lower static pressures and higher velocity fluctuations, which will reduce the structural loads while improving flow uniformity and total pressure recovery. At high back-pressures, the shock train moves upstream and transitions to an oblique shock train. The notch effectively locks the separation at the ramp-isolator junction which is otherwise free to move in the baseline intake. Strong three-dimensional (3D) behavior exists in the inlet-isolator flow at high back-pressures due to severe adverse pressure gradients and regions of flow separation around the shock train. The highest level of unsteadiness in the intake was found to be around a normal shock train in the isolator. The oblique shock train showed mild low-frequency dynamics which can be linked to the large-scale separation at the isolator entrance. The flow choking near the intake exit triggers the unstart wave which propagates upstream. The unstart occurs through the development of a large-scale separation and boundary layer thickening at the ramp-isolator junction. The Notched intake displayed lower wave speed and a higher margin of unstart as compared to the baseline. The improvement in the understanding of the intake flowfield has laid down a path for future intake flow control efforts. The passive flow control device has displayed the potential to control SBLI and improve performance in supersonic intakes. The lessons learned in this study can be extended to other high-speed flows and applications during design and analysis.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Mechanical Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">June 22, 2022.</note>
+   <note  displayLabel="Keywords">Backward Facing Step, Compression Ramp, Intake Unstart, SBLI, Shock Train, Supersonic Air Intakes</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Rajan Kumar, Professor Directing Dissertation; Sungmoon Jung, University Representative; Louis Cattafesta, Committee Member; William Oates, Committee Member; S. Unnikrishnan, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85082757">
+      <topic>Mechanical engineering</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh95007821">
+      <topic>Aerospace engineering</topic>
+   </subject>
+   <identifier  type="IID">Summer 2022_Khobragade_fsu_0071E_17418</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Mechanical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-01-27T10:52:08.836275-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

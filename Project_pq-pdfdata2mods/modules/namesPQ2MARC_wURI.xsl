@@ -40,18 +40,63 @@
                     <xsl:text>, </xsl:text>
                     <xsl:value-of select="$authors[filename = current()]/*[(self::given)]"/>
                     <xsl:choose>
-                        <xsl:when test="$authors[filename = current()]/*[(self::fuller)] = ''">
-                            <xsl:text>,</xsl:text>
+                        <xsl:when test="$authors[filename = current()]/*[(self::suffix)] = ''">
+                            <xsl:choose>
+                                <xsl:when
+                                    test="$authors[filename = current()]/*[(self::fuller)] = ''">
+                                    <xsl:text>,</xsl:text>
+                                </xsl:when>
+                            </xsl:choose>
+                        </xsl:when>
+                    </xsl:choose>
+                    <xsl:choose>
+                        <xsl:when test="$authors[filename = current()]/*[(self::suffix)] ne ''">
+                            <xsl:choose>
+                                <xsl:when
+                                    test="$authors[filename = current()]/*[(self::fuller)] = ''">
+                                    <xsl:text>,</xsl:text>
+                                </xsl:when>
+                            </xsl:choose>
+                        </xsl:when>
+                    </xsl:choose>
+                    <xsl:choose>
+                        <xsl:when test="$authors[filename = current()]/*[(self::suffix)] = ''">
+                            <xsl:choose>
+                                <xsl:when
+                                    test="$authors[filename = current()]/*[(self::fuller)] ne ''">
+                                </xsl:when>
+                            </xsl:choose>
+                        </xsl:when>
+                    </xsl:choose>
+                    <xsl:choose>
+                        <xsl:when test="$authors[filename = current()]/*[(self::suffix)] ne ''">
+                            <xsl:choose>
+                                <xsl:when
+                                    test="$authors[filename = current()]/*[(self::fuller)] ne ''">
+                                    <xsl:text>,</xsl:text>
+                                </xsl:when>
+                            </xsl:choose>
                         </xsl:when>
                     </xsl:choose>
                 </marc:subfield>
                 <!-- Note that in some semesters the author names may not have any suffixes -->
-                <xsl:if test="$authors[filename = current()]/*[(self::suffix)] ne ''">
-                    <marc:subfield code="c">
-                        <xsl:value-of select="$authors[filename = current()]/*[(self::suffix)]"/>
-                        <xsl:text>,</xsl:text>
-                    </marc:subfield>
-                </xsl:if>
+                <xsl:choose>
+                    <xsl:when test="$authors[filename = current()]/*[(self::suffix)] ne ''">
+                        <xsl:choose>
+                             <xsl:when test="$authors[filename = current()]/*[(self::fuller)] ne ''">
+                                <marc:subfield code="c">
+                                    <xsl:value-of select="$authors[filename = current()]/*[(self::suffix)]"/>
+                                </marc:subfield>
+                             </xsl:when>
+                            <xsl:otherwise>
+                                <marc:subfield code="c">
+                                    <xsl:value-of select="$authors[filename = current()]/*[(self::suffix)]"/>
+                                    <xsl:text>,</xsl:text>
+                                </marc:subfield>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:when>
+                </xsl:choose>
                 <xsl:if test="$authors[filename = current()]/*[(self::fuller)] ne ''">
                     <marc:subfield code="q">
                         <xsl:value-of select="$authors[filename = current()]/*[(self::fuller)]"/>
@@ -136,14 +181,15 @@
                                                 <xsl:choose>
                                                   <!-- When terms of address is not empty, AND... -->
                                                   <xsl:when test="not($termsOfAddress = '')">
-                                                    <xsl:choose>
-                                                        <!-- When terms of address does NOT start with parentheses, add comma to subfield a -->
-                                                        <xsl:when test="not(starts-with($termsOfAddress, '('))">
-                                                            <xsl:text>,</xsl:text>
-                                                        </xsl:when>
-                                                        <!-- When terms of address DOES start with parentheses, do not add comma to subfield a -->
-                                                        <xsl:otherwise/>
-                                                    </xsl:choose>
+                                                  <xsl:choose>
+                                                  <!-- When terms of address does NOT start with parentheses, add comma to subfield a -->
+                                                  <xsl:when
+                                                  test="not(starts-with($termsOfAddress, '('))">
+                                                  <xsl:text>,</xsl:text>
+                                                  </xsl:when>
+                                                  <!-- When terms of address DOES start with parentheses, do not add comma to subfield a -->
+                                                  <xsl:otherwise/>
+                                                  </xsl:choose>
                                                   </xsl:when>
                                                   <!-- When terms of address IS empty, do not add comma to subfield a -->
                                                   <xsl:otherwise/>

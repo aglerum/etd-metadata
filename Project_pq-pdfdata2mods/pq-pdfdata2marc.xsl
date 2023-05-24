@@ -9,7 +9,7 @@
     xmlns:oasis="http://www.niso.org/standards/z39-96/ns/oasis-exchange/table">
     <xd:doc scope="stylesheet">
         <xd:desc>
-            <xd:p><xd:b>Last updated: </xd:b>July 12, 2022</xd:p>
+            <xd:p><xd:b>Last updated: </xd:b>October 18, 2022</xd:p>
             <xd:p><xd:b>Authors: </xd:b>Annie Glerum, Alex Chisum</xd:p>
             <xd:p><xd:b>Organization: </xd:b>Florida State University Libraries</xd:p>
             <xd:p><xd:b>Title:</xd:b> Transformation of extracted ETD PDF text data and ProQuest
@@ -25,19 +25,21 @@
     <xsl:include href="modules/titleMARC_draft.xsl"/>
     <xsl:include href="modules/namesPQ2MARC_wURI.xsl"/>
     <xsl:include href="modules/subjects-proquestMARC.xsl"/>
+    <xsl:include href="modules/subjects-proquestMARC_Class.xsl"/>
 
 
     <!-- **Global variables** -->
     <!-- Batch Variable -->
-    <xsl:variable name="batch" select="'2020SuFa_2021Sp'"/>
+    <xsl:variable name="batch" select="'2022Su'"/>
 
     <!-- These paths change with each semester-->
     <!-- Be sure and also change the semester variable in your 856 field below -->
     <xsl:variable name="pdfdata"
-        select="document('source_pdfdata/source_pdfdata_2020SuFa_2021Sp.xml')/records/record"/>
+        select="document('source_pdfdata/source_pdfdata_2022Su_uris.xml')/records/record"/>
     <xsl:variable name="committee"
-        select="document('tables/ETD-NAF_mads_20220520.xml')/mads:madsCollection/mads:mads/mads:authority"/>
-    <xsl:variable name="authors" select="document('tables/authors_2020SuFa_2021Sp.xml')/authors/name"/>
+        select="document('tables/ETD-NAF_mads_20230126.xml')/mads:madsCollection/mads:mads/mads:authority"/>
+    <xsl:variable name="authors"
+        select="document('tables/authors_2022Su.xml')/authors/name"/>
 
     <!-- These paths refer to data tables -->
     <xsl:variable name="PQ-FSU-dept"
@@ -60,6 +62,12 @@
                 <xsl:variable name="embargo">
                     <xsl:value-of select="@embargo_code"/>
                 </xsl:variable>
+
+                <!--ONLY ADD THIS IF YOU NEED TO GET THE SEMESTER
+                <xsl:variable name="semester">
+                    <xsl:value-of select="DISS_description/DISS_dates/DISS_comp_date"/>
+                </xsl:variable>  -->
+
                 <xsl:variable name="dissLanguage"
                     select="DISS_description/DISS_categorization/DISS_language"/>
 
@@ -121,7 +129,7 @@
                 <marc:record>
                     <!--  Leader and control fields<-->
                     <marc:leader>
-                        <xsl:text>     nam  22     Ki 4500</xsl:text>
+                        <xsl:text>     nam  22      i 4500</xsl:text>
                     </marc:leader>
                     <marc:controlfield tag="006">
                         <xsl:text>m     o  d        </xsl:text>
@@ -154,23 +162,9 @@
                         <marc:subfield code="c">FDA</marc:subfield>
                     </marc:datafield>
 
-                    <!--090 field: Local LC-type call number-->
-                    <!--<marc:datafield tag="090" ind1=" " ind2=" ">
-                            <marc:subfield code="a">LD1773.F965</marc:subfield>
-                            <xsl:variable name="degreeType">
-                                <xsl:value-of select="DISS_description/@type"/>
-                            </xsl:variable>
-                            <marc:subfield code="b">
-                                <xsl:value-of select="
-                                        if ($degreeType = 'doctoral') then
-                                            (concat('Z993 ', $year))
-                                        else
-                                            if ($degreeType = 'masters') then
-                                                (concat('Z995 ', $year))
-                                            else
-                                                ''"/>
-                            </marc:subfield>
-                        </marc:datafield>-->
+                    <!--050 field: LC Class-->
+                    <xsl:call-template name="class_subjects_proquest"> </xsl:call-template>
+
 
                     <!--100 field: Personal name main entry-->
                     <xsl:call-template name="author_name">
@@ -184,7 +178,9 @@
 
                     <xsl:variable name="title">
                         <xsl:for-each select="$binary">
-                            <xsl:value-of select="$pdfdata[filename = current()]/*[(self::title)]"/>
+                            <xsl:value-of
+                                select="normalize-space($pdfdata[filename = current()]/*[(self::title)])"
+                            />
                         </xsl:for-each>
                     </xsl:variable>
 
@@ -241,7 +237,8 @@
                             <xsl:when test="contains($title, ':')">
                                 <marc:subfield code="a">
                                     <xsl:value-of select="substring-before($title, ':')"/>
-                                    <xsl:text> :</xsl:text></marc:subfield>
+                                    <xsl:text> :</xsl:text>
+                                </marc:subfield>
                                 <marc:subfield code="b">
                                     <xsl:value-of select="substring-after($title, ': ')"/>
                                     <xsl:text> /</xsl:text>
@@ -396,7 +393,12 @@
                         </marc:datafield>
                     </xsl:if>
 
-
+                    <!-- DISS DATE IN A 500 FIELD: ONLY USE THIS WHEN YOU DON'T KNOW THE SEMESTERS
+                    <marc:datafield tag="500" ind1=" " ind2=" ">
+                        <marc:subfield code="a">
+                            <xsl:value-of select="$semester"/>
+                        </marc:subfield>
+                    </marc:datafield> -->
 
                     <!--502 field: Dissertation note-->
                     <marc:datafield tag="502" ind1=" " ind2=" ">
@@ -495,17 +497,21 @@
                     <!-- BE SURE AND CHANGE THE SEMESTER VARIABLE TO THE SEMESTER YOU'RE WORKING ON -->
                     <marc:datafield tag="856" ind1="4" ind2="0">
                         <xsl:variable name="semester">
-                            <xsl:text>2020_Summer_Fall_</xsl:text>
+                            <xsl:text>2022_Su</xsl:text>
+                            <!-- If you need to grab the semester info from the ProQuest data -->
+                            <!-- <xsl:value-of select="DISS_description/DISS_dates/DISS_comp_date"/> -->
                         </xsl:variable>
                         <marc:subfield code="3">DigiNole</marc:subfield>
                         <marc:subfield code="u">
                             <xsl:for-each select="$binary">
                                 <xsl:variable name="purl_file">
                                     <xsl:value-of
-                                        select="substring-before($pdfdata[filename = current()]/*[(self::filename)], '.pdf')"/>
+                                        select="substring-before($pdfdata[filename = current()]/*[(self::filename)], '.pdf')"
+                                    />
                                 </xsl:variable>
                                 <xsl:value-of
-                                    select="concat('https://purl.lib.fsu.edu/diginole/', $semester, $purl_file)"/>
+                                    select="concat('https://purl.lib.fsu.edu/diginole/', $semester, $purl_file)"
+                                />
                             </xsl:for-each>
                         </marc:subfield>
                         <marc:subfield code="y">Connect to online content:</marc:subfield>

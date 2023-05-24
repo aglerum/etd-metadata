@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Comparative Performance Analysis of Grid-Tied MMC and VSC Converter</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-4239-0732</nameIdentifier>
+      <namePart type="family">Adhikari</namePart>
+      <namePart type="given">Atindra P.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/faruque">
+      <namePart type="family">Faruque</namePart>
+      <namePart type="given">Md Omar</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing thesis</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/pamidi">
+      <namePart type="family">Pamidi</namePart>
+      <namePart type="given">Sastry V.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/yli12">
+      <namePart type="family">Li</namePart>
+      <namePart type="given">Yuan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Electrical and Computer Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (123 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >The conventional 2-level voltage source converter (VSC) was first commercialized in an HVDC project by ABB in 1997. This topology being cost effective, having simpler design and control attracted the vendors to be used in high power high voltage applications. Apart from the benefits, this topology also offered limitations which included; the requirement of bulky and expensive filters for the mitigation of low order harmonics in the output voltage waveform. These harmonics can be nullified by using high frequency switching which pushes the low order frequency spectrum to higher order frequencies which in turn affected in reducing the filter size but corresponded to another cumbersome issue of increased converter switching losses. Therefore there was always a conflicting design compromise between converter switching losses and the need for bulky harmonic filter for filtration. IGBTs being low to medium voltage rated devices which typically ranges from 1.7kV to 6.5kV, does not have the capability to withstand the full DC-link voltage. This brings us to another troublesome issue with conventional VSC which is, this topology requires series connected IGBTs to form the converter arm valves. This means that these switching devices requires sophisticated gate drives to maintain dynamic and static voltage balancing to ensure the simultaneous switching of all the IGBTs in the converter arm. This incommodious situation in turn limits the overall efficiency of 2-level VSC. This research is mainly aimed to make a comparison of VSC converters with a relatively new compact design solution to all the foregoing problems by modelling a 21-level Modular Multilevel Converter (MMC). As the name suggest multilevel, which eliminates the need of massive and expensive filter requirements and modular, which eliminates the need for series connected IGBTs when used in high power high voltage applications like HVDC. This converter topology regulates in lower switching frequency which in turn reduces the converter switching losses. The MMC system that has been studied in this work involves a 100kV DC converter station connected to a 220kV, 50Hz grid station connected with two 50MW parallel loads through successive transmission lines of 10km. This work compares modelling and design of grid-tied conventional VSC and MMC. Transformation of signals from ABC frame to direct-quadrature frame (dq0) and independent control of active and reactive power at point of common coupling (PCC) are done using vector current control technique. The Proportional (P) and Integral (I) gains are calculated using Modulus Optimum tuning criteria. The modulation technique used for conventional VSC is Sinusoidal Pulse Width Modulation (SPWM) and on the other hand Phase-Shifted Pulse Width Modulation (PS-PWM) has been used for MMC topology. The step time is set to 6.06e-6 s as the switching frequency of the converters is 1650Hz. The conventional VSC is realized using the Universal Bridge block from the Simulink library whereas the MMC is realized using the Half-Bridge MMC block and selecting aggregate model type. Both the converter topologies are analyzed and compared on the basis of their mathematical modelling of their AC dynamics, control complexity and stability conditions, output voltage quality, switching losses, total harmonic distortion (THD), harmonic spectrum analysis, filter requirement, cost and design structure and AC fault analysis. Based on result comparison it is found that MMC topology produces less voltage harmonics than the conventional VSC. The output current waveform of MMC is smooth whereas the VSC output waveform is full of ripples. This shows the need for AC harmonic filters at the converter output for the conventional VSC. The shifting of switching frequency to 3x fundamental frequency has minimum effect on the MMC topology based on the total harmonic distortion in the output voltage as compared to VSC. Although MMC is superior in every aspect but during AC faults the MMC shows more instability and high fault current as compared to VSC topology.</abstract>
+   <note  displayLabel="Submitted Note">A Thesis submitted to the Department of Electrical and Computer Engineering in partial fulfillment of the requirements for the degree of Master of Science.</note>
+   <note  displayLabel="Date of Defense">June 30, 2022.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Md Omar Faruque, Professor Directing Thesis; Sastry Pamidi, Committee Member; Yuan Li, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85041666">
+      <topic>Electrical engineering</topic>
+   </subject>
+   <identifier  type="IID">Summer 2022_Adhikari_fsu_0071N_17218</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Electrical and Computer Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-01-27T10:52:08.836275-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

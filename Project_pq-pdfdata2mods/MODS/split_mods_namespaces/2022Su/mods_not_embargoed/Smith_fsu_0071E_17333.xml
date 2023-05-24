@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Student Reasoning, Argumentation, and Positioning Relative to Identity in Inquiry-Oriented Undergraduate Mathematics</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-2817-7671</mods:nameIdentifier>
+      <mods:namePart type="family">Smith</mods:namePart>
+      <mods:namePart type="given">Jessica L.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2011088772">
+      <mods:namePart type="family">Larson</mods:namePart>
+      <mods:namePart type="given">Christine (Christine J.)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2010183649">
+      <mods:namePart type="family">Kercheval</mods:namePart>
+      <mods:namePart type="given">Alec N.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ljaber">
+      <mods:namePart type="family">Jaber</mods:namePart>
+      <mods:namePart type="given">Lama</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/iwhitacre">
+      <mods:namePart type="family">Whitacre</mods:namePart>
+      <mods:namePart type="given">Ian Michael</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Education</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>School of Teacher Education</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (119 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>There have been recent pushes for more active learning in mathematics classrooms, especially at the undergraduate level. To incorporate more active learning, there is a need for tasks that explicitly support this type of instruction, attention to student reasoning and whose ideas are publicly acknowledged, and awareness of differences in students' experiences in these classes. My dissertation follows a three-paper format and addresses these aspects in an inquiry-oriented linear algebra context. In these papers, I examine student reasoning about solutions to systems of linear equations in the context of an inquiry-oriented task sequence, the development of argumentation (with attention to which students contribute this development), and the relationships among classroom obligations and students' identities and ways of being positioned in class. Systems of linear equations (SLE) comprise a fundamental concept in linear algebra, but there is relatively little research regarding the teaching and learning of SLE, especially students' conceptions of solutions. It has been shown that solving systems with no or infinitely many solutions tends to be less intuitive for students, pointing to the need for more research on the teaching and learning of the topic. For the first paper, I and another author interviewed two math majors who were also preservice teachers, in a paired teaching experiment to see how they reasoned about solutions to SLE in ℝ3. I present findings focused on the progression of students' reasoning about solutions to SLE through the lens of symbolizing. We document their progression of reasoning as an accumulation of coordinated numeric, algebraic, and graphical meanings and symbolizations for solution sets developed throughout and called on at different moments in the task sequence. The second paper focuses on the participatory equity of collective argumentation during the systems of linear equations unit in an undergraduate linear algebra course. The instructor used a modified version of the task sequence presented in the first paper. It has been argued that active learning can lead to more equitable outcomes in math classrooms, but others have found that it can actually increase gaps in performances between men and women or amplify the in-class racialized and gendered experiences for students from marginalized populations. In this paper, I use video recordings and field notes from class discussions to document the overall participatory equity or inequity in the argumentation during the systems unit and how and by whom four different arguments were developed. I note that women only participated during situational activity in contrast to women not participating at all in generalizing activity. I also describe the ways in which the online chat functioned as a mechanism that, at times, made discussion participation more equitable. I highlight an instance within argumentation in which one student, whose mathematical ideas were used particularly often, made a sexist comment implying women's contribution in the course should be identifying colors of lines on a graph. In the third paper, I compare one course's normative identity, or the obligations in which students would need to adopt to be seen as successful, and personal identity, or the degree to which students identify and engage in those obligations. I then examine relationships between these identities and the ways in which students are positioned, or the ways they are allowed to participate and the ways in which they and their ideas are valued in the course. I address differences that can exist between a class's normative identity and students' personal identities that contribute to differences in the ways students are positioned. I also highlight ways in which students can be positioned similarly while also experiencing interactions differently. The three papers deal with differences that can exist in students' reasoning, whole class participation, and experiences in an inquiry-oriented setting. The first paper addresses a gap in research on student reasoning about systems of linear equations, especially regarding systems with large or infinite solution sets. The second paper addresses a gap in the research linking collective argumentation and equity, especially in undergraduate mathematics settings. The third paper addresses a gap in the research examining the ways students identify with the classroom normative identity and how this relates to how those students are positioned in class.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the School of Teacher Education in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 27, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">argumentation, equitable participation, identity, positioning, systems of linear equations</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Christine Andrews-Larson, Professor Directing Dissertation; Alec Kercheval, University Representative; Lama Jaber, Committee Member; Ian Whitacre, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85082157">
+      <mods:topic>Mathematics</mods:topic>
+      <mods:topic>Study and teaching</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Summer 2022_Smith_fsu_0071E_17333</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Teacher Education</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-01-27T10:52:08.836275-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

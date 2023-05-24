@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Comparison of Acoustic and Satellite Telemetry as Methods for Quantifying Space Use of Marine Species</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-2512-7302</mods:nameIdentifier>
+      <mods:namePart type="family">Hardin</mods:namePart>
+      <mods:namePart type="given">Emily E.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mfuentes">
+      <mods:namePart type="family">Fuentes</mods:namePart>
+      <mods:namePart type="given">Mariana</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/dgrubbs2">
+      <mods:namePart type="family">Grubbs</mods:namePart>
+      <mods:namePart type="given">R. Dean</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mhuettel">
+      <mods:namePart type="family">Huettel</mods:namePart>
+      <mods:namePart type="given">Markus</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (68 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Knowledge of a species' range, movement patterns, and associations with environmental factors provides essential insights into their ecology. Together, these datasets can inform effective conservation measures by identifying ecologically important habitats and can be used to forecast changes in space use in response to disturbances (e.g., climate change impacts). Methods of obtaining spatial distribution data for marine species have proliferated due to recent technological advances, with passive acoustic and satellite telemetry emerging as two common tracking approaches. These approaches are often used for similar purposes of quantifying the space use and home ranges of individuals; however, data-driven comparisons of these methods and the ecological inferences that can be made from each are lacking. To systematically compare telemetry methods and make recommendations of their appropriate applications, nine juvenile green turtles (Chelonia mydas) were simultaneously tracked with both passive acoustic and Argos satellite telemetry within a foraging area in Bimini, Bahamas. The temporal durations, spatial resolution and extent, and costs of each tracking approach were compared. Dynamic Brownian Bridge Movement Models (dBBMMs) were applied to estimate and compare 95% and 50% utilization distributions (UDs) between tracking methods. Additionally, overlap indices were calculated to assess the degree of agreement between the UDs from each approach. The mean tracking durations of acoustic and satellite telemetry were similar (87 d and 119 d, respectively), although acoustic tracking provided a higher number of relocations per individual at a finer spatial and temporal scale. UDs estimated from satellite telemetry were on average 7 to 15 times larger than those estimated from acoustic telemetry. The differences in UD size were not statistically significant, although this was potentially an effect of the small sample size and high individual variability. Overlap indices indicated a moderate agreement between 95% satellite and acoustic UDs, but a low agreement between 50% UDs. Satellite telemetry confirmed that individuals generally remained within the extent of the acoustic receiver array; however, a large proportion of satellite UDs fell outside individual receiver detection ranges, suggesting that large gaps in coverage existed within the array. These results indicate that passive acoustic and satellite telemetry do not provide similar inferences about individual space use within foraging areas and should each be used to address specific ecological questions and be uniquely interpreted. While acoustic telemetry using a localized passive array is better suited for understanding ecological associations on a fine spatiotemporal scale, such as diel movement patterns, satellite telemetry is better suited for assessing movement corridors or resource selection patterns. Additionally, large differences in costs were found based on transmitter type, sample size, and the pre-existence of a receiver array, all of which should be taken into consideration when designing a telemetry study. Recommendations are made to help researchers identify the most appropriate telemetry methods for their research objectives and to aid in appropriately interpreting space use metrics from various telemetry methods.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the  in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 21, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">biotelemetry, marine megafauna, spatial distribution, spatiotemporal, tracking, utilization distribution</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Mariana M.P.B Fuentes, Professor Directing Thesis; Ralph Dean Grubbs, II, Committee Member; Markus Huettel, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85081138">
+      <mods:topic>Marine biology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Summer 2022_Hardin_fsu_0071N_17008</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-01-27T10:52:08.836275-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

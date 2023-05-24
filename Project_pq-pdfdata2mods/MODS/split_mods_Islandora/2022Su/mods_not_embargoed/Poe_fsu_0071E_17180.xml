@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Optimizing Synthetic Conditions for the Stabilization of Divalent Californium</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-7014-8850</nameIdentifier>
+      <namePart type="family">Poe</namePart>
+      <namePart type="given">Todd N.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2008078041">
+      <namePart type="family">Albrecht-Schmitt</namePart>
+      <namePart type="given">Thomas E.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/iwiedenhoever">
+      <namePart type="family">Weidenhoever</namePart>
+      <namePart type="given">Ingo Ludwing M.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/latturne">
+      <namePart type="family">Latturner</namePart>
+      <namePart type="given">Susan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/rlazenby">
+      <namePart type="family">Lazenby</namePart>
+      <namePart type="given">Robert A.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Chemistry and Biochemistry</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (321 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >In comparison to their lanthanide counterparts, the actinide elements are woefully understudied. This is especially true for the trans-plutonium actinides. Known isotopes of the heavier, later actinides possess, in most cases, shorter half-lives relative to the lighter actinides in addition to being more radiotoxic. These issues present significant complications when attempting to collect experimental data regarding the reactivity and bonding characteristics of the trans-plutonium actinides. Studying these elements through computational methods is made similarly difficult in part due to complex variables such as relativity and electron correlation. In light of this, it might seem easier to simply describe the actinides and their behavior as equivalent to that of the lanthanides as the Actinide Concept proposed by Glenn T. Seaborg suggests. However, advances in synthetic methods for handling these rare elements have resulted in the gathering of experimental evidence that, in combination with ever-improving computational methodology, indicate that the behavior of the later actinides does not mirror that of the later lanthanides. This is especially highlighted by the anomalous stabilization of the divalent oxidation state of the later actinides beginning at californium (Z = 98) and increasing onward to nobelium (Z = 102) which is, in fact, most stable in its divalent state at ambient conditions. A similar trend is not observed for the analogous lanthanide congeners of these actinides, and the implications of this phenomenon have been notably relevant for the separation of actinide elements from one another since the discovery of nobelium. Thus, a more thorough understanding of the unique behavior of the later actinides is crucial to understanding why they deviate from the periodicity exhibited by much lighter elements. At present, californium represents the heaviest actinide that synthetic inorganic chemistry can be achieved with and stands as the best option for investigating the nature of the divalent state of the later actinides.Chapter 1 of this work presents a detailed introduction to the typical behavior of the lanthanides and actinides under ambient conditions. An ensuing discussion of the issue of spent nuclear fuel containing many of the later actinides as fission products provides significant reason to understand the subtleties of the behavior of these elements, including the stabilization of the divalent oxidation state, for the development of more efficient separation methods. Given the scarcity of later actinides and difficulty in obtaining them, it is necessary to identify lanthanides that most closely model the behavior of the later actinides. Hence, the proposal and execution of work pertaining to optimizing the stability of relevant divalent lanthanide analogues with organic macrocycles is presented as well as the subsequent californium studies utilizing what was learned through studying the divalent lanthanides. Chapters 2, 3, 4, and 5 detail the experiments performed to explore the interactions of divalent lanthanides like Sm, Eu, and Yb (with special emphasis on Sm) with macrocycles like cryptands and crown ethers from the direct synthesis of LnI2 with these macrocycles in organic media under an inert atmosphere, where Ln = Sm, Eu, and Yb. These studies outline robust syntheses and crystallization methods for the respective divalent lanthanide complexes presented in each chapter. In addition, the properties of the isolated compounds are characterized through various spectroscopic techniques, magnetic studies, and computational results. Chapters 6 and 7 investigate more exotic chemistry with the divalent lanthanides. The former describes the crystallization and characterization of a Dy2+ 18-crown-6 complex while the latter explores the stability of Sm2+ under non-ideal conditions. Chapters 6 and 7 establish the potential to expand the concepts presented in chapters 2, 3, 4, and 5 to more intricate systems which is vital when exploring the more complex actinides. Finally, chapter 8 is a discussion of the culmination of the work in the previous chapters as it is applied to trans-plutonium actinides such as Am and Cf. In the case of Cf, a mixed valent Cf3+/Cf2+ compound was isolated using 18-crown-6 as the stabilizing ligand. Methods used for the synthesis of the starting material and reduction of the trivalent Cf precursor in chapter 8 have yielded more successful results than previous attempts. In addition to the first crystallographic evidence of divalent californium, this work serves as the template for the eventual isolation of the first bulk Cf2+ compound. Finally, chapter 9 is a summation of this body of work and its implications for further exploration of the unique behavior of the trans-plutonium actinides.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">May 3, 2022.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Thomas E. Albrecht-Schzart, Professor Directing Dissertation; Ingo Wiedenhoever, University Representative; Susan E. Latturner, Committee Member; Robert A. Lazenby, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85023017">
+      <topic>Chemistry, Inorganic</topic>
+   </subject>
+   <identifier  type="IID">Summer 2022_Poe_fsu_0071E_17180</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-01-27T10:52:08.836275-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

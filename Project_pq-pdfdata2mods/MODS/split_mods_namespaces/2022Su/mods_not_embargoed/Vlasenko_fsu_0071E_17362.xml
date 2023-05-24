@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Electoral Effects of Institutional Reforms</mods:title>
+      <mods:subTitle>Evidence from Ukraine and Russia</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-9539-8979</mods:nameIdentifier>
+      <mods:namePart type="family">Vlasenko</mods:namePart>
+      <mods:namePart type="given">Anastasiia</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/qbeazer">
+      <mods:namePart type="family">Beazer</mods:namePart>
+      <mods:namePart type="given">Quintin H.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/clarkj">
+      <mods:namePart type="family">Clark</mods:namePart>
+      <mods:namePart type="given">Jonathan E.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/adriscoll">
+      <mods:namePart type="family">Driscoll</mods:namePart>
+      <mods:namePart type="given">Amanda M.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/hkern">
+      <mods:namePart type="family">Kern</mods:namePart>
+      <mods:namePart type="given">Holger Lutz</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Social Sciences and Public Policy</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Political Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (99 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This dissertation explores the impact of institutional reforms on electoral and public goods provision outcomes. My first substantive chapter investigates the question of how institutional reforms affect voter mobilization in weekly-institutionalized democracies. I examine the effect of decentralization on turnout and candidate diversity in local elections in Ukraine in 2015-2020. In 2014, the government of Ukraine initiated decentralization reform which allowed village, town, and city councils to gain wider administrative, financial, and fiscal independence. Difference-in-differences estimates show that establishment of ATCs increased turnout and decreased the percentage of successful candidates with higher education. These effects can be explained by the increased interest in local politics and easier access to candidacy due to improved salience of local politics and communities' relative independence from central authorities. Thus, even under weak democratic institutions, decentralization can have immediate effect on voter mobilization through increased perception of local elections as 'meaningful' and, thus, worth time and effort. My second substantive chapter analyses how political and fiscal decentralization affects redistribution in lower-middle income countries. I address this question by studying the effect of decentralization reform on public sector budgetary expenditures in Ukraine in 2015-2020. Starting from 2015, Ukrainian urban territorial communities (TCs) had an opportunity to gain control over local budgetary revenues and expenditures, as well as to gain political independence from the central authorities. Decentralization reform allowed local councils and mayors to determine the level of spending on public goods provision in administrative, law enforcement, business support, environmental protection, infrastructure, education, and welfare sectors. Difference-in-difference analysis shows that decentralization was associated with increased expenditures on welfare and public goods provision. The findings suggest that the electoral pressure of decentralized democratic institutions prompts local authorities to engage in redistributive practices and introduce long-needed changes in management of local budgetary funds. My third substantive chapter studies the impact of organized religion on the consolidation of power in authoritarian regimes. While previous research focused on transit to and survival of democracy, I examine the effect of religious institutions on the consolidation and maintenance of power in an already existing autocracy. I look at the electoral influence of the Orthodox Church in Russia under President Vladimir Putin. While the significance of the Orthodox Church dwindled under the Communist Era due to the repression of religion, it has since regained its presence and has become increasingly salient in society. To examine the consequences of this resurgence, I look at the expansion in the number of churches during the Putin era and its effects on support for the regime. I find that expansion in the number of churches leads to an increase in electoral support for the regime, during both parliamentary and presidential elections. My study thus highlights how non-governmental organizations can help contribute to regime stability.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Political Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 30, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Quintin Beazer, Professor Directing Dissertation; Jonathan Clark, University Representative; Amanda Driscoll, Committee Member; Holger Kern, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85104440">
+      <mods:topic>Political science</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Summer 2022_Vlasenko_fsu_0071E_17362</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Political Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-01-27T10:52:08.836275-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

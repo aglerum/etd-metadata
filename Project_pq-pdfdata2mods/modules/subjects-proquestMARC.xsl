@@ -40,33 +40,33 @@
                             <xsl:when test=".[@type='complex_topic-topic']">
                                 <marc:datafield tag="650" ind1=" " ind2="0">
                                     <marc:subfield code="a">
-                                        <xsl:value-of select="substring-before(.,'--')"/>
+                                        <xsl:value-of select="normalize-space(substring-before(.,'--'))"/>
                                     </marc:subfield>
                                     <marc:subfield code="x">
-                                        <xsl:value-of select="substring-after(.,'--')"/>
+                                        <xsl:value-of select="normalize-space(substring-after(.,'--'))"/>
                                     </marc:subfield>
                                 </marc:datafield>
                             </xsl:when>
                             <xsl:when test=".[@type='complex_topic-topic-topic']">
                                 <marc:datafield tag="650" ind1=" " ind2="0">
                                     <marc:subfield code="a">
-                                        <xsl:value-of select="tokenize(.,'--')[1]"/>
+                                        <xsl:value-of select="normalize-space(tokenize(.,'--')[1])"/>
                                     </marc:subfield>
                                     <marc:subfield code="x">
-                                        <xsl:value-of select="tokenize(.,'--')[2]"/>
+                                        <xsl:value-of select="normalize-space(tokenize(.,'--')[2])"/>
                                     </marc:subfield>
                                     <marc:subfield code="x">
-                                        <xsl:value-of select="tokenize(.,'--')[3]"/>
+                                        <xsl:value-of select="normalize-space(tokenize(.,'--')[3])"/>
                                     </marc:subfield>
                                 </marc:datafield>
                             </xsl:when>
                             <xsl:when test=".[@type='complex_geographic-topic']">
                                 <marc:datafield tag="651" ind1=" " ind2="0">
                                     <marc:subfield code="a">
-                                        <xsl:value-of select="substring-before(.,'--')"/>
+                                        <xsl:value-of select="normalize-space(substring-before(.,'--'))"/>
                                     </marc:subfield>
                                     <marc:subfield code="x">
-                                        <xsl:value-of select="substring-after(.,'--')"/>
+                                        <xsl:value-of select="normalize-space(substring-after(.,'--'))"/>
                                     </marc:subfield>
                                 </marc:datafield>
                             </xsl:when>
@@ -78,14 +78,14 @@
                             <xsl:when test=".[@type='topic']">
                                 <marc:datafield tag="650" ind1=" " ind2="0">
                                     <marc:subfield code="a">
-                                        <xsl:value-of select="."/>
+                                        <xsl:value-of select="normalize-space(.)"/>
                                     </marc:subfield>
                                 </marc:datafield>
                             </xsl:when>
                             <xsl:when test=".[@type='geographic']">
                                 <marc:datafield tag="651" ind1=" " ind2="0">
                                     <marc:subfield code="a">
-                                        <xsl:value-of select="."/>
+                                        <xsl:value-of select="normalize-space(.)"/>
                                     </marc:subfield>
                                 </marc:datafield>
                             </xsl:when>
