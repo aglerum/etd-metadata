@@ -16,7 +16,7 @@
 
     <xsl:output encoding="UTF-8" indent="yes" method="html"/>
 
-    <xsl:variable name="header" select="'PDF Data for 2022 Summer ETDs'"/>
+    <xsl:variable name="header" select="'PDF Data for 2022-2023 Combined ETDs'"/>
 
 
     <xsl:template match="/records">

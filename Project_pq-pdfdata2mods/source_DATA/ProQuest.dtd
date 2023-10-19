@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Copyright 2002-2013 ProQuest -->
+<!-- DISS_submission is the root element. One XML file structured as
+     shown here equals one dissertation -->
+<!ELEMENT DISS_submission (DISS_authorship, DISS_description, DISS_content, (DISS_restriction)*, DISS_repository?)>
+<!ATTLIST DISS_submission
+  publishing_option (0 | 1) "0"
+  embargo_code (0 | 1 | 2 | 3 | 4) "0"
+  third_party_search (Y | N) "Y"
+  third_party_sales (Y | N) "Y"
+  free_publishing_flag (Y | N) "Y"
+>
+<!--
+  *Publishing option:
+    0 - Traditional
+    1 - Open Access
+  *Embargo code can be (this is the ProQuest embargo, not the IR embargo):
+    0 - no embargo
+    1 - 6 month embargo
+    2 - 1 year embargo
+    3 - 2 year embargo
+    4 - flexible delayed release
+      Note: if embargo code = 4
+        sales_restriction 1 (in the DISS_restriction element) should be
+        populated. The corresponding "remove" attribute of the
+        sales_restriction element should have the delayed release date chosen
+        by the author/administrator. In case the author chooses to never
+        release his/her work the corresponding "remove" date on the
+        restriction should be null.
+      Examples:
+        embargo_code = 4,
+        Diss_sales_restriction = 1,
+        remove = 01/01/2010 (delayed release until 01/01/2010)
+
+        embargo_code = 4,
+        Diss_sales_restriction = 1,
+        remove = null (never to be released)
+
+        Diss_sales_restriction need not be populated for embargo options
+        1, 2 and 3 since the release date is implied.
+
+  *third_party_search
+    Y - submission can be indexed by search engines other than ProQuest
+    N - submission can NOT be indexed by search engines other than ProQuest
+  *third_party_sales
+    Y - submission can be sold by entities other than ProQuest
+    N - submission can NOT be sold by entities other than ProQuest
+  *free_publishing_flag - Now is always "Y"
+    Y - there is no fee for publishing in ProQuest
+    N - There is a fee for publishing in ProQuest
+-->
+
+<!-- DISS_authorship contains data for one primary author -->
+<!ELEMENT DISS_authorship (DISS_author)+>
+<!--
+  DISS_author - note that the author can specify multiple addresses, and
+  the contact element has a "current" or "future" attribute,
+  letting us know where to contact the author subsequently
+-->
+<!ELEMENT DISS_author (DISS_name, (DISS_contact)+, DISS_citizenship?)>
+<!ATTLIST DISS_author
+  type (primary | additional) "primary"
+>
+
+<!--
+  standard block of elements to record an individual's name and
+  school affiliation.
+-->
+<!ELEMENT DISS_name (DISS_etd_author_id?, DISS_surname, DISS_fname?, DISS_middle?, DISS_suffix?, DISS_affiliation?, DISS_author_privacy_opt_in?)>
+<!-- Author id is the ETD cross reference. -->
+<!--
+  Author Privacy is ETD Canada Author's opt-in/opt-out preference.
+  Not required to be populated by providers,except for ETD Canada
+-->
+<!ELEMENT DISS_etd_author_id (#PCDATA)>
+<!ELEMENT DISS_surname (#PCDATA)>
+<!ELEMENT DISS_fname (#PCDATA)>
+<!ELEMENT DISS_middle (#PCDATA)>
+<!ELEMENT DISS_suffix (#PCDATA)>
+<!ELEMENT DISS_affiliation (#PCDATA)>
+<!ELEMENT DISS_author_privacy_opt_in (#PCDATA)>
+
+<!--
+  standard block of elements to record an individual's contact info.
+  Used for authors and advisors
+-->
+<!ELEMENT DISS_contact (DISS_contact_effdt, DISS_phone_fax*, DISS_address, DISS_email?)>
+<!ATTLIST DISS_contact
+  type (current | future) "current"
+>
+<!ELEMENT DISS_contact_effdt (#PCDATA)>
+<!ELEMENT DISS_phone_fax ((DISS_cntry_cd)?, DISS_area_code, DISS_phone_num, DISS_phone_ext?)>
+<!ATTLIST DISS_phone_fax
+  type (P | F) "P"
+>
+<!-- P is Phone number, F is Fax number -->
+<!ELEMENT DISS_cntry_cd (#PCDATA)>
+<!ELEMENT DISS_area_code (#PCDATA)>
+<!ELEMENT DISS_phone_num (#PCDATA)>
+<!ELEMENT DISS_phone_ext (#PCDATA)>
+<!ELEMENT DISS_address ((DISS_addrline)+, DISS_city, (DISS_st)*, DISS_pcode, DISS_country)>
+<!ELEMENT DISS_addrline (#PCDATA)>
+<!ELEMENT DISS_city (#PCDATA)>
+<!ELEMENT DISS_st (#PCDATA)>
+<!ELEMENT DISS_pcode (#PCDATA)>
+<!ELEMENT DISS_country (#PCDATA)>
+<!ELEMENT DISS_email (#PCDATA)>
+
+<!--
+  we no longer ask for citizenship, so this field will no longer be sent
+-->
+<!ELEMENT DISS_citizenship (#PCDATA)>
+
+<!--
+  this block of elements describes the dissertation for both processing
+  and access purposes.
+  The attributes are:
+    *page_count: may contain the number of pages in the dissertation.
+    *type: graduate work type
+      master's thesis or doctoral dissertation.
+    *external_id:  a unique id assigned by the ETD Administrator.
+    *apply_for_copyright: indicates whether the author wants ProQuest to apply for
+      Copyright Registration through the Library of Congress.
+      There is an additional fee for this service.
+-->
+<!ELEMENT DISS_description (DISS_title, DISS_supp_title*, DISS_dates, DISS_degree, (DISS_institution), (DISS_advisor)*, DISS_cmte_member*, DISS_categorization)>
+<!ATTLIST DISS_description
+  page_count CDATA #REQUIRED
+  type (masters | doctoral) #REQUIRED
+  external_id CDATA #REQUIRED
+  apply_for_copyright (yes | no) #REQUIRED
+>
+<!-- DISS_title is the full title of the dissertation -->
+<!ELEMENT DISS_title (#PCDATA)>
+<!--
+  DISS_Supp_Title is the full title of the dissertation in an
+  alternate language.
+-->
+<!ELEMENT DISS_supp_title (#PCDATA)>
+<!ATTLIST DISS_supp_title
+  lang CDATA #REQUIRED
+>
+
+<!--
+  these elements record the year the degree was conferred(DISS_comp_date)
+  and the date the manuscript was completed (DISS_accept_date). Unless
+  otherwise specified, dates format should be mm/dd/yyyy.
+-->
+<!ELEMENT DISS_dates (DISS_comp_date, DISS_accept_date)>
+<!--
+  DISS_comp_date refers to the year the degree was conferred.
+  Should be provided in yyyy format
+-->
+<!ELEMENT DISS_comp_date (#PCDATA)>
+<!--
+  DISS_accept_date refers to the date the manuscript was completed.
+  Should be provided in mm/dd/yyyy format. If only year is available,
+  default to 01/01/yyyy
+-->
+<!ELEMENT DISS_accept_date (#PCDATA)>
+
+<!--
+  The text description of the degree associated with this dissertation
+  Conforms to ProQuest list of degree acronyms
+-->
+<!ELEMENT DISS_degree (#PCDATA)>
+
+<!-- contact information for the degree-granting institution -->
+<!ELEMENT DISS_institution (DISS_inst_code, DISS_inst_name, (DISS_inst_contact)?, DISS_processing_code?)>
+<!-- DISS_inst_code is a PQ-assigned school code. -->
+<!ELEMENT DISS_inst_code (#PCDATA)>
+<!-- the name of the degree granting institution -->
+<!ELEMENT DISS_inst_name (#PCDATA)>
+<!-- Department name within the institution -->
+<!ELEMENT DISS_inst_contact (#PCDATA)>
+<!--
+  This is the ETD code assigned to the school instruction to be used
+  when initiating the ProQuest editorial process.
+-->
+<!ELEMENT DISS_processing_code (#PCDATA)>
+<!-- the advisor or advisors associated with the graduate work -->
+<!ELEMENT DISS_advisor (DISS_name)>
+<!--
+  committee members, excluding primary advisor, associated with the
+  graduate work.
+-->
+<!ELEMENT DISS_cmte_member (DISS_name)+>
+<!--
+  this block of elements contains information for categorizing the
+  dissertation.
+-->
+<!ELEMENT DISS_categorization ((DISS_category)+, (DISS_keyword)*, DISS_language)>
+<!--
+  DISS_categories are codes corresponding to members of a
+  fixed hierarchy.
+-->
+<!ELEMENT DISS_category (DISS_cat_code, DISS_cat_desc)>
+<!ELEMENT DISS_cat_code (#PCDATA)>
+<!ELEMENT DISS_cat_desc (#PCDATA)>
+<!--
+  DISS_keywords are a set of up to 6 keywords that the author
+  believes describe the graduate work
+-->
+<!ELEMENT DISS_keyword (#PCDATA)>
+<!--
+  DISS_language contains the code for the language in which the graduate
+  work is written. The default is "EN" for English.
+-->
+<!ELEMENT DISS_language (#PCDATA)>
+
+<!-- standard paragraph of text -->
+<!ELEMENT DISS_para (#PCDATA)>
+
+<!-- this block contains the dissertation content -->
+<!ELEMENT DISS_content ((DISS_abstract)?, (DISS_binary)+, (DISS_attachment)*)>
+<!--
+  DISS_abstract contains one or more paragraphs of text abstract from the
+  author
+-->
+<!ELEMENT DISS_abstract (DISS_para)+>
+
+<!--
+  DISS_binary contains the name of a PDF file containing the full
+  dissertation.  Currently only PDF is supported.
+-->
+<!ELEMENT DISS_binary (#PCDATA)>
+<!ATTLIST DISS_binary
+        type (PDF | other) "PDF"
+>
+<!--
+  DISS_attachment contains the name and type of supplemental files for the
+  dissertation.
+-->
+<!ELEMENT DISS_attachment (DISS_file_name, DISS_file_category, DISS_file_descr?)>
+<!ELEMENT DISS_file_name (#PCDATA)>
+<!ELEMENT DISS_file_category (#PCDATA)>
+<!--
+  Valid values for DISS_file_category are:
+  audio
+  code/script
+  image
+  pdf
+  presentation
+  spreadsheet
+  text
+  video
+  webpage
+  data
+  other
+-->
+<!ELEMENT DISS_file_descr (#PCDATA)>
+
+<!--
+  this element is used to show a specific embargo date when embargo_code 4
+  is used in the DISS_submission attributes
+-->
+<!ELEMENT DISS_restriction (DISS_sales_restriction*)>
+<!ELEMENT DISS_sales_restriction EMPTY>
+<!ATTLIST DISS_sales_restriction
+  code (0 | 1) "0"
+  remove CDATA #IMPLIED
+>
+<!--
+  1: Not available for sale until the remove date (or never if remove date
+  is blank)
+
+  the remove attribute is a mm/dd/yyyy date on which the restriction
+  is to be removed
+
+  For any other embargo length (6 months, 1 year, or 2 years),
+  this DISS_restriction element will be empty
+-->
+
+<!-- The date that the agreement was uploaded YYYY-MM-DD HH:MI:SS -->
+<!ELEMENT DISS_version (#PCDATA)>
+<!-- The date that the agreement was accepted YYYY-MM-DD HH:MI:SS -->
+<!ELEMENT DISS_acceptance (#PCDATA)>
+<!--
+  this element shows the author's acceptance of the institution's
+  repository (IR) agreement (if available) as well as the author's
+  access restriction selection the IR (if available)
+-->
+<!ELEMENT DISS_repository (DISS_version, DISS_acceptance, DISS_delayed_release?)>
+<!--
+  This element contains the text of the selected access restriction option.
+  For example "Delay release for 1 year", "Campus use only", "2012-12-21", etc.
+-->
+<!ELEMENT DISS_delayed_release (#PCDATA)>

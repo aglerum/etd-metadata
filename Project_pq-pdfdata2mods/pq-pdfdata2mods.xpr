@@ -10,6 +10,46 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>PDFData/XML/Results/source_pdfdata_COMBINED20222023_results_CORRECTED.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>get pdfdata committee names</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>PDFData/XML/Results/source_pdfdata_2022Su_corrected.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>add URIs to PDF data</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>MODS/split_mods_Islandora/2022Sp_ReDo/Revised_Lord_fsu_0071E_17117.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -2035,26 +2075,6 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>get pdfdata author names</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>PDFData/XML/Results/source_pdfdata_2022Su_corrected.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>add URIs to PDF data</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
