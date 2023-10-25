@@ -28,7 +28,7 @@
 
     <!-- **Global variables** -->
     <!-- Batch Variable -->
-    <xsl:variable name="batch" select="'Summer 2022'"/>
+    <xsl:variable name="batch" select="'2022_Summer'"/>
 
     <!-- These paths change with each semester-->
     <xsl:variable name="pdfdata" select="document('source_pdfdata/source_pdfdata_2022Su_uris.xml')/records/record"/>
