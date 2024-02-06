@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Learning-Based Evaluation Framework for Attack Detection Algorithms in Power Systems</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-2145-1671</mods:nameIdentifier>
+      <mods:namePart type="family">Sayghe</mods:namePart>
+      <mods:namePart type="given">Ali Abdullah</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/oanubi">
+      <mods:namePart type="family">Anubi</mods:namePart>
+      <mods:namePart type="given">Olugbenga Moses</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2003098450">
+      <mods:namePart type="family">Ordóñez</mods:namePart>
+      <mods:namePart type="given">Juan Carlos</mods:namePart>
+      <mods:namePart type="date">1973-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/pamidi">
+      <mods:namePart type="family">Pamidi</mods:namePart>
+      <mods:namePart type="given">Sastry V.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/foo">
+      <mods:namePart type="family">Foo</mods:namePart>
+      <mods:namePart type="given">Simon Y.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Electrical and Computer Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Over the last decade, the number of cyberattacks targeting power systems and causing physical and economic damages has increased rapidly. Among them, False Data Injection Attacks (FDIAs) is a class of cyberattacks against power grid monitoring systems. Adversaries can successfully perform FDIAs in order to manipulate the power system State Estimation (SE) by compromising sensors or modifying system data. SE is an essential process performed by the Energy Management System (EMS) towards estimating unknown state variables based on system redundant measurements and network topology. SE routines include Bad Data Detection (BDD) algorithms to eliminate errors from the acquired measurements, e.g., in case of sensor failures. FDIAs can bypass BDD modules to inject malicious data vectors into a subset of measurements without being detected; and thus, manipulate the results of the SE process. In order to overcome the limitations of traditional residual-based BDD approaches, data-driven solutions based on machine learning algorithms have been widely adopted for detecting malicious manipulation of sensor data due to their fast execution times and accurate results. Machine learning algorithms have been proposed as a promising solution for detecting FDIAs, as they can automatically learn patterns and anomalies in the data that are indicative of an attack. However, these algorithms are also vulnerable to adversarial examples, which are maliciously crafted inputs that are designed to mislead the model into making a wrong decision. In this dissertation, we focus on evaluating the vulnerability of machine learning algorithms against adversarial examples in the context of FDIAs. Specifically, we study six different cases of adversarial attacks, including Adversarial Label Flipped Attack on SVM, Targeted Fast Gradient Sign Method Attack on MLP, Limited-memory BFGS Attack on MLP, Jacobian-based Saliency Attack on MLP, Carlini and Wagner Adversarial Attack, and Zeroth Order Optimization-based Attack. We implement these attacks on a simulated power system, and evaluate the performance of the machine learning algorithms in detecting them. The results of this study provide insights into the strengths and weaknesses of different machine learning algorithms in detecting FDIAs and adversarial examples. We also provide recommendations on how to improve the robustness of these algorithms against adversarial examples. The findings of this research are useful for practitioners in the field of power systems and machine learning, as well as for researchers working on the security of cyber-physical systems. This dissertation is organized into several chapters, starting with background, literature review, objective, adversarial examples, adversarial examples on power systems state estimation, evasion attacks with adversarial deep learning against power system state estimation, adversarial machine learning designs against learning-based attack detection algorithms in power systems and a summary of the work and future work.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Electrical and Computer Engineering in partial fulfillment of the requirements for the degree of Doctor Of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">February 16, 2023.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Olugbenga Moses Anubi, Professor Directing Dissertation; Juan Ordonez, University Representative; Sastry Pamidi, Committee Member; Simon Foo, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85041666">
+      <mods:topic>Electrical engineering</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Sayghe_fsu_0071E_17659</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Electrical and Computer Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

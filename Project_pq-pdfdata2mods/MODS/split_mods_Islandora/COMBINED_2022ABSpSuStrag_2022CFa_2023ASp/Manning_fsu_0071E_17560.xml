@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Investigating the Foraging, Social, and Spatial Ecology of Caribbean Parrotfishes</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-8130-5460</nameIdentifier>
+      <namePart type="family">Manning</namePart>
+      <namePart type="given">Joshua Caraher-Fergusson</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/smccoy">
+      <namePart type="family">McCoy</namePart>
+      <namePart type="given">Sophie J. (Sophie Julia)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/arassweiler">
+      <namePart type="family">Rassweiler</namePart>
+      <namePart type="given">Andrew</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n96096627">
+      <namePart type="family">Elsner</namePart>
+      <namePart type="given">James B.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/miller">
+      <namePart type="family">Miller</namePart>
+      <namePart type="given">Thomas E.</namePart>
+      <namePart type="termsOfAddress">(Professor of Biological Science)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/eduval">
+      <namePart type="family">Duval</namePart>
+      <namePart type="given">Emily</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/eduval">
+      <namePart type="family">DuVal</namePart>
+      <namePart type="given">Emily H.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Biological Science</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (161 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Parrotfishes are nominal herbivores whose grazing is considered an important top-down control on benthic coral reef communities, maintaining cropped reef substrates that are conducive to the settlement and recruitment of coral larvae. As such, parrotfishes are crucial to the maintenance of reef resilience and in facilitating the recovery of reefs to healthy coral-dominated states following disturbance. Parrotfish foraging and its top-down effects on benthic coral reef communities have received substantial attention in the literature, but there are still key knowledge gaps in our understanding of parrotfish foraging ecology. The effects of grazing on benthic reef communities likely depend on how parrotfishes are using space on the reef. In many parrotfish species, large males defend intraspecific territories that include harems of initial phase females. While the social and mating systems of parrotfishes have been described for multiple parrotfish species, the effect of territoriality on space use in parrotfishes remains understudied. Likewise, the influence of spatial interactions on competition and coexistence has not been considered. In Chapter 1, we provide a general introduction to parrotfish ecology, highlighting important gaps in our understanding of parrotfish foraging, social, and spatial ecology. In Chapter 2, we investigate the occurrence of coprophagy (i.e., fecal consumption), in five Caribbean parrotfish species in Bonaire, Caribbean Netherlands. We found that coprophagy occurred frequently in four of the five most common parrotfish species in Bonaire. The majority of the feces consumed by parrotfishes were produced by planktivorous reef fishes, primarily Chromis spp. We used estimates of the carbon, nitrogen, and phosphorous content of Chromis spp. feces from the literature to estimate their relative contribution to parrotfish diets, and determined that the amount of carbon obtained from these feces is equivalent to ~27 % of the carbon intake from their preferred benthic foraging substrates despite representing &lt;5% of their total bites. As such, coprophagy represents an important component of parrotfish diets. Recent studies have also highlighted the importance of microautotrophs, including cyanobacteria, to parrotfish nutrition. Cyanobacteria, including mat-forming benthic cyanobacteria, have increased in abundance on coral reefs globally, including in Bonaire. In Chapter 3, we investigate the consumption of benthic cyanobacterial mats in five Caribbean parrotfish species in Bonaire. We found that benthic cyanobacterial mats were a preferred foraging target for multiple parrotfish species, providing direct evidence in support of the recently proposed hypothesis that cyanobacteria and other microscopic photoautotrophs are the primary nutritional resource for parrotfishes. In Chapter 4, we investigate the effect of social interactions on parrotfish space use using data from concurrent GPS tracking and behavioral observations of five Caribbean parrotfish species in Bonaire. We found species-specific differences in space use among parrotfishes and that terminal phase male home ranges corresponded to largely exclusive, fixed intraspecific territories that were readily defended from intraspecific intruders. In Chapter 5, we build upon this foundation to investigate the potential role of movement and space use in mediating parrotfish coexistence. We quantified spatial interactions between parrotfishes and found that territorial intraspecific males avoided one another by reducing the spatial overlap of their home ranges, presumably a response to strong intraspecific competition. In contrast, interspecific male home ranges overlapped significantly more, suggesting the potential for dynamic interactions in shared space. We investigated dynamic interactions between pairs of simultaneously tracked interspecific males of Sparisoma viride and Scarus vetula to determine whether they move jointly, independently, or avoided one another in shared areas. We found evidence of dynamic avoidance for interspecific males that shared the most space. Movement may, therefore, play a role in limiting interference competition between competing species, particularly when sharing space is unavoidable. In Chapter 6, we assess the presence of dear enemy effects in Sp. viride. Dear enemy effects, in which territory holders interact more aggressively with strangers than with familiar neighbors, may reduce the cost of territoriality by reducing the number of energetically costly and time-consuming contests with intruders. Consistent with the dear enemy phenomenon, we found that male stoplight parrotfish, Sp. viride, interact more aggressively with non-territorial floaters than with neighbors. Aggressive interactions with territory holders also appear to drive movement and space use patterns in non-territorial males, relegating them to the boundaries between territories. Territoriality can regulate animal populations by setting the upper limits on population densities and non-territorial floaters play an important role in buffering population changes. Additionally, the constrained movement and space use that we report in the previous 3 chapters may have important implications for the functional roles of parrotfishes on coral reefs. Constraints on movement and space use result in spatially constrained grazing by parrotfishes, and may drive spatial heterogeneity in the structure and composition of benthic coral reef communities. Finally, in Chapter 7, we broadly discuss the importance of studying movement and space use to elucidate the effects of climate change on reef fish communities, including a discussion of trophic feedbacks between benthic and fish communities and the potential effects of climate change on spatial interactions and coexistence in reef fishes. As climate change continues to alter the composition of benthic communities on coral reefs, reef fish space use, which is often related to resource abundance, will also change. Altered patterns of space use may influence spatial interactions and increase competition for reduced resources (e.g., space and food), thus influencing species interactions and the composition of reef fish communities. Reef fish movement and space use may also interact with changes in benthic communities following disturbance to alter recovery trajectories. As such, baseline studies of reef fish space use, and the importance of movement and space use in mediating community structure will be important for predicting and understanding the effects of climate change on coral reefs.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Biological Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">October 28, 2022.</note>
+   <note  displayLabel="Keywords">coral reefs, home range, movement, parrotfish, space use, spatial ecology</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Sophie J. McCoy, Professor Co-Directing Dissertation; Andrew Rassweiler, Professor Co-Directing Dissertation; James B. Elsner, University Representative; Thomas E. Miller, Committee Member; Emily H. DuVal, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85040752">
+      <topic>Ecology</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85014203">
+      <topic>Biology</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85149983">
+      <topic>Zoology</topic>
+   </subject>
+   <identifier  type="IID">Manning_fsu_0071E_17560</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Biological Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Quantum Critical Regimes around the Metal-Insulator Transition</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-9600-5986</nameIdentifier>
+      <namePart type="family">Tan</namePart>
+      <namePart type="given">Yuting</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/nb2012017661">
+      <namePart type="family">Dobrosavljević</namePart>
+      <namePart type="given">Vladimir</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2008078041">
+      <namePart type="family">Albrecht-Schmitt</namePart>
+      <namePart type="given">Thomas E.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2006081590">
+      <namePart type="family">Hill</namePart>
+      <namePart type="given">S. (Stephen Olof)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2005010557">
+      <namePart type="family">Berg</namePart>
+      <namePart type="given">Bernd A.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/hchanglani">
+      <namePart type="family">Changlani</namePart>
+      <namePart type="given">Hitesh Jaiprakash</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Physics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Metal-insulator transitions (MITs) remain one of the unresolved science problems of condensed-matter physics, which are rather general and of fundamental importance. In the vicinity of the MITs, the behavior is found to be unconventional and exotic. This complexity makes it difficult to recognize the dominant degrees of freedom, resulting in a plethora of theoretical viewpoints based on very different ideas. First we study the transport behavior and the dielectric response near Mott Metal-Insulator transition (MIT) using the Iterative Perturbation Theory (IPT), which is exact at the atomic limit at half-filling, for the single-band Hubbard model supplemented by percolation theory. We successfully interpret the experimental observation of a colossal peak of the dielectric function near the Mott MIT in organic material $\kappa\text{-(BEDT-TTF)}_2\text{Cu}_2\text{(CN)}_3$. Our results suggest the diverging feature of dielectric response comes from percolation effects near a first-order MIT, where metallic and insulator domains present simultaneously as long as the materials have defects or impurities. Our findings suggest a similar 'dielectric catastrophe' in many other correlated materials and can explain previous observations that were assigned to multiferroicity or ferroelectricity. Second we summarize both experimental and theoretical observations of the criticality around the Mott transition, in three types of systems: 2-dimensional electron gas (2DEG) in Si-MOSFE, Mott organic material ($\kappa\text{-(BEDT-TTF)}_2\text{Cu}_2\text{(CN)}_3$), and transition metal dichalcogenide (TMD) moire bilayer $\text{MoTe}_2/\text{WSe}_2$. Particularly, we find robust resistivity maxima are clearly seen in all these materials. We then use dynamical mean field theory (DMFT) and 'hybrid' DMFT correspondingly to show that dielectric response can be used to identify the origin of these resistivity maxima. We find that near the MIT, it corresponds to the percolation effect within the (spatially inhomogeneous) metal-insulator phase coexistence region, where a colossal enhancement of the dielectric response has been found. Deep in the metallic phase, it signals the thermal destruction of coherent quasiparticles due to strong correlation effects, and a dramatic drop and a change of sign in the dielectric constant would be found. Third we study the disorder dominated MIT in TMD moiré bilayer. In this material, a long-range geometric moiré pattern emerges when two atomically thin materials are misaligned or have a lattice mismatch. This drastically reduces the electronic kinetic energy, paving the way for new strongly correlated phases. We proposed a minimal theoretical model describing the interplay of interactions and disorder, which is solved at DMFT + coherent potential approximation (CPA) level. The results capture most experimental trends at almost a perfect level. We investigate the quantum criticality near MIT with a fully occupied flat band (f=2), which is found to be in a disorder-dominated regime. Finally, we consider long-range Coulomb interaction in low band filling cases, where one expects Wigner crystallization to occur. To investigate the nontrivial electronic phases appearing away from commensurate fillings, we first used the spinless Hartree method to calculate the total free energy, and then we used DMFT and Kubo formula to obtain the transport behavior. We find that, for most fillings, an amorphous charge-ordered metallic state – the electron slush – appears in strongly correlated TMD hetero-bilayers. Our results suggest performing transport and Scanning Tunneling Microscopy (STM) experiments on TMD hetero-bilayers to study the interplay between doping a Wigner-Mott insulator and amorphous charge order.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Physics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">April 10, 2023.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Vladimir Dobrosavljevi´c, Professor Directing Dissertation; Thomas E. Albrecht-Schmitt, University Representative; Stephen Hill, Committee Member; Bernd Berg, Committee Member; Hitesh Changlani, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85030765">
+      <topic>Condensed matter</topic>
+   </subject>
+   <identifier  type="IID">Tan_fsu_0071E_17905</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Physics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

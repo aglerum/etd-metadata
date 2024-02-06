@@ -30,16 +30,16 @@
 
     <!-- **Global variables** -->
     <!-- Batch Variable -->
-    <xsl:variable name="batch" select="'2022Su'"/>
+    <xsl:variable name="batch" select="'2022Su.xml'"/>
 
     <!-- These paths change with each semester-->
     <!-- Be sure and also change the semester variable in your 856 field below -->
     <xsl:variable name="pdfdata"
-        select="document('source_pdfdata/source_pdfdata_2022Su_uris.xml')/records/record"/>
+        select="document('source_pdfdata/COMBINED_2022ABSpSuStrag_2022CFa_2023ASp_uris.xml')/records/record"/>
     <xsl:variable name="committee"
-        select="document('tables/ETD-NAF_mads_20230126.xml')/mads:madsCollection/mads:mads/mads:authority"/>
+        select="document('tables/ETD-NAF_mads_20231120.xml')/mads:madsCollection/mads:mads/mads:authority"/>
     <xsl:variable name="authors"
-        select="document('tables/authors_2022Su.xml')/authors/name"/>
+        select="document('tables/authors_COMBINED_2022ABSpSuStrag_2022CFa_2023ASp.xml')/authors/name"/>
 
     <!-- These paths refer to data tables -->
     <xsl:variable name="PQ-FSU-dept"
@@ -510,7 +510,7 @@
                                     />
                                 </xsl:variable>
                                 <xsl:value-of
-                                    select="concat('https://purl.lib.fsu.edu/diginole/', $semester, $purl_file)"
+                                    select="concat('https://purl.lib.fsu.edu/diginole/',$purl_file)"
                                 />
                             </xsl:for-each>
                         </marc:subfield>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Online Sojourner Communities</mods:title>
+      <mods:subTitle>What Can Sojourners Learn from Them and Do They Aid Cultural Adapation?</mods:subTitle>
+   </mods:titleInfo>
+   <mods:titleInfo type="alternative" lang="eng">
+      <mods:title>Online Sojourner Communities</mods:title>
+      <mods:subTitle>What Can Sojourners Learn from Them and Do They Aid Cultural Adaptation?</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-0551-760X</mods:nameIdentifier>
+      <mods:namePart type="family">Screws</mods:namePart>
+      <mods:namePart type="given">Bruce E.</mods:namePart>
+      <mods:namePart type="termsOfAddress">Jr.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2012011678">
+      <mods:namePart type="family">Dennen</mods:namePart>
+      <mods:namePart type="given">Vanessa P.</mods:namePart>
+      <mods:namePart type="date">1970-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2007018063">
+      <mods:namePart type="family">Marty</mods:namePart>
+      <mods:namePart type="given">Paul F.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2003122703">
+      <mods:namePart type="family">Klein</mods:namePart>
+      <mods:namePart type="given">James D.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/eyoon">
+      <mods:namePart type="family">Yoon</mods:namePart>
+      <mods:namePart type="given">Eunhui</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Education</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Educational Psychology and Learning Systems</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (103 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Sojourners, people who live outside their home countries, experience inevitable hardships when they separate from their home countries and live in new cultures. These hardships are collectively known as acculturative stress (Spradley &amp; Phillips, 1972). To deal with acculturative stress, some sojourners seek information and social support from other sojourners in online sojourner communities (Oh &amp; Butler, 2019; Ong &amp; Ward, 2005). Sojourners have different knowledge needs throughout their sojourns, but it is unclear much they learn from participating in online sojourner communities and how useful this information is (Yoon &amp; Chung, 2017). This study explores the information that sojourners need to adapt to life in their host countries during each stage of their sojourners and how effectively information they learn through participating in online sojourner communities. Though some researchers have focused on how sojourners benefit from online sojourner community participation, other researchers have had concerns. Researchers have found that long-term, extensive contact with other sojourners from the same country, termed co-nationals, is associated with poor cultural adaptation to the host country (Kim, 2001; Lim &amp; Pham, 2016). In a meta-analysis of 76 studies about international students, Bender et al. (2019) found that "only support from mixed sources (i.e., not distinguishing between internationals, host, or co-nationals) is associated with a stronger effect of social support than support from co-nationals or fellow international students (compared with support from host sources)" (p. 827). Lim &amp; Pham (2016) argued that sojourners could become so invested in online sojourner communities and their families in their home country that they have no free time to explore the host country and its culture. However, another study suggested that long-term contact with co-nationals could benefit sojourners' cultural adaptation (Cao &amp; Zhang, 2012). This study explored the relationship between online sojourner community usage and cross-cultural adaptation. Additionally, it explored the benefits and drawbacks of participating in online sojourner communities. A convergent mixed methods research design using surveys and interviews guided this study. The surveys had qualitative questions, two quantitative psychological scales to assess cross-cultural adaptation, and one quantitative scale to assess Facebook usage. In keeping with Creswell &amp; Creswell (2018)'s research methods, the qualitative interviews provided depth and explanations for quantitative findings from the survey. 160 sojourners currently living in South Korea completed the survey. Eight participants participated in the qualitative interviews through Zoom to investigate what sojourners gain from participating in an online sojourner community. This study found 25 common topics that sojourners must learn to adapt successfully to life in their host countries. As Yoon &amp; Chung (2017) found, these needs varied by their sojourning phases. During the settling stage, Korean language learning/translation and banking/finance/insurance are followed closely by Korean rules/regulations/law, healthcare, and employment/work-related issues. During the established stage, overall reported needs increased by 19%. Most needs remained steady or had modest increases between phases, with few exceptions. Needs like automotive service/repair, childcare, and housing, had large increases between phases. Only one need had a sizable decrease between phases; Korean language learning/translation declined by 10% between phases. Participants reported the topics they learned about through participating in online sojourner communities. The most common topics they learned during their established phases were visa-related issues, Korean rules/regulations/law, employment/work-related issues, and groceries/dining. Participants also ranked the usefulness of the topics they learned about. The most valuable things they learned were employment/work-related issues, visa-related issues, childcare, groceries/dining, and Korean rules/regulations/law. Though childcare was a less common need, those with children found the information especially useful. Despite the information that sojourners exchange, there was no significant relationship between either of Demes &amp; Geeraert (2014)'s cross-cultural adaptation scales and Facebook Sojourner Community Intensity Scale, an adaptation of Ellison et al. (2007)'s Facebook Intensity Scale. This study uncovered additional positives about participating in online sojourner communities. The communities provide socio-emotional support through fostering friendship, commiseration, and familial relationship support. Sojourners often organize and help foster offline events and can help sojourners establish connections to the host country. Sojourners generally regard the information in online sojourner communities as more timely, accurate, and accessible than official online sources. The communities also helped working sojourners with professional development and special lifestyle needs. However, there are also considerable drawbacks to participating in online sojourner communities. Negativity is a constant problem in many communities, discouraging some sojourners from participating. Inactive communities were more prone to inaccurate and outdated information. Tempers can flare, and arguments can occur in some communities. Repetitive low-effort questions can be a source of annoyance for long-established sojourners.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Educational Psychology and Learning Systems in partial fulfillment of the requirements for the degree of Doctor of Education.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 10, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">cross-cultural adaptation, expat, Facebook groups, online sojourner communities, sojourners, South Korea</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Vanessa P. Dennen, Professor Directing Dissertation; Paul Marty, University Representative; James Klein, Committee Member; Eunhui Yoon, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85041150">
+      <mods:topic>Educational technology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">ScrewsJr_fsu_0071E_17576</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Education</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Educational Psychology and Learning Systems</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

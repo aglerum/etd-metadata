@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Dynamics of a Cellular Automata Model and Its Possible Application to Replicating Convective Behavior</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0001-2490-4560</nameIdentifier>
+      <namePart type="family">Wilder</namePart>
+      <namePart type="given">Hayden</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/jchagnon">
+      <namePart type="family">Chagnon</namePart>
+      <namePart type="given">Jeffrey M.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing thesis</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2002071189">
+      <namePart type="family">Misra</namePart>
+      <namePart type="given">Vasubandhu</namePart>
+      <namePart type="date">1970-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/psura">
+      <namePart type="family">Sura</namePart>
+      <namePart type="given">Philip</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Earth, Ocean, and Atmospheric Science</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Moist convection in the tropics often evolves from randomly scattered cells to organized structures varying across different spatial and temporal scales such as mesoscale convective systems (MCS), easterly waves, or the MJO. Scientists have begun implementing cellular automata (CA) and Conway's Game of Life in modeling convection because of its similar evolution from a random state to a self-organizes state that tropical convection undergoes. Rules from the Game of Life are implemented in a CA model coupled to an energy reservoir in which an event forms if the energy reservoir in a grid cell exceeds a designated minimum threshold similar to CAPE. Events then consumes the background energy, and the instability once again builds up from the designated generation rate. This project's main task is assessing the quantitative aspects such as number of events, environment instability, periodicity, and the qualitative behavior of events, visual and metric spatial organization of events in equilibirum, by experimenting with model parameters: instability generation, environment adjustment, neighboring cell influence, and cell persistence. The secondary task of the project is to evaluate the skill of the model to compare and contrast events in the CA model to idealized tropical convection in radiative-convective equilibirum (RCE ). Individually, energy generation and environment adjustment were found to have positive and negative contribution to quantity of events, and all four parameters affected environment instability in the model; multi-parameter sensitivity showed non-linear characteristics for events and instability. High rates of environment adjustment, low rates of instability generation, and moderate values of neighboring cell influence had the greatest qualitative response to event organization. This model was able to replicate some aspects of atmospheric convective behavior and acquire spatial organization, but the degree of organization and change with organization in time did not match the behavior of atmospheric convection.</abstract>
+   <note  displayLabel="Submitted Note">A Thesis submitted to the Department of Earth, Ocean, and Atmospheric Science in partial fulfillment of the requirements for the degree of Master of Science.</note>
+   <note  displayLabel="Date of Defense">March 29, 2023.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Jeffrey Chagnon, Professor Directing Thesis; Vasubandhu Misra, Committee Member; Philip Sura, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85084334">
+      <topic>Meteorology</topic>
+   </subject>
+   <identifier  type="IID">Wilder_fsu_0071N_17846</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

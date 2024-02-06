@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Exploring Student Perspectives of Stress in English Language Arts Classroom Activities</mods:title>
+      <mods:subTitle>A Quantitative Exploratory Case Study</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0009-8595-4172</mods:nameIdentifier>
+      <mods:namePart type="family">Rawlin</mods:namePart>
+      <mods:namePart type="given">Brian D.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2002112925">
+      <mods:namePart type="family">Milligan</mods:namePart>
+      <mods:namePart type="given">Jeffrey Ayala</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jpmyers">
+      <mods:namePart type="family">Myers</mods:namePart>
+      <mods:namePart type="given">John P. (John Patrick)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n97036418">
+      <mods:namePart type="family">Herrington</mods:namePart>
+      <mods:namePart type="given">Carolyn D.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/szuilkowski">
+      <mods:namePart type="family">Zuilkowski</mods:namePart>
+      <mods:namePart type="given">Stephanie Simmons</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Education</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Education</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The focus on decreasing student stress in academic settings is an international concern. With insight into student perspectives of what creates stress for them in an academic setting, teachers, administrators, and county personnel can better design classroom activities with the intention of lowering classroom stress. Because professional environments incorporate both cooperative teams as well as competition among employees, students are required to have experience with both to prepare them for future success. Since some students may feel more stress in a competitive classroom activity and others may feel more stress when working with peers, understanding the student perspective of how they perceive each type of environment as stressful is beneficial for dictation instructional methods. This paper will describe an exploratory study of the student perspective of both competitive and cooperative activities in English Language Arts (ELA) classrooms in which students present their perspective of the stress level for each of ten ELA assignments. The group participating in the study is those students who were members of the Northview High School senior class of 2023. Of 418 seniors, 201 participants completed a survey which asked for value judgments of ten ELA assignments as to how competitive or cooperative they were as well as how much stress students felt, based on a Likert scale. This survey also included open-ended questions about ethnicity, country of origin, gender, ELA course level, and Grade Point Average (GPA). Analysis of the data was performed using both SPSS, by IBM and STATA. The analysis reported the exploration of how each participant perceived each of the ten ELA activities to be cooperative or competitive, including the mean for each. Analysis continued with a similar analysis of how participants perceived stress associated with each activity. Next, analysis compared the cooperative/competitive response to the stress response to observe correlations. Then the analysis explored how the personal characteristics, described above as open questions on the survey, may have correlated to the judgements. Finally, a previously existing competitive/cooperative survey tool was implemented to explore each participant's natural cooperative/competitive nature and gauge how this may have influenced their responses. After analysis, specific student characteristics were found to correlate to stress levels, both for specific ELA activities, as well as for the mean stress level participants reported for all ELA activities, combined. The benefits of the exploratory study will be primarily to inform instruction and pedagogical choice. Teachers will be intentionally select ELA activities, which grading category would most help decrease student stress, and to identify students who may feel greater stress than other students so they can receive support.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Education in partial fulfillment of the requirements for the degree of Doctor of Education.</mods:note>
+   <mods:note displayLabel="Date of Defense">February 28, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">competition, cooperation, high-achieving, stress</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Jeffrey A. Milligan, Professor Directing Dissertation; John Myers, University Representative; Carolyn Herrington, Committee Member; Stephanie Zuilkowski, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh92001254">
+      <mods:topic>Educational leadership</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Rawlin_fsu_0071E_17730</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Education</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Educational Leadership and Policy Studies</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

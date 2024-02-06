@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Alternative Tests and Measures for between-Study Heterogeneity and Time-Lag Bias in Meta-Analysis</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-0559-1682</nameIdentifier>
+      <namePart type="family">Yu</namePart>
+      <namePart type="given">Zhiyuan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="viaf"
+         authorityURI="http://viaf.org/viaf/"
+         valueURI="http://viaf.org/viaf/14146217689609141312">
+      <namePart type="family">Niu</namePart>
+      <namePart type="given">Xufeng</namePart>
+      <namePart type="date">1954-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2013073385">
+      <namePart type="family">Huffer</namePart>
+      <namePart type="given">Fred W. (Fred William)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/chuang7">
+      <namePart type="family">Huang</namePart>
+      <namePart type="given">Chao</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Statistics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (50 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Meta-analysis is a widely used tool to combine research findings from multiple studies in many disciplines. In this thesis we develop novel methods to deal with two critical issues in systematic reviews and meta-analyses, such as assessing and testing between-study inconsistency and time-lag bias. The first part of this thesis concentrates on addressing the inconsistency between different studies' results. Such inconsistency could arise due to several factors, such as heterogeneity in baseline characteristics of individual studies' populations, different methods applied by research teams, and outlying effects of a few studies. In the current literature, the Q and I^2 statistics are commonly used to test for and quantify the between-study heterogeneity, respectively, but they are not powerful in many cases, particularly when the number of studies is small. This article propose alternative Q-like statistics for assessing inconsistency. We also propose a hybrid test to utilize the information and strength of all tests, and it is found to have relatively high power across multiple settings. We use simulated and real data to evaluate the performance of tests. The second part of the thesis focuses on addressing the time-lag bias of studies. Time-lag bias occurs when studies with positive results are more likely to publish earlier than non-significant findings. The current literature uses the regression-based model to test the time-lag bias, but it is not powerful if the relationship between effect sizes and published time is not linear. This article proposes alternative measures and tests for assessing time-lag bias. Similar to the first part, We also propose a hybrid test to utilize the information and strength of all tests, and it is found to have relatively high power across multiple settings.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">November 14, 2022.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Xufeng Niu, Professor Directing Dissertation; Hongyu Miao, University Representative; Fred Huffer, Committee Member; Chao Huang, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <topic>Statistics</topic>
+   </subject>
+   <identifier  type="IID">Yu_fsu_0071E_17596</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

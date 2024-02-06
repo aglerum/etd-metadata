@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Incorporating out-of-Sample Error Directly into Bayesian Hierarchical Models through Constraints and Subsampling</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0005-7421-6650</nameIdentifier>
+      <namePart type="family">Zong</namePart>
+      <namePart type="given">Qingying</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/jrbradley">
+      <namePart type="family">Bradley</namePart>
+      <namePart type="given">Jonathan R.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing thesis</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2009143870">
+      <namePart type="family">Speer</namePart>
+      <namePart type="given">Kevin G. (Kevin George)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/qmai">
+      <namePart type="family">Mai</namePart>
+      <namePart type="given">Qing</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/nr93035581">
+      <namePart type="family">Liu</namePart>
+      <namePart type="given">Rongjie</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Statistics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >The goal of this dissertation is to improve the predictive performance of a Bayesian hierarchicalstatistical model by incorporating an estimate of the expected out-of-sample error and extending this method for big data. In Chapter 2, we view the problem of prediction of a latent real-valued mean as a model selection problem, where the candidate models are all values in the parameter space for the mean of the data. Specifically, we select a subset of our Bayesian hierarchical statistical model's parameter space with high predictive performance (as measured by a criterion). Explicitly, we truncate the joint support of the data and the parameter space of a given Bayesian hierarchical model to only include small values of the covariance penalized error (CPE) criterion. The CPE is a general expression that contains several information criteria as special cases. Simulation results show that as long as the truncated set does not have near-zero probability, we tend to obtain a lower mean squared error than Bayesian model averaging. Additional theoretical results are provided for the foundation for these observations. We apply our approach to a dataset consisting of American Community Survey (ACS) period estimates to illustrate that this perspective can lead to improvements of a single model. In Chapter 3, we use cross-validation as an estimate for CPE. Cross-validation is particularly useful in the big data context because subsampling the data into training and hold-out data naturally reduces the size of the training dataset. From this perspective, we propose a statistical model using the recently introduced data subset model and subset model formulation. Several theoretical results of our truncated data subset model have been presented. Additionally, we implement our approach to a CO2 dataset and compare the performance with different spatial predictors. Chapter 4 contains a discussion</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">April 10, 2023.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Jonathan R. Bradley, Professor Directing Thesis; Kevin Speer, University Representative; Qing Mai, Committee Member; Rongjie Liu, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <topic>Statistics</topic>
+   </subject>
+   <identifier  type="IID">Zong_fsu_0071E_17792</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

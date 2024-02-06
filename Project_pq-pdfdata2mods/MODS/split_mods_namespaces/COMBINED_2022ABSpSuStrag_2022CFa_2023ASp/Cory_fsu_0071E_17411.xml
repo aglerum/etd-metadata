@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Anaerobic Decomposition in a Subarctic Swedish Peatland</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-5525-7119</mods:nameIdentifier>
+      <mods:namePart type="family">Cory</mods:namePart>
+      <mods:namePart type="given">Alexandra</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n89605460">
+      <mods:namePart type="family">Chanton</mods:namePart>
+      <mods:namePart type="given">Jeffrey P.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2006073243">
+      <mods:namePart type="family">Southerland</mods:namePart>
+      <mods:namePart type="given">Sherry A.</mods:namePart>
+      <mods:namePart type="date">1962-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2016068194">
+      <mods:namePart type="family">Spencer</mods:namePart>
+      <mods:namePart type="given">Robert G. M.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/wlanding">
+      <mods:namePart type="family">Landing</mods:namePart>
+      <mods:namePart type="given">William M.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Earth, Ocean, and Atmospheric Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (176 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>On a global scale, peatlands contain 530 ± 160 Pg carbon, which is equivalent to &gt;50% of the atmospheric pool. The fate of this enormous C reservoir could significantly impact the climate trajectory. Yet, two puzzling phenomena persist regarding C cycling dynamics in Sphagnum-rich peatlands ("bogs"): (1) their extraordinarily slow C mineralization rates; and (2) their high (relative to predicted) CO2:CH4 production ratios. This dissertation investigates three mechanisms thought to contribute to one or both phenomena. It also investigates the effects of temperature on C cycling dynamics within peat bogs and assesses the ability for incubation experiments to predict peatland climate responses. The first mechanism that we investigated involves interactions between phenolic compounds and enzymes. We hypothesized that these interactions would significantly limit C mineralization rates in bogs given that (1) these interactions cause enzyme immobilization and decreased C mineralization rates; and (2) bogs are postulated to contain an abundance of phenolics. The second mechanism that we investigated, "non-enzymatic browning", consists of a series of abiotic reactions involving a metabolite of Sphagnum spp. (galacturonic acid). Given its propensity to expel CO2 and limit bio-available nitrogen, we hypothesized that non-enzymatic browning would elevate CO2:CH4 production ratios and suppress overall decomposition rates in peat bogs. The third mechanism that we investigated, "organic matter hydrogenation", involves the addition of H2 (a biproduct of fermentation) to organic matter. As organic matter hydrogenation has a higher energy yield than methanogenesis (which also uses H2), we hypothesized that this mechanism would elevate bog CO2:CH4 production ratios (via methane inhibition). Using a combination of incubation experiments and field measurements, we determined that the extraordinarily slow C mineralization rates associated with bogs are influenced by both phenolic-enzyme interactions (mechanism 1)—which inhibited CO2 and CH4 production rates by 62 ± 16% and 54 ± 19, respectively—and non-enzymatic browning (mechanism 2)—which caused changes to the dissolved organic matter pool consistent with bioavailable N sequestration. We determined that non-enzymatic browning could also account for the high (relative to other peatland habitats) CO2:CH4 production ratios frequently observed in bogs—as evidenced by our observation that abiotic bog incubations with minimal hydrolytic enzyme content yielded CO2 production rates equivalent to ~8% of control treatments (bioactive) at 23℃. We demonstrated a positive and significant correlation between inferred indicators of organic matter hydrogenation (mechanism 3; based on analyses of dissolved organic carbon) and CO2:CH4 production ratios. While this finding is consistent with the hypothesis that organic matter hydrogenation elevates CO2:CH4 production ratios in bog peat, further research regarding our methodology is necessary for this hypothesis to be thoroughly assessed. Using a series of temperature-controlled incubation experiments, we determined that production rates of CO2 and CH4 increase exponentially with temperature across a range of 1-26°C. Combining these results with seven years of field CH4 flux measurements, we assessed the extent to which soil temperature, alongside basic field data (water table position and permafrost depth), could accurately model CH4 emissions. The model produced yearly estimates that were within 5-60% of all measured values, or 5-34% when excluding two outlier years. These findings suggests that (1) three variables currently undergoing significant change—temperature, water table position, and permafrost depth— have a collectively significant effect on methane fluxes; (2) incubations can serve as useful tools for understanding this interplay; and (3) understanding the impact of additional variables (other than temperature, water table position, and permafrost depth) on methane fluxes could lead to improved model performance.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Earth, Ocean, and Atmospheric Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 14, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">anaerobic, CO2, decomposition, methane, peatland, permafrost</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Jeffrey P. Chanton, Professor Directing Dissertation; Sherry A. Southerland, University Representative; Robert G. M. Spencer, Committee Member; Rachel M. Wilson, Committee Member; William M. Landing, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85022928">
+      <mods:topic>Chemical oceanography</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Cory_fsu_0071E_17411</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

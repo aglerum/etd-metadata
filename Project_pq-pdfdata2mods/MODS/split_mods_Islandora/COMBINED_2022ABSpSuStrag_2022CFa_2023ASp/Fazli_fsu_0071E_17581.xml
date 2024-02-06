@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Modeling and Multi-Time Scale Analysis of Endocrine Cells</title>
+      <subTitle>from Single Cell Excitability to Network Synchronization</subTitle>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-3458-592X</nameIdentifier>
+      <namePart type="family">Fazli</namePart>
+      <namePart type="given">Mehran</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2005086590">
+      <namePart type="family">Bertram</namePart>
+      <namePart type="given">R. (Richard)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/steinbck">
+      <namePart type="family">Steinbock</namePart>
+      <namePart type="given">Oliver</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/bkaramched">
+      <namePart type="family">Karamched</namePart>
+      <namePart type="given">Bhargav Ram</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/nr2003034196">
+      <namePart type="family">Cogan</namePart>
+      <namePart type="given">Nicholas G.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/tneedham">
+      <namePart type="family">Needham</namePart>
+      <namePart type="given">Thomas</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Mathematics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (151 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >The endocrine system manages the body's organ function and growth in harmony with each other and the environment. This system is a network of glands that control themselves and other organs via hormones. Building a healthy hormone secretion pattern begins at the cellular level, where the calcium dynamics in coordination with the membrane potential dynamic plays a key role. The elevated calcium concentration promotes hormone secretion, which is strongly correlated with the rate of bursting behavior compared to spiking in membrane electrical activity of endocrine cells. Many studies have focused on deterministic modeling of electrical activity in the endocrine cells such as pancreatic β-cells, pituitary lactotroph cells, and pituitary corticotroph cells. But the stochastic nature of excitable endocrine cells, like other biological systems, is the missing factor in a fully deterministic model. In other words, stochasticity cause behaviors that are not predictable in the deterministic models. Therefore, throughout our work, we utilize stochasticity in the modeling to explain electrical behavior and as a source for the heterogeneity in empirical studies. In the first project, we show the phantom bursting mechanism in the modeling of isolated β-cell is capable of producing slow bursting even if noise is present. In the second project, in collaboration with biomedical researchers at the University of Edinburgh, we demonstrate the effect of stochastic BK ion channels on tiny corticotroph cells, especially its vital role in stress hormone secretion from cells of chronically stressed animals. The other novelty of our work is the use of fast/slow analysis to understand the mechanism of these stochastic behaviors from the dynamical systems point of view. This method uncovers both the bifurcation structure of the fast subsystem of stable and unstable equilibria and also demonstrates that the bifurcation of the invariant manifold and the heteroclinic orbits are essential to reveal the bursting mechanism of a hybrid model with the stochastic variable. In the final project, we used tools from network theory to study a network of electrically coupled endocrine cells where secretion accumulation depends on their synchronized activity. Unlike β-cells in islets with a uniform network, pituitary endocrine cells are organized in a scale-free network. In this novel modeling study of the lactotroph cell network, we demonstrate that the degree distribution of the functional network, where links between nodes represent synchronized cells, is related to its betweenness centrality density in the structural network. We also find that structural hubs (cells with extensive coupling to other cells) are typically not functional hubs (cells synchronized with many other cells). Overall, the dissertation describes research on endocrine cell electrical activity at both the single-cell and network levels.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Mathematics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">November 9, 2022.</note>
+   <note  displayLabel="Keywords">Electrical bursting, Endocrine cells, Fast/slow analysis, Multi-time scale dynamical system, Network synchronization, Stochastic ion channel</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Richard Bertram, Professor Directing Dissertation; Oliver Steinbock, University Representative; Bhargav Karamched, Committee Member; Nick Cogan, Committee Member; Thomas Needham, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85082139">
+      <topic>Mathematics</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh93002523">
+      <topic>Applied mathematics</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85043068">
+      <topic>Endocrinology</topic>
+   </subject>
+   <identifier  type="IID">Fazli_fsu_0071E_17581</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Mathematics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

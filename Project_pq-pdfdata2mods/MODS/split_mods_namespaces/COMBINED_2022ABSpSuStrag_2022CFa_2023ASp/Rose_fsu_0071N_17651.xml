@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Investigating the Role of Iron and Light on Ecophysiology and Photophysiology in Southern Ocean Phytoplankton</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-7410-7554</mods:nameIdentifier>
+      <mods:namePart type="family">Rose</mods:namePart>
+      <mods:namePart type="given">Jared Monsein</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/skranz">
+      <mods:namePart type="family">Kranz</mods:namePart>
+      <mods:namePart type="given">Sven Alexander</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mstukel">
+      <mods:namePart type="family">Stukel</mods:namePart>
+      <mods:namePart type="given">Michael R.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2006015588">
+      <mods:namePart type="family">Knapp</mods:namePart>
+      <mods:namePart type="given">Angela Noel</mods:namePart>
+      <mods:namePart type="date">1976-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Earth, Ocean, and Atmospheric Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The Southern Ocean (SO) is one of the most productive oceanic regions in the world. Despite a high abundance of macronutrients such as nitrate and phosphorus, some areas have a surprisingly low amount of phytoplankton biomass. These areas are known as high nutrient low chlorophyll regions (HNLC) and are often limited by the micronutrient iron (Fe). The influx of Fe to the surface Southern Ocean has varied over geological timescales and is expected to change further in a future climate. Additionally, climate change will alter surface ocean mixing depth which can constrain phytoplankton productivity. To identify and understand the effects of Fe and light availability on phytoplankton, this study assessed ecophysiological and photophysiological responses of two SO phytoplankton species: the haptophyte Emiliania huxleyi (E. hux.) and the diatom Fragilariopsis cylindrus (F. cyl.). The species were grown under saturating and sub-saturating Fe conditions and different light conditions. A dynamic light treatment mimicked natural light variability in different mixed layer depths, inducing either light limitation, saturation and/or short-term high light stress while a continuous light environment for F. cyl. also simulated conditions in the Antarctic higher latitude summer. In all treatments, ecophysiological parameters such as growth, elemental ratios, and cellular chlorophyll a were measured. Photophysiology was examined using Fast Repetition Rate fluorometry (FRRf) over a diurnal cycle. For both species, the results indicated a clear reduction in chlorophyll a, growth rate and cellular POC under Fe limitation with weaker effects attributed to light intensity. Fe limitation reduced photochemical efficiency (photosynthetic quantum yield (Fv/Fm)) and resulted in a reduced reoxidation rate of the photosystem (τ). Light affected photophysiological parameters mainly during peak light in the dynamic lighting environment. Irrespective of Fe availability, light adaptation strategies differed between species. E.hux primarily adjusted its photosystem to become less effective in capturing photons under high light (lower low light utilization (α)) while F. cyl primarily adapted to high light by increasing non-photochemical quenching (NPQ) during peak light in the dynamic lighting acclimation. Data on E. hux. productivity and photophysiology indicate that this haptophyte has a high light tolerance, even when Fe depleted, and is capable of acclimating to the full range of environmental stressors applied. F. cyl was less effective at adapting to the Fe-limited conditions. Here a major decrease in productivity was observed under Fe limitation. The overall results of this experiment highlight that Fe is the major driver in changes to cellular energetics with light being a secondary influence.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Earth, Ocean, and Atmospheric Science in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">December 7, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">Photophysiology, Phytoplankton</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Sven Kranz, Professor Directing Thesis; Mike Stukel, Committee Member; Angela Knapp, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85022928">
+      <mods:topic>Chemical oceanography</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Rose_fsu_0071N_17651</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

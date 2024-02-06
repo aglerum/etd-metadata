@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Characterization and Optimization of the I/O Software Stack in Complex Applications and Workflows</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-2602-9755</nameIdentifier>
+      <namePart type="family">Chowdhury</namePart>
+      <namePart type="given">Fahim Tahmid</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/yuw">
+      <namePart type="family">Yu</namePart>
+      <namePart type="given">Weikuan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/yang">
+      <namePart type="family">Yang</namePart>
+      <namePart type="given">Wei</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/whalley">
+      <namePart type="family">Whalley</namePart>
+      <namePart type="given">David B.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mascagni">
+      <namePart type="family">Mascagni</namePart>
+      <namePart type="given">Michael</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/nf-kmohror">
+      <namePart type="family">Mohror</namePart>
+      <namePart type="given">Kathryn</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Computer Science</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Researchers and scientists regularly work on solving complex real-world problems in medical science, environmental science, astrophysics, etc., to achieve mission-critical research goals through scientific campaigns. These campaigns are nowadays materialized by workflows of applications executing on high-performance computing (HPC), replacing an age-old monolithic application-based strategy. Moreover, the current data-driven research trend mandates the emergence of data-intensive HPC applications. These applications need to manage high volume and velocity of data transfer and consist of tasks that need inter- or intra-application flows of data to execute successfully. While handling data volume and velocity is an established field, managing dataflow is a new area requiring careful research. Effective dataflow management has to address many HPC I/O issues. For instance, dataflow in an HPC workflow creates dependencies among the tasks and causes resource contention on shared storage systems, thus limiting the aggregated I/O bandwidth achieved by the workflow. Besides, inefficient dataflow management causes unnecessary data movement that can further limit performance. Leadership HPC systems are typically equipped with a deep storage hierarchy of node-local ram disks, burst buffers, global parallel file systems (PFS), etc. The appropriate usage of this powerful HPC storage stack can overcome the data management issues in HPC workflows. This storage stack can be optimal by employing effective dataflow management strategies. Most of the state-of-the-art techniques optimize data placement after the task scheduling process. These methods perform data management as an aftereffect of task scheduling and can cause unnecessary data movement and limit I/O bandwidth. Our research demonstrates that overcoming these I/O performance limitations is possible by co-scheduling tasks and data to computation and storage resources. Developing a practically usable task-data co-scheduling framework for optimizing I/O performance of the dataflow of an HPC workflow has to deal with four types of challenges. Firstly, this maneuver demands a holistic knowledge of the infrastructure of the HPC system that runs the workflow. More precisely, we must establish a methodology to understand the HPC storage stack used by the dataflow in a workflow. For a thorough understanding, we need to evaluate the performance of its different components, then present the relationships of the components in an understandable format for the optimization framework. Secondly, we need to understand the data dependencies in a workflow. At a higher granularity, we need to analyze the dataflow and extract the producer-consumer relationships among the applications of the workflow. We eventually have to find the tasks involved in each application and devise a strategy to represent the task-data relationships in the dataflow. Thirdly, we have to deal with the challenges of leveraging the above system and dataflow-specific information in a feasible task-data co-scheduling scheme. In detail, a task-data co-scheduling optimization policy has to assign the tasks to computation resources and the data instances to storage systems such that the I/O performance of a dataflow can be optimized. This optimization is a combination of two NP-hard general assignment problems. Due to exponential time complexity, finding the solutions to these problems can be impossible in practice. Hence, in the first step, we need to develop a polynomial time algorithm to achieve theoretical feasibility. Finally, although a polynomial time co-scheduling strategy is sufficient for a static and offline scheduling framework, developing an online task-data co-scheduler for dynamic dataflow has to incorporate a faster optimization model that can run in a pipeline with workflow execution. In particular, we have to come up with an algorithm to approximate the co-scheduling scheme via a faster linear time greedy approach and adapt the policies as the dataflow behaviors change or we discover unknown areas in the dataflow during execution. This dissertation investigates the techniques to optimize aggregated I/O bandwidth in HPC workflows by addressing the challenges mentioned above in the course of four systematic studies. This research work is the consequence of these four studies to gradually converge the outcome towards an online task-data co-scheduling framework for complex HPC workflows. The studies start with a deep understanding of the components of the HPC storage stack, and we then focus on extracting and representing the dataflow information. Using these dataflow and storage stack information extraction and representation mechanisms, we first design and develop an offline static task-data co-scheduling framework. Our work finally culminates toward developing an online task-data co-scheduler that runs with workflow execution and dynamically adjust scheduling policies. More precisely, we perform the following studies. Firstly, we perform a holistic performance evaluation case study on BeeGFS, an emerging PFS. We explore the architectural and system features of BeeGFS and run an experimental evaluation using cutting-edge I/O and metadata benchmarks. Therefore, we develop a framework of benchmarks and tools for systematically evaluating file-based HPC storage systems. Secondly, we start with characterizing the deep learning (DL) training I/O, and gradually broaden our I/O behavior exploration toward I/O workload with more complex data dependencies. Consequently, we develop Wemul, an emulation framework for better analysis of I/O and construction of benchmarks for evaluating I/O optimization strategies. Thirdly, we introduce DFMan, a graph-based static dataflow management and optimization framework for maximizing I/O bandwidth by leveraging the powerful storage stack on HPC systems to manage data sharing optimally among the tasks in the workflows. Particularly, we devise a graph-based optimization algorithm that can leverage an intuitive graph representation of dataflow- and system-related information, and automatically carry out close to optimal co-scheduling of tasks and data placement. Finally, we design and develop GDCFlow, a fast and online task-data co-scheduling framework for HPC dataflow optimization. More precisely, we design a novel Split-Apply/Update-Combine-Emit (SAUCE) strategy to employ a greedy task-data co-scheduling algorithm to find approximately near-optimal scheduling policies that have magnitude times lower time cost and pipeline optimization with workflow execution to hide most of the scheduling cost. According to our thorough experimentation, we found that DFMan performs comparably to manually tuned optimal scheduling policies for HPC workflows and GDCFlow's greedy approximation delivers close to the performance of DFMan's globally optimized schemes, but with much lower scheduling time overhead.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Computer Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">April 11, 2023.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Weikuan Yu, Professor Directing Dissertation; Wei Yang, University Representative; David Whalley, University Representative; Michael Mascagni, Committee Member; Kathryn Mohror, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh89003285">
+      <topic>Computer science</topic>
+   </subject>
+   <identifier  type="IID">Chowdhury_fsu_0071E_17832</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Computer Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

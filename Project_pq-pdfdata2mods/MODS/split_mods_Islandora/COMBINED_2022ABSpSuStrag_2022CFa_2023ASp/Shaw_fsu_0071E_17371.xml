@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Population Genetics Model Extensions</title>
+      <subTitle>Including Indels, Quality Scores, and a Spatial Domain</subTitle>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-6479-8758</nameIdentifier>
+      <namePart type="family">Shaw</namePart>
+      <namePart type="given">Kyle Jason</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/beerli">
+      <namePart type="family">Beerli</namePart>
+      <namePart type="given">Peter</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2013023251">
+      <namePart type="family">Srivastava</namePart>
+      <namePart type="given">Anuj</namePart>
+      <namePart type="date">1968-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/bquaife">
+      <namePart type="family">Quaife</namePart>
+      <namePart type="given">Bryan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/sshanbhag">
+      <namePart type="family">Shanbhag</namePart>
+      <namePart type="given">Sachin</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/alemmon">
+      <namePart type="family">Lemmon</namePart>
+      <namePart type="given">Alan R.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Scientific Computing</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (109 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Due to the large variance in the stochastic nature of evolution and DNA, it can be difficult to be sure that inferences that use genetical data are perfectly correct. However, as we incorporate more data into our analysis then the confidence of our inferences increases. I investigate the inclusion of 3 types of data that are typically ignored. The use of deletions and insertions in the maximum likelihood calculations of trees is investigated as well as using the quality scores in those same calculations. I show that including this data increases the probability of the true evolutionary tree being the same tree that a maximum likelihood method will infer. I also investigate the effects a geographically continuous population has on the genetical patterns and rates of fixation and timing of fixation, and how those rates compare to panmictic models, which ignore spatial structure. Typically, Maximum likelihood techniques treat gaps in genetic data as unknown values. There have been a few attempts to build maximum likelihood techniques that include insertion and deletion processes, but these are usually very computationally expensive and infeasible in most cases. A Poisson Indel Process (PIP) has been developed, which reduces the theoretical computation of the likelihood calculations. I show how this method's computational cost can be decreased even further. I also show that it provides slightly more accurate inferences. All data gathering techniques introduce some sort of error. DNA sequencers quantify the confidence the program has in each nucleotide with a quality score. These quality scores represent the probability that the sequencer misclassified the nucleotide in question. Most Maximum likelihood techniques ignore these quality scores. At times when the scores are really low that data will be thrown out. I show how to incorporate these quality scores into a maximum likelihood calculation. This requires an adjustment to the traditional conversion of nucleotide data into numerical data into a more realistic biological and mathematical conversion. Modelling the spatial structure populations are often constrained to has proved to be difficult. There are infinite types of structure that can be imposed by a landscape, each structure having a different effect on the dynamics of the population. I investigate how a continuous landscape with individuals how can disperse only a finite distance affects how quickly new alleles spread through the population. The spread of neutral alleles is shown to be independent of population density. The expected probability and time to fixation are examined and shown to be affect by both the size and shape of the geographical area and the population density. The rate of spread for advantageous alleles is dependent on the population density, with diminishing returns as population density increases. The probability of fixation is only slightly dependent upon population density, it is mostly dependent upon selective advantage, but the expected time to fixation is heavily dependent on population density and geographical area.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Scientific Computing in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">July 6, 2022.</note>
+   <note  displayLabel="Keywords">Fixation, Indels, Maximum Likelihood, Population Genetics, Quality Scores, Wave of Advance</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Peter Beerli, Professor Directing Dissertation; Anuj Srivastava, University Representative; Bryan Quaife, Committee Member; Sachin Shanbhag, Committee Member; Alan Lemmon, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85014203">
+      <topic>Biology</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <topic>Statistics</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh89003285">
+      <topic>Computer science</topic>
+   </subject>
+   <identifier  type="IID">Shaw_fsu_0071E_17371</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Scientific Computing</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

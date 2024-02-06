@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Topics on Mixture Models and Discriminant Analysis</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0003-6832-6947</mods:nameIdentifier>
+      <mods:namePart type="family">Deng</mods:namePart>
+      <mods:namePart type="given">Kai</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/xzhang8">
+      <mods:namePart type="family">Zhang</mods:namePart>
+      <mods:namePart type="given">Xin</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yyang3">
+      <mods:namePart type="family">Yang</mods:namePart>
+      <mods:namePart type="given">Yanyun</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/qmai">
+      <mods:namePart type="family">Mai</mods:namePart>
+      <mods:namePart type="given">Qing</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Statistics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Mixture models for clustering and regressions and discriminant analysis are the cornerstones of multivariate statistics and supervised/unsupervised learning research. The structure of data has become increasingly complex in many modern applications including but not limited to computational biology, recommendation systems and text/image analysis. Therefore, it is of great interest to develop methodologies and algorithms for mixture models and discriminant analysis that target the challenges arising from such complex data. In this dissertation, I address three types of challenging supervised and unsupervised topics with novel methodologies and algorithms: (1) tensor data simultaneous clustering and multiway dimension reduction; (2) high-dimensional heterogeneous data in mixture linear regression; (3) multivariate and multi-label response classification in high dimensions. The three chapters are elaborated as follows. In the form of multi-dimensional arrays, tensor data have become increasingly prevalent in modern scientific studies and biomedical applications such as computational biology, brain imaging analysis, and process monitoring system. These data are intrinsically heterogeneous with complex dependencies and structure. Therefore, ad-hoc dimension reduction methods on tensor data may lack statistical efficiency and can obscure essential findings. Model-based clustering is a cornerstone of multivariate statistics and unsupervised learning; however, existing methods and algorithms are not designed for tensor-variate samples. In the first chapter, we propose a Tensor Envelope Mixture Model (TEMM) for simultaneous clustering and multiway dimension reduction of tensor data. TEMM incorporates tensor-structure-preserving dimension reduction into mixture modeling and drastically reduces the number of free parameters and estimative variability. An EM-type algorithm is developed to obtain likelihood-based estimators of the cluster means and covariances, which are jointly parameterized and constrained onto a series of lower-dimensional subspaces known as the tensor envelopes. We demonstrate the encouraging empirical performance of the proposed method in extensive simulation studies and a real data application in comparison with existing vector and tensor clustering methods. In the second chapter, we consider the problem of finite mixture of linear regressions (MLR) for high-dimensional heterogeneous data where the sample size is much smaller than the number of random variables, which is widely used in many modern applications such as biological science, genetics and engineering. In order to capture the common sparse structure in large heterogeneous data, traditional high-dimensional EM algorithm can be computational intractable thus fail to produce meaningful estimation results. We propose a fast group-penalized EM algorithm (FGEM) for high-dimensional MLR that estimates the regression coefficients from a group sparsity perspective and is computationally efficient and less sensitive to initialization. The statistical property of the proposed algorithm is established without requiring sample-splitting that allows the predictor dimension grows exponentially with the sample size. We demonstrate the encouraging performance of FGEM in numerical studies in comparison with traditional high-dimensional EM algorithms. The problem of classifying multiple categorical responses is pervasive in modern machine learning and statistics, with diverse applications in fields such as bioinformatics and image classification. The third chapter investigates linear discriminant analysis (LDA) with high-dimensional predictors and multiple multi-class responses. Specifically, we examine two different classification scenarios under the bivariate LDA model: joint classification of the two responses and conditional classification of one response while observing the other. To achieve optimal classification rules for both scenarios, we introduce two novel tensor formulations of the discriminant coefficients and corresponding penalties. For joint classification, we propose an overlapping group lasso penalty and a blockwise coordinate descent algorithm to efficiently compute joint tensor discriminant coefficients. For conditional classification, we utilize an alternating direction method of multipliers (ADMM) algorithm to compute tensor discriminant coefficients under new constraints. We extend our method and algorithms to general multivariate responses. Finally, we validate the effectiveness of our approach through simulation studies and real data examples.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 3, 2023.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Xin Zhang Major, Professor Directing Dissertation; Yanyun Yang, University Representative; Qing Mai, Committee Member; Joshua Daniel Loyal, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <mods:topic>Statistics</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Deng_fsu_0071E_17852</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

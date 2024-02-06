@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Bayesian Variable Selection for Non-Gaussian Data Using Global-Local Shrinkage Priors and the Multivaraite Logit-Beta Distribution</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-1429-6976</mods:nameIdentifier>
+      <mods:namePart type="family">Wu</mods:namePart>
+      <mods:namePart type="given">Hongyu</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jrbradley">
+      <mods:namePart type="family">Bradley</mods:namePart>
+      <mods:namePart type="given">Jonathan R.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/bquaife">
+      <mods:namePart type="family">Quaife</mods:namePart>
+      <mods:namePart type="given">Bryan</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/xzhang8">
+      <mods:namePart type="family">Zhang</mods:namePart>
+      <mods:namePart type="given">Xin</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/abarrientos">
+      <mods:namePart type="family">Barrientos</mods:namePart>
+      <mods:namePart type="given">Andrés Felipe</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Statistics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (73 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Variable selection methods have become an important and growing problem in Bayesian analysis. The literature on Bayesian variable selection methods tends to be applied to a single response- type, and more typically, a continuous response-type, where it is assumed that the data is Gaussian/symmetric. In this dissertation, we develop a novel global-local shrinkage prior in non- symmetric settings and multiple response-types settings by combining the perspectives of global- local shrinkage and the conjugate multivaraite distribution. In Chapter 2, we focus on the problem of variable selection when the data is possibly non- symmetric continuous-valued. We propose modeling continuous-valued data and the coefficient vector with the multivariate logit-beta (MLB) distribution. To perform variable selection in a Bayesian context we make use of shrinkage global-local priors to enforce sparsity. Specifically, they can be defined as a Gaussian scale mixture of a global shrinkage parameter and a local shrinkage parameter for a regression coefficient. We provide a technical discussion that illustrates that our use of the multivariate logit-beta distribution under a P ́olya-Gamma augmentation scheme has an explicit connection to a well-known global-local shrinkage method (i.e., the horseshoe prior) and extends it to possibly non-symmetric data. Moreover, our method can be implemented using an efficient block Gibbs sampler. Evidence of improvements in terms of mean squared error and variable selection as compared to the standard implementation of the horseshoe prior for skewed data settings is provided in simulated and real data examples. In Chapter 3, we direct our attention to the canonical variable selection problem in multiple response-types settings, where the observed dataset consists of multiple response-types (e.g., continuous, count-valued, Bernoulli trials, etc.). We propose the same global-local shrinkage prior in Chapter 2 but for multiple response-types datasets. The implementation of our Bayesian variable selection method to such data types is straightforward given the fact that the multivariate logit-beta prior is the conjugate prior for several members from the natural exponential family of distributions, which leads to the binomial/beta and negative binomial/beta hierarchical models. Our proposed model not just allows the estimation and selection of independent regression coefficients, but also those of shared regression coefficients across-response-types, which can be used to explicitly model dependence in spatial and time-series settings. An efficient block Gibbs sampler is developed, which is found to be effective in obtaining accurate estimates and variable selection results in simulation studies and an analysis of public health and financial costs from natural disasters in the U.S.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 4, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Jonathan R. Bradley, Professor Directing Dissertation; Bryan Quaife, University Representative; Xin Zhang, Committee Member; Andres Barrientos, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <mods:topic>Statistics</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Wu_fsu_0071E_17528</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

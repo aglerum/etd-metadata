@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Microwave Spectroscopy of Semiconductor Hosted Two-Dimensional Electron Systems</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-9472-7475</nameIdentifier>
+      <namePart type="family">Freeman</namePart>
+      <namePart type="given">Matthew</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n86016413">
+      <namePart type="family">Engel</namePart>
+      <namePart type="given">Lloyd W.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/ichiorescu">
+      <namePart type="family">Chiorescu</namePart>
+      <namePart type="given">Irinel</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/strouse">
+      <namePart type="family">Strouse</namePart>
+      <namePart type="given">Geoffrey F.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2002162741">
+      <namePart type="family">Bonesteel</namePart>
+      <namePart type="given">N. E.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/salmarazcalderon">
+      <namePart type="family">Almaraz-Calderon</namePart>
+      <namePart type="given">Sergio J.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Physics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (95 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >This dissertation explores several aspects of microwave spectroscopy of two-dimensional electron systems (2DES), motivated by the microwave signatures of Wigner crystal phases that can exist in these systems. The spectroscopy is carried out by means of coplanar waveguide transmission lines patterned onto the top of semiconductor samples. Wigner crystals form from otherwise mobile charge carriers when inter-carrier Coulomb repulsion overwhelms the kinetic energy. This occurs when the 2DES is sufficiently dilute, for low temperature and small disorder. These solids are insulating due to pinning by disorder, and in the rf or microwave range exhibit "pinning'' modes, in which pieces of the crystal oscillate within the disorder potential. In high magnetic fields these pinning modes are known to be sharp and can vary widely in frequency. I describe high magnetic field measurements of a series of nominally identical devices with unprecedented low disorder and which only vary in the thickness of the quantum well that house the 2DES. This research has demonstrated the lowest frequency pinning mode observed to date, and further shows that the pinning is due to alloy disorder in the confining barriers that form the quantum well. A self consistent model of the wave functions of the quantum wells gives a good explanation of the pinning frequency as a function of well thickness. Wigner crystals are predicted to form in zero magnetic field as well, although at much lower carrier densities, and should have microwave signatures. An excellent candidate for housing such a solid is AlAs. In exploring 2DES in AlAs to search for microwave signatures of Wigner crystallization at zero magnetic field, we found a novel type of cyclotron resonance, in which plasma shift due to finite sample size is absent In another step toward studying 2DES at extremely low carrier density I developed a new type of transmission line, a coplanar waveguide whose slots are filled with resistive film, a resistively loaded coplanar waveguide (RLCPW), to measure 2DES. The RLCPW applied to the sample hosting the 2DES provides a uniform metallic surface serving as a gate, to control the areal density of the 2DES. As a demonstration of this technique I present measurements on a Si metal oxide field effect transistors (MOSFET) showing that the RLCPW can be used for quantitative measurements of 2DES microwave conductivity, and additionally measured a heterojunction insulated gate field effect transistor (HIGFET), a type of device that is particularly promising for study of zero magnetic field Wigner crystals.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Physics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">November 7, 2022.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Lloyd Engel, Professor Co-Directing Dissertation; Irinel Chiorescu, Professor Co-Directing Dissertation; Geoffrey Strouse, University Representative; Nicholas Bonesteel, Committee Member; Sergio Almaraz-Calderon, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85030765">
+      <topic>Condensed matter</topic>
+   </subject>
+   <identifier  type="IID">Freeman_fsu_0071E_17600</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Physics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>De Profundis</mods:title>
+      <mods:subTitle>Screams from the Historical Sublime in Two Haitian Narratives</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0008-8785-2252</mods:nameIdentifier>
+      <mods:namePart type="family">Rainwater</mods:namePart>
+      <mods:namePart type="given">Mara V.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/nb2001003399">
+      <mods:namePart type="family">Munro</mods:namePart>
+      <mods:namePart type="given">Martin</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2014022874">
+      <mods:namePart type="family">Luke</mods:namePart>
+      <mods:namePart type="given">Trevor S.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2009036864">
+      <mods:namePart type="family">Wakamiya</mods:namePart>
+      <mods:namePart type="given">Lisa Ryoko</mods:namePart>
+      <mods:namePart type="date">1969-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2016135651">
+      <mods:namePart type="family">Gaines</mods:namePart>
+      <mods:namePart type="given">Alisha</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Modern Languages and Linguistics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This project focuses on two Haitian narratives that risk being forgotten and consigned to oblivion. Both occurred during the rise to power of François Duvalier, specifically in the confusion of the 1957 Provisional Governments and their aftermath. The first narrative concerns the massacre of Daniel Fignolé's supporters in the slums of Port-au-Prince immediately after his forced removal from the Provisional Presidency, which effectively ousted him from the upcoming presidential elections. Among the poorest Haitian constituencies, the Fignolistes saw their hopes for a democratic voice and distributive justice disappear. They were brutally and permanently eliminated by Duvalier partisans in the army within two days after Fignolé's involuntary exile. I analyze the deceptive narratives that were circulated to media outlets across the world when the massacre took place. Thus, although there were many accounts of what had happened, these accounts were largely inaccurate and ignored. The second narrative left almost no trace in the public sphere. Yvonne Hakim Rimpel, a Haitian journalist of Lebanese background, challenged the fraudulent conditions surrounding Duvalier's election, and was the first female victim of Duvalier's vanguard. Sexually assaulted by his hooded cagoulards before the 'Tonton Macoutes' militia was created, Rimpel was forced to disavow that her rapists were connected to the Duvalier regime. Until now, there has been very little effort to retrieve these historical narratives, but we are fortunate to have a novel, Femmes au temps des carnassiers (Women in the Time of Predators) by Marie-Célie Agnant with a protagonist based on the persona of Yvonne Hakim Rimpel. The elision of literary writing and history becomes a way to retrieve a narrative that has otherwise left very few archival traces. In my dissertation, De Profundis: Screams from the Historical Sublime in Two Haitian Narratives, I have argued that the memory work we dedicate to preventing such narratives being forgotten affects us in the present, as well. An ethics of attention saves us from moral disengagement and connects us to Hayden White's understanding of the 'practical past.' We are not disinterested parties, but are rather stakeholders in the constructed rhetoric of historical representation. The historical sublime is never a coherent and meaningful 'sublime object' to be observed or discovered sui generis. We create the epistemological ground that emerges from our own constructions of historical discourse. The sublime spectacle is always overdetermined, with the corollary that our hermeneutic efforts entail complexity. This expectation of historical complexity, this understanding that meaning emerges only after we create it, encourages us to interrogate the broadest conditions of possibility for two Haitian narratives that deserve our attention.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Modern Languages and Linguistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 30, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">Ethics of Remembering, François Duvalier, Haiti, Hayden White, Historical Sublime, Narrative</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Martin Munro, Professor Directing Dissertation; Trevor Luke, University Representative; Lisa Wakamiya, Committee Member; Alisha Gaines, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85001992">
+      <mods:topic>African Americans</mods:topic>
+      <mods:topic>Study and teaching</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85061212">
+      <mods:topic>History</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Rainwater_fsu_0071E_17747</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Modern Languages and Linguistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

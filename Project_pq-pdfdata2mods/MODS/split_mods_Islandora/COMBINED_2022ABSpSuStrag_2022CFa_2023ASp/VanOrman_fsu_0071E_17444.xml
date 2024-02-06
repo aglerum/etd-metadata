@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Dimensionality Tuning of Triplet Sensitizers for Triplet-Triplet Annihilation-Based Upconversion</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-7773-012X</nameIdentifier>
+      <namePart type="family">VanOrman</namePart>
+      <namePart type="given">Zachary</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/lnienhaus">
+      <namePart type="family">Nienhaus</namePart>
+      <namePart type="given">Lea</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/dhallinan">
+      <namePart type="family">Hallinan</namePart>
+      <namePart type="given">Daniel T.</namePart>
+      <namePart type="termsOfAddress">Jr.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/nb2009002696">
+      <namePart type="family">Mattoussi</namePart>
+      <namePart type="given">Hedi</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/kghanson">
+      <namePart type="family">Hanson</namePart>
+      <namePart type="given">Kenneth G.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Chemistry and Biochemistry</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (207 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Photon upconversion (UC), especially through the process of triplet-triplet annihilation (TTA), is capable of combining two photons into one higher energy photon which could be captured in applications such as photovoltaics, photocatalysis, optogenetics, imaging and sensing, and many others. TTA-UC systems rely on spin-triplet states donated from a sensitizer material, which is commonly either an organometallic molecule or a semiconductor nanocrystal confined in three dimensions, typically referred to as a quantum dot. This dissertation encompasses a different approach to triplet sensitization specifically applied to TTA-UC. Semiconductor nanocrystals with quantum confinement relaxed in either one or two dimensions have unique properties endowed by their shape, size, and anisotropic nature, making them viable candidates for triplet sensitization. Chapter 3 explores CdTe nanorods, materials with two dimensions of quantum confinement, as potential triplet sensitizer materials in a red-to-blue TTA-UC scheme. TTA-UC is successfully observed in this system with a UC efficiency better or comparable to similar nanocrystal sensitized systems. Chapter 4 investigates the use of CdSe nanoplatelets, which are only quantum confined in their thickness. Here, the nanoplatelets are compared directly to quantum dots. Comparing the results of the nanoplatelet and quantum dot sensitized systems results in an interplay between the incident power threshold required for efficient TTA-UC and the UC efficiency, attributed to stacking of the nanoplatelets, which was shown to inhibit the performance of the nanoplatelet sensitized system. In Chapter 5, bulk semiconductors are explored as potential triplet sensitizers, through the use of bulk metal halide perovskites, which rely on no quantum confinement, and sensitize the annihilator molecule through a free charge mechanism. The performance of these systems is reliant on many factors, including the composition, fabrication method of the perovskite sensitizer, and the illumination time of the perovskite, which tunes its defect density. In summary, this dissertation looks beyond conventional semiconductor quantum dots as triplet sensitizer materials toward a new class of materials which include nanorods, nanoplatelets, and bulk semiconductors. In all cases, TTA-UC is successfully observed. However, the lasting relevance of these systems may rest on their ability to sensitize TTA-UC systems in the solid-state, which is a key development for their implementation into solid-state device applications such as photovoltaics. Bulk perovskite sensitized systems are already among the most efficient and useful solid-state triplet sensitizers, while nanorods and nanoplatelets could outperform existing solid-state nanocrystal sensitizers due to their improved exciton diffusion lengths upon self-assembly. These potential strategies and future developments toward improving TTA-UC are further discussed in Chapter 6, where we look toward the potentially bright future of TTA-UC, especially toward device-relevant applications.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">July 19, 2022.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Lea Nienhaus, Professor Directing Dissertation; Daniel Hallinan, University Representative; Hedi Mattoussi, Committee Member; Ken Hanson, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85022986">
+      <topic>Chemistry</topic>
+   </subject>
+   <identifier  type="IID">VanOrman_fsu_0071E_17444</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

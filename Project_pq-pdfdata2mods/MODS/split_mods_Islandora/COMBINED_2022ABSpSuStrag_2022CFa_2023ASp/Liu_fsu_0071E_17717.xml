@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Bayesian Stochastic Attention-Based Neural Bag of Feature Model with Applications in Sequence Data</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">https://orcid.org/0000-0002-8987-6206</nameIdentifier>
+      <namePart type="family">Liu</namePart>
+      <namePart type="given">Xu</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="viaf"
+         authorityURI="http://viaf.org/viaf/"
+         valueURI="http://viaf.org/viaf/14146217689609141312">
+      <namePart type="family">Niu</namePart>
+      <namePart type="given">Xufeng</namePart>
+      <namePart type="date">1954-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2017071128">
+      <namePart type="family">Barbu</namePart>
+      <namePart type="given">Adrian G.</namePart>
+      <namePart type="date">1971-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2013073385">
+      <namePart type="family">Huffer</namePart>
+      <namePart type="given">Fred W. (Fred William)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Statistics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Sequence data are extensively studied in numerous domains, such as time series forecasting, audio analysis, Natural Language Processing (NLP), Etc. However, the observed sequences show highly non-stationarity and long-term dependence in real-world applications. Also, the noise term makes the task of modeling and analyzing the underlying generating process more difficult. Digging into the characters of sequence data, either the bias or the specific pattern (e.g., cycle, trend, dependency) needs to be extracted and analyzed. Therefore, statisticians put forward the traditional time series models, such as ARIMA- and GARCH-type models. Also, advanced models that capture the dynamics of sequence called dynamic time warping (DTW), stochastic processing methods such as the Gaussian process and hidden Markov model, and some machine learning models like Random Forest (RF), CNN, and RNN are widely generated for long-range sequence data study given the powerful calculation performance. In this dissertation, we propose another type of model that is originally derived from models other than the traditional sequence data analysis. We propose the Bag of Feature (BoF) type model, originally proposed to build histogram representations based on the extracted features from images. Later, it was shown that the BoF model could also efficiently tackle and process large amounts of complex and high-dimensional sequence data such as video and audio records. BoF model contains three major steps: 1) feature extraction step. 2) the dictionary learning step. 3) the aggregation step. To improve the learning efficiency of the BoF model, we put forward a neural network generalization for the BoF called the Neural Bag of Feature (NBoF) model. Like its predecessor, NBoF can generate a fixed-size histogram vector from variable-size inputs. The NBoF model shares the same framework as its predecessor, which contains a quantization layer constructed with radial basis function and a recurrent accumulation layer. The Neural BoF approach can adjust the input weights and the centers of the RBF neurons and optimize the feature extractor. The NBoF model exhibits a good improvement compared to its unsupervised predecessor. However, in the aggregation step, a fixed-size histogram is calculated simply by averaging all the quantized features, which limits the process of aggregation and dictionary learning to fully take advantage of other data-driven approaches when handling the long-term sequence data. Therefore, a weighing mechanism for the NBoF model on the accumulation layer will help. Specifically, we propose a Bayesian attention module that treats the attention weights as latent random variables. This dissertation introduces a global (soft) data-dependent prior distribution for regularization. The prior can construct a simplex constrained attention posterior distribution via normalizing a reparameterizable distribution (e.g., Gamma distribution, Log-Normal distribution), making the training process differentiable and simple to optimize. Based on the variational inference, the Bayesian attention-based model provides an analytic form that can be applied directly to the NBoF model or any other encoder-decoder system. To investigate the model performance of the proposed BAMNBoF model, we implement the BAMNBoF model on the human behavior analysis dataset (Bar Crawl data), the taxonomical sound resources sequence (UrbanSound 8K) dataset, and also the financial time series classification (FI 2010 data and one simulated high-frequency trading data) and then compare it with NBoF-type models, Attention Neural Bag of Feature (ANBoF) model and also other unsupervised classifiers (random forest, MLP) and supervised neural networks (CNN, LSTM, GRU) with cross-validation schemes.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">March 23, 2023.</note>
+   <note  displayLabel="Keywords">Attention Mechanism, Bag of Feature Model, Radial Basis Function, Sequence Analysis, Variational Bayesian Inference</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Xufeng Niu, Professor Directing Dissertation; Hongyu Miao, University Representative; Adrian Barbu, Committee Member; Fred Huffer, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <topic>Statistics</topic>
+   </subject>
+   <identifier  type="IID">Liu_fsu_0071E_17717</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

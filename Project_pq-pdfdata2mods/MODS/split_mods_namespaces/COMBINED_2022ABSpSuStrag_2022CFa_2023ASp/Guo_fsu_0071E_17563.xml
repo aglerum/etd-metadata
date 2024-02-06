@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Power-Signal Integrated Gate Driver Design and Protection for Medium-Voltage SiC MOSFETs</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-1614-7165</mods:nameIdentifier>
+      <mods:namePart type="family">Guo</mods:namePart>
+      <mods:namePart type="given">Zhehui</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/hli">
+      <mods:namePart type="family">Li</mods:namePart>
+      <mods:namePart type="given">Hui</mods:namePart>
+      <mods:namePart type="date">1970-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2003098450">
+      <mods:namePart type="family">Ordóñez</mods:namePart>
+      <mods:namePart type="given">Juan Carlos</mods:namePart>
+      <mods:namePart type="date">1973-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/fpeng">
+      <mods:namePart type="family">Peng</mods:namePart>
+      <mods:namePart type="given">Fang</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jmoon4">
+      <mods:namePart type="family">Moon</mods:namePart>
+      <mods:namePart type="given">Jinyeong</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Electrical and Computer Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (97 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The newly emerged medium-voltage (MV) silicon carbide (SiC) MOSFETs, spanning 2.5 kV to 15 kV range, are under the rapid developments and have received increasing attention recently. Compared to Si devices, SiC MOSFETs have significant improvements on the blocking voltage, specific on-resistance, switching speed and operating temperature. Therefore, MV SiC MOSFETs have a great potential to improve the efficiency and power density of MV converters, and meanwhile to drive down the system complexity. As the interface between MV SiC MOSFETs and control circuits, gate driver (GD) performance is critical to fully leverage the potential benefits of SiC devices as well as to enhance the reliability, such as the sufficient common-mode (CM) transient immunity (CMTI) and fast fault protection. Since there is little commercial GDs for MV SiC MOFETs, the research on MV GDs is still being explored, mainly focusing on the isolated GD power supply (GDPS) and fault protection designs. Existing MV GD solutions exhibit bulky size and high cost, since they not only require bulky GDPS to transmit GD power, but also need costly fiber optics (FOs) to transmit gate/ fault signals. State-of-the-art (SOA) GDPSs have demonstrated a reduced size aiming at the MV insulation requirement, but the total GD volume is still comparable or larger than the MV SiC devices. This dissertation proposes the power-signal integrated GD for MV SiC MOSFETs to minimize the GD footprint, which helps to integrate the GD into MV SiC device packages. This concept is utilized to firstly propose a 20-MHz dual-transformer-based isolated GD with power-signal integrated transmission. It not only removes costly FOs and bulky GDPSs, but also achieves the good timing performance including the full PWM duty-cycle range operation, low propagation delay time, and high PWM duty-cycle resolution. The solid-dielectrics-based insulation scheme is applied for proposed GD, which enables an insulating voltage &gt; 10 kV rms for MV requirements as well as a moderate coupling capacitance to enhance the CMTI. The experimental results have verified the validity of proposed 20-MHz dual-transformer-based power-signal integrated GD for 3.3-kV and 10-kV SiC MOSFETs. To further reduce both the coupling capacitance and footprint of the power-signal integrated GD for MV SiC MOSFETs, a 50-MHz single-transformer-based design is then proposed, and its performance has been experimentally verified by driving 10-kV SiC MOSFET. The PD performance of GD transformer under the high frequency, high dv/dt PWM voltage excitation is also characterized using photo-multiplier tube method. Due to the lack of comprehensive and quantitative design principles, the conventional DESAT protection circuit parameters usually require trail-and-error efforts to achieve both the sufficient noise immunity to high dv/dt and fast fault response time. To address this issue, the quantitative design constraints and optimization methodology for DESAT circuit parameters are developed with little tuning work. The proposed DESAT circuit parameter design and optimization methodology has been experimentally verified on 3.3-kV SiC MOSFET module. The conventional DESAT protection scheme cannot be applied into switched-capacitor-based converters due to the inrush current spike occurring at the converter commutation. To eliminate the false-triggering issue induced by the inrush current, a novel charge-based DESAT protection scheme is proposed, where the "fault charge" rather than "fault current" is selected for the fault diagnosis. The proposed charge-based DESAT protection scheme considers the accumulation of fault current over time and thus can screen the narrow inrush current spikes with high magnitude. The proposed charge-based DESAT protection scheme has been designed and experimentally verified on 3.3-kV discrete SiC MOSFETs.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Electrical and Computer Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 3, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">common-mode transient immunity, DESAT fault protection, Gate driver, high-voltage insulation, medium-voltage SiC MOSFETs, power-signal integrated transmission</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Hui Li, Professor Directing Dissertation; Juan Ordonez, University Representative; Fang Z. Peng, Committee Member; Jinyeong Moon, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85041666">
+      <mods:topic>Electrical engineering</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Guo_fsu_0071E_17563</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Electrical and Computer Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

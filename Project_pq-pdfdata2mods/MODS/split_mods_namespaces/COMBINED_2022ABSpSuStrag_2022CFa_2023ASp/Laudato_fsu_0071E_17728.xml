@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Interaction of Chemotherapy and Chronic Alcohol Consumption on Skeletal Muscle during Cancer Cachexia</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-1193-4787</mods:nameIdentifier>
+      <mods:namePart type="family">Laudato</mods:namePart>
+      <mods:namePart type="given">Joseph A.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2013036098">
+      <mods:namePart type="family">Steiner</mods:namePart>
+      <mods:namePart type="given">Jennifer L.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/dfadool">
+      <mods:namePart type="family">Fadool</mods:namePart>
+      <mods:namePart type="given">Debra Ann</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/bsgordon">
+      <mods:namePart type="family">Gordon</mods:namePart>
+      <mods:namePart type="given">Bradley S.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/caray">
+      <mods:namePart type="family">Ray</mods:namePart>
+      <mods:namePart type="given">Chester A.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Health and Human Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Nutrition and Integrative Physiology</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Cancer cachexia is primarily characterized by significant bodyweight loss and skeletal muscle atrophy, resulting from reduced rates of protein synthesis and increased rates of protein breakdown, which are further exacerbated by continued use of alcohol. While chemotherapy treatment without tumor presence has been shown to induce cachexia, its influence on protein balance and atrophy when alcohol use is continued during cancer treatment has yet to be described. The purpose of Aim 1 was to determine the influence of chemotherapy on skeletal muscle protein synthetic and degradative pathways during alcohol-enhanced cancer cachexia. Mice consumed a liquid diet with those in the alcohol group receiving 20% alcohol (EtOH) kcal/day. After approximately 7-weeks, tumor-bearing mice were inoculated subcutaneously with C26-colon cancer cells, and 5-days thereafter chemotherapy-treated mice were administered a drug combination of 5-flurouracil, leucovorin, and irinotecan (FOLFIRI) twice weekly until sacrifice. Chemotherapy prevented cancer-induced muscle atrophy of various limb muscles within non-alcohol mice, however, chronic alcohol use prevented the preservation capacity of chemotherapy. Chemotherapy did not differentially alter markers of protein synthesis within either dietary group, as the presence of alcohol appears to predominate the reductions observed. All tumor-bearing mice experienced reductions in puromycin incorporation, and while expression was reduced further in EtOH consuming mice, no beneficial effect of chemotherapy was present. In tumor bearing mice, molecular markers of protein synthetic pathways were unchanged in EtOH-naïve mice compared to non-cancer control, however, chronic alcohol exacerbated the decrease in phosphorylation of Akt kinase (Akt)Thr308, eukaryotic translation initiation factor 4E binding protein 1 (4E-BP1)Ser65, 70 kDa ribosomal protein S6 kinase 1 (p70S6K1)Thr389, and ribosomal protein S6 (rpS6)Ser240/244. These deficits were unaffected and not recovered by chemotherapy treatment within both dietary groups. Markers of protein degradation were more sensitive to chemotherapy treatment within non-alcohol groups, in which the reduction of Unc-51 like autophagy activating kinase 1(ULK1)Ser555 and increase in AMPK-activated protein kinase (AMPK)Thr172 induced by cancer were normalized; however, these restorative effects of chemotherapy were prevented by chronic alcohol use. Furthermore, alcohol augmented the expression of microtube-associated proteins A1/1B light chain 3B (LC3B II/) ratio, and reduction in ULK1Ser757 and p62 compared to non-alcohol cancer mice, while chemotherapy normalized sequestosome-1 (p62) and LC3B II/I in both treatment groups regardless of alcohol treatment. Chemotherapy normalized cancer-induced increases in ubiquitination, and gene expression of muscle-ring finger protein-1 (Murf1) and muscle atrophy F-box (Mafbx) within both non-alcohol and alcohol-treated groups. These findings illustrate that alcohol prevents the ability of chemotherapy to minimize or delay skeletal muscle atrophy in combination with EtOH-induced accentuation of disruptions in markers of protein synthesis and degradation, that remained largely unperturbed by chemotherapy treatment in alcohol naïve mice. Inflammation is a hallmark feature of cancer as body tissues as well as tumor tissues produce and receive proinflammatory cytokines leading to increased activities of the pathways involved in their downstream signaling pathways. Previous work has shown that tumor cells which secrete continual tumor necrosis factor alpha (TNF-α) worsen cachexia compared to non-secreting tumors 9. Furthermore, systemic markers such as C-reactive protein (CRP) and interleukin-6 (IL-6) are frequently associated with reduced skeletal muscle index, produced by body composition analysis via magnetic resonance imaging (MRI), dual x-ray absorptiometry (DEXA) and computed tomography (CT) cancer patients10. Therefore, Aim 2 determined the effects of chemotherapy on inflammatory-mediators during alcohol-enhanced cachexia. In the current experiment, chemotherapy did not differentially alter protein expression of various inflammatory pathways within either dietary group, however, it was able to normalize certain cancer or alcohol-induced changes in the expression of proteins involved in inflammation. Phosphorylation of signaling transducer and activator of transcription 3 (STAT3)Tyr705, which can be activated by IL-6, was enhanced within all tumor-bearing groups, and was exacerbated by alcohol, whereas suppressor of cytokine signaling 3 (SOCS3), nuclear factor kappa B (NFkB)Ser536, forkhead box protein 1 (FOXO1a)Ser256, and suppressor of Mothers against Decapentaplegic (Smad2)Ser465/467/Smad3Ser423/425, were unaffected by either dietary treatment. However, corresponding to the cancer-driven increase in STAT3Tyr705 was an increase in circulating IL-6 expression in all tumor-bearing groups, except for Chemo. Interestingly, Smad3Ser423/425 was increased only by EtOH, while chemotherapy effectively prevented these changes. A main effect of chemotherapy was present for both circulating IFN-γ and TNF-α, where these cytokines were elevated by chemotherapy regardless of alcohol consumption. Altogether, the ability of chemotherapy to prevent or delay alterations in inflammatory-related proteins does not appear to be affected by chronic alcohol. Skeletal muscle force characteristics are reduced by both cancer and alcohol use; therefore, the purpose of Aim 3 was to define whether chemotherapy preserves skeletal muscle force production impaired during alcohol-enhanced cancer cachexia. In a separate cohort of mice, the identical experimental protocol mentioned above was implemented, however, prior to sacrifice, mice performed in situ skeletal muscle contraction of the triceps surae complex of the lower limb. Tetanic force, twitch maximum, rate of contraction and half relaxation were unaffected by chemotherapy within either dietary treatment, however, all cancer mice experienced an increase in half relaxation time of the triceps surae. Chemotherapy effectively prevented the loss of force during muscular fatigue induced by cancer only within non-alcohol treated mice, indicating that alcohol use prevented these beneficial effects. Furthermore, alcohol increased fatigue within non-chemotherapy treated groups. While force recovery at 5- and 10-minutes post-fatigue was not affected by chemotherapy within either group; recovered force was decreased in alcohol-treated mice compared to non-alcohol. Together, alcohol use reduced force produced during fatigue within non-chemotherapy treated mice. While chemotherapy did not affect tetanic force or twitch characteristics of the triceps surae, in either control or alcohol groups compared to both non-alcohol control and all other tumor-bearing groups, it attenuated fatigue through the preservation of force only within non-alcohol consuming mice. This effect was diminished by alcohol use throughout cancer development, because the alcohol negated the effects of chemotherapy.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Nutrition and Integrative Physiology in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 31, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">ALCOHOL, CANCER CACHEXIA, FORCE PRODUCTION, INFLAMMATION, PROTEIN SYNTHESIS, SKELETAL MUSCLE</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Jennifer L. Steiner, Professor Directing Dissertation; Debra A. Fadool, University Representative; Bradley S. Gordon, Committee Member; Chester A. Ray, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85101679">
+      <mods:topic>Physiology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85086577">
+      <mods:topic>Molecular biology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85072383">
+      <mods:topic>Kinesiology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Laudato_fsu_0071E_17728</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Nutrition, Food, and Exercise Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

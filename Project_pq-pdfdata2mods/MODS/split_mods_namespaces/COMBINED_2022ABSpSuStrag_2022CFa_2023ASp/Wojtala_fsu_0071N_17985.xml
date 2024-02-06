@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Method for Studying How Indigenous Mound Sites Affect Biodiversity in the Atchafalaya River Basin</mods:title>
+      <mods:nonSort>A</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0002-5382-4962</mods:nameIdentifier>
+      <mods:namePart type="family">Wojtala</mods:namePart>
+      <mods:namePart type="given">Patrick Burr</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jmehta">
+      <mods:namePart type="family">Mehta</mods:namePart>
+      <mods:namePart type="given">Jayur M. (Madhusudan)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jhalligan">
+      <mods:namePart type="family">Halligan</mods:namePart>
+      <mods:namePart type="given">Jessi J.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n91050597">
+      <mods:namePart type="family">Marrinan</mods:namePart>
+      <mods:namePart type="given">Rochelle A.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Anthropology</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The goal of this research is to investigate whether mound and shell midden archaeological sites in the Atchafalaya River Basin region have influenced the biodiversity and vegetative health of the surrounding environment. The general approach utilized a LiDAR Digital Elevation Model, Normalized Difference Vegetation Index (NDVI), Louisiana Division of Archaeology Master Site File, and National Agriculture Imagery Program (NAIP) multi-spectral imagery datasets to construct a chronology of vegetation changes at mound sites in the Atchafalaya River Basin. The significance of these sites will be examined through the lens of Cultural-Ecosystem Resilience, wherein a system of cultural and natural forces works to promote community stability (Mehta and Chamberlain 2022). The potential ecological benefits of mounds in terms of increased biodiversity and resistance to erosion will also be explored. The methods used in this research are influenced by the work done at the Adams Bay site (16PL8) to examine the biodiversity effects of mounds (Mehta 2023). Five different mound sites were selected to meet the following criteria: 1) Mound area covered in vegetation, 2) Mound surrounded by comparable type and density of vegetation, 3) Mound is recorded in the Louisiana Cultural Resources Map, 4) Located in the Atchafalaya River Basin. Mound locations from the Cultural Resources Map were then verified with a Digital Elevation Model of the area. Multispectral imagery from NAIP flights was downloaded and used to calculate NDVI for each site across a ten-year span of time. Vegetation growing on top of the mound sites on average outperformed nearby vegetation in the majority of cases, using NDVI values as a proxy for vegetative health and density. Analysis of NDVI value distribution at mound sites showed a clustering effect in the higher range associated with dense vegetation and high levels of chlorophyll. A significant drop in NDVI values at all sites was observed in 2017, possibly attributable to the previous year's devastating "no-name storm" that caused extensive flooding across the region. The methodology employed seems suitable for site discovery or long-term monitoring of archaeological resources in highly vegetated areas.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Anthropology in partial fulfillment of the requirements for the degree of Master of Arts.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 28, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">climate, historical ecology, NDVI</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Jayur M. Mehta, Professor Directing Thesis; Jessi J. Halligan, Committee Member; Rochelle A. Marrinan, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85006507">
+      <mods:topic>Archaeology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh90001880">
+      <mods:topic>Geographic information systems</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85053969">
+      <mods:topic>Geodesy</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85027037">
+      <mods:topic>Climatic changes</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Wojtala_fsu_0071N_17985</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Arts</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Anthropology</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

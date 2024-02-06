@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Creating and Testing a Systematic Framework for Context</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-4738-7700</nameIdentifier>
+      <namePart type="family">Daucourt</namePart>
+      <namePart type="given">Mia Cristina</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/sahart">
+      <namePart type="family">Hart</namePart>
+      <namePart type="given">Sara</namePart>
+      <namePart type="termsOfAddress">(Professor of Psychology)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/bmphillips">
+      <namePart type="family">Phillips</namePart>
+      <namePart type="given">Beth M.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2012058529">
+      <namePart type="family">Compton</namePart>
+      <namePart type="given">Donald L.</namePart>
+      <namePart type="date">1960-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2009026723">
+      <namePart type="family">Schatschneider</namePart>
+      <namePart type="given">Christopher</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2013118586">
+      <namePart type="family">Boot</namePart>
+      <namePart type="given">Walter Richard</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Psychology</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (108 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >The main goal of the present work was to introduce a new conceptual framework for quantifying and classifying the environment by imposing a structure for sequencing contextual influences that echoes the study of genes. According to Bronfenbrenner's Bioecological Model of Human Development (BMHD), children's developmental outcomes are the result of an interplay of biological propensities that contribute to children's individual characteristics and the many layers of environments in which children exist and interact with people and things. I proposed a framework for identifying and measuring context systematically based on the resources that provide the raw materials for proximal processes, the main drivers of development. Specifically, three resource categories were introduced: physical, social and symbolic, and they were defined and described within the context of the developmental outcome of reading achievement. Physical resources capture the tangible and intangible "stuff" that makes up the environment, including the actual physical spaces, structures, and items (i.e., books) that comprise a child's context, as well as the quiet, space, and time needed for a child to interact with others. Social resources are the people within a child's contexts, including their parents, siblings, teachers, peers and other social partners, as well as the knowledge, experience, ideals, beliefs, and attitudes of these social partners. Symbolic resources are the meaning and stability with which interactions are imbued, and they are characterized by the existence of routines and norms within a context, as well as a context's overall climate, or feeling. For instance, the sense of safety and belonging a child feels as well as the qualities and actions that are celebrated and prioritized in an environment are examples of symbolic resources. In order to test this proposed framework for context, a proof-of-concept analysis was conducted using publicly available data from the US Census Bureau to capture the neighborhood environment and state-specific department of education websites, as well as the NCES and CRDC websites to capture the school environment. The study sample comprised 163 students (93 first graders and 70 second graders, Mage = 11.99 years old, SD = 2.22 years, 56% girls) from the National Project for Achievement in Twins, a federally-funded study exploring the development of reading and math skills in twins across the United States. A single twin was randomly chosen from each twin pair, and a total of 28 states were captured in the study sample. Reading was measured using the DIBELS Nonsense Word Fluency subtest. Neighborhood physical resources were captured by census tract-level measures of income, cost of living, household space, having health insurance, and household computer and internet access. Neighborhood social resources were captured by family size, percent couple-headed households, and percentage of coresident grandparents within a census tract. Neighborhood symbolic resources were captured by neighborhood climate, which was comprised of the educational attainment of residents within a census tract, as well as the percentage of residents on public assistance and unemployment, and rurality. School physical resources were captured by school-level average per pupil expenditure, student enrollment, and free or reduced-price lunch eligibility. School social resources were captured by pupil-teacher ratios, teacher quality (i.e., teacher experience, teacher certification) and peer composition and achievement influences at a given school (i.e., percent LEP students, percent LD students, average test score trend and average learning rate). School symbolic resources were captured by school climate, which was measured by student demographic density, the percentage of negative incidences at a school, and average student attendance. The analysis used to test the viability of this proposed framework for context was conditional inference random forest (RF-CI), a non-parametric analysis that allows for the use of different types of variables measured on a variety of scales. In support of the proposed contextual framework, the results of the RF-CI analysis, which explained 30% of the variance in NWF scores, demonstrated that all three resource categories (physical, social, and symbolic) are vital to include in a context-based prediction model of children's early reading skills. Additionally, in line with the BMHD, the results showed that both proximal environments – neighborhoods and schools – not only play a role in children's NWF performance separately, but they also work interactively to influence child outcomes. These results align with the idea that each environment is multifaceted and requires a systematic approach like the one presented here in order to make sure all aspects of a given contextual framework are accounted for, rather than zeroing in on only a single resource category. Thus, the proposed theoretical framework for measuring context systematically is recommended for future work exploring the influence of the environment on development.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Psychology in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">August 22, 2022.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Sara A. Hart, Professor Directing Dissertation; Beth M. Phillips, University Representative; Don L. Compton, Committee Member; Chris Schatschneider, Committee Member; Walter Boot, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85037359">
+      <topic>Developmental psychology</topic>
+   </subject>
+   <identifier  type="IID">Daucourt_fsu_0071E_17412</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Psychology</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

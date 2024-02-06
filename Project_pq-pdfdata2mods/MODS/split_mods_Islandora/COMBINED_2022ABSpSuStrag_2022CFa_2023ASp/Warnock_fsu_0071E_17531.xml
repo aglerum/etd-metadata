@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Regulation of Proteasome Function and Quality Control by Short, Flexible Motifs in the ATPase Motor</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-8104-6542</nameIdentifier>
+      <namePart type="family">Warnock</namePart>
+      <namePart type="given">Jennifer Lynne</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/rtomko">
+      <namePart type="family">Tomko</namePart>
+      <namePart type="given">Robert J.</namePart>
+      <namePart type="termsOfAddress">Jr.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/hyu">
+      <namePart type="family">Yu</namePart>
+      <namePart type="given">Hong-Guo</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mblaber">
+      <namePart type="family">Blaber</namePart>
+      <namePart type="given">Michael</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/tmegraw">
+      <namePart type="family">Megraw</namePart>
+      <namePart type="given">Timothy L.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Medicine</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Biomedical Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (161 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >The 26S proteasome is the largest and most complicated chambered protease known. It is responsible for regulated degradation of proteins within all eukaryotic cells, and is essential for maintaining protein homeostasis. Disruptions to proteasome assembly, composition, or function cause or exacerbate numerous human diseases, including cancers, neurodegenerative disorders, and a family of autoimmune disorders. The proteasome is comprised of two major subcomplexes: the regulatory particle (RP) and the core particle (CP). Each serves distinct functions in degradation of substrate. The RP contains a ring of six AAA+ ATPase subunits that mechanically unfold substrate and translocate it into the proteolytic chamber of the CP, which houses the proteolytic active sites. The ATPase subunits are absolutely essential to proteasome function, as they served as both gatekeepers and guides for the diverse population of protein substrates that proteasomes must degrade to maintain proteostasis in a complex and crowded cellular environment. The unstructured C-termini of most proteasomal ATPase subunits dock into pockets in the surface of the barrel-shaped CP, tethering the RP to the CP and regulating substrate access to the proteolytic core. Furthermore, flexible pore-1 loops extend from each Rpt subunit into the central channel of the ATPase ring. These pore loops grip substrates and, via ATP-fueled movements, mechanically unfold and translocate them through the ATPase ring's pore and into the CP for destruction. Given the exceptional size and complexity of the proteasome, the unstructured pore-1 loops and C-termini of the ATPase subunits exert disproportionally large impacts on its structure and function. Although some rudimentary analyses of their individual contributions have been performed, the myriad of ways in which they contribute to proteasome physiology remain very poorly understood. In this thesis, I describe my analyses of these key functional elements, which have challenged some aspects of the current model of substrate translocation by the proteasome, and have serendipitously revealed a potential quality control mechanism that disassembles proteasomes with compromised RP-CP interfaces. I discuss these findings in the context of our current understanding of proteasome function and quality control, and provide perspectives on new hypotheses and questions arising from my work.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Biomedical Sciences in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">October 24, 2022.</note>
+   <note  displayLabel="Keywords">ATPases, Chaperone, Nas6, Proteasome, Proteolysis, Rpt3</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Robert J. Tomko, Jr., Professor Directing Dissertation; Hong-Guo Yu, University Representative; Michael Blaber, Committee Member; Timothy Megraw, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85014203">
+      <topic>Biology</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85083064">
+      <topic>Medicine</topic>
+   </subject>
+   <identifier  type="IID">Warnock_fsu_0071E_17531</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Biomedical Sciences</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

@@ -19,7 +19,7 @@
         <xsl:for-each select="modsCollection/mods">
             <xsl:variable name="filename" select="concat(substring-before(note[@displayLabel = 'filename'], '.pdf'), '.xml')"/>
             <xsl:for-each select=".[note[@displayLabel = 'embargo'] = 0]">
-                <xsl:result-document href="file:/C:/Users/achisum.FSU/OneDrive%20-%20Florida%20State%20University/Documents/GitHub/etd-metadata/Project_pq-pdfdata2mods/MODS/split_mods_Islandora/2022Su/mods_not_embargoed/{$filename}">
+                <xsl:result-document href="file:/C:/Users/achisum.FSU/OneDrive%20-%20Florida%20State%20University/Documents/GitHub/etd-metadata/Project_pq-pdfdata2mods/MODS/split_mods_Islandora/COMBINED_2022ABSpSuStrag_2022CFa_2023ASp/{$filename}">
                     <mods:mods xmlns="http://www.loc.gov/mods/v3" xmlns:flvc="info:flvc/manifest/v1" xmlns:dcterms="http://purl.org/dc/terms/"
                         xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:mods="http://www.loc.gov/mods/v3"
                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -29,7 +29,7 @@
                 </xsl:result-document>
             </xsl:for-each>
             <xsl:for-each select=".[note[@displayLabel = 'embargo'] != 0]">
-                <xsl:result-document href="file:/C:/Users/achisum.FSU/OneDrive%20-%20Florida%20State%20University/Documents/GitHub/etd-metadata/Project_pq-pdfdata2mods/MODS/split_mods_Islandora/2022Su/mods_embargoed/{$filename}">
+                <xsl:result-document href="file:/C:/Users/achisum.FSU/OneDrive%20-%20Florida%20State%20University/Documents/GitHub/etd-metadata/Project_pq-pdfdata2mods/MODS/split_mods_Islandora/COMBINED_2022ABSpSuStrag_2022CFa_2023ASp/{$filename}">
                     <mods:mods xmlns="http://www.loc.gov/mods/v3" xmlns:flvc="info:flvc/manifest/v1" xmlns:dcterms="http://purl.org/dc/terms/"
                         xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:mods="http://www.loc.gov/mods/v3"
                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"

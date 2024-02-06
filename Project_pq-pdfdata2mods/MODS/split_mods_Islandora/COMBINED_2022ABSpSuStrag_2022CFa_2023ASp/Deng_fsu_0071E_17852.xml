@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Topics on Mixture Models and Discriminant Analysis</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0003-6832-6947</nameIdentifier>
+      <namePart type="family">Deng</namePart>
+      <namePart type="given">Kai</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/xzhang8">
+      <namePart type="family">Zhang</namePart>
+      <namePart type="given">Xin</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/yyang3">
+      <namePart type="family">Yang</namePart>
+      <namePart type="given">Yanyun</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/qmai">
+      <namePart type="family">Mai</namePart>
+      <namePart type="given">Qing</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Statistics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Mixture models for clustering and regressions and discriminant analysis are the cornerstones of multivariate statistics and supervised/unsupervised learning research. The structure of data has become increasingly complex in many modern applications including but not limited to computational biology, recommendation systems and text/image analysis. Therefore, it is of great interest to develop methodologies and algorithms for mixture models and discriminant analysis that target the challenges arising from such complex data. In this dissertation, I address three types of challenging supervised and unsupervised topics with novel methodologies and algorithms: (1) tensor data simultaneous clustering and multiway dimension reduction; (2) high-dimensional heterogeneous data in mixture linear regression; (3) multivariate and multi-label response classification in high dimensions. The three chapters are elaborated as follows. In the form of multi-dimensional arrays, tensor data have become increasingly prevalent in modern scientific studies and biomedical applications such as computational biology, brain imaging analysis, and process monitoring system. These data are intrinsically heterogeneous with complex dependencies and structure. Therefore, ad-hoc dimension reduction methods on tensor data may lack statistical efficiency and can obscure essential findings. Model-based clustering is a cornerstone of multivariate statistics and unsupervised learning; however, existing methods and algorithms are not designed for tensor-variate samples. In the first chapter, we propose a Tensor Envelope Mixture Model (TEMM) for simultaneous clustering and multiway dimension reduction of tensor data. TEMM incorporates tensor-structure-preserving dimension reduction into mixture modeling and drastically reduces the number of free parameters and estimative variability. An EM-type algorithm is developed to obtain likelihood-based estimators of the cluster means and covariances, which are jointly parameterized and constrained onto a series of lower-dimensional subspaces known as the tensor envelopes. We demonstrate the encouraging empirical performance of the proposed method in extensive simulation studies and a real data application in comparison with existing vector and tensor clustering methods. In the second chapter, we consider the problem of finite mixture of linear regressions (MLR) for high-dimensional heterogeneous data where the sample size is much smaller than the number of random variables, which is widely used in many modern applications such as biological science, genetics and engineering. In order to capture the common sparse structure in large heterogeneous data, traditional high-dimensional EM algorithm can be computational intractable thus fail to produce meaningful estimation results. We propose a fast group-penalized EM algorithm (FGEM) for high-dimensional MLR that estimates the regression coefficients from a group sparsity perspective and is computationally efficient and less sensitive to initialization. The statistical property of the proposed algorithm is established without requiring sample-splitting that allows the predictor dimension grows exponentially with the sample size. We demonstrate the encouraging performance of FGEM in numerical studies in comparison with traditional high-dimensional EM algorithms. The problem of classifying multiple categorical responses is pervasive in modern machine learning and statistics, with diverse applications in fields such as bioinformatics and image classification. The third chapter investigates linear discriminant analysis (LDA) with high-dimensional predictors and multiple multi-class responses. Specifically, we examine two different classification scenarios under the bivariate LDA model: joint classification of the two responses and conditional classification of one response while observing the other. To achieve optimal classification rules for both scenarios, we introduce two novel tensor formulations of the discriminant coefficients and corresponding penalties. For joint classification, we propose an overlapping group lasso penalty and a blockwise coordinate descent algorithm to efficiently compute joint tensor discriminant coefficients. For conditional classification, we utilize an alternating direction method of multipliers (ADMM) algorithm to compute tensor discriminant coefficients under new constraints. We extend our method and algorithms to general multivariate responses. Finally, we validate the effectiveness of our approach through simulation studies and real data examples.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">April 3, 2023.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Xin Zhang Major, Professor Directing Dissertation; Yanyun Yang, University Representative; Qing Mai, Committee Member; Joshua Daniel Loyal, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <topic>Statistics</topic>
+   </subject>
+   <identifier  type="IID">Deng_fsu_0071E_17852</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Culturally Inclusive Instructional Strategies Implemented by Designers-by-Assignment in Higher Education Student Services</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-2038-047X</mods:nameIdentifier>
+      <mods:namePart type="family">Smith</mods:namePart>
+      <mods:namePart type="given">Colleen M.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kstaudtwillet">
+      <mods:namePart type="family">Staudt Willet</mods:namePart>
+      <mods:namePart type="given">K. Bret</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/lperezfelkner">
+      <mods:namePart type="family">Perez-Felkner</mods:namePart>
+      <mods:namePart type="given">Lara</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2003122703">
+      <mods:namePart type="family">Klein</mods:namePart>
+      <mods:namePart type="given">James D.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2012007578">
+      <mods:namePart type="family">Jones</mods:namePart>
+      <mods:namePart type="given">Tamara Bertrand</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Education</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Education</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Research has recognized that a student's culture plays a role in how they experience an online learning environment, and many higher education institutions are challenged by retaining and graduating historically underserved students identified as a "success gap". For historically underserved students – defined in this study as students of color, first-generation college students who are the first in their families to attend college, and students from a low-income household – gaining access to, retaining in, and matriculating to post-secondary education can be a challenge. One factor to include in the assessment of the "success gap" is the increasing number of racially and ethnically diverse students, first-generation college students, and low-income students enrolling in online classes and programs. By acknowledging the presence of learners' diverse cultural backgrounds, instructors, instructional designers, and designers-by-assignment (DBAs)—an impromptu instructional designer—can systematically incorporate cultural values throughout the design and development process. There is a growing concern from DBAs, such as faculty and student support staff in higher education, to address the success gap of diverse students through more inclusive online learning design. Since the instructional systems design field has not been able to produce a more situated framework or consistent strategies for inclusive online learning and culturally sustaining instructional strategies, this study will explore the expertise of higher education administrators who are culturally inclusive subject matter experts (SMEs) and DBAs—specifically staff who work with the Ronald E. McNair Scholars program—to identify key attributes of inclusive online learning environments and culturally sustaining instructional strategies for higher educations' increasingly diverse student population. Since McNair Scholar staff are DBAs and SMEs in inclusive education and support of historically underserved populations, they could benefit from implementing instructional design models in their online learning environments. This exploratory multiple-case study uses the Culturally Sustaining Instructional Design model as a conceptual framework to investigate how and why DBA administrators in higher education incorporate inclusive strategies into their instructional design practices. The six major themes and culturally sustaining strategies found in the data include creating a space for authentic learning, creating access to learning materials, selecting an inclusive instructional approach, creating a network of support, clarifying expectations, and being flexible. Analysis also found that there were contextual factors and desired outcomes that influenced the DBAs' decisions to implement culturally sustaining instructional strategies. Finally, four thematic categories were discussed by the participants when discussing how they assessed their instructional strategies: Engaging with the Feedback Loop, Observing Changes in the Scholar, Measuring the Scholar's Learning, and Issues Identified with Assessing Effectiveness. Finally, I describe implications of my findings for each major theme found for culturally inclusive strategies: Space, Access, Instructional Approach, Network of Support, Expectations, and Flexibility. Working with first-generation college students, students from low-income backgrounds, and underrepresented minority students in higher education, McNair DBAs modeled culturally sustaining instructional strategies by making systematic decisions to implement inclusive online learning environments. This study contributes culturally sustaining strategies to the literature that are popular among McNair DBAs. Ultimately, the success gap will minimize if all online learning environments are intentionally designed for the inclusion of diverse students.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Education in partial fulfillment of the requirements for the degree of Doctor of Education.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 7, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">culturally sustaining instructional design, culture, designers-by-assignment, instructional design, online learning environment</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">K. Bret Staudt Willet, Ph.D, Professor Directing Dissertation; Lara Perez-Felkner, University Representative; James Klein, Committee Member; Tamara Bertrand Jones, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85066762">
+      <mods:topic>Instructional systems</mods:topic>
+      <mods:topic>Design</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh2009102068">
+      <mods:topic>Education, Higher</mods:topic>
+      <mods:topic>Administration</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85041150">
+      <mods:topic>Educational technology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Smith_fsu_0071E_17674</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Education</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Educational Psychology and Learning Systems</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

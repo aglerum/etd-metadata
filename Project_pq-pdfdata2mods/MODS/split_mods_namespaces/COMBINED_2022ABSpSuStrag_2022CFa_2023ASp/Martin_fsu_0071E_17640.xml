@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Wind Resource Estimation and Conceptual Design of a near Future Wind Turbine for Tropical Cyclone Winds</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-7792-8048</mods:nameIdentifier>
+      <mods:namePart type="family">Martin</mods:namePart>
+      <mods:namePart type="given">Omar Sean</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/sjung">
+      <mods:namePart type="family">Jung</mods:namePart>
+      <mods:namePart type="given">Sungmoon</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/avanli">
+      <mods:namePart type="family">Vanli</mods:namePart>
+      <mods:namePart type="given">Omer Arda</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2008010967">
+      <mods:namePart type="family">Spainhour</mods:namePart>
+      <mods:namePart type="given">Lisa</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2008104649">
+      <mods:namePart type="family">Tawfiq</mods:namePart>
+      <mods:namePart type="given">Kamal Sulaiman</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Civil and Environmental Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (255 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Current U.S. energy policy, which includes wind and solar incentives, favors the increased use of renewables for power generation. Renewable energy incentives and falling technology costs support robust growth in renewable energy resources as shares of coal and nuclear power decrease. It is projected by the U.S. Energy Information Agency that renewable generation will supply 44% of U.S. electricity by 2050. For wind energy, the International Electrotechnical Commission (IEC) defines four IEC Wind Classes – Class I (High Wind), Class II (Medium Wind), Class III (Low Wind), and Class IV (Very Low Wind). Most utility-scale wind farms are constructed at Class II or higher sites where average annual wind speeds at hub height are 8.5 m/s or greater. To expand wind power to states like Florida, which is typically third in the nation in overall electricity consumption, it will be necessary to develop wind power at an increasing number of low and very low wind sites. One way this development can take place is by implementing new technologies. The Department of Energy (DOE), in Enabling Wind Power Nationwide, states that "near-future turbines" – defined as conceptual wind turbines with rotor diameters of 124 m, turbine nameplate capacities of 1.8 MW, and hub heights of 140 m – have the potential to bring wind energy to all 50 states. This research examined ten years of hourly wind speed data collected at Florida airports to determine temporal and spatial characteristics of the wind resource. It was found that for low and very low wind regions with large numbers of calm or sub-threshold wind speed measurements, Weibull probability distribution functions tend to overestimate wind energy production. Three characteristic histogram shapes were identified to improve estimates. This information was used to determine the wind energy potential for near-future turbines and to develop a conceptual structural support system. In low and very low wind regions, reduced shear turbulence and wind thrust help to reduce fatigue damage on the turbine rotors, components, and support systems. For locations like Florida, located in coastal regions of the Atlantic Hurricane Basin with an average of 12 named storms each year, these advantages are partially offset, as design is typically governed by load cases that include tropical cyclone winds. For turbines supported on shallow circular or octagonal foundations, common in the industry, it is essential to predict the settlement and tilt of an eccentrically loaded foundation with a soil gap to ensure stability. Numerical modeling was performed for foundation diameter-to-thickness ratios of 5, 10, 15, and 20 to verify a new solution procedure that uses existing elastic settlement equations with the equivalent bearing area definition found in Design Guide for Wind Turbines. Differences in modeled and calculated settlements had an MSE of less than 0.15 for all cases. Conservative estimates of differential settlement were found using a 35% increase factor.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Civil and Environmental Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 8, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">Eccentrically loaded foundations, Foundation settlement, Low wind regions, Wind energy, Wind resource estimation, Wind turbine foundations</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Sungmoon Jung, Professor Directing Dissertation; Arda Vanli, University Representative; Lisa Spainhour, Committee Member; Kamal Tawfiq, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85026331">
+      <mods:topic>Civil engineering</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Martin_fsu_0071E_17640</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Civil and Environmental Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

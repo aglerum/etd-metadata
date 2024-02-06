@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Characteristics of Low-Level Wind Shear and Wind Profiler Based Alerting in Bali, Indonesia</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-4153-225X</nameIdentifier>
+      <namePart type="family">Wulandari</namePart>
+      <namePart type="given">Elok Suci</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="viaf"
+         authorityURI="http://viaf.org/viaf/"
+         valueURI="http://viaf.org/viaf/105342888">
+      <namePart type="family">Bourassa</namePart>
+      <namePart type="given">Mark Allan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing thesis</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2018001437">
+      <namePart type="family">Liu</namePart>
+      <namePart type="given">Guosheng</namePart>
+      <namePart type="termsOfAddress">(Professor of meteorology)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing thesis</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2002071189">
+      <namePart type="family">Misra</namePart>
+      <namePart type="given">Vasubandhu</namePart>
+      <namePart type="date">1970-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Earth, Ocean, and Atmospheric Science</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (58 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Low-level wind shear (LLWS) is one of the most common aviation hazards in both clear and bad weather conditions. Low-level wind shear is dangerous for landing or taking off activities because it can cause the aircraft to overshoot or undershoot. The short spatial and temporal scale of the occurrence of low-level wind shears and the lack of understanding of its characteristics cause the wind shear warnings can not to be carried out optimally. Therefore, this study aims to determine the characteristics of low-level wind shear that occurs in the Bali region, especially at Ngurah Rai International Airport. This study mainly uses two years of observational data from wind profilers to determine when LLWS occurs based on reports from pilots and wind shear warnings. This data will then also be used to calculate the value of the bulk Richardson number (Rb), which will be used to determine the condition of atmospheric stability during the LLWS. Additional data in the form of weather radar data and ERA5 will also be used to identify weather phenomena that can affect LLWS events. The results showed that LLWS in the Bali region most often occurred from morning to noon and in clear weather conditions. Moreover, the leading cause of LLWS is due to the inversion layer. The blocking of momentum transfer by the inversion layer usually causes LLWS to form at a threshold value of -0.25&lt;Rb&lt;0.1. Changes in the value of Rb and the formation of an inversion layer affect the location of the occurrence of LLWS, where most occur above the inversion layer or above the layer with a value of Rb&lt;0.1. The calculation of the skill score shows a good result for the POD value of 0.7, FAR 0.27, CSI 0.55, and ETS 0.43, which indicates that LLWS can mostly occur if it is followed by a decrease in Rb in the threshold value range for four minutes and a change in wind direction and speed of 5 kt for ten minutes.</abstract>
+   <note  displayLabel="Submitted Note">A Thesis submitted to the Department of Earth, Ocean, and Atmospheric Science in partial fulfillment of the requirements for the degree of Master of Science.</note>
+   <note  displayLabel="Date of Defense">November 9, 2022.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Mark A. Bourassa, Professor Co-Directing Thesis; Guosheng Liu, Professor Co-Directing Thesis; Vasubandhu Misra, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85084334">
+      <topic>Meteorology</topic>
+   </subject>
+   <identifier  type="IID">wulandari_fsu_0071N_17613</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

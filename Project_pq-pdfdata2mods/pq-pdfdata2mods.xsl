@@ -28,12 +28,12 @@
 
     <!-- **Global variables** -->
     <!-- Batch Variable -->
-    <xsl:variable name="batch" select="'2022_Summer'"/>
+    <xsl:variable name="batch" select="'2022ABSpSuStrag_2022CFa_2023ASp'"/>
 
     <!-- These paths change with each semester-->
-    <xsl:variable name="pdfdata" select="document('source_pdfdata/source_pdfdata_2022Su_uris.xml')/records/record"/>
-    <xsl:variable name="committee" select="document('tables/ETD-NAF_mads_20230126.xml')/mads:madsCollection/mads:mads/mads:authority"/>
-    <xsl:variable name="authors" select="document('tables/authors_2022Su.xml')/authors/name"/>
+    <xsl:variable name="pdfdata" select="document('source_pdfdata/COMBINED_2022ABSpSuStrag_2022CFa_2023ASp_uris.xml')/records/record"/>
+    <xsl:variable name="committee" select="document('tables/ETD-NAF_mads_20231120.xml')/mads:madsCollection/mads:mads/mads:authority"/>
+    <xsl:variable name="authors" select="document('tables/authors_COMBINED_2022ABSpSuStrag_2022CFa_2023ASp.xml')/authors/name"/>
 
     <!-- These paths refer to data tables -->
     <xsl:variable name="PQ-FSU-dept" select="document('tables/PQ-FSUdept.xml')/departments/department"/>
@@ -294,7 +294,7 @@
 
                     <!-- **identifier** -->
                     <mods:identifier type="IID">
-                        <xsl:value-of select="concat($batch, '_', substring-before($binary, '.pdf'))"/>
+                        <xsl:value-of select="substring-before($binary, '.pdf')"/>
                     </mods:identifier>
 
 

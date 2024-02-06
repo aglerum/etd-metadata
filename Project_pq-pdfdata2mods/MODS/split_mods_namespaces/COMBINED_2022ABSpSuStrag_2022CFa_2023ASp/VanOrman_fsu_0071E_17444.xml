@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Dimensionality Tuning of Triplet Sensitizers for Triplet-Triplet Annihilation-Based Upconversion</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-7773-012X</mods:nameIdentifier>
+      <mods:namePart type="family">VanOrman</mods:namePart>
+      <mods:namePart type="given">Zachary</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/lnienhaus">
+      <mods:namePart type="family">Nienhaus</mods:namePart>
+      <mods:namePart type="given">Lea</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/dhallinan">
+      <mods:namePart type="family">Hallinan</mods:namePart>
+      <mods:namePart type="given">Daniel T.</mods:namePart>
+      <mods:namePart type="termsOfAddress">Jr.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/nb2009002696">
+      <mods:namePart type="family">Mattoussi</mods:namePart>
+      <mods:namePart type="given">Hedi</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kghanson">
+      <mods:namePart type="family">Hanson</mods:namePart>
+      <mods:namePart type="given">Kenneth G.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemistry and Biochemistry</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (207 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Photon upconversion (UC), especially through the process of triplet-triplet annihilation (TTA), is capable of combining two photons into one higher energy photon which could be captured in applications such as photovoltaics, photocatalysis, optogenetics, imaging and sensing, and many others. TTA-UC systems rely on spin-triplet states donated from a sensitizer material, which is commonly either an organometallic molecule or a semiconductor nanocrystal confined in three dimensions, typically referred to as a quantum dot. This dissertation encompasses a different approach to triplet sensitization specifically applied to TTA-UC. Semiconductor nanocrystals with quantum confinement relaxed in either one or two dimensions have unique properties endowed by their shape, size, and anisotropic nature, making them viable candidates for triplet sensitization. Chapter 3 explores CdTe nanorods, materials with two dimensions of quantum confinement, as potential triplet sensitizer materials in a red-to-blue TTA-UC scheme. TTA-UC is successfully observed in this system with a UC efficiency better or comparable to similar nanocrystal sensitized systems. Chapter 4 investigates the use of CdSe nanoplatelets, which are only quantum confined in their thickness. Here, the nanoplatelets are compared directly to quantum dots. Comparing the results of the nanoplatelet and quantum dot sensitized systems results in an interplay between the incident power threshold required for efficient TTA-UC and the UC efficiency, attributed to stacking of the nanoplatelets, which was shown to inhibit the performance of the nanoplatelet sensitized system. In Chapter 5, bulk semiconductors are explored as potential triplet sensitizers, through the use of bulk metal halide perovskites, which rely on no quantum confinement, and sensitize the annihilator molecule through a free charge mechanism. The performance of these systems is reliant on many factors, including the composition, fabrication method of the perovskite sensitizer, and the illumination time of the perovskite, which tunes its defect density. In summary, this dissertation looks beyond conventional semiconductor quantum dots as triplet sensitizer materials toward a new class of materials which include nanorods, nanoplatelets, and bulk semiconductors. In all cases, TTA-UC is successfully observed. However, the lasting relevance of these systems may rest on their ability to sensitize TTA-UC systems in the solid-state, which is a key development for their implementation into solid-state device applications such as photovoltaics. Bulk perovskite sensitized systems are already among the most efficient and useful solid-state triplet sensitizers, while nanorods and nanoplatelets could outperform existing solid-state nanocrystal sensitizers due to their improved exciton diffusion lengths upon self-assembly. These potential strategies and future developments toward improving TTA-UC are further discussed in Chapter 6, where we look toward the potentially bright future of TTA-UC, especially toward device-relevant applications.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 19, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Lea Nienhaus, Professor Directing Dissertation; Daniel Hallinan, University Representative; Hedi Mattoussi, Committee Member; Ken Hanson, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85022986">
+      <mods:topic>Chemistry</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">VanOrman_fsu_0071E_17444</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

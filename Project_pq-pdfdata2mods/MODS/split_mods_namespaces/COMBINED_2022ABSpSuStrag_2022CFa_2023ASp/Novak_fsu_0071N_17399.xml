@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Quantifying the Evolution of GFS and GEFS Mean Tropical Cyclone Track Error and the Synoptic Environments in Which Large Forecast Errors Occur</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-3651-900X</mods:nameIdentifier>
+      <mods:namePart type="family">Novak</mods:namePart>
+      <mods:namePart type="given">Kelly A.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/rhart">
+      <mods:namePart type="family">Hart</mods:namePart>
+      <mods:namePart type="given">Robert E. (Robert Edward)</mods:namePart>
+      <mods:namePart type="date">1972-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jchagnon">
+      <mods:namePart type="family">Chagnon</mods:namePart>
+      <mods:namePart type="given">Jeffrey M.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2002071189">
+      <mods:namePart type="family">Misra</mods:namePart>
+      <mods:namePart type="given">Vasubandhu</mods:namePart>
+      <mods:namePart type="date">1970-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2018001437">
+      <mods:namePart type="family">Liu</mods:namePart>
+      <mods:namePart type="given">Guosheng</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Professor of meteorology)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Earth, Ocean, and Atmospheric Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (101 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Over the past few decades, numerical weather prediction (NWP) models (and by extension human forecasts) have evolved markedly due to better meteorological understanding, improved observations, data assimilation, physics parameterization, and increased model resolution (Simmons and Hollingsworth 2001, Elsberry 2013, Landsea and Cangialosi 2018). This includes operational modeling of tropical cyclones (TCs), which were poorly resolved in the mid-1990's but are currently well-resolved in mesoscale models and even some global models. Despite these improvements, there are still cases of large model forecast error and ensemble disagreement (e.g. Sandy 2012, Joaquin 2015, Matthew 2016, Florence 2018). It is important to know if these model improvements are coincident with less frequent poor TC model forecasts over time. In other words, are large model forecast error events becoming less frequent as models have improved? Identification of recurring synoptic environments in which these poor model forecasts occur is also important not only from a meteorological understanding point of view, but also to aid the forecasters to identify in advance of such forecast meteorological setups. Accordingly, the focus of this study is to evaluate how the National Centers for Environmental Prediction's (NCEP's) Global Forecast System (GFS) and Global Ensemble Forecast System ensemble mean (GEFSM) have improved with respect to TC track forecasting over the past two decades, and quantify whether the frequency of truly poor forecasts (e.g. 90th percentile track error) has changed over that period of time. Using the National Hurricane Center's (NHC's) archived model run (advisory files) and verified data (best track files) for the years 2005 through 2020, track errors for the GFS and GEFSM were calculated and statistically analyzed. From those statistics, all forecasts with track error at or above the 90th percentile were identified and the climatology of those forecasts over the years was developed. A comparison between the GFS and GEFSM was also conducted to further evaluate the evolution of TC forecast error over time given the improvements to the GEFS have not been coincident with the GFS. Lastly, spatiotemporal patterns of both track error and synoptic-scale setups common to those cases of poor model performance were identified and subjectively evaluated. This analysis found there was no statistically significant trend in the frequency of these poor GFS track forecasts between 2005 and 2020. However, there was a statistically significant trend in the frequency of poor GEFSM track forecasts. Across the 16 seasons, when the monthly distribution of the worst 10% of track forecasts was normalized by the monthly distribution of all forecasts made (i.e., removing the seasonal cycle), there was not a particular month during which significantly more poor GFS or GEFSM track forecasts occurred. A comparison between the average track error of the GFS and GEFSM showed that on average there was smaller GFS mean track error through 72-hour forecasts. Beyond 78 hours, the GEFSM on average outperformed (had smaller track error) than the GFS. Geographically, both models produced poor forecasts for storms in the same month and general basin location. When analyzing the cases in which one of the models, rather than both, produced inaccurate track forecasts, it was found that a considerably large number of poor forecasts were made in the area between 20°N and 24.9°N, 65°W and 69.9°W by either one of the models, a region of the Atlantic basin in which many TCs recurve as the mean flow changes and vertical shear increases. Finally, the synoptic environments in which these poor forecasts occurred were evaluated. Patterns in the orientations of the forecast and observed tracks in the 90th percentile of track error were analyzed and grouped into four categories: vertical ladder, horizontal ladder, funnel, and timing error. In addition, synoptic-scale features potentially related to these large error patterns, such as the subtropical high and the presence of other TCs, were analyzed.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Earth, Ocean, and Atmospheric Science in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 27, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Robert Hart, Professor Directing Thesis; Jeffrey Chagnon, Committee Member; Vasubandhu Misra, Committee Member; Guosheng Liu, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85084334">
+      <mods:topic>Meteorology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Novak_fsu_0071N_17399</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

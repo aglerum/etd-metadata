@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Development of a Discrete Event Simulation Model for the Bus System at the FAMU-FSU College of Engineering</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">https://orcid.org/0000-0001-8062-518X</nameIdentifier>
+      <namePart type="family">Meriga</namePart>
+      <namePart type="given">Vamshi Krishna</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mdulebenets">
+      <namePart type="family">Dulebenets</namePart>
+      <namePart type="given">Maxim A.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing thesis</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2008021083">
+      <namePart type="family">Moses</namePart>
+      <namePart type="given">Ren</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2009109194">
+      <namePart type="family">Ozguven</namePart>
+      <namePart type="given">Eren Erman</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Civil and Environmental Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (97 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Mobility and access are the two essential criteria for evaluating any mode of transportation. A private vehicle comes at the top when we think about mobility and access. But an increase in the utilization of private vehicles has many drawbacks, such as an increase in traffic congestion, air pollution, fuel consumption, etc., which also affect public health. It is essential to provide an efficient public transportation system to minimize these effects, especially in urban areas. Bus transportation is one of the significant modes of transport with a good capacity compared to private vehicles, but there is a need to compromise for access. Bus transportation is an essential mode of transportation for students, faculty, and staff, especially to travel to, around, and from school and work. It is always necessary that buses reach the stop on time and service all the passengers waiting at the stop, considering peak hour demands and potential uncertainties in transportation time. To achieve such an objective, it is essential to improve the serviceability of the bus transportation network. This study focuses on improving the operations of the Florida State University (FSU) campus bus service, Seminole Express, for the ―INNOVATION‖ bus route in Tallahassee, Florida (USA). The ―INNOVATION‖ bus route service connects the main FSU campus with the FAMU-FSU College of Engineering and is heavily used by the FSU students. A simulation model is built using the FlexSim simulation software to emulate the operations of the ―INNOVATION‖ bus route service to determine the required number of buses to be deployed. An excessive number of buses may increase the operational costs and idling time. In the meantime, an insufficient number of buses will cause significant waiting times at the bus stop, which are not desirable as some students may be late for their classes. The developed simulation model will assist with effectively planning the bus route connecting the main FSU campus with the FAMU-FSU College of Engineering by providing solutions with adequate waiting time and operational costs</abstract>
+   <note  displayLabel="Submitted Note">A Thesis submitted to the Department of Civil and Environmental Engineering in partial fulfillment of the requirements for the degree of Master of Science.</note>
+   <note  displayLabel="Date of Defense">November 10, 2022.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Maxim A. Dulebenets, Professor Directing Thesis; Ren Moses, Committee Member; Eren E. Ozguven, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85137042">
+      <topic>Transportation</topic>
+      <topic>Planning</topic>
+   </subject>
+   <identifier  type="IID">Meriga_fsu_0071N_17619</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Civil and Environmental Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

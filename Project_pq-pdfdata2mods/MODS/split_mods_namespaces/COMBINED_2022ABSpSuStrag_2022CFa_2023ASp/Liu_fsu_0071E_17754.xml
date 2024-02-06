@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Two Essays on Crowdfunding and Consumer Returns</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-2361-1835</mods:nameIdentifier>
+      <mods:namePart type="family">Liu</mods:namePart>
+      <mods:namePart type="given">Dan</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2015030840">
+      <mods:namePart type="family">Shang</mods:namePart>
+      <mods:namePart type="given">Guangzhi</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mholmes">
+      <mods:namePart type="family">Holmes</mods:namePart>
+      <mods:namePart type="given">R. Michael (Robert Michael)</mods:namePart>
+      <mods:namePart type="termsOfAddress">Jr.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ni05d">
+      <mods:namePart type="family">Ilk</mods:namePart>
+      <mods:namePart type="given">Noyan</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Business</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Business Analytics, Information Systems and Supply Chain</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>During my childhood, my family owned a small convenience store that served members of our community. However, our family business had to close because of customers who failed to pay. I find that small businesses tend to be more susceptible to unexpected internal and external forces than their larger counterparts. Small businesses constitute the economy's lifeblood, but they obviously need more help and support than large companies. I am thus interested in researching the funding-related and operational difficulties that small retailers and startups face and especially what I can do to help them survive these challenges. My first dissertation research focuses on how crowdfunding platforms can help protect economically struggling entrepreneurs during the COVID-19 pandemic. Crowdfunding is a new technology platform providing access to two parties: entrepreneurs and SMEs who launch campaigns to collect money and funders who visit the platform and decide whether to support the project. Despite only being around since 2009, crowdfunding has become a popular entrepreneurship financing option and is catching up to traditional financing channels like venture capital. I propose that such a fast-growing online technology platform offers a vital financing resource for financially constrained entrepreneurs during the pandemic. My empirical analysis results confirm my proposition that the number of funders, the size of their contributions, and their total investment amounts all increased with the increased severity of COVID-19, challenging the existing belief that a crisis has a negative effect on entrepreneurship financing. I further examine that one plausible reason for funders' increasing investment demand is altruism-- funders are more willing to support and help entrepreneurs to bring their projects to life when they are struggling financially due to COVID-19. This result is consistent with current findings about the altruistic nature of funders noted in the literature. However, on the supply side, entrepreneurs have reduced their project-launching activities despite more financing opportunities on the demand side. I therefore urge entrepreneurs to launch new ventures to tap into crowdfunding resources. My second dissertation paper focuses on consumers' response to a product failure: product returns. Many retailers treat product returns as an evil because returns hurt their bottom line. However, researchers have pointed out recently that a return serves as another customer touchpoint to enhance consumer relationships. A superior return experience can turn angry, frustrated customers into happy ones so that they increase their purchases in the future. While existing research focuses on the overall effect of returns on future consumer purchases, I question whether this effect applies to all returns. I classify consumer returns based on the reason for the return—the wrong size, not liking the item, disappointment with the quality, and other reasons. Then I examine how the reason for the return impacts future consumer purchases. My regression results suggest that only sizing returns increase the likelihood of consumer repurchases. In contrast, items returned because the consumer doesn't like the product decrease consumer repurchases and returns based on quality concerns do not significantly affect consumer repurchases. I explain my results based on the attribution theory: customers return reasons influence how they blame a seller and then how they respond. For example, sizing returns, at least partially, can be self-ascribed to consumers because consumers' body dimensions— height, chest size, waist size, and so on—vary significantly, and so designing a product to fit everyone can be challenging. Due to self- attribution, customers tend to have a lower initial dissatisfaction caused by a return event, which a redress process (i.e., a good return experience) can easily recover. Our paper contributes to consumer return literature by addressing the rarity of return-reason-related research. We also provide important managerial insights to improve retailers' return service recovery practices and customer value evaluation using return reason data.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Business Analytics, Information Systems and Supply Chain in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 11, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">Consumer Returns, COVID-19, Crowfunding, Service Recovery, SME Financing</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Guangzhi Shang, Professor Directing Dissertation; Michael Holmes, University Representative; Noyan Ilk, Committee Member; Guanyi Lu, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh87002293">
+      <mods:topic>Information technology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85048256">
+      <mods:topic>Finance</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Liu_fsu_0071E_17754</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

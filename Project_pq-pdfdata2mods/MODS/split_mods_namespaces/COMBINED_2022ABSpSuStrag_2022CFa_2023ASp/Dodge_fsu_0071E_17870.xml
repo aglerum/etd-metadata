@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Study of a Dielectric Elastomer Acoustic Liner</mods:title>
+      <mods:nonSort>A</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-1312-1197</mods:nameIdentifier>
+      <mods:namePart type="family">Dodge</mods:namePart>
+      <mods:namePart type="given">Chelsea</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2006067722">
+      <mods:namePart type="family">Cattafesta</mods:namePart>
+      <mods:namePart type="given">Louis N.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2011075473">
+      <mods:namePart type="family">Tam</mods:namePart>
+      <mods:namePart type="given">Christopher K. W.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kshoele">
+      <mods:namePart type="family">Shoele</mods:namePart>
+      <mods:namePart type="given">Kourosh</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/woates">
+      <mods:namePart type="family">Oates</mods:namePart>
+      <mods:namePart type="given">William</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Mechanical Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>A device that can be used to attenuate noise generated in an engine nacelle of an aircraft is an acoustic liner. A conventional single degree of freedom (SDOF) acoustic liner is comprised of a perforated face sheet, honeycomb cells, and a rigid backing. The attenuation characteristics of an SDOF liner are a function of its dimensions and the fluid properties of the medium. In other words, the device is passive and provides a constant impedance boundary condition on the nacelle walls. However, noise generated by an aircraft is a function of the phase of flight it is in. To maximize attenuation over the entire duration of the flight, it would be advantageous if the liner could change its attenuation capabilities based on the flight phase. This dissertation presents the development of a dielectric elastomer acoustic liner (DEAL), a device which can modify its acoustic properties. The DEAL is comprised of a standard SDOF liner with its cavity depth split by a compliant dielectric elastomer (DE). A dielectric elastomer is a smart material capable of changing shape. When a DE is maintained in tension and subjected to an electric field, it can produce large strains resulting in a decrease in stiffness and resonance frequency. When a DE is coupled with an acoustic liner, actuating the DE effectively modifies the resonance frequency of the entire liner. The design of a DEAL would be aided with a model to choose the best dimensions and DE material properties. A lumped element model (LEM) of a dielectric elastomer is verified and validated. We assume the elastomer behaves as a membrane because it is very thin and cannot support a bending moment. Therefore, we derive the LEM from the damped wave equation. We validate the model by experimentally measuring the normal velocity on the membrane surface using a laser doppler vibrometer while subjecting the membrane to a low frequency, sinusoidal pressure loading. The results prove the membrane assumption is accurate because the mode shape derived aligns with the mode shape measured. Using the relationship between pressure loading and volume displacement as a function of static deflection, the LEM is created. The resonance frequency is a function of material properties, dimensions and stress where the stress is a function of the applied voltage. Decrease of the membrane resonance when subjected to an electric field is measured and compared to predictions, with a maximum difference of 2.3\% at 5 kV. The results validate the LEM of the dielectric elastomer membrane, allowing integration into an acoustic liner model to predict the acoustic impedance of a DEAL. The modeling, design, and optimization of a DEAL is then performed. A lumped element model of an embedded dielectric elastomer acoustic liner is derived and validated in a normal incidence impedance tube and is subsequently used to optimize its performance. The optimization cost functions include (1) maximization of the absorption coefficient over a targeted frequency range, 400 – 1600 Hz, and (2) maximization of the change in the fundamental resonance frequency of the liner when the membrane is activated. Good agreement between measured and predicted absorption is observed. Tuning of the resonant frequency requires us to numerically solve for resonance using the imaginary part of the impedance, since an analytical expression for resonance could not be derived due to coupling between the acoustics of the liner and the vibrations of the DE membrane. Nonetheless, resonant frequency shifts predicted with the lumped element model compare favorably to those measured with the activated liner sample, with a shift of over 200 Hz. For the DE membrane tested here, the total weight added by the membrane for 1 million cells is 4.5 kg, a small weight addition for a relatively thin liner with low frequency attenuation.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Mechanical Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 4, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">Acoustic Liner, Dielectric Elastomer, Lumped Element Model</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Louis Cattafesta, Professor Directing Dissertation; Christopher Tam, University Representative; Kourosh Shoele, Committee Member; William Oates, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh2002006100">
+      <mods:topic>Acoustics</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh95007821">
+      <mods:topic>Aerospace engineering</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Dodge_fsu_0071E_17870</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Mechanical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Development of a Computer-Vision Based Model to Identify Demolition Activities</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-9976-1592</mods:nameIdentifier>
+      <mods:namePart type="family">Shooshtari</mods:namePart>
+      <mods:namePart type="given">Mohammad Javad</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jchoi3">
+      <mods:namePart type="family">Choi</mods:namePart>
+      <mods:namePart type="given">Juyeong</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yabdelrazig">
+      <mods:namePart type="family">AbdelRazig</mods:namePart>
+      <mods:namePart type="given">Yassir</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2006090378">
+      <mods:namePart type="family">Sobanjo</mods:namePart>
+      <mods:namePart type="given">John Olusegun</mods:namePart>
+      <mods:namePart type="date">1958-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/schakraborty2">
+      <mods:namePart type="family">Chakraborty</mods:namePart>
+      <mods:namePart type="given">Shayok</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Civil and Environmental Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Demolition projects are dependent on heavy equipment operations, and therefore, the success of these projects hinges on efficient heavy equipment usage. While previous studies have focused on tracking heavy equipment productivity in construction operations, such as earthwork, manually tracking the duration of heavy equipment activities can be time-consuming, labor-intensive, and prone to errors. To address this, recent studies have employed artificial intelligence-based methods to automatically identify heavy equipment activities and measure productivity in construction operations. However, unlike earthwork activities, which are relatively simple and repetitive, demolition activities are more complex and dynamic, involving structural demolition and material separation. As a result, applying existing approaches to identify demolition activities raises questions. This study proposes an automatic vision-based activity identification model that uses three-dimensional Convolutional Neural Networks (CNNs) to extract spatial and temporal features simultaneously. The model can recognize three excavator activities related to material separation, namely grabbing, swinging, and dumping, used in demolition operations. To develop the model, small-scale excavators were used to simulate real-world demolition operations while recording videos of the experiments using two cameras. The recorded video datasets were manually labeled and used to train the proposed model. Since demolition projects are not as common as construction projects, it can take a while to collect real-world data for training and validating the activity identification model. Thus, small-scale demolition simulations were used to validate the feasibility of the vision-based activity identification model, supporting its application for full-scale demolition productivity improvement. The model achieves an accuracy of 93.68% on the training dataset and 91.84% on the validation dataset. The study highlights the impact of camera placement on the model's performance, suggesting future research to optimize camera placement and configuration. Overall, this research contributes to the development of accurate and effective automated activity identification models for demolition projects. By using computer vision-based models to identify demolition activities automatically, the proposed approach is less labor-intensive, more efficient, and more accurate than traditional approaches, ultimately enhancing the productivity of demolition projects.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Civil and Environmental Engineering in partial fulfillment of the requirements for the degree of Master of Civil Engineering.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 17, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">Activity Identification, Computer Vision, Demolition Projects</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Juyeong Choi, Professor Directing Thesis; Yassir AbdelRazig, Committee Member; John Sobanjo, Committee Member; Shayok Chakraborty, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85026331">
+      <mods:topic>Civil engineering</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Shooshtari_fsu_0071N_17660</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Civil and Environmental Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

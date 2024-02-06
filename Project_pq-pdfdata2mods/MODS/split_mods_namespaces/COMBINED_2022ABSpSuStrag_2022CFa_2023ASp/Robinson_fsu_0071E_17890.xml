@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Terrain-Influenced Winds and Fire-Fire Interactions in Wildland Fire Simulations</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-3230-0465</mods:nameIdentifier>
+      <mods:namePart type="family">Robinson</mods:namePart>
+      <mods:namePart type="given">David</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/bquaife">
+      <mods:namePart type="family">Quaife</mods:namePart>
+      <mods:namePart type="given">Bryan</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2013073385">
+      <mods:namePart type="family">Huffer</mods:namePart>
+      <mods:namePart type="given">Fred W. (Fred William)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2009143870">
+      <mods:namePart type="family">Speer</mods:namePart>
+      <mods:namePart type="given">Kevin G. (Kevin George)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yaghoobian">
+      <mods:namePart type="family">Yaghoobian</mods:namePart>
+      <mods:namePart type="given">Neda</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Program in Geophysical Fluid Dynamics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Ensemble-based approaches to prescribed fire planning cannot be supported by computational fluid dynamics based models like FIRETEC and the Wildland-Urban Interface Fire Dynamics Simulator (WFDS) because they are too computationally expensive and cannot leverage large eddy simulation approaches like CAWFE and WRF-SFIRE because they have too coarse of resolution. QUIC-Fire was developed to fill this gap but it cannot currently address complex terrain, that is typical for instance in the Western United States. This dissertation describes a variety of improvements made to QUIC-Fire and its various incorporated algorithms in an effort to make it a viable tool in simulating wildland and prescribed fires on terrain. The modifications made to QUIC-Fire are described in three chapters. The first chapter describes the extension of the diagnostic wind model QUIC-URB, the wind engine of QUIC-Fire, to a terrain-following coordinate system. The terrain- influenced winds it generates are analyzed and compared. In particular, this chapter presents the mathematical derivation of the wind solver leading to a linear system of equations that are solved through the successive over-relaxation method. The model is validated against a standard test used in previous works (the Askervein Hill) and against a new dataset from measurements in the Socorro Mountains, New Mexico. The terrain-following implementation captures the correct phenomenology for the isolated Askervein Hill, with a wind speed up at the top of the hill. The model agrees well with measurements on the upwind side of the peak, but overestimates speed-up on the downwind side of the hill. This is due to the inability of the model to generate flow separation and wake-eddy dynamics. On a common laptop, the divergence-free wind field is obtained in 6 s, making the solver appealing for coupled fire-atmosphere simulations. The Socorro Mountain is highly complex, with many cliff faces, peaks, and valleys. Although the model captures the magnitude and direction of inlet and outlet areas of the domain, it performs rather poorly in the valley region and in the regions near the steep cliffs. Hence, the model shows good agreement with data in areas of open sloped terrain but lacks in areas where flow separation and thermally driven effects may be present (neither effect is addressed in this work). In the second chapter the implementation of the terrain-following version of QUIC-URB into QUIC-Fire, and the necessary changes needed to include terrain are described. No changes to the underlying fire spread algorithm are made other than what is required to correctly account for the inclusion of terrain. Previously published FIRETEC results that use five different topographies that share the same centerline profile are compared to simulation results from the modified QUIC-Fire that use the same topographies and fuels. QUIC-Fire results show overall similar behaviors in terms of how the topographies affect fire shapes and trends in spread rates. Due to the terrain-following version of QUIC-URB being unable to generate flow separations at the crest of hills, fire spread rates in these regions across all topographies are over-predicted when compared to FIRETEC. Lateral fire growth shows simi- lar trends with FIRETEC between topographies but does not capture the increase in spread due to a diagonal interface between grassland and forested fuel region of the domain. These results suggest that there are three algorithms within QUIC-Fire that could use improvement: how flame tilt angle is accounted for, the incorporation of non-local drag effects, and the inclusion of the wake-eddy parameterizations that are used in QUIC-URB. Lastly, the third chapter describes a modification to the initial guess used for the calculation of the QUIC-URB mass-conserved wind solution during fire simulations. The modification is aimed at improving fire-fire interactions in QUIC-Fire simulations. The modification consists of using the solution from the previous timestep as the starting point for the calculation of the solution for the next timestep. Fire-fire interactions is greatly improved by the change but a new source of error is introduced. Due to how plumes are modelled in QUIC-Fire the new solution contains errors where gaps in the plume structure are present. However, these errors are mostly limited to the upper atmosphere, where they do not affect fire behavior at the surface, and their magnitude isn't significant enough to discount the amount of new fire phenomenology now captured in QUIC-Fire with the change.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Program in Geophysical Fluid Dynamics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 10, 2023.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Bryan Quaife, Professor Directing Dissertation; Fred Huffer, University Representative; Rodman Linn, Committee Member; Kevin Speer, Committee Member; Neda Yaghoobian, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85009289">
+      <mods:topic>Atmospheric sciences</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Robinson_fsu_0071E_17890</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Scientific Computing</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

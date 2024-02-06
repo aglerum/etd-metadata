@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Wind Resource Estimation and Conceptual Design of a near Future Wind Turbine for Tropical Cyclone Winds</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-7792-8048</nameIdentifier>
+      <namePart type="family">Martin</namePart>
+      <namePart type="given">Omar Sean</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/sjung">
+      <namePart type="family">Jung</namePart>
+      <namePart type="given">Sungmoon</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/avanli">
+      <namePart type="family">Vanli</namePart>
+      <namePart type="given">Omer Arda</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2008010967">
+      <namePart type="family">Spainhour</namePart>
+      <namePart type="given">Lisa</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2008104649">
+      <namePart type="family">Tawfiq</namePart>
+      <namePart type="given">Kamal Sulaiman</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Civil and Environmental Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (255 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Current U.S. energy policy, which includes wind and solar incentives, favors the increased use of renewables for power generation. Renewable energy incentives and falling technology costs support robust growth in renewable energy resources as shares of coal and nuclear power decrease. It is projected by the U.S. Energy Information Agency that renewable generation will supply 44% of U.S. electricity by 2050. For wind energy, the International Electrotechnical Commission (IEC) defines four IEC Wind Classes – Class I (High Wind), Class II (Medium Wind), Class III (Low Wind), and Class IV (Very Low Wind). Most utility-scale wind farms are constructed at Class II or higher sites where average annual wind speeds at hub height are 8.5 m/s or greater. To expand wind power to states like Florida, which is typically third in the nation in overall electricity consumption, it will be necessary to develop wind power at an increasing number of low and very low wind sites. One way this development can take place is by implementing new technologies. The Department of Energy (DOE), in Enabling Wind Power Nationwide, states that "near-future turbines" – defined as conceptual wind turbines with rotor diameters of 124 m, turbine nameplate capacities of 1.8 MW, and hub heights of 140 m – have the potential to bring wind energy to all 50 states. This research examined ten years of hourly wind speed data collected at Florida airports to determine temporal and spatial characteristics of the wind resource. It was found that for low and very low wind regions with large numbers of calm or sub-threshold wind speed measurements, Weibull probability distribution functions tend to overestimate wind energy production. Three characteristic histogram shapes were identified to improve estimates. This information was used to determine the wind energy potential for near-future turbines and to develop a conceptual structural support system. In low and very low wind regions, reduced shear turbulence and wind thrust help to reduce fatigue damage on the turbine rotors, components, and support systems. For locations like Florida, located in coastal regions of the Atlantic Hurricane Basin with an average of 12 named storms each year, these advantages are partially offset, as design is typically governed by load cases that include tropical cyclone winds. For turbines supported on shallow circular or octagonal foundations, common in the industry, it is essential to predict the settlement and tilt of an eccentrically loaded foundation with a soil gap to ensure stability. Numerical modeling was performed for foundation diameter-to-thickness ratios of 5, 10, 15, and 20 to verify a new solution procedure that uses existing elastic settlement equations with the equivalent bearing area definition found in Design Guide for Wind Turbines. Differences in modeled and calculated settlements had an MSE of less than 0.15 for all cases. Conservative estimates of differential settlement were found using a 35% increase factor.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Civil and Environmental Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">November 8, 2022.</note>
+   <note  displayLabel="Keywords">Eccentrically loaded foundations, Foundation settlement, Low wind regions, Wind energy, Wind resource estimation, Wind turbine foundations</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Sungmoon Jung, Professor Directing Dissertation; Arda Vanli, University Representative; Lisa Spainhour, Committee Member; Kamal Tawfiq, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85026331">
+      <topic>Civil engineering</topic>
+   </subject>
+   <identifier  type="IID">Martin_fsu_0071E_17640</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Civil and Environmental Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

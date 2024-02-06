@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>How to Design for People in Space Factors Influencing Astronauts' Psychological Well-Being during Long-Term Space Travel</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-6580-9092</mods:nameIdentifier>
+      <mods:namePart type="family">Smith</mods:namePart>
+      <mods:namePart type="given">Hannah Brooke</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ymclane">
+      <mods:namePart type="family">McLane</mods:namePart>
+      <mods:namePart type="given">Yelena</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/swebber">
+      <mods:namePart type="family">Webber</mods:namePart>
+      <mods:namePart type="given">Steven B.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2017038591">
+      <mods:namePart type="family">Dawkins</mods:namePart>
+      <mods:namePart type="given">Jim (James D.)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mransdell">
+      <mods:namePart type="family">Ransdell</mods:namePart>
+      <mods:namePart type="given">Marlo E.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Fine Arts</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Interior Architecture and Design</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (274 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The purpose of this study was to investigate the effects of isolated and confined spacecraft environments on astronauts' psychological well-being with the aim to develop innovative strategies to mitigate senses of stress and anxiety in spacecrafts. Specifically, the author identified the features of spacecraft interior environments that negatively or positively affected astronauts' perceptions of the environment and stress levels, including the size of spacecraft, orientation and layout, color, and presence of portholes. Space travel has been a longtime aspiration of humans. In historical terms, we only recently started exploring outer frontiers of Earth and planning for a distinct possibility to travel to neighboring Mars. During long-term space travel, astronauts may experience high levels of stress and anxiety, which may affect their well-being, create tension between crew members, and complicate the completion of tasks, ultimately leading to mission failure. The most critical issues related to astronauts' psychological well-being are physical isolation, stresses working and living in a hostile environment where a simple mistake can result in severe injuries or death, necessity to share workspaces and living quarters with other crew members resulting in limited privacy and personal space, and fatigue due to packed schedules. Two theoretical frameworks discussed in Chapter 2 of this thesis identify the specific aspects of the physical environment and psychological climate aboard spacecraft needed to maintain astronauts' well-being: the Self-Determination Theory (Goemaere et al., 2019; Ryan et al., 2014) and the framework for relating crew member performance measures to spacecraft design and operations (Fanchiang et al., 2020), referred to as the Crew Member Performance Framework in this research. The interior design of spacecraft environments is essential to support not only the lives of astronauts but to help them with successful performance of work-related tasks, activities, and communication, enable physical mobility, and provide a supportive environment for crew socialization, recreation, and rest. The data for this qualitative ethnographic study was gathered from three different sources: publicly accessible astronauts journals and books, spacecraft schematics, and photo and video materials. The research focused on the analysis of the interior environment of the International Space Station, which has been continually operating and hosting astronaut crews since November of 2000. The data was analyzed using DeDoose qualitative coding software to identify thirty-two emerging themes over five major categories that characterize spacecraft interior environments: microgravity, workday, psychological health, design features, and other issues. A close examination of these categories indicates that module functionality, safety details, together with size, wayfinding and orientation, comfort and privacy features, incorporation of portholes, and color are the characteristics of spacecraft interior environments that affect astronauts' overall psychological well-being and stress levels most. In the programming phase, the researcher analyzed historic spacecraft schematics to determine the potentially most effective design solutions for the project portion of this thesis, the renovation of the International Space Station. These results can be utilized by spacecraft engineers, architects, and interior designers to serve the needs of astronauts by supporting their psychological well-being and enhancing their experience onboard spacecraft during long-term space travel.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Interior Architecture and Design in partial fulfillment of the requirements for the degree of Master of Fine Arts.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 28, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">astronaut, interior design, perceptions, space travel, spacecraft, well-being</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Yelena McLane, Professor Directing Thesis; Steven Webber, Committee Member; James D. Dawkins, Committee Member; Marlo Ransdell, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85037197">
+      <mods:topic>Design</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85006611">
+      <mods:topic>Architecture</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85083615">
+      <mods:topic>Mental health</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Smith_fsu_0071N_17336</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Fine Arts</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Interior Design</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

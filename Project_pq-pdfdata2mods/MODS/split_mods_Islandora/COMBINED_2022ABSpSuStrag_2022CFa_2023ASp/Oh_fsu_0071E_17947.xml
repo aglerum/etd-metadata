@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Impact of Artificial Intelligence on the Future Workforce</title>
+      <subTitle>The Case of Advanced Manufacturing</subTitle>
+      <nonSort>The</nonSort>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-3075-5266</nameIdentifier>
+      <namePart type="family">Oh</namePart>
+      <namePart type="given">Sang Hoo</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2005117623">
+      <namePart type="family">Mardis</namePart>
+      <namePart type="given">Marcia A.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2009109194">
+      <namePart type="family">Ozguven</namePart>
+      <namePart type="given">Eren Erman</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/smho">
+      <namePart type="family">Ho</namePart>
+      <namePart type="given">Shuyuan Mary</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/smho">
+      <namePart type="family">Metcalfe</namePart>
+      <namePart type="given">Shuyuan Ho</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Communication and Information</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>School of Information</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >This study aims to examine the impact of AI on advanced manufacturing (AM) workforce. Recent progress in AI technology is at the core of AM as AI includes different technologies that will lead to the digitization of factories. While AI promises to revolutionize the field AM, little is known about how ready the AM workforce may be to make best use of AI and how best AM technicians can be readied for a career that is infused with AI. Therefore, in this research, not only I explored the AM workforce's readiness, as expressed though industry competencies, to use AI, but also examined the areas in which AI will affect the AM workforce's competencies, skills, and knowledge. This research applied sequential explanatory mixed-method study in which quantitative data results are considered in a qualitative phase. First, I collected and analyzed the quantitative data using natural language processing (NLP). I applied NLP to extract and compare noun, verbs, and verb-noun pairs in AI patents and the Advanced Manufacturing Competency Model. The second, qualitative, phase builds on the first, quantitative phase, and the two phases are connected in the intermediate stage in the study. For qualitative phase, expert panel review was done by conducting focus group interview. My study found that while the AI patents and the Advanced Manufacturing Competency Model do not completely topically overlap, they do reflect each other in some of the key areas such as data, device, information, and system. Also, AI technology has the potential to perform certain activities related to identify, process, and control in the field of AM industry. Moreover, AI technology functions overlap with a significant proportion of, academic competencies, workplace competencies, and industry competencies, with 76%, 70%, and 93% respectively. The results of this study suggest the potential for AI to perform competencies in various domains does not necessarily mean that AI will replace, enhance, or collaborate with humans. The integration of AI in these domains will require careful consideration of the roles of both AI and human workers to optimize process efficiency and quality. The study also has implications for research, practice (Library and Information Science Curriculum), and industry.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the School of Information in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">March 31, 2023.</note>
+   <note  displayLabel="Keywords">Advanced Manufacturing, AI, Workforce Readiness</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Marcia A. Mardis, Professor Directing Dissertation; Eren Ozguven, University Representative; Shuyuan Mary Ho, Committee Member; Caroline Stratton, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85066150">
+      <topic>Information science</topic>
+   </subject>
+   <identifier  type="IID">Oh_fsu_0071E_17947</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Information Studies</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

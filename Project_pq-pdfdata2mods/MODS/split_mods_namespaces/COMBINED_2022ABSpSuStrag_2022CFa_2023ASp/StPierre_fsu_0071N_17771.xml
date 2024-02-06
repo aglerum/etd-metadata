@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Bethlehem's Arsenal</mods:title>
+      <mods:subTitle>Bethlehem Steel Corporation's Mobilization in World War II, 1939-1945</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">https://orcid.org/0009-0001-1522-4651</mods:nameIdentifier>
+      <mods:namePart type="family">St Pierre</mods:namePart>
+      <mods:namePart type="given">Marc</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n99039428">
+      <mods:namePart type="family">Grant</mods:namePart>
+      <mods:namePart type="given">Jonathan A.</mods:namePart>
+      <mods:namePart type="date">1963-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2006041794">
+      <mods:namePart type="family">Creswell</mods:namePart>
+      <mods:namePart type="given">Michael</mods:namePart>
+      <mods:namePart type="date">1958-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n94025256">
+      <mods:namePart type="family">Piehler</mods:namePart>
+      <mods:namePart type="given">G. Kurt</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of History</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Bethlehem Steel Corporation was once America's largest private shipbuilder and the second largest steel producer in the world. At its formation in 1904, its founder and chairman Charles M. Schwab combined the plants, mills, mines and other properties of the Bethlehem Steel Company with United States Shipbuilding Corporation to form the Bethlehem Steel Corporation. Much of the historical literature on Bethlehem Steel focuses on explaining the corporation's downfall. Corporate publications from the wartime era underline Eugene G. Grace's central role in how Bethlehem viewed, advertised and promoted itself to a wider audience of employees, customers, government officials and the public. This study analyzes publications from this period in the press, industry trade journals, and Bethlehem Steel's own bulletins and announcements to explore how the corporation, its managers and its employees navigated the wartime years from 1939 through 1945. The main research question is: How did Bethlehem Steel mobilize its plants, yards and workforce in support of the American and Allied war effort during World War II? Production remained the dominant theme throughout the war: producing more steel, ships and other defense-related materials as fast as possible. Shipbuilding was Bethlehem's most important contribution to the war effort, followed closely by its steel production. The corporation's integrated nature was a source of strength for wartime production. Bethlehem Steel contributed an enormous amount of raw steel, munitions, fabricated steel products, naval and merchant shipping, and ship repair work in meeting the nation's defense needs. To meet its production demands Bethlehem Steel expanded its workforce to unprecedented levels. Bethlehem's leaders expected and demanded the loyalty of its employees. Anything less represented disloyalty to the nation's war effort. Lastly, Bethlehem actively promoted its public image. It portrayed itself as a patriotic, benevolent and paternalistic viii corporation, leading the charge on the front lines of America's industrial production. Through its effort, teamwork and leadership Bethlehem promoted itself as a decisive contributor to the eventual Allied victory. Bethlehem Steel was an integrated corporation, which went beyond the physical layout and infrastructure of its steel mills and shipyards. Bethlehem also took an integrated approach to narrating its wartime history. In its published materials Bethlehem Steel Corporation emphasized its production, its steadfast loyalty to the United States and a consistently positive corporate image.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of History in partial fulfillment of the requirements for the degree of Master of Arts.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 22, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">Bethlehem, Bethlehem Steel Corporation, Johnstown, Shipbuilding, Steel Industry, World War II</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Jonathan Grant, Professor Directing Thesis; Michael Creswell, Committee Member; G. Kurt Piehler, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85061212">
+      <mods:topic>History</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">StPierre_fsu_0071N_17771</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Arts</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>History</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

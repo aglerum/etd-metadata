@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Lucifer's Light</mods:title>
+      <mods:subTitle>on Matchsticks, Markets, and Morals in Nineteenth-Century England</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-7271-7463</mods:nameIdentifier>
+      <mods:namePart type="family">Carrico</mods:namePart>
+      <mods:namePart type="given">Thomas Joseph</mods:namePart>
+      <mods:namePart type="termsOfAddress">Jr.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mday">
+      <mods:namePart type="family">Day</mods:namePart>
+      <mods:namePart type="given">Matthew</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2008053260">
+      <mods:namePart type="family">Upchurch</mods:namePart>
+      <mods:namePart type="given">Charles</mods:namePart>
+      <mods:namePart type="date">1969-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2003111440">
+      <mods:namePart type="family">Kavka</mods:namePart>
+      <mods:namePart type="given">Martin</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n88005645">
+      <mods:namePart type="family">Kelsay</mods:namePart>
+      <mods:namePart type="given">John</mods:namePart>
+      <mods:namePart type="date">1953-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Religion</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (149 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This dissertation examines market-based shifts in moral reasoning within nineteenth-century England's lucifer matchstick industry. Lucifers were the first widely-produced friction matches, able to be struck on any surface thanks to a compound including elemental (also called white or yellow) phosphorus on the matchstick head. Unfortunately, it was recognized very early in the industry's life that workers exposed to white phosphorus were at risk of developing a gruesome jaw disease. Osteonecrosis of the jaw, colloquially referred to as "phossy jaw", caused gum soreness, tooth loss, bone deterioration, and, in the most serious cases, death. As I argue, over the history of lucifer manufacture, the moral dilemma of industrial disease came to be addressed as a market problem that required a market solution. By focusing on primary sources and moral responses in the early lucifer industry, this dissertation traces the development of a market-based moral response to phossy jaw. I argue that the moral solutions to the dilemmas of the matchstick industry preserved a host of harmful arrangements while casting them in the optimistic light of progress towards a just market. In short, the market could not solve the problems that the market was causing. In order to clarify this dynamic, I build on Karl Polanyi's theory of the double movement of marketization and protectionism that came to be characteristic of market society. Over the course of the nineteenth century, the move to treat "the market" as something separate from society that also ought to arrange society, had deleterious effects on the social bonds between human beings. The requirement to work for a wage and the imperative to produce commodities to sell at profit required that human activity and nature be treated as commodities. On a large scale, this resulted in harm to people and the environment, but this harm was addressed through social, political, and legal forms of protectionism that addressed the damage while preserving the market imperatives that caused it. On a smaller scale, phossy jaw and the lucifer industry provide a case study in the ways that this grand movement impacted the daily lives of children, women, and men who produced matchsticks. After the introduction, the next two chapters tell the history of two constants in the industry: the production of phosphorus-tipped matchsticks and phossy jaw. Chapter Two is the history of phosphorus production from its discovery to its application in matchstick manufacture. Chapter Three, "A Grinning Death's Head", analyzes several early medical reports of the disease itself and contains graphic accounts of the disease and its clear link to lucifer production. Chapters Four and Five illustrate the ways that responses to the industry's dilemmas preserved the production of a harmful commodity while casting its preservation as a moral good using the emerging categories of the logic of the market. Chapter Four uses Henry Mayhew's London Labour and the London Poor to illustrate the wide-ranging reach of the industry, from factory laborers to street laborers. Mayhew's work witnesses to the ways that, in Polanyian terminology, the social was being subsumed to the demands of the market. Mayhew illustrates the interconnectedness of society even while categorizing human activity in market terms, thereby reproducing the conditions necessary for society to become arranged to primarily support commodity production. Chapter Five examines the ways that a factory commissioner's report in the early 1860s provides the moral framework to justify the continued production of lucifers. The report does so by changing every aspect of the industry except the commodity itself. The conclusion illustrates the ways that these approaches solved the problem of phossy jaw without ever solving the problem of phossy jaw and, more broadly, the way that market-based solutions failed to solve market-induced moral dilemmas.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Religion in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">October 12, 2022.</mods:note>
+   <mods:note displayLabel="Keywords">Karl Polanyi, Lucifer Match, Victorian England</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Matthew Day, Professor Directing Dissertation; Charles Upchurch, University Representative; Martin Kavka, Committee Member; John Kelsay, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85045096">
+      <mods:topic>Ethics</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85061212">
+      <mods:topic>History</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85112549">
+      <mods:topic>Religion</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Carrico_fsu_0071E_17547</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Religion</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

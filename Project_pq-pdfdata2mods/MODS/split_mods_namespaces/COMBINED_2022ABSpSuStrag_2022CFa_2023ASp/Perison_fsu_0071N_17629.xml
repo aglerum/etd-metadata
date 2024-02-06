@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Post Audit of a Subregional Groundwater Flow Model</mods:title>
+      <mods:subTitle>Simulated vs. Measured Discharge at Wakulla Springs and Implications for Future Modeling</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-2165-2510</mods:nameIdentifier>
+      <mods:namePart type="family">Perison</mods:namePart>
+      <mods:namePart type="given">Elizabeth</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mye">
+      <mods:namePart type="family">Ye</mods:namePart>
+      <mods:namePart type="given">Ming</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n85215468">
+      <mods:namePart type="family">Salters</mods:namePart>
+      <mods:namePart type="given">Vincent J. M.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yw16f">
+      <mods:namePart type="family">Wang</mods:namePart>
+      <mods:namePart type="given">Yang</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Graduate Assistant in Teaching)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Earth, Ocean, and Atmospheric Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (111 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>In groundwater modeling, the term "post audit" refers to a method of verifying simulated (predicted) data produced by a groundwater model against analogous measured data. According to Anderson et. al., (2015), evaluation of model performance includes two components: a "hard knowledge" evaluation which compares direct field measurements with simulated values; and a "soft knowledge" evaluation of the conceptual flow model. This two-pronged approach applies relevant concepts from the literature, site conditions, hydrogeological principles, and professional experience to comprehensively evaluate the suitability of model assumptions, parameters, and performance with respect to the hydrogeologic system, purpose of investigation, and available resources. If a model fails to achieve an acceptable history-match with measured data or applies unreasonable calibration parameters, the model must be modified or discarded (Anderson et. al., 2015). Of course, a universal standard of what may be considered "suitable" or "reasonable" in groundwater modeling is not possible, as any interpretations made to this effect inherently depend upon the hydrogeologist's experience with the problem at hand. Therefore, any such interpretations must be substantiated by quality data, and include the caveat that human error may give rise to inherent or random bias in these interpretations. In the interest of supporting environmental management efforts, the subject thesis investigation is a post audit of the Davis subregional groundwater flow model, which evaluates the accuracy of model-predicted discharge at Wakulla Spring from 2010 through 2018. This investigation is structured with the intent to resolve causal mechanisms of anomalous discharge trends at Wakulla Springs over time. Parameters compared for this evaluation were selected based on the model purpose and model calibration approach. These parameters include simulated and measured spring discharge at Wakulla Spring's main vent, plus simulated and measured hydraulic heads from 4 wells close to Wakulla Springs from 2010 through 2018. The quantitative accuracy of model-predicted discharge and hydraulic head is evaluated by applying standard statistical methods in groundwater modeling. The Nash-Sutcliffe coefficient and the Root Mean Square Error for model "residuals" (measured values minus simulated values) describe error associated with model-predicted spring discharge and hydraulic head values, respectively. Model error statistics are considered with respect to the model purpose, design, and observed system behavior. Results of the post audit evaluation culminate in two main conclusions which support model updates to optimize utility and overall accuracy of the subregional model, rendering a robust tool in support of conservation and water resource planning near Wakulla Springs. Based on evaluation of post audit results and hydrologic data, it is proposed that recharge rate simulated simulated during stress periods 50 and 54 (corresponding to years 2010 and 2014) in the numerical model should be updated to reflect all sources of recharge in the groundwater contribution area. This update is suggested in accordance with observed changes in permitted wastewater discharges in the immediate recharge area for Wakulla Springs between 2010 and 2014. Additionally, the conceptual model of groundwater flow may benefit from an update that accounts for two mechanisms that are unique to hydrologic conditions of the study area. These mechanisms include anthropogenic drivers of system recharge, and conduit flows associated with karst lake dry down events during times of seasonal drought. These conclusions are significant because they optimize the potential for future application of this model to relevant management issues; offer a mechanistic understanding of anomalous flow trends observed in recent years at Wakulla Springs; and demonstrate the sensitivity of first magnitude karst springs to anthropogenic inputs.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department Of Earth, Ocean, and Atmospheric Sciences in partial fulfillment of the requirements for the degree of Master of Geology.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 18, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Ming Ye, Professor Directing Thesis; Vincent Salters, Committee Member; Yang Wang, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85054037">
+      <mods:topic>Geology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85063458">
+      <mods:topic>Hydrology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Perison_fsu_0071N_17629</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

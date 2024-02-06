@@ -8,7 +8,7 @@
     <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
     <xsl:strip-space elements="*"/>
 
-    <xsl:variable name="authority" select="doc('file:/C:/Users/achisum.FSU/OneDrive%20-%20Florida%20State%20University/Documents/GitHub/etd-metadata/Project_pq-pdfdata2mods/tables/committee_withURIs_2022Su.xml')/names/name"/>
+    <xsl:variable name="authority" select="doc('file:/C:/Users/achisum.FSU/OneDrive%20-%20Florida%20State%20University/Documents/GitHub/etd-metadata/Project_pq-pdfdata2mods/tables/committee_withURIs_2022C_Fall_2022AB_stragglers.xml')/names/name"/>
   
 
     <xsl:template match="@* | node()">

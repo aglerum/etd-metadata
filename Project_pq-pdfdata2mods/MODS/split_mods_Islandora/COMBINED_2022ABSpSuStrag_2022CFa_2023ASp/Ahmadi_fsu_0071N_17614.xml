@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Assessing the Response of the Biscayne Aquifer Underlying Miami-Dade County to Climate Change and Sea Level Rise</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-1246-6161</nameIdentifier>
+      <namePart type="family">Ahmadi</namePart>
+      <namePart type="given">Mohammad Sadeq</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/nalamdari">
+      <namePart type="family">Alamdari</namePart>
+      <namePart type="given">Nasrin</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing thesis</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/tabichou">
+      <namePart type="family">Abichou</namePart>
+      <namePart type="given">Tarek</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2009109194">
+      <namePart type="family">Ozguven</namePart>
+      <namePart type="given">Eren Erman</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Civil and Environmental Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (121 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Florida is more at risk of sea level rise (SLR) and climate change compared with any other state in the United States. Due to its heavily populated coastal districts, moderately sloping low-lying geography, and strategic economic significance, Miami-Dade County, located in the southeast of Florida, is especially susceptible to SLR and climate change. Miami, which is the county's main metropolis, is frequently listed as one of the most susceptible and prone cities in the world to marine and groundwater flooding. Biscayne aquifer, the extremely pervious and porous (mostly limestone), is overlaid by Miami-Dade County which serves as the principal supply of drinkable water in the area. Thus, it is vital to evaluate the potential impacts of climate change and SLR on the aquifer. This work aimed to assess the response of the Biscayne aquifer to climate change and SLR. An existing coupled groundwater and surface water model has been used for this purpose. The model was built utilizing current hydraulic and hydrogeological data as well as an estimate of where the freshwater and seawater interface is located. The model is based on the MODFLOW-NWT. The projected rainfall values derived from the coupled model intercomparison project phase 6 (CMIP6) and SLR values from the literature were introduced in the model. The model does not have a user interface and this python programming and geographical information system (GIS) tools were utilized to process and present the input and output data. The findings reveal the impacts of climate change and SLR are marine and groundwater flooding and saltwater intrusion. The seawater will flood about 1241 km2 of coastal areas nearly 42 percent of onshore areas in 2069 under worst scenario due to SLR combined with low topography. Due to the high-water table brought on by SLR, roughly 2082 km2 the area is also vulnerable to groundwater floods. Although it is anticipated that water consumption would rise due to population expansion, saltwater intrusion limits the amount of freshwater that is available, making it unpredictable when households will have access to water. Therefore, while developing policies and plans for the county, policymakers and planners must consider the dangers brought on by SLR and climate change.</abstract>
+   <note  displayLabel="Submitted Note">A Thesis submitted to the Department of Civil and Environmental Engineering in partial fulfillment of the requirements for the degree of Master of Civil Engineering.</note>
+   <note  displayLabel="Date of Defense">November 12, 2022.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Nasrin Alamdari, Professor Directing Thesis; Tarek Abichou, Committee Member; Eren Erman Ozguven, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85026331">
+      <topic>Civil engineering</topic>
+   </subject>
+   <identifier  type="IID">Ahmadi_fsu_0071N_17614</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Civil and Environmental Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

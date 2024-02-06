@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Trailer Treasure</mods:title>
+      <mods:subTitle>Short Fiction</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0007-4803-9130</mods:nameIdentifier>
+      <mods:namePart type="family">Hadlock</mods:namePart>
+      <mods:namePart type="given">Amanda</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n99257900">
+      <mods:namePart type="family">Stuckey-French</mods:namePart>
+      <mods:namePart type="given">Elizabeth</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n93019374">
+      <mods:namePart type="family">Roberts</mods:namePart>
+      <mods:namePart type="given">Diane</mods:namePart>
+      <mods:namePart type="date">1959-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2008084444">
+      <mods:namePart type="family">Horack</mods:namePart>
+      <mods:namePart type="given">Skip</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of English</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Trailer Treasure is a collection of original short stories and flash fiction pieces centered around the perspectives of working-class women and girls. My unifying approach to craft which I utilize throughout the collection is T.S. Eliot's theory of objective correlative. In his craft theory book The Sacred Wood, Eliot defines objective correlative as "a set of objects, a situation, a chain of events which shall be the formula of that particular emotion; such that when the external facts… are given, the emotion is immediately evoked" (100). Therefore, a character's interactions with objects in the story reveal the character's emotional state of being and emotional development throughout the course of the story. This indirect representation of emotion through concrete objects is more emotionally affective for readers than stating a character's emotions outright in abstract language. Although Eliot's theory is originally intended for application to poetry, I argue that objective correlative is as useful a craft approach when writing fiction. Character is revealed and developed through characters' interactions with objects, and an object can stand in for an emotion as effectively in fiction as it can in poetry. Furthermore, the use of objects in fiction can serve as a satisfying conceit around which to structure a story, and an object that is introduced early on in a story can be recalled toward the story's end to create a satisfying sense of "rhyming action," a term coined by the writer Charles Baxter in his craft book Burning Down the House: Essays on Fiction, which refers to a return to an earlier dramatic image toward a story's denouement in order to provide a sense of recognition and narrative closure for the reader. In the crafting of flash fiction, especially, the theoretical approach of objective correlative is useful. A flash piece does not span as much time as a full-length story, and when writing flash, the author is challenged with restraints to both story time and discourse time. To quickly define and distinguish, "Story [time] refers to the actual chronology of events in a narrative; discourse [time] refers to the manipulation of that story [time] in the presentation of the narrative" (Felluga). Works of flash fiction require both more exclusive selection of chronological events and scenes to include in the story, and less space on the page/a lesser word count within which to convey those events. To overcome these restraints on time, a flash piece can be structured around an objective correlative. This technique is usefully borrowed from poetry, as the form of flash fiction is close to poetry.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of English in partial fulfillment of the requirements for the degree of Master of Fine Arts.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 29, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">flash fiction, short fiction</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Elizabeth Stuckey-French, Professor Directing Thesis; Diane Roberts, Committee Member; Bruce Horack, Jr., Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85033847">
+      <mods:topic>Creative writing</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Hadlock_fsu_0071N_17778</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Fine Arts</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>English</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

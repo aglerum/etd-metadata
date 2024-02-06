@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Exploratory Flux Growth and Properties of Rare Earth Silicides and Gallides</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-4084-1149</mods:nameIdentifier>
+      <mods:namePart type="family">Haddock</mods:namePart>
+      <mods:namePart type="given">Jo</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/latturne">
+      <mods:namePart type="family">Latturner</mods:namePart>
+      <mods:namePart type="given">Susan</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/xiong">
+      <mods:namePart type="family">Xiong</mods:namePart>
+      <mods:namePart type="given">Peng</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/shatruk">
+      <mods:namePart type="family">Shatruk</mods:namePart>
+      <mods:namePart type="given">Mykhailo</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/strouse">
+      <mods:namePart type="family">Strouse</mods:namePart>
+      <mods:namePart type="given">Geoffrey F.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemistry and Biochemistry</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (95 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Flux synthesis is a very powerful and versatile technique for the exploratory synthesis of rare earth intermetallics. Reactions of rare earth metals and alkali earth elements with silicon in a Mg/Al flux or a Mg/Zn flux have yielded single crystals of a series of new complex intermetallic phases. The structures of products were determined by single crystal X-ray diffraction. Identical reactions were explored in both fluxes; both yielded large crystals suitable for study using single crystal X-ray diffraction and magnetic susceptibility measurements, although Mg/Zn reactions produced higher yields and larger crystals. While elemental analysis indicates that the product formed in the Mg/Al melts contains traces of aluminum, no incorporation of zinc was observed in compounds formed in the Mg/Zn flux. Reactions of Eu, Ca, and Si in either Mg/Zn or Mg/Al yield products with two structure types depending on the ratio of europium to calcium in the final product. Calcium-rich reactions produce Ca1-xEuxMgSi (0 &lt; x &lt; 0.7) compounds with the orthorhombic TiNiSi structure type in space group Pnma. Increasing europium content led to the prevalence of Eu8-xCaxMg16Si12 (0 &lt; y &lt; 3.4) products with the hexagonal Ho5Ni19P12 structure type in space group P-62m. In all the products, Eu is expected to be divalent, however there may be some switching to a trivalent state in the TiNiSi type compound due to chemical pressure. In all cases these compounds appear to order ferromagnetically. Ba6R1.8Mg18.2Si13 (R = Dy, Y) grow as large crystals from reactions of barium, silicon, and either dysprosium or yttrium in Mg/Al or Mg/Zn fluxes. The presence of the trivalent Y or Dy in the reaction mixture promotes the formation of Ba6R1.8Mg18.2Si13 in the Ho6Ni20P13 structure type (hexagonal P-6 space group) instead of the expected Ba5Mg19Si12 (Ho5Ni19P12 type). The trivalent cations are incorporated at a specific amount in the compound, mixing on one particular Mg site in the structure. Magnetic susceptibility measurements on Ba6Dy1.8Mg18.2Si13 confirm the presence of Dy3+ and indicate magnetic ordering at 9 K. The low melting point of gallium flux enabled an in-situ neutron diffraction study of the reaction of Ce and Ni in excess gallium. Initial formation of CeNi0.74Ga3.26 was seen at high temperature; this transforms into Ce2NiGa10 and Ce2NiGa12 below 600°C. This information enabled isolation of the high temperature phase by quenching the flux reaction at high temperature. CeNi0.74Ga3.26 is a strongly anisotropic ferromagnet below 7 K.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 7, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Susan Latturner, Professor Directing Dissertation; Peng Xiong, University Representative; Michael Shatruk, Committee Member; Geoffrey Strouse, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85023017">
+      <mods:topic>Chemistry, Inorganic</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Haddock_fsu_0071E_17488</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Chromosomal Passenger Complex</mods:title>
+      <mods:subTitle>Regulation and Function in the Cell Cycle in Budding Yeast</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-7980-1190</mods:nameIdentifier>
+      <mods:namePart type="family">Sherwin</mods:namePart>
+      <mods:namePart type="given">Delaney</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ywang8">
+      <mods:namePart type="family">Wang</mods:namePart>
+      <mods:namePart type="given">Yanchang</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Biomedical Sciences Professor)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/hyu">
+      <mods:namePart type="family">Yu</mods:namePart>
+      <mods:namePart type="given">Hong-Guo</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/tmegraw">
+      <mods:namePart type="family">Megraw</mods:namePart>
+      <mods:namePart type="given">Timothy L.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/rtomko">
+      <mods:namePart type="family">Tomko</mods:namePart>
+      <mods:namePart type="given">Robert J.</mods:namePart>
+      <mods:namePart type="termsOfAddress">Jr.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Medicine</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Biomedical Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2022</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (174 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Accurate chromosome segregation is vital to maintain genomic integrity. Chromosome missegregation, or aneuploidy, contributes to cancer development and conditions like down syndrome (Trisomy 21). Chromosomes are attached to microtubules during mitosis through centromere-localized kinetochores, and accurate chromosome segregation requires establishment of chromosome bipolar attachment. As a result of bipolar attachment, tension is generated across sister kinetochores. Failure in this process activates the spindle assembly checkpoint (SAC) to prevent anaphase entry and allow for correction of attachments errors. In contrast, tension generation is believed to silence the SAC for anaphase onset. One key regulator of the SAC is the conserved chromosomal passenger complex (CPC), composed of Ipl1 kinase, Sli15, Bir1, and Nbl1 in budding yeast. The CPC localizes to the kinetochore/centromere before anaphase entry. Kinetochore protein Ndc80 is one Ipl1 substrate, and its phosphorylation destabilizes kinetochore-microtubule interaction to promote error correction. After anaphase onset, the CPC is removed from the kinetochore/centromere and relocates to the spindle, where it assists in spindle stability. Meanwhile, Ipl1-dependent Ndc80 phosphorylation is reversed, but the phosphatase responsible for this reversal is unknown. In budding yeast, the phosphatase Cdc14 becomes active after anaphase onset and dephosphorylates Fin1, a regulatory subunit of protein phosphatase 1 (PP1). Fin1 dephosphorylation allows kinetochore recruitment of Fin1-PP1. In this work, we show that kinetochore recruitment of Fin1-PP1 triggers the removal of the SAC proteins Bub1/Bub3. Furthermore, Fin1-PP1 partially dephosphorylates Ndc80, which promotes kinetochore dissociation of Bub1/Bub3. In addition, phospho-deficient ndc80 mutants causes viability loss in response to syntelic chromosome attachment, wherein sister kinetochores are attached by microtubules from the same spindle pole, indicating the importance of timely Fin1-PP1 kinetochore localization in checkpoint regulation. Multiple mechanisms regulate CPC kinetochore/centromere localization. A main driver for localization is Sli15 phosphorylation by both cyclin-dependent kinase (CDK) and Ipl1 kinases. After anaphase onset, Sli15 is dephosphorylated, which triggers CPC translocation to anaphase spindle. Active Cdc14 reverses CDK-imposed Sli15 phosphorylation, but it is currently unclear which phosphatase reverses Ipl1-imposed Sli15 phosphorylation. Here we show that Fin1-PP1 partially reverses Sli15 phosphorylation. Interestingly, premature Fin1 kinetochore localization is sufficient to promote both CPC dissociation from the kinetochore/centromere in metaphase and CPC spindle association in anaphase. In addition, premature Fin1-kinetochore localization or phospho-deficient sli15 mutants result in SAC defects in response to tensionless attachments. These results indicate that Fin1-PP1 reverses Sli15 phosphorylation imposed by Ipl1 to promote CPC translocation in anaphase. The tension checkpoint is a subset of the SAC that prevents anaphase onset in response to tensionless attachments. In response to tension defects, Ipl1 kinase phosphorylates the kinetochore protein Dam1 to prevent anaphae onset. Budding yeast Cin8 is a kinesin-5 motor protein, and its synthetic lethality with SAC mutants indicates the role of Cin8 in accurate chromosome attachment. To study the function of Cin8 in chromosome attachment, we constructed an auxin-inducible degron (AID) mutant, cin8-AID. With this conditional mutant, we show that cells lacking Cin8 arrest in metaphase due to unseparated spindle pole bodies. This metaphase arrest depends on the SAC as well as Dam1 phosphorylation by Ipl1 kinase. In cells expressing phospho-deficient dam1-3A, the metaphase arrest induced by Cin8 depletion is abolished, causing chromosome missegregation. These results support the conclusion that the cell cycle delay in cin8 mutants is a result of tensionless chromsome attachments. Because of the critical role of CPC in chromosome bipolar attachment, its kinetochore/centromere localization must be tightly regulated during cell cycle. SUMOylation is a post-translational modification, wherein SUMO (Small Ubiquitin-like Modifier) proteins are covalently attached to other proteins. SUMOylation has been shown to promote protein subcellular localization through the interacteion between SUMO and SUMO-interacting motifs (SIMs). This interaction facilitates formation of molecular condensates through liquid-liquid phase separation (LLPS). On the other hand, formation of SUMO chains (polySUMOylation) can induce condensate disassembly by triggering a series downstream events, including ubiquitination by SUMO-dependent Ubiquitin ligases (STUbLs) and extraction by Cdc48 segregase. In mammalian cells, the CPC was shown to be enriched at kinetochores through LLPS. A recent work indicates that CPC components Bir1 is SUMOylated. One attractive idea is that CPC SUMOylation promotes it kinetochores localization, while polySUMOylation triggers CPC kinetochore delocalization for its translocation. In this work, we show that Bir1 phosphorylation is cell cycle regulated, and the absence of STUbL delays Bir1 dephosphorylation. Moreover, depletion of SUMO protease, Ulp2, increases Bir1 SUMOylation Interestingly, inducing polySUMOylation prevents proper CPC kinetochore localization in metaphase. These preliminary results support the idea that Bir1 SUMOylation may regulate Bir1 phosphorylation and CPC localization.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Biomedical Sciences in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">October 19, 2022.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Yanchang Wang, Professor Directing Dissertation; Hong-Guo Yu, University Representative; Timothy Megraw, Committee Member; Robert J. Tomko, Jr., Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85086577">
+      <mods:topic>Molecular biology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85035240">
+      <mods:topic>Cytology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Sherwin_fsu_0071E_17503</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Biomedical Sciences</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

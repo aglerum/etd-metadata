@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Sorrow Festival</mods:title>
+      <mods:subTitle>Poems</mods:subTitle>
+      <mods:nonSort>The</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-8770-2352</mods:nameIdentifier>
+      <mods:namePart type="family">Slaughter</mods:namePart>
+      <mods:namePart type="given">Erin</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n79079287">
+      <mods:namePart type="family">Kirby</mods:namePart>
+      <mods:namePart type="given">David</mods:namePart>
+      <mods:namePart type="date">1944-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2004111243">
+      <mods:namePart type="family">Kalbian</mods:namePart>
+      <mods:namePart type="given">Aline H.</mods:namePart>
+      <mods:namePart type="date">1954-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/leckert">
+      <mods:namePart type="family">Eckert</mods:namePart>
+      <mods:namePart type="given">Lindsey J.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n95035963">
+      <mods:namePart type="family">Hamby</mods:namePart>
+      <mods:namePart type="given">Barbara</mods:namePart>
+      <mods:namePart type="date">1952-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of English</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The Sorrow Festival is a collection of poetry rooted in the north Florida landscape; the juxtaposition of the region's sublime subtropical beauty with its horrific storms and crawling creatures directly relates to the juxtaposition of transcendent joy and feral sorrow experienced by the post-confessional lyric speaker. Ultimately, the city of Tallahassee and the nearby Forgotten and Gulf coasts (and the wildlife specific to these places) become characters of their own that populate the pages in conversation with the narrator. In a variety of traditional, experimental, and hybrid forms, this manuscript thematically interrogates family memory, grief, sexuality, and gendered violence. Underlying the speaker's personal revelations is the project of the "confessional" and its relationship to poetic impulse, women's writing, sexual, political, and personal autonomy, and the social and aesthetic devaluations of these, both historically and in contemporary life. These considerations are in direct conversation with the manuscript's setting in the American South, and the sociopolitical dynamics that complicate a woman's place in it. The first section of the manuscript is driven by memory and story, reflecting on the impact of domestic violence, estrangement, illness, and grief on a family lineage. The second section is composed of a long hybrid poem/lyric essay expanding on the chaotic, animalistic nature of grief as intertwined with the speaker's understanding of partnership and sexuality. The third section situates the speaker in the present, where the uncontainable beauty and violence of the landscape mirrors the grandeurs and disasters of the speaker's relationships with friends, family, lovers, and poetry itself. The fourth section takes an epistolary prose poem form, in which the speaker divulges further details about her family history of domestic violence as related to confession. Finally, the fifth section returns to images of Florida's natural landscape in spring to convey a renewed—though complicated—sense of hope for the speaker. The dissertation opens with a critical introduction that aims to contextualize the creative work within a tradition of Confessional and Post-Confessional poetics, feminist literary theory, and the craft of hybrid texts in contemporary literature.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of English in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">February 3, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">confessional writing, grief, poetry, tallahassee, women's confessional poetry, women's literature</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">David Kirby, Professor Directing Dissertation; Aline Kalbian, University Representative; Lindsey Eckert, Committee Member; Barbara Hamby, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85033847">
+      <mods:topic>Creative writing</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Slaughter_fsu_0071E_17678</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>English</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

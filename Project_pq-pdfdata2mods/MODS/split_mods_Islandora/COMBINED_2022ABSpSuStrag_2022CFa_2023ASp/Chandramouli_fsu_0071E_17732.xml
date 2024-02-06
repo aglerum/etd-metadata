@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Nonlinear Wave Propagation in Non-Hermitian Media</title>
+      <subTitle>Theory and Computation</subTitle>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-9520-1870</nameIdentifier>
+      <namePart type="family">Chandramouli</namePart>
+      <namePart type="given">Sathyanarayanan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/zmusslimani">
+      <namePart type="family">Musslimani</namePart>
+      <namePart type="given">Ziad H.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2004002589">
+      <namePart type="family">Höflich</namePart>
+      <namePart type="given">Peter</namePart>
+      <namePart type="date">1958-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/afarhat">
+      <namePart type="family">Farhat</namePart>
+      <namePart type="given">Aseel</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/afarhat">
+      <namePart type="family">Farhat</namePart>
+      <namePart type="given">Aseel</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/sussman">
+      <namePart type="family">Sussman</namePart>
+      <namePart type="given">Mark</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Mathematics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >In this thesis, we develop and study two distinct problems in the field of nonlinear waves. The first part of the thesis is connected to the development of a computational algorithm that preserves underlying structure of the simulated initial boundary value problem in the form of multiple global conservation laws or dissipation rate equations. \begin{itemize}\item The time-dependent spectral renormalization (TDSR) method was introduced by Cole and Musslimani as a viable method to numerically solve initial boundary value problems. An important and novel aspect of the TDSR scheme is its ability to incorporate physics in the form of conservation laws or dissipation rate equations. However, the method was restricted to enforce the conservation or dissipation rate of just one quantity. The present work significantly extends the computational features of the algorithm with the (i) incorporation of multiple conservation laws and/or dissipation rate equations, (ii) ability to enforce versatile boundary conditions, and (iii) higher-order time integration strategies. The TDSR method is applied on several prototypical evolution equations of physical significance. Examples include the Korteweg-de Vries (KdV), multi-dimensional nonlinear Schr\"odinger (NLS) and the Allen-Cahn equations. The work was published in Nonlinearity \cite{chandramouli2022time}. \end{itemize} The second half of the thesis identifies a broad class of novel, \textit{non-centered} Riemann problems in optical media with externally imposed gain and loss distributions. Thereafter, we shed light on some unique features that arise from step-like distributions in such spatially inhomogeneous media. Our work thus is an important contribution to the field of non-Hermitian dispersive hydrodynamics. \begin{itemize} \item Dispersive hydrodynamics, the study of nonlinear dispersive wave dynamics in fluid-like media, is an active research area that combines mathematical analysis with computational and laboratory experiments. To date, most of the research in this area has been focused on wave phenomena in (i) bulk media, in which case the underlying governing equations are of constant coefficients type, or (ii) inhomogeneous environments, where now the evolution equations contain, for example, a real-valued external potential. In the latter case, the presence of inhomogeneity (in general) hinders the formulation of a Riemann problem due to the lack of plane wave-type solutions of constant intensity (or density). However such waves can exist in non-Hermitian media, as was demonstrated for the nonlinear Schrödinger (NLS) equation with a Wadati-type complex external potential. Inspired by the above-mentioned discussions, in this paper, the notion of non-Hermitian dispersive hydrodynamics and its associated non-Hermitian Riemann problems are introduced. Starting from the defocusing (repulsive) NLS equation in the presence of generic smooth complex external potentials, a new set of hydrodynamic-like equations are obtained. They differ from their classical counterparts (without an external potential), by the presence of additional source terms that alter the density and momentum equations. When restricted to a class of Wadati-type complex potentials, this new non-Hermitian hydrodynamic system admits constant intensity/density solutions. This in turn, allows one to formulate an exact centered (or non-centered) Riemann problem involving a step-like initial condition that connects two exact constant density states. A broad class of non-Hermitian potentials that lead to modulationally stable constant intensity states are identified. These results are subsequently used to numerically solve the associated non-Hermitian Riemann problem for various initial conditions. Due to the lack of translation symmetry, the resulting long-time dynamics show a strong dependence on the location of the step relative to the gain-loss distribution. This is in sharp contrast to the classical NLS Riemann problem (in the absence of potential), where the dynamics are generally independent of the step location. This fact leads to {a diverse array of} wave pattern dynamics that are otherwise absent. In particular, various novel gain-loss generated near-field features are observed, which in turn drive the optical flows in the far-field. {These far-field non-Hermitian counter-flows could be comprised of various rich nonlinear wave phenomena, including DSW-DSW, DSW-rarefaction, and soliton-DSW interactions. A manuscript containing the results has been submitted to Nonlinearity \cite{chandramouli2023nonHermitian}.} \end{itemize}</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Mathematics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">April 3, 2023.</note>
+   <note  displayLabel="Keywords">Constant intensity waves, Dispersive hydrodynamics, dispersive shock waves, non-Hermitian Riemann problem, nonlinear waves, PT-symmetry</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Ziad Musslimani, Professor Directing Dissertation; Peter Hoeflich, University Representative; Aseel Farhat, Committee Member; Mark Sussman, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85082139">
+      <topic>Mathematics</topic>
+   </subject>
+   <identifier  type="IID">Chandramouli_fsu_0071E_17732</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Mathematics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2023-11-21T09:18:06.375442-05:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>
