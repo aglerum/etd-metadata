@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Space of Our Own</mods:title>
+      <mods:subTitle>Informal Social Spaces in Middle Schools</mods:subTitle>
+      <mods:nonSort>A</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0004-6567-584X</mods:nameIdentifier>
+      <mods:namePart type="family">Houston</mods:namePart>
+      <mods:namePart type="given">Alana</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2017057051">
+      <mods:namePart type="family">Huber</mods:namePart>
+      <mods:namePart type="given">Amy M.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/swebber">
+      <mods:namePart type="family">Webber</mods:namePart>
+      <mods:namePart type="given">Steven B.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ymclane">
+      <mods:namePart type="family">McLane</mods:namePart>
+      <mods:namePart type="given">Yelena</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Fine Arts</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Interior Architecture and Design</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (188 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Despite efforts, evidence suggests adolescent mental health continues to decline. The CDC's Youth Risk Behavior Data Summary &amp; Trends Report showed a rise in persistent feelings of sadness or hopelessness among adolescents from 2009-2019 (Center for Disease Control and Prevention, 2021). Similarly, the percentage of adolescents having suicidal ideations, plans, and attempts has also increased (Center for Disease Control and Prevention, 2021). Adolescents spend a significant amount of time inside a school building, making this environment integral to improving adolescent mental health. According to Jacquelynne Eccles and co-authors (1993), many school environments do not support the developmental needs of adolescents. They hypothesized that a mismatch between adolescent needs and the opportunities to meet said needs in school environments is a cause of negative psychological effects, such as poor mental resilience (Eccles et al., 1993). To address this need, this study explores how informal social spaces in middle schools, i.e., unstructured, non-instructional, and relatively unsupervised spaces, can be designed to better support adolescents' developmental needs. Adolescence, the developmental years between childhood and adulthood, is often a difficult time for many. Early adolescence (ages 10-15) is the liminal stage of these developmental years and is marked by the onset of momentous biological, psychological, and social changes (Arain et al., 2013). During this time, adolescents attempt to find their place in society, resulting in an increased need for belonging and autonomy (Wang &amp; Hofkens, 2020). Many middle schools lack the infrastructure and programming to support adolescent needs for exploration and self-management. Further, the lack of interactions and opportunities for building relationships can prevent students from satisfying their increased need for a sense of belonging (Wang &amp; Hofkens, 2020). Informal social spaces, such as libraries, cafeterias, and circulationspaces may be a solution for schools helping adolescents meet their developmental needs since these spaces offer students the opportunity to be themselves and interact with each other freely (Wang &amp; Hofkens, 2020). When intentionally designed, informal social spaces have the potential to increase adolescents' mental resilience and overall mental health by giving them the opportunity to receive genuine support from one another (Vieno et al., 2007).</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Interior Architecture and Design in partial fulfillment of the requirements for the degree of Master of Fine Arts.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 30, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">Adolescence, Middle School, School Design</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Amy Huber, Professor Directing Thesis; Steven Webber, Committee Member; Yelena McLane, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85037197">
+      <mods:topic>Design</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Houston_fsu_0071N_18193</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Fine Arts</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Interior Design</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

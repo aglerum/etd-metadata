@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Functional Regression Models for Multi-Site Imaging Data Integration</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0009-8214-3825</nameIdentifier>
+      <namePart type="family">Dogra</namePart>
+      <namePart type="given">Harshita</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/chuang7">
+      <namePart type="family">Huang</namePart>
+      <namePart type="given">Chao</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/hmiao">
+      <namePart type="family">Miao</namePart>
+      <namePart type="given">Hongyu</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n98023263">
+      <namePart type="family">Sinha</namePart>
+      <namePart type="given">Debajyoti</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/abarrientos">
+      <namePart type="family">Barrientos</namePart>
+      <namePart type="given">Andrés Felipe</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Statistics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (90 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >In large-scale imaging studies, addressing heterogeneity presents a big challenge arising from diverse geographic locations, variations in instrumentation, differences in image acquisition protocols, and undisclosed latent variables. While numerous regression models have been devised to explore the relationship between imaging responses and relevant covariates, limited attention has been paid to scenarios involving shape-related responses. This introduces additional complexity due to the unique characteristics of shape representations, such as nonlinearity, high-dimensionality, and the intricate nature of quotient space geometry. The second chapter addresses these complexities, and propose an innovative approach: a novel shape-on-scalar regression model integrated with confounder adjustment. Specifically, we utilize the square-root velocity function to capture elastic shape representations, which are embedded within the linear Hilbert space of square-integrable functions. We subsequently introduce a shape regression framework to understand the intricate associations between elastic shapes and the covariates of interest, effectively managing the challenges posed by imaging heterogeneity. We develop robust methodologies for estimating and drawing inferences about the model parameters. Through empirical analyses using real-world data, our method demonstrates superior estimation accuracy compared to existing methodologies. The third chapter discusses a new statistical framework designed to analyze multi-site brain cancer imaging data. As large-scale biomedical studies, such as the Cancer Imaging Archive (TCIA), increasingly collect brain tumor data, understanding the relationships between brain tumor responses and clinical features becomes crucial. Traditional methods like mass univariate analysis (MPA) and functional regression models have limitations, particularly when faced with imaging heterogeneity. To overcome these challenges, researchers use feature-based methods, which extract imaging features for association analysis, and distribution-based approaches, which utilize functional representations like density curves and quantile functions. These methods aim to provide deeper insights but also face issues like non-linear constraints and restrictive linear models. We propose a framework that aims to model distributional representations of tumor responses through a transformative function and also incorporate the effect of multi-site heterogeneity. The main purpose is to introduce two strategies for integrative analysis of tumor data: the "merged learner" and the "ensemble learner." The merged learner combines data from different studies into a unified dataset for model training, employing techniques like PCA, CATE, and dSVA to manage inter-study heterogeneity. The ensemble learner, which averages models from individual datasets, often performs better in heterogeneous scenarios. This framework aims to enhance prediction accuracy and identify reliable imaging biomarkers across diverse studies, addressing the complexities posed by inter-study variability. Keywords: shape analysis, inter-site heterogeneity, corpus callosum, alzheimer's disease, functional data analysis, tumor heterogeneity, ensemble modelling, data integration.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">June 13, 2024.</note>
+   <note  displayLabel="Keywords">corpus callosum, distribution-on-scalar regression, function-on-scalar regression, inter-site heterogeneity, shape data analysis, tumor heterogeneity</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Chao Huang, Professor Directing Dissertation; Hongyu Miao, University Representative; Debajyoti Sinha, Committee Member; Andrés Felipe Barrientos, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <topic>Statistics</topic>
+   </subject>
+   <identifier  type="IID">Dogra_fsu_0071E_18992</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

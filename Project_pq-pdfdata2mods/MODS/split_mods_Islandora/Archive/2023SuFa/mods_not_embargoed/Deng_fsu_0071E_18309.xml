@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Pairing Due to Emergent Gauge Fields</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-6611-3938</nameIdentifier>
+      <namePart type="family">Deng</namePart>
+      <namePart type="given">Haoyun</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2002162741">
+      <namePart type="family">Bonesteel</namePart>
+      <namePart type="given">N. E.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/woates">
+      <namePart type="family">Oates</namePart>
+      <namePart type="given">William</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/hchanglani">
+      <namePart type="family">Changlani</namePart>
+      <namePart type="given">Hitesh Jaiprakash</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/xiong">
+      <namePart type="family">Xiong</namePart>
+      <namePart type="given">Peng</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2012037971">
+      <namePart type="family">Piekarewicz</namePart>
+      <namePart type="given">Jorge</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Physics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (124 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >In this thesis, we study interlayer pairing of composite fermions in the $\nu=1/2+1/2$ quantum Hall bilayer as a possible framework for understanding the transition to a bilayer quantum Hall state. In the large layer spacing limit, ignoring disorder and for perfectly balanced wells, the interlayer pairing interaction mediated by the Chern-Simons gauge fields in the two layers is singular with both attractive (out-of-phase) and repulsive (in-phase) components. It was previously shown that if only the singular attractive interaction is included, the pairing gap obtained by solving the gap equation is proportional to the inverse of the layer spacing squared. We analyze the effect of both the pairing and pair-breaking gauge fluctuations on bilayer pairing as a function of layer spacing. We focus on the balanced case and take the point of view that the system can be described for large layer spacing as two composite fermion metals whose low-energy physics is described by the Halperin-Lee-Read theory, with appropriately renormalized effective mass. We analyze the solution to the $T=0$ gap equation using a model with frequency dependent interaction meant to describe the $\nu=1/2+1/2$ bilayer quantum Hall state starting from the limit of large layer spacing. This effective interaction contains a singular attractive interlayer pairing interaction, a less singular repulsive interlayer pairing interaction, as well as a non-singular coupling which we expect to depend on details of the system. The primary tool we use for our analysis is the so-called local approximation applied to the frequency dependent $T=0$ gap equation. Within this approximation we derive analytic and numerical results for the combined effect of the pairing and pair breaking. The local approximation solutions are then used as a starting point to iterate the full Eliashberg gap equations to assess the validity of the approximation in this limit. We first keep only the most singular interactions, both pairing and pair breaking. In the local approximation we find when the less singular repulsive interactions are included the energy gap is strongly suppressed, but still falls off as inverse layer spacing squared, consistent with recent Renormalization Group (RG) analysis. We also compare the results of the local approximation to exact solutions of the gap equation obtained numerically, verifying the essential validity of the approximation. We then describe our results for what happens as the short-range, non-singular interaction strength is varied, and the crossover from the weak gauge pairing we associate with the large layer spacing limit, to the strong BCS pairing due to strong short-range interaction in some angular momentum channels. We argue that within this interlayer pairing scenario, the experimentally observed transition from two compressible layers to an incompressible bilayer quantum Hall state, may reflect the strong crossover from a gauge pairing regime to a more conventional BCS type pairing. Next, we study the non-Fermi liquid behavior of this $\nu=1/2+1/2$ bilayer due to the self-energy effects. When only the pairing interaction is considered, its self energy only slightly lowers the pairing gap compared to the case where self-energy is ignored. This means in this case the effect of self-energy is small and we wouldn't see non-Fermi liquid physics here. The superconducting gap is big enough to cut off the divergence in self-energy before Fermi liquid theory breaks down. However, when including the pair-breaking interactions, the energy gap is greatly suppressed and the system is allowed to get closer to the non-Fermi liquid phase before pairing occurs. When the two kinds of self-energy is combined, their effect gets larger and additional suppression to the energy gap is enhanced. Lastly, we study the different pairing angular momentum channel by using the full Random Phase Approximation (RPA) interactions, and show that the $p-$wave pairing in the $l=1$ channel is favored over $l=0$ channel, and has larger energy gaps for various layer spacing. However, this difference becomes small in the large layer spacing limit.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Physics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">October 30, 2023.</note>
+   <note  displayLabel="Keywords">Bilayer Quantum Hall System, Chern-Simons Gauge Fields, Composite Fermion, Majorana Fermion, Strongly Correlated Electrons, Superconductivity</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Nicholas E. Bonesteel, Professor Directing Dissertation; William S. Oates, University Representative; Hitesh J. Changlani, Committee Member; Peng Xiong, Committee Member; Jorge Piekarewicz, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85030765">
+      <topic>Condensed matter</topic>
+   </subject>
+   <identifier  type="IID">Deng_fsu_0071E_18309</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Physics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

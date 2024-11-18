@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Massive Spin-Clock Transitions in Molecular Lanthanide Qubits</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-4797-035X</nameIdentifier>
+      <namePart type="family">Stewart</namePart>
+      <namePart type="given">Robert</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2006081590">
+      <namePart type="family">Hill</namePart>
+      <namePart type="given">S. (Stephen Olof)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/shatruk">
+      <namePart type="family">Shatruk</namePart>
+      <namePart type="given">Mykhailo</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2002162741">
+      <namePart type="family">Bonesteel</namePart>
+      <namePart type="given">N. E.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/ichiorescu">
+      <namePart type="family">Chiorescu</namePart>
+      <namePart type="given">Irinel</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2018082655">
+      <namePart type="family">Volya</namePart>
+      <namePart type="given">Alexander</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Physics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (112 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Molecular lanthanide (Ln) complexes are promising candidates for development of next-generation quantum technologies. High-symmetry structures incorporating integer spin (non-Kramers) Ln ions can give rise to well-isolated crystal field (CF) quasi-doublet ground states, i.e., quantum twolevel systems that may serve as a basis for spin-qubits. Recent work has shown that by carefully tailoring the coordination environment around the Ln ion, avoided Zeeman-crossings, or spin clock transitions (SCTs), can be introduced within the ground doublet, leading to significantly enhanced coherence times. This is because the decoherence processes related to magnetic noise are eliminated up to first-order at the SCT, as the dependence of the spin-qubit transition frequency, f, on the applied magnetic field, B vanishes dfdB = 0 . However, second-order effects d2fdB2 from magneticnoise will still result in a loss of coherence. One possible strategy to limit second order effects is to increase the energy gap Δ between the qubit basis states, since near the SCT gap, d2fdB2 ∝ 1Δ. Motivated by the potential to improve coherence times in spin-qubits, this thesis presents a series of high field electron paramagnetic resonance (HF-EPR) spectroscopy studies of molecular Ln complexes, where the idea of producing larger SCT gaps in the ground-doublet of Ln complexes is explored. New results begin in chapter 2, with HF-EPR studies performed on two HoIII complexes possessing pseudo-C4 local coordination geometries. HF-EPR methods are used to precisely measure the SCT gap within the ground quasi-doublet, obtaining values of: Δ = 116 GHz and Δ ≃ 250 GHz respectively. These SCT gaps are significantly larger than the SCT previously reported in [Ho(W5O18)2]9− (abbreviated HoW10) of Δ = 9 GHz. The larger SCT gaps are attributed to the local ∼ C4 symmetry, which maximizes the contribution of the fourth-order CF terms and therefore efficiently mixes the states for which ΔmJ = 4n where n is an integer. Additional far-infrared magnetospectroscopy (FIRMS) and complete active-space self-consistent field (CASSCF) studies are performed to determine the energy gaps to the lowest-lying excited states above the ground doublet, allowing further constraint of the CF parameters. For the Δ = 116 GHz compound, the ground quasi-doublet was found to be mostly composed of the symmetric and anti-symmetric combinations of mJ = ±8 wheres for the Δ ≃ 250 GHz compound, there were four low-lying states comprising a ground-quartet, which were mixtures of mJ = ±3 and mJ = ±4. 14 Chapter 3 then describes results from a HF-EPR study on a metal-organic framework (MOF) containing HoIII metal-ion clusters. In this complex, the HoIII ion is locally coordinated to eight oxygens in a distorted pseudo-D4d geometry. Angle dependence measurements were preformed, revealing a four-fold rotational symmetry in the magnetic anisotropy. This is attributed to the two molecular orientations in the unit cell, which are related by a rotation of 90o, an assessment that is confirmed by x-ray diffraction measurements. The results of the angle dependence study are used to locate each of the two molecular symmetry axes, and a frequency dependence of is subsequently performed. Fits of the frequency dependent spectra are used to accurately determine the SCT gap of Δ = 54 GHz. The SCT gap is appreciably larger in this sample than in HoW10, which is attributed to the increased distortion of the local coordination geometry away from perfect D4d symmetry, further lifting the degeneracy of the ground state quasi-doublet. Chapter 4 covers a topic unrelated to SCTs, with a HF-EPR study the lanthanide complex Bisphthalocyaninato dysprosium [DyPc2]0 in the structural Pnma phase. This study is still relevant to quantum information science however, as the Pc2 ligand offers a way to couple lanthanides to surfaces, allowing the unpaired radical carried by the ligand to mediate interactions between the normally isolated 4f electrons and their environment. The goal of this study is then to investigate the nature of the coupling mechanism between the delocalized radical and the unpaired 4f electrons on the DyIII ion. Angle dependent EPR spectra are presented, showing an anisotroic signal from the radical, indicative of coupling between the radical and DyIII ion. Simulations of the angle dependence data are used to estimate radical-lanthanide coupling strength Jex at −0.041 cm−1 which is much weaker than the value obtained for [TbPc2]0 of Jex at −0.147 cm−1 (here the negative sign represents ferromagnetic coupling). There is also strong evidence of intermolecular interactions, which were absent in previous studies of [TbPc2]0.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Physics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">June 20, 2024.</note>
+   <note  displayLabel="Keywords">clock transition, lanthanide, qubit</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Stephen Hill, Professor Directing Dissertation; Mykhailo Shatruk, University Representative; Nicholas Bonesteel, Committee Member; Irinel Chiorescu, Committee Member; Alexander Volya, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh8510165">
+      <topic>Physics</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85086583">
+      <topic>Molecular dynamics</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85023027">
+      <topic>Chemistry, Physical and theoretical</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85109469">
+      <topic>Quantum theory</topic>
+   </subject>
+   <identifier  type="IID">Stewart_fsu_0071E_18905</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Physics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

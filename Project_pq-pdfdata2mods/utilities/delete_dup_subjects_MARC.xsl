@@ -4,6 +4,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/"
     xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+    xmlns:marc="http://www.loc.gov/MARC21/slim"
     exclude-result-prefixes="xs xsi xlink mods dcterms etd" version="2.0">
     
     <!-- Last Updated: December 5, 2017 -->
@@ -18,6 +19,6 @@
     </xsl:template>
     
     <xsl:template
-        match="collection/record/datafield[@tag=650][. = following-sibling::datafield[@tag=650]]"/>
+        match="marc:collection/marc:record/marc:datafield[@tag=650][. = following-sibling::marc:datafield[@tag=650]]"/>
     
 </xsl:stylesheet>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Understanding the Cu-Sn Mixing Heat Treatment and Its Effects on the Formation of Nb3Sn in Rod-in-Tube Wires of Varying Cu</mods:title>
+      <mods:subTitle>Sn Ratios</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0004-1491-0600</mods:nameIdentifier>
+      <mods:namePart type="family">Tietsworth</mods:namePart>
+      <mods:namePart type="given">John</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2004090317">
+      <mods:namePart type="family">Larbalestier</mods:namePart>
+      <mods:namePart type="given">D. (David)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2015022073">
+      <mods:namePart type="family">Cooley</mods:namePart>
+      <mods:namePart type="given">L. (Lance)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/bkrick">
+      <mods:namePart type="family">Krick</mods:namePart>
+      <mods:namePart type="given">Brandon</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Mechanical Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2024</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (34 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This work explores the effects of changing the Cu:Sn ratio in Nb3Sn Rod in Tube (RIT) wires to gain a better understanding of the Cu-Sn mixing process prior to Nb3Sn formation. Internal Tin Nb3Sn wires like the Rod Restack Process ®(RRP) always have complexities associated with the Cu-Sn mixing steps. Imperfect mixing compromises the ultimate performance of the wire. From this point of view RIT wires are of special interest because all the Cu and Sn is contained within one tubular filament that in principle offers a simplified window into the mixing and subsequent A15 layer growth. Here we examined wires with Cu:Sn atomic ratios of 3:1 and 6:5. We tested new multistep heat treatments motivated by the Cu-Sn phase diagram, observing both Cu-Sn and A15 phase formation around key transition temperatures. Problems with eliminating low Sn α phase compositions from RIT wires with a Cu:Sn ratio of 3:1 were previously discussed by Segal et al [1]. and here his experiments were extended by using higher temperature Cu-Sn mixing steps above 500C. Using the heat treatment step 525◦C/96h, we were able to eliminate the α phase at the Nb-Core interface prior to the A15 reaction step by completely mixing the Cu-Sn core. However, this achievement did not lead to improved properties like we initially expected. In some cases, wires with worse CuSn mixing prior to A15 formation step had better properties than those with a mixed core. None of these wires produced good superconducting properties when compared to other common wire designs RRP, PIT, and the Bronze process. However, the internal Cu:Sn ratio is seen to influence the superconducting properties. Wires with an internal Cu:Sn ratio of 3:1 significantly underperform compared to the wires with the starting composition of 6:5. We found that the reaction path for 3:1 (and bronze wires) avoids the nausite phase (generally thought to be deleterious to Jc) always found in RRP wires while the 6:5 wire reaction always went through nausite with decomposition into NbSn2, Nb6Sn5 and then A15 at high temperatures. Furthermore we recorded that a key difference between RIT and RRP is that RIT exhibits a larger spread in the normal to superconducting transition curve following the same heat treatment. This transition was shown to be a result of gradients in at%Sn across the Nb3Sn layer.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Mechanical Engineering in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 29, 2024.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">David Larbalestier, Professor Directing Thesis; Lance Cooley, Committee Member; Brandon Krick, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85082757">
+      <mods:topic>Mechanical engineering</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Tietsworth_fsu_0071N_18724</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Mechanical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

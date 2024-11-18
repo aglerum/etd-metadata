@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Understanding the Bio-Nanointerface and Sensor Design Based on Inorganic Nanoparticle Conjugates</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-9267-5475</nameIdentifier>
+      <namePart type="family">Dridi</namePart>
+      <namePart type="given">Narjes</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/nb2009002696">
+      <namePart type="family">Mattoussi</namePart>
+      <namePart type="given">Hedi</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2009180254">
+      <namePart type="family">Tang</namePart>
+      <namePart type="given">Hengli</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/strouse">
+      <namePart type="family">Strouse</namePart>
+      <namePart type="given">Geoffrey F.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mroper">
+      <namePart type="family">Roper</namePart>
+      <namePart type="given">Michael Gabriel</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Chemistry and Biochemistry</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (202 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Inorganic nanocrystals have garnered significant attention due to their unique physical and optical properties, spurring extensive research into their development for technological applications like electronic devices, solar cells, and biomedical diagnostics. Tailoring these nanocrystals for specific environments requires precise control over their photophysical, mechanical, and chemical properties. Particularly in bio-related applications, engineering the surface of these nanomaterials to be hydrophilic, biocompatible, and amenable to further bioconjugation while maintaining stability in challenging conditions is crucial. This dissertation aims to explore new ligands to passivate the surfaces of inorganic nanomaterials, preserving their structural and optoelectronic integrity and ensuring long-term stability. Additionally, the dissertation investigates the formation of protein corona on metallic nanocrystals, focusing on understanding the factors governing corona formation and strategies for prevention through ligand design. Furthermore, we explore leveraging the optical properties of gold nanoparticles to design biosensing tools with high sensitivity, specificity, and rapid assay times. In Chapter 1, fundamental optical, physical, and chemical characteristics of plasmonic, semiconductor, and magnetic nanomaterials are described. Synthetic chemistry and surface coating techniques are briefly outlined, with recent advancements in surface engineering and ligand design being highlighted. Various effective methods for bioconjugation on nanoparticle surfaces are explored. Additionally, "protein corona" is defined, its composition is examined in terms of factors influencing it, and its implications for biology and the environment are discussed. Finally, notable examples of bio-applications involving inorganic nanomaterials are discussed. Chapter 2 presents a novel series of polymer ligands with multi-coordinating sites, which were designed using the hydroxamate anchoring motif. These ligands were subsequently employed for coating luminescent quantum dots, gold nanoparticles, and iron oxide nanoparticles. The synthesis of the ligands involved a nucleophilic addition reaction between poly(isobutylene-alt-maleic anhydride) and amine-terminated moieties, including the hydroxamate precursor (NH2OH-HCl) and short polyethylene glycol hydrophilic blocks. This synthesis method allowed the architecture and stoichiometry of the final compound to be adjusted. It was found that these hydroxamate-based polymers were strongly coordinated with ZnS-overcoated quantum dots (QDs), Au nanoparticles (AuNPs), and iron oxide nanoparticles (IONPs), resulting in stable dispersions for all three systems. Chapter 3 examines the non-specific adsorption of proteins on AuNPs by strategically altering the structures of a series of DHLA-based ligands. Electrophoretic mobility is employed to monitor potential corona formation on AuNPs when exposed to bovine serum albumin (BSA) or serum samples, allowing the kinetics of binding to be determined. It is indicated by our findings that AuNPs capped with hydrolipoic acid (DHLA), a small alkyl-COOH, are susceptible to size-dependent interactions with proteins. Insight into the deposition of proteins on the surface of nanomaterials is provided by theoretical calculations using a close-packed model. Corona formation is significantly reduced by coating AuNPs with polyethylene glycol- or zwitterion-appended DHLA. Furthermore, protein adsorption is further characterized using UV-Vis spectroscopy and dynamic light scattering. The significance of surface chemistry and nanomaterial size in corona formation, and potentially preventing it, is underscored by our results. In Chapter 4, the application of plasmonic nanoparticles for sensing purposes is explored. A charge-mediated diagnostic tool for detecting early-stage cancer biomarkers is developed by leveraging the sensitivity of AuNPs' localized surface plasmon resonance to interparticle distance. Three sets of peptides, each with three specific segments, featuring oppositely charged amino acids at their ends to balance the overall peptide charge, are designed. Two of these peptides are used as substrates for matrix metalloproteinase-14 (MMP-14), a cancer biomarker, while the third is utilized as a negative control. When the cleaved peptide undergoes enzymatic digestion, its interaction with negatively charged AuNPs triggers their assembly in a concentration- and time-dependent process. The assay is investigated to determine how varying the size of the nanoparticles affects it, different peptides are explored, and enzyme kinetics are tracked. It is demonstrated by our results that the sensor has a nanomolar range Limit of Detection (LoD) and minimal cross-reactivity with other abundant proteins in serum. The rapid assay time suggests promising applications for the design of future diagnostic tools for cancer and other diseases. In Chapter 5, the findings and implications detailed in this dissertation are summarized, accompanied by a discussion of the future prospects in corona science and biosensor design.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">March 29, 2024.</note>
+   <note  displayLabel="Keywords">Bio-nano interface, Biosensors, Kinetics, Nanomaterials, Polymers, Surface engineering</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Hedi Mattoussi, Professor Directing Dissertation; Hengli Tang, University Representative; Geoffrey F. Strouse, Committee Member; Michael G. Roper, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85022986">
+      <topic>Chemistry</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85014171">
+      <topic>Biochemistry</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85082094">
+      <topic>Materials science</topic>
+   </subject>
+   <identifier  type="IID">Dridi_fsu_0071E_18548</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

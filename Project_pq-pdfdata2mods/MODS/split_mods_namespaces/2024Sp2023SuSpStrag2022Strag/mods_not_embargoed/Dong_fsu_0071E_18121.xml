@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Cultural Capital Growth and Students' Reading Achievement</mods:title>
+      <mods:subTitle>A Growth Mixture Model</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-7002-6220</mods:nameIdentifier>
+      <mods:namePart type="family">Dong</mods:namePart>
+      <mods:namePart type="given">Sisi</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/bmphillips">
+      <mods:namePart type="family">Phillips</mods:namePart>
+      <mods:namePart type="given">Beth M.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/sahart">
+      <mods:namePart type="family">Hart</mods:namePart>
+      <mods:namePart type="given">Sara</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Professor of Psychology)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jeturner">
+      <mods:namePart type="family">Turner</mods:namePart>
+      <mods:namePart type="given">Jeannine E.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yyang3">
+      <mods:namePart type="family">Yang</mods:namePart>
+      <mods:namePart type="given">Yanyun</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Education, Health, and Human Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Educational Psychology and Learning Systems</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (123 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Cultural capital is a key term from the Social Reproduction Theory, and it is defined as the codes and practices that parents pass on to their children (Bourdieu, 1984). Previous empirical studies have confirmed the importance of cultural capital, and it is positively related to students' reading achievement (e.g., Košutić, 2017; Noble &amp; Davis, 2009). However, few previous studies considered cultural capital from a person-centered perspective, not to mention considering it as longitudinal nor measuring its growth during students' elementary years. It is also less known how socioeconomic status (SES) relates to cultural capital and how these two factors influence students' reading achievement together. The goal of the current study was to answer the following research questions: for each cultural capital indicator (i.e., parental expectations, the number of books owned by the child at home, and library vising frequency), how many latent trajectory classes are there? What are the patterns of these trajectory classes? How does SES predict the membership of the trajectory class of cultural capital indicators? Last but not least, how does the membership of latent trajectory classes for each cultural capital indicator predict children's reading achievement in fifth grade? The current study used a United States national public use dataset, the Early Childhood Longitudinal Study Program, Kindergarten Class of 2010-11. The target population was elementary school students and their parents. The sample size for the current study was 18,174. After applying appropriate weights, the sample could represent the whole United States students enrolled in kindergarten in 2010. Cultural capital was measured by three items from the parent interview survey: parental expectation of their children's educational attainment, frequency of library or bookstore visit, and the number of books at home. Kindergarten year SES is a continuous composite variable based on household income, both parents' education level, and occupation. I conducted preliminary analyses for descriptive and correlational results. I used growth mixture modeling to answer research questions related to culture capital indicators' latent trajectory classes. The current study uncovered diverse patterns of cultural capital indicators. Specifically, I identified five latent trajectory classes for parental expectations, and two latent trajectory classes for the number of books owned by the child. However, I identified no unobserved subgroups for visiting a library/bookstore during the previous month, which suggested homogeneity within the population. The results also suggested that there was no growth of possibility of parents taking the child to visit a library/bookstore from first grade to fifth grade. SES significantly predicted latent class membership for parental expectations, as well as membership for the number of books at home. In addition, SES positively predicted the intercept of the latent growth model of library/bookstore visiting. The current study also indicated that the membership of parental expectations latent trajectory classes could predict students' fifth grade reading achievement, as well as the latent trajectory class membership of the number of books. The intercept of the indicator of library/bookstore visiting during elementary years positively correlated with students' fifth grade reading achievement.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Educational Psychology and Learning System in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 7, 2023.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Beth Phillips, Professor Directing Dissertation; Sara Hart, University Representative; Jeannine Turner, Committee Member; Yanyun Yang, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85041141">
+      <mods:topic>Educational psychology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Dong_fsu_0071E_18121</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Educational Psychology and Learning Systems</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Type Ia Supernovae</title>
+      <subTitle>Progenitor Properties and Host Galaxies via Light Curves</subTitle>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-2183-148X</nameIdentifier>
+      <namePart type="family">Chakraborty</namePart>
+      <namePart type="given">Sudeshna</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2004002589">
+      <namePart type="family">Höflich</namePart>
+      <namePart type="given">Peter</namePart>
+      <namePart type="date">1958-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/yang">
+      <namePart type="family">Yang</namePart>
+      <namePart type="given">Wei</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/ehsiao">
+      <namePart type="family">Hsiao</namePart>
+      <namePart type="given">Eric Y.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/jwmurphy">
+      <namePart type="family">Murphy</namePart>
+      <namePart type="given">Jeremiah Wayne</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2012037971">
+      <namePart type="family">Piekarewicz</namePart>
+      <namePart type="given">Jorge</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Physics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (301 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Type Ia supernovae (SNe Ia) are rather homogeneous astrophysical objects and can be used as cosmological distance ladders. Despite that, significant diversity among SNe Ia luminosity (by a factor of ~ 10) and spectral properties have been studied in the past thirty years, and higher precision is needed for modern-day cosmology. This thesis presents the analysis of the visual light curves (LCs) of Type Ia Supernovae (SNe Ia) using an eigenfunction method. The observed LCs used in this work were obtained by the Carnegie Supernova Project (CSP). This method, using our Secondary Parameter Analysis Tool, or SPAT, investigates the diversity of SNe Ia, as needed for high-precision cosmology. With the variation of progenitor parameters in explosion models, characteristic variations of LC are seen. Our eigenfunctions are based on these variations, and describe the differences in the observed monochromatic LCs. Therefore, this method links the SNe Ia LC with their progenitor and explosion mechanism. The analysis is constructed within the framework of the Chandrasekhar mass (MCh) explosion, and delayed detonation (DD) scenario. In this scenario, the amount of deflagration burning governs the brightness decline rate ([Delta]m15) or equivalently, the LC stretch parameter (s). The initial central density [rho]c of the white dwarf (WD) and the main sequence mass MMS have been identified as secondary parameters, allowing the reproduction of the observations within ≅ 1%, corresponding to diversity in peak-brightness from ≅ 0.1 magnitude based on s alone to about 0.01 magnitude. This work shows the importance of having LC data up to 60 days after the maximum light. Subgroups among SNe Ia (e.g. 91T - the potential first generation of stars observable with JWST, or 99aa-likes) can be identified using this method. Other "outlier" subgroups such as 03fg-likes or 02cx-likes can be filtered out to avoid pollution of SNe Ia samples used for cosmology. The distribution of MMS and [rho]c are shown and properties of host galaxies of the SNe Ia have been related to them. Clear evidence for two distinct groups of MMS has been found, corresponding to a fast ≅ 65 Myrs and a slow (≅ 200 Myrs) stellar evolution time. Most under-luminous SNe Ia in the sample have hosts with low star formation but high MMS, suggesting long evolution times of the progenitor system. As possible evidence for two distinct groups, a few of the transitional SNe Ia in the sample show low [rho]c but those are in galaxies with active star formation. The method of this analysis and results have been discussed within the framework of multiple explosion scenarios, and in light of upcoming surveys.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Physics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">November 8, 2023.</note>
+   <note  displayLabel="Keywords">91T-like, central density, host galaxy, main sequence mass, spherical delayed detonation, Type Ia supernovae</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Peter Hoeflich, Professor Directing Dissertation; Wei Yang, University Representative; Yi Chi Eric Hsiao, Committee Member; Jeremiah Murphy, Committee Member; Jorge Piekarewicz, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh8510165">
+      <topic>Physics</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85009032">
+      <topic>Astrophysics</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85009003">
+      <topic>Astronomy</topic>
+   </subject>
+   <identifier  type="IID">Chakraborty_fsu_0071E_18343</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Physics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

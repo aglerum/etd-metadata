@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Application of Artificial Intelligence for Detecting Power Distribution System Faults and Power Quality Disturbances</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-9503-6078</nameIdentifier>
+      <namePart type="family">Islam</namePart>
+      <namePart type="given">Md Maidul</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/faruque">
+      <namePart type="family">Faruque</namePart>
+      <namePart type="given">Md Omar</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2003098450">
+      <namePart type="family">Ordóñez</namePart>
+      <namePart type="given">Juan Carlos</namePart>
+      <namePart type="date">1973-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/pamidi">
+      <namePart type="family">Pamidi</namePart>
+      <namePart type="given">Sastry V.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/foo">
+      <namePart type="family">Foo</namePart>
+      <namePart type="given">Simon Y.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Electrical and Computer Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (159 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Modern power distribution grid has become very complex, especially with the integration of distributed renewable resources and many electronic power devices. Maintaining power quality is becoming incrementally challenging due to the growing power electronic equipment in the grid. On the other hand, distributed renewable resources are making the current protection methods obsolete, which are mainly based on uni-directional power flow and acts based on some predefined threshold. The concept of a central control center and traditional protection system must be updated. To accommodate these needs, monitoring devices are placed throughout the distribution system, enabling real-time monitoring of the system and collecting system information with high resolution from different points in the system during any event. This large amount of system data can be harnessed with machine learning algorithms to detect, classify, and locate the source of disturbances in the system. Data-driven approaches are gaining popularity due to their high accuracy and less dependency on system parameters. However, deploying artificial intelligence (AI) techniques for power system applications needs more labeled data. This dissertation is focused on artificial intelligence applications for power distribution event detection and location identification. The first topic is developing an AI application for distribution system's fault management. Faults are the most catastrophic events in the power system responsible for sustained outages. The traditional approaches suffer from inaccuracy and are often dependent on system parameters or preset thresholds. Data-centric approaches based on available sensor or meter data can be deployed for fault management applications. However, the amount of accurately labeled data is very limited, which is an impediment in training deep models for better accuracy. This dissertation proposes an ensemble network combining standalone machine learning algorithms like artificial neural network (ANN), K-nearest neighbour (K-NN), and random forest (RF) for achieving higher efficiency with limited data. The proposed method utilizes event-driven voltage measurements from the existing smart meters in the system to classify and locate faults accurately. The method has been validated using a real-time simulator and has been tested under different adverse scenarios. The proposed method showed improved and robust performance in all cases. High impedance faults are invisible to existing threshold-based protection systems as they produce very low fault current. These events are hard to isolate from normal load changes and can evolve into catastrophic events like wildfires, life hazards, or equipment damage. As most of these events go undetected, there is little labeled data for training a supervised model. This dissertation proposes a generative adversarial network (GAN)-based unsupervised method along with a time-frequency analysis for extracting features from waveforms and isolating HIFs from other events like load variation or capacitor switching. The second topic addressed in this dissertation is applying unsupervised learning techniques for analyzing power quality waveforms. As power quality waveforms are often captured periodically, the huge amount of data can be overwhelming for PQ engineers to analyze manually. The dissertation proposed the development of an autoencoder and K-means-based unsupervised clustering method with field-obtained unlabeled data and cosine similarity-based event label identification using very few numbers of labeled data. PQ event analysis via an unsupervised method, especially utilizing field-obtained practical data, has been a less explored area in distribution grid analytics. The proposed method can help investigate a large number of captured waveforms quickly and isolate event data from normal recurring data. In summary, this dissertation proposes AI applications in distribution systems with limited labeled data. The first is a supervised technique that shows enhanced performance without requiring additional data. The other applications are unsupervised methods requiring very little amount of labeled data for event category selection. The proposed methods show good performances and address practical problems in the context of power quality event management in distribution systems.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Electrical and Computer Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">November 3, 2023.</note>
+   <note  displayLabel="Keywords">AI application in power system, Power quality, Power system analysis, Power system fault, Real-time simulation, Smart grid</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Md Omar Faruque, Professor Directing Dissertation; Juan Ordonez, University Representative; Sastry Pamidi, Committee Member; Simon Foo, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85041666">
+      <topic>Electrical engineering</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh89003285">
+      <topic>Computer science</topic>
+   </subject>
+   <identifier  type="IID">Islam_fsu_0071E_18352</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Electrical and Computer Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

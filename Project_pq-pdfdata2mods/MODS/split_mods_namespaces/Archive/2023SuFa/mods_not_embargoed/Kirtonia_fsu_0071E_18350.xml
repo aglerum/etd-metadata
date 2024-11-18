@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Integrated Optimization Models for Automobile Shipping</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-4825-6454</mods:nameIdentifier>
+      <mods:namePart type="family">Kirtonia</mods:namePart>
+      <mods:namePart type="given">Sajeeb Kumar</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ysun6">
+      <mods:namePart type="family">Sun</mods:namePart>
+      <mods:namePart type="given">Yanshuo</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2009109194">
+      <mods:namePart type="family">Ozguven</mods:namePart>
+      <mods:namePart type="given">Eren Erman</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/sawoniyi">
+      <mods:namePart type="family">Awoniyi</mods:namePart>
+      <mods:namePart type="given">Samuel</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/avanli">
+      <mods:namePart type="family">Vanli</mods:namePart>
+      <mods:namePart type="given">Omer Arda</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/lli8">
+      <mods:namePart type="family">Li</mods:namePart>
+      <mods:namePart type="given">Lichun</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Industrial and Manufacturing Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (185 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The automotive industry stands as one of the most important industries in the U.S. and worldwide. As the sales of automobiles continue to increase, the demand for automobile shipping services experiences a corresponding upswing. Apart from the transportation of finished vehicles from auto manufacturers to dealerships, preowned automobile shipping has a larger presence in the automobile shipping industry, as the pre-owned car sales are almost three times as large as the new car sales. The shipping of preowned automobiles emerges in many contexts, such as individuals relocating to geographically distant locations, online car selling and home delivery, and transporting used automobiles to developing countries. Despite the significance of automobile shipping, a significant gap exists between academic research and industry practice in automobile shipping. Scholarly research only began incorporating automobile shipping optimization models in the 1990s, despite the industry's mass production dating back to the early 1900s. Highway-based automobile shipping involves various intertwined decisions, including partitioning, loading, routing, and reloading. A detailed survey of related literature reveals notable research gaps, particularly the lack of efficient algorithms for optimizing loading decisions. Some studies focused on optimizing loading decisions for given routes. None have presented an integrated model for precise routing and loading plans. Existing research prioritized routing optimization, potentially yielding suboptimal solutions without considering loading quality. There is a critical need to simultaneously address loading and routing decisions in solving the automobile shipping problem, bridging a notable literature gap. Consequently, the specific research objectives are described as follows: (a) the development of an efficient algorithm for optimizing loading decisions, and (b) the proposal of an integrated optimization method to address both auto-carrier loading and routing decisions concurrently. To achieve the first objective of this research, we investigate the impact of the degree of allowance in reloading on both solution time and overall cost efficiency in automobile shipping operations. A solution approach is developed based on a space-state network to optimize the loading decisions under various reloading policies while considering predefined auto-carrier routes. The outcomes of benchmark analysis demonstrate that the two proposed loading policies offer a favorable balance between cost efficiency and computational time. Next, an integrated optimization model is proposed that concurrently addresses routing and loading decisions, taking into consideration their interrelations. The methodology employed for solving this problem involves the utilization of a column generation-based heuristic. An essential aspect of this approach is the simultaneous evaluation of loading costs for each route, which directly influences the column generation process, thus accounting for the intricate relationship between loading and routing decisions. Furthermore, this study includes a series of comprehensive computational experiments aimed at comparing sequential and integrated optimization approaches to loading and routing optimization. The computational experiments yield compelling evidence that the proposed integrated loading and routing optimization approach consistently delivers superior outcomes within manageable computation time, particularly when addressing large problem instances. The developed integrated optimization method can be adapted for solving other optimization problems, especially those involving making sequential decisions.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Industrial and Manufacturing Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 17, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">auto-carrier, automobile, loading, optimization, routing, shipping</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Yanshuo Sun, Professor Directing Dissertation; Eren Erman Ozguven, University Representative; Samuel A. Awoniyi, Committee Member; Omer Arda Vanli, Committee Member; Lichun Li, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85065864">
+      <mods:topic>Industrial engineering</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85095020">
+      <mods:topic>Operations research</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85137042">
+      <mods:topic>Transportation</mods:topic>
+      <mods:topic>Planning</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Kirtonia_fsu_0071E_18350</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Industrial and Manufacturing Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

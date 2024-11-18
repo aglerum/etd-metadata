@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Effect of Anthropogenic Coastal Modifications on the Nesting Grounds of Marine Turtles in Florida, USA</mods:title>
+      <mods:nonSort>The</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000000258491039</mods:nameIdentifier>
+      <mods:namePart type="family">Nelson Sella</mods:namePart>
+      <mods:namePart type="given">Kristen</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mfuentes">
+      <mods:namePart type="family">Fuentes</mods:namePart>
+      <mods:namePart type="given">Mariana</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/miller">
+      <mods:namePart type="family">Miller</mods:namePart>
+      <mods:namePart type="given">Thomas E.</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Professor of Biological Science)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n89605460">
+      <mods:namePart type="family">Chanton</mods:namePart>
+      <mods:namePart type="given">Jeffrey P.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mhuettel">
+      <mods:namePart type="family">Huettel</mods:namePart>
+      <mods:namePart type="given">Markus</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/slester">
+      <mods:namePart type="family">Lester</mods:namePart>
+      <mods:namePart type="given">Sarah</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Earth, Ocean, and Atmospheric Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (148 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Sandy beach ecosystems are important for many species for foraging, resting, and reproduction. Marine turtles are one species that use beaches for reproduction. Coastal areas are also attractive to humans as centers of commerce and recreation. Because of this, sandy coastlines are exposed to coastal development and anthropogenic modifications. While research has been done about the impacts of coastal development on species that rely on sandy beaches, little is understood about the cumulative impacts of coastal modifications. This dissertation investigated the temporal and spatial exposure of marine turtle nesting grounds in Florida to coastal modifications (Chapter 2) and examined the relative impact of each type of modification using expert elicitation (Chapter 3). Urban pocket beaches, or gaps between coastal armoring, were examined as potential nesting habitat (Chapter 4). Finally, a probabilistic model was developed to identify areas with high probability of nesting (Chapter 5) that can be applied to specific sites to inform management decisions regarding modifications such as beach nourishment or armoring. In Chapter 2, I examined the temporal (1985-2016) and spatial distribution of coastal construction permits as a proxy for coastal development. The cumulative number of permits throughout the state of Florida increased over time from less than 1,000 to over 4,000 permits issued per year. Over 93% of the 203 marine turtle nesting grounds examined throughout the state of Florida were exposed to cumulative coastal modifications. Of the high-density nesting beaches, twenty-six had high exposure to coastal modifications, highlighting the need for addressing the cumulative impacts of coastal modifications to nesting grounds. To understand the relative impacts of the different types of coastal modifications at marine turtle nesting grounds I developed a survey to elicit information from experts on the relative impacts of twelve modification types (Chapter 3). The survey utilized a pairwise comparison matrix that compared the impacts of each coastal modification activity. Beach armoring, light pollution, and other shoreline stabilization structures (groins and jetties) were weighted by experts as having the greatest impact while nonpermanent coastal modifications (e.g. special events and beach cleaning) were weighted by experts as having the lowest impact. This information can be used by managers to prioritize efforts and resources to manage marine turtle nesting grounds. On coastal areas with a high density of coastal armoring, small gaps remain between existing armoring (Chapter 4). These gaps have been given the term "urban pocket beaches" by managers, after a natural formation of small beaches between rocky uplands. It is unclear if urban pocket beaches can provide the same function as natural beaches or offer benefits (e.g. reduced risk of inundation) lost at nearby armored beaches. The linear extent of urban pocket beaches for Florida was identified and reproductive output was compared to adjacent armored beaches and nearby unarmored beaches. I also modeled differences in wave runup exposure at these beaches under current conditions (2016-2019) and future (2060) sea level rise scenarios. Urban pocket beaches account for less than 2% of Florida's nesting beaches with higher abundances on more armored shorelines. Nesting density of pocket beaches were similar to nearby beaches without armoring. However, female turtles were more likely to nest in urban pocket beaches compared to armored , and pocket beach nests had a higher hatching success. Our models suggest that exposure to wave runup varies by geographic location, but overall pocket beaches provided viable nesting habitat. General beach characteristics important for marine turtle nesting are known, but specific patterns that lead to nest site selection are less clear (Chapter 5). To identify variables that influence nest site selection I developed a model to determine how beach morphology can influence probability of nesting. Top models performed accurately over 83% of the time and incorporate multiple marine turtle species in one model. Elevation and distance to shoreline were the variables with the most influence on high probability nesting locations. Areas with a low probability of nesting were located close to the waterline and higher within the dunes while areas with high probability of nesting were located mid beach. This probabilistic model can be used with site specific information to inform management decisions (e.g. beach nourishment) at the local level. Marine turtles are exposed to high levels of coastal modifications in the state of Florida and this can impact their ability to effectively utilize their nesting habitat. While they may only be one group of organisms that utilize this habitat, their study can demonstrate how coastal modifications can be detrimental to natural sandy beach habitats and provides transferable frameworks to assess impacts.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Earth, Ocean, and Atmospheric Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 24, 2023.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Mariana M. P. B. Fuentes, Professor Directing Dissertation; Tom Miller, University Representative; Jeff Chanton, Committee Member; Marcus Huettel, Committee Member; Sarah Lester, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85081138">
+      <mods:topic>Marine biology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">NelsonSella_fsu_0071E_18201</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

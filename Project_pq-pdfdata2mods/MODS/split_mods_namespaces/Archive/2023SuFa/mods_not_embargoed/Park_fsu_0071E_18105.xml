@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Elementary Stem Teachers' Digital Curation for Lesson Planning</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-4411-8567</mods:nameIdentifier>
+      <mods:namePart type="family">Park</mods:namePart>
+      <mods:namePart type="given">Yujin</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2012011678">
+      <mods:namePart type="family">Dennen</mods:namePart>
+      <mods:namePart type="given">Vanessa P.</mods:namePart>
+      <mods:namePart type="date">1970-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2005077563">
+      <mods:namePart type="family">Rutledge</mods:namePart>
+      <mods:namePart type="given">Stacey A.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2003122703">
+      <mods:namePart type="family">Klein</mods:namePart>
+      <mods:namePart type="given">James D.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ljaber">
+      <mods:namePart type="family">Jaber</mods:namePart>
+      <mods:namePart type="given">Lama</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Education, Health, and Human Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Educational Psychology and Learning Systems</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (119 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Careful lesson planning is essential in elementary STEM education because the crucial role of STEM education at the elementary level is to help students develop fundamental skills employed in real life as a foundation for future learning. This study examined how elementary STEM teachers curate digital resources for lesson planning and the relevant factors impacting their digital curation. A qualitative multiple-case study was employed to explore elementary STEM teachers' digital curation for lesson planning from a naturalistic and holistic perspective. This study's participants are elementary teachers teaching STEM as a subject or applying STEM principles as either STEM-certified teachers or general classroom teachers. Seven elementary STEM teachers participated in two semi-structured interviews and one lesson planning session using a think-aloud method with screen capturing. I transcribed data using Whisper.ai and analyzed them using QDA Miner Lite using inductive thematic analysis.The elementary STEM teachers in this study used various digital resources in their digital curation for lesson planning, such as images, videos, quizzes, or games. Tools for managing and creating resources during the lesson planning were Google Workspace apps and Microsoft Office programs, Prezi, Pinterest, and YouTube. The main spaces for finding resources were search engines, online teacher communities for STEM teachers (e.g., Facebook), a textbook publisher's website, Instagram, Pinterest, and YouTube. The elementary STEM teachers in this study conducted their lesson planning as either a task-focused digital curation or a reflective digital curation to improve the quality of the instructional materials and teaching. In the task-focused curation group, elementary STEM teachers initiated their lesson planning by planning and searching for ideas and activities for inspiration or deciding on learning activities after checking their lessons' topics on the curriculum. They rarely revisited their curated materials and finished their digital curation after implementing prepared lessons. The reflective digital curation group's participants had unique ways to improve their lessons, such as sharing and reflecting on their teaching experiences in monthly meetings. The factors impacting elementary STEM teachers' digital curation for lesson planning were categorized as instructional, instructor, and environmental factors. Instructional factors involve a learner-centered approach, an authentic learning environment, and an instructional content presentation. Instructor factors include autonomy, creativity, and professional learning. Lastly, environmental factors are related to time constraints and organizational support. This exploratory study contributes to the literature about elementary STEM teachers' digital curation for lesson planning as one way to present their digital literacy and how to support teachers' digital curation for teaching practices in elementary STEM education.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Educational Psychology and Learning Systems in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 15, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">Digital Curation, Elementary STEM Teachers, Lesson Planning</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Vanessa P. Dennen, Professor Directing Dissertation; Stacey A. Rutledge, University Representative; James D. Klein, Committee Member; Lama Jaber, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85041150">
+      <mods:topic>Educational technology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85066762">
+      <mods:topic>Instructional systems</mods:topic>
+      <mods:topic>Design</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Park_fsu_0071E_18105</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Educational Psychology and Learning Systems</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Surrogate Modeling with Gaussian Processes for Molecular Models of Viscoelasticity</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-4631-5046</nameIdentifier>
+      <namePart type="family">Chouhan</namePart>
+      <namePart type="given">Pankaj</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/sshanbhag">
+      <namePart type="family">Shanbhag</namePart>
+      <namePart type="given">Sachin</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/avanli">
+      <namePart type="family">Vanli</namePart>
+      <namePart type="given">Omer Arda</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/bquaife">
+      <namePart type="family">Quaife</namePart>
+      <namePart type="given">Bryan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2003129868">
+      <namePart type="family">Meyer-Bäse</namePart>
+      <namePart type="given">Anke</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/chuang3">
+      <namePart type="family">Huang</namePart>
+      <namePart type="given">Chen</namePart>
+      <namePart type="termsOfAddress">(Professor of Scientific Computing)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Scientific Computing</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (154 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>In the polymer industry, physics-based computational molecular models serve as a tool for optimizing product quality and improving manufacturing processes. Molecular models of polymer dynamics take the molecular composition of a polymer mixture as input and yield the linear or nonlinear viscoelasticity properties of the mixture as output. These models come in different flavors offering different tradeoffs between accuracy and speed. For some applications where these models are evaluated repeatedly, for example in a Bayesian inverse problem setting, the cumulative computational cost of molecular simulations can be prohibitive. This is where surrogate models can help. Surrogate models (SMs) approximate the input-output behavior of molecular models at a fraction of the computational cost. This work explores building SMs for a class of molecular models of polymer dynamics. These models yield the stress relaxation spectrum (RS) -- a fundamental property that describes the viscoelasticity of polymer mixtures. The SMs considered in this dissertation are based on Gaussian processes (GPs). GPs are non-parametric non-linear regression techniques with several appealing features. They offer the promise of well-calibrated predictions combined with uncertainty quantification. They allow for incorporation of prior information through kernel functions, interpolate training data, perform well for sparse data, and offer a natural framework for handling functional data. This dissertation makes two contributions of significance. The first contribution is the development of a SM using a separable kernel-based GP. This SM accurately captures the mapping of the underlying molecular model. We successfully demonstrate its application in solving an inverse problem within a Bayesian framework. The second contribution of this dissertation is the development of SMs for limited functional data ($\mathcal{O}(10^2)$ samples) using reduced-order modeling. We explore two different datasets corresponding to two distinct molecular models. One of the datasets exhibits sharp features, while the other is relatively smooth. Reduced order SMs accurately capture the mapping of the underlying molecular model for smooth data, while struggling on datasets with sharp features.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Scientific Computing in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">June 20, 2024.</note>
+   <note displayLabel="Keywords">Functional Data, Gaussian Processes, Machine Learning, Reduce Order Modelling, Rheology, Surrogate Modelling</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Sachin Shanbhag, Professor Directing Dissertation; Arda Vanli, University Representative; Bryan Quaife, Committee Member; Anke Meyer-Baese, Committee Member; Chen Huang, Committee Member.</note>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85008180">
+      <topic>Artificial intelligence</topic>
+   </subject>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh89003285">
+      <topic>Computer science</topic>
+   </subject>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh93002523">
+      <topic>Mathematics</topic>
+   </subject>
+   <identifier type="IID">Chouhan_fsu_0071E_18890</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Scientific Computing</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Geographic Information System-Based Hazard Analysis of Evacuation Accessibility for Hurricane Shelters</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-6444-8977</mods:nameIdentifier>
+      <mods:namePart type="family">Yang</mods:namePart>
+      <mods:namePart type="given">Jieya</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2013005601">
+      <mods:namePart type="family">Huang</mods:namePart>
+      <mods:namePart type="given">Wenrui</mods:namePart>
+      <mods:namePart type="date">1961-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor co-directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2009109194">
+      <mods:namePart type="family">Ozguven</mods:namePart>
+      <mods:namePart type="given">Eren Erman</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor co-directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2009200593">
+      <mods:namePart type="family">Yang</mods:namePart>
+      <mods:namePart type="given">Xiaojun</mods:namePart>
+      <mods:namePart type="date">1965-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2009200593">
+      <mods:namePart type="family">Yang</mods:namePart>
+      <mods:namePart type="given">Xiaojun</mods:namePart>
+      <mods:namePart type="date">1965-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/nr99008251">
+      <mods:namePart type="family">Chen</mods:namePart>
+      <mods:namePart type="given">Gang</mods:namePart>
+      <mods:namePart type="date">1969-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Civil and Environmental Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (136 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>In the present era marked by an increasing frequency of extreme climatic events, the vulnerability of human life has become a subject of paramount concern. The research endeavors undertaken within this dissertation aim to shed light on this critical issue by delving into the most prevalent natural hazard in Florida, namely hurricanes. The catastrophic Category 5 Hurricane Michael, an unprecedented occurrence in the Florida Panhandle region in 2018, serves as a poignant case study. To begin with, the inquiry commences with the simulation of impacts on evacuation congestion considering the inherent uncertainties associated with hurricane tracks. This dissertation unfolds across three main facets of analysis. Initially, three distinct scenarios were generated for the highly populous northern regions of Florida, which were also deemed particularly susceptible to the impact of Hurricane Michael based on initial forecasting datasets. The purpose of this section was to elucidate the ramifications of hurricane track uncertainty on roadway congestion and the exigencies of timely evacuation. This investigation was contributed the next part, which was specifically focused on Panama City, one of the most populous urban areas featured in the aforementioned scenarios. The research tried to discern the vulnerability of the special-needs population during the actual occurrence of Hurricane Michael in 2018. With only one Special-Needs Shelter (SpNS) available in the county, Panama City, characterized by a substantial aging population, grappled with the challenge of ensuring optimal evacuation accessibility for its residents in the face of an impending and formidable hurricane. The storm surge simulation provided a precondition to further geographic information system (GIS) models of roadway network analysis. Shelter repurposing solutions highlighted that the temporary conversion of up to three shelters into SpNS could significantly reduce travel times for the coastal special-needs population, enhancing evacuation accessibility by 20%. Additionally, with climate change consideration, this dissertation focuses on the implications of sea level rise (SLR) on hurricane evacuation accessibility reduction in the Florida Panhandle eastern region. Utilizing the floating catchment area (FCA) method in GIS, various scenarios of different SLR assumptions in conjunction with hurricane simulations were examined to gauge alterations in the region's accessibility index. Findings revealed that the vast rural expansion in the selected research counties was characterized by low accessibility of most of the involved census block groups, primarily due to the lack of nearby emergency facility sources such as shelters catering to coastal residents. Moreover, the storm-evacuation integrated model with FCA applications demonstrated that census block groups closer to shelters experienced an elevated accessibility index due to inequality of facility sharing, as another population residing close to inundation was isolated by storm surges, rendering them unable to access shelter facilities. Paradoxically, this situation placed those coastal residents at a heightened risk of flooding, further accentuating their predicament since a strong hurricane might attack them at first. Another preliminary investigation of marsh plantation impacts on wave reduction and roadway accessibility during hurricanes was generated in this part, employing a steady-state spectral wave (STWAVE) model to the SLR-based hurricane scenarios. According to relative bottom friction parameters, it becomes evident that local roadways had the high possibility of being susceptible to flooding in areas with either thin layers of salt marsh or extremely high storm surge, thereby posing a significant threat to evacuees traveling to inner land regions. This reduced evacuation accessibility beyond the residents' original counties. The investigation furnishes a comprehensive analysis of the vulnerabilities confronting coastal populations of strong hurricanes. To summarize, this dissertation provides a significant analysis of the insufficient accessibility of Northwest Florida evacuation during extreme hurricanes with GIS applications, effectively integrated storm surge models and evacuation calculations by providing more efficient hurricane prediction planning. Its knowledge contributes to a comprehensive understanding of the vulnerabilities inherent in hurricane-prone regions, highlighting hurricane evacuation challenges for special-needs populations as well as northwest rural areas in Florida, helping shape more effective disaster mitigation and response strategies.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Civil and Environmental Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 15, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">Evacuation Accessibility, GIS Analysis, Hazard Response, Hurricane Evacuation, Hurricane Shelter</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Wenrui Huang, Professor Co-Directing Dissertation; Eren Erman Ozguven, Professor Co-Directing Dissertation; Xiaojun Yang, University Representative; Gang Chen, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85026331">
+      <mods:topic>Civil engineering</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Yang_fsu_0071E_18301</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Civil and Environmental Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

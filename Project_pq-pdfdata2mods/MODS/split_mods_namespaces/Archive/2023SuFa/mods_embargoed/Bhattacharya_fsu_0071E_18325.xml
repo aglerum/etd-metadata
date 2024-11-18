@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Controlling the Activation Threshold of Innate Immunity</mods:title>
+      <mods:subTitle>Regulation of cGAS and GBP2</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-0772-7897</mods:nameIdentifier>
+      <mods:namePart type="family">Bhattacharya</mods:namePart>
+      <mods:namePart type="given">Madhurima</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2020182305">
+      <mods:namePart type="family">Yin</mods:namePart>
+      <mods:namePart type="given">Qian (Assistant professor of biological science)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yren3">
+      <mods:namePart type="family">Ren</mods:namePart>
+      <mods:namePart type="given">Yi</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Biomedical Sciences Professor)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/bgmiller">
+      <mods:namePart type="family">Miller</mods:namePart>
+      <mods:namePart type="given">Brian G.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/fzhu">
+      <mods:namePart type="family">Zhu</mods:namePart>
+      <mods:namePart type="given">Fanxiu</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/sstagg">
+      <mods:namePart type="family">Stagg</mods:namePart>
+      <mods:namePart type="given">Scott</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Program in Molecular Biophysics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (125 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The innate immune system acts as the first line of defense against invading pathogens throughrecognition of pathogen associated molecular patterns or danger associated molecular patterns. Several germline encoded receptors, known as the pattern recognition receptors (PRRs) can specifically recognize molecules that are exclusively associated with the pathogens that include structural elements like lipopeptides, peptidoglycans, lipopolysaccharides, flagellins, mannose, fucose and glucan carbohydrate or genetic material like deoxyribonucleic acid (DNA) or ribonucleic acid (RNA). These PRRs trigger the activation of NF-κB, type I interferons (IFN), inflammatory pathways and cell death pathways that help to eliminate the pathogen without any self-harm. Prevention of self-harm is very crucial and hence it is essential that the PRRs should be able to distinguish infectious non-self from harmless self-molecules and then decide whether it is worth taking any action. A part of this recognition strategy depends on the fact that PRRs can recognize only those molecules (specially the structural elements associated with the pathogens) that are exclusively present in pathogens, necessary for their survival and are absent/suppressed in host. Although the pathogen nucleic acids may sometimes have exclusive patterns, the overall structure and sequences do not vary much between the host and the microbes and hence pathogen recognition through nucleic acid sensing is tricky. In the case of nucleic acids, besides structural differences, cellular localization, and concentration are also important factors that guide the PRRs to distinguish between self and non-self. Since recognition is the first step of innate immune activation, most pathogens try to evade the PRR mediated activation of innate immune responses by negatively regulating the recognition step. The pathogens have evolved various mechanisms to avoid being detected by the PRRs, especially the nucleic acid sensors. The pathogens either hide their genetic material or directly target the PRRs to avoid recognition. The second chapter of this dissertation reports the molecular mechanism by which dengue virus (DENV) suppresses the induction of type I interferons by antagonizing cGAS-STING signaling. Using recombinant proteins and in vitro cleavage assays, we have shown that the DENV protease NS2B3 is capable of cleaving cGAS in the N-terminal region without disrupting the C-terminal catalytic center. This generates two major cleavage products: cleavage product N-terminal (CP-N) and cleavage product C-terminal(CP-C). We observed a reduction in DNA-binding affinity of CP-C as compared to full-length cGAS. Reduction in DNA-binding affinity is also correlated with the decrease in enzymatic activity of CP-C. CP-N, on the other hand, has almost comparable DNA-binding ability as that of the full-length cGAS. In fact, CP-N competitively inhibits cyclic GMP-AMP production by both full-length cGAS and CP-C. We hypothesize that high DNA-binding affinity of CP-N enables it to sequester the DNA from CP-C and noncleaved full-length cGAS and thus reduces the rate of enzyme activation and cyclic GMP-AMP synthesis. Furthermore, we found that NS2B3 physically interacts with full-length cGAS and CP-C, laying the basis for their shuttling to and eventual degradation in the autophagosome. Overall, our study highlights a multifaceted and effective strategy by which an RNA virus antagonizes cGAS-STING signaling which may be useful for the design of antivirals targeting viral proteases. The third chapter of the dissertation reports how an IFN-inducible GTPase, the guanylate binding protein 2 (GBP2) controls its own activation threshold by intrinsic structural rearrangements. Biochemical and enzymatic characterization of recombinant GBP2 led us to understand how nucleotide dependent oligomerization and GTPase activity of GBP2 are controlled by an interaction between the catalytic domain (GD) at the N-terminus and the helix ⍺12 at the C-terminus. Structure guided mutagenesis led us to identify E554 and E561 as the key residues responsible for stabilizing this GD-⍺12 interaction. Structural analysis of GBP2 by small angle X-ray scattering helped us to confirm that in absence of GD-⍺12 interaction, GBP2 assumes a flexible conformation that facilitates its dimer formation and GTPase activity. GD- ⍺12 interaction imparts a structural rigidity in GBP2 that raises the activation threshold for its enzymatic activity. Overall, our study shows how intrinsic structural changes can control the activation of an innate immune protein. This also highlights how the host keeps a check on activation of immune responses. GBPs are usually expressed at basal level in immune and nonimmune cells, and it is necessary to control their actions in absence of infections. Since dysregulated or exaggerated immune response may lead to pathological inflammation and autoimmune diseases, it is necessary to restrict the signals at an optimal level that is sufficient to fight off the invader but is not cytotoxic.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Program in Molecular Biophysics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">October 26, 2023.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Qian Yin, Professor Directing Dissertation; Yi Ren, University Representative; Brian Miller, Committee Member; Fanxiu Zhu, Committee Member; Scott Stagg, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85014253">
+      <mods:topic>Biophysics</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Bhattacharya_fsu_0071E_18325</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Molecular Biophysics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

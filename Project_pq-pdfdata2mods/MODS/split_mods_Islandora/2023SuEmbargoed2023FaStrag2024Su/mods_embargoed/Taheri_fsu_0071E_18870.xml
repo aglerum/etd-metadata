@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Framework of an Infrastructure Performance Model Based on the Concepts of Civil Integrated Management (CIM)</title>
+      <nonSort>The</nonSort>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-7678-1702</nameIdentifier>
+      <namePart type="family">Taheri</namePart>
+      <namePart type="given">Ali</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2006090378">
+      <namePart type="family">Sobanjo</namePart>
+      <namePart type="given">John Olusegun</namePart>
+      <namePart type="date">1958-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2015057682">
+      <namePart type="family">Duncan</namePart>
+      <namePart type="given">Michael Douglas</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2009109194">
+      <namePart type="family">Ozguven</namePart>
+      <namePart type="given">Eren Erman</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/jchoi3">
+      <namePart type="family">Choi</namePart>
+      <namePart type="given">Juyeong</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Civil and Environmental Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (242 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >The recent rise in the applications of advanced technologies in the sustainable design and construction of transportation infrastructure demands an appropriate medium for their integration and utilization. A relatively new concept of Civil Integrated Management (CIM) is such a medium, which enhances the development of digital twins for the infrastructure, and embodies various practices and tools, including the collection, organization, and data management techniques of digital data for transportation infrastructure projects. As transportation projects increase in complexity, various CIM tools and functions can be implemented to ensure quality, on-time, and on-budget project delivery. CIM methods and tools have the potential to improve the performance and predictability of a project, from early stages like scoping, and surveying, through design and construction, to the latest stages such as operations and maintenance. Asset management for transportation infrastructure refers to the systematic process of maintaining, upgrading, and operating physical assets cost-effectively. It encompasses the planning, design, construction, maintenance, and rehabilitation of infrastructure assets such as roads, bridges, tunnels, water supply systems, and other public facilities. The objective of an effective asset management practice is to ensure that these assets deliver their intended service levels over their lifecycle while minimizing costs and maximizing performance, safety, and reliability. This process involves data collection, condition assessment, performance monitoring, risk management, and the implementation of strategies to optimize the allocation of resources for maintenance and renewal activities. The costs associated with asset management related tasks for highway systems constitute significant portions of a state's general expenditures. The arrival of modern techniques for predicting pavement performance has motivated agencies to develop accurate, efficient, and intelligent models for forecasting the pavement deterioration. Performance modeling involves relating pavement condition, surface distresses, and structural properties to a variety of predictors—including material properties, traffic loading, and environmental factors—through mathematical or machine learning expressions. However, considering the numerous critical predictors and their complex interrelationships, developing an effective predictive model for pavement performance is a challenging task. This study addresses the challenge by developing various machine learning models analyzing LTPP databse. The dissertation presents an extensive exploration into the development implementation of CIM workflow, emphasizing the integration of collected information across various phases. The review study identifies the need for a geospatial model-based asset management system for transportation infrastructures. It further highlights the importance of integrating IoT technologies with modeling techniques to create a digital twin framework—a dynamic, interactive model that represents the physical and functional characteristics of infrastructure assets throughout their lifecycle. Despite challenges such as modeling complexity, technology investment, and data privacy, the integration of GIS, BIM, and Artificial Intelligence (AI) within asset management systems holds the potential to improve infrastructure's structural integrity and long-term performance through automated monitoring, analysis, and predictive maintenance during its lifespan. Additionally, various aspects of GeoBIM implementation framework is discussed including data acquisition, modeling, and analysis steps, highlighting the importance of comprehensive data utilization from design, construction, and maintenance phases. By integrating life cycle information gathered from various phases of an asset, this research has demonstrated that existing infrastructure performance models can be improved considerably to assess its performance. To overcome this challenge, this dissertation aims to explore various machine learning algorithms, namely, Random Forest, Extra Trees, XGBoost, and novel neural networks, which were developed to identify the most significant factors influencing AC cracking from thirty potential input variables. These features have been collected from the Long-Term Pavement Performance (LTPP) database provided by the Federal Highway Association (FHWA) comprising of material type and properties, environmental factors, traffic, and design and construction specifications. Additionally, a GeoBIM framework was developed that replaces the existing milepost strategy of DOTs by employing a smaller segmentation using linear referencing to store digital information concerning asset performance as well as construction and material specifications. Moreover, this study found out that the quality of construction and rehabilitation changes, captured through the material testing, were amongst the most important features affecting pavement performance. This study illustrates the practical application of the developed models in forecasting wheel path cracking for U.S. 1 highway, demonstrating their potential as powerful tools for infrastructure asset management. The dissertation concludes the dissertation by summarizing the findings and proposing future research directions. This chapter demonstrated the transformative power of AI utilizing a text-to-image deep learning model for generating infrastructure conceptual design, highlighting an innovative application of AI in transportation projects. The chapter highlights the successful development and validation of the GeoBIM framework and its machine learning components, emphasizing their potential to transform transportation infrastructure management. A recommendation for further research into real-time data integration, automated condition assessment, and the application of IoT and AI technologies to enhance the predictive capabilities of CIM systems is discussed.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Civil and Environmental Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">June 04, 2024.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">John Olusegun Sobanjo, Professor Directing Dissertation; Michael Duncan, University Representative; Eren Erman Ozguven, Committee Member; Juyeong Choi, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85137042">
+      <topic>Transportation</topic>
+      <topic>Planning</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85026331">
+      <topic>Civil engineering</topic>
+   </subject>
+   <identifier  type="IID">Taheri_fsu_0071E_18870</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Civil and Environmental Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

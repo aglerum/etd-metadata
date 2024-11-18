@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Protein Ligand Binding Molecular Dynamics Simulations and Large-Scale Lead Identification</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0003-9644-0843</nameIdentifier>
+      <namePart type="family">Huang</namePart>
+      <namePart type="given">Zilin</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/yang">
+      <namePart type="family">Yang</namePart>
+      <namePart type="given">Wei</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/chuang3">
+      <namePart type="family">Huang</namePart>
+      <namePart type="given">Chen</namePart>
+      <namePart type="termsOfAddress">(Professor of Scientific Computing)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/adeprince">
+      <namePart type="family">DePrince</namePart>
+      <namePart type="given">A. Eugene</namePart>
+      <namePart type="termsOfAddress">III</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/bouyang">
+      <namePart type="family">Ouyang</namePart>
+      <namePart type="given">Bin</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Chemistry and Biochemistry</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (141 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >In drug discovery, predicting protein-ligand binding structures and affinities is crucial for lead identification. Over the past decades, molecular dynamics simulation-based approaches have gained prominence in this endeavor. Despite some progress, achieving accurate and efficient protein-ligand binding prediction remains challenging. This doctoral dissertation addresses several challenges by focusing on understanding the molecular dynamics sampling bottleneck, developing an accurate isobaric-isothermal ensemble, and creating an automated program to streamline simulation workflow for large-scale lead identification. Enabling sufficient and robust sampling for quantitative protein-ligand binding prediction is challenging in molecular dynamics simulation. Motivated by specific viewpoints on existing sampling challenges, active developments were made largely in four categories: unguided free energy sampling methods, geometry-based free energy sampling methods, alchemical free energy sampling methods, and trajectory stratification approaches. We systematically analyzed these representative methods. In particular, we focus our discussion on essential features of these methods and derive our viewpoint that the orthogonal space sampling problem is the major bottleneck for all of the existing methods. Future areas of improvement that need to be explored was also expanded. The isobaric-isothermal (NPT) ensemble mimics conditions often encountered in chemical and biochemical experiments. Thus, its accuracy is important in obtaining correct biomolecular dynamics and thermodynamic properties in molecular dynamics simulations. We introduced "MTK-Langevin", a novel NPT ensemble method meticulously optimized the critical components that significantly improve the accuracy and efficiency. Specifically, MTK-Langevin: 1) incorporated correction terms to the equations of motion for the desired NPT partition function, 2) used the Langevin piston algorithm for barostat thermalization to reduce mass-dependent ringing effects, 3) integrated the barostat using BAOAB scheme to ensure minimal error and high stability, and 4) optimized parameters for improved equilibration efficiency. Tests showed MTK-Langevin achieved accurate temperature and pressure control with fast equilibration. Alchemical free energy simulations entail intricate steps, making manual setup labor-intensive and error prone. Practical lead identification campaigns often require numerous calculations, rendering manual setup impractical. To address this, we developed "AutoAlchem" to automate the simulation workflow. AutoAlchem streamlines topology generation, system building, equilibration, GPU-accelerated production runs, and data analysis. Tested in lead optimization, it consistently delivers accurate and efficient setup. Key features of AutoAlchem include integration of enhanced sampling methods and active learning techniques, allowing for large-scale simulations with high recall rates while sampling only a subset of molecules. In summary, these studies highlighted the sampling bottleneck during protein ligand binding process and developed an NPT ensemble method and an automated workflow aimed at enhancing the accuracy and efficiency of protein ligand binding prediction.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">March 26, 2024.</note>
+   <note  displayLabel="Keywords">computer-aided drug design, lead identification, molecular dynamics, protein ligand binding prediction</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Wei Yang, Professor Directing Dissertation; Chen Huang, University Representative; Albert Eugene DePrince, III, Committee Member; Bin Ouyang, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh2020006312">
+      <topic>Computational chemistry</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85022986">
+      <topic>Chemistry</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85014171">
+      <topic>Biochemistry</topic>
+   </subject>
+   <identifier  type="IID">Huang_fsu_0071E_18593</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

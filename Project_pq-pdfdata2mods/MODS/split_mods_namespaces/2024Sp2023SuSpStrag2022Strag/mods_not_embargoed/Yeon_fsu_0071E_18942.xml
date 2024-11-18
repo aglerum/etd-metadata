@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Mediation Analysis in Neuroimaging and Geospatial Studies</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-1618-0643</nameIdentifier>
+      <namePart type="family">Yeon</namePart>
+      <namePart type="given">Miyeon</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/chuang7">
+      <namePart type="family">Huang</namePart>
+      <namePart type="given">Chao</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/rsnowakowski">
+      <namePart type="family">Nowakowski</namePart>
+      <namePart type="given">Richard S.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2013023510">
+      <namePart type="family">Chicken</namePart>
+      <namePart type="given">Eric</namePart>
+      <namePart type="date">1963-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n98023263">
+      <namePart type="family">Sinha</namePart>
+      <namePart type="given">Debajyoti</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Statistics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (98 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>As a crucial tool in neuroscience, mediation analysis has been developed and widely adopted to elucidate the role of intermediary variables derived from neuroimaging data. Typically, structural equation models (SEMs) are employed to investigate the influences of exposures on outcomes, with model coefficients being interpreted as causal effects. While existing SEMs have proven to be effective tools for mediation analysis involving various neuroimaging-related mediators, limited research has explored scenarios where these mediators are derived from the shape space. In addition, the linear relationship assumption adopted in existing SEMs may lead to substantial efficiency losses and decreased predictive accuracy in real-world applications. To address these challenges, we introduce a novel framework for shape mediation analysis, designed to explore the causal relationships between genetic exposures and clinical outcomes, whether mediated or unmediated by shape-related factors while accounting for potential confounding variables. Within our framework, we apply the square-root velocity function to extract elastic shape representations, which reside within the linear Hilbert space of square-integrable functions. Subsequently, we introduce a two-layer shape regression model (2SRM) to characterize the relationships among neurocognitive outcomes, elastic shape mediators, genetic exposures, and clinical confounders. Both estimation and inference procedures are established for unknown parameters along with the corresponding causal estimands. The asymptotic properties of estimated quantities are investigated as well. Both simulated studies and real-data analyses demonstrate the superior performance of our proposed method in terms of estimation accuracy and robustness when compared to existing approaches for estimating causal estimands. We also extend the linear relationship between exposure and mediators in 2SRM to a nonlinear version and consider the dependency of the relation between exposure and a mediator on both time and covariates. Although the causal effects can be affected by the interaction effects between exposure and confounders, it is difficult to capture in a mediator model. Some function-on-scalar models with functional responses and scalar covariates have studied the dynamic relationship between the functional responses and covariates or the relationship between the functional responses depending on the time and some covariates, but the interaction effects between exposure and confounders could not be found. To explore the dynamic effects of the single index including the dynamic confounders and how it affects the direct and indirect effects, we propose a dynamic functional mediation model. It allows us to quantify the indirect effects at an individual level, so that enables the comparison of the indirect effects between subjects. The simulation studies evaluate the performance and validity of the proposed model with the estimation and inference procedures for causal estimands using the wild bootstrap method. Both the direct effect and dynamic indirect effects from real-data analysis make it possible to consider the individual properties compared with the models ignoring the dynamic interaction. We apply our approach to country-level datasets with an adjustment of the dependency between countries by estimating the spatial dependence. Thus, the pathways of individual indirect effects from exposure to outcome through the geospatial mediator can be investigated without linear assumption and dependency issues.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">June 14, 2024.</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Chao Huang, Professor Directing Dissertation; Richard Nowakowski, University Representative; Eric Chicken, Committee Member; Debajyoti Sinha, Committee Member.</note>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85014244">
+      <topic>Biometry</topic>
+   </subject>
+   <identifier type="IID">Yeon_fsu_0071E_18942</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

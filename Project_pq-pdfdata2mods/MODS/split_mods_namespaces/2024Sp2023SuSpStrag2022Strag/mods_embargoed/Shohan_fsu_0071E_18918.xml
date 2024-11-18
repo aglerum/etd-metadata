@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Smart Building Energy Management Systems Using Meta Heuristic Approach with AI-Based Load Forecasting</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">https://orcid.org/0000-0002-7563-3086</nameIdentifier>
+      <namePart type="family">Shohan</namePart>
+      <namePart type="given">Md Jamal Ahmed</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/faruque">
+      <namePart type="family">Faruque</namePart>
+      <namePart type="given">Md Omar</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/pamidi">
+      <namePart type="family">Pamidi</namePart>
+      <namePart type="given">Sastry V.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/foo">
+      <namePart type="family">Foo</namePart>
+      <namePart type="given">Simon Y.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2003098450">
+      <namePart type="family">Ordóñez</namePart>
+      <namePart type="given">Juan Carlos</namePart>
+      <namePart type="date">1973-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Electrical and Computer Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (152 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>Energy management is the procedure of systematic monitoring, optimization, and control of power consumption units to reduce the cost of operation. As the power system is heading towards modernization with microgrids, smartgrid, bi-directional power flow, etc, it is important to optimize the operation of the microgrid, smartgrid, and their components. This research report presents an in-depth literature review of different energy management controllers and control strategies of microgrid and their components, e.g., load forecasting, electric vehicles, and power consumption load. Load forecasting is an essential element in a power grid. It not only maximizes the utilization of power generation but also helps to maintain and operate the grid reliably. A combination of machine learning and Artificial Intelligence based methods are used to predict load. The Proposed method is applied to predict day-ahead load forecast for the New England Independent System Operator (NEISO) data sets considering historical data, dry bulb, and dew point temperature. The results show that the proposed model has higher mean absolute percentage errors than other methods in almost all cases. Electric vehicles are gaining popularity over conventional fossil fuel-based vehicles due to their low carbon footprint. More electric vehicles and fast charging stations will be a part of the smart power grid. A novel electric vehicle (EV) scheduling method based on graph search techniques has been presented in this report. To determine the optimal solution for cost minimization, the proposed algorithm considers the uncertainty of the real-time price (RTP) of power and battery degradation costs. The proposed technique's performance is evaluated using test systems that include solar generation, electric load, and an EV with a vehicle-to-grid (V2G) grid connection. The simulation process takes into account a variety of charging rates, including standard, fast, and supercharging. Several test cases for household and workplace EV charging and discharging show that the proposed method outperforms popular heuristic optimization methods, such as particle swarm optimization and genetic algorithms by 3\% to 5\%. With the increasing changes in our traditional power system, the building load management system (BLMS) has become an essential tool for prosumers to manage their power consumption efficiently and conveniently. In this paper, a reference point-based non-dominated sorting genetic algorithm (also known as NSGA-III) is proposed combined with a neural prophet-based forecasting model to find the optimal solution for multi-objective BLMS. The two objectives of BLMS are to minimize the cost of operation and the discomfort cost of the user. To implement the proposed method, a BLMS is modeled consisting of three different types of load based on their operation, energy storage, electric vehicle, and renewable energy resource (RES). The results from the proposed method demonstrate significant savings, around 13\%-18\%, over time while maintaining user satisfaction for both residential and commercial buildings. A comparison analysis with other meta-heuristic methods shows that the proposed method provides the best optimum solution. Lastly, a real distribution feeder model with additional building energy system components is modeled on a digital real-time simulator using a reduced model approach. The results obtained from offline and real-time simulations are almost identical validating the efficacy of the method in field applications.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Electrical and Computer Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">June 20, 2024.</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Md Omar Faruque, Professor Directing Dissertation; Sastry Pamidi, Committee Member; Simon Foo, Committee Member; Juan Ordóñez, University Representative.</note>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85041666">
+      <topic>Electrical engineering</topic>
+   </subject>
+   <identifier type="IID">Shohan_fsu_0071E_18918</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Electrical and Computer Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

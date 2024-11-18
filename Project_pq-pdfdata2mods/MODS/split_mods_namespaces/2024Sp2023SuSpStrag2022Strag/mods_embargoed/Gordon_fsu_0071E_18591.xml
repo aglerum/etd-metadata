@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Structural and Biophysical Characterization of La Related Proteins</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-0758-5078</mods:nameIdentifier>
+      <mods:namePart type="family">Gordon</mods:namePart>
+      <mods:namePart type="given">Blaine Hunter</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/rsilvers">
+      <mods:namePart type="family">Silvers</mods:namePart>
+      <mods:namePart type="given">Robert</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/bstefanovic">
+      <mods:namePart type="family">Stefanovic</mods:namePart>
+      <mods:namePart type="given">Branko</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/hli4">
+      <mods:namePart type="family">Li</mods:namePart>
+      <mods:namePart type="given">Hong</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Chemistry and Biochemistry)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yang">
+      <mods:namePart type="family">Yang</mods:namePart>
+      <mods:namePart type="given">Wei</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemistry and Biochemistry</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2024</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (105 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>La related proteins (LARPs) form a superfamily of 7 distinct, homologous RNA regulatory protein which utilize a tandem La domain and ribonucleotide recognition motif (RRM), termed the La module, to recognize their individual RNA targets. LARP6, in vertebrates, functions to regulate the coordinated synthesis of type 1 collagen peptide mRNA during wound healing processes through the specific recognition of an mRNA secondary structure, the 5' stem loop (5'SL). This stem loop is located at the junction between the 5' untranslated region and protein- encoding region of mature type 1 and type 3 collagen mRNA, preoccupying the translation initiation codon. Prolonged injury from chronic disease, lifestyle, or aging results in the hyperactivity of wound healing mechanisms. Overactive myofibroblasts, which excrete extracellular matrix material (ECM) composed primarily of type 1 collagen, fill functional parenchymal tissue space with nonfunctional scaffoldings which rigidifies the tissue or organ. This hyperactivity results in fibrotic scarring which is progressively less reversible and was associated with &gt;17% of mortalities globally prior to 2020. LARP6 acts as a central regulatory element of type 1 collagen mRNA, governing the potential for high-volume collagen excretion and is therefore operative in the development of fibrosis. Recent work, from our lab and others, presented evidence that La related protein 1 (LARP1) lacks an RRM downstream from the La domain. Instead, the intrinsically unstructured region contains a type 2 polyadenylate binding protein association motif (PAM2) sequence which is recognized by the C-terminal MLLE domain of cytosolic polyadenylate binding protein (PABPC1). The PAM2 motif of LARP1 and other protein functions to protect, circularize, regulate, or destabilize 3' polyadenylated tails of RNA polymerase II transcripts. The PAM2 motif of xi LARP1 deviates from the canonical physiochemical composition and standard length of the consensus sequence from other PAM2 motif-containing protein. In this work novel features of LARP6 substrate recognition and LARP1A PAM2 motif recognition are investigated by NMR spectroscopy and biophysical analysis, as neither system crystalized in our hands. LARP6 can recognize 5'SL RNA without the explicit requirement of the RRM domain, which was previously reported to be mandatory for specific, high-affinity binding. The structure of the LARP6 La domain, residues 79-183, in complex with a 35-nucleotide model of the 5' SL has been determined by NMR spectroscopy. Specificity conferring arrangements of the La domain and 5'SL explain the ability of the La domain to function as an isolated domain. The alternative MLLE recognition elements within the LARP1 PAM2 motif have also been investigated. This motif deviates in its N-terminal segment from the canonical composition of other PAM2 motifs which have been co-crystallized with the MLLE domain. Chemical shift perturbation of isotopically enriched MLLE domain in the presence of PAM2 peptides, coupled with molecular dynamics simulations, elucidates how the differences between these PAM2 still result in similar binding modes on MLLE. This work is concluded with a review of methyl-detected NMR methods for determining allosteric motions or interactions with the kinetic cooperativity model of human glucokinase as a case study.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 28, 2024.</mods:note>
+   <mods:note displayLabel="Keywords">Collagen, La Related Protein, MLLE, NMR, PAM2</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Robert Silvers, Professor Directing Dissertation; Branko Stefanovic, University Representative; Hong Li, Committee Member; Wei Yang, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85014171">
+      <mods:topic>Biochemistry</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85014253">
+      <mods:topic>Biophysics</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Gordon_fsu_0071E_18591</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

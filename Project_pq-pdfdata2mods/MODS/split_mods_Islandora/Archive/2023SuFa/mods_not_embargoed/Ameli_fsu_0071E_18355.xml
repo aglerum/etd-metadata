@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Fault Tolerant Control for Large-Scale Hierarchical Nonlinear Systems with Uncertainty in Parameters and Disturbance</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-9581-9101</nameIdentifier>
+      <namePart type="family">Ameli</namePart>
+      <namePart type="given">Sina</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/oanubi">
+      <namePart type="family">Anubi</namePart>
+      <namePart type="given">Olugbenga Moses</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing thesis</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/vdebrunner">
+      <namePart type="family">DeBrunner</namePart>
+      <namePart type="given">Victor E.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/rroberts">
+      <namePart type="family">Roberts</namePart>
+      <namePart type="given">Rodney G.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/camoore">
+      <namePart type="family">Moore</namePart>
+      <namePart type="given">Carl A.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Electrical and Computer Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (189 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >This document reviews the fault tolerant control (FTC) problems, approaches, and ideas. Chapter one provides the motivation of the need for an FTC, then an overview of the FTC systems and basic terminologies are provided defining faults, fault detection and fault tolerant control systems, then faults are categorized into actuator, sensor, plant, and control input faults. It also discusses the types of fault in the structural point of view, which is additive and multiplicative faults. In chapter 2, the fault diagnosis problem is illustrated. It discusses the design procedure of fault diagnosis including three fault detection, localization, and estimation. The former just checks if a fault happens, while the second step finds the place where a fault occurs, and finally the magnitude of the fault is estimated. Different kinds of methods are discussed depending on having access to the model of the system, system's signal pattern, or knowledge about the system, or exciting the system using an input, and then the idea of fault detection is given for model-based fault diagnosis approach. In chapter 3, the controller part of an FTC is discussed in more details by categorizing it into the passive FTC and active FTC. While the former is designed offline using robust control theory, the latter uses a fault diagnosis along with the controller and it is online. The required terminology for large-scaled system is reviewed in chapter 4 by discussing distributed FTC (model based) and then providing formal definitions for graph theory concepts, and finally two kinds of communication schemes are illustrated for distributed FTC. Then, open problems are discussed in chapter 5. Chapter 6, and 7, provides case studies for an aero-electro-mechanical system, and pure electrical system, respectively. In chapter 6, multiple FTCs are designed for the wind turbine application so that the FTCs mitigate the pitch actuator faults. In chapter 7, FTCs are designed for the application of inverter-based resources. In this chapter, the controller deals with abrupt grid voltage disturbance, and also uncertainty in the transmission line parameters. Finally, chapter 8, provides conclusion and future works.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Electrical and Computer Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">November 13, 2023.</note>
+   <note  displayLabel="Keywords">Adaptive Control, Power Inverter, Robust Control, Wind Turbine</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Olugbenga Moses Anubi, Professor Directing Thesis; Victor DeBrunner, Committee Member; Rodney Roberts, Committee Member; Carl Moore, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85041666">
+      <topic>Electrical engineering</topic>
+   </subject>
+   <identifier  type="IID">Ameli_fsu_0071E_18355</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Electrical and Computer Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

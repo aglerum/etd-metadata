@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Data Subset Selection and Its Applications in Computer Vision</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-9464-9342</mods:nameIdentifier>
+      <mods:namePart type="family">Banerjee</mods:namePart>
+      <mods:namePart type="given">Subhankar</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/schakraborty2">
+      <mods:namePart type="family">Chakraborty</mods:namePart>
+      <mods:namePart type="given">Shayok</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/smho">
+      <mods:namePart type="family">Ho</mods:namePart>
+      <mods:namePart type="given">Shuyuan Mary</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/smho">
+      <mods:namePart type="family">Metcalfe</mods:namePart>
+      <mods:namePart type="given">Shuyuan Ho</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/shaiduc">
+      <mods:namePart type="family">Haiduc</mods:namePart>
+      <mods:namePart type="given">Sonia</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/liux">
+      <mods:namePart type="family">Liu</mods:namePart>
+      <mods:namePart type="given">Xiuwen</mods:namePart>
+      <mods:namePart type="date">1966-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Computer Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2024</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (105 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Recent advancements in the field of deep learning have dramatically improved the performance of machine learning models in a variety of applications, including computer vision, text mining, speech processing and fraud detection among others. Deep learning algorithms automatically learn a set of informative features from a given dataset and have depicted commendable performance on a variety of computer vision applications. However, efficient training of deep learning architectures with a large number of hidden layers is mostly dependent on high-end GPUs and distributed computing infrastructures. Training a deep neural network often involves significant computational overhead. Some applications (such as those running on mobile platforms) are severely limited in terms of memory and computational resources. They have limited access to computational resources and face a fundamental challenge in handling large-scale training data. Cloud services can be leveraged for training but involve challenges with data privacy and cost. Such applications necessitate a subset selection algorithm to identify the informative samples from a large amount of training data, so that the deep network can be trained using only the selected subset. In the 2nd chapter we describe a novel subset selection algorithm, DeepSub, to address this practical challenge. Our framework is computationally efficient, easy to implement and also enjoys nice theoretical properties. Our extensive empirical studies on three challenging computer vision applications (face, handwritten digits and object recognition), using three popular deep learning architectures (AlexNet, GoogleNet and ResNet) corroborate the potential of DeepSub over competing baselines. We propose two novel frameworks to address this important and practical challenge in a slightly different configuration. We pose a budgeted subset selection problem as an NP-hard integer quadratic programming (IQP) problem and derive two convex relaxations to solve the same. Our extensive empirical studies on two challenging vision datasets, using four common deep learning models corroborate the potential of our framework for real-world, resource-constrained applications. Mini-batch gradient descent is the standard algorithm to train deep models, where mini-batches of a fixed size are sampled randomly from the training data and passed through the network sequentially. In the 3rd chapter, we present a novel algorithm to generate a deterministic sequence of minibatches to train a deep neural network (rather than a random sequence). Our rationale is to select a mini-batch by minimizing the Maximum Mean Discrepancy (MMD) between the already selected mini-batches and the unselected training samples. We pose the mini-batch selection as a constrained optimization problem and derive a linear programming relaxation to determine the sequence of mini-batches. To the best of our knowledge, this is the first research effort that uses the MMD criterion to determine a sequence of mini-batches to train a deep neural network. The proposed mini-batch sequencing strategy is deterministic and independent of the underlying network architecture and prediction task. Our extensive empirical analyses on three challenging datasets corroborate the merit of our framework over competing baselines. We further study the performance of our framework on two other applications besides classification (regression and semantic segmentation) to validate its generalizability. In the 4th chapter we discuss a subset selection framework to determine the best testing subset when the training domain may or may not be same with the testing domain. We exploit the geometry of the unlabeled data to identify a batch of representative samples which can reconstruct the target data with minimal error. We pose the sample selection as an NP-hard optimization problem and solve it efficiently using an iterative algorithm, with global convergence. Our extensive empirical results on three benchmark image datasets, with several pre-trained deep neural networks, corroborate the promise and potential of our method for real-world applications.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Computer Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 4, 2024.</mods:note>
+   <mods:note displayLabel="Keywords">computer vision, deep learning, mini-batch selection, model optimization, model raking, subset selection</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Shayok Chakraborty, Professor Directing Dissertation; Shuyuan Metcalfe, University Representative; Sonia Haiduc, Committee Member; Xiuwen Liu, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh89003285">
+      <mods:topic>Computer science</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Banerjee_fsu_0071E_18797</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Computer Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

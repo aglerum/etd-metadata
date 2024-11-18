@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Advanced Functional Regression Models in Biomedical Data Analysis</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-3412-7291</mods:nameIdentifier>
+      <mods:namePart type="family">Ding</mods:namePart>
+      <mods:namePart type="given">Shengxian</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/chuang7">
+      <mods:namePart type="family">Huang</mods:namePart>
+      <mods:namePart type="given">Chao</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/rsnowakowski">
+      <mods:namePart type="family">Nowakowski</mods:namePart>
+      <mods:namePart type="given">Richard S.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2013023251">
+      <mods:namePart type="family">Srivastava</mods:namePart>
+      <mods:namePart type="given">Anuj</mods:namePart>
+      <mods:namePart type="date">1968-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/abarrientos">
+      <mods:namePart type="family">Barrientos</mods:namePart>
+      <mods:namePart type="given">Andrés Felipe</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Statistics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2024</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (101 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Due to the rapid development of imaging acquisition techniques, a large amount of large-scale biomedical studies on neuro-related diseases have been established, such as Alzheimer's Disease Neuroimaging Initiative (ADNI) study, the Human Connectome Project (HCP) study and the UK biobank (UKB) study. These databases have myriad data types, including genomic data, phenotypic data, imaging data, clinical outcomes, and many others. Among the studies on biomedical data, functional regression has received the most attention in functional data analysis (FDA). However, existing statistical methods in this field still face challenges while considering unknown confounders caused by imaging heterogeneity, non-Euclidean imaging data, or imaging data with jump discontinuities. To tackle these challenges, we propose several functional regression models for biomedical data with different structures. First, the function-on-scalar regression model is a powerful tool for building the relationship between the functional responses and covariates of interest. Although it has been widely applied in many large-scale neuroimaging studies, most existing approaches fail to take into account the nonlinear relationship and the unknown confounders caused by imaging heterogeneity. In particular, the potential heterogeneity may be caused by the differences in the study environment, population, design, protocols, and other unknown factors. To address this challenge, we develop a single index function-on-scalar regression model to investigate the nonlinear relationship between functional responses and covariates of interest while adjusting for unknown confounding factors caused by potential imaging heterogeneity. Both estimation and inference procedures are established for unknown quantities in our proposed model. In addition, the asymptotic properties of estimated functions and detected confounding factors are also systematically investigated. The finite-sample performance of our proposed method is assessed by using both Monte Carlo simulations and a real data example on the diffusion tensor images from the ADNI study. Second, causal mediation analysis is widely utilized in neuroscience to investigate the role of brain image phenotypes in the neurological pathways from genetic exposures to clinical outcomes. However, it is still difficult to conduct a genome-wide mediation analysis with the shapes of brain regions as mediators due to several challenges including (i) large-scale genetic exposures, i.e., millions of single-nucleotide polymorphisms (SNPs); (ii) nonlinear Hilbert space for shape mediators; and (iii) statistical inference on the direct and indirect effects. To tackle these challenges, this paper proposes a mediation analysis framework with high dimensional genetic exposures and shape mediators. First, to address the issue caused by the high dimensionality in genetic exposures, a fast genome-wide association analysis is conducted to discover potential genetic variants with significant genetic effects on the clinical outcome. Second, the square-root velocity function representations are extracted from the shapes of the subcortical brain structure, which fall in an unconstrained linear Hilbert subspace. Third, to identify the underlying causal pathways from the detected SNPs to the clinical outcome implicitly through the shape mediators, we proposed a framework consisting of a shape-on-scalar model and a scalar-on-shape model. Furthermore, the bootstrap resampling approach is adopted to investigate both global and spatial significant mediation effects. Finally, our framework is applied to the ADNI corpus callosum shape data, and we successfully identify the mediation effect of a subset of candidate SNPs on Alzheimer's Disease through some specific subregions of the corpus callosum. Finally, most existing methods in functional data analysis assume the smoothness of the functional responses and the coefficient functions or require some smoothing techniques before fitting the functional responses into the statistical models. However, this is often violated in biomedical imaging data, which usually contains spatially contiguous regions or effect regions with relatively sharp edges due to the physical or biological reasons. Thus they tend to blur the image data near the edges or jumps. While the pixel or voxel based methods ignore the spatial information of imaging data, they fail to characterize the spatial correlations. Thus, it is essential to propose an appropriate framework to reveal the relationship between imaging responses and the covariates of interest, while taking the discontinuous property and spatial correlation into account simultaneously. To address these challenges, we proposed a Bayesian hypothesis testing framework on image-on-scalar regression model with mixed effects, and consider wavelet basis decomposition to account for the sudden transitions in the imaging responses. To depict the spatial correlation between grids for each observation, a conditional auto-regressive (CAR) model is utilized. Due to the advantage of Bayesian analysis in hypothesis testing, we propose a Bayesian framework for an image-on-scalar CAR model using a set of Normal - Inverse-Gamma - Uniform priors, introducing the local indicators to conduct block-wise hypothesis tests efficiently and flexibly.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 26, 2024.</mods:note>
+   <mods:note displayLabel="Keywords">Bayesian Statistics, Biomedical Data, Functional Regression, Mediation Anlysis, Medical Imaging</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Chao Huang, Professor Directing Dissertation; Richard Nowakowski, University Representative; Anuj Srivastava, Committee Member; Andres Felipe Barrientos, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <mods:topic>Statistics</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85037507">
+      <mods:topic>Diagnostic imaging</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85110693">
+      <mods:topic>Radiography, Medical</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Ding_fsu_0071E_18679</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

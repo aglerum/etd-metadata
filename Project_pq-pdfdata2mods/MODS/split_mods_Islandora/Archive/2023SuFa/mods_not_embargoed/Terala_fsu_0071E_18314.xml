@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>State of Charge Estimation Using Generative Deep Learning for Electric Vehicle Applications</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-8455-311X</nameIdentifier>
+      <namePart type="family">Terala</namePart>
+      <namePart type="given">Pranaya Krishna</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/foo">
+      <namePart type="family">Foo</namePart>
+      <namePart type="given">Simon Y.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2003129868">
+      <namePart type="family">Meyer-Bäse</namePart>
+      <namePart type="given">Anke</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/pandrei">
+      <namePart type="family">Andrei</namePart>
+      <namePart type="given">Petru</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/swalker">
+      <namePart type="family">Bernadin</namePart>
+      <namePart type="given">Shonda</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Electrical and Computer Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (126 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Energy storage technologies are being used excessively in industrial applications and in automobiles. Battery state of charge (SOC) is an important metric to be monitored in these applications to ensure proper and safe functionality. Since SOC cannot be measured directly, this study puts forth a novel machine learning architecture to improve on the existing methods of SOC estimation. This method consists of using combined stacked bi-directional LSTM and encoder–decoder bi-directional long short-term memory architecture. This architecture henceforth represented as SED is implemented to overcome the nonparallel functionality observed in traditional RNN algorithms. Estimations were made utilizing different open-source datasets such as urban dynamometer driving schedule (UDDS), highway fuel efficiency test (HWFET), LA92 and US06. The least Mean Absolute Error observed was 0.62% at 25 C for the HWFET condition, which confirms the good functionality of the proposed architecture. Generative deep learning techniques are being used excessively in machine learning applications. Ongoing research in this field has been amped up by many players in the consumer market because, none of the other deep learning method can synthetize high fidelity data that can be used to improve other algorithms. In this study a combination of BLSTM SOC estimator and CGAN are used to lower the estimation error. The high-fidelity data generated is fed into the SED BLSTM SOC estimator for training and testing is carried out using the actual LA92 dataset to provide an accurate SOC estimate. Two cases are established for testing and highest accuracy was observed while using LA92 25C data. The major contributions of this dissertation are: 1. Proposed a new SOC estimation technique using stacked Encoder-decoder Bi-LSTM network that provides an improved accuracy over pre-existing machine learning SOC estimation techniques. 2. A generative SOC estimation approach that uses conditional GAN to generate synthetic battery data that can be used to train the proposed SED SOC estimator to improve the versatility of the estimator. 3. High fidelity battery drive cycle data can be synthetized using this architecture for use in different applications.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Electrical and Computer Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">October 26, 2023.</note>
+   <note  displayLabel="Keywords">Deep Learning, Energy Storage, Generative Adversarial Networks, Generative Artificial Intelligence, Machine Learning, State of Charge</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Simon Y. Foo, Professor Directing Dissertation; Anke Meyer-Baese, University Representative; Petru Andrei, Committee Member; Shonda Bernadin, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85041666">
+      <topic>Electrical engineering</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85008180">
+      <topic>Artificial intelligence</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85082757">
+      <topic>Mechanical engineering</topic>
+   </subject>
+   <identifier  type="IID">Terala_fsu_0071E_18314</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Electrical and Computer Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

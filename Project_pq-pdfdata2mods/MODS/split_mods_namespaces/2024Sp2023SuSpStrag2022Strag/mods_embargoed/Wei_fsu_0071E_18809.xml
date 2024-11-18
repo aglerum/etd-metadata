@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Process-Knowledge-Informed Combinatorial Search to Accelerate Process Discovery with Limited Experiments</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-3346-8577</nameIdentifier>
+      <namePart type="family">Wei</namePart>
+      <namePart type="given">An-Tsun</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/hwang10">
+      <namePart type="family">Wang</namePart>
+      <namePart type="given">Hui</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/lenhert">
+      <namePart type="family">Lenhert</namePart>
+      <namePart type="given">Steven John</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/tjd02c">
+      <namePart type="family">Dickens</namePart>
+      <namePart type="given">Tarik</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/lli8">
+      <namePart type="family">Li</namePart>
+      <namePart type="given">Lichun</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Industrial and Manufacturing Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (143 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>Shortening lead time is beneficial as it enhances both profits and productivity in the industry. Lead time can essentially be broken down into (1) production time, the duration required to complete the production of an order, and (2) calibration time, the duration spent in determining the parameter setting for the machine to produce the part with good quality. Calibration time affects how fast the parameters can be found that can achieve the ideal production time. To reduce production time, this thesis focuses on identifying parameter combinations over different locations on the produced parts. Traditionally, such a location-dependent combinatorial search involves a huge search space. For instance, planning 3D printing speed over different printed paths can lead to more than hundreds of thousands of possible speed-path combinations, especially when printing a large part. For combinatorial search at such a massive scale, traditional methods, such as statistical design of experiments or metaheuristics-based search leading to extensive testing, are still not sufficient to cover representative combinations. This dissertation (Chapter 2) proposes a process-knowledge-driven combinatorial search strategy to effectively reduce the search space. Specifically, process knowledge identified from empirical relationships or physical knowledge can be utilized to localize the search for parameter combinations over a limited number of potential regions, thereby reducing the search space in the location-dependent search. This approach is demonstrated in extrusion-based 3D printing by compensating for the infill error while ensuring good quality during high-speed printing. To reduce the calibration time, this dissertation discussed two strategies: (1) a cloud-based learning framework that reduces the user's experiments by leveraging the data from other processes (Chapter 3) and (2) sequential combinatorial experimentation to optimize parameter settings progressively when historical data from other sources are unavailable (Chapter 4). Chapter 3 developed a pre-training and fine-tuning framework to reduce experimental efforts on the end user by transferring pre-trained knowledge from cloud service providers. State-of-the-art transfer learning based on domain adaptation anticipates products and processes bear significant similarity. For instance, cloud printers and end-user's printer should produce a similar shape, which may not be always practical. The proposed method transfers knowledge based on the common empirical process-performance relationships observed from data, thereby enabling the knowledge transfer among more distinctive processes, such as different printing geometries in 3D printing applications. This strategy allows users to leverage contributions from the pre-trained model to reduce data collection efforts for fine-tuning models. The cloud-learning process is demonstrated through pretraining models for the error compensation based on printing different geometries on cloud printers and fine-tuning the end-user's model with limited experiments. In addition, the study also addresses the challenge of printer selection when pre-training the model. Chapter 4 improved Bayesian optimization (BO) to comprehensively cover combinatorial inputs over time within limited experimental runs. However, BO and its recent updates did not address a decision-making problem of allocating limited experimental runs that can cover (1) inputs representing the larger search space for identifying the best combination and (2) replicates for estimating input-dependent variation for each input combination, while capturing the degradation effects. This dissertation utilizes process knowledge to remove the degradation effect from the data and then proposes an empirical hierarchical Bayesian model to capture a common structure in the replicates across all input combinations. The learning of such a common structure can help reduce the necessary experimental runs to estimate input-dependent variability. This method is validated through the simulation of a chemical extraction process based on real experimental data from previous studies. Overall, this dissertation establishes a methodology of utilizing empirical process knowledge to cope with a large combinatorial search in engineering experimentation given limited experimental runs. The results demonstrated its significant potential in searching for ideal combinations among large candidates, with broad applications in new material discovery or manufacturing process development.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Industrial and Manufacturing Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">April 29, 2024.</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Hui Wang, Professor Directing Dissertation; Steven Lenhert, University Representative; Tarik Dickens, Committee Member; Lichun Li, Committee Member.</note>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85043176">
+      <topic>Engineering</topic>
+   </subject>
+   <identifier type="IID">Wei_fsu_0071E_18809</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Industrial and Manufacturing Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Chromosome Dynamics and Genome Organization in Mouse Male Meiosis</title>
+      <subTitle>A Single Cell Analysis</subTitle>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-0080-7317</nameIdentifier>
+      <namePart type="family">Srinivasan</namePart>
+      <namePart type="given">Divyaa</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/pfraser">
+      <namePart type="family">Fraser</namePart>
+      <namePart type="given">Peter H.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/nb2012004932">
+      <namePart type="family">Bass</namePart>
+      <namePart type="given">Hank W.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/alemmon">
+      <namePart type="family">Lemmon</namePart>
+      <namePart type="given">Alan R.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="viaf"
+         authorityURI="http://viaf.org/viaf/"
+         valueURI="http://viaf.org/viaf/171975698">
+      <namePart type="family">Dennis</namePart>
+      <namePart type="given">Jonathan Hancock</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/feng">
+      <namePart type="family">Feng</namePart>
+      <namePart type="given">Jian</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Biological Science</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (76 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Meiosis is a critical process in gametogenesis for sexually reproducing organisms. During spermatogenesis, genome organization undergoes significant changes as primary spermatocytes undergo two rounds of division (meiosis I and II) to produce four genetically diverse haploid spermatids. This process halves the chromosome number and ensures genetic variation in the resulting sperm cells. A key feature of meiosis is homolog pairing, which promotes recombination essential for genetic diversity and species survival. Despite the long-standing discovery of homolog pairing, many mysteries remain regarding the factors and chromosomal interactions that facilitate this process. Bulk Hi-C studies have revealed the dynamic higher-order chromatin structures (TADs and Compartments) that chromosomes adopt as they progress through meiosis. However, the finer scale spatial relationships and physical proximity are often obscured due to the averaging nature of population Hi-C. In this study, we obtained cells from male F1 hybrid mice at various stages of meiotic progression, including the less-studied interkinesis phase, an intermediary phase between meiosis I and II. We performed single-cell Hi-C on these cells to capture chromosome dynamics at the single-cell level. By ordering cells based on their short- and long-range cis interactions, we categorized them into two groups: compacted meiotic prophase cells and decompacted cells, both showing distinct intra-chromosomal contact profiles from each other. Using haplotype phasing, we resolved intra- and inter-genomic interaction profiles. Coverage patterns along homologs alone enabled us to distinguish cell types and understand the zygosity of specific chromosomal regions. This was particularly beneficial for interkinesis cells and spermatids, providing detailed insights into the types and counts of crossover events per chromosome. Diploid contact maps from single cells offered a comprehensive understanding of cell-to-cell variability within each cell type. The added 3D visualization from our high-resolution haplotype-resolved models revealed the varied nature of pairing conformations between chromosomes and between cells. Distance matrices generated from these 3D models uncovered a surprising and previously unseen conserved pattern of proximal interactions between homologs across different cells. This finding was unexpected given the typically varied pairing conformations of chromosomes. These conserved proximal interactions suggest the possibility of homologs beginning pairing at nucleation points, similar to the button model proposed in Drosophila. Alternatively, these conserved points in mammals might act as directors of crossover events. These findings uncover a novel feature of homolog pairing in mammals with significant biological implications, poised for further exploration and understanding.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Biological Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">June 17, 2024.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Peter Fraser, Professor Co-Directing Dissertation; Henry W. Bass, Professor Co-Directing Dissertation; Alan R. Lemmon, University Representative; Jonathan Hancock Dennis, Committee Member; Jian Feng, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85086577">
+      <topic>Molecular biology</topic>
+   </subject>
+   <identifier  type="IID">Srinivasan_fsu_0071E_18834</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Biological Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

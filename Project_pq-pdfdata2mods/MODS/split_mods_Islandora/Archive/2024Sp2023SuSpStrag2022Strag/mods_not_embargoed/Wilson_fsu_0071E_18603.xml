@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Bayesian Smoother Tuning</title>
+      <subTitle>Data Assimilation in the Geosciences with Super-Parameter Optimization</subTitle>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0008-9811-5522</nameIdentifier>
+      <namePart type="family">Wilson</namePart>
+      <namePart type="given">Azaryah</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/fbao">
+      <namePart type="family">Bao</namePart>
+      <namePart type="given">Feng</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/awing">
+      <namePart type="family">Wing</namePart>
+      <namePart type="given">Allison</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/nr2003034196">
+      <namePart type="family">Cogan</namePart>
+      <namePart type="given">Nicholas G.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/lzhu2">
+      <namePart type="family">Zhu</namePart>
+      <namePart type="given">Lingjiong</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/slee17">
+      <namePart type="family">Lee</namePart>
+      <namePart type="given">Sanghyun</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Mathematics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (120 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >The process of Data Assimilation in the Geosciences, in which real world data is used to improve the mathematical simulation of some event of interest, is a large field in applied mathematics. When that system is driven by dynamics, and the real world data is incomplete and noisy, we use the interactions of Bayes Rule with the probability distributions to apply either a filter or smoother to the data. A filter considers an estimate of the current state of the system using up-to-date data, while a smoother considers an estimate of previous state(s) using up-to-date data. In this thesis, we focus on lag-$l$ Linear Ensemble Transfrom Smoothers (LETS), that use current data to estimate the state of the system $l$ cycles in the past using Monte-Carlo strategies confined to a lower dimensional subspace than the system's dimension. These methods assimilate each new observation as it arrives, behaving as a 'smoother in filter's clothing.' Smoothers can have an advantage in forecasting future states over filters in some scenarios; characterizing these scenarios in a way that is practical is one of the goals of this work. Each system in the geosciences will have a unique structure; the relevance of each observation to a feature of a system (such as a observation of wind above Liverpool and an estimate of the temperature in London), or the distance between two features in the system (such as the rainfall in New York and the rainfall in Seattle). By assimilating this structure, we can further improve the assimilated results produced by a smoother; this is called localization. Further, we can assimilate the reliability or unreliability of the system; this is called inflation. Finally, we can assimilate the 'normality' (Gaussian) of the distributions produced to apply the correct method at the correct time; this is called hybridization. Each of the above can be accomplished by 'tuning' scalar superparameters, and turning over the task of tuning to a Machine Learning (ML) method. In this work, we consider tuning all of the above when applied to the standard Lorenz test problems, using Global Bayesian Optimization (GBO) as the ML tool. Showing the extensive flexibility of tuning for smoothers, and how they can provide more meaningful comparisons than are standard in the literature, is the main goal of this work. Along the way, we consider a novel cost/loss functions defined on a lag-$l$ smoother, and various novel LETS methods that are created by the constructive composition of multiple methods together. We consider different localization strategies under a 'more fair' framework than what is standard in the literature, by tuning each competitor to near optimum performance given the system.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Mathematics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">April 1, 2024.</note>
+   <note  displayLabel="Keywords">Assimilation, Bayes, Bayesian, Filter, Smoother</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Feng Bao, Professor Directing Dissertation; Allison Wing, University Representative; Nicholas Cogan, Committee Member; Lingjiong Zhu, Committee Member; Sanghyun Lee, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh93002523">
+      <topic>Applied mathematics</topic>
+   </subject>
+   <identifier  type="IID">Wilson_fsu_0071E_18603</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Mathematics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

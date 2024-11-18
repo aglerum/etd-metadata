@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Examining Multiple Methods for Nonparametric Multivariate Profile Monitoring</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-8755-5233</nameIdentifier>
+      <namePart type="family">Timme</namePart>
+      <namePart type="given">Daniel</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2013023510">
+      <namePart type="family">Chicken</namePart>
+      <namePart type="given">Eric</namePart>
+      <namePart type="date">1963-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/abarrientos">
+      <namePart type="family">Barrientos</namePart>
+      <namePart type="given">Andrés Felipe</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2018001437">
+      <namePart type="family">Liu</namePart>
+      <namePart type="given">Guosheng</namePart>
+      <namePart type="termsOfAddress">(Professor of meteorology)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n98023263">
+      <namePart type="family">Sinha</namePart>
+      <namePart type="given">Debajyoti</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Statistics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (211 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Statistical Process Control (SPC) tools are popular for monitoring system performance. SPC tools usually monitor the changes of the behavior of a sequence of noisy observations, called profiles, to validate whether the process of interest is operating under desired conditions over time. The challenges of a good SPC tool include quick detection of out-of-control (OOC) process and minimizing the probability of false alarms when the process is in-control (IC). The task of a change-point detection (CPD) tool, often used in conjunction with an SPC, is to identify the time-point when the process becomes OOC for the first time. We propose multiple nonparametric methods, including regression trees and random forests, to model the functional relationship of the observed profile with possibly multiple predictors/explanatory variables. We use a Kolmogorov-Smirnov (KS) statistic of the residuals at current and past time-points as the monitoring statistic. In addition to the first KS based test, we present a method where we smooth this KS statistic with Bayesian Bootstrap. To obtain our third SPC tool, we apply Universal Residuals along with Bayesian hypothesis testing ideas. In the latter SPC tool, we are able to perform a post-hoc analysis and develop credible intervals of the change-point time. We perform extensive simulation studies to assess the performance of our proposed methodologies and compare them among themselves and with other existing methods. For these comparisons, we use two logical performance metrics: average run length (ARL) and false alarm rate (FAR). We also compare these competing methods in terms of their computational costs. We conclude with a summary of their potential applications, advantages, and limitations of our methods. Our plans for future research include improving the Bayesian Bootstrap method using an informative prior, improving the post-hoc analysis of our Universal Residuals method, and further residual based SPC tools using Kullback-Leibler divergence and the Beta Distribution.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">May 30, 2023.</note>
+   <note  displayLabel="Keywords">Bayesian Hypothesis Testing, Change Point Detection, Kolmogorov-Smirnov, Nonparametric Multivariate Process Monitoring, Statistical Process Control, Universal Residuals</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Eric Chicken, Professor Co-Directing Dissertation; Andrés F. Barrientos, Professor Co-Directing Dissertation; Guosheng Liu, University Representative; Debajyoti Sinha, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <topic>Statistics</topic>
+   </subject>
+   <identifier  type="IID">Timme_fsu_0071E_18066</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

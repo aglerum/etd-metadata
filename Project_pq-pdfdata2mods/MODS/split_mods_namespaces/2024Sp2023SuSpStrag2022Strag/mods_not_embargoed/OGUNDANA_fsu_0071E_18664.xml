@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>State of Charge Estimation of Lithium Ion Battery for Electric Vehicle Application</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0001-4609-3017</mods:nameIdentifier>
+      <mods:namePart type="family">Ogundana</mods:namePart>
+      <mods:namePart type="given">Ayodeji S.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/foo">
+      <mods:namePart type="family">Foo</mods:namePart>
+      <mods:namePart type="given">Simon Y.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2003129868">
+      <mods:namePart type="family">Meyer-Bäse</mods:namePart>
+      <mods:namePart type="given">Anke</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/pandrei">
+      <mods:namePart type="family">Andrei</mods:namePart>
+      <mods:namePart type="given">Petru</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/swalker">
+      <mods:namePart type="family">Bernadin</mods:namePart>
+      <mods:namePart type="given">Shonda</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Electrical and Computer Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2024</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (95 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The Battery State of Charge (SOC) is the parameter representing the fraction of a battery's remaining available energy to its fully charged state. The Battery SOC is one of the most important parameters of an electric vehicle's (EV) Battery Management System (BMS) as it is used for battery pack balancing, estimating available power, battery safety control, and providing users with available runtime. Electric Vehicle mostly uses lithium-ion battery because of its high energy density which comes with a cost of complex non-linear dynamic system. Lithium-ion batteries are susceptible to over-charging and undercharging because of their inherent properties. Their dynamic properties also tend to change with ambient temperature, operating current, SOC, and operating voltage. Hence requires a complex Battery Management System (BMS) to effectively manage the dynamic parameters. SOC is one of the most important intermediate parameters required for effective EV battery management. In addition, the life cycle of lithium-ion batteries is also a function of its operating SOC. Unfortunately, EV battery SOC cannot be measured directly due to lack of parameter linearly proportional to its available energy. Hence it requires complex estimation algorithms to achieve an accurate SOC estimate. It is often the case that conventional EV SOC management system over-compensates the SOC error estimates at the cost of usable energy. Another common challenge with conventional algorithms is their inability to reconverge quickly from erroneous initialization. Quick convergence and fast SOC estimation algorithm is also required in EV for fast charging. This research proposes a novel ensemble algorithm that uses a weighted estimate of the Central Difference Kalman Filter (CDKF) and Nonlinear Autoregressive with Exogenous Input (NARX) to estimate SOC. The proposed method improves the accuracy of SOC estimates in comparison to convention ensemble SOC estimation methods especially at low temperature. The method introduces an SOC estimation technique which converges quickly from large erroneous initialization state, this is particularly useful in super-fast EV charging technology. Finally, the proposed method provides robust and reliable SOC estimates. The robustness of the proposed method is tested under various drive cycles and temperatures. The estimator provides a reliability indicator in the form of a convergence covariance which indicates how close the estimate is to the true value.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Electrical and Computer Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 27, 2024.</mods:note>
+   <mods:note displayLabel="Keywords">Battery Management Systems, Electric Vehicle, Kalman Filter, Lithium-ion Battery, NARX, State of Charge</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Simon Y. Foo, Professor Directing Dissertation; Anke Meyer-Baese, University Representative; Petru Andrei, Committee Member; Shonda Bernadin, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85043176">
+      <mods:topic>Engineering</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">OGUNDANA_fsu_0071E_18664</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Electrical and Computer Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

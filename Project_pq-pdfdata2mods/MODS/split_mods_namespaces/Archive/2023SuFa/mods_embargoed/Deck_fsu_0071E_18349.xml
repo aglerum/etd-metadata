@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Oxysulfide-Based Fast-Ion Conductors for Solid-State Lithium Batteries</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-6439-8634</mods:nameIdentifier>
+      <mods:namePart type="family">Deck</mods:namePart>
+      <mods:namePart type="given">Michael Joseph</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yhu">
+      <mods:namePart type="family">Hu</mods:namePart>
+      <mods:namePart type="given">Yan-yan</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/chuang3">
+      <mods:namePart type="family">Huang</mods:namePart>
+      <mods:namePart type="given">Chen</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Professor of Scientific Computing)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/shatruk">
+      <mods:namePart type="family">Shatruk</mods:namePart>
+      <mods:namePart type="given">Mykhailo</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/steinbck">
+      <mods:namePart type="family">Steinbock</mods:namePart>
+      <mods:namePart type="given">Oliver</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemistry and Biochemistry</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (123 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The tunability of a material's structure is highly useful for designing a material with specific properties to meet current and future technological demands. This dissertation investigates the structure-property relationships of mixed-anion structural frameworks in novel solid electrolyte (SE) and semiconductor materials. Mixed-anion materials, which are materials with a combination of anions within their sublattice, allow for precise tuning of a material's properties based on atomic size, valence charge, polarizability, etc. Leveraging structural modifications on the atomic scale enables significant improvements in charge transfer as well as chemical and electrochemical stability. By employing diverse synthesis methods and an extensive array of advanced characterization techniques, we investigate the mixed-anion oxysulfide category of lithium thiophosphate solid electrolytes, denoted as Li3PS4-xOx, and examine its performance within all-solid-state lithium batteries (ASSBs). In addition, we have also characterized the semiconductor F:In-O for use in thin-film transistors. Solid-state NMR is leveraged to study the change in local structures upon mixed-anion introduction. In Li3PS4-xOx, the optimal O substitution (x = 0.31) introduces PS3O3 units into the structural framework. This structural disruption causes a change from 2D to 3D Li+ transport with a 7X increase in ionic conductivity and a decrease in activation energy from 0.39 eV to 0.34 eV. Essentially, the disorder on the atomic scale leads to a flattening of the energy landscape, i.e., Li-ions are not trapped by the anions thereby improving the Li+ dynamics. In the case of the F:In-O semiconductor, anion disorder via incorporating F decreases the crystallinity. Mixed-anion frameworks can also yield enhanced stability. Li3PS3.69O0.31 shows improved stability against Li metal, resulting in an increased critical current density. Compared to the pristine Li3PS4, ASSB half-cells utilizing Li3PS3.69O0.31 show improved cycling stability and capacity. Mechanochemical milling of Li3PS4 or Li3PS3.69O0.31 SEs with TiS2 cathode active material generates a material that utilizes both cationic (Ti3+/4+) and anionic (S2/n) (n&lt;2) redox, contributing to two-fold capacity increase. ASSBs utilizing high-energy-milled catholytes containing TiS2 and Li3PS3.69O0.31 show improved high-rate cycling capacity and long-term cycling stability. Mixed-anion materials demonstrate novel or enhanced functional properties that surpass what their mono-anion counterparts can offer. The advancement of effective synthesis methodologies and comprehensive characterizations plays a pivotal role in expanding the accessibility of mixed-anion materials, making them increasingly valuable for critical technological applications.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 8, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">batteries, EIS, electrolytes, energy storage, NMR, sulfide</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Yan-Yan Hu, Professor Directing Dissertation; Chen Huang, University Representative; Mykhailo Shatruk, Committee Member; Oliver Steinbock, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85082094">
+      <mods:topic>Materials science</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Deck_fsu_0071E_18349</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

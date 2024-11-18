@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>T-Adaptive Discriminant Analysis for High-Dimensional, Heavy-Tailed, Vector and Tensor Data</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0002-7435-8913</nameIdentifier>
+      <namePart type="family">Wang</namePart>
+      <namePart type="given">Xiaoyi</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/qmai">
+      <namePart type="family">Mai</namePart>
+      <namePart type="given">Qing</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/liux">
+      <namePart type="family">Liu</namePart>
+      <namePart type="given">Xiuwen</namePart>
+      <namePart type="date">1966-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/eslate">
+      <namePart type="family">Slate</namePart>
+      <namePart type="given">Elizabeth H.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/jdl22h">
+      <namePart type="family">Loyal</namePart>
+      <namePart type="given">Joshua Daniel</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Statistics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (118 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >In contemporary scientific studies, the data collected for classification becomes increasingly complex as technology advances. In my dissertation, we mainly tackle the two following challenges arising from the data: 1) When the data is in the form of a high-dimensional vector, and the data is heavy-tailed or contains non-ignorable noise or outliers; 2) When the heavy-tailed, noisy data is in the form of high-dimensional tensor. My dissertation introduces novel classification methods that address the two concerns mentioned above, making advances in statistical classification in the presence of complex big data. In Chapter 2, to address the first challenge, we introduce a t-adaptive discriminant analysis model (TADA) for the classification of heavy-tailed high-dimensional vector data. Linear discriminant analysis (LDA) is one of the most important classifiers. However, its normality assumption is inadequate in modeling the ubiquitous heavy-tailed data. To tackle this challenge, we propose a robust generalization of LDA by using the t-distribution. Under this probabilistic framework, we reveal a surprising fact that the Bayes' rule has a nonlinear form for which the popular sparsity assumption is inapplicable. Consequently, it is impossible to accurately estimate the Bayes' rule in high dimensions. To bridge this gap, we instead consider the optimal linear classifier, which turns out to resemble the LDA rule on the population level. This result partially explains the well-known fact that LDA remains a competitive classifier on a wide range of datasets where the normality assumptions are unlikely to hold. Then we propose a robust estimate for this classifier that is convenient to implement, with almost no additional computation cost to achieve resistance against outliers. Theory confirms that our classifier has an optimal convergence rate with only finite second-moment conditions. Numerical results also exhibit the favorable performance of our classifier. In Chapter 3, we continue to tackle the second challenge and introduce a new discriminant analysis method for heavy-tailed tensor data using tensor t-distribution (TTDA). Analysis of tensor data, a.k.a., multi-dimensional arrays has gained great popularity because this more complex form of data has emerged from various contemporary scientific fields. In real-world tensor data, we often encounter large noise or outliers caused by the nature of certain scientific fields, sensor failures, or other system errors, rendering heavy-tailed data. The existing tensor classification methods that are capable of handling such large noise or outliers typically rely on low-rank techniques. An alternative to low-rank techniques is to consider the tensor distribution. However, there are fewer studies about tensor distribution beyond normality. To address the above concerns, we develop a new tensor discriminant analysis model, referred to as TTDA, to capture the heavy-tailed noise. TTDA can be viewed as a tensor generalization of the probabilistic framework introduced in Chapter 2. We pose a simple definition of tensor t-distribution on the data and develop the classifier, estimation, and prediction process based on this probabilistic framework. Specifically, a linear form optimal classifier is established that can enable sparsity and variable selection through the discriminant coefficient tensor. We also provide a tuning-free estimation process that yields robust estimations of the tensor t-distribution parameters, followed by the reduce-and-classify prediction procedure. We examine the classification performance of this method with simulations under various scenarios and a real-world dataset.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">June 27, 2024.</note>
+   <note  displayLabel="Keywords">Discriminant analysis, Heavy-tailed data, High-dimensional classification, Linearity, Sparsity, Tensor data analysis</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Qing Mai, Professor Directing Dissertation; Xiuwen Liu, University Representative; Elizabeth Slate, Committee Member; Joshua Loyal, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <topic>Statistics</topic>
+   </subject>
+   <identifier  type="IID">Wang_fsu_0071E_18977</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

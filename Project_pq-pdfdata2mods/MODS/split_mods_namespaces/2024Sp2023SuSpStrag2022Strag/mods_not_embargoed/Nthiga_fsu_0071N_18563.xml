@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Exploring Forest Change Dynamics</mods:title>
+      <mods:subTitle>A Synthesis of Most Commonly Identified Drivers Influencing Tropical Forest Cover Change</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0005-7266-1574</mods:nameIdentifier>
+      <mods:namePart type="family">Nthiga</mods:namePart>
+      <mods:namePart type="given">Nancy</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/spau">
+      <mods:namePart type="family">Pau</mods:namePart>
+      <mods:namePart type="given">Stephanie</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ebillo">
+      <mods:namePart type="family">Billo</mods:namePart>
+      <mods:namePart type="given">Emily</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/cuejio">
+      <mods:namePart type="family">Uejio</mods:namePart>
+      <mods:namePart type="given">Christopher K.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Social Sciences and Public Policy</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Geography</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2024</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (55 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The destruction of vast tropical forests poses a threat to both globally significant biodiversity and carbon storage. Tropical deforestation and degradation are complex phenomena driven by a combination of proximate causes, such as agricultural expansion, wood extraction, infrastructure development, and biophysical conditions, as well as broader underlying drivers, including economic, demographic, technological, and cultural factors. Here we present a comprehensive synthesis of case-based studies (n = 199) that identified proximate causes and/or underlying drivers of tropical deforestation or degradation, and quantified forest cover loss. Latin America emerged as the most frequently studied region, accounting for 42.2% of all cases. Agriculture stood out as the most commonly identified proximate cause of deforestation across all regions, constituting 84.9% of cases and was frequently identified in conjunction with other proximate causes. While recent research has emphasized the role of agricultural expansion as a prominent contributor to tropical forest cover change, we show that agricultural expansion rarely occurs in isolation. Biophysical factors, such as droughts, wildfires, and pest outbreaks, also played a significant role in forest cover loss in all regions. Rates of forest cover loss associated with different proximate causes did not appear to differ. We further examined the ability of common satellite vegetation indices of "greenness", the Normalized Difference Vegetation Index (NDVI) and the Enhanced Vegetation Index (EVI), to capture changes in tropical deforestation or degradation after forest cover loss was detected in primary studies. We found that these indices failed to show reduced greenness after forest cover loss was identified. In some cases, these indices showed increased greenness, presumably owing to conversion to intensive commercial agriculture. It appears that only in cases of complete vegetation loss from infrastructure projects such as forest conversion to roads or buildings, did NDVI and EVI decrease after forest cover loss was detected. Our results suggest that strategies for the prevention and mitigation of tropical forest cover loss should not only consider the role of agricultural expansion but also how agriculture interacts with other proximate causes. Furthermore, the vulnerability of these forests to environmental stressors is important to consider given the prominent role of biophysical factors in forest cover loss. Lastly, although NDVI and EVI are widely used in large-scale analysis of vegetation change, they appear to capture only the near-complete loss of vegetation and may be insufficient to detect other ecological impacts of tropical forest cover change.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Geography in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 4, 2024.</mods:note>
+   <mods:note displayLabel="Keywords">Agriculture, Climate Change, Forest Loss, Land-use land cover change, Tropical Deforestation, Tropical forest degradation.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Stephanie Pau, Professor Directing Thesis; Emily Billo, Committee Member; Christopher Uejio, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85053986">
+      <mods:topic>Geography</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Nthiga_fsu_0071N_18563</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Geography</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>(Re)Visions of Bitzer for New Media Ecologies</mods:title>
+      <mods:subTitle>Rhetorical Situations and Social Media Rhetoric</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0008-1426-7896</mods:nameIdentifier>
+      <mods:namePart type="family">Canino</mods:namePart>
+      <mods:namePart type="given">Andrew R.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2001108549">
+      <mods:namePart type="family">Fleckenstein</mods:namePart>
+      <mods:namePart type="given">Kristie S.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n91016636">
+      <mods:namePart type="family">Houck</mods:namePart>
+      <mods:namePart type="given">Davis W.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2010050868">
+      <mods:namePart type="family">Neal</mods:namePart>
+      <mods:namePart type="given">Michael R.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jfiscus">
+      <mods:namePart type="family">Fiscus-Cannaday</mods:namePart>
+      <mods:namePart type="given">Jaclyn</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of English</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (220 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The exigence for this project lies in the current social-media-dominated moment that society finds itself within. This writing technology that's used in all sorts of applications, from sharing family photos to managing billion-dollar media empires, has completely transformed the way that humanity communicates. Moreover, this composing technology not only shapes us, but is shaped by us in equal measure. Due to this mutual effect that new media ecologies, this project asks how older ideas in our field may be revised and updated to be more congruent with the social media ecologies, and the theory that I chose for revision is the theory of the rhetorical situation, originated by Lloyd Bitzer in 1968. In revising this theory, my project asks the following questions: 1. How might the rhetorical situation (RS) be revised to be congruent with social media communication? 2. What would a revised rhetorical situation (RRS) reveal about how people communicate on social media? 3. What would a revised rhetorical situation elide about how people communicate on social media? To test this theory, I applied the RRS to a political trolling account on Instagram. This account, username @TheseColorsDontCum (hereafter TCDC) is a satirical trolling account whose main goals are ostensibly to lampoon the beliefs of the American republican party, whilst posing as a member of that political party. I chose trolling as my test case because trolling's overall purpose is to halt cooperative discussion by any and every means necessary – no strategy too profane or taboo. As such, there's a high likelihood that trolling, by its very nature, may frustrate traditional models of the RS. Thus, choosing a "rulebreaker" genre like trolling could be doubly instructive, as researchers can learn doubly from what the RRS can reveal, and what it can't. Applying the RRS to the political trolling account on Instagram revealed two guiding communicative elements: the condition of play, and the strategic use of ambivalence in discourse. This play that the various trolls in TCDC's discourse community would engage in spanned a variety of manifestations, such as playing with their own authorial persona, playing with their language use, as well as playing with the play frame itself, freely moving in and out of the bounds of play at will. With respect to ambivalence, this ambivalence often caused the exigence of a given piece of discourse to be highly destabilized, causing me to record two different exigences: an exigence that a rhetor directly states, and an exigence that can be observed. This agreed-upon commitment to ambivalence that all the rhetors in TCDC employed also worked as an integral community-building tool, allowing community members to speak almost exclusively in intertextual pop-cultural references to one another, completely eschewing the rules of traditional speech. That the RRS was able to uncover such insights – play and ambivalence – suggests that these elements may also be at work on other social media sites and platforms as well. What the RRS was less successful at accounting for was the specific technological composing tools that Instagram had to offer. For example, because I had no way of archiving the various "stories" that TCDC posted on their account, seeing as they delete themselves 24-hours after posting , the RRS couldn't account for that material. Additionally, because Instagram is owned by Meta (formerly Facebook), it is organized by algorithms. However, because social media companies often do not allow individual users to have information about how (or why) algorithms circulate the content they do, the RRS could not account for this undeniable element of social media situations. The RRS likewise could not address the efficacy of hashtagging, and how well (or not) those hashtags succeeded in extending TCDC's reach to new audience members. However, these deficits that the RRS currently has need not be permanent; in this project's conclusion, I suggest that many of these current shortcomings can be picked up by researchers in the future.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of English in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 27, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">Communication, Digital, Internet, Rhetoric, The Rhetorical Situation, Trolling</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Kristie Fleckenstein, Professor Directing Dissertation; Davis Houck, University Representative; Michael Neal, Committee Member; Jaclyn Fiscus-Cannaday, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85113628">
+      <mods:topic>Rhetoric</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh95000541">
+      <mods:topic>World Wide Web</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85029027">
+      <mods:topic>Communication</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Canino_fsu_0071E_18136</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Interdisciplinary Humanities</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

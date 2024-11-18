@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Impact of Block Copolymer Structures on Thermal Conduction and Dynamics in Composites</title>
+      <nonSort>The</nonSort>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-8700-2505</nameIdentifier>
+      <namePart type="family">Taleb</namePart>
+      <namePart type="given">Omar Mohamad</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/dhallinan">
+      <namePart type="family">Hallinan</namePart>
+      <namePart type="given">Daniel T.</namePart>
+      <namePart type="termsOfAddress">Jr.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/nb2002004599">
+      <namePart type="family">Schlenoff</namePart>
+      <namePart type="given">Joseph B.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/alamo">
+      <namePart type="family">Alamo</namePart>
+      <namePart type="given">Rufina G.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n84134993">
+      <namePart type="family">Locke</namePart>
+      <namePart type="given">Bruce R.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Chemical and Biomedical Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (189 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Thermal management is crucial in everyday life across a range of applications, influencing our safety, comfort, and efficiency of various technologies. Composite material combines different materials to achieve a mutually unique property that cannot be achieved by one homogenous material. Composite material used for thermal management offers a unique opportunity to enhance overall thermal performance. Composite material is a key player in addressing challenges related to heat dissipation and temperature control due to its ability of incorporating lightweight and thermal properties. In this dissertation, we developed a numerical finite-difference model for 2D transient diffusion in lamellar structures. The explicit application is heat transfer, but it could equally be applied to dielectric constants, magnetic susceptibilities, electron/ion conduction, and mass diffusion as well. The control volume contains two phases A and B. The phases have different transport parameters. The modeling aims to evaluate the effect of grain size, grain boundaries, and phase contrast on apparent transport properties of composite materials, such as laminates, polycrystalline materials, and block copolymers, by examining a progression of increasingly complex structures. To validate the model, effective transport parameters of parallel and perpendicular structures from the numerical model are compared to analytical expressions. Effective Medium Theory provides an analytical expression in the limit of many, small, randomly oriented grains. The impact of coarse grains on transport is investigated. Specifically, the model is used to examine how the apparent transport parameters trend from the limit of a homogeneous material to small randomly oriented grains containing two different phases. The effective thermal conductivity (averaged over many random structures) was found not to be a function of grain size. However, the standard deviation decreased exponentially with decreasing grain size, reaching less than 2% variation for transport through 15 grains. Thus, the appropriate Effective Medium prediction is reliable for a surprisingly few number of grains, and connectivity of the more conducting phase is important only in coarse grains with significant contrast. In addition to the 2D lamellar model structure, we focus on examining the impact that geometric structure has on the thermal conductivity of multi-phase constructs in multiple 3D-printed PLA samples. We explore alternative structural configurations beyond planar arrangements, specifically we focus on cylindrical and gyroid shapes. We investigate how various infill percentages and infill materials influence the thermal conductivity of these structures. By precisely controlling the infill percentages and incorporating different infill materials with varying thermal conductivities, PLA samples can be tailored to simulate various thermal conductivity contrasts observed in practical applications. In this study, we explore the thermal conductivity of PLA structures with different infill percentages and two distinct infill materials: air and thermal paste. Air represents the least conductive material at 0.026 W/(m K), and thermal paste exhibits high thermal conductivity at 5 W/(m K). The experimental results are compared to an analytical model prediction to confirm the efficacy of the model in predicting the thermal performance of these complex structures. Finally, the design of advanced composite nanostructured material requires a fundamental understanding of material behavior at several length scales from nanometer to macroscopic, linked by mesoscopic structure and dynamics. In this work, the structure and dynamics of high molecular weight polystyrene-b-poly(ethylene oxide) (PS-b-PEO) block copolymers (BCPs) were studied. The BCPs exhibited microphase separated cylindrical and lamellar morphologies. Structural dynamics were measured with X-ray photon correlation spectroscopy (XPCS) in the small-angle regime. Morphologies and domain sizes were evaluated using small angle x-ray scattering (SAXS), scanning electron microscopy (SEM), and atomic force microscopy (AFM). The PS-b-PEO grain size was controlled by different processing conditions, a combination of solvent vapor annealing during solution casting and thermal annealing, were investigated. The grain sizes were evaluated using SAXS, were found to depend weakly on processing only for the rubbery majority BCP and the results showed that the grain size variation depends on which block formed the matrix majority. The structural relaxation times were examined as a function of PS volume fraction, temperature, morphology, and structural sizes. Well above the glass transition temperature (Tg) of PS, all samples exhibited stretched autocorrelation decays and diffusive dynamics. Near Tg of PS the dynamics of all samples was anomalous with compressed autocorrelation decays and hyperdiffusive dynamics. This transition occurred at 153 °C or 1.13 Tg of PS. Surprisingly, the structural relaxation times do not correlate with grain size, indicating that PS dynamics and out-of-equilibrium state play the dominant roles in structural dynamics of these strongly phase segregated BCPs.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemical and Biomedical Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">February 28, 2024.</note>
+   <note  displayLabel="Keywords">Block Copolymer, Composites, Dynamic, Structural Morphology, Thermal Conduction</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Daniel T. Hallinan, Jr., Professor Directing Dissertation; Joseph Schlenoff, University Representative; Rufina G. Alamo, Committee Member; Bruce R. Locke, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85022900">
+      <topic>Chemical engineering</topic>
+   </subject>
+   <identifier  type="IID">Taleb_fsu_0071E_18546</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemical and Biomedical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

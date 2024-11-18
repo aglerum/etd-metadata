@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Investigating Venom Complexity and Venom Resistance Using Scolopendromorpha and Drosophila</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-8321-1158</mods:nameIdentifier>
+      <mods:namePart type="family">Ellsworth</mods:namePart>
+      <mods:namePart type="given">Schyler A.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/drokyta">
+      <mods:namePart type="family">Rokyta</mods:namePart>
+      <mods:namePart type="given">Darin</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/qsang">
+      <mods:namePart type="family">Sang</mods:namePart>
+      <mods:namePart type="given">Qing-Xiang</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/sburgess">
+      <mods:namePart type="family">Burgess</mods:namePart>
+      <mods:namePart type="given">Scott C.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kahughes">
+      <mods:namePart type="family">Hughes</mods:namePart>
+      <mods:namePart type="given">Kimberly A.</mods:namePart>
+      <mods:namePart type="date">1960-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/dhoule">
+      <mods:namePart type="family">Houle</mods:namePart>
+      <mods:namePart type="given">David</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Biological Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (117 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Many venom proteins have presumably been convergently recruited by taxa from diverse venomous lineages. These toxic proteins have characteristics that allow them to remain stable in solution and have a high propensity for toxic effects on prey and/or potential predators. Despite this well-established convergent toxin recruitment, some toxins seem to be lineage specific. To further investigate the toxic proteins found throughout venomous lineages, in chapter one we performed venom proteomics and venom-gland transcriptomics on two individual red bark centipedes (Scolopocryptops sexspinosus). Combining the protein phenotype with the transcript genotype resulted in the first in-depth venom characterization of S. sexspinosus, including 72 venom components that were identified in both the transcriptome and proteome and 1,468 nontoxin transcripts identified in the transcriptome. Ten different toxin families were represented in the venom and venom gland with the majority of the toxins belonging to metalloproteases, CAPS (cysteine-rich secretory protein, antigen 5, and pathogenesis-related 1 proteins), and -pore-forming toxins. Nine of these toxin families shared a similar proteomic structure to venom proteins previously identified from other centipedes. However, the most highly expressed toxin family, the adamalysin-like metalloproteases, has until now only been observed in the venom of snakes. We confirmed adamalysin-like metalloprotease activity by means of in vivo functional assays. The recruitment of an adamalysin-like metalloprotease into centipede venom represents a striking case of convergent evolution. In chapter two, we investigated the evolution of venom proteins and we tested two different hypotheses of venom evolution. Whole gene duplication followed by nucleotide differentiation is one of the simplest mechanisms to develop new functions for genes. However, the processes underlying multigene family evolution remain controversial. We utilize multigene families found within the diversity of toxic proteins in venom to test two separate hypotheses related to venom evolution, the two-speed mode of venom evolution and the rapid accumulation of variation in exposed residues or RAVER model. The two-speed mode of venom evolution proposes that different types of selection impact ancient and younger venomous lineages with negative selection being the predominant form in ancient lineages and positive selection being the dominant form in younger lineages. The RAVER hypothesis states that instead of different types of selection acting on different ages of venomous lineages, the different types of selection will selectively contribute to amino acid variation based on whether or not the residue is exposed to the solvent. This follows the longstanding understanding of protein evolution that suggests that residues found within the structural or active regions of the protein will be under negative or purifying selection, while residues that do not form part of these areas will be more prone to positive selection. To test these two different hypotheses, we compared the venom of 26 scolopendromorph centipedes from six currently recognized species from across North America using both transcriptomics and proteomics. First, we estimated the phylogenetic relationships of the centipedes used in this study and then characterized the diverse the venom components from across the identified clades. From this diversity of venom family proteins, we conducted selection-based analyses and compared them with the three-dimensional properties of the venom proteins. We found support for both venom evolution hypotheses through the prevalence of negative selection across all proteins and found evidence of positive selection occurring on residues that were exposed to the solvent, while the structural and less solvent exposed residues corresponded with higher rates of negative selection. Through the use of phylogenetics, proteo-transcriptomics, and selection-based analyses, we were able to describe the evolution of venom from an ancient venomous lineage and support principles of protein evolution that directly relate to multigene family evolution. In chapter three, we examined how a phenotype and the corresponding genotype of one species can affect the phenotype and genotype of a coevolving species. Coevolution, or the reciprocal selection between two interacting species, is a key mechanism for the generation and maintenance of adaptive variation. To understand the genetic mechanisms of coevolution, we first need to establish the genotype-by-genotype interactions that contribute to reciprocal selection. However, linking a singular complex trait to its genotype is one of the most difficult challenges in biology, and that difficulty increases when linking the genotypes of two traits that are acting interspecifically. To disentangle the genetic mechanisms behind coevolving traits, we investigated the interaction between two complex traits, venom and venom resistance. To connect the genetics mechanisms behind venom and venom resistance, we performed an extreme quantitative loci mapping study to uncover the genetic mechanisms underlying venom resistance through injecting two distinct centipede venoms into Drosophila. Through injecting a mainly proteolytic venom and a mainly neurotoxic venom, previously described through proteo-transcriptomics, we revealed a unique genome-wide response to venom resistance. We identified a unique genetic response to both venom types, where the mainly proteolytic venom was associated with biological processes relating to cell adhesion, cytoskeleton organization, synapse organization and nervous system development, while the principally neurotoxic venom was only associated with synapse organization. This comparative approach also uncovered a sex-specific response to venom resistance, which has not yet been described in the literature. To verify the function of the causal genes from our genotype-to-genotype map of venom and venom resistance, we performed an RNAi knockdown study which implicated genes and genetic pathways already described in the literature and uncovered novel pathways that could lead to venom resistance. Through an experimental approach, we comparatively characterized the genetic basis of complex traits and molecularly linked interspecific traits, adding to our understanding of venom and venom resistance and how organisms can coevolve.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Biological Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 20, 2023.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Darin R. Rokyta, Professor Directing Dissertation; Qing-Xiang A. Sang, University Representative; Scott C. Burgess, Committee Member; Kimberly A. Hughes, Committee Member; David C. Houle, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85014203">
+      <mods:topic>Biology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85040752">
+      <mods:topic>Ecology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh90004042">
+      <mods:topic>Evolution (Biology)</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Ellsworth_fsu_0071E_18288</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Biological Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

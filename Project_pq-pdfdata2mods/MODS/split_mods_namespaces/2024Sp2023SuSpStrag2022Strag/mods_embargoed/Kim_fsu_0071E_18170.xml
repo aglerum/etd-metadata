@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Integrating People in Place-Based Accessibility Measures</title>
+      <subTitle>Design and Application of a Novel Mode Choice Accessibility Model</subTitle>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-3753-3196</nameIdentifier>
+      <namePart type="family">Kim</namePart>
+      <namePart type="given">Kyusik</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mhorner">
+      <namePart type="family">Horner</namePart>
+      <namePart type="given">Mark W.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2009109194">
+      <namePart type="family">Ozguven</namePart>
+      <namePart type="given">Eren Erman</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/cuejio">
+      <namePart type="family">Uejio</namePart>
+      <namePart type="given">Christopher K.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/FSUID">
+      <namePart type="family">Mukherjee</namePart>
+      <namePart type="given">Tathagata</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/FSUID">
+      <namePart type="family">Wong</namePart>
+      <namePart type="given">Sandy</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Social Sciences and Public Policy</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Geography</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (134 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>This dissertation introduces a novel place-based accessibility measure called 'mode choice accessibility.' This measure addresses the limitations of conventional place-based accessibility measures, which fail to reflect individual socioeconomic characteristics and assume equal accessibility levels for individuals living in the same location. Mode choice accessibility, built by integrating a travel mode choice model determined by socioeconomic characteristics and built environment attributes, facilitates the evaluation of accessibility gaps among individuals based on locations. Conventional place-based accessibility serves as a useful indicator for understanding the relationship between land use and transportation system. However, its assumption that all individuals living in the same location experience the same level of accessibility makes it incapable of measuring accessibility gaps arising from individuals' circumstances and socioeconomic characteristics. In addition, the abstraction of polygons is critical in place-based accessibility due to its reliance on polygon-based travel costs between origins and destinations. Despite its significance, the impact of centroids on accessibility measurements has been somewhat overlooked. This dissertation aims to enrich the literature on place-based accessibility by investigating the impact of centroid methods on accessibility and by designing a mode choice accessibility model. To achieve these goals, the dissertation compares differences between geometric-based and population-based centroid methods by analyzing their relationship with residential area ratios and their spatial disparities in accessibility. In addition, to ensure the reliability of the mode choice accessibility model, two statistical models (multinomial logit model (MNL) and mixed-logit model (MXL)) and five machine learning classifiers (naive Bayes (NB), support vector machine (SVM), artificial neural network (NN), random forest (RF), and extreme gradient boosting (XGB)) are compared and validated, taking into account the issue of imbalanced classes. The effects of socioeconomic and built environment characteristics on travel mode choices are then examined using relative variable importance and accumulated local effects (ALE) plots. Having identified the NB classifier as the superior predictive model, the mode choice accessibility is applied to spatial access to grocery stores in Minnesota. The effects of income, age, ethnicity, and vehicle ownership on accessibility are examined across Hennepin County and Ramsey County by comparing the accessibility of the reference population group. Moreover, the accessibility gaps generated by different socioeconomic characteristics of hypothetical individuals are investigated while holding other built environment attributes constant. This dissertation reveals that the geometric-based centroid method tends to underestimate accessibility more than population-based centroid methods. Moreover, these differences are more pronounced in rural areas compared to urban areas. In terms of mode choice accessibility, mobility options, such as the lack of access to a car, significantly impact the accessibility gaps among individuals, thereby overcoming the limitations of conventional place-based accessibility measures. Importantly, even when mobility options remain the same, other socioeconomic characteristics such as income and age also partially affect accessibility by influencing travel mode choices. These findings demonstrate that mode choice accessibility enables the hypothetical evaluation of how infrastructure changes impact the accessibility of a specific population group and the potential effects of urban and transport plans in advance.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Geography in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">July 7, 2023.</note>
+   <note displayLabel="Keywords">Accessibility, Geographic information science, Grocery store, Machine learning, Planning, Travel mode choice</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Mark W. Horner, Professor Directing Dissertation; Eren Erman Ozguven, University Representative; Christopher K. Uejio, Committee Member; Sandy Wong, Committee Member.</note>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85053986">
+      <topic>Geography</topic>
+   </subject>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh90001880">
+      <topic>Geographic information systems</topic>
+   </subject>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85053969">
+      <topic>Geodesy</topic>
+   </subject>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85137042">
+      <topic>Transportation</topic>
+      <topic>Planning</topic>
+   </subject>
+   <identifier type="IID">Kim_fsu_0071E_18170</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Geography</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Methods of Shape Analysis</mods:title>
+      <mods:subTitle>Optimal Transport, Geometric Measure Theory, and Deep Learning</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-5754-2930</mods:nameIdentifier>
+      <mods:namePart type="family">Hartman</mods:namePart>
+      <mods:namePart type="given">Emmanuel</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mbauer2">
+      <mods:namePart type="family">Bauer</mods:namePart>
+      <mods:namePart type="given">Martin</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor co-directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n96072093">
+      <mods:namePart type="family">Klassen</mods:namePart>
+      <mods:namePart type="given">E. (Eric)</mods:namePart>
+      <mods:namePart type="date">1958-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor co-directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2013023251">
+      <mods:namePart type="family">Srivastava</mods:namePart>
+      <mods:namePart type="given">Anuj</mods:namePart>
+      <mods:namePart type="date">1968-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/tneedham">
+      <mods:namePart type="family">Needham</mods:namePart>
+      <mods:namePart type="given">Thomas</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/masllani">
+      <mods:namePart type="family">Asllani</mods:namePart>
+      <mods:namePart type="given">Malbor</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Mathematics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2024</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (192 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>In this dissertation, we address the development of mathematical frameworks for computationally feasible methods to compare and analyze large datasets of complex-shaped data. We discuss several projects at the intersections of optimal transport, geometric measure theory, elastic shape analysis, and geometric deep learning that contribute novel algorithms for the practical analysis of shape data and develop the theoretical foundations of shape analysis. We propose a supervised deep geometric learning method to achieve a parameterization-invariant calculation of the square root velocity (SRV) shape distance function. This method learns the invariance of the SRV metric to reparameterizations by implementing a shape-preserving data augmentation method during the training process. Moreover, we propose an unsupervised geometric deep learning method that utilizes methods from geometric measure theory to learn parameterization-invariant feature vector representations of curves and shape graphs. This method provides a robust and efficient approach for the classification of shape data and the identification of point-to-point correspondences between curves and shape graphs. Additionally, we discuss several methods within a framework of relaxed matching between surfaces with respect to a family of second-order Sobolev metrics. These methods combine Riemannian metrics from elastic shape analysis for shape comparison, along with a relaxed matching loss from the domain of geometric measure theory, to solve the correspondence problem. The adoption of weighted varifold representations of shapes facilitates the matching of shapes with different topological structures, accommodating noise, occlusions, and partial matching problems between shapes. Furthermore, we provide a comprehensive framework to perform statistical analysis of populations in the space of shapes. We also describe the restriction of this model to shapes that undergo deformations within a basis of biologically relevant or physically feasible deformations. We also discuss a project studying connection between the Square Root Normal Field (SRNF) elastic shape pseudo-metric and the Wasserstein Fisher-Rao (WFR) unbalanced optimal transport metric. By studying this connection, we construct algorithms and deepen the theoretical understanding of the SRNF and WFR metrics. Specifically, we offer a characterization of the closure of the SRNF map and shapes that are indistinguishable with respect to the SRNF metric. Furthermore, we propose a formulation of the WFR as a diffeomorphic optimization problem related to Gallou\"{e}t and Vialard's recent extension of the Riemannian submersion result of Otto.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Mathematics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">February 23, 2024.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Martin Bauer, Professor Co-Directing Thesis; Eric Klassen, Professor Co-Directing Thesis; Anuj Srivastava, University Representative; Tom Needham, Committee Member; Malbor Asllani, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85082139">
+      <mods:topic>Mathematics</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Hartman_fsu_0071E_18504</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Mathematics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

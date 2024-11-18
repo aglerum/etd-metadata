@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Evaluation of Alternative Lapped Tape Electrical Insulation for Gaseous Helium Cooled Superconducting Power Cables</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0008-0386-2526</nameIdentifier>
+      <namePart type="family">Manzo</namePart>
+      <namePart type="given">Emilio</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/pc14f">
+      <namePart type="family">Cheetham</namePart>
+      <namePart type="given">Peter</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing thesis</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/pamidi">
+      <namePart type="family">Pamidi</namePart>
+      <namePart type="given">Sastry V.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/foo">
+      <namePart type="family">Foo</namePart>
+      <namePart type="given">Simon Y.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Electrical and Computer Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (96 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >As global concerns over environmental impacts grow, there is an increasing demand for energy-efficient technologies across various sectors, including transportation. In response, the development of energy-efficient electric transport has garnered significant interest. This initiative aims to mitigate the environmental footprint of the transportation industry through the adoption of electric ships and aircraft. These innovations can achieve superior energy efficiency compared to conventional modes of transportation, reducing greenhouse gas emissions associated with the transportation industry. Electric ships and aircraft will require advanced technologies such as high-temperature superconductors (HTS) to meet their demanding power and energy density requirements. One key application of HTS technology is the transmission system for high-power loads necessary for propulsion and onboard electrical systems. HTS power cables offer a compact solution capable of transmitting substantial power while adhering to the size and weight constraints. HTS technologies require cryogenic operating temperatures, and gaseous helium (GHe) is the preferred coolant, for electric transport applications. Effective electrical insulation is crucial for HTS cables operating in cryogenic environments. Conventional insulation materials often fail under such conditions due to becoming brittle and cracking. Lapped tape insulation has emerged as a promising solution, offering robust insulation that maintains structural integrity and high dielectric performance at cryogenic temperatures. Materials like polypropylene laminated paper (PPLP) and polyimide film (Kapton) have been identified previously for their suitability in GHe cooled lapped tape cable designs. To further enhance performance, new materials such as polytetrafluoroethylene (PTFE), polyethylene (PE), and polyethylene terephthalate (PET) have been identified due to their low dielectric constants and availability in thin tape form. Additionally, varying the conductor diameter has been explored to understand its impact on cable performance. Finite Element Method (FEM) analyses have been employed to evaluate lapped tape cable designs under both AC and DC electric fields. AC electric field simulations highlighted the potential of low dielectric constant materials in reducing electrical field enhancement, with larger conductor diameters also contributing to improved performance. Notably, AC simulations identified the grounding layer as a critical area of field enhancement. DC electric field simulations, on the other hand, indicated a transition in field behavior from being influenced by permittivity to conductivity factors as steady-state conditions were reached. The time required for DC steady state conditions to be established is a function of temperature, and cryogenic temperatures have a longer transition period compared to room temperature. Experimental validation involved the fabrication and testing of six lapped tape cable samples using PTFE, PE, and PET as insulation materials, paired with varying conductor diameters. Tests conducted at Florida State University's Center for Advanced Power Systems (FSU-CAPS) under GHe cooled AC conditions measured partial discharge inception voltage (PDIV) and partial discharge extinction voltage (PDEV) of all cables. Meanwhile, DC partial discharge measurements were performed on PE cables subjected to prolonged DC stress conditions. The results from these experiments were compared against FEM simulations to validate the theoretical models. Analysis of the AC test results indicated that factors beyond insulation material and conductor diameter significantly influenced cable performance. Issues such as inconsistent application of the grounding layer and introduction of dust particles during manufacturing emerged as critical sources of human error that obscured the effects of insulating material and conductor diameter. Addressing these challenges through improved manufacturing processes and enhanced grounding layer applications was identified as crucial for optimizing HTS cable performance. DC test outcomes aligned closely with FEM simulations, suggesting that the models may accurately describe the behavior of lapped tape cables under DC stresses. Apparent charge measurements during DC tests demonstrated consistency with simulation results. However, there is a need for further DC measurements with extended run times and detailed data analysis to deepen the understanding of DC stress effects on lapped tape cables.</abstract>
+   <note  displayLabel="Submitted Note">A Thesis submitted to the Department of Electrical and Computer Engineering in partial fulfillment of the requirements for the degree of Master of Science.</note>
+   <note  displayLabel="Date of Defense">June 28, 2024.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Peter Cheetham, Professor Directing Thesis; Sastry Pamidi, Committee Member; Simon Foo, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85041666">
+      <topic>Electrical engineering</topic>
+   </subject>
+   <identifier  type="IID">Manzo_fsu_0071N_19007</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Electrical and Computer Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

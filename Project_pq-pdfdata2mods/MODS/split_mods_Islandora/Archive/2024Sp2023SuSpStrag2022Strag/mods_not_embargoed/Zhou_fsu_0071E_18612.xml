@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Statistical Depth in Point Process and Its Applications</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-9995-6771</nameIdentifier>
+      <namePart type="family">Zhou</namePart>
+      <namePart type="given">Xinyu</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/wwu">
+      <namePart type="family">Wu</namePart>
+      <namePart type="given">Wei</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing thesis</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2012035962">
+      <namePart type="family">Wilber</namePart>
+      <namePart type="given">Aaron A. (Aaron Albert)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2013073385">
+      <namePart type="family">Huffer</namePart>
+      <namePart type="given">Fred W. (Fred William)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/jrbradley">
+      <namePart type="family">Bradley</namePart>
+      <namePart type="given">Jonathan R.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Statistics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (133 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >This dissertation includes four research projects. The first two projects mainly focus on the depth method on temporal point process data. The third project is the depth method on spatial point process. This is an extension of the first two projects. The fourth one is about memory and future movement decoding on spike train of small rats, which is collaborated with Dr. Aaron Wilber's lab in Psychology Department. I will provide summaries of each project below. The details can be found in the main chapters. Project 1: Statistical Depth for Point Process via the Isometric Log-Ratio Transformation. Statistical depth, a useful tool to measure the center-outward rank of multivariate and functional data, is still under-explored in temporal point processes. Recent studies on point process depth proposed a weighted product of two terms - one indicates the depth of the cardinality of the process, and the other characterizes the conditional depth of the temporal events given the cardinality. The second term is of great challenge because of the apparent nonlinear structure of event times, and so far only parametric representations such as Gaussian and Dirichlet densities have been adopted in the definitions. However, these parametric forms ignore the underlying distribution of the process events and are difficult to apply to complicated patterns. To deal with these problems, a novel distribution-based approach is proposed to the conditional depth via the well-known Isometric Log-Ratio (ILR) transformation on the inter-event times. Motivated by a uniform distribution on simplex, the new method, called the ILR depth, is formally defined for general point process via a Time Rescaling. The mathematical properties of the ILR depth are thoroughly examined and the new method is well illustrated by using Poisson and non-Poisson processes to demonstrate its superiority over previous methods. Finally, the ILR depth is applied in a real dataset and the result clearly shows its effectiveness in ranking. Project 2: Depth-Based Statistical Inferences in the Spike Train Space. Metric-based summary statistics such as mean and covariance have been introduced in neural spike train space. They can properly describe template and variability in spike train data, but are often sensitive to outliers and expensive to compute. Recent studies also examine outlier detection and classification methods on point processes. These tools provide reasonable result, whereas the accuracy remains at a low level in certain cases. In this study, we propose to adopt a well-established notion of statistical depth to the spike train space. This framework can naturally define the median in a set of spike trains, which provides a robust description of the "template" of the observations. It also provides a principled method to identify "outliers" and classify data from different categories. We systematically compare the new median, outlier detection and classification tools with state-of-the-art competing methods. The result shows the median has superior description for template than the mean. Moreover, the proposed outlier detection and classification perform more accurately than previous methods. Project 3: Statistical Depth in Spatial Point Process. Statistical depth is widely used as a powerful tool to measure the center-outward rank of multivariate and functional data. Recent studies have introduced the notion of depth to the temporal point process, which exhibits randomness in the cardinality as well as distribution in the observed events. The proposed methods can well capture the rank of a point process in a given time interval, where a critical step is to measure the rank by using inter-arrival events. We propose to extend the depth concept to multivariate spatial point process. In this case, the observed process is in a multi-dimensional location and there are no conventional inter-arrival events in the temporal process. We adopt the newly-developed depth in metric space by defining two different metrics, namely the penalized metric and smoothing metric, to fully explore the depth in spatial point process. The mathematical properties and large sample theory, as well as depth-based hypothesis testings, are thoroughly discussed. We then use several simulations to illustrate the effectiveness of the proposed depth method. Finally, we apply the new method in a real world dataset and obtain desirable ranking performance. Project 4: Memory and Future Movement Decoding on Spike Train Information. Movement through space and establishing memories based on such experiences is essential for survival of animals including humans. This ability is thought to require storage of memories often in an allocentric (map-like) framework and conversion to a body-centered reference frame comprised of specific locomotor actions (e.g., turn right). These frameworks must be coordinated in a fluid manner during navigation. The encoding observed in hippocampus (HPC) and parietal cortex (PC) has led to the notion that this circuit operates as a part of a coordinate transformation network; for example, transforming a remembered allocentric representation into the appropriate action. While HPC neurons are typically modulated by allocentric locations, PC neurons are modulated by multiple reference frames including actions (e.g., right turn). This hypothesis was tested using a complex spatial sequence task where rats learn to navigate to unmarked locations fixed in space in a specific sequence. Landmarks are distributed around the room for spatial orientation. We use a sequence (1-2-3-4-1-2-3-5-) that has a repeating path segment (1-2-3) followed by one of two distinct actions. Specifically, the rat learns in context 1-2-3-4, to go to 4 for reward, while in context 1-2-3-5 the rat must go to 5. Thus, navigation to zone 4 or 5 requires a map-to-action transformation. This emulates the spatial memory problem one encounters when driving through an intersection and remembering the appropriate action given the current route and goals (e.g., turn left to a bank versus right to home). Sets of "cued" runs in which a light at each goal leads the rat through the sequence are interleaved with unguided (memory) runs through the complete 1-2-3-4-1-2-3-5 sequence . During memory runs, following an error, a light cue directs the rat to the next zone in the sequence. Thus, during memory runs, the rat must coordinate between remembered allocentric context and egocentric action. We found that decoded PC ensembles (and some single cells; but not simultaneously recorded HPC ensembles) predict upcoming actions following the repeating path segment (3-4 &amp; 3-5) during "memory" but not "cued" trials. Additionally, we hypothesize that accurate action selection by PC will require HPC encoding of memory for the allocentric context. Consistent with this hypothesis, we found that a failure in allocentric context decoding (forgetting if came from 5 vs 4 while navigating 1-2) by HPC ensembles (but not by PC ensembles) also predict behavioral errors. Thus, we provide evidence that the HPC-PC circuit is a coordinate transformation network for interfacing between map like and person centered reference frames.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">March 20, 2024.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Wei Wu, Professor Directing Thesis; Aaron Wilber, University Representative; Fred Huﬀer, Committee Member; Jonathan Bradley, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <topic>Statistics</topic>
+   </subject>
+   <identifier  type="IID">Zhou_fsu_0071E_18612</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

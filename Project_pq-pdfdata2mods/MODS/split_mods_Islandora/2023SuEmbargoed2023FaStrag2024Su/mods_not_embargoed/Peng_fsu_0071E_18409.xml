@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>New Tools for Cryogenic Electron Microscopy Enable Determination of Challenging Structures</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-6057-8961</nameIdentifier>
+      <namePart type="family">Peng</namePart>
+      <namePart type="given">Ruizhi</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/sstagg">
+      <namePart type="family">Stagg</namePart>
+      <namePart type="given">Scott</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/kmcginnis">
+      <namePart type="family">McGinnis</namePart>
+      <namePart type="given">Karen M.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/taylor">
+      <namePart type="family">Taylor</namePart>
+      <namePart type="given">Kenneth A.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/dfadool">
+      <namePart type="family">Fadool</namePart>
+      <namePart type="given">Debra Ann</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/lenhert">
+      <namePart type="family">Lenhert</namePart>
+      <namePart type="given">Steven John</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Program in Molecular Biophysics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (122 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Cryogenic electron microscopy (Cryo-EM) techniques have been rapidly developing over the past decade, enabling faster, better structure determinations of many samples. However, there are still some samples presenting challenges for cryo-EM, such as dynamin-related protein Drp1. Mitochondrial health relies on the membrane fission mediated by Drp1. Previous structure studies on Drp1 remodeled membrane were hampered by heterogeneity, leaving a critical gap in our understanding of the mitochondrial fission mechanism. Here in Chapter 2, we present a cryo-electron microscopy structure of full-length human Drp1 decorated on membrane tubules. Using the reconstruction of average subtracted tubular regions (RASTR) technique, we report that Drp1 forms a lattice with no global helical symmetry, but only local order along the tubule. This lattice is similar to dynamin with rungs, which is formed by the stalk domains, connected by the GTPase domains. However, the G domains form a novel stacked conformation that is unique among dynamin family members. We also observed contact between Drp1 and membrane that can be assigned to variable domain. We revealed two states of Drp1 lattice representing a G domain conformational change related with curvature difference. Together these structures revealed a putative mechanism by which Drp1 constrict mitochondria membranes in a stepwise manner. The proof of concept for RASTR technique was reported previously (Randolph &amp; Stagg, 2020). However, RASTR has its imperfections in terms of workflow and speed. In Chapter 3, we will present a new strategy of using 2D classification to fast determine the size of locally ordered region, and new algorithms to standardize the workflow and speed up data processing. Advances in detector technology enabled high-resolution cryo-EM structure determination. Direct Electron (DE) has introduced a new generation direct electron detector, the DE Apollo, featuring an innovative event-based MAPS detector specially engineered for ultra-fast electron counting. In Chapter 4, we present the performance characterization of the Apollo detector. Our findings indicate that Apollo exhibits exceptional detective quantum efficiency and low coincidence loss. When tested with mouse apoferritin, Apollo consistently achieved sub-2 Å resolution reconstruction at three tested dose rates from a half-day data collection session. With longer collection time and better grid, mouse apoferritin was reconstructed to a remarkable 1.66 Å resolution. When tested on a more challenging small protein aldolase, we obtained a 2.24 Å resolution reconstruction. These results demonstrate the ability of Apollo in acquiring high-quality cryo-EM data, enabling high-resolution reconstructions for both large and small single particle samples. We also utilized this new camera to determine the structure of Kvβ2.1 octamers, which is of low-resolution using earlier generation detector (DE-20). Almost immediately, we observed the resolution improvement from 4.9 Å to 2.3 Å. This result will be presented in Chapter 5.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Institute of Molecular Biophysics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">November 20, 2023.</note>
+   <note  displayLabel="Keywords">apollo, Cryo-EM, drp1, RASTR</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Scott M. Stagg, Professor Directing Dissertation; Karen M. McGinnis, University Representative; Kenneth A. Taylor, Committee Member; Debra A. Fadool, Committee Member; Steven Lenhert, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85014253">
+      <topic>Biophysics</topic>
+   </subject>
+   <identifier  type="IID">Peng_fsu_0071E_18409</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Molecular Biophysics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

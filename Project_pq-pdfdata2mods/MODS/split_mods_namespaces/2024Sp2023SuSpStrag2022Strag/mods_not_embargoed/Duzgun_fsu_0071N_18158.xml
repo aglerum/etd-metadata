@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Quantifying Simulated Deep Convective Transport and Its Sensitivity to Lightning Data Assimilation in a Supercell and Mesoscale Convective System</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-2930-2139</mods:nameIdentifier>
+      <mods:namePart type="family">Düzgün</mods:namePart>
+      <mods:namePart type="given">Cansu</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n81021102">
+      <mods:namePart type="family">Fuelberg</mods:namePart>
+      <mods:namePart type="given">Henry E.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/awing">
+      <mods:namePart type="family">Wing</mods:namePart>
+      <mods:namePart type="given">Allison</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/cdholmes">
+      <mods:namePart type="family">Holmes</mods:namePart>
+      <mods:namePart type="given">Christopher D.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/rselin">
+      <mods:namePart type="family">Adams-Selin</mods:namePart>
+      <mods:namePart type="given">Rebecca</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Earth, Ocean, and Atmospheric Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (77 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Deep convective clouds exert an important impact on the chemical composition of the upper troposphere and lower stratosphere (UTLS) since they can rapidly transport aerosols and chemical species from the planetary boundary layer (PBL) to the UTLS. The impacts on air quality and atmospheric chemistry vary depending on the extent of the transport. This transport can change the composition of trace gases and thereby affect weather and climate. This thesis examines two observed cases of deep convection, an Oklahoma supercell on 29 May 2012, and a mesoscale convective system (MCS) on 11 June 2012, both during the Deep Convective Clouds and Chemistry (DC3) campaign. The first objective is to document the rate of simulated trace gas transport from the PBL to the UTLS. We utilize the Weather Research and Forecasting model coupled with Chemistry (WRF-Chem) to simulate the deep convection. To reduce errors in the timing, location, and depth of the simulated deep convective clouds, a new type of lightning data assimilation (LDA) is employed (Heath et al., 2016). We also perform a WRF-Chem simulation without LDA. Thus, the second objective is to determine the utility of the LDA scheme. The WRF-Chem runs utilize a nested grid with horizontal grid spacings of 36 and 12 km, and 70 vertical levels extending to 50 hPa. STAGE-IV and IMERG Final Run precipitation observations are used to compare simulated rainfall with and without LDA in terms of their timing, location, and intensity. GOES-13 brightness temperature data are used to calculate observed cloud top heights that are compared with simulated cloud tops with and without LDA. Besides the traditional statistical (grid-to-grid) techniques, object-based verification is used to evaluate the simulated precipitation and clouds. Results show that the LDA technique improves the timing, development, and especially the location of the deep convective clouds. Results also reveal that the LDA method increases the correlation between amounts of simulated CO that are transported from the PBL to the UTLS via deep convection for both cases compared to aircraft observations. Computed mass fluxes reveal that flux densities of the supercell exhibit 13.37% greater CO flux densities and 42.94% greater water vapor flux densities in the surface layer, meaning that the supercell transports more CO and H2O from the surface to higher altitudes per unit area in the supercell region than the MCS case. The MCS case demonstrates a weaker transition from the troposphere to the stratosphere in terms of mass fluxes compared to the supercell case.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Earth, Ocean, and Atmospheric Sciences in partial fulfillment of the requirements for the degree of Master of Meteorology.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 26, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">cloud top height, data assimilation, deep convection, modeling, vertical transport, WRF-Chem</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Henry E. Fuelberg, Professor Directing Thesis; Allison Wing, Committee Member; Christopher Holmes, Committee Member; Rebecca Adams-Selin, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85084334">
+      <mods:topic>Meteorology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85022986">
+      <mods:topic>Chemistry</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Duzgun_fsu_0071N_18158</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

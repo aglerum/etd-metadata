@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Numerical and Experimental Studies of Turbulence in Quantum Fluids</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-9446-2497</mods:nameIdentifier>
+      <mods:namePart type="family">Kanai</mods:namePart>
+      <mods:namePart type="given">Toshiaki</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/wguo">
+      <mods:namePart type="family">Guo</mods:namePart>
+      <mods:namePart type="given">Wei</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Professor of Mechanical Engineering)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor co-directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/dccollins">
+      <mods:namePart type="family">Collins</mods:namePart>
+      <mods:namePart type="given">David C. (David Christopher)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor co-directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/sussman">
+      <mods:namePart type="family">Sussman</mods:namePart>
+      <mods:namePart type="given">Mark</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2012037971">
+      <mods:namePart type="family">Piekarewicz</mods:namePart>
+      <mods:namePart type="given">Jorge</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/sdobbs">
+      <mods:namePart type="family">Dobbs</mods:namePart>
+      <mods:namePart type="given">Sean A.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Physics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (160 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>In inviscid quantum fluids like superfluid 4He (He II) and Bose-Einstein condensates (BECs), rotational motion can occur when quantized vortex lines are present. A chaotic tangle of vortices then induces quantum turbulence (QT), turbulent flows in the quantum fluids. QT has become increasingly important in various physical systems, such as superfluid neutron stars, holographic superfluid models of gravity, and complex light fields. Many unanswered questions remain despite past studies on QT in He II and BECs. In this dissertation, we discuss four research projects, three of which are numerical and experimental studies on selected questions in the quantum fluids field, and the other is a numerical study on electron qubits floated on solid neon (Ne).The first numerical study involves the merging process of a stationary BEC with a rotating BEC. In classical fluid drops, rotational motion is transferred by viscous shear flow during the merging process. However, BEC is inviscid, and the corresponding mechanism is less clear. Our results reveal that soliton sheets play an important role in transferring angular momentum during the BEC merging processes. In the second numerical study, we study the two-dimensional (2D) QT in a spherical shell BEC. Although Onsager vortex (OV) clusters, which are persistent clusters of like-signed vortices, can form in the evolution of decaying 2D flat superfluid turbulence, our search for exotic OV patterns in a boundaryless 2D spherical BEC shows that OV clusters never form despite the annihilation of vortex pairs. The third topic is the numerical and experimental study of the anisotropy in thermal counterflow turbulence of He II. While turbulence in classical fluids generally becomes more homogeneous and isotropic as the scale reduces, it is theoretically predicted that counterflow turbulence can become more anisotropic in He II as the length scale reduces. Our experimental results support this idea, but our simulation results suggest the need to revise past theoretical models for this turbulence. Lastly, we numerically study electron qubits floating in a vacuum above solid neon, which is under development and has recently achieved a coherent time long enough for practical usage. We study the interaction between the electron and a small protrusion on the neon surface. Our results indicate the possibility of novel electron states spontaneously bound around the surface bump and the prospect of utilizing these states as a qubit.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Physics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 14, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">Bose-Einstein Condensate, Quantum Computing, Quantum Fluid, Quantum Turbulence, Superfluid</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Wei Guo, Professor Co-Directing Dissertation; David Collins, Professor Co-Directing Dissertation; Mark Sussman, University Representative; Jorge Piekarewicz, Committee Member; Sean Dobbs, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh8510165">
+      <mods:topic>Physics</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Kanai_fsu_0071E_18274</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Physics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

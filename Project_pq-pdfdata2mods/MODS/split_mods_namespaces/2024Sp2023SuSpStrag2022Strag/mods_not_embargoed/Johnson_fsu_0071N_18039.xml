@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Engaging Librarians in the Science of Reading</mods:title>
+      <mods:subTitle>The Implications of Direct Instruction in Evidnece Based Practice for Language and Literacy Development</mods:subTitle>
+   </mods:titleInfo>
+   <mods:titleInfo type="alternative" lang="eng">
+      <mods:title>Engaging Librarians in the Science of Reading</mods:title>
+      <mods:subTitle>The Implications of Direct Instruction in Evidence Based Practice for Language and Literacy Development</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0003-7763-7595</mods:nameIdentifier>
+      <mods:namePart type="family">Johnson</mods:namePart>
+      <mods:namePart type="given">Brittani R.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2014001886">
+      <mods:namePart type="family">Johnson</mods:namePart>
+      <mods:namePart type="given">Lakeisha</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kfarquharson">
+      <mods:namePart type="family">Farquharson</mods:namePart>
+      <mods:namePart type="given">Kelly</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mkr0461">
+      <mods:namePart type="family">Romano</mods:namePart>
+      <mods:namePart type="given">Mollie</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Communication and Information</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>School of Communication Science and Disorders</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (44 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The purpose of this study was to first determine whether a librarian's years of experience positively correlated with their literacy knowledge and efficacy, and to second determine whether structured exposure to specific and targeted education of evidence-based strategies for literacy could enable librarians to improve their knowledge of the tenants of literacy and early language development. 10 librarians from a North Florida Public Library System were surveyed prior to and upon completion of an 8-week professional training course targeting evidence-based strategies for language and literacy development. The pre-training survey, consisting of 7 demographic, 25 knowledge, and 15 efficacy questions, intended to serve as a baseline of the librarians' knowledge of general language components, acquisition, and development, as well as their level of confidence in employing their knowledge to promote early language and literacy development (efficacy). The post-training survey consisted of the same knowledge and efficacy questions with the addition of 5 free-response questions. Data were collected on the pre- and post-knowledge and efficacy responses. All participants demonstrated an increase in the number of correct knowledge responses and increased efficacy ratings from pre-training to post-training. Additionally, years of experience was found to positively correlate with the librarians' efficacy ratings pre-training. However, years of experience was observed to have a mild negative correlation with pre-training knowledge. Implications of this study suggest that although exposure to structured training for language and literacy may be helpful in improving knowledge and efficacy in youth service librarians, years of experience in the role does not guarantee that veteran librarians will possess more knowledge than those newer to the field. A wider scope of training and content is needed to ensure strong foundations of knowledge.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A thesis submitted to the Department of Communication Science and Disorders in partial fulfillment of the requirements for the degree of Master of Speech Language Pathology.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 28, 2023.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Lakeisha Johnson, Professor Directing Thesis; Kelly Farquharson, Committee Member; Mollie Romano, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85074518">
+      <mods:topic>Language and languages</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85076723">
+      <mods:topic>Library science</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85126455">
+      <mods:topic>Speech therapy</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Johnson_fsu_0071N_18039</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Communication Science and Disorders</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

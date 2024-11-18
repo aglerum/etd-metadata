@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Music Therapists' Knowledge of Autism</mods:title>
+      <mods:subTitle>A Survey of Music Therapists Who Work with Autistic Clients</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0002-6809-1343</mods:nameIdentifier>
+      <mods:namePart type="family">Freeman</mods:namePart>
+      <mods:namePart type="given">Lauren</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n91075721">
+      <mods:namePart type="family">Standley</mods:namePart>
+      <mods:namePart type="given">Jayne M.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/dgregory">
+      <mods:namePart type="family">Gregory</mods:namePart>
+      <mods:namePart type="given">Sarah Dianne</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kvanweelden">
+      <mods:namePart type="family">VanWeelden</mods:namePart>
+      <mods:namePart type="given">Kimberly D.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Music</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Music</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (77 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The purpose of this study was to assess music therapists' knowledge of autism via a validated measure to explore their perspectives regarding how they practiced music therapy with autistic clients. The participants for this study were 336 MT-BC's practicing across the United States providing music therapy services to at least one autistic client. The dependent measure was a survey created by combining the ASKSP-R by McClain et al. (2020) with previous demographic, professional and clinical practice items selected from previous research by Kern, Rivera, Chandler, and Humpal (2013) and modified to today's terminology and practice standards. Results showed that, overall, music therapists had adequate knowledge of autism as measured by the ASKSP-R however there were gaps in knowledge found. Music therapists reported feeling confident providing music therapy services to autistic people. Regarding how music therapists informed their practice, they reported using several different resources, organizations, and training programs such as Autism Speaks, Autistic Self Advocacy Network, Autistic Women &amp; Nonbinary Network, Registered Behavioral Technician training, and applied behavior analysis and safety care training. The free text responses on the professional practice portion of the survey revealed strong feelings about the current controversy over appropriate services for autistic persons. Since the ASKSP-R and portions of the survey used person-first language and deficit based language, several music therapists expressed their concern and opinions through textual responses on the survey, through emails, and social media. While several music therapists showed support for a social model and the neurodiversity paradigm, others showed their support for the medical diagnosis model, therapies for autism such as ABA, and organizations such as Autism Speaks. This study concludes with my personal responses and recommendations as an autistic person to the study, diagnosis, and services provided to autistic persons.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the College of Music in partial fulfillment of the requirements for the degree of Master of Music Therapy.</mods:note>
+   <mods:note displayLabel="Date of Defense">May 23, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">ASKSP-R, Autism, Autism Knowledge, Music Therapy</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Jayne Standley, Professor Directing Thesis; Diane Gregory, Committee Member; Kimberly D. VanWeelden, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85088942">
+      <mods:topic>Music therapy</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Freeman_fsu_0071N_18054</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Music</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>College of Music</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

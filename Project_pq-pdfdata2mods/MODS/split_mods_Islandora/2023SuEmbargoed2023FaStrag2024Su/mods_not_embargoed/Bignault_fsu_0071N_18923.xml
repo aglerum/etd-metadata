@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Understanding of Observed Tropical Cyclone Wind Profiles from Effective Absolute Angular Momentum Perspective</title>
+      <subTitle>Case Studies</subTitle>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0006-7259-5738</nameIdentifier>
+      <namePart type="family">Bignault</namePart>
+      <namePart type="given">Sophie Hampton</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2011010891">
+      <namePart type="family">Cai</namePart>
+      <namePart type="given">Ming</namePart>
+      <namePart type="date">1957-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing thesis</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2018001437">
+      <namePart type="family">Liu</namePart>
+      <namePart type="given">Guosheng</namePart>
+      <namePart type="termsOfAddress">(Professor of meteorology)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/msdiamond">
+      <namePart type="family">Diamond</namePart>
+      <namePart type="given">Michael</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Earth, Ocean, and Atmospheric Science</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (51 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Low and mid-latitude coastal communities face significant threats from the severe damage caused by tropical cyclones (TCs). Beyond the critical factor of TC track, the intensity and size of these storms play crucial roles in determining the severity of damage due to their substantial impacts on wind destruction, storm surges, and flooding. While TC track forecasting has seen substantial improvements over the past few decades, advancements in predicting TC intensity and size, which together form the radial profile of TC surface winds, remain limited. Enhanced understanding of TC intensity, size, and the radial profile of TC surface winds is essential for coastal communities to better prepare for potential maximum damage. Based on the effective absolute angular momentum model (eAAM, Sun et al., 2022), the radial profile of tropical cyclones' (TC) surface wind can be largely determined from their eAAM values. The effective absolute angular momentum combines the absolute angular momentum (AAM) and its loss due to surface drags as a radial invariant quantity of a given observed instance TC. This study uses the observation data of four TCs to demonstrate how the eAAM values determine the radial profile of TC surface winds. The four observed TCs are Hurricane Ian (2022), Hurricane Ida (2021), Hurricane Julia (2022), and Hurricane Fiona (2022). We estimate eAAM values of the four observed TCs from their radial profiles of surface winds by varying the parameters for the loss AAM rate such that the resultant eAAM values satisfies the radial invariant condition closely. It is found that as long as radial invariant condition of eAAM is satisfied, the eAAM model can reproduce the observed radial profiles of TC surface winds from the radius of maximum wind outward to the radius of a few meters in all four cases. Different TCs would have different values of eAAM because of differences in their AAM loss rate, which is modeled as different combinations of model parameters in the eAAM model. The case study also demonstrates that different TCs can have the same AAM loss rate, but different eAAM values. Under the same AAM loss rate, a larger TC (such as Hurricane Ian) has a larger value of eAAM whereas a smaller TC (such as Hurricane Ida) has a smaller value of eAAM. Again, the difference in their radial profiles can be explained by the difference in their eAAM values. It remains an open question how different combinations of model parameters are related to the environmental conditions which impact TCs' eAAM values and thereby their radial wind profiles.</abstract>
+   <note  displayLabel="Submitted Note">A Thesis submitted to the Department of Earth, Ocean, and Atmospheric Sciences in partial fulfillment of the requirements for the degree of Master of Science.</note>
+   <note  displayLabel="Date of Defense">June 20, 2024.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Ming Cai, Professor Directing Thesis; Guosheng Liu, Committee Member; Michael Diamond, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85084334">
+      <topic>Meteorology</topic>
+   </subject>
+   <identifier  type="IID">Bignault_fsu_0071N_18923</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

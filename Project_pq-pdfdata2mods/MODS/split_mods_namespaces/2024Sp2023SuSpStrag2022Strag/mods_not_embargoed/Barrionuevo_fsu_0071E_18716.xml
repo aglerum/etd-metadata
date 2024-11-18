@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Viola Dilemma</mods:title>
+      <mods:subTitle>Playability versus the Various Sizes, Shapes, and Measurements</mods:subTitle>
+      <mods:nonSort>The</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0009-7274-319X</mods:nameIdentifier>
+      <mods:namePart type="family">Barrionuevo</mods:namePart>
+      <mods:namePart type="given">Luiz Carlos</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2012019691">
+      <mods:namePart type="family">Ryan</mods:namePart>
+      <mods:namePart type="given">Pamela</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing treatise</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2015096684">
+      <mods:namePart type="family">Bugaj</mods:namePart>
+      <mods:namePart type="given">Kasia</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2007052630">
+      <mods:namePart type="family">Jiménez</mods:namePart>
+      <mods:namePart type="given">Alexander</mods:namePart>
+      <mods:namePart type="date">1963-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2018139214">
+      <mods:namePart type="family">Speed</mods:namePart>
+      <mods:namePart type="given">George</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Music</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Music</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2024</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (92 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Dimensions and measurements other than the viola's size are not generally discussed among viola players, even though they significantly impact playability and comfort. The dimensions and measurements of the string length, upper shoulders shape, middle bouts, lower bouts, neck thickness, fingerboard curvature, rib and arching height, and the instrument's weight are crucial in determining if an instrument is comfortable and will ergonomically suit the violist. The issue also is that the majority of viola players prioritize the instrument's tone when searching for a new viola, overlooking many dimensions and measurements that can substantially affect playability and, consequently, the player's performance and health. Moreover, the notion that "the bigger, the better" still permeates the minds of some viola players and luthiers alike, and it is commonly associated with the outdated concept that the viola should have the largest possible acoustic box to produce a darker and deeper sound. Part of the problem relies on the viola never being standardized, primarily because the viola was designed not as one instrument but as two different ones: a smaller alto, and a larger tenor. Moreover, the music of the middle 1500s, for which the violin-family instruments were designed, was quite simple. However, after centuries, the repertoire is now far more complex, and playing standards have evolved considerably, requiring the contemporary violist to have an instrument that would meet their needs in terms of sound but, equally importantly, playability. Fortunately, contemporary makers are becoming increasingly aware of the viola's dimensions versus playability and have been successfully finding solutions for this issue. Nevertheless, viola players still have limited information about the interaction of instrument and player, and generally rely on subjective perspectives when shopping for or commissioning a viola. This study aims to explore the dilemma of viola size versus playability and objectively discuss how specific viola dimensions and measurements directly impact playability, technique, and comfort. Another goal of this study is to guide the advanced viola player by establishing criteria for what could be considered an ideal viola. This involves examining the relationship between the performer's physical characteristics and the instrument itself in order to formulate parameters that will determine which specific measurements and dimensions of the non-standard viola impact playability. Such discussion can be particularly relevant since finding a professional-level instrument can be challenging, time-consuming, and financially risky.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Treatise submitted to the College of Music in partial fulfillment of the requirements for the degree of Doctor of Music.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 28, 2024.</mods:note>
+   <mods:note displayLabel="Keywords">MEASUREMENTS, PLAYABILITY, SHAPES, SIZE, VIOLA, VIOLIST</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Pamela Ryan, Professor Directing Treatise; Katarzyna Bugaj, University Representative; Alexander Jiménez, Committee Member; George Speed, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85088762">
+      <mods:topic>Music</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Barrionuevo_fsu_0071E_18716</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Music</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>College of Music</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

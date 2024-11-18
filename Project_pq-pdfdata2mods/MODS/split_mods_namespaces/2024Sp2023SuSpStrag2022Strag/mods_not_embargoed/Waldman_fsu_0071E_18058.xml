@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Penance and Penitential Intent within Religious Themed Works of Chaucer</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0009-7477-9014</mods:nameIdentifier>
+      <mods:namePart type="family">Waldman</mods:namePart>
+      <mods:namePart type="given">Peter</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2003069418">
+      <mods:namePart type="family">Fumo</mods:namePart>
+      <mods:namePart type="given">Jamie</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n79054291">
+      <mods:namePart type="family">Cairns</mods:namePart>
+      <mods:namePart type="given">Francis</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/nr91045296">
+      <mods:namePart type="family">Johnson</mods:namePart>
+      <mods:namePart type="given">David F. (David Frame)</mods:namePart>
+      <mods:namePart type="date">1956-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n91125062">
+      <mods:namePart type="family">Boehrer</mods:namePart>
+      <mods:namePart type="given">Bruce Thomas</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of English</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (145 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The evolution of the concept of penance during the Middle Ages in England reflects the influence of many geopolitical sources, as well as the expanding influence/maturation of the Roman Catholic Church and the development of sacramental rituals during this period. One of these sacraments was codified as a result of the Fourth Lateran Council, which evolved the concept of penitence from an evocation of one's personal relationship with God into a sacrament presenting the Church as the ultimate authority on the Christian afterlife. Prior to the advent of the Council and its doctrine, penitential writings such as the Soul and Body poems and the dream poetry of the time established penance as largely a personal matter, and the writings were more intended to convince the faithful to take reckoning of their own connections with the divine rather than to enforce penitential doctrine vis-à-vis the Church specifically. As medieval England accepted the Lateran Council's doctrine and the Christian community began to place more emphasis on concepts such as mandatory Church-based confession and Purgatory, the religious perspective on the afterlife became more nuanced. In adopting a broader perspective on the afterlife, the Church was able to attract more parishioners, which in turn helped to spread the Church's influence. Given this perceived rise in the importance of penance following the Council, it naturally becomes a topic to be explored in the literature of the period. Perhaps because of his use of the vernacular as well as his placement of classical pagan characters into some texts, Chaucer's writings are not considered as openly religious as those written by some of his contemporaries; nonetheless, there exists an undercurrent of piety throughout several of his works that merits analysis. The most prominent of these works include Troilus and Criseyde, the Prologue to the Legend of Good Women, and the Canterbury Tales told by the Friar, Pardoner, and Parson. All of these draw attention to the importance of penitence despite their emphasis on classical mythology and then-current social themes. This thread culminates in the Retraction to his Canterbury Tales, which he presents as an apology for the faults found in his complete body of works and as a personal plea for the grace of both God and his audience. Through his use of the Retraction and apologies, Chaucer brought religious and penitential themes to the attention of his largely secular court audience. In turn, because he wrote for the courtiers and not for the Church or a specifically religious patronage, he was provided a forum from which to point out the flaws he found apparent in aspects of the Church and its representatives while still incorporating Christian penitential messages in his writings. Coinciding with his discussions of penance, also notable within Chaucer's works is the fact that he presents personal intent or "entente" as a theme within his writings. This concept appears within several of the Canterbury Tales, most notably those told by the Pardoner and Friar, but is also referenced in Troilus's prayers to the God of Love and in Chaucer's defense of his writings in the prologue to the Legend of Good Women. Given the myriad interpretations of his works, his use of these concepts invites the question of his regard for the import of penitential intent and contrition. This becomes especially important in that it reflects on the Retraction to his Canterbury Tales, wherein he rescinds nearly all of his most famous literary works ostensibly in the name of repentance for having created them. It is possible to interpret the Retraction in multiple different ways as well, from a genuine plea for forgiveness in the face of death to a way to promote himself or escape criticism by the Church. This is indicative of the larger issue surrounding the interplay between Chaucer's notions of intent and his treatment of penance. When viewed in this light, the Retraction becomes a tool used to draw focus to Chaucer's true intent in constructing his texts. The goal of this examination is to consider Chaucer's use and discussion of penitential concepts to argue that he presents a thematic progression regarding representations of penance between Troilus and Criseyde, the Prologue to the Legend of Good Women, and the Canterbury Tales, moving from what may be described as a more personal, albeit playful, take on the concept in Troilus to more institutionalized interpretations in the Legend's Prologue, the Canterbury Tales, and its accompanying Retraction. This exploration of penitential history resembles the evolution of penitential concepts across the whole of the medieval period.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of English in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 8, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">Canterbury Tales, Chaucer, Criseyde, Penance, Troilus</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Jamie Fumo, Professor Directing Dissertation; Francis J. Cairns, University Representative; David F. Johnson, Committee Member; Bruce T. Boehrer, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85077548">
+      <mods:topic>Literature, Medieval</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Waldman_fsu_0071E_18058</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>English</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

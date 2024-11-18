@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Real-Time Planning and Control of Dynamic Robots in Dynamic Environments</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0005-7710-921X</nameIdentifier>
+      <namePart type="family">White</namePart>
+      <namePart type="given">Jason</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/chubicki">
+      <namePart type="family">Hubicki</namePart>
+      <namePart type="given">Christian M.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing thesis</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/clarkj">
+      <namePart type="family">Clark</namePart>
+      <namePart type="given">Jonathan E.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/bkrick">
+      <namePart type="family">Krick</namePart>
+      <namePart type="given">Brandon</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/rroberts">
+      <namePart type="family">Roberts</namePart>
+      <namePart type="given">Rodney G.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Mechanical Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (98 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Dynamic robots require robust controllers to successfully plan and navigate the unstructured world around us. Novel control methods become necessary when these robots' environments are dynamic and the robots themselves have fast and unstable dynamics that cannot be shaped arbitrarily by control – e.g., hybrid dynamics (impacts) or underactuation. Legged robots and unmanned aerial vehicles (UAVs) are examples of such dynamic machines. This thesis argues that fast and reactive planning in dynamic environments is paramount for success when facing these challenges where control decisions must be made in milliseconds. To facilitate this goal, this work formulates new implementations of trajectory optimizations and force control as the primary tools for synthesizing legged and aerial locomotion that accommodates rapid environmental changes. As a demonstration of novel forms of dynamic planning and control, this thesis presents: 1) A bipedal robot balancing controller that remains stable in the face of unplanned contact changes (i.e.. soft, moving, orcompletely lost footholds). This feedback controller is advantageous when the dynamic model may be inaccurate, unknown, or changing, and is amenable to other robotic platforms with joint-level torque control, quickly moving limbs, and mechanical robustness to impacts. 2) A monopod motion controller that generates reactive motion plans in milliseconds by solving convex quadratic programs but does not use predefined footfall locations or contact timings. This method allows the system to hop, stand, or transition between the two as an emergent property when the robot's desired height and speed are changed. 3) A monopod motion planner that generates energy-efficient gaits in resistive fluid-like media. After modeling fluid forces on partially submerged legs as differentiable functions, gradient-based nonlinear optimizations were able to reduce computation times observed in prior work from minutes to seconds. 4) A real-time obstacle avoidance motion planner capable of avoiding multiple fast-moving obstacles both on UAV hardware and a simple bipedal locomotion model. The mathematical formulation requires few and easy-to-tune hyperparameters, allowing for straightforward implementation. Altogether, these contributions underscore how simple iteratively updated models, when coupled with fast-solving planning algorithms, yield robust and dynamic robot control.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Mechanical Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">November 10, 2023.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Christian Hubicki, Professor Directing Thesis; Jonathan Clark, Committee Member; Brandon Krick, Committee Member; Rodney Roberts, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85114628">
+      <topic>Robotics</topic>
+   </subject>
+   <identifier  type="IID">White_fsu_0071E_18281</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Mechanical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Large-Scale Graph Computation and Summarization</mods:title>
+      <mods:subTitle>Learning-Enhanced Approaches</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-0621-8815</mods:nameIdentifier>
+      <mods:namePart type="family">Bai</mods:namePart>
+      <mods:namePart type="given">Jiyang</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/zhao">
+      <mods:namePart type="family">Zhao</mods:namePart>
+      <mods:namePart type="given">Peixiang</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/chuang3">
+      <mods:namePart type="family">Huang</mods:namePart>
+      <mods:namePart type="given">Chen</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Professor of Scientific Computing)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/liux">
+      <mods:namePart type="family">Liu</mods:namePart>
+      <mods:namePart type="given">Xiuwen</mods:namePart>
+      <mods:namePart type="date">1966-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/xzhang14">
+      <mods:namePart type="family">Zhang</mods:namePart>
+      <mods:namePart type="given">Xiaonan</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Computer Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2024</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (121 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>In the modern information era, graphs have been ubiquitous in numerous high-impact areas, including social media, bioinformatics, artificial intelligence, and critical infrastructures. The sets of nodes and edges within graphs can effectively represent and preserve information of entities and the sophisticated relationships among them. With the prevading and increasing trends of graph data, numerous graph-related tasks and techniques have been proposed and deeply studied. For example, graph representation learning extracts graph information into vectors for downstream tasks; graph similarity computation task quantifies the distances between two graphs, which is utilized in pattern recognition and drug creation; graph summarization task compress the sizes for representing large-scale graphs to assist more efficient graph storage. Due to the unique structures and increasing scales of graphs, graph-related tasks and algorithms still face many challenges from both effectiveness and efficiency aspects, especially when the scales of graph data (either the sheer size of a single graph or the number of data graphs in a graph database) explode. Meanwhile, nowadays we have witnessed the prosperity and advantages of deep learning models in many applications. With its unprecedented inference ability, it is intuitive to consider applying deep learning methods for dealing with graph-related tasks and also enhance the performance of existing graph computational methods.In this dissertation, I summarize three representative topics of my research works throughout the Ph.D. study that emphasize the problems mentioned above. The first topic is graph representation learning with graph neural networks (GNNs) on large-scale graphs. As the graph's scale increases and higher-order neighbors are considered, the recursive neighborhood aggregation within GNNs can cause the number of neighbors to explode when computing node representations. We name this problem as neighbors explosion. Besides, graphs have the characteristics of node dependence, which means neighboring nodes affect each other in the learning process. When GNNs go deeper and learn on the full graph, it is unavoidable for the problem of oversmoothing that node representations from different clusters mix up. The problems of neighbors explosion, node dependence, and oversmoothing hinder the effectiveness and even feasibility of GNNs. In the dissertation, I introduce a subgraph-based GNN training framework that lowers the space complexity during the running process and also addresses the above problems on large graphs. The second topic in the dissertation is deep learning-based graph similarity computation. Existing graph similarity computation methods suffer from severe performance issues due to the NP-hardness of exact computation of the graph edit distance (GED) metric. Graph edit distance (GED) is defined as a minimum number of graph edit operations between a pair of graphs, and it has by far been the most well-studied graph similarity metric. There are four types of graph edit operations for labeled graphs: Node-relabeling (NR) that changes the label of one node; Node-insertion/deletion (NID) that inserts or deletes one isolated node; Edge-relabeling (ER) that changes the label of one edge; Edge-insertion/deletion (EID) that inserts or deletes one edge. Inspired by the success of deep learning techniques, we propose a type-aware graph similarity learning and computation framework that estimates GED in a fine-grained approach w.r.t. different graph edit types. The third topic is learning policy-based lossless graph summarization to generate more concise graph storage formats. The lossless graph summarization aims to identify a compact representation of a large graph consisting of a summary graph and an edge correction set. We reformulate the problem of graph summarization as a policy learning and optimization problem, where summarizing a graph can be considered as making a sequence of supernode selection and merging decisions under the guidance of an optimized supernode selection policy. The contents of this dissertation are organized as follows: In Chapter 1 I introduce the preliminary concepts of graphs and existing solutions for graph representation learning, graph similarity computation, and graph summarization problems. In Chapter 2 I list the core definitions and related works for graphs and graph neural networks. In Chapter 3, I introduce the subgraph-based GNN training framework. In Chapter 4, I introduce the type-aware graph similarity learning and computation algorithm. In Chapter 5, I introduce the framework of graph summarization solutions, then propose a learning-enhanced graph summarization approach that can achieve cost-effective graph storage. In Chapter 6 I list the potential research extensions based on the my existing projects and the upcoming research plan, and conclude the dissertation and my research works during my Ph.D. study in Chapter 7.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Computer Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 22, 2024.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Peixiang Zhao, Professor Directing Dissertation; Chen Huang, University Representative; Xiuwen Liu, Committee Member; Xiaonan Zhang, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh89003285">
+      <mods:topic>Computer science</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Bai_fsu_0071E_18572</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Computer Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

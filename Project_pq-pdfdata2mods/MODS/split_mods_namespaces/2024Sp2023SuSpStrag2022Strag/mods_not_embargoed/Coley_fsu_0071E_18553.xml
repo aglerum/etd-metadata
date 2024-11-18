@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Increasing Underrepresented Students in Stem Fields Using Informal Science Education</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000000324665309</mods:nameIdentifier>
+      <mods:namePart type="family">Coley</mods:namePart>
+      <mods:namePart type="given">Camille E.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/szuilkowski">
+      <mods:namePart type="family">Zuilkowski</mods:namePart>
+      <mods:namePart type="given">Stephanie Simmons</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/bdodds">
+      <mods:namePart type="family">Dodds</mods:namePart>
+      <mods:namePart type="given">Benjamin</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/lperezfelkner">
+      <mods:namePart type="family">Perez-Felkner</mods:namePart>
+      <mods:namePart type="given">Lara</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2012049769">
+      <mods:namePart type="family">Park</mods:namePart>
+      <mods:namePart type="given">Toby J.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Education, Health, and Human Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Educational Leadership and Policy Studies</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2024</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (107 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This comprehensive study explores the experiences of underrepresented students who have participated in informal science education programs at the American Museum of Natural History (AMNH). Using qualitative methods, including interviews and participant observations, the research uncovers transformative insights shaping the educational landscape. The study focuses on 10 students who have participated in the AMNH Lang Program, an Informal Science Education (ISE) initiative for New York City students starting in the fifth grade and ending in the twelfth grade. Semi-structured interviews provided data, which was analyzed using a combination of a priori, in vivo, and values coding. A central finding reveals the holistic impact of these programs on students' academic trajectories, acting as catalysts for broadening horizons and discovering, and in some cases reaffirming STEM passions. The holistic influence of out-of-school time learning through ISE challenges conventional notions of informal education's impact on a student's entire educational journey. Emphasizing the tangible role of hands-on experiences, participants of this study highlighted the significance of physically engaging with scientific concepts by bridging the gap between theoretical knowledge and real-world applications. Beyond academics, the study uncovers the profound role of ISE programs in shaping the identity of underrepresented students within the STEM community. These programs become pivotal in forming a STEM identity, dispelling stereotypes, and empowering students to see themselves as integral members of the scientific community. Mentorship emerges as a powerful force, with mentors sharing similar backgrounds crucial in guiding students through academic and career complexities. Tailored mentorship programs for underrepresented students serve as inspirational anchors beyond immediate educational contexts. Intrinsic motivation derived from enjoyable science-based experiences within the programs is emphasized, suggesting that incorporating enjoyment into STEM education enhances long-term commitment. The development of a supportive community among participants and peers is highlighted as a motivational ecosystem, contributing to sustained motivation and shared commitment to success. Participants draw a clear link between program involvement and the decision to pursue STEM-related degrees and careers, emphasizing the enduring impact on long-term career trajectories. These insights contribute to the discourse on the effectiveness of informal science education programs, promoting diversity and inclusion within STEM. Recommendations for administrators, leaders, practitioners, and researchers include expanding hands-on experiences, strengthening mentorship programs, promoting diversity, and facilitating collaborative efforts between formal and informal education. Implementing these recommendations can create more inclusive, impactful, and effective informal science education programs for underrepresented students, both locally and within the larger educational landscape. This study serves as a roadmap for transformative action, ensuring that underrepresented students not only enter but thrive in the dynamic STEM landscape that fuels U.S. innovation.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Educational Leadership and Policy Studies in partial fulfillment of the requirements for the degree of Doctor of Education.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 15, 2024.</mods:note>
+   <mods:note displayLabel="Keywords">Belonging, experiential learning, informal science education, Mentorship, STEM, underrepresented</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Stephanie Zuilkowski, Professor Directing Dissertation; Benjamin Dodds, University Representative; Lara Perez-Felkner, Committee Member; Toby Park, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85040989">
+      <mods:topic>Education</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Coley_fsu_0071E_18553</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Education</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Educational Leadership and Policy Studies</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

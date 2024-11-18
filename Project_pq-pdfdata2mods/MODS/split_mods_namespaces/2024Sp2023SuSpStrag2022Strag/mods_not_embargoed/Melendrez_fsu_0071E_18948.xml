@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Nonequilibrium Dynamics of Strongly Correlated Magnetic Systems</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">https://orcid.org/0000-0001-7890-3080</nameIdentifier>
+      <namePart type="family">Melendrez</namePart>
+      <namePart type="given">Ronald</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/hchanglani">
+      <namePart type="family">Changlani</namePart>
+      <namePart type="given">Hitesh Jaiprakash</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/adeprince">
+      <namePart type="family">DePrince</namePart>
+      <namePart type="given">A. Eugene</namePart>
+      <namePart type="termsOfAddress">III</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/balicas">
+      <namePart type="family">Balicas</namePart>
+      <namePart type="given">Luis</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2002162741">
+      <namePart type="family">Bonesteel</namePart>
+      <namePart type="given">N. E.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2012037971">
+      <namePart type="family">Piekarewicz</namePart>
+      <namePart type="given">Jorge</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Physics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (137 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>The purpose of this thesis is to investigate the physics of magnetic systems away from equilibrium. Nonequilibrium phenomena are intriguing for their fundamental and technological relevance in emerging quantum technologies. A fundamental question in this field is how isolated and driven systems reach equilibrium or fail to thermalize especially when they are composed of constituents which strongly interact with one another. In particular, we explore the breakdown of thermalization in strongly correlated quantum many-body systems, with a particular focus on magnetic models harboring quantum many-body scars (QMBS). These analyses were conducted by simulating models in 1D and 2D using exact diagonalization and matrix product state time evolution algorithms. Although the models studied here are non-integrable, a subset of eigenstates can be ascertained using analytical methods. The first chapter introduces paradigms of thermalization in quantum many-body systems. It also develops a formalism to characterize thermalization, including the time profile of observables, entanglement entropy, and the Loschmidt echo which provides a measure for ergodicity. After presenting generic thermalizing models and their expected features, chapter one examines situations which violate thermalization. Some of the models that capture these phenomena have also been realized in recent experiments, and fall under the umbrella of systems with quantum many-body scars (QMBS). QMBS are athermal wave functions embedded in models which are expected to be thermal. Using the formalism introduced, it is shown how to diagnose when QMBS are present in a model. The second chapter discusses how QMBS arise in non-integrable quantum many-body systems from two particular mathematical techniques: projector constructions and spectrum generating algebras. Inspired by these developments we explore $s=1/2$ alternating Heisenberg chain (AHC) and the $s=1/2$ alternating XXZ model on the kagome lattice. These models illuminate the workings of the coherent precession of a super-spin which are the heart of QMBS. An understanding of the spectra of quantum many-body systems is closely related to their dynamical behaviors. In this spirit, in chapter 3 we take a close look at the existence of large exact degeneracies at zero energy in the alternating models. These suggest integrable analytical structures hidden in otherwise chaotic non-integrable models. We explicitly show that many of the numerically observed eigenstates can be exactly parameterized analytically in these alternating motif models. In particular, we employed a generalized version of the coordinate Bethe ansatz, typically used for integrable models, and found that it remarkably explains many exact eigenstates at zero energy. Building on the previous analytical insights on the structure of the eigenstates, chapter 4 investigates the stability of QMBS to time varying perturbations. We investigate the time dynamics of QMBS in periodically driven Floquet systems. This permits us to explore a rich dynamical phase space. By varying the parameters in locally driven systems we characterize parametric regimes in these models. We identify certain parameters for which the system globally thermalizes yet locally the system develops an athermal "cold" region. Given the context presented in the preceding chapters, in chapter 5 we discuss several open directions including: exploring the QMBS phase diagram in a family of $s=1/2$ and $s=1$ spin systems, understanding the role of zero modes discovered in time dynamics, parametrizing multi-magnon excitations in higher dimensions, extending to charge models especially those that have athermal states which contribute to superconducting order, and extending the investigations to open quantum system. This thesis provides a foundation for future investigations in the area of nonequilibrium quantum dynamics.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Physics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">June 27, 2024.</note>
+   <note displayLabel="Keywords">Non-equilibrium dynamics, Quantum magnetism, Quantum many body physics, Strongly correlated electronic systems</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Hitesh Changlani, Professor Directing Dissertation; Eugene DePrince, University Representative; Luis Balicas, Committee Member; Nicholas Bonesteel, Committee Member; Jorge Piekarewicz, Committee Member.</note>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85030765">
+      <topic>Condensed matter</topic>
+   </subject>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85093024">
+      <topic>Nuclear physics</topic>
+   </subject>
+   <identifier type="IID">Melendrez_fsu_0071E_18948</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Physics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

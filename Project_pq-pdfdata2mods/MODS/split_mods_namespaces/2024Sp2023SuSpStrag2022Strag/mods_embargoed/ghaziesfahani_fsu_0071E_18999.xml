@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>How to Go around Single Particle Cryo-EM Challenges</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-5954-8933</nameIdentifier>
+      <namePart type="family">Ghazi Esfahani</namePart>
+      <namePart type="given">Behrouz</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mestroupe">
+      <namePart type="family">Stroupe</namePart>
+      <namePart type="given">M. Elizabeth (Margaret Elizabeth)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/kmjones2">
+      <namePart type="family">Jones</namePart>
+      <namePart type="given">Kathryn M.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/sstagg">
+      <namePart type="family">Stagg</namePart>
+      <namePart type="given">Scott</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/taylor">
+      <namePart type="family">Taylor</namePart>
+      <namePart type="given">Kenneth A.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2018139711">
+      <namePart type="family">Suo</namePart>
+      <namePart type="given">Zucai</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Program in Molecular Biophysics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (118 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>Structural biology is a fundamental tool for addressing critical biological and medical questions. Cryogenic electron microscopy (Cryo-EM) is a powerful technique within this field, and although still in its early stages, it has become increasingly versatile over recent years. This thesis presents two case studies of challenging protein structures analyzed using Cryo-EM, employing alternative methods to extract valuable structural data. The study focuses on a minimal heterodimer from the sulfite reductase enzyme and the methionine tRNA synthetase (MetRS) enzyme from Mycoplasma penetrans. Additionally, the thesis introduces a novel technique to overcome significant challenges associated with Cryo-EM single-particle sample preparation. The first case study examines a minimal heterodimer from the sulfite reductase enzyme, which plays a critical role in reducing sulfite to sulfide in sulfur metabolism. Traditional Cryo-EM techniques encountered significant obstacles due to the enzyme's inherent instability and tendency to aggregate. To address these issues, various alternative approaches were employed, including optimizing buffer conditions and incorporating mild detergents. These modifications significantly reduced aggregation, and advanced classification algorithms were used to segregate different conformational states, allowing for the reconstruction of a high-resolution map of the minimal heterodimer. This successful resolution provided detailed insights into the enzyme's active site and laid the groundwork for further functional studies. The second case study involves the MetRS enzyme from Mycoplasma penetrans, which is essential for the aminoacylation of tRNA with methionine, a critical step in protein synthesis. Analyzing MetRS using conventional Cryo-EM techniques proved particularly challenging due to its high nucleic acid content and structural heterogeneity. Initial attempts with standard preparation methods resulted in significant aggregation and poor particle distribution. To overcome these challenges, various alternative preservation methods were tested, including homemade graphene grids and the Chameleon plunger. These methods significantly improved sample quality and data acquisition, enabling the resolution of a high-quality map of the core dimer, although the catalytic domain remained elusive in the high-resolution maps. Further analysis using CryoSPARC and CryoDRGN revealed significant motion and heterogeneity in the catalytic domain. Attempts to stabilize this domain with tRNA, methionine, ATP, and cross-linking agents were partially successful, with some treatments producing more defined 2D class averages but also adding noise to the data. Despite these challenges, the final model provided detailed insights into the enzyme's structure, including the helical bundle of one catalytic domain, offering potential targets for further stabilization and structural studies. Additionally, this thesis introduces a novel technique for Cryo-EM single-particle sample preparation, addressing major challenges such as protein aggregation and poor particle distribution. This technique involves the use of homemade graphene grids, which provide good particle dispersion and contrast, and the Chameleon plunger, which allows for plunging at high protein concentrations, producing grids with thin ice and high particle density. These innovations significantly improve sample quality and data acquisition, proving that having alternative methods for sample preparation can change the direction of structural studies and produce intact samples from previously intractable ones. In summary, this thesis demonstrates the versatility and potential of Cryo-EM in overcoming significant structural biology challenges. The examination of two difficult protein structures and the introduction of a novel sample preparation technique, it highlight the importance of innovative approaches in advancing our understanding of complex biological macromolecules.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Institute of Molecular Biophysics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">July 2, 2024.</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Margaret Elizabeth Stroupe, Professor Directing Dissertation; Kathryn M. Jones, University Representative; Scott Stagg, Committee Member; Kenneth M. Taylor, Committee Member; Zucai Suo, Committee Member.</note>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85014253">
+      <topic>Biophysics</topic>
+   </subject>
+   <identifier type="IID">ghaziesfahani_fsu_0071E_18999</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Biological Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

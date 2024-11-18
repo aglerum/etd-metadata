@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Structure and Function Studies of a CRISPR CARF Ancillary Enzyme and Its Role in Signaling</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-6872-9381</nameIdentifier>
+      <namePart type="family">Whyms</namePart>
+      <namePart type="given">Charlisa Tymone</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/hli4">
+      <namePart type="family">Li</namePart>
+      <namePart type="given">Hong</namePart>
+      <namePart type="termsOfAddress">(Chemistry and Biochemistry)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mestroupe">
+      <namePart type="family">Stroupe</namePart>
+      <namePart type="given">M. Elizabeth (Margaret Elizabeth)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/rsilvers">
+      <namePart type="family">Silvers</namePart>
+      <namePart type="given">Robert</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/kghanson">
+      <namePart type="family">Hanson</namePart>
+      <namePart type="given">Kenneth G.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Chemistry and Biochemistry</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (115 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >The landscape of RNA biology and its derived biotechnology is continually evolving, and one of the most groundbreaking has been the discovery and subsequent characterization of Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR) systems. These systems serve as a defense mechanism in prokaryotes, safeguarding against viral infections by storing and utilizing genetic information to identify and eliminate invading viruses. Renowned for their diversity and adaptability, CRISPR systems have revolutionized genetic engineering in nearly all organisms, enabling precise genome editing and a wide array of biotechnological applications. Within the intricate machinery of CRISPR systems, the Type III CRISPR-Cas systems stand out as a particularly intriguing class, offering unique mechanisms for sensing and neutralizing viral RNA and DNA. These mechanisms include the viral RNA-activated synthesis of novel cyclic-oligonucleotide second messengers, called cyclic-oligoadenylate (cOA) molecules. These second messengers subsequently bind to and allosterically activate a diverse collection of Type III CRISPR ancillary proteins that have a CARF sensor domain, thereby potentiating a powerful immune response. These signaling events are crucial in triggering cellular dormancy or programmed cell death in response to viral infections, making them a central component of the host organism's adaptive immune response. While research has shed light on some aspects of how these downstream CARF effectors are activated by cOA second messengers, there are still many unanswered questions to be explored in addition to uncharacterized CARF effector proteins. Furthermore, the knowledge gained from understanding the cOA signaling system holds promise for harnessing its potential in the development of innovative biotechnological applications. This dissertation uses structural and biochemical studies to shed light on the intricate mechanisms of one member of the CARF effectors, a CARF-fused adenosine deaminase (CADA) in the context of Type III CRISPR Cas system function. Chapter 1 provides an overview of the discovery and characterization of cyclic-oligoadenylate signaling in type III CRISPR systems. Chapter 2 of this dissertation details the team's efforts in the structural and functional characterization of the type III CRISPR system from mesophilic Lactococcus lactis Csm (LlCsm) organism at multiple functional states. The knowledge gained from this investigation serves as the foundation for developing a virus detection technology, MORIARTY (Multipronged, One-pot, target RNA-Induced, Augmentable, Rapid, Test sYstem) as detailed in Chapter 3. MORIARTY utilizes both RNA- and transcription-activated dual nucleic acid cleavage activities, along with internal signal amplification from the cOA-mediated activation of the CARF-effector Csm6 associated with this system. This approach enables highly sensitive virus detection across various settings. Chapter 4 summarizes and compares the structures of three CRISPR enzymes used in nucleic acid detection captured in their respective functional forms and illustrates the current understanding of their activation mechanism. Finally, in Chapter 5, I successfully pioneered the study of the structure and function of a novel CRISPR-associated adenosine deaminase (CADA) from the thermophilic organism Thermoanaerobaculum aquatica (Taq). TaqCADA, a protein featuring a CARF domain fused to an adenosine deaminase domain, forms a homohexamer, where three canonical homodimers come together through their ADA domains. Each dimer includes a CARF domain and an ADA domain. TaqCADA exhibits robust cOA4 ring nuclease activity and, interestingly, shows only weak adenosine deaminase activity, which does not appear to be enhanced by the presence of cOA molecules. The initial characterization of TaqCADA suggests the ability to regulate cOA concentrations to attenuate immunity and possibly to sequester s-adenosyl-methionine (SAM), which is the cells' methyl donor. However, additional studies are required to address its precise roles in immunity.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">November 15, 2023.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Hong Li, Professor Directing Dissertation; Margaret Elizabeth Stroupe, University Representative; Robert Silvers, Committee Member; Kenneth G. Hanson, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85014171">
+      <topic>Biochemistry</topic>
+   </subject>
+   <identifier  type="IID">Whyms_fsu_0071E_18340</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

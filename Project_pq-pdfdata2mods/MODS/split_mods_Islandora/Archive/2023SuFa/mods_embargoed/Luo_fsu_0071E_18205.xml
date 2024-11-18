@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Evaluation of Parameter Estimates and Standard Errors in Exploratory Factor Analysis with Ordered Categorical Data</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-2735-0097</nameIdentifier>
+      <namePart type="family">Luo</namePart>
+      <namePart type="given">Yachen</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/yyang3">
+      <namePart type="family">Yang</namePart>
+      <namePart type="given">Yanyun</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2013073385">
+      <namePart type="family">Huffer</namePart>
+      <namePart type="given">Fred W. (Fred William)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n94098012">
+      <namePart type="family">Almond</namePart>
+      <namePart type="given">Russell G.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n87152824">
+      <namePart type="family">Becker</namePart>
+      <namePart type="given">Betsy Jane</namePart>
+      <namePart type="date">1956-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Education, Health, and Human Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Educational Psychology and Learning Systems</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (232 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >In education and psychology, exploratory factor analysis (EFA) is mainly used in scale development or refinement. To select a final EFA model, researchers take into account not only the number of factors, but also parameter estimates along with their standard errors (SEs). Previous methodological studies in EFA have mainly focused on methods for determining the number of factors. Some studies have focused on parameter estimation with continuous data when the number of factors is "correct". No studies have considered determination of the number of factors and evaluated parameter estimation for the EFA model with categorical data. The goal of this study is to evaluate the parameter estimation for the chosen EFA model when the optimal model is selected and when a non-optimal model is selected. In this study, I used statistical extraction approaches to examining parameter estimates and standard errors for EFA models with ordered categorical data via a Monte Carlo simulation study and demonstrated the methods using empirical data. In the simulation study, a variety of conditions were manipulated: the presence of minor factors, the magnitudes of factor loadings, the magnitude of factor correlations, sample sizes, the number of measurement indicators, the number of response categories, and the distribution of ordinal variables. Weighted least squares with mean and variance adjustment (WLSMV) and unweighted least squares with mean and variance adjustment (ULSMV) estimation methods were applied to analyze data. The chi-square statistics and two commonly used fit indices were used for model evaluation and model comparison to determine the final model. In the empirical study, data with three samples with sizes of 150, 300 and 600 which were randomly drawn from the 2019 Florida Standards Assessments for measuring English Language Arts (ELA) achievement of grade 4 students were used. Results from the simulation study showed that the optimal model was more likely to be chosen when the sample size was larger or when the true population model had a higher factor loading, a lower factor correlation, more measurement indicators, or a great number of response categories. When the optimal model was selected, the factor loadings and factor correlations were mostly accurately estimated when the true factor correlation was 0 but were severely underestimated when the true factor correlation was large (.5). The standard errors for factor loadings were substantially underestimated while the standard errors for factor correlations were substantially overestimated in most conditions. Parameter estimates and their standard errors were mainly impacted by the magnitude of the true factor loading or the true factor correlation. When the final model contained too few factors, the factor loading patterns were distorted. When the final model contained too many factors, the factor loading patterns for four of the factors were very similar to the factor loading pattern for major factors of the true model. The standard errors for indicators loaded on additional factors can be larger than the standard errors for indicators loaded on the four factors. Having small loading estimates and large standard errors for indicators for a factor could be a sign that this factor is a spurious factor. The empirical data were obtained from the grade 4 ELA data of 2019 FSA. All data were dichotomous. Eleven indicators measuring three areas of grade 4 ELA were chosen for the demonstration. The results were consistent with the findings from the simulation study. The model with the correct number of factors was selected as the final model when the sample size was large (i.e., 600). As the sample size increased, the factor loading patterns were closer to those of the correct model. Overall, the magnitude of factor loading, magnitude of factor correlation, sample size, the number of measurement indicators, and the number of response categories impacted the selection rates and the parameter estimation for EFA under most conditions. WLSMV and ULSMV performed similarly in estimating the parameters and standard errors, but WLSMV performed slightly better than ULSMV in selecting the optimal model under most conditions. The fit indices outperformed the chi-square statistics in selecting the optimal model as the final model. Findings from my study can help empirical researchers better understand the accuracy of parameter estimates and standard errors under different conditions in EFA when the optimal number of factors is selected, and the factor loading patterns when a suboptimal number of factors is selected. As a result, researchers can make better decisions in selecting the optimal model.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Educational Psychology and Learning Systems in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">November 16, 2023.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Yanyun Yang, Professor Directing Dissertation; Fred Huffer, University Representative; Russell Almond, Committee Member; Betsy Jane Becker, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85041154">
+      <topic>Educational tests and measurements</topic>
+   </subject>
+   <identifier  type="IID">Luo_fsu_0071E_18205</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Education</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Educational Psychology and Learning Systems</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

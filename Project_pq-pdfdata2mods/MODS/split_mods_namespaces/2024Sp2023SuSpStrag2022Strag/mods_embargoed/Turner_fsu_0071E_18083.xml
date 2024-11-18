@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Early Replication Control Elements Are Developmentally Regulated Genetic Determinants of Replication Timing and Require Transcription Factor Activity</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-1149-5160</nameIdentifier>
+      <namePart type="family">Turner</namePart>
+      <namePart type="given">Jesse L.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/nb2012004932">
+      <namePart type="family">Bass</namePart>
+      <namePart type="given">Hank W.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/marbeitman">
+      <namePart type="family">Arbeitman</namePart>
+      <namePart type="given">Michelle N. (Michelle Nina)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="viaf"
+         authorityURI="http://viaf.org/viaf/"
+         valueURI="http://viaf.org/viaf/171975698">
+      <namePart type="family">Dennis</namePart>
+      <namePart type="given">Jonathan Hancock</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/pfraser">
+      <namePart type="family">Fraser</namePart>
+      <namePart type="given">Peter H.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/kmcginnis">
+      <namePart type="family">McGinnis</namePart>
+      <namePart type="given">Karen M.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Biological Science</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (87 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>During S phase, chromosomes are replicated in a defined temporal order called the replication timing (RT) program. RT programs are evolutionarily conserved, cell-type specific, and particularly resistant to a wide-range of protein depletions, knockdowns, knockouts, and inhibitors, suggesting tight and extremely robust control. However, the mechanisms controlling RT have remained elusive for &gt;60 years. We previously reported large (&gt;30kb) deletions that, when combined, cause a domain-wide shift from early- to late-replicating that is concomitant with a loss of all gene transcription and A- to B-compartment switch, but those deletions contained many different chromatin features that make those changes difficult to interpret and uncouple. Here, we show that the previously-reported elements B and C in the Dppa2/4 domain are dependent upon Oct4, Sox2, Nanog co-binding sites and independent of transcriptional control, while the sequences at A remain a mystery. Further, we show that sequences derived from the Dppa2/4 domain carry the information required to promote early RT by inserting a bacterial artificial chromosome containing Dppa2/4 domain sequences into a late-replicating domain, and then further show that the ectopic insertion is developmentally regulated like the endogenous site, suggesting that RT is controlled by DNA sequence and that these elements work as enhancer-like elements for replication initiation in a cell-type specific context. Next, we predicted active ERCEs in neural precursor cells based on publicly-available NPC ChIP-seq data and show that deletions of these elements cause delays in RT similar to the phenomena observed at the Dppa2/4 domain, confirming developmental control of replication timing cis-elements. Lastly, we use a wide-range of inducible-degron cell lines and commercially-available small-molecule inhibitors to interrogate ERCE function genome-wide. These results suggest that ERCEs are intimately intertwined with developmental regulation of transcriptional networks, although their functions can be separated from transcription in specific contexts.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Biological Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">June 5, 2023.</note>
+   <note displayLabel="Keywords">cis-element, differentiation, embryonic stem cells, replication timing, transcription, transcription factor</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Hank W. Bass, Professor Directing Dissertation; Michelle N. Arbeitman, University Representative; Jonathan H. Dennis, Committee Member; Peter Fraser, Committee Member; Karen M. McGinnis, Committee Member.</note>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85086577">
+      <topic>Molecular biology</topic>
+   </subject>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85035240">
+      <topic>Cytology</topic>
+   </subject>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85014203">
+      <topic>Biology</topic>
+   </subject>
+   <identifier type="IID">Turner_fsu_0071E_18083</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Biological Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

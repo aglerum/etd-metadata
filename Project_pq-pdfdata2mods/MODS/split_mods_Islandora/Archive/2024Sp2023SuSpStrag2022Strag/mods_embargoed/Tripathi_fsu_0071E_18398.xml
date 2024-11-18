@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Parametric Characterization of Fluid-Structure Interaction on a Compliant Panel in High-Speed Flows</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0000-7848-8171</nameIdentifier>
+      <namePart type="family">Tripathi</namePart>
+      <namePart type="given">Akriti</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/drrajank">
+      <namePart type="family">Kumar</namePart>
+      <namePart type="given">Rajan</namePart>
+      <namePart type="termsOfAddress">(Professor of Mechanical Engineering)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing thesis</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/woates">
+      <namePart type="family">Oates</namePart>
+      <namePart type="given">William</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/kshoele">
+      <namePart type="family">Shoele</namePart>
+      <namePart type="given">Kourosh</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/dhallinan">
+      <namePart type="family">Hallinan</namePart>
+      <namePart type="given">Daniel T.</namePart>
+      <namePart type="termsOfAddress">Jr.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Mechanical Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (158 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >The need for increased efficiency and performance of high-speed aircraft has led to the need for a reduction in aircraft weight. One option is to use thinner and lightweight skin panels at different regions of the aircraft, such as the fuselage, wings, engine inlet, and control surfaces. When such an aircraft operates at high speeds, the shock wave generated or impinging on those surfaces interacts with the surface boundary layer, leading to the well-known phenomenon of shock wave boundary layer interactions (SBLI). SBLI on rigid surfaces has been heavily researched in the past and a sufficient understanding of parameters affecting SBLI has been obtained, including its detrimental effects on the flight vehicle. However, there is a lack of sufficient understanding of the effects of SBLI over thin surface panels that led to fluid-structure interactions (FSI) and high cycle fatigue damage of flight vehicles and detrimental effects on the lives of the crew operating on such missions. Previous studies have shown that FSI on a compliant panel is a highly coupled problem depending on several parameters such as the shock impingement location, pressure and temperature gradients, shock strength, boundary layer thickness, Mach number, material properties, etc., and therefore difficult to analyze compared to the SBLI on a rigid surface. The present study aims to decouple the effect of some of these parameters to simplify the analysis and better understand FSI at high-speeds. In this experimental investigation, one parameter is varied at a time to study its effect on the mean and dynamic characteristics of FSI on a compliant panel at supersonic speeds. Experiments were carried out at the Florida Center for Advanced Aero-Propulsion (FCAAP) supersonic and Pilot wind tunnels. The model geometry consists of a compliant panel with a cavity on its underside embedded in the tunnel wall. The cavity was pressurized to different values simulating various flight conditions, resulting in different levels of static deflection of the panel. The panel was subjected to an impinging shock generated by a shock generator at two locations, namely, the central and 3/4$^{th}$ length of the panel and three cavity pressures equal to ambient, upstream static, and vacuum were tested. In addition, the effect of two shock strengths (by varying the shock angle), two Mach numbers (M = 2, 5), and two boundary layer thicknesses were studied. Several flow diagnostic techniques such as high-speed shadowgraph, surface oil flow measurements, panel deflection measurements, and steady and unsteady pressure-sensitive paint measurements were employed to study the mean and dynamic flow features of the interaction. The results show that the interaction over the panel is curved or three-dimensional, compared to the nominally two-dimensional interaction over a rigid plate. The level of curvature of the interaction or the separation line is a function of the shock impingement location and the cavity pressure. The mean separation bubble length along the panel centerline was modified in the case of interaction over the panel compared to the rigid plate. An increased width of the upstream influence region was observed in the case of the compliant panel compared to the rigid plate for most of the cases tested, indicating increased unsteadiness. The centerline pressure distributions over the panel are a strong function of the shock impingement location and pressure gradient across the panel. The response of the panel to the turbulent boundary layer at supersonic speeds was observed to be multi-modal and excited by the turbulent structures within the boundary layer of varying lengths and time scales. Compared to the natural structural modes of the panel, these interaction modes were observed to shift to relatively higher frequencies. In the presence of an impinging shock, some modes were amplified, indicating a strong coupling between the panel and the shock. An increase in frequency was also observed compared to the no-shock case, for both shock impingement locations and all cavity pressures. This may be due to the increased forcing generated by the shock impingement. For a fixed shock impingement location, the effect of the cavity pressure was to amplify and excite different modes of the panel. While the higher cavity pressures excite the lower order modes, the case with cavity at vacuum was observed to excite higher order modes. The pressure spectra corresponding to cavity at vacuum is relatively broadband indicating reduced coupling. For a fixed shock strength, an increase in the boundary layer thickness was observed to increase the separation bubble length over the rigid plate and the compliant panel. The sensitivity of the separation line to cavity pressure modification was observed to increase in the case of a thicker boundary layer. The mean separation bubble length was observed to increase with an increase in the shock strength for the panel as well as rigid plate interaction. Considerable progress has been made toward addressing the objectives of the current study. The remainder of the goals, namely the unsteady aspects of the fluid-structure interaction for an increased boundary layer thickness, Mach number, and shock strength, will be investigated. 3D deflection data obtained using LASER vibrometry, pressure using PSP, and velocity using PIV measurements will be further analyzed. The results from this study will help designers and analysts to design structures that can withstand the detrimental effects of the aeroelastic coupling encountered at high speeds. It will also aid in generating an experimental database for validating numerical solvers for FSI. It will help develop higher-order aeroelastic models with detailed structure modeling and separated flow effects using the reduced-order modeling approach.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Mechanical Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">March 8, 2024.</note>
+   <note  displayLabel="Keywords">Compliant Panel, Flow Separation, Fluid Structure Interaction, Mach number, Shock Boundary Layer Interaction</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Rajan Kumar, Professor Directing Thesis; William Oates, Committee Member; Kourosh Shoele, Committee Member; Daniel Hallinan, Jr., University Representative.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85082757">
+      <topic>Mechanical engineering</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh95007821">
+      <topic>Aerospace engineering</topic>
+   </subject>
+   <identifier  type="IID">Tripathi_fsu_0071E_18398</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Mechanical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

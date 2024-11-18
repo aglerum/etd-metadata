@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Essays on the Impacts of Medicaid Expansion on State Governments, Hospitals, and Individuals</mods:title>
+      <mods:subTitle>Focusing on Financial Aspects</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0007-2756-2336</mods:nameIdentifier>
+      <mods:namePart type="family">Jang</mods:namePart>
+      <mods:namePart type="given">Jaeyoung</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/klee2">
+      <mods:namePart type="family">Lee</mods:namePart>
+      <mods:namePart type="given">Keon-Hyung</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2006097242">
+      <mods:namePart type="family">Carr</mods:namePart>
+      <mods:namePart type="given">Dawn C.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ttang4">
+      <mods:namePart type="family">Tang</mods:namePart>
+      <mods:namePart type="given">Tian</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2008105762">
+      <mods:namePart type="family">Atkins</mods:namePart>
+      <mods:namePart type="given">Jennifer</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Social Sciences and Public Policy</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>School of Public Administration and Policy</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2024</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (100 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Following the Affordable Care Act (ACA), state governments have had the option to expand the eligibility of Medicaid programs since 2014. The expansion states increased the eligibility threshold to 138% of the federal poverty line, which allows more individuals to be covered by the program. In the first year, twenty-seven states, including the District of Columbia, decided to expand the program. However, several states hesitated to adopt the expansion, primarily due to concerns regarding the potential increase in fiscal burdens. Therefore, it is imperative to investigate whether Medicaid expansion significantly impacts state budgets thoroughly. Furthermore, Medicaid expansion also affects hospitals and healthcare providers, as it leads to a decrease in the uninsured rate and expands coverage. Consequently, it is crucial to examine how expansion alters managerial conditions and decision-making processes within healthcare organizations. Moreover, given that the primary goal of Medicaid expansion is to improve access to care for low-income individuals, it is imperative to assess the policy outcomes in a more precise and comprehensive manner. This necessitates thorough evaluation and analysis to understand the extent to which Medicaid expansion achieves its intended objectives and addresses the healthcare needs of low-income populations effectively. In this regard, this dissertation aims to provide a more clear and comprehensive understanding of the impact of Medicaid expansion by investigating from the perspectives of state governments, hospitals, and low-income individuals. To assess whether the expansion imposes an excessive fiscal burden on the states that adopt the policy, I explore how the number of Medicaid enrollees, expenditures for the program, and overall state fiscal conditions respond to a sudden economic downturn and analyze whether states expanded the programs should bear more fiscal burden compared to states that have not adopted it. Also, I focus on the fact that nonprofit hospitals have been criticized for providing benefits to their communities at an insufficient level despite enjoying enormous amounts of savings due to their tax-exemption status. Employing the principal-agent theory to understand the decision-making mechanisms underlying this behavior, I investigated whether Medicaid expansion mitigates this agency problem. Moreover, to offer a more comprehensive evaluation of Medicaid expansion's impact on access to care, I analyze whether the benefits of the policy are distributed differently among individuals depending on the presence of accessibility barriers. The findings of my study indicate that the Medicaid expansion would not significantly increase the fiscal burden for the states while allowing many people to stay insured during economic recessions. Also, the expansion affects the managerial conditions of nonprofit hospitals by decreasing their costs of uncompensated care. Despite this saving, hospitals are found not to change their behavior and to keep their scrutiny in providing financial assistance to their patients. In addition, my finding shows that Medicaid expansion relieves the financial burden of healthcare for low-income people, but the benefits are not universal to them. When individuals have low accessibility to their healthcare providers, they still have limited access to care even though they have the same health conditions and income levels. That is, there exists a disparity in the benefits from Medicaid expansion among the low-income groups. With these findings, I contribute to the relevant literature by offering a deeper understanding of the impact of Medicaid expansion, both theoretically and empirically. By exploring the nuances of Medicaid expansion's effects on state budgets, healthcare organizations, and access to care, my research provides valuable insights into the multifaceted implications of this policy. Furthermore, I offer practical implications for policymakers to understand the true costs of Medicaid expansion better and identify areas for policy refinement to enhance access to care effectively. By highlighting the potential challenges and opportunities associated with Medicaid expansion, policymakers can make informed decisions to optimize the policy's effectiveness and ensure equitable access to healthcare for all individuals.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Askew School of Public Administration and Policy in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 26, 2024.</mods:note>
+   <mods:note displayLabel="Keywords">Medicaid expansion</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Keon-Hyung Lee, Professor Directing Dissertation; Dawn Carr, University Representative; Tian Tang, Committee Member; Danielle Atkins, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85108741">
+      <mods:topic>Public policy</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Jang_fsu_0071E_18733</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Public Administration and Policy</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

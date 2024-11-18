@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Analysis of Small Molecules Released from Islets of Langerhans with Liquid Chromatography-Tandem Mass Spectrometry</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-6255-4365</nameIdentifier>
+      <namePart type="family">Ogunkunle</namePart>
+      <namePart type="given">Emmanuel Oludare</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mroper">
+      <namePart type="family">Roper</namePart>
+      <namePart type="given">Michael Gabriel</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/skumar">
+      <namePart type="family">Kumar</namePart>
+      <namePart type="given">Sanjay S.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="viaf"
+         authorityURI="http://viaf.org/viaf/"
+         valueURI="http://viaf.org/viaf/35658877">
+      <namePart type="family">Bleiholder</namePart>
+      <namePart type="given">Christian</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/hli4">
+      <namePart type="family">Li</namePart>
+      <namePart type="given">Hong</namePart>
+      <namePart type="termsOfAddress">(Chemistry and Biochemistry)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Chemistry and Biochemistry</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (110 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>In this dissertation, liquid chromatography-tandem mass spectrometry (LC-MS/MS) was applied for the quantitation of small molecules released from murine and human islets of Langerhans. Islets are known to release hormones for the proper maintenance of blood glucose homeostasis. A variety of small molecules, including classical neurotransmitters, are also released from islets. While the roles of most of these small molecules are unknown, some are thought to be involved in intra- and inter-islet communication, and eventually in hormone regulation. While several methods have been developed to monitor small molecules released from islets of Langerhans, these methods are mostly CE based or measure a few analytes at a time. In addition, the lack of detection selectivity of CE-based methods necessitates the development of alternative approaches. LC-MS/MS offers the advantages of improved quantitation, excellent detection selectivity and sensitivity when operated in multiple reaction monitoring mode. To better understand the role of small molecules in islet function, a liquid chromatography-tandem mass spectrometry (LC-MS/MS) method was developed to separate and quantify 39 small molecules released from islets. Benzoyl chloride derivatization of analyte molecules was used to impart retention and facilitate electrospray ionization efficiency. Separation was achieved on a 2.1 x 150 mm column packed with 2.7 μm superficially porous C18 particles. Calibration curves showed excellent linearity between the concentration and analyte response, with relative standard deviations of the analyte responses below 15% and limits of detection from 0.01 – 40 nM. The method was applied to examine small molecules released from murine and human islets of Langerhans after static incubation and perfusion with glucose. Results showed a decrease in secretion rates with increasing glucose concentration for most of the analytes. Secretion rates were found to be higher in human islets compared to their murine counterpart. This method will be useful in understanding the roles of small molecules in biological systems. D-amino acids (D-AAs) are important signaling molecules due to their ability to bind ionotropic N-methyl-D-aspartate receptors. D-serine (D-Ser), D-alanine (D-Ala), and D-aspartate (D-Asp) have been found individually in the endocrine portion of the pancreas, the islets of Langerhans, and/or their secretions. However, there have been no reports of a comprehensive assessment of D-AAs in islet lysates or secretions. To evaluate the release of these compounds, the effectiveness of both 1-(9-fluorenyl)-ethyl chloroformate (FLEC reagent) and 1-fluoro-2,4-dinitrophenyl-5-L-alanine amide (Marfey's reagent, MR) in separation of D/L-AA enantiomeric pairs in islet-specific buffers were evaluated. MR-derivatized D/L AAs showed greater than baseline resolution (Rs ≥ 1.5) of 13 enantiomeric pairs when using a non-linear gradient and an acidic mobile phase system, while FLEC-derivatized AAs exhibited limited resolution on both biphenyl and C18 columns. The optimized MR method yielded highly reproducible separations with retention times less than 1% RSD. Excellent linearity between the analyte concentrations and response (R2 &gt; 0.98) were obtained, with less than 15% RSD for all analyte responses. Most analytes had an LOD at or below 100 nM, except for L-Ala (200 nM). The optimized MR method was used to quantify D-AAs in secretions and lysates of murine islets after incubation in 3- and 20-mM glucose. In response to both solutions, D-Ser and D-glutamine were detected in both the secretions and lysates, while D-Ala and D-Asp were detected only in lysates. Although the absolute secreted amounts of both L- and D-AAs decreased in response to elevated glucose, the amount of D-AAs as compared to its corresponding L-enantiomer increased. We hypothesize that this is due to the metabolism of L-AAs being used metabolically during these states, resulting in an increase in the relative amount of D-AA secreted. The developed method is robust and can be applied to further examine the release of D-AAs and their potential roles in islet physiology.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">September 1, 2023.</note>
+   <note displayLabel="Keywords">amino acids, benzoyl chloride, chiral separation, islets of Langerhans, liquid chromatography-mass spectrometry, marfey's reagent</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Michael G. Roper, Professor Directing Dissertation; Sanjay Kumar, University Representative; Christian Bleiholder, Committee Member; Hong Li, Committee Member.</note>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85022986">
+      <topic>Chemistry</topic>
+   </subject>
+   <identifier type="IID">Ogunkunle_fsu_0071E_18304</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

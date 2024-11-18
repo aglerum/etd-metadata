@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Analysis of Sinkhole Morphometric Orientations and Lineament Orientations in Parts of Leon, Wakulla, Gadsden, and Jefferson Counties of Florida</title>
+      <nonSort>An</nonSort>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0003-2799-5968</nameIdentifier>
+      <namePart type="family">Kromhout</namePart>
+      <namePart type="given">Clinton</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mye">
+      <namePart type="family">Ye</namePart>
+      <namePart type="given">Ming</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing thesis</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/sayoung2">
+      <namePart type="family">Young</namePart>
+      <namePart type="given">Seth A.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n81065572">
+      <namePart type="family">Berry</namePart>
+      <namePart type="given">Frances Stokes</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no99034357">
+      <namePart type="family">Arthur</namePart>
+      <namePart type="given">Jonathan D.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Earth, Ocean, and Atmospheric Science</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (123 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >In Florida's karst terrain sinkholes pose a risk to critical infrastructure such as power plants, dams, solid waste facilities, water treatment plants, transmission lines, and chemical production plants. In-depth geologic and hydrogeologic site assessments are often required as part of regulatory permitting processes before construction. Lineament analysis is a common desktop study method used by geologic consulting companies and researchers to assess for potential subsurface geologic hazards. Consulting companies then spend considerable amounts of time and money conducting on-site investigations to assess the presence and nature of those lineaments, fracture traces, and their associated geomorphic features. High-resolution digital elevation models (DEM) created from remotely sensed light detection and ranging (LiDAR) data allow for quantitative shape analysis of sinkholes enabling an improved understanding of their geomorphology. In this research sinkhole shape analysis is explored as potential a new desktop analysis tool that can be used to assess and prioritize lineaments and the features that make them up potentially reducing costly on-site investigation time and money. Numerous authors have presented research tying sinkhole development to lineaments. With the advancement of high-resolution digital elevation models allowing morphometric studies of sinkholes, some authors have observed, though not researched, that alignment appears to exist between sinkholes' primary surface dimension axes and lineaments. For a karst terrain in north Florida, this study researched the hypothesis that sinkholes' primary surface dimension axes align with lineaments, to quantify the relationship, and use the relationship as a new conceptual method to prioritize the lineaments for future field studies. Two hundred and sixty-seven lineaments were interpreted at four different scales using a convention lineament ranking method found in literature, a qualitative ranking method, and the new percent deviation ranking method. Forty-five lineaments, 16.9%, were found to exhibit alignment with closed topographic depressions' (CTDs) primary surface dimension axes. Further, CTDs aligned with lineaments in the Tallahassee Hills Province share their orientations with surface drainage courses suggesting surface erosion controls the CTDs' orientations. In the Woodville Karst Plain Province, lineaments exhibiting alignment with CTDs appear to be influenced by regional groundwater movement in the Floridan aquifer system.</abstract>
+   <note  displayLabel="Submitted Note">A Thesis submitted to the Department of Earth, Ocean, and Atmospheric Science in partial fulfillment of the requirements for the degree of Master of Science.</note>
+   <note  displayLabel="Date of Defense">November 1, 2023.</note>
+   <note  displayLabel="Keywords">Florida, geomorphology, lineaments, morphology, morphometric, sinkholes</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Ming Ye, Professor Directing Thesis; Seth A. Young, Committee Member; Maya F. Stokes, Committee Member; Jonathan D. Arthur, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85054165">
+      <topic>Geomorphology</topic>
+   </subject>
+   <identifier  type="IID">Kromhout_fsu_0071N_18353</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Microfluidic Platform for Islet Quality Evaluation</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-8967-8293</nameIdentifier>
+      <namePart type="family">Adeoye</namePart>
+      <namePart type="given">Damilola Ibukunolu</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mroper">
+      <namePart type="family">Roper</namePart>
+      <namePart type="given">Michael Gabriel</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2005086590">
+      <namePart type="family">Bertram</namePart>
+      <namePart type="given">R. (Richard)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n77017670">
+      <namePart type="family">Marshall</namePart>
+      <namePart type="given">Alan G. (Alan George)</namePart>
+      <namePart type="date">1944-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/qsang">
+      <namePart type="family">Sang</namePart>
+      <namePart type="given">Qing-Xiang</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Chemistry and Biochemistry</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (113 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>Diabetes, a global epidemic with no known cure, presents a complex pathophysiology that remains incompletely understood. Patients with diabetes rely on medications or exogenous insulin administration to regulate blood glucose levels. Extensive scientific research is dedicated to unraveling the pathophysiology and developing therapeutic interventions. Notably, islet transplantation has emerged as a promising treatment for type 1 diabetes, involving the infusion of purified islets from deceased donors into a patient's portal vein. The effectiveness of islet transplantation hinges on the quality and functionality of the islets, typically assessed through the stimulation index (SI), a measure of insulin secretion in response to varying glucose concentrations in static cell culture. However, this method may not accurately reflect in vivo islet function. Microfluidic platforms have been proposed as a potential solution, yet their development is ongoing and requires refinement for widespread adoption. This dissertation explores the development of microfluidic platforms for islet quality assessment. One approach to enhancing throughput in microfluidic systems is vacuum-driven flow, which can simultaneously drive flow across multiple channels using a single pressure source. However, the lack of active control over individual channels poses challenges in delivering different stimulant solutions to islets on a chip. To address this issue, we integrated 4-layer pneumatic valves into perfusion lines to automate and control stimulant delivery, although this led to flow spikes and abnormal insulin secretion profiles. Incorporating fluidic capacitors after the valves effectively eliminated these spikes, resulting in automated collection of insulin secretion profiles from single murine islets, mirroring previously reported results. These integrated fluidic components may facilitate the use of more complex channel designs with a straightforward flow control solution. To improve temporal resolution and decrease dispersion, segmented flows were applied to measure cellular secretions on integrated microfluidic platforms. A fluorescence anisotropy insulin immunoassay method was developed for microfluidic droplets, significantly enhancing binding rates and temporal resolution compared to continuous flow assays. The improved temporal resolution is a step towards approaching the time scale required for resolving specific signaling events in pancreatic islet biology. Efforts to enhance the sensitivity of fluorescence anisotropy assays for low-abundance peptides secreted from the islets of Langerhans, with a focus on insulin as the model analyte, were explored. Introducing an anti-mouse IgG antibody to increase the molecular volume of the binding assay product did not yield the expected sensitivity enhancement. Additional research and optimization are required to develop a more effective strategy for detecting low-abundance peptides secreted from pancreatic islet</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">November 7, 2023.</note>
+   <note displayLabel="Keywords">Bioanalysis, Diabetes, Immunoassay, Insulin, Islets of Langerhans, Microfluidics</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Michael G. Roper, Professor Directing Dissertation; Richard Bertram, University Representative; Alan G. Marshall, Committee Member; Qing-Xiang Sang, Committee Member.</note>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85023011">
+      <topic>Chemistry, Analytic</topic>
+   </subject>
+   <identifier type="IID">Adeoye_fsu_0071E_18218</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

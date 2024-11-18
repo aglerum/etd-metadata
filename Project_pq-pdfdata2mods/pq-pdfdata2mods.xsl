@@ -28,12 +28,12 @@
 
     <!-- **Global variables** -->
     <!-- Batch Variable -->
-    <xsl:variable name="batch" select="'2022ABSpSuStrag_2022CFa_2023ASp'"/>
+    <xsl:variable name="batch" select="'2023DSuEmbargoed-2023EFaStrag-2024BSu'"/>
 
     <!-- These paths change with each semester-->
-    <xsl:variable name="pdfdata" select="document('source_pdfdata/COMBINED_2022ABSpSuStrag_2022CFa_2023ASp_uris.xml')/records/record"/>
-    <xsl:variable name="committee" select="document('tables/ETD-NAF_mads_20231120.xml')/mads:madsCollection/mads:mads/mads:authority"/>
-    <xsl:variable name="authors" select="document('tables/authors_COMBINED_2022ABSpSuStrag_2022CFa_2023ASp.xml')/authors/name"/>
+    <xsl:variable name="pdfdata" select="document('source_pdfdata/CORRECTED_source_pdfdata_NEW_COMBINED_2023DSuEmbargoed_2023EFaStrag_2024BSu_uris.xml')/records/record"/>
+    <xsl:variable name="committee" select="document('tables/ETD-NAF_mads_20241028.xml')/mads:madsCollection/mads:mads/mads:authority"/>
+    <xsl:variable name="authors" select="document('tables/authors_2023DSuEmbargoed-2023EFaStrag-2024BSu.xml')/authors/name"/>
 
     <!-- These paths refer to data tables -->
     <xsl:variable name="PQ-FSU-dept" select="document('tables/PQ-FSUdept.xml')/departments/department"/>

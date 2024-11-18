@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Engineering Cell-Matrix Interaction in 3D Human Central Nervous System Models</mods:title>
+      <mods:subTitle>Utilizing Human Pluripotent Stem Cell-Derived Organoids</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-5817-4324</mods:nameIdentifier>
+      <mods:namePart type="family">Chen</mods:namePart>
+      <mods:namePart type="given">Xingchi</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yli4">
+      <mods:namePart type="family">Li</mods:namePart>
+      <mods:namePart type="given">Yan</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/zeng">
+      <mods:namePart type="family">Zeng</mods:namePart>
+      <mods:namePart type="given">Changchun (Chad)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor co-directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/sshanbhag">
+      <mods:namePart type="family">Shanbhag</mods:namePart>
+      <mods:namePart type="given">Sachin</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/rricarte">
+      <mods:namePart type="family">Ricarte</mods:namePart>
+      <mods:namePart type="given">Ralm</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jguan">
+      <mods:namePart type="family">Guan</mods:namePart>
+      <mods:namePart type="given">Jingjiao</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemical and Biomedical Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2024</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (172 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Human induced pluripotent stem cells (hiPSCs) are recognized as an excellent alternative to embryonic stem cells in the fields of regenerative medicine, in vitro model construction, and drug discovery. Given the challenge of limited passages to primary cells from patients, the use of hiPSCs has greatly facilitated diverse studies aiming to recapitulate physiological and pathological mechanisms. This approach has led to the development of more precise disease modeling platforms. Furthermore, the investigation of the interaction between hiPSCs and extracellular matrix(ECM) at the 3D level, and subsequently modeling the central nervous system, such as the blood-spinal cord barrier (BSCB) and blood brain barrier (BBB), has been investigated to a limited extent. Therefore, the first objective of this study is to investigate the interaction between hiPSC-derived organoid differentiation and 3D scaffold or hydrogel network. The second objective is to utilize hiPSC-derived organoids to construct a 3D in vitro model that can recapitulate structures and functionalities similar to those in the human body, such as the BSCB. Models of the BBB have been explored for decades, and the transition from 2D to 3D modeling methods has been well-established. However, the authentic BBB involves fluid blood, exerting shear stress on the endothelial cell layer. Thus, there is a need for the development of a dynamic BBB structure to enhance BBB modeling. Auxetic materials are those capable of displaying a negative Poisson's ratio, which indicates the degree to which a material contracts or expands transversally when axially strained. Human stem cells are sensitive to the mechanical properties of their microenvironment, including surface properties, stiffness, and Poisson's ratio. In this study, six different auxetic polyurethane (PU) foams with varying elastic moduli (0.7-1.8 kPa) and Poisson's ratios (-0.1 to -0.5) were fabricated to investigate lineage specification of human induced pluripotent stem cells (hiPSCs). The cells exhibited differential adherent density and differentiation capacity on different auxetic foams. Surface modification with chitosan and heparin promoted hindbrain and hippocampal markers, but not forebrain markers, during neural patterning of hiPSCs. Furthermore, properly surface-engineered auxetic scaffolds could enhance vascular differentiation of hiPSCs. This study presents a versatile and multifunctional scaffold fabrication approach that could lead to the development of a suitable system for establishing hiPSC culture models for applications in neurovascular disease modeling. The spinal cord is also a important components of central nervous system (CNS) and controls the different motions of the human body. The injury of spinal cord (SCI) also cause disability with less effective repairing method. Hence, the development of specific spinal cord organoids(hSCOs) for SCI treatment is necessary. Based on methylacrylated (MA) hyaluronic acid (HA), different HA hydrogels for generation and vascularization of spinal cord organoids derived from hiPSCs. In particular, the effects of viscoelasticity of the HA hydrogels on spinal cord organoid patterning were investigated. The morphogenesis, regional patterning, and vascularization of human spinal cord organoids (hSCOs) were influenced by different hydrogels. Dorsal marker expression was evaluated where more viscoelastic hydrogels can promote dorsal marker expression, while softer hydrogels resulted in higher interneuron marker expression. This study also found differences when generating the blood-spinal cord barrier with the coculture of hSCOs and human blood vessel organoids. In addition, Yes-associated protein nuclear translocation was determined to reveal the mechanism of cell-ECM mechano-transduction. Moreover, the hiPSC-derived blood vessel organoids were cocultured with hSCOs and pericytes for making transwell and 3D micro fluidic BSCB models. Lastly, hiPSCs exhibit multipotency, allowing them to differentiate into various cell types or tissues, making them valuable for applications in tissue engineering and injury repair. Nevertheless, hiPSCs pose significant challenges due to low consistency in target cell differentiation and a tendency for cancer-like infinite proliferation. [Furthermore, the impact of shear stress on the secretion and cargo profiles of hiPSC-derived organoids, particularly extracellular vesicles (EVs) such as the subset 'exosomes,' is recognized. [Comment: Consider clarifying how shear stress impacts the secretion and cargo profiles of hiPSC-derived organoids for greater clarity.] Exosomes show promising potential as an alternative in stem cell therapy to some extent. Additionally, encapsulating them with different hydrogels can be explored to control the rate of EV release.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemical and Biomedical Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 28, 2024.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Yan Li, Professor Directing Dissertation; Changchun Zeng, Professor Co-Directing Dissertation; Sachin Shanbhag, University Representative; Ralm Ricarte, Committee Member; Jingjiao Guan, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85022900">
+      <mods:topic>Chemical engineering</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">chen_fsu_0071E_18788</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemical and Biomedical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Dynamics of Single and Dual Supersonic Impinging Jets and Response to Adaptive Microjet-Driven Control</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-2240-9280</mods:nameIdentifier>
+      <mods:namePart type="family">Song</mods:namePart>
+      <mods:namePart type="given">Myungjun</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/falvi">
+      <mods:namePart type="family">Alvi</mods:namePart>
+      <mods:namePart type="given">Farrukh S.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/sussman">
+      <mods:namePart type="family">Sussman</mods:namePart>
+      <mods:namePart type="given">Mark</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/drrajank">
+      <mods:namePart type="family">Kumar</mods:namePart>
+      <mods:namePart type="given">Rajan</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Professor of Mechanical Engineering)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/chubicki">
+      <mods:namePart type="family">Hubicki</mods:namePart>
+      <mods:namePart type="given">Christian M.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Mechanical Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2024</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (256 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Short Take-Off and Vertical Landing (STOVL) aircraft achieve the required lift by vectoring thrust toward the ground. These jets impinging on the ground exhibit strong resonance induced by a feedback mechanism, consisting of downstream-traveling large-scale coherent structures and upstream-propagating acoustic waves. Consequently, this resonance produces a highly unsteady flowfield, leading to high noise levels, harmful structural vibrations, and significant lift loss. Moreover, the presence of multiple impinging jets leads to the generation of a fountain flow, which further adds to the complexity of the flowfield dynamics. Understanding the flowfield and applying effective flow control methods are essential to reducing these negative consequences for STOVL aircraft. In the present study, the flowfields of a single supersonic M1.5 jet in over-expanded, ideally-expanded, and under-expanded conditions (NPR = 3, 3.67, and 4.5, respectively) are examined. For dual impinging jets, the configurations include a Mach 1.5 supersonic jet paired with an additional sonic jet at NPRs of 2 and 3. The goal of effectively controlling the inherent resonance for this flow is achieved through the use of microjet arrays. This requires a better understanding of the properties and parameters governing this flow, which was achieved through a systematic study of first single and then dual jets using a variety of experimental and analytical tools. Firstly, the influence of microjet hardware on acoustics, both passive and active, is examined across a wide range of impingement distances (H/D from 0.75 to 10) at a fine resolution (D/16). This approach enables a precise quantification and in-depth characterization of resonance phenomena. Findings indicate that the use of external microjets, which inject into the jet shear layer near the nozzle exit, proves less effective for the over-expanded jet condition at NPR of 3. Consequently, the over-expanded Mach 1.5 supersonic jet condition at NPR = 3 is selected as the representative condition, given the challenge in attenuating jet resonance at this condition. At selected impingement distances, schlieren flow visualization and stereo particle image velocimetry (SPIV) are employed to further elucidate the flow dynamics and the impact of this control technique. Furthermore, an in-depth analysis is conducted to enhance the understanding of the role of large-scale coherent structures in jet resonance. Despite the importance of large-scale coherent structures, also referred to as disturbances, comprehensive discussion on the disturbance convection velocity has been limited due to the challenges posed by nonintrusive measurement requirements. To determine the convection velocity of disturbances in the jet shear layer, high-speed schlieren flow visualization is carried out, and phase bin-averaged wave diagrams are constructed from the image sets. A parametric analysis is performed to examine the influence of nozzle pressure ratio on the convection velocity and phase lead/lag at specific impingement distances. The results reveal that the impingement tonal frequency is nearly independent of the disturbance convection velocity, except in cases of staging behavior. A slower downstream convection velocity of the disturbance corresponds to larger coherent structures, resulting in increased noise levels. Based on the observation of acoustic standing waves, an acoustic speed-based frequency model has been proposed. With the help of the allowable frequency range calculated from the vortex-sheet model, this model can provide a good approximation for the majority of axisymmetric impingement tonal frequencies. To enhance the noise reduction capabilities of microjet control, additional microjets have been introduced into the diverging section of the supersonic nozzle along with the externally installed microjets. The control system for microjet pressure and on/off status has been further upgraded, and a genetic algorithm has been utilized at selected impingement distances to optimize the microjet configuration for noise reduction. This optimized approach, especially with the staggered microjet configuration, has led to significant noise reduction achievements, including a reduction of over 12 dB in OASPL and up to 32 dB in impingement tones at specific impingement distances. Most notably, the optimized microjet configuration has effectively attenuated impingement tones across the entire scanned range of impingement distances (H/D from 0.75 to 10), covering over-expanded, ideally-expanded, and under-expanded jet conditions. Furthermore, the response of lift loss to microjet control across a range of impingement distances under different NPR conditions has been evaluated. Lift loss was assessed by measuring pressures on the lower surface of the lift plate. Microjet control has been shown to effectively reduce lift loss at lower impingement distances. For instance, lift loss at an H/D of 0.75 reaches up to 8% of the nozzle's isentropic thrust, which is decreased to 3% upon activating microjet control. Conversely, activating microjet control at higher impingement distances slightly increases lift loss. In-depth analyses of turbulence intensity distribution were conducted, revealing that the presence of large-scale coherent structures in the wall jet significantly contributes to higher lift loss. Furthermore, microjet control is observed to increase entrainment locally near the nozzle exit. In dual jets configurations, the acoustic characteristics and the response to external microjet control on the supersonic nozzle are examined for both dissimilar and matching NPR conditions. For the dissimilar NPR condition, the supersonic nozzle operates at an NPR of 3, while the sonic nozzle is set to an NPR of 2. In contrast, in the matching NPR condition, both nozzles operate at an NPR of 3. Modal decomposition techniques are utilized on time-resolved schlieren image sets to elucidate the interactions between the jets. Microjet control applied in the dual jets configuration has demonstrated better noise attenuation across an extended range of impingement distances, in contrast to its application on a single jet configuration, which showed effectiveness within a more limited range of impingement distances. Volumetric flowfields of both dissimilar and matching NPR configurations have been reconstructed using the scanning Stereo Particle Image Velocimetry (scanning-SPIV) technique. Additionally, oil surface visualization on the impingement surface has been performed, providing a detailed perspective on the flowfield. To the best of this author's knowledge, these volumetric, whole field measurements are the first of their kind for this complex flowfield. The highly-resolved velocity field provides unique insights into the three-dimensional flow dynamics and the intricate interactions between the fountain flow and the jet shear layer. Furthermore, in the dual jets configurations, the responses of acoustic performance and lift loss to the optimized microjet configuration, initially determined for a single jet condition, are evaluated over a range of impingement distances.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Mechanical Engineering in partial fulfillment of the requirements for the degree of Doctoral of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 28, 2024.</mods:note>
+   <mods:note displayLabel="Keywords">Acoustics, Impinging jet, STOVL, Supersonic</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Farrukh S. Alvi, Professor Directing Thesis; Mark Sussman, University Representative; Rajan Kumar, Committee Member; Christian Hubicki, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85082757">
+      <mods:topic>Mechanical engineering</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85049383">
+      <mods:topic>Fluid mechanics</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh95007821">
+      <mods:topic>Aerospace engineering</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Song_fsu_0071E_18590</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Mechanical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

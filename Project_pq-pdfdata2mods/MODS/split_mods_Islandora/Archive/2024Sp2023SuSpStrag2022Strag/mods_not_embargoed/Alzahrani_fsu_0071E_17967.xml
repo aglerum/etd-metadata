@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Realistic Adaptive Signal Control under Platooned Connected Vehicles Environment</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0000-2868-1782</nameIdentifier>
+      <namePart type="family">Alzahrani</namePart>
+      <namePart type="given">Ahmed</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2008021083">
+      <namePart type="family">Moses</namePart>
+      <namePart type="given">Ren</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing thesis</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/avanli">
+      <namePart type="family">Vanli</namePart>
+      <namePart type="given">Omer Arda</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/ysun6">
+      <namePart type="family">Sun</namePart>
+      <namePart type="given">Yanshuo</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2009109194">
+      <namePart type="family">Ozguven</namePart>
+      <namePart type="given">Eren Erman</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mdulebenets">
+      <namePart type="family">Dulebenets</namePart>
+      <namePart type="given">Maxim A.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Civil and Environmental Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (181 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Urban traffic congestion has become an increasingly critical issue as the number of vehicle owners continues to rise each year, resulting in increased travel times, fuel consumption, and environmental pollution. Traditional adaptive traffic signal control systems struggle to accommodate this rapid growth in traffic demand, highlighting the need for innovative and efficient solutions to manage traffic in urban environments. Connected vehicle (CV) technology, which enables vehicles to communicate with each other and infrastructure, has emerged as a promising solution to address these challenges. The integration of CV data can significantly enhance traffic management systems, allowing for more effective traffic signal optimization, improved traffic flow, and increased safety. This dissertation focuses on the development and evaluation of a novel algorithm for optimizing adaptive traffic signals under platooned CVs. The goal is to harness the potential of CV technology and vehicle platooning to improve traffic efficiency, safety, and environmental sustainability in urban settings. By leveraging the unique characteristics of CVs, mixed traffic scenarios, and the dynamic nature of urban traffic, the proposed algorithm aims to address the limitations of existing traffic signal control systems and provide a more efficient and adaptable solution. The study begins with a comprehensive literature review to identify the current state of the art in adaptive traffic signal control systems, CV technologies, platooning, and their integration in traffic management. The review serves as a foundation for understanding the research gaps and opportunities in this field, setting the stage for the development of the proposed algorithm. The main contribution of this dissertation is the development of a robust, efficient, and adaptable algorithm for optimizing adaptive traffic signals under platooned CVs. A simulation-based framework was designed and implemented to evaluate the performance of the proposed algorithm, considering various performance indicators such as travel times, delays, queue lengths, vehicle stops, fuel consumption, and emissions. The safety implications of the algorithm were also investigated, providing valuable insights into its safety performance. The performance of the proposed algorithm was compared with existing traffic signal control strategies, including both traditional and connected vehicle-based approaches. The algorithm demonstrated superior performance in terms of various traffic parameters and improved traffic safety compared to existing strategies. A sensitivity analysis was conducted to assess the algorithm's adaptability and robustness under different traffic conditions, CV penetration levels, and platoon formation scenarios. The findings of this dissertation have important theoretical and practical implications for the fields of adaptive traffic signal control and CV technology. The study contributes to existing theories, models, and frameworks in the field, while also providing recommendations for traffic engineers, policymakers, and other stakeholders on how to leverage the research to improve traffic management, alleviate congestion, reduce emissions, and enhance safety. Limitations and future research directions are also discussed, offering potential avenues for further investigation and development in the area of adaptive traffic signal control and CV technology. This research lays the groundwork for the next generation of traffic management systems that can effectively accommodate the increasing traffic demand and capitalize on the benefits of connected vehicles and platooning.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Civil and Environmental Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">April 27, 2023.</note>
+   <note  displayLabel="Keywords">Connected Vehicle, Highway Capacity Manual, Intelligent driving model, VISSIM</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Ren Moses, Professor Directing Thesis; Arda Vanli, University Representative; Yanshuo Sun, Committee Member; Eren Ozguven, Committee Member; Maxim A. Dulebenets, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85137042">
+      <topic>Transportation</topic>
+      <topic>Planning</topic>
+   </subject>
+   <identifier  type="IID">Alzahrani_fsu_0071E_17967</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Civil and Environmental Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

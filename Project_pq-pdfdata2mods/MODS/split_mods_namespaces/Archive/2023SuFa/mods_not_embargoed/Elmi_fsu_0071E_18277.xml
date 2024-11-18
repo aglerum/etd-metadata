@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Models and Solution Approaches for the Vessel Schedule Recovery Problem with Conflicting Objectives</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-9076-1767</mods:nameIdentifier>
+      <mods:namePart type="family">Elmi</mods:namePart>
+      <mods:namePart type="given">Zeinab</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mdulebenets">
+      <mods:namePart type="family">Dulebenets</mods:namePart>
+      <mods:namePart type="given">Maxim A.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/avanli">
+      <mods:namePart type="family">Vanli</mods:namePart>
+      <mods:namePart type="given">Omer Arda</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2008021083">
+      <mods:namePart type="family">Moses</mods:namePart>
+      <mods:namePart type="given">Ren</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2009109194">
+      <mods:namePart type="family">Ozguven</mods:namePart>
+      <mods:namePart type="given">Eren Erman</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Civil and Environmental Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (220 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Global supply chains depend heavily on liner shipping networks, which connect countries and continents over a great distance at low transit costs. More than 80% of the world's trade in goods is carried out by international shipping activities. As such, liner shipping companies invest significant time, resources, and effort in network planning and scheduling. Each liner shipping firm typically designs the network for cargo shipping at the strategic decision-making level over a predetermined time. A detailed vessel schedule design (e.g., determination of sailing speeds at sea voyage legs, determination of port times, deployment of own vessels, deployment of chartered vessels, etc.) is conducted at the tactical level. However, many factors and unexpected events are beyond the control of liner companies and can undermine even the most carefully conceived plans. For example, disruptions can emerge in the forms of adverse weather events, congestion in channels, or container terminals. In some cases, these disruptions may render a previously optimized schedule highly suboptimal or even infeasible. In addition, they can have a significant impact on the liner shipping companies' profitability and the economic development of different countries. Liner shipping companies monitor their operations and take actions to recover their schedules and mitigate the impact of irregularities. This process is generally called "vessel schedule recovery problem". Examples of actions considered during the vessel recovery process include swapping two port calls or omitting one entirely, vessel sailing speed adjustment, port skipping with and without container diversion, and handling rate adjustment. The vessel schedule recovery problem becomes even more complicated as liner shipping firms have to adhere to the International Maritime Organization (IMO) policies. The IMO imposes restrictions on the type of fuel that vessels can use within Emission Control Areas (ECAs), limiting the types of fuels that could be adopted and emission amounts. One critical challenge associated with the vessel schedule recovery problem is the conflicting nature of objectives we aim to optimize in this process. In maritime shipping, sustainability considerations are often complicated by multiple and often conflicting objectives. For instance, in the presence of the disruption, the liner shipping company may decide to increase the sailing speed to meet the agreed level of service; however, the fuel consumption and vessel emission will be increased. Consequently, total route service costs will increase too. Another example is when the liner shipping company employs slow steaming to comply with the IMO regulations, which reduces vessel emission and fuel consumption and thus lowers operating costs. On the other hand, liner shipping companies are under pressure to address the service level agreements with cargo customers (ensuring on-time deliveries) while implementing slow steaming as a recommended practice. Notably, it is impossible to employ slow steaming to reduce fuel consumption while improving service levels simultaneously. In previous studies, all conflicting objectives are often combined into one objective function. This approach restricts the ability of liner shipping companies to make trade-offs between conflicting objectives. The main disadvantage of this approach is that it cannot find Pareto-optimal solutions, particularly in the case of a nonconvex objective space. Consequently, multi-objective mathematical formulations are necessary to analyze trade-offs between conflicting actions, albeit being ignored by the current state-of-the-art. To overcome these challenges, this dissertation aims to explore new multi-objective mathematical models for the vessel schedule recovery problem, considering various important operational attributes (i.e., fuel costs, emission regulations, potential cargo diversion via intermodal networks, increasing port handling costs due to faster service). A set of customized solution approaches will be proposed in order to solve the presented multi-objective mathematical formulations in a reasonable computational time. Furthermore, a set of computational experiments will be conducted to illustrate critical managerial insights and important trade-offs between conflicting objects in vessel schedule recovery. Such insights would be essential to the associated stakeholders, including shipping lines, terminal operators, and inland operators.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Civil and Environmental Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 9, 2023.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Maxim A. Dulebenets, Professor Directing Dissertation; O. Arda Vanli, University Representative; Ren Moses, Committee Member; Eren Ozguven, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85137042">
+      <mods:topic>Transportation</mods:topic>
+      <mods:topic>Planning</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Elmi_fsu_0071E_18277</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Civil and Environmental Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

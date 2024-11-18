@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Optimization of Electric Field Enhancement of Helium Gas Cooled High Temperature Superconducting Power Cables for Transportation Applications</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0005-1331-2657</mods:nameIdentifier>
+      <mods:namePart type="family">Mullings</mods:namePart>
+      <mods:namePart type="given">Alexia</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/pc14f">
+      <mods:namePart type="family">Cheetham</mods:namePart>
+      <mods:namePart type="given">Peter</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/pamidi">
+      <mods:namePart type="family">Pamidi</mods:namePart>
+      <mods:namePart type="given">Sastry V.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/swalker">
+      <mods:namePart type="family">Bernadin</mods:namePart>
+      <mods:namePart type="given">Shonda</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Electrical and Computer Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (68 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The need for efficient, reliable, and environmentally friendly transportation is increasing rapidly as countries set target dates for achieving net zero carbon emissions. High Temperature Superconducting (HTS) cables have current densities up to 100 A/mm2, approximately ten times greater than conventional copper cables. This increases the power density of electrical systems that utilize HTS cables and can result in substantial size and weight savings, making them an attractive solution for all-electric aircraft and ships with power system ratings ranging from 20 MW to 100 MW. Gaseous helium (GHe) is the preferred cryogen for (HTS) devices for transportation applications due to its wider operating temperature range and reduced risk of asphyxiation compared to liquid nitrogen (LN2). However, its lower dielectric strength compared to LN2 poses design challenges. A previous study found that GHe mixed with small mole percentages of hydrogen (H2) results in significant improvement of dielectric breakdown strength. The same level of improvement was not seen when measuring the partial discharge inception voltage (PDIV) of lapped tape insulated cables in the helium-hydrogen gas mixtures. A greater understanding on the electric field enhancement within the electrical insulation of the HTS cable was required to develop materials and approaches to increase the partial discharge rating of the cables. Partial discharge is one of the limiting factors when determining the voltage rating of a cable. The research presented in this thesis focuses on five prototype cables using cryogenic rated epoxies as electrical insulation. These cables were characterized at 77 K in both pure GHe and GHe mixed with small mol percentages of H2. The electric field of the cables were varied through the addition of stress cones, techniques used to apply the ground layer application, and the type of cryogenic epoxy used as electrical insulation. A summary of the conclusions drawn from this research is as follows: The addition of 4 mol% of H2 to GHe led to an average increase in PDIV values of about 57% compared to PDIV measurements in pure GHe for pressure levels ranging from 0.5-2.0 MPa at 77 K. This improvement is a similar ratio to what has been observed with the intrinsic breakdown strength of GHe and He/H2 gas mixtures at cryogenic temperatures. The addition of stress cones to an EP37 insulated cable resulted in an average increase in PDIV of 45% in pure GHe and 54% improvement in the 96% GHe 4% H2 mixture compared to an EP37 insulated cable without stress cones. Confirming that the addition of stress cones will limit field enhancement and improve PDIV results. The use of conductive epoxy to form a direct ground connection on an EP37 insulated cable resulted in 64% improvement in pure GHe at 2 MPa compared to an EP 37 cable with a ground layer formed using semiconductive paper and copper tape. This indicated that the use of conductive epoxy instead of semiconductive paper limits the formation of butt gaps between the insulation and ground layers. The EP29 insulated cable experienced PDIV values 47% and 45% higher than the corresponding EP37 insulated cable in 2MPa pure GHe and in 2 MPa GHe with 4 mol% H2 respectively. EP29 has a relative permittivity of 3.95 compared to that of EP 37 which is 4.4. EP29 has a closer relative permittivity value to GHe (εr =1) which reduces the electric field enhancement at the triple point of the epoxy insulation, GHe, and ground layer.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Electrical and Computer Engineering in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 3, 2023.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Peter Cheetham, Professor Directing Thesis; Sastry Pamidi, Committee Member; Shonda Bernadin, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85041666">
+      <mods:topic>Electrical engineering</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Mullings_fsu_0071N_18164</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Electrical and Computer Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

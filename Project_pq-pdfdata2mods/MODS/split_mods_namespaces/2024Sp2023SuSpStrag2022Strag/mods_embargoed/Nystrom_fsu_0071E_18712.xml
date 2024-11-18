@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Molecular and Genomic Regulatory Mechanisms Underlying the Evolution of Invertebrate Venoms</mods:title>
+      <mods:nonSort>The</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-5388-3634</mods:nameIdentifier>
+      <mods:namePart type="family">Nystrom</mods:namePart>
+      <mods:namePart type="given">Gunnar S.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/drokyta">
+      <mods:namePart type="family">Rokyta</mods:namePart>
+      <mods:namePart type="given">Darin</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/marbeitman">
+      <mods:namePart type="family">Arbeitman</mods:namePart>
+      <mods:namePart type="given">Michelle N. (Michelle Nina)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kahughes">
+      <mods:namePart type="family">Hughes</mods:namePart>
+      <mods:namePart type="given">Kimberly A.</mods:namePart>
+      <mods:namePart type="date">1960-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kmjones2">
+      <mods:namePart type="family">Jones</mods:namePart>
+      <mods:namePart type="given">Kathryn M.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="viaf"
+              authorityURI="http://viaf.org/viaf/"
+              valueURI="http://viaf.org/viaf/171975698">
+      <mods:namePart type="family">Dennis</mods:namePart>
+      <mods:namePart type="given">Jonathan Hancock</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Biological Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2024</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (234 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Understanding how a single genome can produce drastically different phenotypes is a central theme in evolutionary biology. It requires a keen understanding of the ecological, molecular, and genomic regulatory mechanisms driving phenotypic, often adaptive variation. As complex traits with clear fitness implications and well-defined genotype-phenotype maps, venoms represent practical systems for evaluating the interplay between phenotypic change and genetic regulation. In addition, as approximately 15% of all animals are venomous, studying venomous animals will likely have wide- ranging impacts for the ecosystems in which they inhabit. Furthermore, the tendency for venom proteins to target specific physiological systems and pathways makes them excellent resources for bioprospecting novel therapeutic compounds. However, most research on venom has focused on snakes, which only represent a small proportion of venomous animals. Conversely, invertebrates, which represent a disproportionately large number of venomous animals, have historically received a disproportionately low level of research attention. Although not as charismatic as their reptilian counterparts, research on venomous invertebrates benefits from lower regulatory pressures, often trivial sampling methods, reduced maintenance effort and cost, and significantly diminished safety risks. For this research in this doctoral dissertation, we use scorpions and centipedes to evaluate the molecular and genomic regulatory mechanisms underlying the evolution of invertebrate venoms and make the case for a scorpion as model species. In Chapter 1, we begin our work at the ecological by assessing rates of venom regeneration in one scorpion and one centipede species. As biochemical traits with clear fitness consequences, venoms serve a critical ecological role for the animals that produce them. Understanding how venoms are maintained and regenerated after use will, therefore, provide valuable insight into the ecology of venomous animals. Furthermore, most studies on venomous organisms often require removing animals from the wild and waiting extended periods of time between venom extractions. Uncovering the patterns of venom regeneration across different species will likely lead to the development of more efficient venom extraction protocols, reducing both experimental time and the number of animals required. Using reversed-phase high-performance liquid chromatography, we identified asynchronous regeneration of venom protein component abundances in the centipede Scolopendra viridis but found no evidence for asynchronous venom regeneration in the scorpion Centruroides hentzi. We also observed high levels of intraspecific venom variation in C. hentzi, emphasizing the importance of testing for intraspecific venom variation in studies evaluating the synchronicity of venom regeneration. Although the regeneration of relative venom protein component abundances is an asynchronous process in S. viridis, we provide evidence that the presence-absence of major venom components is not an asynchronous process and suggest that studies relying on just the presence/absence of individual proteins (e.g. bioprospecting, drug discovery) could use catch-and- release methods of venom extraction to reduce the number of animals removed from the wild. In Chapter 2, we leverage high-throughput sequencing technologies to evaluate the genetic basis for sex-biased gene expression in centipede. Sexually dimorphic traits are widespread across metazoans and are often the result of sex-specific inheritance or sex-based differences in gene ex- pression. Intersexual differences have even been observed in invertebrate venoms, although the identification of these differences has been limited to the more well-studied groups, such as scorpions and spiders, where sex-based differences in morphology and behavior are apparent. Recent studies on centipede venom have identified evidence of intraspecific variation, but intersexual differences have not been reported. To investigate the potential for sex-based differences in centipede venom composition, we performed reversed-phase high performance liquid chromatography (RP- HPLC) analyses on five male and 15 female eastern bark centipedes (Hemiscolopendra marginata) from the Apalachicola National Forest in northern Florida. After detecting a significant sex-based difference in H. marginata venom composition, we completed a high-throughput venom-gland transcriptomic and venom proteomic analysis of one male and one female to determine the genetic basis for differences in venom composition. We identified 47 proteomically confirmed toxins and 717 nontoxin transcripts in H. marginata venom-glands. Of these proteomically confirmed toxins, the most abundantly expressed in the male venom included ion channel-modulating toxins and toxins so divergent from any characterized homologs that they could not be given a functional classification, whereas the most abundantly expressed in the female venom were γ-glutamyl transferases and CAPs (cysteine-rich secretory proteins, antigen 5, and pathogenesis-related 1 proteins). These differences were then confirmed by performing replicate LC-MS/MS analyses on the venom from an additional three male and three female H. marginata. Our RP-HPLC and high-throughput transcriptomic and proteomic approach resulted in not only an in-depth characterization of H. marginata venom, but represents the first example of sex-based variation in centipede venoms. In Chapter 3, we shift towards improving our understanding of scorpion venom protein diversity by characterizing the venom from one species of an underrepresented genus. Scorpion venoms have long been studied for their peptide discovery potential, with modern high-throughput venom- characterization techniques paving the way for the discovery of thousands of novel putative toxins. Research into these toxins has provided insight into the pathology and treatment of human diseases, even resulting in the development of one compound with Food and Drug Administration (FDA) approval. Although most of this research has focused on the toxins of scorpion species considered medically significant to humans, the venom of harmless scorpion species possess toxins that are homologous to those from medically significant species, indicating that harmless scorpion venoms may also serve as valuable sources of novel peptide variants. Furthermore, as harmless scorpions represent a vast majority of scorpion species diversity, and therefore venom toxin diversity, venoms from these species likely contain entirely new toxin classes. We sequenced the venom-gland transcriptome and venom proteome of two male Big Bend scorpions (Diplocentrus whitei), providing the first high-throughput venom characterization for a member of this genus. We identified a total of 82 toxins in the venom of D. whitei, 25 of which were identified in both the transcriptome and proteome, and 57 of which were only identified in the transcriptome. Furthermore, we identified a unique, enzyme-rich venom dominated by serine proteases and the first arylsulfatase B toxins identified in scorpions. In Chapter 4, we evaluate the molecular signatures of selection underlying the evolution of giant desert hairy scorpion venoms. Venoms are primarily believed to evolve under strong diversifying selection resulting from persistent coevolution between predator and prey. Recent research has challenged this hypothesis, proposing that venoms from younger venomous lineages (e.g., snakes and cone snails) are governed predominantly by diversifying selection, while venoms from older venomous lineages (e.g., centipedes, scorpions, and spiders) are under stronger purifying selection. However, most research in older lineages has tested selection at more diverse phylogenetic scales. Al- though these tests are important for evaluating broad macroevolutionary trends underlying venom evolution, they are less equipped to detect species-level evolutionary trends, which likely have large impacts on venom variation seen at more diverse phylogenetic scales. To test for selection among closely related species from an older venomous lineage, we generated high-throughput venom-gland transcriptomes and venom proteomes for four populations of Giant Desert Hairy Scorpions (Hadrurus), including three Hadrurus arizonensis populations and one Hadrurus spadix population. We detected significant episodic and pervasive diversifying selection across a highly abundant toxin family that likely has a major role in venom function (αKTxs), providing a contrast to the stronger purifying selection identified from other studies on scorpion venoms. Conversely, we detected weak episodic diversifying and/or stronger purifying selection in four toxin families (non-disulfide bridged peptides, phospholipase A2s, scorpine-like antimicrobial peptides, and serine proteases), most of which were less abundant and likely have ancillary functional roles. Finally, although we detected several major toxin families at disproportionate transcriptomic and/or proteomic abundances, we did not identify significant sex-based variation in Hadrurus venoms. In Chapter 5, we broaden our focus to not only test for sex-biased venom genes in a sexually di- morphic scorpion, but also evaluate the genomic and epigenomic landscape underlying those venom genes. Unfortunately, while our knowledge of how phenotypic variation is influenced by changes in ecology, environment, gene number, and gene sequence is the result of work in a diverse set of systems, our understanding of complex, genomic regulatory networks stems primarily from research on human cells and model systems. Because studies in these systems are not typically paired with ecological experiments, much of the important context underlying the evolution of genomic regulatory networks is missing. With the emergence of novel genomic methodologies and their continually increasing efficiency and decreasing costs, non-model systems, such as venoms, have become sensible, effective systems for studying how the epigenomic landscape influences variation in complex traits. However, as previously discussed, much of what we know about the genomic and epigenomic landscape underlying venom genes is the result of studies in venomous snakes. In most venomous taxa, venom genes are primarily organized into large tandem arrays of duplicated genes on a subset of chromosomes, with few exceptions. Generating a comprehensive understanding of the genomic landscape of venomous systems requires the generation of high quality reference genomes for members of all venomous lineages. Therefore, to resolve the genomic architecture for scorpion venom genes, we assembled the first chromosome-level genome for the Hentz striped scorpion (Centruroides hentzi). We also tested for sex-based differences in (1) differential expression of venom genes with RNA-seq, (2) differential chromatin accessibility using Cleavage Under Targeted Accessible Chro- matin (CUTAC), (3) differential H3K27ac histone modification using Cleavage Under Targets and Tagmentation (CUT&amp;Tag), and (4) diet using PCR detection of arthropod-specific cytochrome c oxidase I genes. With this multifaceted approach, we not only provide a broad perspective of the ecological and genomic regulatory mechanisms underlying the evolution of scorpion venom genes, but make the case for C. hentzi as a model system.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Biological Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 25, 2024.</mods:note>
+   <mods:note displayLabel="Keywords">Centipede, Epigenomics, Genomics, Molecular Evolution, Scorpion, Venom</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Darin Rokyta, Professor Directing Dissertation; Michelle Arbeitman, University Representative; Kimberly Hughes, Committee Member; Kathryn Jones, Committee Member; Jonathan Dennis, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh90004042">
+      <mods:topic>Evolution (Biology)</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85040752">
+      <mods:topic>Ecology</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85014203">
+      <mods:topic>Biology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Nystrom_fsu_0071E_18712</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Biological Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

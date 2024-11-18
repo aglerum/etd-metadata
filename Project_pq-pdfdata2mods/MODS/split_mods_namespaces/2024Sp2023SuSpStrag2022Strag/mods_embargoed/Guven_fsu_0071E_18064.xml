@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Comparison of Two Measurement Frameworks in the Context of Differential Item Functioning</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0000-0202-5883</nameIdentifier>
+      <namePart type="family">Guven</namePart>
+      <namePart type="given">Ahmet</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/yyang3">
+      <namePart type="family">Yang</namePart>
+      <namePart type="given">Yanyun</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2013073385">
+      <namePart type="family">Huffer</namePart>
+      <namePart type="given">Fred W. (Fred William)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n94098012">
+      <namePart type="family">Almond</namePart>
+      <namePart type="given">Russell G.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/jeturner">
+      <namePart type="family">Turner</namePart>
+      <namePart type="given">Jeannine E.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Education, Health, and Human Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Educational Psychology and Learning Systems</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (162 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>Many empirical and simulation-based studies have been conducted to compare cognitive diagnostic models (CDMs) with multidimensional item response theory (MIRT) models. Most of these studies have focused on the evaluation of either model-data fit or classification accuracy. A few studies have examined the equivalency of model parameters in the two measurement frameworks. All these studies have investigated deterministic inputs, noisy-and-gate and unidimensional IRT models. The two-parameter logistic compensatory MIRT (2PL-CMIRT) model and compensatory reparametrized unified model (CRUM) have a lot in common. None of the studies has compared the 2PL-CMIRT model and the CRUM in the context of differential item functioning (DIF). Moreover, there is a lack of studies that investigate the model-data fit of the 2PL-CMIRT model and the CRUM when they are retrofitted. The main purpose of this simulation study was to compare the performance of the Wald and likelihood ratio (LR) tests in both the 2PL-CMIRT model and the CRUM in detecting DIF when data were retrofitted. The Wald and LR tests using multiple group analysis approach are applicable to MIRT models and CDMs. A simulation study was conducted by manipulating factors as follows: number of items in a test (2 levels), correlation between the latent variables (2 levels), distribution of person parameters (3 levels), item parameters complexity (2 levels), DIF type (2 levels), and DIF magnitude (2 levels). The Wald test and LR test in the 2PL-CMIRT model performed well across all conditions in the no-DIF scenario. The Wald test and LR test in the CRUM controlled the Type I error rates across all the CRUM data generation conditions in no-DIF scenario. However, in the scenario where data were fitted to the CRUM, the Wald test and LR test had high Type I error rates in the presence of the group differences in the mean of ability. The powers of the Wald and LR tests in both models were acceptable under the conditions where no group differences in the mean of ability were present. This study also evaluated the model-data fit of both models under the simulation conditions when data were retrofitted. The limited information, M2, statistic, root mean square error of approximation (RMSEA), and standardized root mean square residuals (SRMR) were used to evaluate model-data fit in the CDMs and MIRT models. More specifically, the performance of these fit indices across all simulation conditions were examined in the retrofitting scenarios. When data were generated from the 2PL-CMIRT model, the M2 statistic in the 2PL-CMIRT model controlled the Type I error rates across the no-DIF conditions while the M2 statistic in the CRUM had high rejection rates. RMSEA and SRMR values suggested adequate model-data fit in both models even though their values tended to be slightly higher in the CRUM. When data were generated from the CRUM, the Type I error rates of the M2 statistic in the CRUM were acceptable under the no-DIF scenario while the rejection rates of the M2 statistic in the 2PL-CMIRT model were high under the conditions where the size of the main effect parameter was medium. RMSEA and SRMR values suggested adequate model-data fit in both models.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Educational Psychology and Learning Systems in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">July 12, 2023.</note>
+   <note displayLabel="Keywords">Cognitive Diagnostic Model, Differential Item Functioning, Item Response Theory, Likelihood Ratio Test, Wald Test</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Yanyun Yang, Professor Directing Dissertation; Fred Huffer, University Representative; Russell Almond, Committee Member; Jeannine Turner, Committee Member.</note>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85041154">
+      <topic>Educational tests and measurements</topic>
+   </subject>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <topic>Statistics</topic>
+   </subject>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85108490">
+      <topic>Psychometrics</topic>
+   </subject>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh2007000909">
+      <topic>Quantitative research</topic>
+   </subject>
+   <identifier type="IID">Guven_fsu_0071E_18064</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Educational Psychology and Learning Systems</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Integrative Approaches in Genomic Analysis</mods:title>
+      <mods:subTitle>Advancing Epigenetic Prediction, Twas Methodology, and Cell-Type Deconvolution in Spatial Transcriptomics</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-8692-7178</mods:nameIdentifier>
+      <mods:namePart type="family">Melton</mods:namePart>
+      <mods:namePart type="given">Hunter</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jrbradley">
+      <mods:namePart type="family">Bradley</mods:namePart>
+      <mods:namePart type="given">Jonathan R.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor co-directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/cwu3">
+      <mods:namePart type="family">Wu</mods:namePart>
+      <mods:namePart type="given">Chong</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor co-directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/zhe">
+      <mods:namePart type="family">He</mods:namePart>
+      <mods:namePart type="given">Zhe</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="viaf"
+              authorityURI="http://viaf.org/viaf/"
+              valueURI="http://viaf.org/viaf/14146217689609141312">
+      <mods:namePart type="family">Niu</mods:namePart>
+      <mods:namePart type="given">Xufeng</mods:namePart>
+      <mods:namePart type="date">1954-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/abarrientos">
+      <mods:namePart type="family">Barrientos</mods:namePart>
+      <mods:namePart type="given">Andrés Felipe</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Statistics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2024</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (197 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>In the rapidly evolving world of molecular biology, genetics and epigenetics have taken crucial roles in unraveling the complex origins of diseases. Through gene expression, genes govern the synthesis of proteins, the fundamental building blocks of life. Conventional observational studies grapple with major limitations in exploring the relationships between diseases and gene expression, leading to the advent of transcriptome-wide association studies (TWAS). Similarly, methylome-wide association studies (MWAS) have been developed to explore the relationships between DNA methylation and disease, as DNA methylation plays a key role in regulating gene expression. In Chapter 2 of this dissertation, we introduce MIMOSA (MWAS Imputing Methylome Obliging Summary-level mQTLs and Associated LD matrices), a comprehensive set of DNA methylation prediction models for use in MWAS. MIMOSA significantly improves the accuracy of DNA methylation prediction and downstream power of MWAS by training on a large, summary-level methylation quantitative trait loci (mQTL) dataset from the Genetics of DNA Methylation Consortium. We apply MIMOSA to genome-wide summary statistics for 28 complex traits and include a case study in high cholesterol. In Chapter 3, we present SUMMIT-FA (Summary-level Unified Method for Modeling Integrated Transcriptome with Functional Annotations), which extends the state-of-the-art TWAS method SUMMIT by incorporating functional annotations from the the Multi-dimensional Annotation-Class Integrative Estimation (MACIE). SUMMIT-FA improves gene expression prediction accuracy and TWAS power, which we demonstrate through its application to 24 traits and through simulations. In Chapter 4, we turn our attention to spatial transcriptomics, which measures gene expression in situ on slices of tissue. We present a novel zero-inflated hierarchical generalized transformation (ZI-HGT) model that functions as a noisy transformation for cell-type deconvolution with conditional autoregressive-based deconvolution (CARD). CARD assumes normality of the highly zero-inflated, count-valued spatial transcriptomic data, and the ZI-HGT transforms the data to better fit this assumption. Joined together, the ZI-HGT and CARD not only achieve enhanced cell-type deconvolution accuracy, but naturally quantify uncertainty in the estimated cell-type proportions through bootstrap Bayesian pointwise credible intervals. This leads to a novel, exploratory ''heterogeneity score'' for quantitative assessment of cell-type heterogeneity at different locations, which is demonstrated to coincide well with pathologist-annotated tissue layer boundaries. We apply the combined method to 12 samples of oral squamous cell carcinomas (OSCC) data to gain a better understanding of the tumor microenvironment.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 1, 2024.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Jonathan Bradley, Professor Co-Directing Dissertation; Chong Wu, Professor Co-Directing Dissertation; Zhe He, University Representative; Xufeng Niu, Committee Member; Andrés Felipe Barrientos, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85014244">
+      <mods:topic>Biometry</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85053877">
+      <mods:topic>Genetics</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Melton_fsu_0071E_18594</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

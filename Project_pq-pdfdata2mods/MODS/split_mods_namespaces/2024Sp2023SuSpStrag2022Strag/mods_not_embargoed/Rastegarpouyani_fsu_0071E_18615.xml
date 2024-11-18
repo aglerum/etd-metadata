@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Exploring Striated Muscle</mods:title>
+      <mods:subTitle>Cryo Electron Microscopy Insights into Thick Filaments in Drosophila and Vertebrates</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-1358-9910</mods:nameIdentifier>
+      <mods:namePart type="family">Rastegarpouyani</mods:namePart>
+      <mods:namePart type="given">Hosna</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/taylor">
+      <mods:namePart type="family">Taylor</mods:namePart>
+      <mods:namePart type="given">Kenneth A.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jpinto">
+      <mods:namePart type="family">Pinto</mods:namePart>
+      <mods:namePart type="given">Jose R. (Jose Renato)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/sstagg">
+      <mods:namePart type="family">Stagg</mods:namePart>
+      <mods:namePart type="given">Scott</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/pchase">
+      <mods:namePart type="family">Chase</mods:namePart>
+      <mods:namePart type="given">P. Bryant</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2020182305">
+      <mods:namePart type="family">Yin</mods:namePart>
+      <mods:namePart type="given">Qian (Assistant professor of biological science)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Biological Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2024</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (162 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The introduction of cryo-electron microscopy (cryo-EM) has greatly improved our understanding of structural biology, especially regarding muscle tissue. This technique has been key in revealing the complex structure and functional dynamics of myosin filaments, essential for muscle contraction. Cryo-EM's ability to provide high-resolution images gives us an unmatched look into the intricate interactions of muscle proteins, effectively closing the gap between biochemical theory and the actual observation of molecular structures. Unlike traditional crystallography, which needs protein crystallization and might introduce artifacts, cryo-EM allows for the observation of proteins in a state close to their natural environment, avoiding these issues. This study centers on the cryo-EM investigation of myosin filaments, focusing on sample preparation, data processing, and the protein composition and structure across different species, including both vertebrates and invertebrates. Chapter 1 introduces the basic principles of structural biology and explaining the groundbreaking role of cryo-EM in this field. It covers the essentials of protein structure, tracing the path from genetic code to the three-dimensional shapes vital for biological function. It also points out the key protein structures related to striated muscle, setting the stage for an in-depth look at myosin filaments in the following chapters. Chapter 2 explores the discovery of two distinct forms of myosin thick filaments in the flight muscles of Drosophila melanogaster, achieved through advanced cryo-EM techniques. This chapter not only points out the structural differences between ordered and disordered filament types but also introduces variations in flightin, a non-myosin protein, in these filament types. By obtaining high-resolution structures, this analysis provides a deeper understanding of the protein composition and conformational differences that contribute to these variations. In Chapter 3, the focus moves to building atomic models for both filament types, enabled by near-atomic resolution structures. This comparative study of myosin filament backbones in Drosophila flight muscles highlights the structural differences between ordered-head and disordered-head filaments. These models clarify the molecular interactions between myosin coiled coils and non-myosin proteins. Additionally, this chapter looks at mutations in myosin-related genes linked to human cardiac diseases, examining the corresponding residues in the atomic models and the significant interactions they are involved in. Chapter 4 turns the focus to vertebrate models, addressing the challenges and methodologies involved in preparing myosin filaments for cryo-EM study. It emphasizes the critical importance of preserving structural integrity during sample preparation, highlighting some techniques that help preserve the structure of the vertebrate's filament during this process and paving the way for future experiments on vertebrates' myosin filament. Looking forward, future research plans to use cryo-EM to study myosin filaments across different Drosophila mutants, comparing them with the wild type in terms of protein structure. This effort aims to figure out how changes between ordered and disordered configurations happen, hoping to gain deeper insights into the molecular mechanisms that control myosin filament organization and the functional effects of these structural changes.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of biological sciences in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">April 3, 2024.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Kenneth A. Taylor, Professor Directing Dissertation; Jose Pinto, University Representative; Scott Stagg, Committee Member; P. Bryant Chase, Committee Member; Qian Yin, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85014253">
+      <mods:topic>Biophysics</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Rastegarpouyani_fsu_0071E_18615</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Biological Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

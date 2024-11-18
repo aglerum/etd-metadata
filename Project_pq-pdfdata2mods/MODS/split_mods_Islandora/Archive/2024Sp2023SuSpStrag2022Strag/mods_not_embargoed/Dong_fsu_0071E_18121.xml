@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Cultural Capital Growth and Students' Reading Achievement</title>
+      <subTitle>A Growth Mixture Model</subTitle>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-7002-6220</nameIdentifier>
+      <namePart type="family">Dong</namePart>
+      <namePart type="given">Sisi</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/bmphillips">
+      <namePart type="family">Phillips</namePart>
+      <namePart type="given">Beth M.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/sahart">
+      <namePart type="family">Hart</namePart>
+      <namePart type="given">Sara</namePart>
+      <namePart type="termsOfAddress">(Professor of Psychology)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/jeturner">
+      <namePart type="family">Turner</namePart>
+      <namePart type="given">Jeannine E.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/yyang3">
+      <namePart type="family">Yang</namePart>
+      <namePart type="given">Yanyun</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Education, Health, and Human Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Educational Psychology and Learning Systems</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (123 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Cultural capital is a key term from the Social Reproduction Theory, and it is defined as the codes and practices that parents pass on to their children (Bourdieu, 1984). Previous empirical studies have confirmed the importance of cultural capital, and it is positively related to students' reading achievement (e.g., Košutić, 2017; Noble &amp; Davis, 2009). However, few previous studies considered cultural capital from a person-centered perspective, not to mention considering it as longitudinal nor measuring its growth during students' elementary years. It is also less known how socioeconomic status (SES) relates to cultural capital and how these two factors influence students' reading achievement together. The goal of the current study was to answer the following research questions: for each cultural capital indicator (i.e., parental expectations, the number of books owned by the child at home, and library vising frequency), how many latent trajectory classes are there? What are the patterns of these trajectory classes? How does SES predict the membership of the trajectory class of cultural capital indicators? Last but not least, how does the membership of latent trajectory classes for each cultural capital indicator predict children's reading achievement in fifth grade? The current study used a United States national public use dataset, the Early Childhood Longitudinal Study Program, Kindergarten Class of 2010-11. The target population was elementary school students and their parents. The sample size for the current study was 18,174. After applying appropriate weights, the sample could represent the whole United States students enrolled in kindergarten in 2010. Cultural capital was measured by three items from the parent interview survey: parental expectation of their children's educational attainment, frequency of library or bookstore visit, and the number of books at home. Kindergarten year SES is a continuous composite variable based on household income, both parents' education level, and occupation. I conducted preliminary analyses for descriptive and correlational results. I used growth mixture modeling to answer research questions related to culture capital indicators' latent trajectory classes. The current study uncovered diverse patterns of cultural capital indicators. Specifically, I identified five latent trajectory classes for parental expectations, and two latent trajectory classes for the number of books owned by the child. However, I identified no unobserved subgroups for visiting a library/bookstore during the previous month, which suggested homogeneity within the population. The results also suggested that there was no growth of possibility of parents taking the child to visit a library/bookstore from first grade to fifth grade. SES significantly predicted latent class membership for parental expectations, as well as membership for the number of books at home. In addition, SES positively predicted the intercept of the latent growth model of library/bookstore visiting. The current study also indicated that the membership of parental expectations latent trajectory classes could predict students' fifth grade reading achievement, as well as the latent trajectory class membership of the number of books. The intercept of the indicator of library/bookstore visiting during elementary years positively correlated with students' fifth grade reading achievement.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Educational Psychology and Learning System in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">July 7, 2023.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Beth Phillips, Professor Directing Dissertation; Sara Hart, University Representative; Jeannine Turner, Committee Member; Yanyun Yang, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85041141">
+      <topic>Educational psychology</topic>
+   </subject>
+   <identifier  type="IID">Dong_fsu_0071E_18121</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Educational Psychology and Learning Systems</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

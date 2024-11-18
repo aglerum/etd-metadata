@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Revisionist History</title>
+      <subTitle>A Machine Learning Approach to Reexamine the Psychological Continuum Model and Its Derivative Staging Algorithm</subTitle>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-5764-462X</nameIdentifier>
+      <namePart type="family">Gulavani</namePart>
+      <namePart type="given">Susmit Suresh</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/jdu3">
+      <namePart type="family">Du</namePart>
+      <namePart type="given">James</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/yyang3">
+      <namePart type="family">Yang</namePart>
+      <namePart type="given">Yanyun</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2008063392">
+      <namePart type="family">James</namePart>
+      <namePart type="given">Jeffrey D. (Jeffrey Dalton)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/kamy">
+      <namePart type="family">Kim</namePart>
+      <namePart type="given">Amy C. H. (Amy Chan Hyung)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Education, Health, and Human Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Sport Management</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (191 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>Sport is a transformative force, uniting people globally from various socio-economic backgrounds. Individuals develop psychological connections with sport objects (e.g., teams, leagues, athletes) to fulfill various needs and desires, enriching their lives. Funk and James (2001) developed the Psychological Continuum Model (PCM) to understand how individuals connect with a sport object. The PCM is a stage-based framework outlining four hierarchical stages of psychological connection: Awareness, Attraction, Attachment, and Allegiance. The PCM has been refined over the past two decades to better understand psychological connections in different sport and recreation contexts. Funk and James (2006) expanded the PCM to include developmental progression with inputs, processes, and outputs functioning between stages. Beaton et al. (2009) further operationalized the PCM by using the construct of sport involvement, categorizing sport consumers into the PCM stages based on dimensions of pleasure, centrality, and sign. While these dimensions offer a concise way to stage individuals within the PCM, literature suggests that involvement should also consider perceived risk dimensions (Funk et al., 2004) and differentiate the symbolic involvement into internal sign (identity affirmation) and external sign (identity expression) components (Kyle et al., 2007). Laurent and Kapferer (1985) emphasized that all facets of involvement should be considered simultaneously as they influence consumer behavior differently. A comprehensive conceptualization and operationalization of sport involvement is necessary to thoroughly understand the underpinnings of the PCM framework and the nuances of psychological connections. Funk and James (2016) mention examining transition stages within the PCM framework to understand the psychological processes leading to higher levels of connection and to elucidate the developmental nature of the PCM framework. These transitions could provide insights into the mechanisms driving progression through the PCM, thereby refining the PCM framework. Understanding the transition between different PCM stages also helps comprehend the attitudes and behaviors shaping movement along the PCM framework, enhancing the understanding of consumer behavior in sport contexts (Baker et al., 2020). To answer the call, the present dissertation aimed to enhance the PCM framework and its derivative staging algorithm by re-examining the ontological, epistemological, and methodological foundations of the PCM framework. The dissertation incorporated a pilot study and a main study. The pilot study employed Confirmatory Factor Analysis (CFA) to examine the psychometric properties of the survey instrument, measuring sport involvement dimensions (pleasure, centrality, internal sign, external sign, risk importance, and risk probability). The main study employed machine learning-based unsupervised clustering algorithms (Hierarchical and K-means clustering) to delineate clusters based on the sport involvement scores and employed Multivariate Analysis of Variance (MANOVA) to examine the predictive capacity of retained cluster solutions on individuals' attitudinal and behavioral characteristics. The results of the CFA procedure, especially McDonald's Omega and AVE values, provide evidence for reliability and validity. However, factor correlations between certain constructs were fairly high. In the main study, the results of the clustering analysis revealed a six-cluster solution, which led to the examination of two transition stages: Transition 1 between Awareness and Attraction, and Transition 2 between Attraction and Attachment. The MANOVA results showed significant differences in attitudinal and behavioral characteristics based on the six-cluster solution. However, the present dissertation has several limitations, including the presence of high factor correlations between certain sport involvement factors and the inability of risk involvement dimensions to effectively explain the variances in the strength of psychological connections among different clusters of sport spectators. The present dissertation represents the first effort to provide empirical evidence to examine the idea of transition stages within the existing PCM framework, particularly in the domain of sport spectatorship, offering avenues for future explorations in sport marketing scholarship. The present dissertation contributes to sport management research and practice by re-examining the PCM framework. Using machine learning-based unsupervised clustering algorithms offers a scalable, bespoke new avenue for sport management scholars and professionals to expand their understanding of the subtleties of dynamic transitional phases along the PCM framework. While the present study examined the psychological connection of individuals with the act of watching sport in general, future studies examining the transition stage-based PCM framework should emphasize specific sport objects (such as sport team or athletes) in their measurement of sport involvement to better elucidate and differentiate the different aspects of psychological connection developed with sport objects. By emphasizing the specific sport object, future research can more accurately capture the nuanced and multifaceted nature of sport involvement to study the impact of different dimensions along different stages of the PCM framework.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Sport Management in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">May 15, 2024.</note>
+   <note displayLabel="Keywords">artificial intelligence, clustering analysis, PCM, psychological connection</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Wenjie James Du, Professor Directing Dissertation; Yanyun Yang, University Representative; Jeffrey D. James, Committee Member; Amy C. H. Kim, Committee Member.</note>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85126896">
+      <topic>Sports administration</topic>
+   </subject>
+   <identifier type="IID">Gulavani_fsu_0071E_18828</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Sport Management</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

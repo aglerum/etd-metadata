@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Models and Solution Approaches for the Vessel Schedule Recovery Problem with Conflicting Objectives</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-9076-1767</nameIdentifier>
+      <namePart type="family">Elmi</namePart>
+      <namePart type="given">Zeinab</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mdulebenets">
+      <namePart type="family">Dulebenets</namePart>
+      <namePart type="given">Maxim A.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/avanli">
+      <namePart type="family">Vanli</namePart>
+      <namePart type="given">Omer Arda</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2008021083">
+      <namePart type="family">Moses</namePart>
+      <namePart type="given">Ren</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2009109194">
+      <namePart type="family">Ozguven</namePart>
+      <namePart type="given">Eren Erman</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Civil and Environmental Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (220 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Global supply chains depend heavily on liner shipping networks, which connect countries and continents over a great distance at low transit costs. More than 80% of the world's trade in goods is carried out by international shipping activities. As such, liner shipping companies invest significant time, resources, and effort in network planning and scheduling. Each liner shipping firm typically designs the network for cargo shipping at the strategic decision-making level over a predetermined time. A detailed vessel schedule design (e.g., determination of sailing speeds at sea voyage legs, determination of port times, deployment of own vessels, deployment of chartered vessels, etc.) is conducted at the tactical level. However, many factors and unexpected events are beyond the control of liner companies and can undermine even the most carefully conceived plans. For example, disruptions can emerge in the forms of adverse weather events, congestion in channels, or container terminals. In some cases, these disruptions may render a previously optimized schedule highly suboptimal or even infeasible. In addition, they can have a significant impact on the liner shipping companies' profitability and the economic development of different countries. Liner shipping companies monitor their operations and take actions to recover their schedules and mitigate the impact of irregularities. This process is generally called "vessel schedule recovery problem". Examples of actions considered during the vessel recovery process include swapping two port calls or omitting one entirely, vessel sailing speed adjustment, port skipping with and without container diversion, and handling rate adjustment. The vessel schedule recovery problem becomes even more complicated as liner shipping firms have to adhere to the International Maritime Organization (IMO) policies. The IMO imposes restrictions on the type of fuel that vessels can use within Emission Control Areas (ECAs), limiting the types of fuels that could be adopted and emission amounts. One critical challenge associated with the vessel schedule recovery problem is the conflicting nature of objectives we aim to optimize in this process. In maritime shipping, sustainability considerations are often complicated by multiple and often conflicting objectives. For instance, in the presence of the disruption, the liner shipping company may decide to increase the sailing speed to meet the agreed level of service; however, the fuel consumption and vessel emission will be increased. Consequently, total route service costs will increase too. Another example is when the liner shipping company employs slow steaming to comply with the IMO regulations, which reduces vessel emission and fuel consumption and thus lowers operating costs. On the other hand, liner shipping companies are under pressure to address the service level agreements with cargo customers (ensuring on-time deliveries) while implementing slow steaming as a recommended practice. Notably, it is impossible to employ slow steaming to reduce fuel consumption while improving service levels simultaneously. In previous studies, all conflicting objectives are often combined into one objective function. This approach restricts the ability of liner shipping companies to make trade-offs between conflicting objectives. The main disadvantage of this approach is that it cannot find Pareto-optimal solutions, particularly in the case of a nonconvex objective space. Consequently, multi-objective mathematical formulations are necessary to analyze trade-offs between conflicting actions, albeit being ignored by the current state-of-the-art. To overcome these challenges, this dissertation aims to explore new multi-objective mathematical models for the vessel schedule recovery problem, considering various important operational attributes (i.e., fuel costs, emission regulations, potential cargo diversion via intermodal networks, increasing port handling costs due to faster service). A set of customized solution approaches will be proposed in order to solve the presented multi-objective mathematical formulations in a reasonable computational time. Furthermore, a set of computational experiments will be conducted to illustrate critical managerial insights and important trade-offs between conflicting objects in vessel schedule recovery. Such insights would be essential to the associated stakeholders, including shipping lines, terminal operators, and inland operators.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Civil and Environmental Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">November 9, 2023.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Maxim A. Dulebenets, Professor Directing Dissertation; O. Arda Vanli, University Representative; Ren Moses, Committee Member; Eren Ozguven, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85137042">
+      <topic>Transportation</topic>
+      <topic>Planning</topic>
+   </subject>
+   <identifier  type="IID">Elmi_fsu_0071E_18277</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Civil and Environmental Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

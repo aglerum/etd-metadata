@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>New Time Warping Model for Bayesian Function Registration</title>
+      <nonSort>A</nonSort>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-1740-8999</nameIdentifier>
+      <namePart type="family">Ma</namePart>
+      <namePart type="given">Yijia</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/wwu">
+      <namePart type="family">Wu</namePart>
+      <namePart type="given">Wei</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/yren3">
+      <namePart type="family">Ren</namePart>
+      <namePart type="given">Yi</namePart>
+      <namePart type="termsOfAddress">(Biomedical Sciences Professor)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2013023251">
+      <namePart type="family">Srivastava</namePart>
+      <namePart type="given">Anuj</namePart>
+      <namePart type="date">1968-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/jrstewart">
+      <namePart type="family">Stewart</namePart>
+      <namePart type="given">Jonathan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Statistics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (109 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>In this dissertation, I will present three research projects that I have been working on during my doctoral study at Florida State University. The first project focus on providing linear framework for time warping functions. The second one is providing a new prior in Bayesian function registration based on the linear framework proposed in first project. The third one is on temporal point process. I will provide a brief summary for each of these projects as follows. The detailed studies will be given in the two chapters of this dissertation. Project 1: A Stochastic Process Framework for Time Warping Functions. Time warping function provides a mathematical representation to measure phase variability in functional data. Recent studies have developed various approaches to estimate optimal warping between functions and provide non-Euclidean models. However, a principled, linear, generative framework on time warping functions is still under-explored. This is a highly challenging because the warping functions are non-linear in the conventional $\mathbb L^2$ space. To address this problem, we define two new linear warping spaces and propose a stochastic process framework to characterize time warping functions. The key is to define a linear, inner-product structure on the time warping space and then transform the warping functions into a sub-space of the $\mathbb L^2$ space. With certain constraints on the warping functions, this transformation is an isometric isomorphism. In the transformed space, we adopt the $\mathbb L^2$ basis in the Hilbert space for representation. This new framework can be easily utilized to generate time warping functions by using different types of stochastic process. We demonstrate the effectiveness of this new framework by using it as a new penalty in the penalized function registration, and propose an efficient gradient method to minimize the cost function. We illustrate the new penalized method using simulations that properly characterize nonuniform and correlated constraints in the time domain. Furthermore, we utilize the new framework to develop boxplot for warping functions. This boxplot can be used to estimate templates and identify warping outliers. Finally, we apply the new framework to a Covid-19 dataset to construct boxplot and identify the states with different growth patterns. Project 2: A New Framework for Bayesian Function Registration. Function registration, also referred to as alignment, has been one of the fundamental problems in the field of functional data analysis. Classical registration methods such as Fisher-Rao alignment focus on estimating optimal time warping function between functions. In recent studies, the model on time warping has attracted more attention, and it can be used as a prior term to combine with the classical method (as a likelihood term) in a Bayesian framework. The Bayesian frameworks have been shown improvement over the classical approaches. However, its prior model on time warping is often based a nonlinear approximation, which may introduce inaccuracy, instability, and inefficiency. To overcome these problems, we propose a new Bayesian approach by adopting a prior which provides a linear representation and various stochastic processes (Gaussian or non-Gaussian) can be effectively utilized on time warping. No approximation is needed in the time warping computation, and posterior distribution can be obtained via a conventional Markov chain Monte Carlo approach. We thoroughly investigate the impact of prior on the performance of functional registration with multiple simulation examples, which demonstrate the superiority of the Bayesian framework over the classical methods. We finally utilize the new method in a real dataset and obtain desirable alignment result. Project 3: Rank-based likelihood of point process spike trains. Point process provides a mathematical framework for characterizing neuronal spiking activities. Classical point process methods often focus on the conditional intensity function, which describes the likelihood at any time point given its spiking history. However, these models do not describe the central tendency or importance of the spike train observations. Based on the recent development on the notion of center-outward rank for point process, we propose a new modeling framework on spike train data. The new likelihood of a spike train is a product of the marginal probability on the number of spikes and the probability of spike timings conditioned on the same number. In particular, the conditioned distribution is calculated by adopting the well-known Isometric Log-Ratio transformation. We systematically compare the new likelihood with the state-of-the-art point process likelihoods in terms of ranking, outlier detection, and classification using simulations and real spike train data. This new framework can effectively identify templates as well as outliers in spike train data. It also provides a reasonable model, and the parameters can be efficiently estimated with conventional maximum likelihood methods. It is found that the proposed likelihood provides an appropriate ranking on the spike train observations, effectively detects outliers, and accurately conducts classification tasks in the given data.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">June 25, 2024.</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Wei Wu, Professor Directing Dissertation; Yi Ren, University Representative; Anuj Srivastava, Committee Member; Jonathan Stewart, Committee Member.</note>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85127580">
+      <topic>Statistics</topic>
+   </subject>
+   <identifier type="IID">Ma_fsu_0071E_18873</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

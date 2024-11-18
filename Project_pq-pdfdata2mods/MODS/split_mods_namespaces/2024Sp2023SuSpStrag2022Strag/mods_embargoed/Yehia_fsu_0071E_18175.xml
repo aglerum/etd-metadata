@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Switched-Capacitor Modular Multilevel Converter to Achieve Inductor-Less, Filter-Less, and Transformer-Less Medium-Voltage Power Conversion for High Power Density Applications</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-2460-5437</mods:nameIdentifier>
+      <mods:namePart type="family">Yehia</mods:namePart>
+      <mods:namePart type="given">Rami F.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/fpeng">
+      <mods:namePart type="family">Peng</mods:namePart>
+      <mods:namePart type="given">Fang</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2003098450">
+      <mods:namePart type="family">Ordóñez</mods:namePart>
+      <mods:namePart type="given">Juan Carlos</mods:namePart>
+      <mods:namePart type="date">1973-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/hli">
+      <mods:namePart type="family">Li</mods:namePart>
+      <mods:namePart type="given">Hui</mods:namePart>
+      <mods:namePart type="date">1970-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jmoon4">
+      <mods:namePart type="family">Moon</mods:namePart>
+      <mods:namePart type="given">Jinyeong</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Electrical and Computer Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (169 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Power electronic applications that demand ratings exceeding 250kW require medium voltage (MV) converters to handle the high power (HP) levels. MV HP converters are widely used in motor drive applications such as in heavy-duty electric and hybrid-electric propulsion/traction drives, as well as in other industrial applications including refiners, fans, pumps, and rolling mills. In addition to drives applications, the increased grid integration of renewable energy resources to achieve a more sustainable and cleaner energy has led to the proliferation of MV HP converters in utility applications. MV converters have played a major role in modernizing traditional transmission and distribution networks and facilitating the smart-grid transition. They can provide active control of power quality, provide shunt and series compensation, and achieve self-healing, islanding operation, fault handling, and other functionalities. To achieve low common mode voltages (CMV), low dv/dt stresses, low electromagnetic interference (EMI), and better harmonic performance, MV HP converters are often implemented with multi-level topologies. Among the several multilevel converter topologies, the modular multilevel converter (MMC) has received increasing interest due to its modularity, efficiency, and voltage and power scalability features. However, some challenges still exist for utilizing MV converters in general, and MMCs in particular, whether in motor drives or grid applications. These challenges are mainly driven by the high power density requirements. Along with cost, reliability, and efficiency, power density has recently become among the fundamental figures of merit when characterizing a power electronic conversion system performance. Nevertheless, many barriers exist that hinder achieving high power densities in MV applications. These power density barriers include the magnetic components such as transformers, harmonic filters, and the arm inductors of MMC-based MV conversion systems. As a result, any advancement along the power density trajectory would not be possible without a substantial reduction in the volume and weight of the aforementioned magnetic components. This research proposes the switched-capacitor modular multilevel converter (SCMMC) as a high power density converter, which can achieve inductor-less, filter-less, and transformer-less MV conversion. The dissertation is divided into six parts. In the first part, the power density challenges of MV converters are highlighted in grid and drives applications. In the second part, the switching frequency and the modulation technique choice of the multilevel inverters are presented. The importance of using the lowest frequency modulation with high number of levels to achieve the lowest harmonic distortion is demonstrated as the approach to make a filter-less and transformer-less operation possible. In the third part, the SCMMC topology is introduced as a solution towards high power density MV power conversion through its arm inductor-less topology. In the fourth part, the control of the SCMMC is presented; a low output frequency modulation technique is proposed for the SCMMC, and a startup control strategy is proposed for the SCMMC with middle submodule. In the fifth part, a 2kW, 425Vrms single phase SCMMC prototype built in our lab is showcased, and its modulation techniques are verified. In the final part, the scope of future research is presented.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Electrical and Computer Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 11, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">Capacitor Voltage Balancing, Modular Multilevel Converter, Multilevel Inverters, Pulse Width Modulation, Staircase Modulation, Switched - Capacitor Converter</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Fang Z. Peng, Professor Directing Dissertation; Juan Ordonez, University Representative; Hui "Helen" Li, Committee Member; Jinyeong Moon, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85041666">
+      <mods:topic>Electrical engineering</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Yehia_fsu_0071E_18175</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Electrical and Computer Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

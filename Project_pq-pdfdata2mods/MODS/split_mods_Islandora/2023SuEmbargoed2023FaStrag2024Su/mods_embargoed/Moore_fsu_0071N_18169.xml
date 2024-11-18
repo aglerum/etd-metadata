@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Characterizing the Tropical Hydroclimate Response to the 8.2Ka Event</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-8683-1037</nameIdentifier>
+      <namePart type="family">Moore</namePart>
+      <namePart type="given">Andrea L.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2016054360">
+      <namePart type="family">Atwood</namePart>
+      <namePart type="given">Alyssa Regine</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing thesis</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2006015588">
+      <namePart type="family">Knapp</namePart>
+      <namePart type="given">Angela Noel</namePart>
+      <namePart type="date">1976-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/hsayani">
+      <namePart type="family">Sayani</namePart>
+      <namePart type="given">Hussein</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/wu">
+      <namePart type="family">Wu</namePart>
+      <namePart type="given">Zhaohua</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Earth, Ocean, and Atmospheric Science</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (128 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >The 8.2ka Event, a prominent climate anomaly that occurred approximately 8,200 years before present (yr BP), has been the subject of extensive research due to its potential implications for understanding past and future climate variability. This thesis focuses on characterizing the tropical hydroclimate response to the 8.2ka Event using a multiproxy data compilation and an isotope-enabled model simulation to constrain the timing, duration, and magnitude of hydroclimate anomalies associated with the 8.2ka Event, comparing the reconstructed hydroclimate response to water isotope-enabled model simulations, and quantifying the agreement between the two approaches to reduce uncertainties. Here, an updated compilation of 70 high-resolution tropical hydroclimate-sensitive proxies is presented, and the timing and duration of hydroclimate anomalies through the pantropics is calculated using Bayesian age ensembles and a robust, objective changepoint detection algorithm which propagates age uncertainties through event detection analyses. When age uncertainties are explicitly accounted for, hydroclimate anomalies associated with the 8.2ka Event are detected in approximately 29\% of the records in the compilation, with a median start age of 8246 yr BP (8.25ka), a median termination at 8101 yr BP (8.10ka), and a median duration of 160 years. Anomalous conditions are characterized by regional drying in southern Central America; northern, northwestern, and southeastern South America; the Arabian Peninsula; and regions of South and East Asia. Conversely, regionally wetter conditions prevailed over the Caribbean; northeastern South America; southeastern Africa; the southern Tibetan Plateau; and the South China Sea. Notably, there is no clear pantropical north-south hydroclimate dipole, but significant regional variability. In an isotope-enabled model simulation, freshwater forcing across the North Atlantic leads to a broad southward shift in tropical rainfall, resulting in a generally drier Northern Hemisphere and wetter Southern Hemisphere, but with large regional variations. Large changes in the isotopic composition of tropical rainfall also occur. Over the oceans, the isotopic anomalies are generally consistent with the "amount effect," wherein areas characterized by drying have more isotopically enriched precipitation and areas of wetting have more isotopically depleted precipitation. However, changes in precipitation isotopes are more decoupled from changes in precipitation amount over land. The proxy data compare somewhat well with the model simulation. When comparing simulated speleothem $\delta$$^{18}$O from NE South American sites to real speleothem $\delta$$^{18}$O, a fair level of agreement is seen ($\kappa_w$ = 0.38). However, no agreement is found between simulated East Asian speleothem $\delta$$^{18}$O and real speleothem $\delta$$^{18}$O in the region ($\kappa_w$ = 0), indicating the complexity of simulating the regional hydroclimatology in the model. These results highlight both the advantages and challenges of quantitative data-model comparison, and serve as a lower-bound estimate of data-model uncertainty. Overall, this thesis provides new insights into the tropical hydroclimate response to the 8.2ka Event, emphasizing the importance of accounting for age uncertainty in hydroclimate reconstructions, comparing with isotope-enabled model data, and incorporating proxy system models into data-model comparisons. The findings highlight regional hydroclimate variability and the challenges in comparing model simulations and proxy data.</abstract>
+   <note  displayLabel="Submitted Note">A Thesis submitted to the Department of Earth, Ocean, and Atmospheric Science in partial fulfillment of the requirements for the degree of Master of Science.</note>
+   <note  displayLabel="Date of Defense">June 23, 2023.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Alyssa Atwood, Professor Directing Thesis; Angela Knapp, Committee Member; Hussein Sayani, Committee Member; Zhaohua Wu, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85097057">
+      <topic>Paleoclimatology</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85027037">
+      <topic>Climatic changes</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85101552">
+      <topic>Physical geography</topic>
+   </subject>
+   <identifier  type="IID">Moore_fsu_0071N_18169</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

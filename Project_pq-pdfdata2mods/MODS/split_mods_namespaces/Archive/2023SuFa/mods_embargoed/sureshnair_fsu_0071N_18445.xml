@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Optimization of Flow Patterns in a Solid Particle Receiver for CSP</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0003-6102-5332</mods:nameIdentifier>
+      <mods:namePart type="family">Suresh Nair</mods:namePart>
+      <mods:namePart type="given">Shweta</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2003098450">
+      <mods:namePart type="family">Ordóñez</mods:namePart>
+      <mods:namePart type="given">Juan Carlos</mods:namePart>
+      <mods:namePart type="date">1973-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/phollis">
+      <mods:namePart type="family">Hollis</mods:namePart>
+      <mods:namePart type="given">Patrick J.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/foo">
+      <mods:namePart type="family">Foo</mods:namePart>
+      <mods:namePart type="given">Simon Y.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Mechanical Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (76 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The rise in energy demand calls for rapid advancements in technology in terms of renewable energy. In doing so, to reduce the carbon emissions in the atmosphere and give the planet a fighting chance to battle global temperature rise. With different forms of energy harvesting through renewable sources, solar energy is one of the fastest progressing and promising forms of renewable energy ( Gonçalves Vasconcelos Sampaio &amp; Orestes Aguirre González, 2017). The sun's energy can be used to produce electricity through light and heat. Semiconductor materials are used to extract photovoltaic energy from the sun. The interaction of photons with the semiconductors , thus producing electricity (Pratap Singh, Kumar Goyal, &amp; Kumar, 2021). The issue arises with the efficiency of these panels. The maximum efficiency attained by using photovoltaics is currently about 22%, which comes from using perovskite material (Kim, Lee, Jung, Shin, &amp; Park, 2020), which leads us to the second issue, the cost of these materials. The question arises on how sustainable it is to continue investing in more expensive materials in order to increase efficiency and produce enough power to keep up with the global energy demand. Routes that use heat, however, have a higher efficiency as it can be concentrated. Concentrated solar power uses reflective surfaces to direct the sun's rays onto a central point or area. This area contains a heat transfer medium which in turn carries this heat and transfers it to a power cycle, thus producing electricity (Lovegrove &amp; Pye, Fundamental principles of concentrating solar power (CSP) systems, 2012). The four most common types of concentrated solar power are: linear Fresnel lens, parabolic trough collectors, concentrated dish collectors and heliostat fields (Lovegrove &amp; Csiro, Introduction to concentrating solar power (CSP) technology, 2012). The concentrated dish collector is e most efficient form of concentrated solar power as it contains a dual axis tracking system and ensures direct concentration of the suns rays onto a focal point rather than focal area. But this also means that it is too expensive to be commercially viable. So, when considering a second-best alternative, heliostat fields are the way to go. Heliostat fields use a set of mirrors that are positioned in such a way that the sun's rays are reflected off them and onto a receiver that is placed on a central tower. The heat is transferred through a heat transfer medium, which is usually in fluid form (gases, molten salts, oils, water etc.) (Jiang, Du, Kong, Xu, &amp; Ju, 2019). The drawback with this is the heat threshold that can be attained by the heat transfer medium. Therefore, solid carbon ceramic particles are considered as they can retain and transfer higher temperatures thus increasing the electricity produced by the power cycle (Jiang, Du, Kong, Xu, &amp; Ju, 2019). In order to retain this high amount of heat, the solid particles need to remain in the area where the reflected rays are focused. There is a need to optimize the residence time (Tawfik, 2022). The aim of this work is to study the motion of these particles through the central receiver. In doing so, try to create patterns or obstructions in their path to increase the resident time of the particles. Reducing the mass flow rate will increase the rate of heat transfer by radiation (directly from the reflected rays) and through conduction (from the receiver's plates and walls). Two different patterns are studied in this paper that show its effect on the mass flow rate of the particles and their results are shown through simulation and proved experimentally. The designs in consideration are the inverted V pattern and a Branched (also referred to as C pattern) inspired by constructal theory. The first design exists in practice and is being studied as an obstruction pattern for solid particle receivers (Ho, 2015). The second is proposed flow idea that interlinks the flow patterns in nature to that of engineering. The pattern is inspired by a combination of the flow of water from the sky to the ground in the form of rain and how this flow is controlled while traveling through riverbeds. It also uses a double three pattern to achieve a point-to-point distribution. It shows how creating channels and crevices in a specific ratio with fixed length and width ratios can facilitate better control of flow (Bejan &amp; Zane , Design in Nature, 2013). By creating this design, the aim is to improve the control over the flow rate and in turn the resident time of the particles in the central region. Increased resident time allows the particle to gain more heat energy, resulting in higher output temperature and overall efficiency of the power plant.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Mechanical Engineering in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 14, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">concentrated solar power, constructal law theory, mass flow rate, mfix, resident time, solid particle receiver</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Juan Ordonez, Professor Directing Thesis; Partick Hollis, Committee Member; Simon Foo, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjectssh2009000375">
+      <mods:topic>Sustainability</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">sureshnair_fsu_0071N_18445</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Mechanical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

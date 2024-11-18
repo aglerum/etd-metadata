@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Study of the Valence Transition in EuPd2Si2</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-4917-8497</nameIdentifier>
+      <namePart type="family">Mardani</namePart>
+      <namePart type="given">Masoud</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/tsiegrist">
+      <namePart type="family">Siegrist</namePart>
+      <namePart type="given">Theo</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/beekman">
+      <namePart type="family">Beekman</namePart>
+      <namePart type="given">Christianne</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n85215468">
+      <namePart type="family">Salters</namePart>
+      <namePart type="given">Vincent J. M.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/lhgreene">
+      <namePart type="family">Greene</namePart>
+      <namePart type="given">Laura H.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/reina">
+      <namePart type="family">Reina</namePart>
+      <namePart type="given">Laura</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Physics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (208 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Europium exhibits two stable valence states, Eu2+ and Eu3+, with energies closely matched, wherein the magnetic Eu2+ state is significantly larger than the nonmagnetic Eu3+. EuPd2Si2 (EPS) undergoes a bulk valence state transition from Eu~3+ to Eu~2+ while cooling. The phase diagram of the EPS compound differs from that of other typical rare-earth 1:2:2 compounds with valence instability. Therefore, the valence transition of the EPS compound cannot be explained by theoretical models of other compounds and remains rather mysterious. This study aims to construct a comprehensive phase diagram of the EPS crystal structure during the valence phase transition, while varying chemical substitution, temperature, and magnetic field. Chapter one discusses X-ray crystallography and crystal structures. Chapter 2 delves into the electronic and magnetic states of lanthanides and specifically europium. Curie's susceptibility of the magnetic divalent europium atoms and the Van Vleck paramagnetism susceptibility of the non-magnetic trivalent europium atoms are discussed. A literature review on the valence instability of 1:2:2 rare-earth compounds, especially the EPS compound, is presented in chapter three. Chapter four covers the efforts on the growth and characterization of the pristine and below 5% chemically substituted EPS compounds. The temperature-dependent X-ray diffraction (XRD) powder measurements by the APS synchrotron and our in-lab XRD machines will be discussed. In the EPS and its low-doped compounds, another smaller unit cell appears beside the high-temperature EPS (HT-EPS) unit cell. The new low-temperature EPS (LT-EPS) unit cell is related to the Eu3+ valence state. A magnetic valence transition was observed in the DC magnetic susceptibility measurements at temperatures where the unit cell transformation starts. In the next chapter, in the 10 to 20 % alloyed samples of EPS, the linear thermal coefficient can suddenly increase or slowly decrease to up to 3.5 times, or stay constant at all temperatures. Finally, the four thermal expansion trends are explained qualitatively by the available space for the europium atoms in the unit cell in chapter 6. The analysis of powder patterns of EPS at high magnetic fields and low temperatures in Cell 5 of MAGLAB has been conducted in chapter 7. Key findings include the magnetic field's enhancement of the HT-EPS phase, driving the valence transition temperature lower. The weight fraction of the EPS phase demonstrates a linear dependence on temperature, particularly around the temperature equating HT-EPS and LT-EPS weight fractions. Moreover, quadratic relationships with magnetic field strength are observed, along with hysteresis effects influencing the symmetry of these relationships. Finally, some of my other side projects that I have done during my study at FSU are presented. Cu2ZnSn(S,Se)4 (CZTSSe) semiconductor materials serve as excellent absorber layers in thin-film photovoltaic devices, yet their low open-circuit voltage hinders mass production. Unlike CZTSSe, Ag2ZnSnSe4 (AZTSe) possesses a favorable bandgap of 1.4 eV, making it a promising candidate to replace toxic or scarce materials in photovoltaics. Powder AZTSe was successfully synthesized. In an attempt to grow single-crystal AZTSe via the chemical vapor transport method, Ag8SnSe6 and SnSe2 phases were obtained. Further exploration focused on Ag8SnSe6's potential as a thermoelectric material, highlighting its superionic conductivity. By constructing a comprehensive electron density map of Ag8SnSe6, the path of silver atoms inside the single crystal was determined. Additionally, efforts to grow AuPbSbS3 and (Au0.5Cu0.5)PbSbS3 for renewable energy applications via chemical vapor transport were explored. Another study investigates the impact of light and temperature on the optical properties and stability of mixed-ion perovskite thin films, demonstrating slight peak shifts under elevated temperature conditions, potentially indicating anisotropic thermal expansion. Additionally, doping with Cs shows improved performance and stability compared to other compositions, as evidenced by XRD measurements. Another study examines the chemical composition of shark teeth artifacts from archaeological sites using XRD analysis, revealing residues that provide insights into ancient tool applications. Despite challenges posed by uneven surfaces, the integration of XRD patterns uncovers phases like hematite, shedding light on ancient material usage and cultural practices.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Physics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">April 5, 2024.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Theo Max Siegrist, Professor Co-Directing Dissertation; Christianne Beekman, Professor Co-Directing Dissertation; Vincent J. Salters, University Representative; Laura H. Greene, Committee Member; Laura Reina, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh8510165">
+      <topic>Physics</topic>
+   </subject>
+   <identifier  type="IID">mardani_fsu_0071E_18719</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Physics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

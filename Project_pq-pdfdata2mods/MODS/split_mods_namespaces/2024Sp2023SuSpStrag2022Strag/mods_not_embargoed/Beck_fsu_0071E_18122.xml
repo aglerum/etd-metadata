@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>1,2–Dithiolate Complexes of the Lanthanides and Actinides and High– Pressure Studies of f–Element Complexes</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-5687-192X</mods:nameIdentifier>
+      <mods:namePart type="family">Beck</mods:namePart>
+      <mods:namePart type="given">Nicholas B.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/yang">
+      <mods:namePart type="family">Yang</mods:namePart>
+      <mods:namePart type="given">Wei</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/reina">
+      <mods:namePart type="family">Reina</mods:namePart>
+      <mods:namePart type="given">Laura</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/rschurko">
+      <mods:namePart type="family">Schurko</mods:namePart>
+      <mods:namePart type="given">Robert W.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mroper">
+      <mods:namePart type="family">Roper</mods:namePart>
+      <mods:namePart type="given">Michael Gabriel</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemistry and Biochemistry</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (247 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The actinide elements are playing larger roles in modern life, finding uses in nuclear energy, remote power sources, medical uses as radiotherapy isotopes, as well as in geological applications in nuclear tools. However, due to their scarcity and radioactivity, their chemistry is not well understood and often present unexpected behavior due to their position in the periodic table where spin–orbit coupling and relativistic effects are increasingly greater. Exploring their chemistry will provide us with a better fundamental understanding of superheavy elements which also has the practical aspect of aiding us in solving problems such as lanthanide/actinide separation and actinide/actinide separation in the processing and recycling of used nuclear fuel. These separation processes rely on making advantage of differentiation of the lanthanide and actinide series, which often behave very similar to one another. Differentiation between the two series can be increased by complexation with soft–donor ligands which increase orbital overlap and covalent bonding with actinide complexes in comparison to lanthanide complexes, leading to shorter bond distances and structural differences. Differences in lanthanide and actinide bonding can also be further examined by deliberately modulating the metal–ligand bonds by applying external pressure through diamond anvil cell (DAC) techniques. By shortening the bond distances, orbital overlap can be increased to varying degrees depending on the particular element or complexing ligand. First, chapter 1 provides the necessary context and background to the research conducted in this dissertation and chapter 2 covers some of the common characterization and experimental techniques used. Chapter 3 sets the basis for the dissertation by finishing the trans–uranic actinide series neptunium to californium of mellitate complexes by characterizing two neptunium mellitate polymers and allows for a broad comparison of the bonding differences between the actinide and lanthanide series for the series of mellitate compounds. This study shows the two series behave nearly identically in their bonding and structure. Chapters 4–7 then examine complexes of neptunium, plutonium, americium, curium, and californium with the 1,2–dithiolate ligand maleonitrile dithiolate (mnt), which is a soft sulfur–donor ligand, contrasting with the hard oxygen–donor mellitate ligand from chapter 3. Spectroscopic, crystallographic, and high–pressure characterizations reveal increases in f–orbital participation in the actinide complexes in comparison to the lanthanide complexes, resulting in bond lengths substantially shorter than expected for their ionic radii as well as f–f transitions greatly stabilized in energy which shift by large amounts under applied pressure. Chapter 8 then broadly compares the lanthanide and actinide complexes. In the actinide series, differentiation between the early part of the series Np–Pu versus the later part Am–Cf is observed, highlighting the unique bonding induced by the mnt ligands. Chapter 9 begins the second half of the dissertation more focused on high–pressure studies by describing a pressure–induced oxidation in two different samarium(II) complexes with a crown ether and a cryptand ligand. In both complexes, samarium is observed spectroscopically to oxidize from the +2–oxidation state to the +3–oxidation state. In chapter 10 a cerium mellitate coordination polymer is structurally characterized under pressure using high–pressure X–ray crystallography techniques. This study reveals a cooridination number transition from 9 to 9.5 due to the bonding of a lattice water molecule that is interestingly not visible in ambient pressure crystal structures. In addition, the bond length decreases due to pressure for water and carboxylate oxygens are quantified and agree well with computationally determined bond length decreaes. Lastly, in chapter 11, the changes in the absorption and photoluminescence spectra for various complexes of americium, curium, berkelium, and californium are all examined and compared. This study further supports the dependance on the ligand and the metal on the participation of f–electrons in bonding, that soft donor ligands and lighter actinides result in a greater degree of f–orbital involvement. It also reveals the importance of redox chemistry in pressure effects of the spectra as in the case of berkelium, which having an accessible +4–oxidation state, exhibits much smaller shifts and even blue–shifting of transitions as opposed to more commonly observed red–shifting. This work provides the first examples of of trans–uranic actinide(III) with a 1,2–dithiolate ligand which exhibits a particularly high degree of lanthanide/actinide differentiation, as well as furthering our understanding of the effects of pressure on changes in bonding and structure in lanthanide and actinide complexes using high–pressure crystallographic techniques.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 6, 2023.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Wei Yang, Professor Directing Dissertation; Laura Reina, University Representative; Robert W. Schurko, Committee Member; Michael G. Roper, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85092951">
+      <mods:topic>Nuclear chemistry</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85023017">
+      <mods:topic>Chemistry, Inorganic</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85022986">
+      <mods:topic>Chemistry</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Beck_fsu_0071E_18122</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

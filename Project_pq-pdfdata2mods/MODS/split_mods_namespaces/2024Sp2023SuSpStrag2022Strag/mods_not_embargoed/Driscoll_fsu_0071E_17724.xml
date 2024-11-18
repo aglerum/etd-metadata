@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Quality Matters Implementation in Florida Colleges</mods:title>
+      <mods:subTitle>Using the Behavior Engineering Model to Explore Effective Environmental Supports</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-7708-7832</mods:nameIdentifier>
+      <mods:namePart type="family">Driscoll</mods:namePart>
+      <mods:namePart type="given">Lori L.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2003122703">
+      <mods:namePart type="family">Klein</mods:namePart>
+      <mods:namePart type="given">James D.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2003057796">
+      <mods:namePart type="family">Akiba</mods:namePart>
+      <mods:namePart type="given">Motoko</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2012011678">
+      <mods:namePart type="family">Dennen</mods:namePart>
+      <mods:namePart type="given">Vanessa P.</mods:namePart>
+      <mods:namePart type="date">1970-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2013090332">
+      <mods:namePart type="family">Ke</mods:namePart>
+      <mods:namePart type="given">Fengfeng</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Education, Health, and Human Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Educational Psychology and Learning Systems</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (72 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Online course quality is a prominent issue due to the increasing number of online programs and courses offered by institutions of higher education. To ensure the best student outcomes, it is necessary to implement effective systemic support for quality assurance in online learning. Providing faculty with the environmental supports required to design their courses using quality standards may ensure better outcomes for students. Similarly, if best practices are not well-supported, not only will student outcomes suffer, but so will the reputation of online learning. As complex ecosystems with limited resources, colleges that are developing online programs and courses should know what environmental factors are effective for improving faculty adoption of quality standards. Quality MattersTM (QM) is a quality assurance process for online learning comprising a rubric, training, and peer review. Research by QM established the effectiveness of the QM standards when implemented in online courses. Other research suggested that there may be a gap in implementation after training. Although faculty training to design courses around quality standards is intended to ensure the best outcomes for students, faculty often do not demonstrate the adoption of those standards. While QM focuses on three areas of quality improvement to improve the knowledge and skills of faculty, Gilbert's (2007) Behavior Engineering Model predicts that other factors have an influence on actual performance. As institutions of higher education invest in faculty professional development to improve course quality, additional institutional resources may also be required to support faculty to implement what they have learned. This study explored effective strategies for supporting quality assurance practices that encourage the adoption of QM criteria into online courses at state colleges in Florida. Three research questions guided this study: 1. What environmental supports are colleges in the Florida Quality Matters Consortium (FLQMC) providing to APPQMR-trained faculty to facilitate the adoption of QM criteria in their online courses? 2. What are the perceptions of faculty who have received APPQMR training about how effectively their QM program supports adoption of QM criteria? 3. What are the perceptions of college QMC about how effectively their program supports adoption of QM criteria by faculty who have received APPQMR training? A sequential, mixed-method multi-case research design was used to collect descriptive statistics and qualitative data to gather information about what environmental supports Florida College System colleges provide to faculty to facilitate the adoption of QM criteria in their online courses. To develop a more complete understanding of the primary research question, an explanatory two-part mixed-methods study collected both qualitative and quantitative data to describe college supports and explore the perceptions of QM coordinators and online teaching faculty. The study included: (1) document analysis and (2) structured interviews with selected participants via Zoom. This study utilized the BEM (Gilbert, 2007) to identify environmental supports and established the use of the BEM to study environmental support in implementations of online course quality initiatives. Further, the Cause Analysis Worksheet (Chevalier, 2008) was utilized to operationalize the three categories of environmental supports as they relate to QM implementation. The categories of environmental support of the BEM were identified through document analysis and interviews with faculty and QMC at six colleges of varying sizes and length of membership in the Florida Quality Matters Consortium. Additionally, the study explored the perceptions of both faculty and QMC about how effectively their QM program supports adoption of QM criteria. Effective strategies for supporting quality assurance practices that encourage the adoption of QM criteria into online courses at state colleges in Florida were identified in all three categories: information, resources, and incentives. Findings suggest colleges implementing their own programs should provide faculty time to implement QM standards in their online courses and assistance with design and development. To efficiently allocate resources that effect change, colleges that are developing quality assurance programs for online learning can focus on these effective systemic supports to bridge the gap from training to adoption.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Educational Psychology and Learning Systems in partial fulfillment of the requirements for the degree of Doctor of Education.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 20, 2023.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">James D. Klein, Professor Directing Dissertation; Motoko Akiba, University Representative; Vanessa P. Dennen, Committee Member; Fengfeng Ke, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85041065">
+      <mods:topic>Education, Higher</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85095524">
+      <mods:topic>Organizational behavior</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85066762">
+      <mods:topic>Instructional systems</mods:topic>
+      <mods:topic>Design</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Driscoll_fsu_0071E_17724</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Education</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Educational Psychology and Learning Systems</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Methods of Shape Analysis</title>
+      <subTitle>Optimal Transport, Geometric Measure Theory, and Deep Learning</subTitle>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-5754-2930</nameIdentifier>
+      <namePart type="family">Hartman</namePart>
+      <namePart type="given">Emmanuel</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mbauer2">
+      <namePart type="family">Bauer</namePart>
+      <namePart type="given">Martin</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing thesis</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n96072093">
+      <namePart type="family">Klassen</namePart>
+      <namePart type="given">E. (Eric)</namePart>
+      <namePart type="date">1958-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing thesis</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2013023251">
+      <namePart type="family">Srivastava</namePart>
+      <namePart type="given">Anuj</namePart>
+      <namePart type="date">1968-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/tneedham">
+      <namePart type="family">Needham</namePart>
+      <namePart type="given">Thomas</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/masllani">
+      <namePart type="family">Asllani</namePart>
+      <namePart type="given">Malbor</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Mathematics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (192 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >In this dissertation, we address the development of mathematical frameworks for computationally feasible methods to compare and analyze large datasets of complex-shaped data. We discuss several projects at the intersections of optimal transport, geometric measure theory, elastic shape analysis, and geometric deep learning that contribute novel algorithms for the practical analysis of shape data and develop the theoretical foundations of shape analysis. We propose a supervised deep geometric learning method to achieve a parameterization-invariant calculation of the square root velocity (SRV) shape distance function. This method learns the invariance of the SRV metric to reparameterizations by implementing a shape-preserving data augmentation method during the training process. Moreover, we propose an unsupervised geometric deep learning method that utilizes methods from geometric measure theory to learn parameterization-invariant feature vector representations of curves and shape graphs. This method provides a robust and efficient approach for the classification of shape data and the identification of point-to-point correspondences between curves and shape graphs. Additionally, we discuss several methods within a framework of relaxed matching between surfaces with respect to a family of second-order Sobolev metrics. These methods combine Riemannian metrics from elastic shape analysis for shape comparison, along with a relaxed matching loss from the domain of geometric measure theory, to solve the correspondence problem. The adoption of weighted varifold representations of shapes facilitates the matching of shapes with different topological structures, accommodating noise, occlusions, and partial matching problems between shapes. Furthermore, we provide a comprehensive framework to perform statistical analysis of populations in the space of shapes. We also describe the restriction of this model to shapes that undergo deformations within a basis of biologically relevant or physically feasible deformations. We also discuss a project studying connection between the Square Root Normal Field (SRNF) elastic shape pseudo-metric and the Wasserstein Fisher-Rao (WFR) unbalanced optimal transport metric. By studying this connection, we construct algorithms and deepen the theoretical understanding of the SRNF and WFR metrics. Specifically, we offer a characterization of the closure of the SRNF map and shapes that are indistinguishable with respect to the SRNF metric. Furthermore, we propose a formulation of the WFR as a diffeomorphic optimization problem related to Gallou\"{e}t and Vialard's recent extension of the Riemannian submersion result of Otto.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Mathematics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">February 23, 2024.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Martin Bauer, Professor Co-Directing Thesis; Eric Klassen, Professor Co-Directing Thesis; Anuj Srivastava, University Representative; Tom Needham, Committee Member; Malbor Asllani, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85082139">
+      <topic>Mathematics</topic>
+   </subject>
+   <identifier  type="IID">Hartman_fsu_0071E_18504</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Mathematics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

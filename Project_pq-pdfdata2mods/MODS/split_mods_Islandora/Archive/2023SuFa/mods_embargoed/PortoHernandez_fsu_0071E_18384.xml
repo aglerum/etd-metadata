@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Comprehensive Optimization of Rankine Cycles</title>
+      <subTitle>Physical and Working Fluid Design Perspectives</subTitle>
+      <nonSort>A</nonSort>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0002-1431-0803</nameIdentifier>
+      <namePart type="family">Porto Hernandez</namePart>
+      <namePart type="given">Luis Angel</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2003098450">
+      <namePart type="family">Ordóñez</namePart>
+      <namePart type="given">Juan Carlos</namePart>
+      <namePart type="date">1973-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2013040956">
+      <namePart type="family">Ramirez</namePart>
+      <namePart type="given">Hernan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor co-directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/faruque">
+      <namePart type="family">Faruque</namePart>
+      <namePart type="given">Md Omar</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/falvi">
+      <namePart type="family">Alvi</namePart>
+      <namePart type="given">Farrukh S.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/phollis">
+      <namePart type="family">Hollis</namePart>
+      <namePart type="given">Patrick J.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Mechanical Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (137 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >This work presents two alternatives to optimize the performance of Rankine cycles. The first approach is focused on the spatial distribution of the areas used in the heat exchange process, and the second approach is intended to study the influence of working fluid properties in the performance of the cycle. The two approaches together form a comprehensive optimization tool for Rankine cycles under subcritical operation. The first approach introduces a mathematical model for the design and fundamental optimization of steam Rankine cycle (SRC) power plants. The model assumes that the plant irreversibilities are predominant in the heat exchangers, thus exergy destruction in the turbine, pump, fittings, tubes and other internal components are neglected. The NTU-effectiveness method was utilized to model the heat exchangers, and water was considered as the working fluid, which changes phase in both heat exchangers. Acknowledging that entropy is generated in any physical system, the fundamental optimization problem selected the dimensionless net power output, and second law efficiency as the objective functions to be maximized, after the identification of plant geometric and operating parameters to be optimized based on the intersection of asymptotes method, subject to a fixed total heat exchangers area realistic physical constraint, i.e., for a finite size plant. As a result, two levels of optimization were identified: i) the working fluid to hot stream mass flow rate ratio, M, and ii) the steam generator, xH, and condenser, xL, area fractions of the plant fixed total heat exchangers area. The model was experimentally validated for a heat recovery driven power plant. Sharp maxima were obtained in both levels, which is illustrated with a base case by ~60% second law efficiency variation in comparison to the obtained maximum for 0.05 &lt; M &lt; 0.25 in the first optimization level, and ~30% for 0.2 &lt; xH &lt; 0.7 in the second optimization level, so that (xf,H ,xfg,H ,xg,H )2wo= (0.14,0.13,0.23) , with (M,xH )2wo=(0.16,0.5) , in the base case considered in this study. The two-way optima results sensitivity to several plant geometric and operating parameters were thoroughly investigated. The optimized parameters are shown to be robust with respect to several system's design and operating conditions. Therefore, the herein reported fundamental optimization results are important for whatever actual SRC power plant. The second approach consists of developing a model that serves as a tool which facilitates the selection of a working fluid for different types of ORC applications, by determining the properties of a substance that optimizes the thermodynamic performance of the cycle under specified conditions. As the model relies on the Lee-Kesler's EoS to calculate the properties of the working fluid, it is conceived as a generalized tool that requires only few parameters to characterize an existent or to define a novel fluid. Meanwhile, the cycle is described through energy balances. The tool was validated with commercially available fluids, and it provided competent results. Approximately 97% of the validation cases had a relative error of less than 5%. After the validation, parametric analysis were conducted and some insights were obtained regarding the influence of working fluid properties in the performance of the cycle. Among the parameters considered, the critical temperature of the fluid, T_c, turns out to be the parameter with the strongest influence in the first law efficiency of the cycle.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Mechanical Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">November 14, 2023.</note>
+   <note  displayLabel="Keywords">Heat Transfer Area, Optimization, Rankine Cycle, Working Fluid Selection</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Juan C. Ordóñez, Professor Co-Directing Dissertation; Julian Osorio Ramirez, Professor Co-Directing Dissertation; Md Omar Faruque, University Representative; Farrukh Alvi, Committee Member; Patrick Hollis, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85050452">
+      <topic>Force and energy</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85082757">
+      <topic>Mechanical engineering</topic>
+   </subject>
+   <identifier  type="IID">PortoHernandez_fsu_0071E_18384</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Mechanical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Trait Sensitivity and Evolution in Sessile Marine Invertebrates</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0003-5546-8751</nameIdentifier>
+      <namePart type="family">Powell</namePart>
+      <namePart type="given">Jackson Alexander</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/sburgess">
+      <namePart type="family">Burgess</namePart>
+      <namePart type="given">Scott C.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/mhuettel">
+      <namePart type="family">Huettel</namePart>
+      <namePart type="given">Markus</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/kahughes">
+      <namePart type="family">Hughes</namePart>
+      <namePart type="given">Kimberly A.</namePart>
+      <namePart type="date">1960-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/dlevitan">
+      <namePart type="family">Levitan</namePart>
+      <namePart type="given">Don R.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n86861195">
+      <namePart type="family">Travis</namePart>
+      <namePart type="given">Joseph</namePart>
+      <namePart type="date">1953-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Biological Science</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (123 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>The sensitivity and evolution of phenotypes are key focuses in the fields of ecology and evolution. However, most research into these topics is performed in terrestrial and unitary animals, potentially introducing biases in any conclusions about the expected responses of organisms to environmental variation. Marine invertebrates often feed, grow, and disperse in different ways to terrestrial systems due to evolving under the physical properties of water instead of air. Thus, I explored the effects of temperature on the feeding rate and fitness-related traits in the marine bryozoan Bugula neritina. To accomplish this, I 1) constructed a thermal performance curve for feeding rate over a short period of time and 2) constructed multiple performance curves for development to reproductive maturity, growth rate, and reproductive capacity over the lifetime for B. neritina. I estimated that feeding rates in B. neritina would increase with temperature due to the rate of metabolic processes increasing at higher temperatures before rapidly declining after a critical point is reached. However, I found that feeding rate increased with temperature linearly even as the proportion of zooids within the colonies decreased. However, the traits tied more directly to fitness showed the expected trends of steady increases with temperatures before declining rapidly at temperatures greater than 29 °C. Taken together, these results show that increases in feeding rates do not result in increases to or maintenance of fitness. However, the proportion of zooids that regressed to a non-feeding state seemed to increase with temperature in both projects, revealing that the colonies have other strategies to balance their metabolic budget thanks to their modular body plan. Dispersal is a fundamental determinant of genetic and demographic structure within and between species. As a consequence of combinations of physiological, morphological, and behavioral traits, dispersal in marine taxa is accomplished during the larval stages, where the body plan and behavior often differ greatly from those of the adult. Using a breeding design, I partitioned the phenotypic variance for hatching success, trunk length, tail length, and settling success of ascidian (Molgula occidentalis), larvae into additive genetic, maternal, and dominance variance. I then used the additive genetic variance to look for evidence of genetic correlations for the traits that could produce genetic constraints on evolution. Additionally, I used the additive genetic variances to estimate evolvability to determine which traits would have the greatest response to selection. I found little evidence for genetic correlations between trunk length and tail length despite their positive phenotypic correlation. Similarly, I found little evidence for genetic correlations between hatching and settling success. Maternal variances for the morphological traits were greater than additive genetic variance, suggesting that maternal effects may affect the trait values more than the inherited alleles. The evolvabilities for hatching and settling success were an order of magnitude greater than the evolvabilities trunk length and tail length. I conclude that trunk and tail lengths can evolve independently, but that influence from mothers contributes to the phenotypic values to a greater degree than heritable genetics alone. Larval size may be a trait that can evolve through selection on mothers more than selection on the offspring larvae.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Biological Sciences in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">June 11, 2024.</note>
+   <note displayLabel="Keywords">Climate change, Evolvability, Invertebrates, Larval biology, Marine, Modular organisms</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Scott C. Burgess, Professor Directing Dissertation; Markus Huettel, University Representative; Kimberly A. Hughes, Committee Member; Don R. Levitan, Committee Member; Joseph Travis, Committee Member.</note>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85040752">
+      <topic>Ecology</topic>
+   </subject>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh90004042">
+      <topic>Evolution (Biology)</topic>
+   </subject>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh92004048">
+      <topic>Environmental sciences</topic>
+   </subject>
+   <identifier type="IID">Powell_fsu_0071E_18895</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Biological Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

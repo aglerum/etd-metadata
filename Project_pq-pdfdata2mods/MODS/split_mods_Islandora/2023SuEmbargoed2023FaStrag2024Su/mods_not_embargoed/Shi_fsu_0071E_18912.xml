@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>On the Sensitivity of Precipitation Phase to Temperature</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-5333-8019</nameIdentifier>
+      <namePart type="family">Shi</namePart>
+      <namePart type="given">Shangyong</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2018001437">
+      <namePart type="family">Liu</namePart>
+      <namePart type="given">Guosheng</namePart>
+      <namePart type="termsOfAddress">(Professor of meteorology)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/yuw">
+      <namePart type="family">Yu</namePart>
+      <namePart type="given">Weikuan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2011010891">
+      <namePart type="family">Cai</namePart>
+      <namePart type="given">Ming</namePart>
+      <namePart type="date">1957-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2002071189">
+      <namePart type="family">Misra</namePart>
+      <namePart type="given">Vasubandhu</namePart>
+      <namePart type="date">1970-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/wu">
+      <namePart type="family">Wu</namePart>
+      <namePart type="given">Zhaohua</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Earth, Ocean, and Atmospheric Science</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (165 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >The phase of precipitation, i.e., solid (snow) or liquid (rain), is a crucial property in weather forecast, satellite precipitation retrievals, and modeling. The shift of precipitation phase from solid to liquid will alter surface energy balance, affect water resource management, and increase risks of natural hazards. In recent decades, consistent decreasing trends of the snow-to-precipitation (S/P) ratio have been reported across various regions. However, a global view of the changes in the rain-snow partitioning has not been established. Further, current phase classification methods that are crucial for the estimation of the S/P ratio exhibit limited performance. Though studies have explored the dependence of the conditional probability of snow on surface meteorological variables (e.g., temperature, relative humidity), the physics of the phase transition in the falling process has not been fully understood and well incorporated into the phase partitioning methods. Therefore, it is crucial to quantify the sensitivity of the precipitation phase to temperature to improve our quantitative precipitation estimation as well as to better study the response of hydrological and radiative components to climate change. In this dissertation, we explored the sensitivity of precipitation phase from two perspectives: one from the physics perspective, emphasizing the phase transition from solid to liquid when temperature and atmospheric energy vary, and the other from the climate change perspective, analyzing the trends in the precipitation phase partitioning and quantifying the magnitudes of change of the snow-to-precipitation ratio in response to 1℃ of temperature warming. We first investigated the number of occurrences of rain and snow events using land station and shipboard synoptic present weather reports from 1978 to 2019. We computed the global means and trends of annual precipitation frequency and the ratio of snow events to precipitation events (SE/PE ratio). Results show that when averaged over all qualified land stations and ocean grids, the annual rain frequency, annual snow frequency and the SE/PE ratio all have an increasing trend. Moreover, the trend of SE/PE ratio shows a strong latitudinal dependence. At the mid and low latitudes in the Northern Hemisphere, the SE/PE ratio has a decreasing trend. In contrast, at high latitudes, the SE/PE ratio has an increasing trend. To better predict precipitation phase, we developed a phase classification scheme based on the upper-level melting energy (ME) and refreezing energy (RE), which is proportional to the area enclosed by the temperature profile and the 0℃isotherm. We performed least square fitting and linear discriminant analysis to derive phase separation functions using observed surface and sounding data in North America. We provided separation functions for snow conditional probabilities ranging from 30% to 80% for various applications. Compared to a previously published (Probsnow) method, our energy method achieves comparable performance for Type 1 soundings with one near-surface melting layer, and significantly improve the phase classification scores for Type 2 soundings with an aloft melting layer and a near-surface refreezing layer. We innovatively combined surface ice-bulb temperature with the ratio between the melting and refreezing energy to represent Type 2 profiles. For Type 2 soundings, our energy method improves the Heidke skill score (HSS) from 0.25 to 0.47 and reduces false alarm rate by 0.47 compared to the Probsnow method for 50% threshold. By applying the physically based method, we improved accuracy and HSS, and reduced false alarm rate for more than two thirds of the evaluation stations across the North America. The locations with large improvements feature higher fractions of Type 2 soundings, confirming the importance of correctly classifying precipitation phase for these complicated precipitation types. Finally, we tested the application of the new method in satellite snowfall retrievals in the North America, and showed the differences it would bring as compared to the Probsnow method. With the improved phase classification method, we will be able to explore the sensitivity of the precipitation phase to temperature at a global scale. In our final study, we applied the energy method to classify precipitation phase for CloudSat CPR and GPM DPR to retrieve snowfall and rainfall amounts respectively. After validating the applicability of the energy method globally by comparing to the Probsnow method, we computed the climatology of the snow-to-precipitation ratio (S/P ratio) at 1° by 1° resolution. The climatological S/P ratio exhibits large spatial variability over the Northern Hemisphere (NH) compared to the Southern Hemisphere (SH) due to the land-ocean contrast and the large variations in elevation. As elevation increases, the maximum sensitivity of the S/P ratio to temperature increases slightly, from -3.7%/℃ for grids below 1500 m to -4%/℃ for grids above 3000 m. A deeper look into the snow season characteristics shows that when grouping the grids by annual median temperature and depletion season temperature difference, the sensitivity of the mean or median S/P to temperature is the largest over ocean and over the high latitudes and Tibetan Plateau while small over the mid-latitudes. However, neither the elevation nor the snow season length explains the large variability of the relation between the S/P ratio and temperature (S/P-T relation). We finally developed the "sensitive zone" theory and revealed the non-linearity and variability of the S/P ratio temperature sensitivity based on the grid's annual cycle of S/P ratio and temperature. The sensitive zone is the temperature range within which 1℃ of temperature warming would lead to a large decrease in the S/P ratio. When the temperature reaches the lower boundary of the sensitive zone, the decreasing rate of the S/P ratio accelerates, peaks at the sensitive temperature, and then starts to mitigate. The sensitive temperatures are generally between 0℃ and 2℃, but are warmer than 5℃ over high-elevation mountains, and colder than -2℃ over mid-latitude low-elevation regions. The width of the sensitive zone is small for the ocean and the Tibetan Plateau, indicating the S/P ratio will drop dramatically within a small range of temperature. The large width of the sensitive zone in the mid-latitudes indicates that the S/P ratio in the mid-latitudes is prone to 1℃ of temperature warming within a larger range of temperature. The sensitivities based on current temperature climatology show a more organized pattern than the maximum sensitivities, with a band of strong sensitivities around 50°N and 60°S. In the NH, the mid-latitudes around 50°N have entered the sensitive zone and been warmer than the sensitive temperature with the S/P ratio sensitivity decelerating, while the high latitudes around 60°N haven't reached the sensitive temperature thus experiencing accelerating sensitivities of the S/P ratio. By perturbing the temperature climatologies, we revealed that the mid- to low latitudes reach their sensitive temperature earlier than the high latitudes. The S/P sensitivities would strengthen in the high latitudes and the Tibetan Plateau and weaken in the mid-latitudes if the temperature continues to warm. The sensitive zone theory reveals that both temperature climatology and the temperature extremes can affect the S/P ratio temperature sensitivity. The theory can partially explain the latitudinal pattern of the trends in SE/PE ratio. Since the sensitive zone is wider in the mid-latitudes and the warming trends are larger, the mid-latitudes reach the sensitive zone earlier, thus experience large sensitivity of the precipitation phase to temperature. However, the theory cannot explain the increasing trends of the SE/PE ratio as we assumed a monotonic decrease of the portion of snow amount in precipitation amount with a warming temperature. It could be attributed to the different meaning of the SE/PE ratio to the S/P ratio. In this dissertation, we revealed the changes in the phase partitioning (SE/PE ratio) from observations, developed a novel phase classification method based on physical processes to improve the rainfall and snowfall estimation, and developed a theory to reveal the non-linearity and variability of the sensitivity of the S/P ratio to 1℃ of temperature warming. The novel energy-based phase classification method can be applied to satellite snowfall retrievals, hydrological modeling, weather forecasting, etc. And a better understanding of the sensitivity of the precipitation phase to temperature will better prepare us for a more resilient future.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Earth, Ocean and Atmospheric Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">June 19, 2024.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Guosheng Liu, Professor Directing Dissertation; Weikuan Yu, University Representative; Ming Cai, Committee Member; Vasubandhu Misra, Committee Member; Zhaohua Wu, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85084334">
+      <topic>Meteorology</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85009289">
+      <topic>Atmospheric sciences</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85063458">
+      <topic>Hydrology</topic>
+   </subject>
+   <identifier  type="IID">Shi_fsu_0071E_18912</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

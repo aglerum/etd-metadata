@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Scalable Hierarchical Metadata Classification in Heterogeneous Large-Scale Datasets</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">https://orcid.org/0009-0005-6557-8203</nameIdentifier>
+      <namePart type="family">Kandibedala</namePart>
+      <namePart type="given">Bhimesh Vittal</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/gubanov">
+      <namePart type="family">Gubanov</namePart>
+      <namePart type="given">Michael</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/shaiduc">
+      <namePart type="family">Haiduc</namePart>
+      <namePart type="given">Sonia</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/gfedyukovich">
+      <namePart type="family">Fedyukovich</namePart>
+      <namePart type="given">Grigory</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Computer Science</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (49 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>Tabular metadata (i.e., attributes in a table) identification and classification is a fundamental prob-lem in large-scale data management of structured corpora, especially for complex, non-relational tables rich in hierarchical metadata. Medical research tables, such as CORD-19 [68] and Web tables [51], contain millions of tables with hierarchical metadata but often lack or have noisy labels for metadata rows (or columns) (e.g., Pfizer side-effects, Age group). Missing or incorrect meta- data labels or tags [35] hinder fundamental downstream tasks such as structural query processing, data fusion, indexing, analytics, visualization, and others. Different sources position and structure metadata uniquely and differently inside a table, making accurate identification challenging. In this work, we describe and evaluate two new scalable learning approaches for metadata classification. The first approach utilizes machine-learning techniques with our novel positional features. These features capture the contextual relationships and dependencies of the table, along with the position of the tuple and its neighbouring cells inside the deeper levels of the table. This enables our model to understand the local structure of the data and capture patterns and correlations that exist in the immediate vicinity of the tuple. Compared to the state-of-the-art [14, 20, 13, 50] (on large-scale datasets), our model achieved high F-measures, up to 97% accuracy, and an F-measure delta ranging from 6% to 18.7%. The inclusion of our novel positional features during training had a significant effect, increasing the F-measure by up to 55% compared to models trained without these features. In addition to our supervised machine-learning method with innovative positional features, this thesis explores an unsupervised approach involving contrastive learning to improve the metadata identification accuracy further. We employed this technique to discern relationships between data and metadata, leveraging a geometric interpretation of the tabular context. Specifically, we utilized the cosine angles and centroid between the embedding vectors of metadata and data terms to create a robust mathematical framework for this issue. Drawing from the inherent structure and relationships in the data, contrastive learning allowed us to encode more intricate aspects of tabular information into the learning model. This method provides a clear representation of how the different elements in a table relate to each other based on the spatial distance of their geometric representations. By implementing this novel application of contrastive learning, we observed a notable boost in metadata identification accuracy, including the deeper levels of the metadata in the table, achieving up to 90% accuracy on several large-scale datasets - justifying the scalability and eﬀiciency of the approach. Through the dual use of machine learning with new positional features and contrastive learning focusing on geometric relationships between data and metadata, our work offers an effective combination of methods that enable complex metadata identification at scale.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Computer Science in partial fulfillment of the requirements for the degree of Master of Computer Science.</note>
+   <note displayLabel="Date of Defense">July 14, 2023.</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Michael Gubanov, Professor Directing Dissertation; Sonia Haiduc, Committee Member; Grigory Fedyukovich, Committee Member.</note>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh89003285">
+      <topic>Computer science</topic>
+   </subject>
+   <identifier type="IID">Kandibedala_fsu_0071N_18239</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Computer Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

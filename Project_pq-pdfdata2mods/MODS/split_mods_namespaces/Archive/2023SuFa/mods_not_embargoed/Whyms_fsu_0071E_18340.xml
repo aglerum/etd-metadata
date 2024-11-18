@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Structure and Function Studies of a CRISPR CARF Ancillary Enzyme and Its Role in Signaling</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-6872-9381</mods:nameIdentifier>
+      <mods:namePart type="family">Whyms</mods:namePart>
+      <mods:namePart type="given">Charlisa Tymone</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/hli4">
+      <mods:namePart type="family">Li</mods:namePart>
+      <mods:namePart type="given">Hong</mods:namePart>
+      <mods:namePart type="termsOfAddress">(Chemistry and Biochemistry)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mestroupe">
+      <mods:namePart type="family">Stroupe</mods:namePart>
+      <mods:namePart type="given">M. Elizabeth (Margaret Elizabeth)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/rsilvers">
+      <mods:namePart type="family">Silvers</mods:namePart>
+      <mods:namePart type="given">Robert</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kghanson">
+      <mods:namePart type="family">Hanson</mods:namePart>
+      <mods:namePart type="given">Kenneth G.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Chemistry and Biochemistry</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (115 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The landscape of RNA biology and its derived biotechnology is continually evolving, and one of the most groundbreaking has been the discovery and subsequent characterization of Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR) systems. These systems serve as a defense mechanism in prokaryotes, safeguarding against viral infections by storing and utilizing genetic information to identify and eliminate invading viruses. Renowned for their diversity and adaptability, CRISPR systems have revolutionized genetic engineering in nearly all organisms, enabling precise genome editing and a wide array of biotechnological applications. Within the intricate machinery of CRISPR systems, the Type III CRISPR-Cas systems stand out as a particularly intriguing class, offering unique mechanisms for sensing and neutralizing viral RNA and DNA. These mechanisms include the viral RNA-activated synthesis of novel cyclic-oligonucleotide second messengers, called cyclic-oligoadenylate (cOA) molecules. These second messengers subsequently bind to and allosterically activate a diverse collection of Type III CRISPR ancillary proteins that have a CARF sensor domain, thereby potentiating a powerful immune response. These signaling events are crucial in triggering cellular dormancy or programmed cell death in response to viral infections, making them a central component of the host organism's adaptive immune response. While research has shed light on some aspects of how these downstream CARF effectors are activated by cOA second messengers, there are still many unanswered questions to be explored in addition to uncharacterized CARF effector proteins. Furthermore, the knowledge gained from understanding the cOA signaling system holds promise for harnessing its potential in the development of innovative biotechnological applications. This dissertation uses structural and biochemical studies to shed light on the intricate mechanisms of one member of the CARF effectors, a CARF-fused adenosine deaminase (CADA) in the context of Type III CRISPR Cas system function. Chapter 1 provides an overview of the discovery and characterization of cyclic-oligoadenylate signaling in type III CRISPR systems. Chapter 2 of this dissertation details the team's efforts in the structural and functional characterization of the type III CRISPR system from mesophilic Lactococcus lactis Csm (LlCsm) organism at multiple functional states. The knowledge gained from this investigation serves as the foundation for developing a virus detection technology, MORIARTY (Multipronged, One-pot, target RNA-Induced, Augmentable, Rapid, Test sYstem) as detailed in Chapter 3. MORIARTY utilizes both RNA- and transcription-activated dual nucleic acid cleavage activities, along with internal signal amplification from the cOA-mediated activation of the CARF-effector Csm6 associated with this system. This approach enables highly sensitive virus detection across various settings. Chapter 4 summarizes and compares the structures of three CRISPR enzymes used in nucleic acid detection captured in their respective functional forms and illustrates the current understanding of their activation mechanism. Finally, in Chapter 5, I successfully pioneered the study of the structure and function of a novel CRISPR-associated adenosine deaminase (CADA) from the thermophilic organism Thermoanaerobaculum aquatica (Taq). TaqCADA, a protein featuring a CARF domain fused to an adenosine deaminase domain, forms a homohexamer, where three canonical homodimers come together through their ADA domains. Each dimer includes a CARF domain and an ADA domain. TaqCADA exhibits robust cOA4 ring nuclease activity and, interestingly, shows only weak adenosine deaminase activity, which does not appear to be enhanced by the presence of cOA molecules. The initial characterization of TaqCADA suggests the ability to regulate cOA concentrations to attenuate immunity and possibly to sequester s-adenosyl-methionine (SAM), which is the cells' methyl donor. However, additional studies are required to address its precise roles in immunity.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Chemistry and Biochemistry in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 15, 2023.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Hong Li, Professor Directing Dissertation; Margaret Elizabeth Stroupe, University Representative; Robert Silvers, Committee Member; Kenneth G. Hanson, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85014171">
+      <mods:topic>Biochemistry</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Whyms_fsu_0071E_18340</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Chemistry and Biochemistry</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

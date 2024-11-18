@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>In-Situ Direct Magnetic Loss Measurement in Power Converters</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-8826-450X</mods:nameIdentifier>
+      <mods:namePart type="family">Yi</mods:namePart>
+      <mods:namePart type="given">Lifang</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jmoon4">
+      <mods:namePart type="family">Moon</mods:namePart>
+      <mods:namePart type="given">Jinyeong</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2003098450">
+      <mods:namePart type="family">Ordóñez</mods:namePart>
+      <mods:namePart type="given">Juan Carlos</mods:namePart>
+      <mods:namePart type="date">1973-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/fpeng">
+      <mods:namePart type="family">Peng</mods:namePart>
+      <mods:namePart type="given">Fang</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2020071428">
+      <mods:namePart type="family">Arigong</mods:namePart>
+      <mods:namePart type="given">Bayaner</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Electrical and Computer Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (177 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Accurate measurement of magnetic loss in power converters is a critical task for optimizing their performance. However, timing skew between measurement channels can lead to an unacceptable error in power loss measurements, and its quantification has historically posed a significant challenge to precise in-situ magnetic loss measurement. This thesis addresses this issue by introducing mathematical models and innovative measurement methods. The mathematical model is first established to analyze the influence of timing skew on magnetic loss measurements in a DC-DC converter. The first method, called Intersection method, disentangles the relationship between timing skew and magnetic loss in a DC-DC converter using a mathematical model. Building upon this, the second method, called Dual-curve Derivative method, enhances measurement accuracy and repeatability. The mathematical model in improved considering the loss mechanism of the magnetic component and an improved method, named Triple-curve Derivative method, is then developed to significantly improves magnetic loss measurement accuracy and in-situ measurement capabilities, specifically for lossier magnetic components. Experimental validation and a comprehensive comparative analysis of these three methods are conducted to corroborate the theoretical analysis. Prior methods necessitated a dedicated space on the PCB, resulting in heightened intrusiveness, with capacitance values reaching several nanofarads, which regrettably had adverse effects on the overall circuit's operation. An improved Dual-curve Derivative method is then developed, which not only enhances measurement accuracy but also significantly reduces its impact on the power converter. The operational principles and performance of the improved Dual-curve Derivative method are verified in simulation and validated in experiments in a DC-DC step-down buck converter, subject to various realistic circuit parameters. This method is validated through simulations and experiments under various circuit parameters. The variations in actual timing skew and real inductor loss are minimal, resulting in an overall error in the obtained inductor loss within ±4%. This underscores the utility of the proposed Improved Dual-curve Derivative method as a realistic, practical, accurate, and efficient tool for achieving direct in-situ magnetic loss measurement. Furthermore, this method has been extended to facilitate core loss measurement, enabling the precise separation of core and winding losses from the aggregated magnetic loss in direct measurement experimentally. In addition to the loss measurement methodology, this thesis delves into the study of high-bandwidth current shunts. This exploration is motivated by the advancements in Wide Bandgap (WBG) devices, which demand accurate current measurements at high-frequency applications, essential for both direct loss measurement and component characterization. The proposed high-bandwidth current shunts are meticulously constructed using thin-film resistors and innovative PCB layout designs. These resistors are arranged in a coaxial structure to enhance magnetic field cancellation and minimize parasitic inductance. With the introduction of a novel interleaving PCB layout design, the parasitic inductance of the shunt is further reduced, resulting in a higher measurement bandwidth. To validate the performance of these shunt prototypes, they were built and measured using a 2-port network analyzer. The results indicate an impressive 3-dB bandwidth exceeding 2GHz with a resistance of 100mΩ. This achievement presents an appealing solution for current measurements in the gigahertz frequency range. In summary, this research contributes innovative methods for magnetic loss measurement, core loss separation, and high-bandwidth current measurement, offering practical solutions for power converter optimization and design validation.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Electrical and Computer Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">October 23, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">Current shunt, High-bandwidth, Loss measurement, Magnetic, Timing skew</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Jinyeong Moon, Professor Directing Dissertation; Juan Ordóñez, University Representative; Fang Z. Peng, Committee Member; Bayaner Arigong, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85041666">
+      <mods:topic>Electrical engineering</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Yi_fsu_0071E_18295</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Electrical and Computer Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

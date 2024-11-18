@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Synthesis and Properties of High Entropy Spinel Oxides</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0003-3249-7031</nameIdentifier>
+      <namePart type="family">DC</namePart>
+      <namePart type="given">Bijay</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/beekman">
+      <namePart type="family">Beekman</namePart>
+      <namePart type="given">Christianne</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing thesis</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/nb2012017661">
+      <namePart type="family">Dobrosavljević</namePart>
+      <namePart type="given">Vladimir</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/rbaumbach">
+      <namePart type="family">Baumbach</namePart>
+      <namePart type="given">Ryan E.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/vtripath">
+      <namePart type="family">Tripathi</namePart>
+      <namePart type="given">Vandana</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/shatruk">
+      <namePart type="family">Shatruk</namePart>
+      <namePart type="given">Mykhailo</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Physics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (54 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >High entropy oxides (HEO) are the oxides containing five or more metals in a single lattice and the large composition space suggests that properties of interest can be readily optimized. Magnetic correlation in HEOs that inherently depend on the coordination geometry, valence, spin state, and type of metal cations that are hybridized with the bridging oxygen, are naturally affected by an extreme diversity of neighboring ionic configuration. In this dissertation, we synthesized the bulk target of high entropy vanadium oxide, as the spinel vanadate and ferrite is a magnetically frustrated system an interesting non-collinear spin textures at low temperatures. We report the epitaxial growth of AF e2O4,(where A site contains five elements MgO, Fe2O3, NiO, CuO, CoO) thin films on the substrates spanning a range of strain states. We successfully grew the single crystalline thin films on different substrates of MgO, MgAl2O4, and STO where the crystal structure changed from its bulk cubic to a tetragonal unit cell which is confirmed by the Rigaku X-ray diffraction. These films show smooth surfaces, high crystallinity, and strong magnetic responses at room temperature. The perturbations in the crystal structure lead to interesting magnetic properties in the AF e2O4 thin films. We investigated the magnetic behavior in the material as the temperature-dependent magnetization measurements performed on AFe2O4 film show a magnetic transition onset above the room temperature regardless of the strain state. Strain effects have a strong influence on magnetization responses. For the tensile strained AFe2O4 film grown on MgO substrate, out-of-plane shows the hysteresis with the higher coercive field which indicates the easy axis on the out-of-plane direction. But in the case of slightly compressed film on a-axes and strained on c-axes strained AFe2O4 film on MAO substrate the out-of-plane shows slightly smaller hysteresis with a smaller coercive field which moves the easy axis towards an in-plane direction. The differences in the magnetic behavior between the bulk and thin film, in both the magnetic structure and anisotropy, provide insights on tuning the compositionally complex materials that may be applicable in the next-generation memory devices.</abstract>
+   <note  displayLabel="Submitted Note">A Thesis submitted to the Department of Physics in partial fulfillment of the requirements for the degree of Master of Science.</note>
+   <note  displayLabel="Date of Defense">October 26, 2023.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Christianne Beekman, Professor Directing Thesis; Vladimir Dobrosavljevic, Committee Member; Ryan Baumbach, Committee Member; Vandana Tripathi, Committee Member; Michael Shatruk, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85030765">
+      <topic>Condensed matter</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85082094">
+      <topic>Materials science</topic>
+   </subject>
+   <identifier  type="IID">DC_fsu_0071N_18359</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Physics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

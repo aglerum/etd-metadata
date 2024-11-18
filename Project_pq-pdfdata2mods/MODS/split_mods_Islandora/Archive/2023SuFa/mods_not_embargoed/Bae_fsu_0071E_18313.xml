@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Novel Statistical Methods to Characterize the Genetic Basis of Human Complex Traits</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-8726-1291</nameIdentifier>
+      <namePart type="family">Bae</namePart>
+      <namePart type="given">Ye Eun</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="viaf"
+         authorityURI="http://viaf.org/viaf/"
+         valueURI="http://viaf.org/viaf/14146217689609141312">
+      <namePart type="family">Niu</namePart>
+      <namePart type="given">Xufeng</namePart>
+      <namePart type="date">1954-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/rsnowakowski">
+      <namePart type="family">Nowakowski</namePart>
+      <namePart type="given">Richard S.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/cwu3">
+      <namePart type="family">Wu</namePart>
+      <namePart type="given">Chong</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/jrbradley">
+      <namePart type="family">Bradley</namePart>
+      <namePart type="given">Jonathan R.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2013073385">
+      <namePart type="family">Huffer</namePart>
+      <namePart type="given">Fred W. (Fred William)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Statistics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (118 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >A major objective in modern human genetics research is to better understand the molecular mechanisms underlying human complex traits. Although genome-wide association studies (GWASs) have been successful in detecting thousands of trait-associated and disease-associated genetic variants (i.e., single‐nucleotide polymorphisms [SNPs]), the genes responsible for these associations remain unclear because these SNPs explain only a small proportion of heritability. To characterize the genetic regulations of GWAS variants on traits and diseases, many statistical methods such as transcriptome-wide association studies (TWASs) and their extensions have been developed to integrate GWAS results with gene expression data. However, despite successes, existing TWASs suffer from substantial power loss since they miss many important biological contexts within trait or disease pathways. This thesis presents three novel statistical studies that incorporate those contexts leveraging the information of functional elements (e.g., cross-tissue correlation of gene expression and enhancer-promoter interactions) and post-transcriptional events (e.g., alternative splicing and RNA editing) to provide more insights into the underlying genetic landscape and etiology of traits and diseases. In the first chapter, we propose a computationally efficient testing method, referred to as Integrative Test for Associations via Cauchy Transformation (InTACT), that effectively combines information across multiple tissues and thus improves the power of identifying associated genes. Through simulation studies, we show that InTACT maintains high power while properly controlling for Type 1 error rates. We applied InTACT to the largest GWAS of Alzheimer's disease (AD) to date and identified 227 genome-wide significant genes, of which 130 were not identified by benchmark methods, TWAS and MultiXcan. Importantly, InTACT identified five novel loci for AD. We implemented InTACT in publicly available software, "InTACT.'' In the second chapter, we perform a comprehensive splicing transcriptome-wide association study (spTWAS) to identify the susceptible splicing introns for AD risk. A total of 111,326 (46,828 proxy) cases and 677,663 controls of European ancestry were studied. We identified 343 associations of 233 splicing introns (143 genes) with AD risk after Bonferroni correction. Fine-mapping analyses supported 155 likely causal associations corresponding to 83 splicing introns of 55 genes. Eighteen causal splicing introns of 15 novel genes were identified for the first time to be related to AD susceptibility. Our study identified novel genes and splicing introns associated with AD risk, which can improve our understanding of the etiology of AD. In the third chapter, we reveal the impact of genetically regulated adenosine-to-inosine (A-to-I) RNA editing on various traits, by systematically analyzing datasets of A-to-I RNA editing, a post-transcriptional process crucial for adapting innate immune response. We conducted both editing-site- and gene-level association studies of predicting A-to-I RNA editing and testing its associations with the analyzed 37 traits or diseases. Based on our prediction models of 49 tissues, we identified 383-21,098 editing sites and 44-1,338 genes per trait or disease, of which 86.5\% and 79.2\% were validated for causal attributions, respectively. We highlight our findings for autoimmune and inflammatory diseases to characterize the role of A-to-I RNA editing in adjusting the immune sensing system.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Statistics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">October 20, 2023.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Xufeng Niu, Professor Directing Dissertation; Richard Nowakowski, University Representative; Chong Wu, Committee Member; Jonathan Bradley, Committee Member; Fred Huffer, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85014244">
+      <topic>Biometry</topic>
+   </subject>
+   <identifier  type="IID">Bae_fsu_0071E_18313</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Statistics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

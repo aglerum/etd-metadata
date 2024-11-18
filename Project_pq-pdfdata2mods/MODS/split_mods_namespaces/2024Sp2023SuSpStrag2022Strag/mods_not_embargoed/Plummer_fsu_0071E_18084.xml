@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Mental Health Policy in College Athletics</mods:title>
+      <mods:subTitle>A Legal and Institutional Logics Approach</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0006-5987-3684</mods:nameIdentifier>
+      <mods:namePart type="family">Plummer</mods:namePart>
+      <mods:namePart type="given">Hannah M.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2011019943">
+      <mods:namePart type="family">Newman</mods:namePart>
+      <mods:namePart type="given">Joshua I.</mods:namePart>
+      <mods:namePart type="date">1976-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n87114038">
+      <mods:namePart type="family">Perrewe</mods:namePart>
+      <mods:namePart type="given">Pamela L.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/rrodenberg">
+      <mods:namePart type="family">Rodenberg</mods:namePart>
+      <mods:namePart type="given">Ryan M.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jdu3">
+      <mods:namePart type="family">Du</mods:namePart>
+      <mods:namePart type="given">James</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Education, Health, and Human Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Sport Management</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (356 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Mental health is not a new topic in the realm of sport. Despite the fact that the number of student athletes speaking out about the struggles has increased, the National Collegiate Athletic Association (NCAA) has yet to codify regulations that might curb the problem. The governing body has disseminated supplemental materials on student athlete mental health which have assisted in establishing an institutional logic that is upheld and perpetuated by NCAA member organizations. Further, within the NCAA, football is one of the top financial leaders, but also attributes to some of the highest concussion rates among student athletes. In addition, with the proven connection between concussions and short- and long-term mental health concerns, it is imperative that the NCAA adopts formal regulations to protect student athletes' mental health due to moral, legal, and financial reasons. For this dissertation, I will be conducting three separate, but cohesive, studies. First, I will be using legal doctrinal research to establish the duty of care owed to student athletes by coaches in terms of mental health. Through the study, I will also seek to illustrate the legal aspect of how not only coaches, but their employing organizations, and even the NCAA, may be held vicariously liable for actions, or inactions, surrounding student athlete mental health. Next, I will conduct a content analysis of current football head coach employment contracts at the NCAA Division I level. This will be used to show how, or if, individual NCAA member organizations address student athlete mental health within the legal employment contracts of their coaches. Finally, I will conduct a case study on the historical contracts of football head coaches at one prominent NCAA member university (i.e., Florida State University). This study will show the evolution of how student athlete mental health has been addressed in head coach contracts over time and as the NCAA has released more materials on the topic. The findings of this study have the potential to influence the NCAA, or its member organizations, to obligate coaches to report student athlete mental health concerns, which in turn, could prevent tragic outcomes. Further, these articles will be used to emphasize the potential role of coaches as reporters, not practitioners, due to the unique relationship they have with their student athletes. Coaches should never be responsible for treating student athletes mental health issues but should be able to identify the symptoms associated with this status and refer the effected athlete(s) to the proper channels. Finally, by conducting these three studies, I hope to show how beneficial student mental health regulations will be for all actors involved, including the athletes themselves, their coaches, athletic department, and university staff, and even the NCAA as a league. Enforcing policy related to student athlete mental health, specifically within coach employment contracts, could potentially reduce the member organizations', and by proxy the NCAA's, chances of being held vicariously liable. Further, when coaches uphold this stipulation within their contractual, their chances of being held negligent for student athlete mental health concerns may also be reduced. Finally, although the NCAA and its member organizations should just 'care' about student athletes, by including contractual stipulations and policy for coaches, the student athletes may have a better chance of receiving care and treatment for potential mental health concerns.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Sport Management in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 13, 2023.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Joshua I. Newman, Professor Directing Dissertation; Pamela Perrewé, University Representative; Ryan Rodenberg, Committee Member; Wenjie James Du, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85126896">
+      <mods:topic>Sports administration</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Plummer_fsu_0071E_18084</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Sport Management</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

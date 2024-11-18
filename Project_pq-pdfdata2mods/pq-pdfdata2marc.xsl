@@ -30,16 +30,16 @@
 
     <!-- **Global variables** -->
     <!-- Batch Variable -->
-    <xsl:variable name="batch" select="'2022Su.xml'"/>
+    <xsl:variable name="batch" select="'CORRECTED_source_pdfdata_NEW_COMBINED_2023DSuEmbargoed_2023EFaStrag_2024BSu_uris.xml'"/>
 
     <!-- These paths change with each semester-->
     <!-- Be sure and also change the semester variable in your 856 field below -->
     <xsl:variable name="pdfdata"
-        select="document('source_pdfdata/COMBINED_2022ABSpSuStrag_2022CFa_2023ASp_uris.xml')/records/record"/>
+        select="document('source_pdfdata/CORRECTED_source_pdfdata_NEW_COMBINED_2023DSuEmbargoed_2023EFaStrag_2024BSu_uris.xml')/records/record"/>
     <xsl:variable name="committee"
-        select="document('tables/ETD-NAF_mads_20231120.xml')/mads:madsCollection/mads:mads/mads:authority"/>
+        select="document('tables/ETD-NAF_mads_20241028.xml')/mads:madsCollection/mads:mads/mads:authority"/>
     <xsl:variable name="authors"
-        select="document('tables/authors_COMBINED_2022ABSpSuStrag_2022CFa_2023ASp.xml')/authors/name"/>
+        select="document('tables/authors_2023DSuEmbargoed-2023EFaStrag-2024BSu.xml')/authors/name"/>
 
     <!-- These paths refer to data tables -->
     <xsl:variable name="PQ-FSU-dept"
@@ -464,8 +464,7 @@
                     <xsl:call-template name="subjects_proquest">
                         <!--<xsl:with-param name="DISS_cat_code"
                             select="DISS_description/DISS_categorization/DISS_category/DISS_cat_code"
-                        />-->
-                    </xsl:call-template>
+                        />--> </xsl:call-template>
 
                     <!--655 field: Genre/form index term-->
                     <marc:datafield tag="655" ind1=" " ind2="7">
@@ -497,11 +496,9 @@
                     <!-- BE SURE AND CHANGE THE SEMESTER VARIABLE TO THE SEMESTER YOU'RE WORKING ON -->
                     <marc:datafield tag="856" ind1="4" ind2="0">
                         <xsl:variable name="semester">
-                            <xsl:text>2022_Su</xsl:text>
-                            <!-- If you need to grab the semester info from the ProQuest data -->
-                            <!-- <xsl:value-of select="DISS_description/DISS_dates/DISS_comp_date"/> -->
+                            <xsl:value-of select="DISS_description/DISS_dates/DISS_comp_date"/>
                         </xsl:variable>
-                        <marc:subfield code="3">DigiNole</marc:subfield>
+                        <marc:subfield code="3">FSU Research Repository</marc:subfield>
                         <marc:subfield code="u">
                             <xsl:for-each select="$binary">
                                 <xsl:variable name="purl_file">
@@ -510,7 +507,7 @@
                                     />
                                 </xsl:variable>
                                 <xsl:value-of
-                                    select="concat('https://purl.lib.fsu.edu/diginole/',$purl_file)"
+                                    select="concat('https://purl.lib.fsu.edu/diginole/', $purl_file)"
                                 />
                             </xsl:for-each>
                         </marc:subfield>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Numerical Studies of Magnetic Properties in Low Dimensional Strongly Correlated Systems</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-6681-4689</mods:nameIdentifier>
+      <mods:namePart type="family">Sharma</mods:namePart>
+      <mods:namePart type="given">Prakash</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/hchanglani">
+      <mods:namePart type="family">Changlani</mods:namePart>
+      <mods:namePart type="given">Hitesh Jaiprakash</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/adeprince">
+      <mods:namePart type="family">DePrince</mods:namePart>
+      <mods:namePart type="given">A. Eugene</mods:namePart>
+      <mods:namePart type="termsOfAddress">III</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2002162741">
+      <mods:namePart type="family">Bonesteel</mods:namePart>
+      <mods:namePart type="given">N. E.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/xiong">
+      <mods:namePart type="family">Xiong</mods:namePart>
+      <mods:namePart type="given">Peng</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ktobioka">
+      <mods:namePart type="family">Tobioka</mods:namePart>
+      <mods:namePart type="given">Kohsaku</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Physics</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (189 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This thesis is devoted to the study of magnetic properties of strongly correlated quantum matters in one and two dimensions. The study employs predominantly numerical techniques, such as Exact Diagonalization (ED), Finite Temperature Lanczos (FTLM), and Density Matrix Renormalization Group (DMRG), complemented by semi-analytical approaches. In the absence of exact solutions or controlled analytic approximations, numerical methods have profoundly impacted our understanding of complex many-body problems. Utilizing these numerical tools for investigating the ground state and finite temperature properties of quantum magnets, as well as understanding their non-equilibrium dynamics in cold-atom quench experiments, comprise the two major themes of this thesis. The first part of this thesis, comprising Chapters~\ref{ch3}-\ref{ch5}, discusses the ground state properties, elementary excitations, and finite temperature behavior of various magnetic systems motivated by recent experimental observations. Elementary excitations often play a vital role in understanding the ground state and the finite temperature properties. Chapter~\ref{ch3} focuses on the significance of multimagnon (quasiparticle) interactions and their connection to finite temperature terahertz optical experiments on a ferromagnetic (FM) spin-$1$ quasi-1D compound. Chapters~\ref{ch4} and \ref{ch5} jointly contribute to our understanding of magnetism in undoped and doped Mott insulators in magnetically frustrated systems. Chapter~\ref{ch4} discusses ''two coloring" and ''three coloring" exact ground state solutions of the 2D XXZ magnets at special points in bipartite (square) and tripartite (triangular) lattices. It further emphasizes the influence of these exactly solvable points on the other parameter space of this model away from the solvable points, which we explore using ED and large-scale DMRG simulations. In Chapter~\ref{ch5}, our focus shifts to investigating the mechanism of kinetic frustration in the moi\'re bilayer WSe$_2/$WS$_2$ compound, prompted by the intriguing observation of an increase in the Curie-Weiss temperatures as the density decreases below half-filling. While a definitive model for the bilayer system remains elusive, we employ both the Hubbard and $t-J$ models to shed light on their distinct magnetic properties across low, intermediate, and high temperatures. Underlying zero temperature phase transitions are analyzed using large-scale DMRG simulations, providing experimentally consistent results. The second part of this thesis, comprising Chapter~\ref{ch6}, explores a new frontier in condensed matter systems, specifically the non-equilibrium dynamics of isolated quantum magnets, well-suited for cold-atom experiments in one dimension. We explain the thermalization process in a generic isolated quantum system without a heat reservoir, drawing upon the Eigen State Thermalization Hypothesis (ETH). Focusing on the Quantum Many-Body Scars (QMBS), the states weakly violating ETH, we study the real-time dynamics of two different quantum spin models. We first analyzed the thermalization of various initial multimagnon states in the FM Heisenberg spin-$1$ chain, leveraging prior insights on multimagnon bound state formation due to onsite anisotropy ($D$). Both thermal and athermal behaviors akin to those reported for QMBS are observed depending on initial conditions, which we explain with an analytic approximation that is accurate in the limit of dilute magnon density and small $D$. Secondly, the resilience of quantum scars in a bond-staggered Heisenberg spin-1/2 chain under a periodic local drive is investigated. Instances are found where the driven spin collectively thermalizes or fails to thermalize with the remaining spins, contingent upon the frequency and strength of the drive.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Physics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 6, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">Frustration, Low dimension, Magnetism, Non-equilibrium dynamics, Strongly Correlated Systems</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Hitesh J. Changlani, Professor Directing Dissertation; Albert E. De Prince, III, University Representative; Nicholas E. Bonesteel, Committee Member; Peng Xiong, Committee Member; Kohsaku Tobioka, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85030765">
+      <mods:topic>Condensed matter</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Sharma_fsu_0071E_18154</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Physics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

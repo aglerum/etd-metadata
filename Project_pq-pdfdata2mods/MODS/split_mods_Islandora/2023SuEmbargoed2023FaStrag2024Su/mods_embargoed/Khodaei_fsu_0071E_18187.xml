@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Phylogenetic Analysis</title>
+      <subTitle>Exploration of Treespace Using Pathtrees and Multilocus Evolutionary Analysis with Probabilistic Topic Modeling</subTitle>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-3154-9069</nameIdentifier>
+      <namePart type="family">Khodaei</namePart>
+      <namePart type="given">Marzieh</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/beerli">
+      <namePart type="family">Beerli</namePart>
+      <namePart type="given">Peter</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2005086590">
+      <namePart type="family">Bertram</namePart>
+      <namePart type="given">R. (Richard)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n87121729">
+      <namePart type="family">Erlebacher</namePart>
+      <namePart type="given">Gordon</namePart>
+      <namePart type="date">1957-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/sshanbhag">
+      <namePart type="family">Shanbhag</namePart>
+      <namePart type="given">Sachin</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/alemmon">
+      <namePart type="family">Lemmon</namePart>
+      <namePart type="given">Alan R.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Scientific Computing</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (108 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Evolutionary trees, or phylogenetic trees, or phylogenies, have been used extensively throughout biology and other fields to graphically represent the evolutionary history of species. Phylogenetics has advanced considerably since the mid 1960's. Computer-intensive numerical methods, such as parsimony, distance-based, and likelihood methods, were used to evaluate trees that describe the relationship among species. Over the years, the amount of data and the number of species used in such analyses grew. The field was mostly concerned how to recover the best tree and how to characterize the uncertainty estimates of the branch lengths and the topology. With large numbers of species the potential number of phylogenies is extremely large and analyses of the neighborhood of a particular phylogeny becomes important when we apply heuristic methods, such as Markov chain Monte Carlo to search for the best phylogeny. This dissertation explores new methods to create accurate phylogenies with fewer assumptions as are currently used, and describes potential advancements in the understanding of the treespace and the relationship among these phylogenies. The general research agenda of my PhD dissertation focuses on developing methods to construct phylogenetic trees, subsets of phylogenetic networks, and understanding the evolutionary aspects of genomic data. Two primary contributions of my research works are: (1) Geodesics to Characterize the Phylogenetic Landscape. Phylogenetic trees of a set of sequences are fundamental for understanding the evolutionary history of a set of species. Understanding the relationship between the highest likelihood trees and the local neighborhood of a phylogenetic tree is essential, but since trees are high-dimensional objects, discussing these neighborhoods is difficult. Collaborators and I work on a computational method to explore trees in a more deterministic manner using insights from the Billera-Holmes-Vogtmann tree space and the maximum likelihood optimality criterion. We developed an open-source Python package Pathtrees, which enables construction, visualization and exploration of a continuous tree landscape. This research work has been published on June 23, 2023. (2) Multilocus Evolutionary Analysis Using Probabilistic Topic Modeling. In this research work we use machine learning to get better estimates of phylogenetic trees from non-aligned sequence data using the topic modeling, a statistical approach based on document analysis techniques. The alignment-free approaches are gaining more attention from the scientific community because of their ability to overcome the drawbacks of sequence alignment techniques. We developed an alignment-free method to infer the multilocus species tree which is implemented in the Python package TopicContml. In this method, we first design the k-mer extraction from sequences; then we adopt an alignment-free technique of probabilistic topic modeling, Latent Dirichlet Allocation (LDA) model, to extract topic frequencies from multilocus DNA sequences as documents; we next use these frequencies as an input to the program Contml in the PHYLIP-package to generate a species tree. I have also collaborated with another project entitled Coalescence-based Inference of Adaptation. In this research, I investigated the correlation structure of genetic markers using measures of distance among genealogies derived from these markers. Genealogies from different markers are different due to some biological reasons. I applied a distance measure among the genealogies to investigate the correlation structure of the genetic markers, and to corroborate that the nearby markers have the same genealogy.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Scientific Computing in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">July 7, 2023.</note>
+   <note  displayLabel="Keywords">Geodesic distance, Latent Dirichlet Allocation (LDA), PATHTREES, Phylogenetic treespace, Topic modeling, TopicContml</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Peter Beerli, Professor Directing Dissertation; Richard Bertram, University Representative; Gordon Erlebacher, Committee Member; Sachin Shanbhag, Committee Member; Alan Lemmon, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85014205">
+      <topic>Biology</topic>
+      <topic>Classification</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh00003585">
+      <topic>Bioinformatics</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh93002523">
+      <topic>Mathematics</topic>
+   </subject>
+   <identifier  type="IID">Khodaei_fsu_0071E_18187</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Scientific Computing</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

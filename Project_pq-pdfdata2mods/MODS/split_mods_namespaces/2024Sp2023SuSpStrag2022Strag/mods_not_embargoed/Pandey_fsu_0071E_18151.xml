@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Care-Full Connections</mods:title>
+      <mods:subTitle>Responding to Students' Writing in the Online Writing Instruction Classroom</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-3579-685X</mods:nameIdentifier>
+      <mods:namePart type="family">Pandey</mods:namePart>
+      <mods:namePart type="given">Nitya</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2001108549">
+      <mods:namePart type="family">Fleckenstein</mods:namePart>
+      <mods:namePart type="given">Kristie S.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/ajeong">
+      <mods:namePart type="family">Jeong</mods:namePart>
+      <mods:namePart type="given">Allan C.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2010050868">
+      <mods:namePart type="family">Neal</mods:namePart>
+      <mods:namePart type="given">Michael R.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/jfiscus">
+      <mods:namePart type="family">Fiscus-Cannaday</mods:namePart>
+      <mods:namePart type="given">Jaclyn</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of English</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (332 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This dissertation responds to the dearth of research in responding practice of instructors teaching in college composition online writing classrooms, especially addressing both how they do it and how "care-fully." More specifically, the dissertation investigates the responding thoughts and behaviors of instructors teaching writing within the parameters of an asynchronous online format. Furthermore, the dissertation regards the instructors as carers and the students as cared-fors, exploring how teachers' responses to students (carer and cared-for) are marked by elements of care-fullness. These elements include engrossment (empathy [thinking + feeling] + receptive attention), motivational displacement (the impulse to focus on and contribute to the resolution of students' challenges), and reciprocity (the desire for dialogic exchange between carer and cared-for). There has been ample research establishing the increased frequency of online writing instruction and its rising prevalence especially during COVID-19. In the wake of the move from face-to-face teaching to online teaching, the need to explore instructors' responding protocols are also increasing. While response to students' writing has been a staple in composition studies for more than six decades, little research has focused specifically on fully online situations, particularly those with an asynchronous approach. Furthermore, while care in the context of elementary and middle-school has been researched before, no such research focuses on the asynchronous online situation. This dissertation brings together these disparate elements into a meticulously structured intellectual confluence. In brief, this dissertation examines the following questions through the case studies of two instructors teaching the asynchronous online iteration of a sophomore-level college composition course, mandatory to all undergraduate students at Florida State University, namely, ENC 2135 (Research, Genre, and Context). The research questions the dissertation answers are: 1) How do teachers of online writing instruction describe their response protocols and goals? How, if at all, does "care-fullness" emerge within those descriptions? 2) How do teachers of online writing instruction respond to student papers? How, where, and when, if at all, does "care-fullness" emerge within those response behaviors? 3) What role, if any, does the medium of response play in teacher of online writing instruction response? How, if at all, does medium affect care-fullness? To find answers to these questions, the data corpus consisting of the instructors' response philosophies and textual comments, along with transcripts of audiovisual conferences and retrospective protocols were collected, coded, and interpretated through observation, transcription, color classification, and tabulation. The coding of the data happened on two levels. The descriptive coding focused on answering the questions: what, who, when, where, why, and how. Likewise, the "care-fullness" coding focused on the occurrences of the elements of the "care-fullness" triad, i.e., engrossment, motivational displacement, and reciprocity. The results showed that, first, there is negligible difference in the textual responses of college composition courses taught face-to-face and those taught asynchronously online. The instructors had numerous marginal comments and end comments across the drafts that helped students polish their projects. In addition to the format of responding that follows a series of comments at different locations on and across drafts, the similarity between online instruction and face-to-face instruction also lies in employing Canvas as the Learning Management System (LMS) through which textual responses are shared periodically. Second, the only domain of response that shows a departure from the responding practices of face-to-face college composition course is the mode of teacher-student conference, conducted via Zoom. This is significant because while it provides the immediacy in conversation which imitates a real-world in-person meeting, it is still happening through virtual channels. As a result, it consists of computer screens and Zoom elements like screen sharing. Third, the project shows that "care-fullness" can be performed in diverse ways. As derived from the first case study, balance is a key to care-full responding practices. Diego, the nurturing coach, maintains a delicate balance between personability and professionalism as he ensures that the conversation between him and his students flows smoothly through different mediums of responses. Likewise, the second case demonstrates the harmful effects of cultural forces at play informing the gendered expectations of care that migrate from face-to-face classrooms to online instructional platforms. Samantha, the pragmatic teacher, underscores the invisible labor demands of carework based on gendered perceptions of online writing instructors that if left unmonitored, may contribute to instructors' burnout. Finally, the project deems "care-fullness" as a necessary factor in all educational environments, but especially so in asynchronous online classes because it is an immensely powerful way to ascertain human presence, establish emotional and intellectual interactions, and intensify human community bonds in a technologically mediated instructional space.  </mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of English in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">June 23, 2023.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Kristie S. Fleckenstein, Professor Directing Dissertation; Allan C. Jeong, University Representative; Michael R. Neal, Committee Member; Jaclyn M. Fiscus-Cannaday, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85113628">
+      <mods:topic>Rhetoric</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Pandey_fsu_0071E_18151</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>English</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo lang="eng">
+      <title>Response of Rectangular Jet Shear Layers to Plasma Actuator Based Forcing</title>
+   </titleInfo>
+   <name type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-7802-2208</nameIdentifier>
+      <namePart type="family">Lakshmi Narasimha Prasad</namePart>
+      <namePart type="given">Anirudh</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2017082360">
+      <namePart type="family">Sasidharan Nair</namePart>
+      <namePart type="given">Unnikrishnan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2009143870">
+      <namePart type="family">Speer</namePart>
+      <namePart type="given">Kevin G. (Kevin George)</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/falvi">
+      <namePart type="family">Alvi</namePart>
+      <namePart type="given">Farrukh S.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/chubicki">
+      <namePart type="family">Hubicki</namePart>
+      <namePart type="given">Christian M.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name type="corporate" authority="local">
+      <namePart>Department of Mechanical Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="rdacontent">text</genre>
+   <genre authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo>
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription>
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (227 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract>Intense noise levels produced by high-speed military aircraft have adverse impact on the personnel and surrounding structures. Noise levels are often above 120dB (the human hearing pain threshold), which leads to physical and mental health problems, including hearing loss. These acoustic waves can also cause structural damage to surrounding buildings and aircraft control surfaces. Thus, a study of jet noise and control strategies for noise reduction is vital. There has been a renewed interest in the study of non-axisymmetric jets, in particular, those generated from rectangular nozzles, due to their superior air-frame integration properties and lower drag penalty in comparison to an axisymmetric nozzle. Many active and passive noise control techniques have been explored in the context of circular nozzles but very few on rectangular nozzles. One such active noise control technique involves leveraging the instabilities in the shear layer by imposing perturbations via the use of Localized Arc Filament Plasma Actuator (LAFPA). These plasma actuators have been shown to be effective in noise reduction for circular jets. However, its impact on rectangular jets has not been explored, posing numerous questions about the optimal forcing parameters (forcing frequency, duty cycle and phase difference between actuations), shear layer and acoustic response of the jet to forcing, flow field modifications and noise reduction efficacy unanswered. Also undetermined is its applicability to imperfectly expanded conditions. A computational study to determine the effects of LAFPA based control on the flow-field and acoustics of supersonic a Mach 1.5, 2:1 aspect ratio perfectly expanded rectangular jet is performed to address these queries. A preliminary linear analysis identifies that the frequency, St ∼ 1, has a relatively high overall amplification within the baseline shear layer while St ∼ 2 has the highest amplification rate, and is hence tested for control in the subsequent nonlinear simulations. Post validation of the baseline jet, effects of control in the context of noise reduction are studied at experimentally-guided forcing parameters, including frequencies, St = 0.3, 1.0 and St = 2.0, with duty cycles (DC), 20% and 50%. In general, high-frequency forcing reduces noise in the downstream direction, with the actuator signature appearing mostly in the sideline direction. St = 1 DC=50% yields an optimum balance between peak-noise reduction (of ∼ 1.5dB) and actuator tones, with control being most effective on the major axis plane that bisects the shorter edges of the nozzle. Shear layer response to the most effective forcing includes generation of successive arrays of mutually interacting staggered lambda vortices, which eventually energize streamwise vortical elements. Causal mechanisms of noise mitigation are further elucidated as follows; first, the control reduces the energy within the supersonic phase-speed regime of peak radiating frequencies, by redistributing a part of it into a high-frequency band. Second, it enhances azimuthal percolation of energy into the first and second helical modes at frequencies where noise reduction is seen, thus weakening the radiatively efficient axisymmetric mode. Finally, sound-producing intermittent events in the jet are significantly reduced, thereby minimizing the high-intensity acoustic emissions. This small perturbation-based control strategy results in only minor variations in the mean flow properties. However, reduced production and enhanced convection attenuate turbulent kinetic energy within the spreading shear layer in the controlled jet. These control parameters also produced less than 1% change in performance characteristics such as thrust. Post identification of optimal forcing frequency and duty cycle, a computational analysis is also performed to study the three-dimensional response of rectangular shear layers to plasma actuator-based control, in the context of sound mitigation of supersonic non-axisymmetric jets. The rectangular jet is now controlled using experimentally informed actuation patterns, referred to as M0, M1, M2, M3, Mπ and M+/-1. While the first five progressively increase the phase difference between successive actuators thus enhancing three-dimensionality of the shear layer structures, the latter corresponds to the flapping mode of the jet. Each actuation reveals unique near-field vortical and acoustic responses that have a profound impact on far-field noise levels. M0 actuation induces circumferentially interconnected strong streamwise vortices, while M1 actuation enhances the circumferential variability in the coherent structures. M2 actuation encompasses both these effects, and along with the least tonal impact of forcing, produces the most desirable far-field noise mitigation (∼ 2.6dB), contributed by a broadband reduction around the column mode peak of the baseline jet. Through a near-field analysis of the acoustic component, the efficacy of M2 actuation is attributed to the attenuation of the radiative efficiency of the jet, including reduced energy in the supersonic phase speeds, and redistribution of energy into the higher helical modes. Further, it curtails the nonlinear difference interactions in the plume that energize column mode frequencies, which often appear as strong intermittent sound-producing events. While the shear layer turbulent kinetic energy decreases with actuation, the controlled jets show minimal variations in mean flow properties, particularly under M2 actuation, suggesting this to be a promising small perturbation-based noise control strategy. Control authority was observed to saturate with higher phase differences (M3 and Mπ). Based on the knowledge of flow field impact of control on perfectly expanded jets, control is then applied to an over-expanded jet containing additional noise components such as BBSAN and screech. Forcing patterns M0, M1, M2, M3 and M+/-1 are studied in this context at a forcing frequency of St = 1 and duty cycle of 50%. Significant changes to mean flow properties such as core collapse location and spreading rate were observed with M0 and M+/-1 forcing while they remained relatively similar across other forcing cases. In general TKE levels were seen to decrease with increased phase difference between actuations. Far-field acoustic spectra of the baseline jet identified three distinct noise components corresponding to turbulent mixing, BBSAN and screech. Control is able to significantly affect all three components with the largest reduction observed with M3 forcing. However, the penalty arising from the actuation tone at the forcing frequency is significant. Directivity and amplitude of the forcing frequency tone is observed to vary across forcing sequences. An overall noise reduction of ∼ 2.5dB is observed with M3 forcing at downstream polar angles and upstream polar angles on both planes. Detoned noise levels which excludes the contribution from the actuation tone showed that all control cases were successful in reducing noise levels by ≥ 3dB. In particular, M3 forcing showed 6dB reduction in peak noise levels and 7dB reduction in the upstream directed noise levels. Further, M3 forcing was observed to weaken the coherent-structure/shock interactions resulting in a subdued tonal response. It was also observed to curtail upstream propagating guided jet modes which form an important part of the screech feedback loop and was also successful in reducing jet flapping. These modifications ensured reduction in BBSAN and screech in addition to reduction in mixing noise while having minimal impact on thrust.</abstract>
+   <note displayLabel="Submitted Note">A Dissertation submitted to the Department of Mechanical Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note displayLabel="Date of Defense">May 31, 2024.</note>
+   <note displayLabel="Keywords">Acoustics, Active control, Computational Fluid Dynamics, Jets, Noise reduction, Shear layer</note>
+   <note displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note displayLabel="Advisory Committee">Unnikrishnan Sasidharan Nair, Professor Directing Dissertation; Kevin Speer, University Representative; Farrukh S. Alvi, Committee Member; Christian Hubicki, Committee Member.</note>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85049383">
+      <topic>Fluid mechanics</topic>
+   </subject>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh95007821">
+      <topic>Aerospace engineering</topic>
+   </subject>
+   <subject authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85082757">
+      <topic>Mechanical engineering</topic>
+   </subject>
+   <identifier type="IID">LakshmiNarasimhaPrasad_fsu_0071E_18846</identifier>
+   <extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Mechanical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo>
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

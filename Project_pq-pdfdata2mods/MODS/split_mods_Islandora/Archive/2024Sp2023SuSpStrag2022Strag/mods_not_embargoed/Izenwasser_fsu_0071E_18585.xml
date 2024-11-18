@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Essays on the Economic Impact of Micromobility</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0003-4449-9069</nameIdentifier>
+      <namePart type="family">Izenwasser</namePart>
+      <namePart type="given">Jordan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n86000200">
+      <namePart type="family">Ihlanfeldt</namePart>
+      <namePart type="given">Keith R.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/fpeng">
+      <namePart type="family">Peng</namePart>
+      <namePart type="given">Fang</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/lprodgers">
+      <namePart type="family">Rodgers</namePart>
+      <namePart type="given">Luke P.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/fyang3">
+      <namePart type="family">Yang</namePart>
+      <namePart type="given">Cynthia Fan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Social Sciences and Public Policy</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Economics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (75 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Chapter 1 explores how shared micromobility impacts other transportation networks, specifically taxi markets in New York City. I exploit the spatial variation in the rollout of Citi Bike dock stations in a difference-in-differences research design. I find that Citi Bike and taxis are substitutes, with the average taxi market experiencing a 3.2% decline in trips each week. Heterogeneity analysis suggests that this effect is largely driven by rider substituting for relatively short trips. Two potential mechanisms are explored; direct substitution to Citi Bike and substituting from taxis to use Citi Bike and public transportation in tandem. I find evidence that both mechanisms generate the observed substitution pattern. Chapter 2 explores how transportation stations impact local crime. Most studies on the link between crime and transit stations focus on public transportation, however, there is limited evidence for other transportation alternatives, like micromobility. Using a spatial difference-in-differences research design, we provide evidence that bike share docking stations cause a significant increase in crime within 25 meters by leveraging data on Citi Bike and reported crime in New York City. Our results are robust across various estimators and counterfactuals, and we find heterogeneous effects depending on the type of crime and the time of day a crime was reported to have occurred. These findings provide insights into the external costs of micromobility, offering policymakers further information when considering its adoption as a transportation alternative. Chapter 3 investigates the impact of shared micromobility access on self-reported drunk driving using data from the Behavioral Risk Factor Surveillance System survey for Selected Metropolitan/Micropolitan Area Risk Trends. By exploiting the heterogeneous rollout of shared micromobility services in the metropolitan area in a difference-in-differences research design, I estimate a small but negative point estimate for the effect of micromobility access on self-reported drunk driving. Standard errors for the estimates are large, resulting in statistically insignificant results. Therefore, I remain agnostic in the interpretation of my results.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Economics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">March 29, 2024.</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Keith Ihlanfeldt, Professor Directing Dissertation; Li Fang, University Representative; Luke Rodgers, Committee Member; Cynthia Yang, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85040850">
+      <topic>Economics</topic>
+   </subject>
+   <identifier  type="IID">Izenwasser_fsu_0071E_18585</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Economics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

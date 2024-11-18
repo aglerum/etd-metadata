@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Essays on Information and Probabilistic Reasoning</title>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0009-1876-1354</nameIdentifier>
+      <namePart type="family">Perinchery</namePart>
+      <namePart type="given">Rivin I.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/lboosey">
+      <namePart type="family">Boosey</namePart>
+      <namePart type="given">Luke A.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/jgrosser">
+      <namePart type="family">Großer</namePart>
+      <namePart type="given">Jens W.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2010073490">
+      <namePart type="family">Isaac</namePart>
+      <namePart type="given">R. Mark (Robert Mark)</namePart>
+      <namePart type="date">1954-</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/vkrishna">
+      <namePart type="family">Krishna</namePart>
+      <namePart type="given">R. Vijay</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Social Sciences and Public Policy</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Economics</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2024</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (147 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >In the first chapter, I consider a sender who chooses between disclosing the state or spending time and cost to utilize an imperfect reporting device. The sender's payoff is maximized if the receiver guesses the state is good, while the receiver's payoff is maximized by correctly identifying the state. The sender utilizes the device in the bad state to persuade and extract surplus from the receiver. Extraction is contingent on the sender's ability to hide the origin of reports, sender disclosures versus device reports, from the receiver. Due to the time requirement and state-dependent utilization of the test, a sophisticated receiver can infer the state if sender disclosure times vary across states. I model interaction, solve for all Bayesian Nash equilibria, and conduct an experiment varying the visibility of disclosure time. Consistent with theoretical benchmarks, treatment senders' difference in disclosure times between states are 28.04% smaller than control senders with similar test utilization. The second chapter explores probabilistic reasoning. The Monty Hall Paradox is the persistent observation of a systematic failure of human subjects to use new information to make decisions. James et al. 2018 explore potential candidates for explaining behavior. They identify failure to Bayesian update as an explanation, observing that implementing a more intuitive "merge' framework increases rational behavior by 40 percentage points. In the second chapter we extend their framework, introducing a two decision framework. The first decision quasi-replicates James et al. 2018 and we obtain a similar result. However, we find that in aggregate these gains are not robust to the presentation of irrelevant information in the second decision. Despite this, we do find evidence of learning transfer to the original MH problem following exposure to our extension and learning within our extension. In the third chapter, I study a principal-agent environment where the agent is incentivized based on the number of tasks she completes. Given the incentive structure, she will prefer to complete the tasks which require the least effort. The principal, however, prefers that the agent completes the most difficult tasks. The agent only knows the distribution of task difficulty and does not observe the difficulty of any specific task. Thus, without any information the agent simply randomizes over tasks. The principal cannot change the agent's incentive structure, but instead can utilize his private information about the difficulty of each task to offer an optimal randomization contract, which is a mean preserving spread of the agent's expected utility, but increases the principal's expected utility.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Economics in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">June 24, 2024.</note>
+   <note  displayLabel="Keywords">Contract, Game Theory, Information, Monty Hall, Principal-Agent Problem, Signaling</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Luke Anthony Boosey, Professor Directing Dissertation; Jens W. Grosser, University Representative; Robert Mark Isaac, Committee Member; Vijay Ramdas Krishna, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85040850">
+      <topic>Economics</topic>
+   </subject>
+   <identifier  type="IID">Perinchery_fsu_0071E_19004</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Economics</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-10-30T13:17:45.832113-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

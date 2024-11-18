@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Application of Artificial Intelligence for Detecting Power Distribution System Faults and Power Quality Disturbances</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-9503-6078</mods:nameIdentifier>
+      <mods:namePart type="family">Islam</mods:namePart>
+      <mods:namePart type="given">Md Maidul</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/faruque">
+      <mods:namePart type="family">Faruque</mods:namePart>
+      <mods:namePart type="given">Md Omar</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2003098450">
+      <mods:namePart type="family">Ordóñez</mods:namePart>
+      <mods:namePart type="given">Juan Carlos</mods:namePart>
+      <mods:namePart type="date">1973-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/pamidi">
+      <mods:namePart type="family">Pamidi</mods:namePart>
+      <mods:namePart type="given">Sastry V.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/foo">
+      <mods:namePart type="family">Foo</mods:namePart>
+      <mods:namePart type="given">Simon Y.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Electrical and Computer Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (159 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Modern power distribution grid has become very complex, especially with the integration of distributed renewable resources and many electronic power devices. Maintaining power quality is becoming incrementally challenging due to the growing power electronic equipment in the grid. On the other hand, distributed renewable resources are making the current protection methods obsolete, which are mainly based on uni-directional power flow and acts based on some predefined threshold. The concept of a central control center and traditional protection system must be updated. To accommodate these needs, monitoring devices are placed throughout the distribution system, enabling real-time monitoring of the system and collecting system information with high resolution from different points in the system during any event. This large amount of system data can be harnessed with machine learning algorithms to detect, classify, and locate the source of disturbances in the system. Data-driven approaches are gaining popularity due to their high accuracy and less dependency on system parameters. However, deploying artificial intelligence (AI) techniques for power system applications needs more labeled data. This dissertation is focused on artificial intelligence applications for power distribution event detection and location identification. The first topic is developing an AI application for distribution system's fault management. Faults are the most catastrophic events in the power system responsible for sustained outages. The traditional approaches suffer from inaccuracy and are often dependent on system parameters or preset thresholds. Data-centric approaches based on available sensor or meter data can be deployed for fault management applications. However, the amount of accurately labeled data is very limited, which is an impediment in training deep models for better accuracy. This dissertation proposes an ensemble network combining standalone machine learning algorithms like artificial neural network (ANN), K-nearest neighbour (K-NN), and random forest (RF) for achieving higher efficiency with limited data. The proposed method utilizes event-driven voltage measurements from the existing smart meters in the system to classify and locate faults accurately. The method has been validated using a real-time simulator and has been tested under different adverse scenarios. The proposed method showed improved and robust performance in all cases. High impedance faults are invisible to existing threshold-based protection systems as they produce very low fault current. These events are hard to isolate from normal load changes and can evolve into catastrophic events like wildfires, life hazards, or equipment damage. As most of these events go undetected, there is little labeled data for training a supervised model. This dissertation proposes a generative adversarial network (GAN)-based unsupervised method along with a time-frequency analysis for extracting features from waveforms and isolating HIFs from other events like load variation or capacitor switching. The second topic addressed in this dissertation is applying unsupervised learning techniques for analyzing power quality waveforms. As power quality waveforms are often captured periodically, the huge amount of data can be overwhelming for PQ engineers to analyze manually. The dissertation proposed the development of an autoencoder and K-means-based unsupervised clustering method with field-obtained unlabeled data and cosine similarity-based event label identification using very few numbers of labeled data. PQ event analysis via an unsupervised method, especially utilizing field-obtained practical data, has been a less explored area in distribution grid analytics. The proposed method can help investigate a large number of captured waveforms quickly and isolate event data from normal recurring data. In summary, this dissertation proposes AI applications in distribution systems with limited labeled data. The first is a supervised technique that shows enhanced performance without requiring additional data. The other applications are unsupervised methods requiring very little amount of labeled data for event category selection. The proposed methods show good performances and address practical problems in the context of power quality event management in distribution systems.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Electrical and Computer Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">November 3, 2023.</mods:note>
+   <mods:note displayLabel="Keywords">AI application in power system, Power quality, Power system analysis, Power system fault, Real-time simulation, Smart grid</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Md Omar Faruque, Professor Directing Dissertation; Juan Ordonez, University Representative; Sastry Pamidi, Committee Member; Simon Foo, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85041666">
+      <mods:topic>Electrical engineering</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh89003285">
+      <mods:topic>Computer science</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Islam_fsu_0071E_18352</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Electrical and Computer Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

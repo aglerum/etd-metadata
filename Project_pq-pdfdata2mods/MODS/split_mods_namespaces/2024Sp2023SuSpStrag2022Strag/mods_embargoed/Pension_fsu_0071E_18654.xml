@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Partnership Case Study</mods:title>
+      <mods:subTitle>The American Repertory Theater and Harvard University</mods:subTitle>
+      <mods:nonSort>A</mods:nonSort>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0003-3791-4132</mods:nameIdentifier>
+      <mods:namePart type="family">Pension</mods:namePart>
+      <mods:namePart type="given">John</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no95018901">
+      <mods:namePart type="family">Villeneuve</mods:namePart>
+      <mods:namePart type="given">Pat</mods:namePart>
+      <mods:namePart type="date">1955-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kvanweelden">
+      <mods:namePart type="family">VanWeelden</mods:namePart>
+      <mods:namePart type="given">Kimberly D.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2007010325">
+      <mods:namePart type="family">Broome</mods:namePart>
+      <mods:namePart type="given">Jeffrey L. (Jeffrey Lynn)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n2016062968">
+      <mods:namePart type="family">Love</mods:namePart>
+      <mods:namePart type="given">Ann Rowson</mods:namePart>
+      <mods:namePart type="date">1967-</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Fine Arts</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Art Education</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2024</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (178 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>This qualitative case study describes how American Repertory Theater (ART) and Harvard University (Harvard) decision-makers perceive the exchange that occurs through their partnership. Since the majority of nonprofit theaters in the United States struggle with sustainability (Fonner et al., 2020), and affiliations support sustainable operations for nonprofits (Álvarez-González, 2017; Mandel &amp; Brudney, 2018; Shumate, 2018; Sowa, 2008), this study ultimately profiles this one specific affiliation to promote awareness of a theater and higher education affiliation model. The study uses social exchange theory (Burgess et al., 1979; Homans, 1958) as a theoretical framework. Pragmatism (Dewey, 1948; James, 1928) as a philosophical worldview informed the study. This case study explores three research questions: (1) What do Harvard and ART decision-makers perceive that each entity gives through the exchange? (2) What do Harvard and ART decision-makers perceive each entity gets from the exchange? and (3) What is each entity's level of relationship commitment and propensity to leave the affiliation? Jeong and Oh's (2017) business-to-business social exchange model served as a framework for answering research question three. This case study used content analysis (Schreier et al., 2019) and interviews (McGrath et al., 2019) to collect data and coding (Strauss &amp; Corbin, 1990) to analyze the data. To enhance the study's trustworthiness, member checking (Birt et al., 2016) served as a form of structural corroboration (Eisner, 1991). Through the findings I identified three ways that decision-makers perceive what each entity gives and gets through the partnership, (1) resource-driven exchange, which includes a give from one organization's resources and a clear get for the other organization; (2) byproduct benefits, which are benefits received by one entity as a result of the partnership but not definitively tied to the resources of their partner, and (3) synergy, which occurs when the partners work together with their resources on a single artistic output. The results show that through resource-driven exchange ART gives, and Harvard gets: educational support for Harvard's Theater, Dance &amp; Media concentration; internship and mentorship for students; facility operations; and Harvard events produced by ART, and that Harvard gives and ART gets: use of performance, rehearsal, office, and set construction space; financial support; and support for information technology, legal, and human resources. As a result of the partnership, ART receives the byproduct benefits of: reputational benefits by association with Harvard; increased audience development opportunities due to the geographic area they operate in; enhanced access to donors who otherwise may not support a nonprofit theater. Likewise, as a byproduct of the partnership, Harvard gets: reputational benefits relative to the arts, locally, nationally, and internationally; engagement opportunities for local community members to access Harvard; the arts more infused in the cognitive life of Harvard; opportunities for interdepartmental connections through the arts in an otherwise decentralized institution. Through a synergetic collaboration, the partners develop new works of theater. ART staff and Harvard researchers each provide their expertise to develop well-informed and impactful pieces of art. Through the co-creations ART gets access to in-depth expert research, and Harvard researcher get an artistic platform to share their research with a broad community. Examples of this include the new musical We Live in Cairo, and Ocean Filibuster. The partners exhibited a high level of relationship commitment and a low level of propensity to leave the partnership based on Jeong and Oh's (2017) model. Decision-makers used the partners' collaboration of a new $100,000,000 arts center that will house ART as evidence of relationship commitment. Participants described high levels of trust between those at ART and Harvard. The decision-makers shared that Harvard's policies and bureaucracy created the only challenges. This dissertation includes several conclusions, and recommendations for practitioners and future research relative to nonprofit arts organization and HEI partnerships based on the study. In the ART and Harvard partnership, ART receives more impactful resource-driven benefits than byproduct benefits, and Harvard receives more impactful byproduct benefits than resource-driven benefits. Recommendations for practitioners include: seek to understand what their organization could give and get through a partnership; identify possible the motivations a partnered, or potentially partnered organization; and, for decision-makers in nonprofit arts organizations, consider how integrated their organization should be with an HEI – the more integrated they are, the greater the potential resources but the more they must work with the often-bureaucratic structures of an HEI.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A dissertation submitted to the Department of Art Education in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 28, 2024.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Pat Villeneuve, Professor Directing Dissertation; Kimberly D. VanWeelden, University Representative; Jeff Broome, Committee Member; Ann Rowson, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85008331">
+      <mods:topic>Arts</mods:topic>
+      <mods:topic>Management</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">Pension_fsu_0071E_18654</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Art Education</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

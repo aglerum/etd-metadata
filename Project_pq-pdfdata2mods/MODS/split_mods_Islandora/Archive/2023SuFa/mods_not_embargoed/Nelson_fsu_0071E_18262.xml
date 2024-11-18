@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>Tensor-Based Methods and Machine Learning</title>
+      <subTitle>Small Sample Set Pattern Recognition</subTitle>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-8564-693X</nameIdentifier>
+      <namePart type="family">Nelson</namePart>
+      <namePart type="given">Richard A.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/rroberts">
+      <namePart type="family">Roberts</namePart>
+      <namePart type="given">Rodney G.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n2003129868">
+      <namePart type="family">Meyer-Bäse</namePart>
+      <namePart type="given">Anke</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/foo">
+      <namePart type="family">Foo</namePart>
+      <namePart type="given">Simon Y.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/swalker">
+      <namePart type="family">Bernadin</namePart>
+      <namePart type="given">Shonda</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>FAMU-FSU College of Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Electrical and Computer Engineering</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (201 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >With today's trend toward ever growing amounts of data, deep learning approaches are increasingly deployed with impressive success, notably in image recognition and time series classification applications. State of the art performance of deep neural networks (DNNs) and related variants is often highly dependent upon the availability of a relatively large and diverse labeled training data set; several well-known deep convolutional neural networks (CNNs) were trained with over a million images for example, in large scale image recognition. For machine learning models which may not be considered "deep" neural networks, a relatively large training set remains a key factor in how well these models perform when trained "from scratch". Yet, in numerous important applications, very large labeled training data sets simply may not be available. Examples include certain medical applications, and specialized remote imaging in intelligence and military applications. Applying conventional or deep machine learning models, or adapting deep learning models in these cases, can involve particular challenges given the model complexity and tendency for overfitting often encountered with smaller data sets. Further, certain techniques to mitigate overfitting issues such as data augmentation can involve additional challenges due to the nature of the data: suitable augmentation may not involve just simple geometric transformations, and it may be difficult to represent the data distribution. On the other hand, utilizing transfer learning first requires the existence of a potentially suitable pre-trained deep learning model which can be adapted, and second, that the original large training data set for that pre-trained model is sufficiently similar to the data in the smaller set of interest. In data sets of the type we consider here, lack of a suitable model pre-trained using a large similar training data set is a definite possibility. Apart from overfitting aspects, identifying an optimal structure for the model is also a very significant consideration with smaller data sets; overall, a great deal of model customization and trial-and-error may be necessary where small data sets are concerned. The focus then is specifically on data sets which fall under the scenario just outlined, and the primary objective is finding an effective solution for classification which avoids many of the issues involved with a highly complex model. An example in synthetic aperture radar (SAR) automatic target recognition (ATR) is the "moving and stationary target acquisition and recognition" imaging set approved for public release by AFRL for research purposes. This radar imaging collection has relatively small training set, ranging from approximately 200 to 300 examples of a given target or variant under various conditions. Further, characteristics of radar imaging such as random scattering and reflection, speckle, and influence of background complicate automatic target recognition. Deep learning models from the literature devised for this application, or often adapted from conventional optical image recognition, produce high ATR accuracy, but are very complex, highly customized, generally require extensive provisions to mitigate overfitting, and some may fail to fully address background influence which, for this imaging set, can produce results which are overly optimistic. In this dissertation, a tensor-based approach is utilized to address the SAR ATR problem as an alternative with far fewer parameters, lower complexity, little customization, and taking into account the imaging background influence; further, this approach can naturally exploit multiple image views in this application to enhance ATR performance. We examine versions of the tensor Tucker decomposition, utilizing truncated HOSVD, sequentially truncated HOSVD, and higher order orthogonal iteration for single image view and multiple image view approaches. We show that tensor-based methods can offer a very attractive alternative to complex machine learning models for this SAR imaging application, highlighting a class of methods which may warrant consideration in other applications involving limited training data, where high complexity machine learning models may be difficult to adapt.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Electrical and Computer Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">November 17, 2023.</note>
+   <note  displayLabel="Keywords">imaging, multilinear, subspace, tensor</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Rodney G. Roberts, Professor Directing Dissertation; Anke Meyer-Baese, University Representative; Simon Y. Foo, Committee Member; Shonda L. Bernadin, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85008180">
+      <topic>Artificial intelligence</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85041666">
+      <topic>Electrical engineering</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh93002523">
+      <topic>Applied mathematics</topic>
+   </subject>
+   <identifier  type="IID">Nelson_fsu_0071E_18262</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Electrical and Computer Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

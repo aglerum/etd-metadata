@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Addressing the Continuation of the Allatoona Fault</mods:title>
+      <mods:subTitle>The Youngest Thrust in the Appalachian Blue Ridge Kinematic Sequence</mods:subTitle>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0009-0007-7057-3428</mods:nameIdentifier>
+      <mods:namePart type="family">McMahan</mods:namePart>
+      <mods:namePart type="given">Ericka Lynn</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n78050437">
+      <mods:namePart type="family">Tull</mods:namePart>
+      <mods:namePart type="given">James F.</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing thesis</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/mmookherjee">
+      <mods:namePart type="family">Mookherjee</mods:namePart>
+      <mods:namePart type="given">Mainak</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/emstewart">
+      <mods:namePart type="family">Stewart</mods:namePart>
+      <mods:namePart type="given">Emily</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>College of Arts and Sciences</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Earth, Ocean, and Atmospheric Science</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_bdcc">master thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2023</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (122 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>The Allatoona fault is an internal, out-of-sequence thrust fault in the southernmost Appalachian hinterland, extending &gt;280 km. Along the fault's nearly linear trace it cuts obliquely through Blue Ridge tectonostratigraphy, metamorphic isograds, earlier thrusts, and Pennsylvanian regional cross antiforms; making it the youngest fault in the kinematic sequence of events along the west flank of the Appalachian orogen. In the central segment of the fault, between Hightower, Alabama and Dahlonega, Georgia, the Allatoona fault marks the western/eastern Blue Ridge province boundary, and south of Hightower the Allatoona fault becomes an internal eastern Blue Ridge structure. Just north of Buchannon, Georgia, the Mulberry Rock window (a ~20 km-long breached eyelid window) allows a 3-D view into the structural architecture, kinematics, and trajectories of the regional thrusts. From here, northeast to Dawsonville, Georgia, it carries the Dahlonega Gold belt in its immediate hanging wall, with older faults (Burnt Hickory Ridge and Chattahoochee) carried passively piggyback above the gold belt. The extension of this fault northeast of Dawsonville has inspired controversy for years. However, recent mapping around the complex triple junction between the western, central, and eastern Blue Ridge provinces west of Dahlonega, Georgia has revealed new evidence supporting the continuation of the Allatoona fault northeast of this intersection. For instance, between Dawsonville and Dahlonega, internal Dahlonega Gold belt stratigraphy maintains its northeast-trend, and the Allatoona fault cuts both the structurally underlying "ancestral Allatoona" fault carrying rocks correlated with the Otto Formation, and the Etowah River fault at the base of the Sally Free Mafic Complex. Both the "ancestral Allatoona" fault and the Etowah River fault are folded by the overturned NW-SE Sally Free synform, and this fold in turn is decapitated by the Allatoona fault. Although previous studies suggested that the Hayesville-Soque River fault to the northwest postdated the Allatoona fault, the regional Jasper antiform folds the Great Smoky thrust, the Murphy synclinorium, the "ancestral Allatoona" fault, and the Hayesville-Soque River fault, but is decapitated by the Allatoona fault north of Dawsonville. Although the Canton and Univeter Formations of the Dahlonega Gold belt were displaced 10's of km northwest along the Allatoona fault and extend &gt;110 km from type sections near Canton to at least Lake Burton, Georgia, previous interpretations have placed the Dahlonega Gold belt in the immediate footwall of the northwest-dipping Hayesville-Soque River fault, with the Allatoona fault apparently being cut by this fault approximately 12 km north of Dawsonville. Mapping efforts for this study, around the complex junction between the western, central, and eastern Blue Ridge provinces, have revealed new evidence that supports the continuation of the Allatoona fault north of this intersection.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Thesis submitted to the Department of Earth, Ocean, and Atmospheric Science in partial fulfillment of the requirements for the degree of Master of Science.</mods:note>
+   <mods:note displayLabel="Date of Defense">July 6, 2023.</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">James F. Tull, Professor Directing Thesis; Mainak Mookherjee, Committee Member; Emily Stewart, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85054037">
+      <mods:topic>Geology</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">McMahan_fsu_0071N_18242</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Master of Science</etd:name>
+         <etd:level>Masters</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>

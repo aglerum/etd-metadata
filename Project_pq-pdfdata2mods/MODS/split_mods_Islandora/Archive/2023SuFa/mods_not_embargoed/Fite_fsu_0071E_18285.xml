@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <titleInfo  lang="eng">
+      <title>New Inventory of Fire Emissions Estimates for the United States and Its Implications for Air Quality and Health</title>
+      <nonSort>A</nonSort>
+   </titleInfo>
+   <name  type="personal" authority="local">
+      <nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0001-5534-3025</nameIdentifier>
+      <namePart type="family">Fite</namePart>
+      <namePart type="given">Charles H.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">author</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/cdholmes">
+      <namePart type="family">Holmes</namePart>
+      <namePart type="given">Christopher D.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">professor directing dissertation</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="etd-naf"
+         authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+         valueURI="https://authorities.lib.fsu.edu/etd-naf/bquaife">
+      <namePart type="family">Quaife</namePart>
+      <namePart type="given">Bryan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">university representative</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/no2016054360">
+      <namePart type="family">Atwood</namePart>
+      <namePart type="given">Alyssa Regine</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n81021102">
+      <namePart type="family">Fuelberg</namePart>
+      <namePart type="given">Henry E.</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="personal"
+         authority="viaf"
+         authorityURI="http://viaf.org/viaf/"
+         valueURI="http://viaf.org/viaf/105342888">
+      <namePart type="family">Bourassa</namePart>
+      <namePart type="given">Mark Allan</namePart>
+      <affiliation>Theses and Dissertations</affiliation>
+      <role>
+         <roleTerm authority="local" type="text">committee member</roleTerm>
+      </role>
+   </name>
+   <name 
+         type="corporate"
+         authority="naf"
+         authorityURI="http://id.loc.gov/authorities/names/"
+         valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <namePart>Florida State University</namePart>
+      <role>
+         <roleTerm authority="rda" type="text">degree granting institution</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>College of Arts and Sciences</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting college</roleTerm>
+      </role>
+   </name>
+   <name  type="corporate" authority="local">
+      <namePart>Department of Earth, Ocean, and Atmospheric Science</namePart>
+      <role>
+         <roleTerm authority="local" type="text">degree granting department</roleTerm>
+         <roleTerm authority="marcrelator" type="code">dgg</roleTerm>
+      </role>
+   </name>
+   <typeOfResource >text</typeOfResource>
+   <genre  authority="rdacontent">text</genre>
+   <genre 
+          authority="coar"
+          authorityURI="http://purl.org/coar/resource_type"
+          valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</genre>
+   <originInfo >
+      <place>
+         <placeTerm type="text">Tallahassee, Florida</placeTerm>
+      </place>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2023</dateIssued>
+      <publisher>Florida State University</publisher>
+      <issuance>monographic</issuance>
+   </originInfo>
+   <language >
+      <languageTerm type="text">English</languageTerm>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <physicalDescription >
+      <form authority="rdamedia" type="RDA media terms">computer</form>
+      <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+      <extent>1 online resource (137 pages)</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract >Fire is a natural phenomenon that plays pivotal roles in terrestrial ecosystems but is ultimately tightly bound to human influence. In the United States (U.S.), fires (wildfires, prescribed fires, and agricultural fires) are the leading emission source of primary particulate matter with diameters less than 2.5 microns (PM2.5), a pollutant which poses a significant risk to human health. Wildfires in the western U.S. are known for their destructive capabilities and negative impacts on air quality. Prescribed (i.e., controlled) fires and agricultural fires are common in the southeastern U.S., where they are credited with reducing fuel loads, limiting wildfire occurrence and severity, sustaining biodiversity, or for removing crop residue around harvest. However, due to their prevalence, properly estimating their emissions and air quality impacts is crucial. Unfortunately, underrepresentation of small and short duration prescribed or agricultural fires and their emissions is common in many fire emissions inventories that use polar-orbiting satellites to detect fires, which overpass only several times a day. This dissertation uses thermal fire detections from a satellite in geostationary orbit over the U.S. (GOES-16), and regionally appropriate emission factors for eastern U.S. land cover types, to develop the GOES-16 Eastern U.S. Fire Emissions Inventory (GEUFE). Fire emissions from GEUFE are evaluated against 8 other inventories and causes for differences or biases in other inventories are explored. We find GEUFE to represent more prescribed and agricultural fires than most inventories, owing to the high temporal resolution satellite returns from GOES-16, and GEUFE is generally in the high-end of emissions estimates. Using GEUFE and several other inventories in a chemical transport model (GEOS-Chem) to simulate PM2.5 concentrations and aerosol optical depth (AOD), we find GEUFE emissions result in the best model comparison to networks of ground site observations and to aircraft measurements from the Fire Influence on Regional to Global Environments and Air Quality (FIREX-AQ) field campaign. GEUFE indicates annual mean smoke PM2.5 concentrations of 2-5 µg m-3 in the southeastern U.S., thereby suggesting that emissions from prescribed and agricultural fires are higher than previously thought. We then perform a health impact assessment of attributed mortality and asthma morbidity (emergency department visits and hospital admissions) from chronic and acute smoke PM2.5 exposure from western and eastern U.S. fire sources, and in urban and non-urban areas. We identify the most smoke impacted cities and non-urban areas, and we attribute nearly 26,000 annual deaths to chronic exposure to smoke from U.S. fires, of which 73% are attributable to smoke from eastern U.S. fires due to the proximity of those fires to high population densities in the eastern U.S. Lastly, we explore the differential impacts of four common fire types in the U.S. (western fires, eastern wildfires, eastern prescribed fires, and eastern agricultural fires) to PM2.5 air quality and to exceedances of the U.S. Environmental Protection Agency (EPA) National Ambient Air Quality Standard (NAAQS) for daily mean PM2.5. We find emissions and smoke PM2.5 from eastern prescribed fires to be comparable to, and higher in some instances, than western U.S. fires during the study period. While we find western fires to cause a higher number of NAAQS exceedance days than eastern U.S. fires, the air quality and health impacts from prescribed and agricultural burning are generally higher than past estimates. Despite prescribed burning having many other benefits that can potentially outweigh its negative health and air quality impacts, this dissertation identifies a need to perform additional cost benefit analysis of the common burning practice.</abstract>
+   <note  displayLabel="Submitted Note">A Dissertation submitted to the Department of Earth, Ocean, and Atmospheric Science in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</note>
+   <note  displayLabel="Date of Defense">October 3, 2023.</note>
+   <note  displayLabel="Keywords">air quality, emissions, fire, health, PM2.5, satellite</note>
+   <note  displayLabel="Bibliography Note">Includes bibliographical references.</note>
+   <note  displayLabel="Advisory Committee">Christopher D. Holmes, Professor Directing Dissertation; Bryan Quaife, University Representative; Alyssa R. Atwood, Committee Member; Henry E. Fuelberg, Committee Member; Mark A. Bourassa, Committee Member.</note>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85009280">
+      <topic>Atmospheric chemistry</topic>
+   </subject>
+   <subject 
+            authority="lcsh"
+            authorityURI="http://id.loc.gov/authorities/subjects/"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85009289">
+      <topic>Atmospheric sciences</topic>
+   </subject>
+   <identifier  type="IID">Fite_fsu_0071E_18285</identifier>
+   <extension >
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Earth, Ocean, and Atmospheric Science</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </extension>
+   <recordInfo >
+      <recordCreationDate encoding="w3cdtf">2024-05-06T16:57:02.841686-04:00</recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </recordInfo>
+</mods:mods>

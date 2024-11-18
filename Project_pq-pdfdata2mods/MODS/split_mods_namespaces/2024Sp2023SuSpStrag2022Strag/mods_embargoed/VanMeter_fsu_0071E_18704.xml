@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns="http://www.loc.gov/mods/v3"
+           xmlns:flvc="info:flvc/manifest/v1"
+           xmlns:dcterms="http://purl.org/dc/terms/"
+           xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd"
+           version="3.6">
+   <mods:titleInfo lang="eng">
+      <mods:title>Process-Structure-Property Relationships of Ultralow Wear Polytetrafluoroethylene Composites</mods:title>
+   </mods:titleInfo>
+   <mods:name type="personal" authority="local">
+      <mods:nameIdentifier type="orcid" typeURI="https://orcid.org/">0000-0002-1458-8664</mods:nameIdentifier>
+      <mods:namePart type="family">Van Meter</mods:namePart>
+      <mods:namePart type="given">Kylie Elizabeth</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">author</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/bkrick">
+      <mods:namePart type="family">Krick</mods:namePart>
+      <mods:namePart type="given">Brandon</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">professor directing dissertation</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/zliang">
+      <mods:namePart type="family">Liang</mods:namePart>
+      <mods:namePart type="given">Zhiyong (Richard)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">university representative</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/no2004090317">
+      <mods:namePart type="family">Larbalestier</mods:namePart>
+      <mods:namePart type="given">D. (David)</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="personal"
+              authority="etd-naf"
+              authorityURI="https://authorities.lib.fsu.edu/etd-naf/"
+              valueURI="https://authorities.lib.fsu.edu/etd-naf/kshoele">
+      <mods:namePart type="family">Shoele</mods:namePart>
+      <mods:namePart type="given">Kourosh</mods:namePart>
+      <mods:affiliation>Theses and Dissertations</mods:affiliation>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">committee member</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate"
+              authority="naf"
+              authorityURI="http://id.loc.gov/authorities/names/"
+              valueURI="http://id.loc.gov/authorities/names/n80126238">
+      <mods:namePart>Florida State University</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="rda" type="text">degree granting institution</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>FAMU-FSU College of Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting college</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:name type="corporate" authority="local">
+      <mods:namePart>Department of Mechanical Engineering</mods:namePart>
+      <mods:role>
+         <mods:roleTerm authority="local" type="text">degree granting department</mods:roleTerm>
+         <mods:roleTerm authority="marcrelator" type="code">dgg</mods:roleTerm>
+      </mods:role>
+   </mods:name>
+   <mods:typeOfResource>text</mods:typeOfResource>
+   <mods:genre authority="rdacontent">text</mods:genre>
+   <mods:genre authority="coar"
+               authorityURI="http://purl.org/coar/resource_type"
+               valueURI="http://purl.org/coar/resource_type/c_db06">doctoral thesis</mods:genre>
+   <mods:originInfo>
+      <mods:place>
+         <mods:placeTerm type="text">Tallahassee, Florida</mods:placeTerm>
+      </mods:place>
+      <mods:dateIssued encoding="w3cdtf" keyDate="yes">2024</mods:dateIssued>
+      <mods:publisher>Florida State University</mods:publisher>
+      <issuance>monographic</issuance>
+   </mods:originInfo>
+   <mods:language>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+   </mods:language>
+   <mods:physicalDescription>
+      <mods:form authority="rdamedia" type="RDA media terms">computer</mods:form>
+      <mods:form authority="rdacarrier" type="RDA carrier terms">online resource</mods:form>
+      <mods:extent>1 online resource (287 pages)</mods:extent>
+      <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      <mods:internetMediaType>application/pdf</mods:internetMediaType>
+   </mods:physicalDescription>
+   <mods:abstract>Polytetrafluoroethylene (PTFE) is a thermoplastic polymeric material that is chemically inert, vacuum compatible, has a low surface energy, and has a large operating temperature range due to its high melting temperature. PTFE is also the lowest friction bulk polymer, which has led to its use as a solid lubricant in a wide variety of application spaces including, but not limited to, friction modifiers in oils and greases and in low friction coatings. However, PTFE suffers from extremely high wear rates, which limits its ability to be used as a bulk solid lubricant material. The addition of filler materials to bulk PTFE has resulted in wear rates that are 10-10,000x lower than PTFE alone. There are several wear reducing mechanisms for PTFE composite materials that have been developed in previous studies, including: 1) the prevention of crack propagation and delamination of PTFE, 2) the mechanochemical alteration of the material at the sliding interface, and 3) the modification of the sliding interface through filler accumulation and inclusion, which reinforces the material at the sliding interface. This work seeks to further understand the wear reducing mechanisms for ultralow wear PTFE composite materials under varying contact conditions, and to develop process-structure-property relationships for a multi-polymer composite material, PTFE and poly ether ketone ketone (PEKK) blends, and link these relationships to fundamental wear mechanisms. In this work, an ultralow wear composite is developed - a PTFE-PEKK blend. PEKK is a thermoplastic polymeric material with excellent mechanical, thermal, and chemical properties but suffers from high friction and moderate wear. It is found that PTFE-PEKK composite materials can result in wear rates which are 1,000 – 10,000x lower than the wear rates of bulk PTFE, and low wear behavior can be produced at high weight percent loadings of PEKK. The wear and friction behaviors along with the mechanical and thermal properties of the composites are found to be dependent on the ratio of the content of PTFE and PEKK in the composite. The environmental sensitivity of the material was investigated, demonstrating that the wear reducing mechanisms of the composite do not depend as heavily on mechanochemically developed species at the interface that many other low wear PTFE composite materials rely on, but require the accumulation of PEKK at the sliding interface. This PTFE-PEKK composite material's structure and properties can be changed significantly through the thermal processing conditions that the material undergoes, which is found to be due in large part to a thermal degradation mechanism present in PEKK at temperatures necessary for processing PTFE and PEKK composite materials. Thermal degradation of the PEKK in the composites and subsequent crosslinking of the material leads to an increase in storage modulus of the composite, and a decrease in the viscous response of the composite with increasing temperature. Wear rate and friction coefficient are found to decrease with increasing thermal degradation of the PEKK in the composite. Other materials are investigated, including alumina particles and poly ether ether ketone (PEEK), which is a thermoplastic material within the same family of polyaryletherketones as PEKK. Wear and friction measurements, along with chemical analysis of the sliding interface using infrared spectroscopy, are performed on composites comprised of PTFE blended with PEEK and PTFE filled with alumina. Through the variation of sliding contact conditions and contacting materials, it is found that the PTFE-alumina composite requires a high surface energy gradient and hard sliding countersurface to initiate the filler particle breakdown and reincorporation into the tribofilm that leads to the development of tribochemical species and the low wear behavior. In contrast, PTFE-PEEK composites achieve ultralow wear through the accumulation of PEEK at the interface but do not need a hard countersurface to achieve this, and benefit from contacting surfaces which are conformal, do not abrade the material, and have similar surface energies.</mods:abstract>
+   <mods:note displayLabel="Submitted Note">A Dissertation submitted to the Department of Mechanical Engineering in partial fulfillment of the requirements for the degree of Doctor of Philosophy.</mods:note>
+   <mods:note displayLabel="Date of Defense">March 22, 2024.</mods:note>
+   <mods:note displayLabel="Keywords">Friction, Polyetherketoneketone, Polytetrafluoroethylene, Tribology, Ultralow Wear</mods:note>
+   <mods:note displayLabel="Bibliography Note">Includes bibliographical references.</mods:note>
+   <mods:note displayLabel="Advisory Committee">Brandon A. Krick, Professor Directing Dissertation; Zhiyong Liang, University Representative; David C. Larbalestier, Committee Member; Kourosh Shoele, Committee Member.</mods:note>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85082757">
+      <mods:topic>Mechanical engineering</mods:topic>
+   </mods:subject>
+   <mods:subject authority="lcsh"
+                 authorityURI="http://id.loc.gov/authorities/subjects/"
+                 valueURI="http://id.loc.gov/authorities/subjects/sh85082094">
+      <mods:topic>Materials science</mods:topic>
+   </mods:subject>
+   <mods:identifier type="IID">VanMeter_fsu_0071E_18704</mods:identifier>
+   <mods:extension>
+      <etd:degree>
+         <etd:name>Doctor of Philosophy</etd:name>
+         <etd:level>Doctoral</etd:level>
+         <etd:discipline>Mechanical Engineering</etd:discipline>
+      </etd:degree>
+      <flvc:flvc>
+         <flvc:owningInstitution>FSU</flvc:owningInstitution>
+         <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+      </flvc:flvc>
+   </mods:extension>
+   <mods:recordInfo>
+      <mods:recordCreationDate encoding="w3cdtf">2024-08-19T12:02:22.846834-04:00</mods:recordCreationDate>
+      <descriptionStandard>rda</descriptionStandard>
+   </mods:recordInfo>
+</mods:mods>
